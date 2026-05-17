@@ -1,0 +1,762 @@
+version: topics_v0.1
+updated_at: "2026-05-18"
+
+topics:
+  segmentation:
+    canonical_name: segmentation
+    domain: CV
+    secondary_domains: []
+    parent_topics: []
+    related_topics:
+      - semantic_segmentation
+      - instance_segmentation
+      - panoptic_segmentation
+      - open_vocabulary_segmentation
+    aliases:
+      - image segmentation
+    definition: >
+      A computer vision task that partitions an image or video frame into
+      meaningful regions.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.CV
+          relation: broader
+      acm_ccs:
+        - path: "Computing methodologies > Computer vision"
+          relation: broader
+    owner_status: curated
+
+  semantic_segmentation:
+    canonical_name: semantic segmentation
+    domain: CV
+    secondary_domains: []
+    parent_topics:
+      - segmentation
+    related_topics:
+      - instance_segmentation
+      - panoptic_segmentation
+    aliases:
+      - semantic image segmentation
+    definition: >
+      A computer vision task that assigns a semantic class label to each pixel.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: false
+    external_mappings:
+      arxiv:
+        - id: cs.CV
+          relation: broader
+      papers_with_code:
+        - name: Semantic Segmentation
+          relation: exact
+    owner_status: curated
+
+  instance_segmentation:
+    canonical_name: instance segmentation
+    domain: CV
+    secondary_domains: []
+    parent_topics:
+      - segmentation
+    related_topics:
+      - semantic_segmentation
+      - panoptic_segmentation
+    aliases:
+      - instance-level segmentation
+    definition: >
+      A computer vision task that detects and segments separate object
+      instances.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: false
+    external_mappings:
+      arxiv:
+        - id: cs.CV
+          relation: broader
+      papers_with_code:
+        - name: Instance Segmentation
+          relation: exact
+    owner_status: curated
+
+  panoptic_segmentation:
+    canonical_name: panoptic segmentation
+    domain: CV
+    secondary_domains: []
+    parent_topics:
+      - segmentation
+    related_topics:
+      - semantic_segmentation
+      - instance_segmentation
+      - open_vocabulary_segmentation
+    aliases:
+      - panoptic parsing
+      - panoptic scene segmentation
+    definition: >
+      A computer vision task that combines semantic segmentation and instance
+      segmentation.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: false
+    external_mappings:
+      arxiv:
+        - id: cs.CV
+          relation: broader
+      papers_with_code:
+        - name: Panoptic Segmentation
+          relation: exact
+      acm_ccs:
+        - path: "Computing methodologies > Computer vision"
+          relation: broader
+    owner_status: curated
+
+  object_detection:
+    canonical_name: object detection
+    domain: CV
+    secondary_domains: []
+    parent_topics: []
+    related_topics:
+      - open_vocabulary_detection
+      - instance_segmentation
+    aliases:
+      - object localization
+    definition: >
+      A computer vision task that localizes and classifies objects in images or
+      video frames.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.CV
+          relation: broader
+      papers_with_code:
+        - name: Object Detection
+          relation: exact
+    owner_status: curated
+
+  open_vocabulary_detection:
+    canonical_name: open vocabulary detection
+    domain: CV
+    secondary_domains:
+      - NLP
+    parent_topics:
+      - object_detection
+    related_topics:
+      - open_vocabulary_segmentation
+      - vision_language_model
+    aliases:
+      - open-vocabulary object detection
+      - open vocabulary object detection
+    definition: >
+      Object detection where categories are not restricted to a fixed training
+      label set.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.CV
+          relation: broader
+    owner_status: curated
+
+  open_vocabulary_segmentation:
+    canonical_name: open vocabulary segmentation
+    domain: CV
+    secondary_domains:
+      - NLP
+    parent_topics:
+      - segmentation
+    related_topics:
+      - open_vocabulary_detection
+      - vision_language_model
+      - panoptic_segmentation
+    aliases:
+      - open-vocabulary segmentation
+      - open vocabulary image segmentation
+    definition: >
+      Segmentation where categories are not restricted to a fixed training label
+      set.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.CV
+          relation: broader
+    owner_status: curated
+
+  image_generation:
+    canonical_name: image generation
+    domain: CV
+    secondary_domains:
+      - ML
+    parent_topics: []
+    related_topics:
+      - diffusion_model
+    aliases:
+      - image synthesis
+    definition: >
+      Methods that synthesize images from noise, text, structure, or other
+      conditioning signals.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.CV
+          relation: broader
+    owner_status: curated
+
+  video_understanding:
+    canonical_name: video understanding
+    domain: CV
+    secondary_domains: []
+    parent_topics: []
+    related_topics:
+      - vision_language_model
+    aliases:
+      - video representation learning
+    definition: >
+      Modeling, recognizing, and reasoning about temporal visual content.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.CV
+          relation: broader
+    owner_status: curated
+
+  vision_language_model:
+    canonical_name: vision language model
+    domain: CV
+    secondary_domains:
+      - NLP
+      - AI
+    parent_topics: []
+    related_topics:
+      - large_language_model
+      - open_vocabulary_detection
+      - open_vocabulary_segmentation
+    aliases:
+      - vlm
+      - vision-language model
+      - vision language model
+      - vision-language models
+    definition: >
+      A model that jointly represents visual and language inputs or outputs.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.CV
+          relation: broader
+        - id: cs.CL
+          relation: broader
+    owner_status: curated
+
+  large_language_model:
+    canonical_name: large language model
+    domain: NLP
+    secondary_domains:
+      - AI
+      - ML
+    parent_topics: []
+    related_topics:
+      - instruction_tuning
+      - alignment
+      - reasoning
+      - llm_agent
+      - long_context
+      - retrieval_augmented_generation
+    aliases:
+      - llm
+      - llms
+      - large language models
+    definition: >
+      A language model with large-scale training and broad language generation
+      or understanding capability.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: false
+    external_mappings:
+      arxiv:
+        - id: cs.CL
+          relation: broader
+        - id: cs.LG
+          relation: broader
+    owner_status: curated
+
+  retrieval_augmented_generation:
+    canonical_name: retrieval augmented generation
+    domain: NLP
+    secondary_domains:
+      - AI
+    parent_topics: []
+    related_topics:
+      - large_language_model
+      - tool_use
+      - long_context
+    aliases:
+      - rag
+      - retrieval-augmented generation
+    definition: >
+      A generation approach that conditions model output on retrieved external
+      evidence.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: false
+    external_mappings:
+      arxiv:
+        - id: cs.CL
+          relation: broader
+    owner_status: curated
+
+  instruction_tuning:
+    canonical_name: instruction tuning
+    domain: NLP
+    secondary_domains:
+      - AI
+    parent_topics:
+      - large_language_model
+    related_topics:
+      - alignment
+    aliases:
+      - instruction finetuning
+      - instruction fine-tuning
+    definition: >
+      Fine-tuning models on instruction-response data to improve task following.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.CL
+          relation: broader
+    owner_status: curated
+
+  alignment:
+    canonical_name: alignment
+    domain: AI
+    secondary_domains:
+      - NLP
+    parent_topics:
+      - large_language_model
+    related_topics:
+      - instruction_tuning
+      - reasoning
+    aliases:
+      - ai alignment
+      - model alignment
+    definition: >
+      Methods for making model behavior better match human intent, values, or
+      preferences.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.AI
+          relation: broader
+    owner_status: curated
+
+  reasoning:
+    canonical_name: reasoning
+    domain: AI
+    secondary_domains:
+      - NLP
+    parent_topics: []
+    related_topics:
+      - large_language_model
+      - llm_agent
+      - tool_use
+    aliases:
+      - machine reasoning
+    definition: >
+      Methods and evaluations for inference, planning, problem solving, or
+      multi-step decision processes.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.AI
+          relation: broader
+    owner_status: curated
+
+  llm_agent:
+    canonical_name: llm agent
+    domain: AI
+    secondary_domains:
+      - NLP
+    parent_topics:
+      - large_language_model
+    related_topics:
+      - reasoning
+      - tool_use
+      - retrieval_augmented_generation
+    aliases:
+      - language model agent
+      - llm agents
+    definition: >
+      Systems that use language models to plan, call tools, or take actions
+      across steps.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.AI
+          relation: broader
+        - id: cs.CL
+          relation: broader
+    owner_status: curated
+
+  tool_use:
+    canonical_name: tool use
+    domain: AI
+    secondary_domains:
+      - NLP
+    parent_topics:
+      - large_language_model
+    related_topics:
+      - llm_agent
+      - retrieval_augmented_generation
+    aliases:
+      - tool-use
+      - tool calling
+    definition: >
+      Model behavior that selects, invokes, and uses external tools or APIs.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.AI
+          relation: broader
+    owner_status: curated
+
+  long_context:
+    canonical_name: long context
+    domain: NLP
+    secondary_domains:
+      - AI
+    parent_topics:
+      - large_language_model
+    related_topics:
+      - retrieval_augmented_generation
+    aliases:
+      - long-context modeling
+      - long context modeling
+    definition: >
+      Model architectures, training, or inference methods that support long
+      input or output contexts.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.CL
+          relation: broader
+    owner_status: curated
+
+  diffusion_model:
+    canonical_name: diffusion model
+    domain: ML
+    secondary_domains:
+      - CV
+    parent_topics: []
+    related_topics:
+      - image_generation
+      - diffusion_policy
+    aliases:
+      - diffusion models
+      - denoising diffusion model
+      - score-based diffusion model
+    definition: >
+      A generative model family that learns iterative denoising or score-based
+      generation processes.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: false
+    external_mappings:
+      arxiv:
+        - id: cs.LG
+          relation: broader
+        - id: cs.CV
+          relation: broader
+    owner_status: curated
+
+  transformer:
+    canonical_name: transformer
+    domain: ML
+    secondary_domains:
+      - NLP
+      - CV
+    parent_topics: []
+    related_topics:
+      - large_language_model
+      - vision_language_model
+    aliases:
+      - transformers
+      - transformer architecture
+    definition: >
+      A neural architecture based on attention mechanisms.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: false
+    external_mappings:
+      arxiv:
+        - id: cs.LG
+          relation: broader
+    owner_status: curated
+
+  representation_learning:
+    canonical_name: representation learning
+    domain: ML
+    secondary_domains: []
+    parent_topics: []
+    related_topics:
+      - self_supervised_learning
+      - contrastive_learning
+    aliases:
+      - feature learning
+    definition: >
+      Learning useful data representations for prediction, transfer, or
+      downstream tasks.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.LG
+          relation: broader
+    owner_status: curated
+
+  self_supervised_learning:
+    canonical_name: self supervised learning
+    domain: ML
+    secondary_domains: []
+    parent_topics:
+      - representation_learning
+    related_topics:
+      - contrastive_learning
+    aliases:
+      - self-supervised learning
+      - ssl
+    definition: >
+      Representation learning from labels derived from the data itself.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.LG
+          relation: broader
+    owner_status: curated
+
+  contrastive_learning:
+    canonical_name: contrastive learning
+    domain: ML
+    secondary_domains: []
+    parent_topics:
+      - representation_learning
+    related_topics:
+      - self_supervised_learning
+    aliases:
+      - contrastive representation learning
+    definition: >
+      Representation learning that uses positive and negative examples or
+      similarity structure.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.LG
+          relation: broader
+    owner_status: curated
+
+  graph_neural_network:
+    canonical_name: graph neural network
+    domain: ML
+    secondary_domains: []
+    parent_topics: []
+    related_topics:
+      - representation_learning
+    aliases:
+      - gnn
+      - graph neural networks
+    definition: >
+      Neural network methods that operate on graph-structured data.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: false
+    external_mappings:
+      arxiv:
+        - id: cs.LG
+          relation: broader
+    owner_status: curated
+
+  reinforcement_learning:
+    canonical_name: reinforcement learning
+    domain: Robotics
+    secondary_domains:
+      - AI
+      - ML
+    parent_topics: []
+    related_topics:
+      - offline_reinforcement_learning
+      - imitation_learning
+      - robot_learning
+    aliases:
+      - rl
+      - drl
+      - deep reinforcement learning
+    definition: >
+      Learning behavior through interaction, rewards, and sequential decision
+      making.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: false
+    external_mappings:
+      arxiv:
+        - id: cs.RO
+          relation: broader
+        - id: cs.LG
+          relation: broader
+    owner_status: curated
+
+  offline_reinforcement_learning:
+    canonical_name: offline reinforcement learning
+    domain: Robotics
+    secondary_domains:
+      - AI
+      - ML
+    parent_topics:
+      - reinforcement_learning
+    related_topics:
+      - imitation_learning
+    aliases:
+      - offline rl
+      - batch reinforcement learning
+    definition: >
+      Reinforcement learning from fixed datasets without online environment
+      interaction during policy learning.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: false
+    external_mappings:
+      arxiv:
+        - id: cs.RO
+          relation: broader
+        - id: cs.LG
+          relation: broader
+    owner_status: curated
+
+  imitation_learning:
+    canonical_name: imitation learning
+    domain: Robotics
+    secondary_domains:
+      - AI
+      - ML
+    parent_topics: []
+    related_topics:
+      - reinforcement_learning
+      - robot_learning
+    aliases:
+      - learning from demonstration
+      - behavioral cloning
+    definition: >
+      Learning policies or behaviors from demonstrations or expert trajectories.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.RO
+          relation: broader
+    owner_status: curated
+
+  robot_learning:
+    canonical_name: robot learning
+    domain: Robotics
+    secondary_domains:
+      - AI
+      - ML
+    parent_topics: []
+    related_topics:
+      - imitation_learning
+      - reinforcement_learning
+      - diffusion_policy
+    aliases:
+      - robotic learning
+    definition: >
+      Machine learning methods for robotic perception, control, planning, or
+      manipulation.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.RO
+          relation: broader
+    owner_status: curated
+
+  diffusion_policy:
+    canonical_name: diffusion policy
+    domain: Robotics
+    secondary_domains:
+      - ML
+    parent_topics:
+      - robot_learning
+    related_topics:
+      - diffusion_model
+      - imitation_learning
+    aliases:
+      - diffusion policies
+    definition: >
+      Robot policy learning methods that model action generation with diffusion
+      processes.
+    match_policy:
+      include_aliases: true
+      include_children: false
+      require_context: true
+    external_mappings:
+      arxiv:
+        - id: cs.RO
+          relation: broader
+        - id: cs.LG
+          relation: broader
+    owner_status: curated

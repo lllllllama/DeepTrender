@@ -1,0 +1,14 @@
+version: topic_review_queue_v0.1
+updated_at: "2026-05-18"
+
+candidates:
+  - candidate_name: test-time scaling
+    suggested_domain: AI
+    evidence_keywords:
+      - test-time compute
+      - inference-time scaling
+      - test time scaling
+    source:
+      method: extracted_keyword_frequency
+    status: pending_review
+    reviewer_note: ""

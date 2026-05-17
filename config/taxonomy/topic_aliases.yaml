@@ -1,0 +1,25 @@
+version: topic_aliases_v0.1
+updated_at: "2026-05-18"
+
+aliases:
+  llm: large_language_model
+  llms: large_language_model
+  large language models: large_language_model
+
+  rag: retrieval_augmented_generation
+  retrieval-augmented generation: retrieval_augmented_generation
+
+  vlm: vision_language_model
+  vision language model: vision_language_model
+  vision-language models: vision_language_model
+
+  panoptic parsing: panoptic_segmentation
+  panoptic scene segmentation: panoptic_segmentation
+
+  diffusion models: diffusion_model
+  denoising diffusion model: diffusion_model
+  score-based diffusion model: diffusion_model
+
+  rl: reinforcement_learning
+  drl: reinforcement_learning
+  deep reinforcement learning: reinforcement_learning

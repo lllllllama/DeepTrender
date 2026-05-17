@@ -1,0 +1,52 @@
+version: domains_v0.1
+updated_at: "2026-05-18"
+
+domains:
+  CV:
+    name: Computer Vision
+    arxiv_categories: ["cs.CV"]
+    keywords:
+      - computer vision
+      - image
+      - video
+      - visual
+      - object detection
+      - segmentation
+      - vision-language
+  NLP:
+    name: Natural Language Processing
+    arxiv_categories: ["cs.CL"]
+    keywords:
+      - natural language
+      - nlp
+      - text
+      - language model
+      - machine translation
+      - summarization
+  ML:
+    name: Machine Learning
+    arxiv_categories: ["cs.LG", "stat.ML"]
+    keywords:
+      - machine learning
+      - deep learning
+      - representation learning
+      - optimization
+      - neural network
+  AI:
+    name: Artificial Intelligence
+    arxiv_categories: ["cs.AI"]
+    keywords:
+      - artificial intelligence
+      - reasoning
+      - planning
+      - agent
+      - knowledge representation
+  Robotics:
+    name: Robotics
+    arxiv_categories: ["cs.RO"]
+    keywords:
+      - robotics
+      - robot learning
+      - embodied intelligence
+      - control
+      - manipulation
