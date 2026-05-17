@@ -9,6 +9,7 @@ Ingestion Agent
 - 不做任何数据解释或标准化
 """
 
+import logging
 import sys
 from pathlib import Path
 from typing import List, Optional, Dict, Any
@@ -29,13 +30,16 @@ from scraper.venues import parse_note_to_paper
 from config import VENUES
 
 
+logger = logging.getLogger(__name__)
+
+
 class IngestionAgent:
     """
     原始数据采集 Agent
-    
+
     负责将各数据源的论文采集到 Raw Layer。
     """
-    
+
     def __init__(
         self,
         repository: RawRepository = None,
@@ -49,33 +53,33 @@ class IngestionAgent:
         self.openalex = openalex_client
         self.s2 = s2_client
         self.or_client = or_client
-    
+
     def _get_arxiv_client(self) -> ArxivClient:
         """懒加载 arXiv 客户端"""
         if self.arxiv is None:
             self.arxiv = create_arxiv_client()
         return self.arxiv
-    
+
     def _get_openalex_client(self) -> OpenAlexClient:
         """懒加载 OpenAlex 客户端"""
         if self.openalex is None:
             self.openalex = create_openalex_client()
         return self.openalex
-    
+
     def _get_s2_client(self) -> SemanticScholarClient:
         """懒加载 Semantic Scholar 客户端"""
         if self.s2 is None:
             self.s2 = SemanticScholarClient()
         return self.s2
-    
+
     def _get_or_client(self) -> OpenReviewClient:
         """懒加载 OpenReview 客户端"""
         if self.or_client is None:
             self.or_client = create_or_client()
         return self.or_client
-    
+
     # ========== arXiv 采集 ==========
-    
+
     def ingest_arxiv_recent(
         self,
         categories: List[str] = None,
@@ -84,37 +88,40 @@ class IngestionAgent:
     ) -> int:
         """
         采集 arXiv 最近的论文
-        
+
         Args:
             categories: arXiv 类别列表
             days: 天数
             max_results: 最大数量
-            
+
         Returns:
             采集的论文数量
         """
         client = self._get_arxiv_client()
         categories = categories or DEFAULT_CATEGORIES
-        
+
         print(f"\n📥 [Ingestion] 正在从 arXiv 采集最近 {days} 天的论文...")
-        
+
         papers = client.search_recent(
             categories=categories,
             days=days,
             max_results=max_results,
         )
-        
+
         saved_count = 0
         for paper in papers:
             try:
                 self.repo.save_raw_paper(paper)
                 saved_count += 1
-            except Exception as e:
-                print(f"   保存失败: {e}")
-        
+            except Exception:
+                logger.exception(
+                    "Failed to save arXiv paper %s",
+                    getattr(paper, "source_paper_id", "<unknown>"),
+                )
+
         print(f"✅ arXiv: 已保存 {saved_count}/{len(papers)} 篇到 Raw Layer")
         return saved_count
-    
+
     def ingest_arxiv_category(
         self,
         category: str,
@@ -122,24 +129,28 @@ class IngestionAgent:
     ) -> int:
         """按类别采集 arXiv 论文"""
         client = self._get_arxiv_client()
-        
+
         print(f"\n📥 [Ingestion] 正在从 arXiv 采集 {category} 类别...")
-        
+
         papers = client.search_by_category(category, max_results)
-        
+
         saved_count = 0
         for paper in papers:
             try:
                 self.repo.save_raw_paper(paper)
                 saved_count += 1
-            except Exception as e:
-                pass
-        
+            except Exception:
+                logger.exception(
+                    "Failed to save arXiv paper %s for category %s",
+                    getattr(paper, "source_paper_id", "<unknown>"),
+                    category,
+                )
+
         print(f"✅ arXiv {category}: 已保存 {saved_count} 篇")
         return saved_count
-    
+
     # ========== OpenAlex 采集 ==========
-    
+
     def ingest_openalex_venue(
         self,
         venue_name: str,
@@ -148,34 +159,39 @@ class IngestionAgent:
     ) -> int:
         """
         按会议采集 OpenAlex 论文
-        
+
         Args:
             venue_name: 会议名称
             year: 年份
             max_results: 最大数量
-            
+
         Returns:
             采集数量
         """
         client = self._get_openalex_client()
-        
+
         print(f"\n📥 [Ingestion] 正在从 OpenAlex 采集 {venue_name} {year}...")
-        
+
         papers = client.search_by_venue_year(venue_name, year, max_results)
-        
+
         saved_count = 0
         for paper in papers:
             try:
                 self.repo.save_raw_paper(paper)
                 saved_count += 1
-            except Exception as e:
-                pass
-        
+            except Exception:
+                logger.exception(
+                    "Failed to save OpenAlex paper %s for %s %s",
+                    getattr(paper, "source_paper_id", "<unknown>"),
+                    venue_name,
+                    year,
+                )
+
         print(f"✅ OpenAlex {venue_name} {year}: 已保存 {saved_count} 篇")
         return saved_count
-    
+
     # ========== Semantic Scholar 采集 ==========
-    
+
     def ingest_s2_venue(
         self,
         venue_name: str,
@@ -184,11 +200,11 @@ class IngestionAgent:
     ) -> int:
         """按会议采集 Semantic Scholar 论文"""
         client = self._get_s2_client()
-        
+
         print(f"\n📥 [Ingestion] 正在从 Semantic Scholar 采集 {venue_name} {year}...")
-        
+
         raw_papers = client.search_papers(venue_name, year, max_results)
-        
+
         saved_count = 0
         for data in raw_papers:
             try:
@@ -196,26 +212,31 @@ class IngestionAgent:
                 if paper:
                     self.repo.save_raw_paper(paper)
                     saved_count += 1
-            except Exception as e:
-                pass
-        
+            except Exception:
+                logger.exception(
+                    "Failed to parse or save Semantic Scholar paper %s for %s %s",
+                    data.get("paperId", "<unknown>") if isinstance(data, dict) else "<unknown>",
+                    venue_name,
+                    year,
+                )
+
         print(f"✅ Semantic Scholar {venue_name} {year}: 已保存 {saved_count} 篇")
         return saved_count
-    
+
     def _parse_s2_to_raw(self, data: Dict, venue: str, year: int) -> Optional[RawPaper]:
         """将 S2 数据转换为 RawPaper"""
         try:
             paper_id = data.get("paperId", "")
             if not paper_id:
                 return None
-            
+
             authors = []
             for author in data.get("authors", []):
                 if isinstance(author, dict):
                     name = author.get("name", "")
                     if name:
                         authors.append(name)
-            
+
             return RawPaper(
                 source="s2",
                 source_paper_id=paper_id,
@@ -228,11 +249,17 @@ class IngestionAgent:
                 raw_json=data,
                 retrieved_at=datetime.now(),
             )
-        except:
+        except Exception:
+            logger.exception(
+                "Failed to parse Semantic Scholar paper %s for %s %s",
+                data.get("paperId", "<unknown>") if isinstance(data, dict) else "<unknown>",
+                venue,
+                year,
+            )
             return None
-    
+
     # ========== OpenReview 采集 ==========
-    
+
     def ingest_openreview_venue(
         self,
         venue_name: str,
@@ -243,14 +270,14 @@ class IngestionAgent:
         if venue_name not in VENUES:
             print(f"⚠️ 未配置的会议: {venue_name}")
             return 0
-        
+
         config = VENUES[venue_name]
         client = self._get_or_client()
-        
+
         venue_id = config.venue_id_pattern.format(year=year)
-        
+
         print(f"\n📥 [Ingestion] 正在从 OpenReview 采集 {venue_name} {year}...")
-        
+
         saved_count = 0
         for note in client.get_accepted_papers(venue_id, limit=limit):
             try:
@@ -258,40 +285,45 @@ class IngestionAgent:
                 if paper:
                     self.repo.save_raw_paper(paper)
                     saved_count += 1
-            except Exception as e:
-                pass
-        
+            except Exception:
+                logger.exception(
+                    "Failed to parse or save OpenReview note %s for %s %s",
+                    getattr(note, "id", "<unknown>"),
+                    venue_name,
+                    year,
+                )
+
         print(f"✅ OpenReview {venue_name} {year}: 已保存 {saved_count} 篇")
         return saved_count
-    
+
     def _parse_or_to_raw(self, note, venue: str, year: int) -> Optional[RawPaper]:
         """将 OpenReview Note 转换为 RawPaper"""
         try:
             content = note.content
-            
+
             # 获取标题
             title = content.get("title", {})
             if isinstance(title, dict):
                 title = title.get("value", "")
-            
+
             # 获取摘要
             abstract = content.get("abstract", {})
             if isinstance(abstract, dict):
                 abstract = abstract.get("value", "")
-            
+
             # 获取作者
             authors = content.get("authors", {})
             if isinstance(authors, dict):
                 authors = authors.get("value", [])
             if isinstance(authors, str):
                 authors = [authors]
-            
+
             # 获取关键词（存入 comments）
             keywords = content.get("keywords", {})
             if isinstance(keywords, dict):
                 keywords = keywords.get("value", [])
             keywords_str = ",".join(keywords) if isinstance(keywords, list) else str(keywords)
-            
+
             return RawPaper(
                 source="openreview",
                 source_paper_id=note.id,
@@ -308,12 +340,15 @@ class IngestionAgent:
                 },
                 retrieved_at=datetime.now(),
             )
-        except Exception as e:
-            print(f"解析 OpenReview note 失败: {e}")
+        except Exception:
+            logger.exception(
+                "Failed to parse OpenReview note %s",
+                getattr(note, "id", "<unknown>"),
+            )
             return None
-    
+
     # ========== 批量采集 ==========
-    
+
     def run(
         self,
         sources: List[str] = None,
@@ -323,27 +358,27 @@ class IngestionAgent:
     ) -> Dict[str, int]:
         """
         运行完整采集流程
-        
+
         Args:
             sources: 数据源列表 ["arxiv", "openalex", "s2", "openreview"]
             arxiv_days: arXiv 采集天数
             venues: 会议列表
             years: 年份列表
-            
+
         Returns:
             各数据源采集数量
         """
         sources = sources or ["arxiv", "openalex"]
         results = {}
-        
+
         print("\n" + "=" * 60)
         print("📥 [Ingestion Agent] 开始采集原始数据")
         print("=" * 60)
-        
+
         # arXiv
         if "arxiv" in sources:
             results["arxiv"] = self.ingest_arxiv_recent(days=arxiv_days)
-        
+
         # OpenAlex
         if "openalex" in sources and venues and years:
             count = 0
@@ -351,7 +386,7 @@ class IngestionAgent:
                 for year in years:
                     count += self.ingest_openalex_venue(venue, year)
             results["openalex"] = count
-        
+
         # Semantic Scholar
         if "s2" in sources and venues and years:
             count = 0
@@ -359,7 +394,7 @@ class IngestionAgent:
                 for year in years:
                     count += self.ingest_s2_venue(venue, year)
             results["s2"] = count
-        
+
         # OpenReview
         if "openreview" in sources:
             count = 0
@@ -371,10 +406,10 @@ class IngestionAgent:
                         if year in VENUES[venue].years:
                             count += self.ingest_openreview_venue(venue, year)
             results["openreview"] = count
-        
+
         total = sum(results.values())
         print(f"\n📊 [Ingestion] 总计采集 {total} 篇到 Raw Layer")
-        
+
         return results
 
 

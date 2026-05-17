@@ -10,6 +10,7 @@ arXiv 提供最广泛的 AI 相关论文覆盖，更新最快。
 - 完整保存所有元数据
 """
 
+import logging
 import time
 import urllib.parse
 import feedparser
@@ -19,6 +20,9 @@ from datetime import datetime, timedelta
 from dataclasses import dataclass
 
 from .models import RawPaper
+
+
+logger = logging.getLogger(__name__)
 
 
 # arXiv API 配置
@@ -37,15 +41,15 @@ class ArxivQuery:
     start_date: datetime = None
     end_date: datetime = None
     max_results: int = 1000
-    
+
 
 class ArxivClient:
     """arXiv API 客户端"""
-    
+
     def __init__(self, delay: float = 3.0):
         """
         初始化客户端
-        
+
         Args:
             delay: 请求间隔（秒），arXiv 要求至少 3 秒
         """
@@ -55,14 +59,14 @@ class ArxivClient:
             "User-Agent": "DepthTrender/1.0 (https://github.com/depthtrender)"
         })
         self._last_request = 0
-    
+
     def _wait_for_rate_limit(self):
         """遵守 arXiv 速率限制"""
         elapsed = time.time() - self._last_request
         if elapsed < self.delay:
             time.sleep(self.delay - elapsed)
         self._last_request = time.time()
-    
+
     def search(
         self,
         categories: List[str] = None,
@@ -72,30 +76,30 @@ class ArxivClient:
     ) -> List[RawPaper]:
         """
         搜索 arXiv 论文
-        
+
         Args:
             categories: arXiv 类别列表（如 ["cs.CV", "cs.LG"]）
             search_query: 搜索词
             start: 起始位置
             max_results: 最大结果数（单次最多 2000）
-            
+
         Returns:
             RawPaper 列表
         """
         self._wait_for_rate_limit()
-        
+
         # 构建查询
         query_parts = []
-        
+
         if categories:
             cat_query = " OR ".join([f"cat:{cat}" for cat in categories])
             query_parts.append(f"({cat_query})")
-        
+
         if search_query:
             query_parts.append(f"({search_query})")
-        
+
         query = " AND ".join(query_parts) if query_parts else "cat:cs.LG"
-        
+
         params = {
             "search_query": query,
             "start": start,
@@ -103,26 +107,26 @@ class ArxivClient:
             "sortBy": "submittedDate",
             "sortOrder": "descending",
         }
-        
+
         try:
             response = self.session.get(ARXIV_API_URL, params=params)
             response.raise_for_status()
-            
+
             # 解析 Atom feed
             feed = feedparser.parse(response.text)
             papers = []
-            
+
             for entry in feed.entries:
                 paper = self._parse_entry(entry)
                 if paper:
                     papers.append(paper)
-            
+
             return papers
-            
-        except Exception as e:
-            print(f"arXiv API 请求失败: {e}")
+
+        except Exception:
+            logger.exception("arXiv API request failed")
             return []
-    
+
     def search_recent(
         self,
         categories: List[str] = None,
@@ -131,56 +135,56 @@ class ArxivClient:
     ) -> List[RawPaper]:
         """
         获取最近几天的论文
-        
+
         Args:
             categories: arXiv 类别
             days: 天数
             max_results: 最大结果数
-            
+
         Returns:
             RawPaper 列表
         """
         categories = categories or DEFAULT_CATEGORIES
-        
+
         print(f"Fetching papers from arXiv (last {days} days)...")
         print(f"   Categories: {', '.join(categories)}")
-        
+
         all_papers = []
         start = 0
         batch_size = 500
-        
+
         while len(all_papers) < max_results:
             papers = self.search(
                 categories=categories,
                 start=start,
                 max_results=min(batch_size, max_results - len(all_papers)),
             )
-            
+
             if not papers:
                 break
-            
+
             # 过滤日期
             cutoff_date = datetime.now() - timedelta(days=days)
             recent_papers = []
-            
+
             for paper in papers:
                 if paper.retrieved_at and paper.retrieved_at >= cutoff_date:
                     recent_papers.append(paper)
                 elif paper.year and paper.year >= cutoff_date.year:
                     recent_papers.append(paper)
-            
+
             all_papers.extend(recent_papers)
-            
+
             # 如果这批次都太旧了，停止
             if len(recent_papers) < len(papers) * 0.5:
                 break
-            
+
             start += batch_size
             print(f"   Fetched {len(all_papers)} papers...")
 
         print(f"SUCCESS: Fetched {len(all_papers)} papers from arXiv")
         return all_papers
-    
+
     def search_by_category(
         self,
         category: str,
@@ -188,68 +192,68 @@ class ArxivClient:
     ) -> List[RawPaper]:
         """
         按类别获取论文
-        
+
         Args:
             category: arXiv 类别（如 "cs.CV"）
             max_results: 最大结果数
-            
+
         Returns:
             RawPaper 列表
         """
         print(f"Fetching {category} papers from arXiv...")
-        
+
         all_papers = []
         start = 0
         batch_size = 500
-        
+
         while len(all_papers) < max_results:
             papers = self.search(
                 categories=[category],
                 start=start,
                 max_results=min(batch_size, max_results - len(all_papers)),
             )
-            
+
             if not papers:
                 break
-            
+
             all_papers.extend(papers)
             start += batch_size
-            
+
             print(f"   Fetched {len(all_papers)} papers...")
 
         print(f"SUCCESS: Fetched {len(all_papers)} papers from arXiv {category}")
         return all_papers
-    
+
     def get_paper(self, arxiv_id: str) -> Optional[RawPaper]:
         """
         获取单篇论文
-        
+
         Args:
             arxiv_id: arXiv ID（如 "2312.12345"）
-            
+
         Returns:
             RawPaper
         """
         self._wait_for_rate_limit()
-        
+
         params = {
             "id_list": arxiv_id,
             "max_results": 1,
         }
-        
+
         try:
             response = self.session.get(ARXIV_API_URL, params=params)
             response.raise_for_status()
-            
+
             feed = feedparser.parse(response.text)
             if feed.entries:
                 return self._parse_entry(feed.entries[0])
             return None
-            
-        except Exception as e:
-            print(f"获取 arXiv 论文失败: {e}")
+
+        except Exception:
+            logger.exception("Failed to fetch arXiv paper %s", arxiv_id)
             return None
-    
+
     def _parse_entry(self, entry: Dict[str, Any]) -> Optional[RawPaper]:
         """解析 arXiv Atom entry 为 RawPaper"""
         try:
@@ -257,20 +261,20 @@ class ArxivClient:
             arxiv_id = entry.get("id", "").split("/abs/")[-1].split("v")[0]
             if not arxiv_id:
                 return None
-            
+
             # 标题（移除换行）
             title = entry.get("title", "").replace("\n", " ").strip()
-            
+
             # 摘要
             abstract = entry.get("summary", "").replace("\n", " ").strip()
-            
+
             # 作者
             authors = []
             for author in entry.get("authors", []):
                 name = author.get("name", "")
                 if name:
                     authors.append(name)
-            
+
             # 发布日期
             published = entry.get("published", "")
             year = None
@@ -279,32 +283,32 @@ class ArxivClient:
                 try:
                     year = int(published[:4])
                     published_at = datetime.fromisoformat(published.replace("Z", "+00:00"))
-                except:
-                    pass
-            
+                except Exception:
+                    logger.warning("Failed to parse arXiv published date: %s", published, exc_info=True)
+
             # 类别
             categories = []
             for tag in entry.get("tags", []):
                 term = tag.get("term", "")
                 if term:
                     categories.append(term)
-            
+
             # Comments（可能包含会议信息）
             comments = entry.get("arxiv_comment", "")
-            
+
             # Journal reference
             journal_ref = entry.get("arxiv_journal_ref", "")
-            
+
             # DOI
             doi = entry.get("arxiv_doi", "")
-            
+
             # PDF 链接
             pdf_url = None
             for link in entry.get("links", []):
                 if link.get("type") == "application/pdf":
                     pdf_url = link.get("href")
                     break
-            
+
             return RawPaper(
                 source="arxiv",
                 source_paper_id=arxiv_id,
@@ -327,9 +331,9 @@ class ArxivClient:
                 published_at=published_at,
                 retrieved_at=datetime.now(),
             )
-            
-        except Exception as e:
-            print(f"解析 arXiv entry 失败: {e}")
+
+        except Exception:
+            logger.exception("Failed to parse arXiv entry")
             return None
 
 

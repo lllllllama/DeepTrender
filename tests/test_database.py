@@ -1,6 +1,7 @@
 """Database repository tests."""
 
 from datetime import datetime
+from pathlib import Path
 
 from scraper.models import RawPaper
 
@@ -15,6 +16,27 @@ class TestDatabaseRepository:
         assert "papers" in tables
         assert "paper_keywords" in tables
         assert "raw_papers" in tables
+
+    def test_schema_text_is_clean_utf8(self):
+        schema_path = Path(__file__).parents[1] / "src" / "database" / "schema.sql"
+        schema = schema_path.read_text(encoding="utf-8")
+
+        assert "Raw -> Structured -> Analysis" in schema
+        assert "鈫" not in schema
+        assert "鏂" not in schema
+        assert "CREATE INDEX IF NOT EXISTS idx_papers_domain" in schema
+        assert "CREATE INDEX IF NOT EXISTS idx_trend_cache_keyword_year" in schema
+
+    def test_database_indexes_created(self, repo):
+        with repo._get_connection() as conn:
+            cursor = conn.execute("SELECT name FROM sqlite_master WHERE type='index'")
+            indexes = {row[0] for row in cursor.fetchall()}
+
+        assert {
+            "idx_papers_domain",
+            "idx_trend_cache_keyword_year",
+            "idx_paper_keywords_keyword_paper",
+        }.issubset(indexes)
 
     def test_save_paper(self, repo, sample_paper):
         sample_paper.extracted_keywords = ["test keyword"]

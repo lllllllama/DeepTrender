@@ -14,7 +14,6 @@ COPY requirements.txt .
 
 # 安装 Python 依赖
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install --no-cache-dir gunicorn
 
 # 复制项目文件
 COPY . .
