@@ -4,6 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+from config import ARXIV_CATEGORIES
 from scraper.models import Paper, Venue
 
 from .repository import (
@@ -200,7 +201,7 @@ class DatabaseRepository(BaseRepository):
 
     def get_arxiv_stats(self, categories: Optional[List[str]] = None) -> Dict[str, Any]:
         """Return aggregated arXiv stats for API and static export."""
-        category_list = categories or ["cs.LG", "cs.CL", "cs.CV", "cs.AI", "cs.RO"]
+        category_list = categories or ARXIV_CATEGORIES
         category_counts = {}
 
         with self._get_connection() as conn:

@@ -30,6 +30,24 @@ REPORTS_DIR.mkdir(exist_ok=True)
 DATABASE_PATH = DATA_DIR / "keywords.db"
 
 
+def _load_arxiv_categories_from_domains_yaml(default: List[str]) -> List[str]:
+    """Load arXiv categories from taxonomy domains, falling back safely."""
+
+    taxonomy_path = ROOT_DIR / "config" / "taxonomy" / "domains.yaml"
+    if not taxonomy_path.exists():
+        return default
+    try:
+        import yaml
+
+        data = yaml.safe_load(taxonomy_path.read_text(encoding="utf-8")) or {}
+        categories = []
+        for domain in data.get("domains", {}).values():
+            categories.extend(domain.get("arxiv_categories", []))
+        return sorted(set(categories)) or default
+    except Exception:
+        return default
+
+
 @dataclass
 class VenueConfig:
     """会议配置"""
@@ -157,7 +175,9 @@ OPENREVIEW_USERNAME = os.getenv("OPENREVIEW_USERNAME", "")
 OPENREVIEW_PASSWORD = os.getenv("OPENREVIEW_PASSWORD", "")
 
 # arXiv 配置
-ARXIV_CATEGORIES = ["cs.CV", "cs.CL", "cs.LG", "cs.AI", "cs.RO"]
+ARXIV_CATEGORIES = _load_arxiv_categories_from_domains_yaml(
+    default=["cs.CV", "cs.CL", "cs.LG", "cs.AI", "cs.RO", "stat.ML"]
+)
 
 # OpenAlex 配置
 OPENALEX_EMAIL = os.getenv("OPENALEX_EMAIL", "")

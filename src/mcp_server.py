@@ -35,6 +35,13 @@ Tools exposed:
     - get_keyword_trend_cached: raw cached trend buckets (scope/venue/granularity)
     - get_raw_paper_count     : count of raw ingested papers (optionally by source)
     - get_scrape_log          : last scrape timestamp for a venue+year combination
+
+  v0.1 taxonomy and serving contract
+    - list_domains            : taxonomy domains
+    - list_topics             : canonical topics
+    - resolve_topic           : strict canonical topic resolution
+    - get_venue_year_topic    : venue/year/topic facts and evidence
+    - get_data_quality_report : raw/structured/source quality metrics
 """
 
 import sys
@@ -50,6 +57,7 @@ from mcp.server.fastmcp import FastMCP
 
 from database import get_repository, DatabaseRepository
 from config import VENUES
+from services import mcp_views as v01_mcp_views
 
 # ---------------------------------------------------------------------------
 # Server bootstrap
@@ -548,6 +556,76 @@ def list_configured_venues() -> list:
         }
         for k, v in VENUES.items()
     ]
+
+
+# ---------------------------------------------------------------------------
+# Tools - v0.1 taxonomy and serving contract
+# ---------------------------------------------------------------------------
+
+@mcp.tool()
+def list_domains(limit: int = 100, offset: int = 0) -> dict:
+    """
+    Return DeepTrender v0.1 taxonomy domains.
+
+    Response follows the v0.1 data/meta/warnings/evidence contract.
+    """
+    return v01_mcp_views.list_domains(limit=limit, offset=offset)
+
+
+@mcp.tool()
+def list_topics(
+    domain: Optional[str] = None,
+    limit: int = 100,
+    offset: int = 0,
+) -> dict:
+    """
+    Return DeepTrender canonical topics, optionally filtered by domain.
+
+    Response follows the v0.1 data/meta/warnings/evidence contract.
+    """
+    return v01_mcp_views.list_topics(domain=domain, limit=limit, offset=offset)
+
+
+@mcp.tool()
+def resolve_topic(query: str, include_children: bool = False) -> dict:
+    """
+    Resolve a topic query into a canonical DeepTrender topic.
+
+    Child topics are excluded unless include_children is true.
+    """
+    return v01_mcp_views.resolve_topic(query, include_children=include_children)
+
+
+@mcp.tool()
+def get_venue_year_topic(
+    venue: str,
+    year: int,
+    topic: str,
+    include_children: bool = False,
+    limit: int = 20,
+    offset: int = 0,
+) -> dict:
+    """
+    Return venue/year/topic facts with counts, relative frequency, warnings,
+    and source evidence.
+    """
+    return v01_mcp_views.get_venue_year_topic(
+        venue=venue,
+        year=int(year),
+        topic=topic,
+        include_children=include_children,
+        limit=limit,
+        offset=offset,
+        repo=_get_repo(),
+    )
+
+
+@mcp.tool()
+def get_data_quality_report(scope: Optional[dict] = None) -> dict:
+    """
+    Return global or scoped data quality metrics and v0.1 warning objects.
+    """
+    return v01_mcp_views.get_data_quality_report(scope=scope, repo=_get_repo())
 
 
 # ---------------------------------------------------------------------------

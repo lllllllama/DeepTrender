@@ -23,6 +23,7 @@ gunicorn==23.0.0
 python-dotenv==1.2.1
 tqdm==4.67.1
 feedparser==6.0.12
+PyYAML==6.0.3
 
 # MCP Server
 mcp[cli]==1.21.0
