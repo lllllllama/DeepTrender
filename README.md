@@ -1,216 +1,347 @@
-# DeepTrender
+<div align="center">
 
-[中文](#中文说明) | [English](#english)
+# 🔬 DeepTrender
+
+**AI 论文关键词追踪 & 趋势分析平台**
+
+[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-3.0%2B-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![SQLite](https://img.shields.io/badge/SQLite-database-003B57?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![MCP](https://img.shields.io/badge/MCP-server-6B4FBB?logo=anthropic&logoColor=white)](https://modelcontextprotocol.io/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-static_site-222222?logo=github&logoColor=white)](https://pages.github.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/Tests-53%2B_passing-brightgreen?logo=pytest&logoColor=white)](tests/)
+
+[中文](#-中文说明) · [English](#-english)
+
+</div>
 
 ---
 
-## 中文说明
+## 🇨🇳 中文说明
 
-DeepTrender 是一个面向 AI 论文的关键词追踪与趋势分析项目，覆盖数据采集、结构化存储、关键词提取、趋势分析、Flask API，以及面向 GitHub Pages 的静态站点导出。
+DeepTrender 是一个面向 AI/ML 论文的**关键词追踪与趋势分析**平台，覆盖多源数据采集、结构化存储、关键词提取、趋势分析、Flask REST API、MCP 服务器，以及面向 GitHub Pages 的静态站点导出。
 
-### 主要功能
+### ✨ 核心功能
 
-- 多源采集：`arxiv`、`openreview`、`openalex`、`s2`
-- 关键词提取：`YAKE`、`KeyBERT`
-- 数据存储：SQLite
-- Web 服务：Flask REST API + 静态前端
-- 静态导出：输出到 `docs/`
-- 测试覆盖：数据库、分析、API、静态导出
+| 功能 | 说明 |
+|------|------|
+| 📥 多源采集 | `arxiv`、`openreview`、`openalex`、`s2` |
+| 🔑 关键词提取 | `YAKE`（快速）、`KeyBERT`（语义）、`both`（两者合并） |
+| 🗄️ 数据存储 | SQLite 三层架构（raw / structured / analysis） |
+| 📊 趋势分析 | 年 / 月 / 周 / 日 多粒度时间序列 + 新兴话题检测 |
+| 🌐 Web 服务 | Flask REST API + 静态前端（ECharts 可视化） |
+| 🤖 MCP 服务器 | 14 个工具，供 AI Agent 直接查询统计数据 |
+| 📄 静态导出 | 输出到 `docs/`，无需后端即可在 GitHub Pages 访问 |
+| ⚙️ 自动更新 | GitHub Actions 定时抓取并自动部署 |
 
-### 项目结构
+### 🏗️ 项目结构
 
 ```text
 deeptrender/
-|-- src/
-|   |-- agents/
-|   |-- analysis/
-|   |-- database/
-|   |-- extractor/
-|   |-- scraper/
-|   |-- tools/
-|   |-- visualization/
-|   |-- web/
-|   `-- main.py
-|-- tests/
-|-- docs/
-|-- data/
-`-- output/
+├── src/
+│   ├── agents/          # 采集、结构化、分析 Agent
+│   ├── analysis/        # arXiv 趋势分析、统计模块
+│   ├── database/        # SQLite 仓库（三层架构）
+│   ├── extractor/       # YAKE / KeyBERT 关键词提取
+│   ├── scraper/         # arXiv / OpenReview / OpenAlex / S2 客户端
+│   ├── tools/           # 静态站点导出、CCF 注册表导入
+│   ├── visualization/   # 图表生成（matplotlib + ECharts）
+│   ├── web/             # Flask 应用 & 静态前端
+│   ├── mcp_server.py    # MCP 服务器（14 个工具）
+│   └── main.py          # 主流程入口
+├── tests/               # 单元测试 & 集成测试
+├── docs/                # 静态站点（GitHub Pages）
+├── data/                # SQLite 数据库
+├── output/              # 图表 & 报告
+└── .github/workflows/   # GitHub Actions 工作流
 ```
 
-### 环境要求
+### 📋 环境要求
 
-- Python 3.11+
-- 建议使用虚拟环境
-- `KeyBERT` 首次运行会下载模型
+- 🐍 Python 3.11+
+- 虚拟环境（推荐）
+- `KeyBERT` 首次运行会自动下载 `all-MiniLM-L6-v2` 模型（约 80 MB）
 
-### 安装
+### 🚀 快速开始
+
+**1. 安装依赖**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 运行主流程
+**2. 运行主流程**
 
 ```bash
+# 默认：采集 arxiv + openalex，提取关键词，生成报告
 python src/main.py
 ```
 
-默认行为：
-
-- 采集 `arxiv` 和 `openalex`
-- 执行结构化处理
-- 执行关键词分析
-- 生成图表和 Markdown 报告
-
-### 常用命令
-
-按数据源运行：
+**3. 启动 Web 界面**
 
 ```bash
+python src/web/app.py
+# 访问 http://localhost:5000
+```
+
+**4. 启动 MCP 服务器（供 AI Agent 调用）**
+
+```bash
+# stdio 模式（Claude Desktop / 标准 MCP SDK）
+python src/mcp_server.py
+
+# HTTP 模式
+python src/mcp_server.py --transport streamable-http --port 8090
+```
+
+### ⚙️ 常用命令
+
+<details>
+<summary>📥 按数据源采集</summary>
+
+```bash
+# 采集近 7 天 arXiv 论文
 python src/main.py --source arxiv --arxiv-days 7
+
+# 采集 OpenReview 会议数据
 python src/main.py --source openreview --venue ICLR NeurIPS --year 2024
+
+# 采集 OpenAlex 数据
 python src/main.py --source openalex --venue ICLR NeurIPS --year 2024
+
+# 采集 Semantic Scholar 数据
 python src/main.py --source s2 --venue CVPR ACL --year 2024
 ```
 
-控制提取器或阶段：
+</details>
+
+<details>
+<summary>🔑 控制关键词提取器</summary>
 
 ```bash
-python src/main.py --extractor yake
-python src/main.py --extractor keybert
-python src/main.py --extractor both
-python src/main.py --skip-ingestion
-python src/main.py --skip-structuring
-python src/main.py --limit 100
+python src/main.py --extractor yake      # 快速，基于统计
+python src/main.py --extractor keybert   # 语义，基于 BERT
+python src/main.py --extractor both      # 两者合并（最准确，较慢）
 ```
 
-### Web 界面
+</details>
 
-启动服务：
+<details>
+<summary>🔧 跳过阶段 / 限制规模</summary>
 
 ```bash
-python src/web/app.py
+python src/main.py --skip-ingestion      # 跳过数据采集
+python src/main.py --skip-structuring   # 跳过结构化处理
+python src/main.py --limit 100          # 限制处理量（测试用）
 ```
 
-默认地址：
+</details>
 
-```text
-http://localhost:5000
+### 🌐 REST API
+
+启动服务后，可访问以下端点：
+
+| 端点 | 说明 |
+|------|------|
+| `GET /api/health` | 健康检查 |
+| `GET /api/status` | 数据库状态与统计 |
+| `GET /api/stats/overview` | 总体概览 |
+| `GET /api/stats/venues` | 所有会议列表 |
+| `GET /api/stats/venue/<venue>` | 单个会议详情 |
+| `GET /api/keywords/top` | Top-N 关键词 |
+| `GET /api/keywords/trends` | 关键词趋势时间序列 |
+| `GET /api/keywords/comparison` | 跨会议关键词对比 |
+| `GET /api/keywords/emerging` | 新兴关键词检测 |
+| `GET /api/arxiv/timeseries` | arXiv 多粒度时间序列 |
+| `GET /api/arxiv/emerging` | arXiv 新兴话题 |
+| `POST /api/refresh` | 刷新数据缓存 |
+
+> 完整 API 文档见 [docs/API_CONTRACT.md](docs/API_CONTRACT.md)
+
+### 🤖 MCP 服务器
+
+DeepTrender 内置 MCP 服务器，AI Agent 可直接查询所有统计数据与中间数据，无需手动解析 API。
+
+**Claude Desktop 配置：**
+
+```json
+{
+  "mcpServers": {
+    "deeptrender": {
+      "command": "python",
+      "args": ["src/mcp_server.py"],
+      "cwd": "/path/to/deeptrender"
+    }
+  }
+}
 ```
 
-核心接口：
+**提供的 14 个工具：**
 
-- `GET /api/health`
-- `GET /api/status`
-- `GET /api/stats/overview`
-- `GET /api/stats/venues`
-- `GET /api/stats/venue/<venue>`
-- `GET /api/keywords/top`
-- `GET /api/keywords/trends`
-- `GET /api/keywords/comparison`
-- `GET /api/arxiv/timeseries`
-- `GET /api/arxiv/emerging`
-- `POST /api/refresh`
+| 分类 | 工具 |
+|------|------|
+| 📊 概览 | `get_overview`、`get_status` |
+| 🏛️ 会议统计 | `list_venues`、`get_venue_detail`、`get_venue_comparison` |
+| 🔑 关键词 | `get_top_keywords`、`get_keyword_trends`、`get_emerging_keywords`、`get_keyword_wordcloud` |
+| 📈 arXiv 专项 | `get_arxiv_timeseries`、`get_arxiv_stats`、`get_arxiv_emerging` |
+| 🗄️ 中间数据 | `get_analysis_meta`、`get_venue_summaries`、`get_keyword_trend_cached`、`get_raw_paper_count`、`get_scrape_log`、`list_configured_venues` |
 
-更多说明见 [docs/API_CONTRACT.md](docs/API_CONTRACT.md) 和 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)。
-
-### 静态站点导出
+### 📄 静态站点导出
 
 ```bash
+# 导出到 docs/（GitHub Pages 根目录）
 python src/tools/export_static_site.py
-```
 
-可选参数：
-
-```bash
+# 自定义参数
 python src/tools/export_static_site.py --output-dir dist --top-keywords 100
 ```
 
-导出的静态站点默认适配 `docs/`，并已使用相对资源路径与 API 路径，以便在 GitHub Pages 子路径下正常工作。
-
-### 测试
-
-运行全部测试：
+导出后，可用任意静态服务器预览：
 
 ```bash
+python -m http.server -d docs 8000
+# 访问 http://localhost:8000
+```
+
+### 🧪 测试
+
+```bash
+# 运行全部测试
 pytest -q
+
+# 运行核心模块测试
+pytest tests/test_database.py tests/test_web_api.py
+
+# 运行 MCP 服务器测试
+pytest tests/test_mcp_server.py -v
+
+# 生成覆盖率报告
+pytest --cov=src --cov-report=html
 ```
 
-运行核心测试：
+### ⚙️ GitHub Actions 自动更新
 
-```bash
-pytest tests/test_database.py tests/test_web_api.py tests/test_export_static_site.py
-```
+工作流每周日 UTC 00:00 自动运行，也可手动触发并指定参数：
 
-### 数据与输出
+| 参数 | 说明 | 默认值 |
+|------|------|--------|
+| `source` | 数据源 | `all` |
+| `arxiv_days` | arXiv 采集天数 | `7` |
+| `venues` | 指定会议（逗号分隔） | 全部 |
+| `years` | 指定年份（逗号分隔） | 全部 |
+| `ccf_tier` | CCF 等级过滤 (A/B/C/all) | `all` |
+| `export_only` | 仅导出静态站点 | `false` |
 
-- 数据库：`data/keywords.db`
-- 图表：`output/figures/`
-- 报告：`output/reports/`
-- 静态站点：`docs/`
+运行完成后自动 commit `data/`、`output/`、`docs/` 并更新 GitHub Pages。
 
-### 当前说明
+### 📁 数据与输出
 
-- 当前本地测试状态：`89 passed`
-- 最近一次高价值修复包括文本编码问题和静态前端根路径依赖问题
-- `src/database/repository.py` 仍然偏大，适合后续继续拆分
-- 根目录历史总结文档较多，后续可继续收敛到 `README.md` 或 `docs/`
+| 路径 | 说明 |
+|------|------|
+| `data/keywords.db` | SQLite 主数据库 |
+| `output/figures/` | 生成的可视化图表（PNG） |
+| `output/reports/` | 生成的 Markdown 分析报告 |
+| `docs/` | 静态站点（GitHub Pages） |
+| `docs/data/` | 前端所需 JSON 数据文件 |
 
 ---
 
-## English
+## 🇬🇧 English
 
-DeepTrender is an AI paper keyword tracking and trend analysis project. It covers data ingestion, structured storage, keyword extraction, trend analytics, a Flask API, and static site export for GitHub Pages.
+DeepTrender is an **AI/ML paper keyword tracking & trend analysis** platform. It ingests papers from multiple sources, extracts keywords, runs multi-granularity trend analysis, serves a Flask REST API, exposes an MCP server for AI agents, and exports a static site for GitHub Pages.
 
-### Highlights
+### ✨ Highlights
 
-- Multi-source ingestion: `arxiv`, `openreview`, `openalex`, `s2`
-- Keyword extraction: `YAKE`, `KeyBERT`
-- Storage: SQLite
-- Web service: Flask REST API plus static frontend
-- Static export: outputs to `docs/`
-- Test suite: database, analysis, API, and static export coverage
+| Feature | Details |
+|---------|---------|
+| 📥 Multi-source ingestion | `arxiv`, `openreview`, `openalex`, `s2` |
+| 🔑 Keyword extraction | `YAKE` (fast), `KeyBERT` (semantic), `both` |
+| 🗄️ Storage | SQLite with 3-layer architecture (raw / structured / analysis) |
+| 📊 Trend analysis | Year / month / week / day timeseries + emerging topic detection |
+| 🌐 Web service | Flask REST API + static frontend (ECharts) |
+| 🤖 MCP server | 14 tools for AI agents to query stats directly |
+| 📄 Static export | Outputs to `docs/` for GitHub Pages (no backend needed) |
+| ⚙️ Auto-update | GitHub Actions scheduled pipeline with auto-deploy |
 
-### Requirements
+### 📋 Requirements
 
-- Python 3.11+
+- 🐍 Python 3.11+
 - Virtual environment recommended
-- `KeyBERT` downloads models on first run
+- `KeyBERT` downloads `all-MiniLM-L6-v2` (~80 MB) on first run
 
-### Install
+### 🚀 Quick Start
 
 ```bash
+# Install
 pip install -r requirements.txt
-```
 
-### Run
-
-```bash
+# Run the full pipeline
 python src/main.py
-```
 
-### Web UI
-
-```bash
+# Start the web UI  →  http://localhost:5000
 python src/web/app.py
-```
 
-Default address:
+# Start the MCP server (stdio, for AI agents)
+python src/mcp_server.py
 
-```text
-http://localhost:5000
-```
-
-### Static Export
-
-```bash
+# Export static site  →  docs/
 python src/tools/export_static_site.py
-```
 
-### Tests
-
-```bash
+# Run tests
 pytest -q
 ```
 
-For more details, see the Chinese section above or the docs in `docs/`.
+### 🤖 MCP Server
+
+Add to your Claude Desktop config (`claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "deeptrender": {
+      "command": "python",
+      "args": ["src/mcp_server.py"],
+      "cwd": "/path/to/deeptrender"
+    }
+  }
+}
+```
+
+For HTTP transport (remote agents):
+
+```bash
+python src/mcp_server.py --transport streamable-http --port 8090
+```
+
+### 🌐 REST API (selected endpoints)
+
+| Endpoint | Description |
+|----------|-------------|
+| `GET /api/stats/overview` | Total papers, keywords, venues |
+| `GET /api/keywords/top` | Top-N keywords (filter by venue/year) |
+| `GET /api/keywords/trends` | Yearly trend series for keywords |
+| `GET /api/keywords/emerging` | Fast-growing keyword detection |
+| `GET /api/arxiv/timeseries` | arXiv paper counts by bucket |
+| `GET /api/arxiv/emerging` | Emerging topics in arXiv data |
+
+> Full documentation in [docs/API_CONTRACT.md](docs/API_CONTRACT.md) and [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
+### 🧪 Tests
+
+```bash
+pytest -q                          # all tests
+pytest tests/test_mcp_server.py   # MCP server (53 tests)
+pytest --cov=src                  # with coverage
+```
+
+---
+
+<div align="center">
+
+Made with ❤️ for the AI research community
+
+[![Star on GitHub](https://img.shields.io/github/stars/lllllllama/deeptrender?style=social)](https://github.com/lllllllama/deeptrender)
+
+</div>
