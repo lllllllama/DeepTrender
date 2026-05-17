@@ -1,102 +1,100 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>arXiv 趋势 - DeepTrender</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <title>arXiv Trends - DeepTrender</title>
+    <link rel="stylesheet" href="./static/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 </head>
-
-<body>
+<body data-i18n-title="arxiv.title">
     <nav class="navbar">
         <div class="nav-brand">
-            <span class="brand-icon">🔬</span>
             <span class="brand-text">DeepTrender</span>
         </div>
         <div class="nav-links">
-            <a href="/" class="nav-link">首页</a>
-            <a href="/venue.html" class="nav-link">会议分析</a>
-            <a href="/trends.html" class="nav-link">趋势追踪</a>
-            <a href="/comparison.html" class="nav-link">会议对比</a>
-            <a href="/arxiv.html" class="nav-link active">arXiv 趋势</a>
+            <a href="./index.html" class="nav-link" data-i18n="nav.home">Home</a>
+            <a href="./venue.html" class="nav-link" data-i18n="nav.venues">Venue Analysis</a>
+            <a href="./trends.html" class="nav-link" data-i18n="nav.trends">Trend Tracking</a>
+            <a href="./comparison.html" class="nav-link" data-i18n="nav.compare">Venue Comparison</a>
+            <a href="./arxiv.html" class="nav-link active" data-i18n="nav.arxiv">arXiv Trends</a>
+        </div>
+        <div class="lang-switcher">
+            <button class="lang-btn active" type="button" data-lang-switch="en" onclick="SiteI18n.switchLanguage('en')" data-i18n="lang.en">English</button>
+            <button class="lang-btn" type="button" data-lang-switch="zh" onclick="SiteI18n.switchLanguage('zh')" data-i18n="lang.zh">Chinese</button>
         </div>
     </nav>
 
     <main class="container">
         <section class="page-header">
-            <h1>📚 arXiv 论文趋势</h1>
-            <p>追踪 arXiv 预印本论文的时间趋势，了解最新研究动态</p>
+            <h1 data-i18n="arxiv.heading">arXiv Paper Trends</h1>
+            <p data-i18n="arxiv.subheading">Inspect publication activity and hot topics from recent arXiv papers.</p>
         </section>
 
-        <!-- 控制面板 -->
         <section class="control-panel">
             <div class="control-group">
-                <label>时间粒度：</label>
+                <label data-i18n="arxiv.granularity">Granularity</label>
                 <div class="btn-group">
-                    <button class="btn-toggle active" data-granularity="year" onclick="setGranularity('year')">年度</button>
-                    <button class="btn-toggle" data-granularity="week" onclick="setGranularity('week')">周</button>
-                    <button class="btn-toggle" data-granularity="day" onclick="setGranularity('day')">日</button>
+                    <button class="btn-toggle active" data-granularity="year" onclick="setGranularity('year')" data-i18n="arxiv.year">Year</button>
+                    <button class="btn-toggle" data-granularity="week" onclick="setGranularity('week')" data-i18n="arxiv.week">Week</button>
+                    <button class="btn-toggle" data-granularity="day" onclick="setGranularity('day')" data-i18n="arxiv.day">Day</button>
                 </div>
             </div>
             <div class="control-group">
-                <label>分类：</label>
+                <label for="category-select" data-i18n="arxiv.category">Category</label>
                 <select id="category-select" class="filter-select" onchange="setCategory(this.value)">
-                    <option value="ALL">全部分类</option>
-                    <option value="cs.LG">cs.LG (机器学习)</option>
-                    <option value="cs.CL">cs.CL (计算语言学)</option>
-                    <option value="cs.CV">cs.CV (计算机视觉)</option>
-                    <option value="cs.AI">cs.AI (人工智能)</option>
-                    <option value="cs.RO">cs.RO (机器人)</option>
+                    <option value="ALL" data-i18n="arxiv.category.all">All categories</option>
+                    <option value="cs.LG">cs.LG</option>
+                    <option value="cs.CL">cs.CL</option>
+                    <option value="cs.CV">cs.CV</option>
+                    <option value="cs.AI">cs.AI</option>
+                    <option value="cs.RO">cs.RO</option>
                 </select>
             </div>
-            <button class="btn-refresh" onclick="loadData()">🔄 刷新</button>
+            <button class="btn-refresh" type="button" onclick="loadData()">Refresh</button>
         </section>
 
-        <!-- 论文数量趋势 -->
         <section class="chart-card full-width">
             <div class="chart-header">
-                <h3>📈 论文数量趋势</h3>
+                <h3 data-i18n="arxiv.series">Paper Count Trend</h3>
                 <span class="chart-subtitle" id="chart-subtitle">--</span>
             </div>
             <div class="chart-body" id="chart-timeseries" style="height: 400px;"></div>
         </section>
 
-        <!-- 各时段热门关键词 -->
         <section class="chart-card full-width">
             <div class="chart-header">
-                <h3>🔑 各时段热门关键词</h3>
+                <h3 data-i18n="arxiv.keywords">Top Keywords by Time Bucket</h3>
             </div>
             <div class="keywords-timeline" id="keywords-timeline">
-                <p class="loading">加载中...</p>
+                <p class="loading">Loading...</p>
             </div>
         </section>
 
-        <!-- 数据状态 -->
         <section class="data-status">
             <div class="status-item">
-                <span class="status-label">数据状态：</span>
+                <span class="status-label" data-i18n="arxiv.status">Data status:</span>
                 <span class="status-value" id="data-status">--</span>
             </div>
             <div class="status-item">
-                <span class="status-label">总数据点：</span>
+                <span class="status-label" data-i18n="arxiv.points">Data points:</span>
                 <span class="status-value" id="data-count">--</span>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p>DeepTrender - AI 顶会论文关键词趋势分析系统</p>
-        <p>数据来源: arXiv | OpenReview | Semantic Scholar</p>
+        <p data-i18n="footer.tagline">DeepTrender - AI paper keyword tracking and trend analytics</p>
+        <p data-i18n="footer.sources.all">Data sources: arXiv | OpenReview | Semantic Scholar</p>
     </footer>
 
-    <script src="/static/js/toast.js"></script>
-    <script src="/static/js/api.js"></script>
-    <script src="/static/js/charts.js"></script>
+    <script src="./static/js/site.js"></script>
+    <script src="./static/js/toast.js"></script>
+    <script src="./static/js/api.js"></script>
+    <script src="./static/js/charts.js"></script>
     <script>
-        let currentGranularity = 'year';
-        let currentCategory = 'ALL';
+        let currentGranularity = "year";
+        let currentCategory = "ALL";
         let timeseriesChart = null;
 
         async function init() {
@@ -105,15 +103,9 @@
 
         function setGranularity(granularity) {
             currentGranularity = granularity;
-            
-            // 更新按钮状态
-            document.querySelectorAll('.btn-toggle').forEach(btn => {
-                btn.classList.remove('active');
-                if (btn.dataset.granularity === granularity) {
-                    btn.classList.add('active');
-                }
+            document.querySelectorAll(".btn-toggle").forEach((button) => {
+                button.classList.toggle("active", button.dataset.granularity === granularity);
             });
-            
             loadData();
         }
 
@@ -123,358 +115,98 @@
         }
 
         async function loadData() {
-            try {
-                document.getElementById('data-status').textContent = '加载中...';
-                
-                // 获取时间序列数据
-                const response = await fetch(
-                    `/api/arxiv/timeseries?granularity=${currentGranularity}&category=${currentCategory}`
-                );
-                const result = await response.json();
-                
-                // 更新状态
-                document.getElementById('data-status').textContent = result.cached ? '✅ 已缓存' : '⚠️ 无缓存';
-                document.getElementById('data-count').textContent = result.data?.length || 0;
-                
-                const granularityNames = { year: '年度', week: '周', day: '日' };
-                document.getElementById('chart-subtitle').textContent = 
-                    `${granularityNames[currentGranularity]}趋势 - ${currentCategory}`;
-                
-                // 渲染图表
-                if (result.data && result.data.length > 0) {
-                    renderTimeseriesChart(result.data);
-                    renderKeywordsTimeline(result.data);
-                } else {
-                    showNoData('chart-timeseries');
-                    document.getElementById('keywords-timeline').innerHTML = 
-                        '<p class="no-data">暂无数据，请先运行 arXiv 分析</p>';
-                }
-                
-            } catch (error) {
-                console.error('加载数据失败:', error);
-                document.getElementById('data-status').textContent = '❌ 加载失败';
+            document.getElementById("data-status").textContent = "Loading...";
+
+            const response = await fetch(`./api/arxiv/timeseries?granularity=${currentGranularity}&category=${currentCategory}`);
+            const result = await response.json();
+
+            document.getElementById("data-status").textContent = result.cached ? "Cached" : "Live";
+            document.getElementById("data-count").textContent = result.data?.length || 0;
+            document.getElementById("chart-subtitle").textContent = `${currentGranularity} - ${currentCategory}`;
+
+            if (result.data && result.data.length > 0) {
+                renderTimeseriesChart(result.data);
+                renderKeywordsTimeline(result.data);
+                return;
             }
+
+            showNoData("chart-timeseries");
+            document.getElementById("keywords-timeline").innerHTML = '<p class="no-data">No arXiv data available yet.</p>';
         }
 
         function renderTimeseriesChart(data) {
-            const container = document.getElementById('chart-timeseries');
-            
+            const container = document.getElementById("chart-timeseries");
             if (timeseriesChart) {
                 timeseriesChart.dispose();
             }
             timeseriesChart = echarts.init(container);
-            
-            const buckets = data.map(d => d.bucket);
-            const counts = data.map(d => d.paper_count);
-            
-            const option = {
-                backgroundColor: 'transparent',
-                tooltip: {
-                    trigger: 'axis',
-                    backgroundColor: 'rgba(30, 30, 30, 0.9)',
-                    borderColor: '#444',
-                    textStyle: { color: '#fff' },
-                    formatter: params => {
-                        const dataIndex = params[0].dataIndex;
-                        const item = data[dataIndex];
-                        let html = `<strong>${item.bucket}</strong><br/>`;
-                        html += `论文数: ${item.paper_count}`;
-                        if (item.top_keywords && item.top_keywords.length > 0) {
-                            html += '<br/><br/>热门关键词:';
-                            item.top_keywords.slice(0, 5).forEach(kw => {
-                                html += `<br/>• ${kw.keyword} (${kw.count})`;
-                            });
-                        }
-                        return html;
-                    }
-                },
-                grid: {
-                    left: '3%',
-                    right: '4%',
-                    bottom: '10%',
-                    containLabel: true
-                },
+
+            timeseriesChart.setOption({
+                backgroundColor: "transparent",
+                tooltip: { trigger: "axis" },
+                grid: { left: "3%", right: "4%", bottom: "10%", containLabel: true },
                 xAxis: {
-                    type: 'category',
-                    data: buckets,
-                    axisLine: { lineStyle: { color: '#444' } },
-                    axisLabel: { 
-                        color: '#999',
-                        rotate: currentGranularity === 'day' ? 45 : 0
-                    }
+                    type: "category",
+                    data: data.map((item) => item.bucket),
+                    axisLine: { lineStyle: { color: "#444" } },
+                    axisLabel: { color: "#999", rotate: currentGranularity === "day" ? 45 : 0 },
                 },
                 yAxis: {
-                    type: 'value',
-                    name: '论文数',
-                    nameTextStyle: { color: '#999' },
-                    axisLine: { lineStyle: { color: '#444' } },
-                    axisLabel: { color: '#999' },
-                    splitLine: { lineStyle: { color: '#333' } }
+                    type: "value",
+                    axisLine: { lineStyle: { color: "#444" } },
+                    axisLabel: { color: "#999" },
+                    splitLine: { lineStyle: { color: "#333" } },
                 },
                 series: [{
-                    name: '论文数',
-                    type: 'line',
-                    data: counts,
+                    name: "Papers",
+                    type: "line",
                     smooth: true,
-                    symbol: 'circle',
+                    symbol: "circle",
                     symbolSize: 8,
+                    data: data.map((item) => item.paper_count),
                     lineStyle: {
                         width: 3,
                         color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-                            { offset: 0, color: '#58a6ff' },
-                            { offset: 1, color: '#a855f7' }
-                        ])
+                            { offset: 0, color: "#58a6ff" },
+                            { offset: 1, color: "#a855f7" },
+                        ]),
                     },
                     areaStyle: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            { offset: 0, color: 'rgba(88, 166, 255, 0.3)' },
-                            { offset: 1, color: 'rgba(88, 166, 255, 0.05)' }
-                        ])
+                            { offset: 0, color: "rgba(88, 166, 255, 0.3)" },
+                            { offset: 1, color: "rgba(88, 166, 255, 0.05)" },
+                        ]),
                     },
-                    itemStyle: {
-                        color: '#58a6ff',
-                        borderColor: '#fff',
-                        borderWidth: 2
-                    }
+                    itemStyle: { color: "#58a6ff", borderColor: "#fff", borderWidth: 2 },
                 }],
-                dataZoom: currentGranularity !== 'year' ? [{
-                    type: 'inside',
-                    start: 80,
-                    end: 100
-                }, {
-                    type: 'slider',
-                    start: 80,
-                    end: 100,
-                    height: 20,
-                    bottom: 5,
-                    borderColor: '#444',
-                    fillerColor: 'rgba(88, 166, 255, 0.2)',
-                    handleStyle: { color: '#58a6ff' },
-                    textStyle: { color: '#999' }
-                }] : []
-            };
-            
-            timeseriesChart.setOption(option);
-            
-            // 响应式
-            window.addEventListener('resize', () => timeseriesChart.resize());
+            });
         }
 
         function renderKeywordsTimeline(data) {
-            const container = document.getElementById('keywords-timeline');
-            
-            // 取最近 10 个时间点
             const recentData = data.slice(-10);
-            
-            if (recentData.length === 0) {
-                container.innerHTML = '<p class="no-data">暂无关键词数据</p>';
-                return;
-            }
-            
-            let html = '<div class="timeline-grid">';
-            
-            recentData.forEach(item => {
-                const keywords = item.top_keywords || [];
-                html += `
+            document.getElementById("keywords-timeline").innerHTML = recentData.length === 0
+                ? '<p class="no-data">No keyword data available.</p>'
+                : `<div class="timeline-grid">${recentData.map((item) => `
                     <div class="timeline-item">
                         <div class="timeline-bucket">${item.bucket}</div>
-                        <div class="timeline-count">${item.paper_count} 篇</div>
+                        <div class="timeline-count">${item.paper_count} papers</div>
                         <div class="timeline-keywords">
-                            ${keywords.slice(0, 5).map(kw => 
-                                `<span class="keyword-tag">${kw.keyword}</span>`
-                            ).join('')}
+                            ${(item.top_keywords || []).slice(0, 5).map((keyword) => `<span class="keyword-tag">${keyword.keyword}</span>`).join("")}
                         </div>
                     </div>
-                `;
-            });
-            
-            html += '</div>';
-            container.innerHTML = html;
+                `).join("")}</div>`;
         }
 
         function showNoData(containerId) {
-            const container = document.getElementById(containerId);
-            container.innerHTML = `
+            document.getElementById(containerId).innerHTML = `
                 <div class="no-data-message">
-                    <p>📭 暂无 arXiv 数据</p>
-                    <p>请先运行分析命令：</p>
-                    <code>python -c "from analysis import ArxivAnalysisAgent; ArxivAnalysisAgent().run_all_granularities(force=True)"</code>
+                    <p>No arXiv trend data is available.</p>
+                    <p>Run the analysis pipeline first.</p>
                 </div>
             `;
         }
 
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener("DOMContentLoaded", init);
     </script>
-
-    <style>
-        .page-header {
-            margin-bottom: 2rem;
-        }
-
-        .page-header h1 {
-            font-size: 1.75rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .page-header p {
-            color: var(--text-secondary);
-        }
-
-        .control-panel {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-            flex-wrap: wrap;
-            margin-bottom: 2rem;
-            padding: 1rem;
-            background: var(--bg-card);
-            border-radius: var(--radius-md);
-            border: 1px solid var(--border-color);
-        }
-
-        .control-group {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-        }
-
-        .control-group label {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-
-        .btn-group {
-            display: flex;
-            border-radius: var(--radius-sm);
-            overflow: hidden;
-            border: 1px solid var(--border-color);
-        }
-
-        .btn-toggle {
-            background: var(--bg-tertiary);
-            border: none;
-            color: var(--text-secondary);
-            padding: 0.5rem 1rem;
-            cursor: pointer;
-            transition: var(--transition);
-            font-size: 0.9rem;
-        }
-
-        .btn-toggle:not(:last-child) {
-            border-right: 1px solid var(--border-color);
-        }
-
-        .btn-toggle:hover {
-            background: var(--bg-hover);
-        }
-
-        .btn-toggle.active {
-            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-            color: white;
-        }
-
-        .chart-subtitle {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-
-        .keywords-timeline {
-            padding: 1rem;
-        }
-
-        .timeline-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 1rem;
-        }
-
-        .timeline-item {
-            background: var(--bg-tertiary);
-            border-radius: var(--radius-sm);
-            padding: 1rem;
-            border: 1px solid var(--border-color);
-        }
-
-        .timeline-bucket {
-            font-weight: 600;
-            color: var(--accent);
-            margin-bottom: 0.25rem;
-        }
-
-        .timeline-count {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            margin-bottom: 0.5rem;
-        }
-
-        .timeline-keywords {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.25rem;
-        }
-
-        .keyword-tag {
-            background: rgba(88, 166, 255, 0.15);
-            color: var(--accent);
-            padding: 0.2rem 0.5rem;
-            border-radius: 10px;
-            font-size: 0.75rem;
-        }
-
-        .data-status {
-            display: flex;
-            gap: 2rem;
-            margin-top: 2rem;
-            padding: 1rem;
-            background: var(--bg-card);
-            border-radius: var(--radius-md);
-            border: 1px solid var(--border-color);
-        }
-
-        .status-item {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .status-label {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-
-        .status-value {
-            font-weight: 500;
-        }
-
-        .no-data {
-            color: var(--text-muted);
-            font-style: italic;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        .no-data-message {
-            text-align: center;
-            padding: 3rem;
-            color: var(--text-secondary);
-        }
-
-        .no-data-message code {
-            display: block;
-            margin-top: 1rem;
-            padding: 1rem;
-            background: var(--bg-tertiary);
-            border-radius: var(--radius-sm);
-            font-size: 0.8rem;
-            overflow-x: auto;
-        }
-
-        .loading {
-            color: var(--text-muted);
-            text-align: center;
-            padding: 2rem;
-        }
-    </style>
 </body>
-
 </html>

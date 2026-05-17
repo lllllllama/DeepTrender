@@ -48,252 +48,252 @@
   ],
   "2026": [
     {
+      "keyword": "large language model",
+      "count": 4,
+      "rank": 1
+    },
+    {
+      "keyword": "language models",
+      "count": 3,
+      "rank": 2
+    },
+    {
       "keyword": "vision language models",
       "count": 2,
-      "rank": 1
+      "rank": 3
     },
     {
       "keyword": "visual data corrects",
       "count": 1,
-      "rank": 2
+      "rank": 4
     },
     {
       "keyword": "visual data",
       "count": 1,
-      "rank": 3
+      "rank": 5
     },
     {
       "keyword": "vision language",
       "count": 1,
-      "rank": 4
-    },
-    {
-      "keyword": "user centric non terrestrial networks",
-      "count": 1,
-      "rank": 5
-    },
-    {
-      "keyword": "unlearning methods remains",
-      "count": 1,
       "rank": 6
     },
     {
-      "keyword": "unlearning methods",
+      "keyword": "verbal confidence",
       "count": 1,
       "rank": 7
     },
     {
-      "keyword": "unlearning",
+      "keyword": "verbal",
       "count": 1,
       "rank": 8
     },
     {
-      "keyword": "trust weighting",
+      "keyword": "user centric non terrestrial networks",
       "count": 1,
       "rank": 9
     },
     {
-      "keyword": "treatment effect heterogeneity",
+      "keyword": "unlearning methods remains",
       "count": 1,
       "rank": 10
     },
     {
-      "keyword": "treatment effect",
+      "keyword": "unlearning methods",
       "count": 1,
       "rank": 11
     },
     {
-      "keyword": "toolmath",
+      "keyword": "unlearning",
       "count": 1,
       "rank": 12
     },
     {
-      "keyword": "synthetic",
+      "keyword": "trust weighting",
       "count": 1,
       "rank": 13
     },
     {
-      "keyword": "steepest descent",
+      "keyword": "treatment effect heterogeneity",
       "count": 1,
       "rank": 14
     },
     {
-      "keyword": "stable diffusion",
+      "keyword": "treatment effect",
       "count": 1,
       "rank": 15
     },
     {
-      "keyword": "spatial trust weighting",
+      "keyword": "training for llm",
       "count": 1,
       "rank": 16
     },
     {
-      "keyword": "spatial",
+      "keyword": "toolmath",
       "count": 1,
       "rank": 17
     },
     {
-      "keyword": "smooth homogeneous neural",
+      "keyword": "teach",
       "count": 1,
       "rank": 18
     },
     {
-      "keyword": "smooth homogeneous models",
+      "keyword": "synthetic",
       "count": 1,
       "rank": 19
     },
     {
-      "keyword": "smooth homogeneous",
+      "keyword": "steepest descent",
       "count": 1,
       "rank": 20
     },
     {
-      "keyword": "sinr estimation framework",
+      "keyword": "stable diffusion",
       "count": 1,
       "rank": 21
     },
     {
-      "keyword": "sinr estimation",
+      "keyword": "spectral graph theory",
       "count": 1,
       "rank": 22
     },
     {
-      "keyword": "sinr",
+      "keyword": "spectral graph sparsification",
       "count": 1,
       "rank": 23
     },
     {
-      "keyword": "satellite based non terrestrial networks",
+      "keyword": "spectral graph",
       "count": 1,
       "rank": 24
     },
     {
-      "keyword": "sandbox",
+      "keyword": "spatial trust weighting",
       "count": 1,
       "rank": 25
     },
     {
-      "keyword": "reasoning",
+      "keyword": "spatial",
       "count": 1,
       "rank": 26
     },
     {
-      "keyword": "realistic multi tool environments",
+      "keyword": "solutions to ssl",
       "count": 1,
       "rank": 27
     },
     {
-      "keyword": "realistic multi tool",
+      "keyword": "smooth homogeneous neural",
       "count": 1,
       "rank": 28
     },
     {
-      "keyword": "realistic long horizon multi tool",
+      "keyword": "smooth homogeneous models",
       "count": 1,
       "rank": 29
     },
     {
-      "keyword": "realistic long horizon",
+      "keyword": "smooth homogeneous",
       "count": 1,
       "rank": 30
     },
     {
-      "keyword": "paintings",
+      "keyword": "sinr estimation framework",
       "count": 1,
       "rank": 31
     },
     {
-      "keyword": "non terrestrial networks",
+      "keyword": "sinr estimation",
       "count": 1,
       "rank": 32
     },
     {
-      "keyword": "neural networks",
+      "keyword": "sinr",
       "count": 1,
       "rank": 33
     },
     {
-      "keyword": "negation handling",
+      "keyword": "side observation graphs",
       "count": 1,
       "rank": 34
     },
     {
-      "keyword": "negation",
+      "keyword": "shift",
       "count": 1,
       "rank": 35
     },
     {
-      "keyword": "multi tool reasoning",
+      "keyword": "semi supervised learning",
       "count": 1,
       "rank": 36
     },
     {
-      "keyword": "multi fidelity augmented surrogate",
+      "keyword": "satellite based non terrestrial networks",
       "count": 1,
       "rank": 37
     },
     {
-      "keyword": "multi fidelity augmented",
+      "keyword": "sandbox",
       "count": 1,
       "rank": 38
     },
     {
-      "keyword": "model via spatial",
+      "keyword": "ridge spectral sparsification",
       "count": 1,
       "rank": 39
     },
     {
-      "keyword": "medical vision language models",
+      "keyword": "ridge spectral",
       "count": 1,
       "rank": 40
     },
     {
-      "keyword": "medical",
+      "keyword": "reflective experience",
       "count": 1,
       "rank": 41
     },
     {
-      "keyword": "math tool benchmark",
+      "keyword": "reflective",
       "count": 1,
       "rank": 42
     },
     {
-      "keyword": "mast",
+      "keyword": "reasoning",
       "count": 1,
       "rank": 43
     },
     {
-      "keyword": "machine unlearning",
+      "keyword": "realistic multi tool environments",
       "count": 1,
       "rank": 44
     },
     {
-      "keyword": "low complexity sinr estimation",
+      "keyword": "realistic multi tool",
       "count": 1,
       "rank": 45
     },
     {
-      "keyword": "long horizon multi tool reasoning",
+      "keyword": "realistic long horizon multi tool",
       "count": 1,
       "rank": 46
     },
     {
-      "keyword": "long horizon multi tool",
+      "keyword": "realistic long horizon",
       "count": 1,
       "rank": 47
     },
     {
-      "keyword": "layer specific fine tuning",
+      "keyword": "rct benchmarking",
       "count": 1,
       "rank": 48
     },
     {
-      "keyword": "large language model",
+      "keyword": "pass",
       "count": 1,
       "rank": 49
     },
     {
-      "keyword": "language models",
+      "keyword": "paintings",
       "count": 1,
       "rank": 50
     }

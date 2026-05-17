@@ -296,251 +296,251 @@
   "2026": [
     {
       "keyword": "large language model",
-      "count": 18,
+      "count": 33,
       "rank": 1
     },
     {
       "keyword": "reasoning",
-      "count": 8,
+      "count": 13,
       "rank": 2
     },
     {
-      "keyword": "language models",
-      "count": 8,
+      "keyword": "reinforcement learning",
+      "count": 11,
       "rank": 3
     },
     {
-      "keyword": "large language",
-      "count": 6,
+      "keyword": "language models",
+      "count": 11,
       "rank": 4
     },
     {
-      "keyword": "transformer",
-      "count": 4,
+      "keyword": "large language",
+      "count": 10,
       "rank": 5
     },
     {
-      "keyword": "reinforcement learning",
-      "count": 4,
+      "keyword": "transformer",
+      "count": 8,
       "rank": 6
     },
     {
-      "keyword": "large reasoning models",
-      "count": 4,
+      "keyword": "visual",
+      "count": 6,
       "rank": 7
     },
     {
-      "keyword": "generation",
-      "count": 4,
+      "keyword": "neural",
+      "count": 6,
       "rank": 8
     },
     {
-      "keyword": "diffusion model",
-      "count": 4,
+      "keyword": "language",
+      "count": 6,
       "rank": 9
     },
     {
-      "keyword": "visual",
-      "count": 3,
+      "keyword": "generation",
+      "count": 6,
       "rank": 10
     },
     {
-      "keyword": "time series",
-      "count": 3,
+      "keyword": "diffusion model",
+      "count": 6,
       "rank": 11
     },
     {
-      "keyword": "reward",
-      "count": 3,
+      "keyword": "alignment",
+      "count": 6,
       "rank": 12
     },
     {
-      "keyword": "optimization",
-      "count": 3,
+      "keyword": "time series",
+      "count": 5,
       "rank": 13
     },
     {
-      "keyword": "neural",
-      "count": 3,
+      "keyword": "optimization",
+      "count": 5,
       "rank": 14
     },
     {
-      "keyword": "multivariate time series",
-      "count": 3,
+      "keyword": "large reasoning models",
+      "count": 5,
       "rank": 15
     },
     {
-      "keyword": "multivariate time",
-      "count": 3,
+      "keyword": "diffusion",
+      "count": 5,
       "rank": 16
     },
     {
-      "keyword": "large reasoning",
-      "count": 3,
+      "keyword": "agents",
+      "count": 5,
       "rank": 17
     },
     {
-      "keyword": "information",
-      "count": 3,
+      "keyword": "text",
+      "count": 4,
       "rank": 18
     },
     {
-      "keyword": "diffusion",
-      "count": 3,
+      "keyword": "protein",
+      "count": 4,
       "rank": 19
     },
     {
-      "keyword": "benchmarking",
-      "count": 3,
+      "keyword": "large reasoning",
+      "count": 4,
       "rank": 20
     },
     {
-      "keyword": "alignment",
-      "count": 3,
+      "keyword": "information",
+      "count": 4,
       "rank": 21
     },
     {
-      "keyword": "agents",
-      "count": 3,
+      "keyword": "benchmarking",
+      "count": 4,
       "rank": 22
     },
     {
       "keyword": "agentic",
-      "count": 3,
+      "count": 4,
       "rank": 23
     },
     {
-      "keyword": "world model",
-      "count": 2,
+      "keyword": "segmentation",
+      "count": 3,
       "rank": 24
     },
     {
-      "keyword": "video",
-      "count": 2,
+      "keyword": "reward",
+      "count": 3,
       "rank": 25
     },
     {
-      "keyword": "unlearnable",
-      "count": 2,
+      "keyword": "prediction",
+      "count": 3,
       "rank": 26
     },
     {
-      "keyword": "understanding",
-      "count": 2,
+      "keyword": "policy",
+      "count": 3,
       "rank": 27
     },
     {
-      "keyword": "time series forecasting",
-      "count": 2,
+      "keyword": "object",
+      "count": 3,
       "rank": 28
     },
     {
-      "keyword": "text",
-      "count": 2,
+      "keyword": "neural networks",
+      "count": 3,
       "rank": 29
     },
     {
-      "keyword": "test time adaptation",
-      "count": 2,
+      "keyword": "multivariate time series",
+      "count": 3,
       "rank": 30
     },
     {
-      "keyword": "steering",
-      "count": 2,
+      "keyword": "multivariate time",
+      "count": 3,
       "rank": 31
     },
     {
-      "keyword": "state space models",
-      "count": 2,
+      "keyword": "machine learning",
+      "count": 3,
       "rank": 32
     },
     {
-      "keyword": "segmentation",
-      "count": 2,
+      "keyword": "llm alignment",
+      "count": 3,
       "rank": 33
     },
     {
-      "keyword": "scene",
-      "count": 2,
+      "keyword": "foundation models",
+      "count": 3,
       "rank": 34
     },
     {
-      "keyword": "robust",
-      "count": 2,
+      "keyword": "flow",
+      "count": 3,
       "rank": 35
     },
     {
-      "keyword": "robotic manipulation",
-      "count": 2,
+      "keyword": "discovery",
+      "count": 3,
       "rank": 36
     },
     {
-      "keyword": "robotic",
-      "count": 2,
+      "keyword": "compression",
+      "count": 3,
       "rank": 37
     },
     {
-      "keyword": "reward model",
-      "count": 2,
+      "keyword": "classification",
+      "count": 3,
       "rank": 38
     },
     {
-      "keyword": "reference",
-      "count": 2,
+      "keyword": "causal",
+      "count": 3,
       "rank": 39
     },
     {
-      "keyword": "probabilistic",
-      "count": 2,
+      "keyword": "attention",
+      "count": 3,
       "rank": 40
     },
     {
-      "keyword": "priors",
+      "keyword": "world models",
       "count": 2,
       "rank": 41
     },
     {
-      "keyword": "preference alignment",
+      "keyword": "world model",
       "count": 2,
       "rank": 42
     },
     {
-      "keyword": "prediction",
+      "keyword": "world",
       "count": 2,
       "rank": 43
     },
     {
-      "keyword": "policy",
+      "keyword": "vision",
       "count": 2,
       "rank": 44
     },
     {
-      "keyword": "object",
+      "keyword": "video",
       "count": 2,
       "rank": 45
     },
     {
-      "keyword": "multivariate",
+      "keyword": "unlearnable",
       "count": 2,
       "rank": 46
     },
     {
-      "keyword": "multilingual",
+      "keyword": "understanding",
       "count": 2,
       "rank": 47
     },
     {
-      "keyword": "multi agent reinforcement learning",
+      "keyword": "topological",
       "count": 2,
       "rank": 48
     },
     {
-      "keyword": "multi agent reinforcement",
+      "keyword": "time series forecasting",
       "count": 2,
       "rank": 49
     },
     {
-      "keyword": "machine learning",
+      "keyword": "time",
       "count": 2,
       "rank": 50
     }

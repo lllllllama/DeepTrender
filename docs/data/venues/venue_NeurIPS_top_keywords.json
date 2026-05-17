@@ -336,251 +336,251 @@
   "2026": [
     {
       "keyword": "large language model",
-      "count": 2,
+      "count": 5,
       "rank": 1
     },
     {
-      "keyword": "large language",
-      "count": 2,
+      "keyword": "monte carlo",
+      "count": 3,
       "rank": 2
+    },
+    {
+      "keyword": "large language",
+      "count": 3,
+      "rank": 3
+    },
+    {
+      "keyword": "markov decision",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "language models",
+      "count": 2,
+      "rank": 5
     },
     {
       "keyword": "world models",
       "count": 1,
-      "rank": 3
+      "rank": 6
     },
     {
       "keyword": "world",
       "count": 1,
-      "rank": 4
+      "rank": 7
     },
     {
       "keyword": "wavelet based cross band integration",
       "count": 1,
-      "rank": 5
+      "rank": 8
     },
     {
       "keyword": "wavelet based cross band",
       "count": 1,
-      "rank": 6
-    },
-    {
-      "keyword": "vector symbolic architecture",
-      "count": 1,
-      "rank": 7
-    },
-    {
-      "keyword": "vector symbolic",
-      "count": 1,
-      "rank": 8
-    },
-    {
-      "keyword": "temporal credit assignment",
-      "count": 1,
       "rank": 9
     },
     {
-      "keyword": "temporal credit",
+      "keyword": "video token compression",
       "count": 1,
       "rank": 10
     },
     {
-      "keyword": "temporal",
+      "keyword": "video",
       "count": 1,
       "rank": 11
     },
     {
-      "keyword": "state space",
+      "keyword": "vector symbolic architecture",
       "count": 1,
       "rank": 12
     },
     {
-      "keyword": "single cell analysis",
+      "keyword": "vector symbolic",
       "count": 1,
       "rank": 13
     },
     {
-      "keyword": "shop",
+      "keyword": "two player games",
       "count": 1,
       "rank": 14
     },
     {
-      "keyword": "rmit adm",
+      "keyword": "trails before beating",
       "count": 1,
       "rank": 15
     },
     {
-      "keyword": "retrospective in context learning",
+      "keyword": "text",
       "count": 1,
       "rank": 16
     },
     {
-      "keyword": "reasoning",
+      "keyword": "temporal credit assignment",
       "count": 1,
       "rank": 17
     },
     {
-      "keyword": "quantum diffusion model",
+      "keyword": "temporal credit",
       "count": 1,
       "rank": 18
     },
     {
-      "keyword": "quantum data pose",
+      "keyword": "temporal",
       "count": 1,
       "rank": 19
     },
     {
-      "keyword": "quantum data distribution",
+      "keyword": "tags",
       "count": 1,
       "rank": 20
     },
     {
-      "keyword": "quantum data",
+      "keyword": "synthesis and automated",
       "count": 1,
       "rank": 21
     },
     {
-      "keyword": "quantum",
+      "keyword": "subspace monte carlo",
       "count": 1,
       "rank": 22
     },
     {
-      "keyword": "polyp segmentation",
+      "keyword": "structured output quality",
       "count": 1,
       "rank": 23
     },
     {
-      "keyword": "open source category",
+      "keyword": "structured output generation",
       "count": 1,
       "rank": 24
     },
     {
-      "keyword": "omics native reasoning",
+      "keyword": "structured output benchmark",
       "count": 1,
       "rank": 25
     },
     {
-      "keyword": "neurips",
+      "keyword": "structured output",
       "count": 1,
       "rank": 26
     },
     {
-      "keyword": "mmu rag neurips",
+      "keyword": "structured literature synthesis",
       "count": 1,
       "rank": 27
     },
     {
-      "keyword": "mmu rag competition",
+      "keyword": "stochastic decision sets",
       "count": 1,
       "rank": 28
     },
     {
-      "keyword": "mmu rag",
+      "keyword": "states",
       "count": 1,
       "rank": 29
     },
     {
-      "keyword": "memory enhanced improvement",
+      "keyword": "state space",
       "count": 1,
       "rank": 30
     },
     {
-      "keyword": "matters",
+      "keyword": "standard monte carlo",
       "count": 1,
       "rank": 31
     },
     {
-      "keyword": "learning quantum data",
+      "keyword": "stabilization",
       "count": 1,
       "rank": 32
     },
     {
-      "keyword": "learning deep state space",
+      "keyword": "single cell analysis",
       "count": 1,
       "rank": 33
     },
     {
-      "keyword": "learning deep",
+      "keyword": "shop",
       "count": 1,
       "rank": 34
     },
     {
-      "keyword": "latent matters",
+      "keyword": "semantically annotated multimodal",
       "count": 1,
       "rank": 35
     },
     {
-      "keyword": "language models",
+      "keyword": "semantically annotated",
       "count": 1,
       "rank": 36
     },
     {
-      "keyword": "language model reasoning",
+      "keyword": "selective frame",
       "count": 1,
       "rank": 37
     },
     {
-      "keyword": "language model",
+      "keyword": "sample efficient monte carlo planning",
       "count": 1,
       "rank": 38
     },
     {
-      "keyword": "job shop scheduling",
+      "keyword": "robustness testing",
       "count": 1,
       "rank": 39
     },
     {
-      "keyword": "job shop",
+      "keyword": "rmit adm",
       "count": 1,
       "rank": 40
     },
     {
-      "keyword": "job",
+      "keyword": "reward models",
       "count": 1,
       "rank": 41
     },
     {
-      "keyword": "integration for enhanced",
+      "keyword": "reward",
       "count": 1,
       "rank": 42
     },
     {
-      "keyword": "integration",
+      "keyword": "retrospective in context learning",
       "count": 1,
       "rank": 43
     },
     {
-      "keyword": "geometric priors",
+      "keyword": "reasoning",
       "count": 1,
       "rank": 44
     },
     {
-      "keyword": "generalizable world models",
+      "keyword": "quantum diffusion model",
       "count": 1,
       "rank": 45
     },
     {
-      "keyword": "generalizable world",
+      "keyword": "quantum data pose",
       "count": 1,
       "rank": 46
     },
     {
-      "keyword": "fourier holographic reduced",
+      "keyword": "quantum data distribution",
       "count": 1,
       "rank": 47
     },
     {
-      "keyword": "flexible scheduling techniques",
+      "keyword": "quantum data",
       "count": 1,
       "rank": 48
     },
     {
-      "keyword": "flexible job shop",
+      "keyword": "quantum",
       "count": 1,
       "rank": 49
     },
     {
-      "keyword": "flexible job",
+      "keyword": "processes and two player",
       "count": 1,
       "rank": 50
     }

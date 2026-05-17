@@ -142,51 +142,97 @@
     },
     {
       "bucket": "2026-03",
-      "paper_count": 1000,
+      "paper_count": 3228,
       "top_keywords": [
         {
           "keyword": "large language model",
-          "count": 110
+          "count": 351
         },
         {
           "keyword": "language models",
-          "count": 43
+          "count": 168
         },
         {
           "keyword": "large language",
-          "count": 43
-        },
-        {
-          "keyword": "diffusion",
-          "count": 24
-        },
-        {
-          "keyword": "language",
-          "count": 24
+          "count": 168
         },
         {
           "keyword": "reasoning",
-          "count": 23
+          "count": 90
         },
         {
           "keyword": "reinforcement learning",
-          "count": 23
+          "count": 88
         },
         {
-          "keyword": "neural networks",
-          "count": 21
+          "keyword": "language",
+          "count": 80
         },
         {
           "keyword": "generation",
-          "count": 21
+          "count": 72
         },
         {
-          "keyword": "neural",
-          "count": 14
+          "keyword": "video",
+          "count": 51
+        },
+        {
+          "keyword": "diffusion",
+          "count": 50
+        },
+        {
+          "keyword": "neural networks",
+          "count": 42
+        }
+      ]
+    },
+    {
+      "bucket": "2026-04",
+      "paper_count": 4772,
+      "top_keywords": [
+        {
+          "keyword": "large language model",
+          "count": 571
+        },
+        {
+          "keyword": "large language",
+          "count": 298
+        },
+        {
+          "keyword": "language models",
+          "count": 281
+        },
+        {
+          "keyword": "reasoning",
+          "count": 131
+        },
+        {
+          "keyword": "reinforcement learning",
+          "count": 118
+        },
+        {
+          "keyword": "language",
+          "count": 105
+        },
+        {
+          "keyword": "generation",
+          "count": 103
+        },
+        {
+          "keyword": "detection",
+          "count": 89
+        },
+        {
+          "keyword": "video",
+          "count": 67
+        },
+        {
+          "keyword": "image",
+          "count": 62
         }
       ]
     }
   ],
   "cached": true,
-  "exported_at": "2026-03-08T02:16:15.863367"
+  "exported_at": "2026-05-03T03:26:33.905013"
 }

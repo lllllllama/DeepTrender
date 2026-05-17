@@ -1,0 +1,92 @@
+[
+  {
+    "category": "ALL",
+    "keyword": "large language",
+    "growth_rate": 520.0,
+    "first_seen": "2025-W51",
+    "recent_count": 52,
+    "trend": "rising",
+    "updated_at": "2026-03-29T02:36:30.032328"
+  },
+  {
+    "category": "ALL",
+    "keyword": "reinforcement learning",
+    "growth_rate": 285.0,
+    "first_seen": "2026-W07",
+    "recent_count": 28,
+    "trend": "rising",
+    "updated_at": "2026-04-05T02:40:06.710331"
+  },
+  {
+    "category": "ALL",
+    "keyword": "generation",
+    "growth_rate": 222.5,
+    "first_seen": "2025-W51",
+    "recent_count": 22,
+    "trend": "rising",
+    "updated_at": "2026-03-29T02:36:30.033593"
+  },
+  {
+    "category": "ALL",
+    "keyword": "detection",
+    "growth_rate": 197.5,
+    "first_seen": "2026-W08",
+    "recent_count": 19,
+    "trend": "rising",
+    "updated_at": "2026-05-03T03:26:25.373005"
+  },
+  {
+    "category": "ALL",
+    "keyword": "image",
+    "growth_rate": 192.5,
+    "first_seen": "2026-W09",
+    "recent_count": 19,
+    "trend": "rising",
+    "updated_at": "2026-05-03T03:26:25.373304"
+  },
+  {
+    "category": "ALL",
+    "keyword": "video",
+    "growth_rate": 157.5,
+    "first_seen": "2026-W01",
+    "recent_count": 15,
+    "trend": "rising",
+    "updated_at": "2026-05-03T03:26:25.373315"
+  },
+  {
+    "category": "ALL",
+    "keyword": "diffusion",
+    "growth_rate": 150.0,
+    "first_seen": "2026-W01",
+    "recent_count": 15,
+    "trend": "rising",
+    "updated_at": "2026-05-03T03:26:25.373322"
+  },
+  {
+    "category": "ALL",
+    "keyword": "large language model",
+    "growth_rate": 1.79,
+    "first_seen": "2025-W51",
+    "recent_count": 108,
+    "trend": "rising",
+    "updated_at": "2026-03-29T02:36:30.033609"
+  },
+  {
+    "category": "ALL",
+    "keyword": "language models",
+    "growth_rate": 1.7,
+    "first_seen": "2025-W51",
+    "recent_count": 54,
+    "trend": "rising",
+    "updated_at": "2026-03-29T02:36:30.033615"
+  },
+  {
+    "category": "ALL",
+    "keyword": "reasoning",
+    "growth_rate": 1.6,
+    "first_seen": "2025-W51",
+    "recent_count": 29,
+    "trend": "rising",
+    "updated_at": "2026-03-29T02:36:30.033622"
+  }
+]

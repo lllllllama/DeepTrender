@@ -9,47 +9,47 @@
       2025,
       2024
     ],
-    "paper_count": 166,
+    "paper_count": 260,
     "top_keywords": [
       {
         "keyword": "large language model",
-        "count": 19
+        "count": 34
       },
       {
         "keyword": "reasoning",
-        "count": 8
-      },
-      {
-        "keyword": "language models",
-        "count": 8
-      },
-      {
-        "keyword": "large language",
-        "count": 7
-      },
-      {
-        "keyword": "diffusion model",
-        "count": 7
+        "count": 13
       },
       {
         "keyword": "reinforcement learning",
-        "count": 5
+        "count": 12
       },
       {
-        "keyword": "information",
-        "count": 5
+        "keyword": "large language",
+        "count": 11
       },
       {
-        "keyword": "diffusion",
-        "count": 5
+        "keyword": "language models",
+        "count": 11
+      },
+      {
+        "keyword": "diffusion model",
+        "count": 9
       },
       {
         "keyword": "transformer",
-        "count": 4
+        "count": 8
       },
       {
         "keyword": "neural",
-        "count": 4
+        "count": 7
+      },
+      {
+        "keyword": "diffusion",
+        "count": 7
+      },
+      {
+        "keyword": "visual",
+        "count": 6
       }
     ]
   },
@@ -63,22 +63,26 @@
       2025,
       2023
     ],
-    "paper_count": 40,
+    "paper_count": 53,
     "top_keywords": [
       {
         "keyword": "large language model",
-        "count": 6
+        "count": 9
       },
       {
         "keyword": "large language",
-        "count": 4
+        "count": 5
       },
       {
         "keyword": "neural networks",
-        "count": 3
+        "count": 4
       },
       {
         "keyword": "language models",
+        "count": 4
+      },
+      {
+        "keyword": "monte carlo",
         "count": 3
       },
       {
@@ -94,15 +98,11 @@
         "count": 2
       },
       {
+        "keyword": "reward",
+        "count": 2
+      },
+      {
         "keyword": "reasoning",
-        "count": 2
-      },
-      {
-        "keyword": "neural",
-        "count": 2
-      },
-      {
-        "keyword": "language",
         "count": 2
       }
     ]
@@ -116,8 +116,16 @@
       2026,
       2025
     ],
-    "paper_count": 10,
+    "paper_count": 20,
     "top_keywords": [
+      {
+        "keyword": "large language model",
+        "count": 4
+      },
+      {
+        "keyword": "language models",
+        "count": 3
+      },
       {
         "keyword": "vision language models",
         "count": 2
@@ -135,27 +143,19 @@
         "count": 1
       },
       {
+        "keyword": "verbal confidence",
+        "count": 1
+      },
+      {
+        "keyword": "verbal",
+        "count": 1
+      },
+      {
         "keyword": "user centric non terrestrial networks",
         "count": 1
       },
       {
         "keyword": "unlearning methods remains",
-        "count": 1
-      },
-      {
-        "keyword": "unlearning methods",
-        "count": 1
-      },
-      {
-        "keyword": "unlearning",
-        "count": 1
-      },
-      {
-        "keyword": "trust weighting",
-        "count": 1
-      },
-      {
-        "keyword": "treatment effect heterogeneity",
         "count": 1
       }
     ]
@@ -168,7 +168,7 @@
     "years_available": [
       2026
     ],
-    "paper_count": 2,
+    "paper_count": 3,
     "top_keywords": [
       {
         "keyword": "transformer quantization",
@@ -195,19 +195,19 @@
         "count": 1
       },
       {
+        "keyword": "sentiment analysis",
+        "count": 1
+      },
+      {
+        "keyword": "rlf",
+        "count": 1
+      },
+      {
+        "keyword": "repetitive lengthening form",
+        "count": 1
+      },
+      {
         "keyword": "quantization",
-        "count": 1
-      },
-      {
-        "keyword": "qualcomm ai research",
-        "count": 1
-      },
-      {
-        "keyword": "persuasive dialogue agents",
-        "count": 1
-      },
-      {
-        "keyword": "persuasive dialogue",
         "count": 1
       }
     ]
@@ -218,47 +218,47 @@
     "domain": "ML",
     "tier": "A",
     "years_available": [],
-    "paper_count": 6947,
+    "paper_count": 13947,
     "top_keywords": [
       {
         "keyword": "large language model",
-        "count": 566
+        "count": 1379
       },
       {
         "keyword": "large language",
-        "count": 294
+        "count": 718
       },
       {
         "keyword": "language models",
-        "count": 292
+        "count": 699
       },
       {
         "keyword": "generation",
-        "count": 233
+        "count": 387
       },
       {
-        "keyword": "diffusion",
-        "count": 227
-      },
-      {
-        "keyword": "diffusion model",
-        "count": 227
-      },
-      {
-        "keyword": "image",
-        "count": 195
-      },
-      {
-        "keyword": "video",
-        "count": 178
+        "keyword": "reasoning",
+        "count": 345
       },
       {
         "keyword": "language",
-        "count": 163
+        "count": 324
       },
       {
-        "keyword": "detection",
-        "count": 148
+        "keyword": "diffusion",
+        "count": 304
+      },
+      {
+        "keyword": "diffusion model",
+        "count": 299
+      },
+      {
+        "keyword": "reinforcement learning",
+        "count": 292
+      },
+      {
+        "keyword": "image",
+        "count": 291
       }
     ]
   },
@@ -268,47 +268,47 @@
     "domain": "ML",
     "tier": "A",
     "years_available": [],
-    "paper_count": 6947,
+    "paper_count": 13947,
     "top_keywords": [
       {
         "keyword": "large language model",
-        "count": 566
+        "count": 1379
       },
       {
         "keyword": "large language",
-        "count": 294
+        "count": 718
       },
       {
         "keyword": "language models",
-        "count": 292
+        "count": 699
       },
       {
         "keyword": "generation",
-        "count": 233
+        "count": 387
       },
       {
-        "keyword": "diffusion",
-        "count": 227
-      },
-      {
-        "keyword": "diffusion model",
-        "count": 227
-      },
-      {
-        "keyword": "image",
-        "count": 195
-      },
-      {
-        "keyword": "video",
-        "count": 178
+        "keyword": "reasoning",
+        "count": 345
       },
       {
         "keyword": "language",
-        "count": 163
+        "count": 324
       },
       {
-        "keyword": "detection",
-        "count": 148
+        "keyword": "diffusion",
+        "count": 304
+      },
+      {
+        "keyword": "diffusion model",
+        "count": 299
+      },
+      {
+        "keyword": "reinforcement learning",
+        "count": 292
+      },
+      {
+        "keyword": "image",
+        "count": 291
       }
     ]
   },
@@ -318,47 +318,47 @@
     "domain": "ML",
     "tier": "A",
     "years_available": [],
-    "paper_count": 6947,
+    "paper_count": 13947,
     "top_keywords": [
       {
         "keyword": "large language model",
-        "count": 566
+        "count": 1379
       },
       {
         "keyword": "large language",
-        "count": 294
+        "count": 718
       },
       {
         "keyword": "language models",
-        "count": 292
+        "count": 699
       },
       {
         "keyword": "generation",
-        "count": 233
+        "count": 387
       },
       {
-        "keyword": "diffusion",
-        "count": 227
-      },
-      {
-        "keyword": "diffusion model",
-        "count": 227
-      },
-      {
-        "keyword": "image",
-        "count": 195
-      },
-      {
-        "keyword": "video",
-        "count": 178
+        "keyword": "reasoning",
+        "count": 345
       },
       {
         "keyword": "language",
-        "count": 163
+        "count": 324
       },
       {
-        "keyword": "detection",
-        "count": 148
+        "keyword": "diffusion",
+        "count": 304
+      },
+      {
+        "keyword": "diffusion model",
+        "count": 299
+      },
+      {
+        "keyword": "reinforcement learning",
+        "count": 292
+      },
+      {
+        "keyword": "image",
+        "count": 291
       }
     ]
   },
@@ -370,8 +370,36 @@
     "years_available": [
       2026
     ],
-    "paper_count": 5,
+    "paper_count": 33,
     "top_keywords": [
+      {
+        "keyword": "variational",
+        "count": 2
+      },
+      {
+        "keyword": "representations",
+        "count": 2
+      },
+      {
+        "keyword": "processes",
+        "count": 2
+      },
+      {
+        "keyword": "optimization",
+        "count": 2
+      },
+      {
+        "keyword": "neural",
+        "count": 2
+      },
+      {
+        "keyword": "markov",
+        "count": 2
+      },
+      {
+        "keyword": "dynamics",
+        "count": 2
+      },
       {
         "keyword": "wsbd",
         "count": 1
@@ -381,35 +409,7 @@
         "count": 1
       },
       {
-        "keyword": "utility markov games",
-        "count": 1
-      },
-      {
-        "keyword": "uncoupled learning dynamics",
-        "count": 1
-      },
-      {
-        "keyword": "uncoupled learning algorithm",
-        "count": 1
-      },
-      {
-        "keyword": "uncoupled learning",
-        "count": 1
-      },
-      {
-        "keyword": "stochastic block descent",
-        "count": 1
-      },
-      {
-        "keyword": "saddle point problems",
-        "count": 1
-      },
-      {
-        "keyword": "quantum neural networks",
-        "count": 1
-      },
-      {
-        "keyword": "quantum neural",
+        "keyword": "weakly supervised kernel",
         "count": 1
       }
     ]

@@ -1,108 +1,92 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>会议对比 - DeepTrender</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Venue Comparison - DeepTrender</title>
+    <link rel="stylesheet" href="./static/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 </head>
-
-<body>
+<body data-i18n-title="comparison.title">
     <nav class="navbar">
         <div class="nav-brand">
-            <span class="brand-icon">🔬</span>
             <span class="brand-text">DeepTrender</span>
         </div>
         <div class="nav-links">
-            <a href="/" class="nav-link">首页</a>
-            <a href="/venue.html" class="nav-link">会议分析</a>
-            <a href="/trends.html" class="nav-link">趋势追踪</a>
-            <a href="/comparison.html" class="nav-link active">会议对比</a>
-            <a href="/arxiv.html" class="nav-link">arXiv 趋势</a>
+            <a href="./index.html" class="nav-link" data-i18n="nav.home">Home</a>
+            <a href="./venue.html" class="nav-link" data-i18n="nav.venues">Venue Analysis</a>
+            <a href="./trends.html" class="nav-link" data-i18n="nav.trends">Trend Tracking</a>
+            <a href="./comparison.html" class="nav-link active" data-i18n="nav.compare">Venue Comparison</a>
+            <a href="./arxiv.html" class="nav-link" data-i18n="nav.arxiv">arXiv Trends</a>
+        </div>
+        <div class="lang-switcher">
+            <button class="lang-btn active" type="button" data-lang-switch="en" onclick="SiteI18n.switchLanguage('en')" data-i18n="lang.en">English</button>
+            <button class="lang-btn" type="button" data-lang-switch="zh" onclick="SiteI18n.switchLanguage('zh')" data-i18n="lang.zh">Chinese</button>
         </div>
     </nav>
 
     <main class="container">
         <section class="page-header">
-            <h1>🏆 会议对比分析</h1>
-            <p>对比不同会议的关键词分布，发现领域差异</p>
+            <h1 data-i18n="comparison.heading">Venue Comparison</h1>
+            <p data-i18n="comparison.subheading">Compare keyword distributions across venues.</p>
         </section>
 
-        <!-- 年份选择 -->
         <section class="filter-bar">
             <div class="filter-group">
-                <label>对比年份：</label>
+                <label for="compare-year" data-i18n="comparison.year">Year</label>
                 <select id="compare-year" class="filter-select"></select>
             </div>
         </section>
 
-        <!-- 雷达图对比 -->
         <section class="chart-card full-width">
             <div class="chart-header">
-                <h3>📊 关键词分布对比</h3>
+                <h3 data-i18n="comparison.chart">Keyword Distribution Comparison</h3>
             </div>
             <div class="chart-body" id="chart-radar" style="height: 500px;"></div>
         </section>
 
-        <!-- 并排对比 -->
-        <section class="comparison-grid" id="comparison-grid">
-            <!-- 动态生成 -->
-        </section>
+        <section class="comparison-grid" id="comparison-grid"></section>
     </main>
 
     <footer class="footer">
-        <p>DeepTrender - AI 顶会论文关键词趋势分析系统</p>
+        <p data-i18n="footer.tagline">DeepTrender - AI paper keyword tracking and trend analytics</p>
     </footer>
 
-    <script src="/static/js/toast.js"></script>
-    <script src="/static/js/api.js"></script>
-    <script src="/static/js/charts.js"></script>
+    <script src="./static/js/site.js"></script>
+    <script src="./static/js/toast.js"></script>
+    <script src="./static/js/api.js"></script>
+    <script src="./static/js/charts.js"></script>
     <script>
         async function init() {
             const overview = await API.getOverview();
-            const yearSelect = document.getElementById('compare-year');
-
-            // 填充年份
+            const yearSelect = document.getElementById("compare-year");
             const years = [...overview.years].sort((a, b) => b - a);
-            years.forEach(year => {
-                const option = document.createElement('option');
+
+            years.forEach((year) => {
+                const option = document.createElement("option");
                 option.value = year;
                 option.textContent = year;
                 yearSelect.appendChild(option);
             });
 
-            yearSelect.addEventListener('change', loadComparison);
-
-            // 默认加载最新年份
+            yearSelect.addEventListener("change", loadComparison);
             if (years.length > 0) {
                 loadComparison();
             }
         }
 
         async function loadComparison() {
-            const year = parseInt(document.getElementById('compare-year').value);
-
-            try {
-                const comparison = await API.getComparison(year, 15);
-
-                // 渲染雷达图
-                Charts.renderComparisonRadar('chart-radar', comparison);
-
-                // 渲染并排对比
-                renderComparisonGrid(comparison);
-
-            } catch (error) {
-                console.error('加载对比数据失败:', error);
-            }
+            const year = parseInt(document.getElementById("compare-year").value, 10);
+            const comparison = await API.getComparison(year, 15);
+            Charts.renderComparisonRadar("chart-radar", comparison);
+            renderComparisonGrid(comparison);
         }
 
         function renderComparisonGrid(comparison) {
-            const grid = document.getElementById('comparison-grid');
+            const grid = document.getElementById("comparison-grid");
             const venues = Object.keys(comparison.venues);
 
-            grid.innerHTML = venues.map(venue => {
+            grid.innerHTML = venues.map((venue) => {
                 const keywords = comparison.venues[venue];
                 const maxCount = keywords.length > 0 ? keywords[0].count : 1;
 
@@ -113,132 +97,23 @@
                             <span class="comparison-year">${comparison.year}</span>
                         </div>
                         <div class="comparison-keywords">
-                            ${keywords.slice(0, 10).map((kw, idx) => `
+                            ${keywords.slice(0, 10).map((keyword, index) => `
                                 <div class="keyword-row">
-                                    <span class="keyword-rank">${idx + 1}</span>
-                                    <span class="keyword-name">${kw.keyword}</span>
+                                    <span class="keyword-rank">${index + 1}</span>
+                                    <span class="keyword-name">${keyword.keyword}</span>
                                     <div class="keyword-bar-container">
-                                        <div class="keyword-bar" style="width: ${(kw.count / maxCount * 100)}%"></div>
+                                        <div class="keyword-bar" style="width: ${(keyword.count / maxCount) * 100}%"></div>
                                     </div>
-                                    <span class="keyword-count">${kw.count}</span>
+                                    <span class="keyword-count">${keyword.count}</span>
                                 </div>
-                            `).join('')}
+                            `).join("")}
                         </div>
                     </div>
                 `;
-            }).join('');
+            }).join("");
         }
 
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener("DOMContentLoaded", init);
     </script>
-
-    <style>
-        .page-header {
-            margin-bottom: 2rem;
-        }
-
-        .page-header h1 {
-            font-size: 1.75rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .page-header p {
-            color: var(--text-secondary);
-        }
-
-        .comparison-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .comparison-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: var(--radius);
-            overflow: hidden;
-        }
-
-        .comparison-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 1.5rem;
-            border-bottom: 1px solid var(--border-color);
-            background: var(--bg-tertiary);
-        }
-
-        .comparison-header h3 {
-            font-size: 1.1rem;
-            color: var(--accent);
-        }
-
-        .comparison-year {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            background: var(--bg-secondary);
-            padding: 0.2rem 0.5rem;
-            border-radius: 4px;
-        }
-
-        .comparison-keywords {
-            padding: 1rem;
-        }
-
-        .keyword-row {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            padding: 0.5rem 0;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .keyword-row:last-child {
-            border-bottom: none;
-        }
-
-        .keyword-rank {
-            width: 24px;
-            height: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: var(--bg-tertiary);
-            border-radius: 50%;
-            font-size: 0.75rem;
-            color: var(--text-secondary);
-        }
-
-        .keyword-name {
-            flex: 1;
-            font-size: 0.875rem;
-            color: var(--text-primary);
-            min-width: 100px;
-        }
-
-        .keyword-bar-container {
-            flex: 1;
-            height: 8px;
-            background: var(--bg-tertiary);
-            border-radius: 4px;
-            overflow: hidden;
-        }
-
-        .keyword-bar {
-            height: 100%;
-            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
-            border-radius: 4px;
-            transition: width 0.3s ease;
-        }
-
-        .keyword-count {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            min-width: 40px;
-            text-align: right;
-        }
-    </style>
 </body>
-
 </html>

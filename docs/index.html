@@ -1,133 +1,116 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeepTrender - AI 顶会论文趋势分析</title>
-    <link rel="stylesheet" href="/static/css/style.css">
-    <!-- ECharts -->
+    <title>DeepTrender - AI Paper Trend Analytics</title>
+    <link rel="stylesheet" href="./static/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-    <!-- ECharts WordCloud -->
     <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2.1.0/dist/echarts-wordcloud.min.js"></script>
 </head>
-
-<body>
-    <!-- 导航栏 -->
+<body data-i18n-title="index.title">
     <nav class="navbar">
         <div class="nav-brand">
-            <span class="brand-icon">🔬</span>
             <span class="brand-text">DeepTrender</span>
         </div>
         <div class="nav-links">
-            <a href="/" class="nav-link active">首页</a>
-            <a href="/venue.html" class="nav-link">会议分析</a>
-            <a href="/trends.html" class="nav-link">趋势追踪</a>
-            <a href="/comparison.html" class="nav-link">会议对比</a>
-            <a href="/arxiv.html" class="nav-link">arXiv 趋势</a>
+            <a href="./index.html" class="nav-link active" data-i18n="nav.home">Home</a>
+            <a href="./venue.html" class="nav-link" data-i18n="nav.venues">Venue Analysis</a>
+            <a href="./trends.html" class="nav-link" data-i18n="nav.trends">Trend Tracking</a>
+            <a href="./comparison.html" class="nav-link" data-i18n="nav.compare">Venue Comparison</a>
+            <a href="./arxiv.html" class="nav-link" data-i18n="nav.arxiv">arXiv Trends</a>
+        </div>
+        <div class="lang-switcher">
+            <button class="lang-btn active" type="button" data-lang-switch="en" onclick="SiteI18n.switchLanguage('en')" data-i18n="lang.en">English</button>
+            <button class="lang-btn" type="button" data-lang-switch="zh" onclick="SiteI18n.switchLanguage('zh')" data-i18n="lang.zh">Chinese</button>
         </div>
     </nav>
 
-    <!-- 主内容 -->
     <main class="container">
-        <!-- 统计卡片 -->
         <section class="stats-grid">
             <div class="stat-card">
-                <div class="stat-icon">📄</div>
                 <div class="stat-content">
                     <div class="stat-value" id="stat-papers">--</div>
-                    <div class="stat-label">论文总数</div>
+                    <div class="stat-label" data-i18n="index.stat.papers">Total Papers</div>
                 </div>
             </div>
             <div class="stat-card">
-                <div class="stat-icon">🔑</div>
                 <div class="stat-content">
                     <div class="stat-value" id="stat-keywords">--</div>
-                    <div class="stat-label">关键词数</div>
+                    <div class="stat-label" data-i18n="index.stat.keywords">Tracked Keywords</div>
                 </div>
             </div>
             <div class="stat-card">
-                <div class="stat-icon">🏛️</div>
                 <div class="stat-content">
                     <div class="stat-value" id="stat-venues">--</div>
-                    <div class="stat-label">覆盖会议</div>
+                    <div class="stat-label" data-i18n="index.stat.venues">Covered Venues</div>
                 </div>
             </div>
             <div class="stat-card">
-                <div class="stat-icon">📅</div>
                 <div class="stat-content">
                     <div class="stat-value" id="stat-years">--</div>
-                    <div class="stat-label">年份范围</div>
+                    <div class="stat-label" data-i18n="index.stat.years">Year Range</div>
                 </div>
             </div>
         </section>
 
-        <!-- 筛选器 -->
         <section class="filter-bar">
             <div class="filter-group">
-                <label>会议：</label>
+                <label for="filter-venue" data-i18n="index.filter.venue">Venue</label>
                 <select id="filter-venue" class="filter-select">
-                    <option value="">全部会议</option>
+                    <option value="" data-i18n="index.filter.venue.all">All venues</option>
                 </select>
             </div>
             <div class="filter-group">
-                <label>年份：</label>
+                <label for="filter-year" data-i18n="index.filter.year">Year</label>
                 <select id="filter-year" class="filter-select">
-                    <option value="">全部年份</option>
+                    <option value="" data-i18n="index.filter.year.all">All years</option>
                 </select>
             </div>
-            <button class="btn-refresh" onclick="refreshData()">
-                🔄 刷新
-            </button>
+            <button class="btn-refresh" type="button" onclick="refreshData()" data-i18n="index.refresh">Refresh</button>
         </section>
 
-        <!-- 图表区域 -->
         <section class="charts-grid">
-            <!-- 词云 -->
             <div class="chart-card large">
                 <div class="chart-header">
-                    <h3>🌥️ 关键词云</h3>
+                    <h3 data-i18n="index.cloud">Keyword Cloud</h3>
                 </div>
                 <div class="chart-body" id="chart-wordcloud"></div>
             </div>
 
-            <!-- Top 关键词 -->
             <div class="chart-card">
                 <div class="chart-header">
-                    <h3>🏆 Top 20 热门关键词</h3>
+                    <h3 data-i18n="index.top">Top 20 Keywords</h3>
                 </div>
                 <div class="chart-body" id="chart-top-keywords"></div>
             </div>
         </section>
 
-        <!-- 趋势图 -->
         <section class="chart-card full-width">
             <div class="chart-header">
-                <h3>📈 关键词趋势</h3>
+                <h3 data-i18n="index.trends">Keyword Trends</h3>
                 <div class="chart-actions">
-                    <input type="text" id="trend-search" class="search-input" placeholder="搜索关键词..." />
+                    <input type="text" id="trend-search" class="search-input" data-i18n-placeholder="index.search" placeholder="Search keywords..." />
                 </div>
             </div>
             <div class="chart-body tall" id="chart-trends"></div>
         </section>
 
-        <!-- 会议概览 -->
         <section class="venues-section">
-            <h2>📚 会议概览</h2>
+            <h2 data-i18n="index.venues">Venue Overview</h2>
             <div class="venues-grid" id="venues-grid"></div>
         </section>
     </main>
 
-    <!-- 页脚 -->
     <footer class="footer">
-        <p>DeepTrender - AI 顶会论文关键词趋势分析系统</p>
-        <p>数据来源: OpenReview | Semantic Scholar</p>
+        <p data-i18n="footer.tagline">DeepTrender - AI paper keyword tracking and trend analytics</p>
+        <p data-i18n="footer.sources.core">Data sources: OpenReview | Semantic Scholar</p>
     </footer>
 
-    <script src="/static/js/toast.js"></script>
-    <script src="/static/js/api.js"></script>
-    <script src="/static/js/charts.js"></script>
-    <script src="/static/js/main.js"></script>
+    <script src="./static/js/site.js"></script>
+    <script src="./static/js/toast.js"></script>
+    <script src="./static/js/api.js"></script>
+    <script src="./static/js/charts.js"></script>
+    <script src="./static/js/main.js"></script>
 </body>
-
 </html>

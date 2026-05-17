@@ -1,104 +1,92 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>趋势追踪 - DeepTrender</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Trend Tracking - DeepTrender</title>
+    <link rel="stylesheet" href="./static/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 </head>
-
-<body>
+<body data-i18n-title="trends.title">
     <nav class="navbar">
         <div class="nav-brand">
-            <span class="brand-icon">🔬</span>
             <span class="brand-text">DeepTrender</span>
         </div>
         <div class="nav-links">
-            <a href="/" class="nav-link">首页</a>
-            <a href="/venue.html" class="nav-link">会议分析</a>
-            <a href="/trends.html" class="nav-link active">趋势追踪</a>
-            <a href="/comparison.html" class="nav-link">会议对比</a>
-            <a href="/arxiv.html" class="nav-link">arXiv 趋势</a>
+            <a href="./index.html" class="nav-link" data-i18n="nav.home">Home</a>
+            <a href="./venue.html" class="nav-link" data-i18n="nav.venues">Venue Analysis</a>
+            <a href="./trends.html" class="nav-link active" data-i18n="nav.trends">Trend Tracking</a>
+            <a href="./comparison.html" class="nav-link" data-i18n="nav.compare">Venue Comparison</a>
+            <a href="./arxiv.html" class="nav-link" data-i18n="nav.arxiv">arXiv Trends</a>
+        </div>
+        <div class="lang-switcher">
+            <button class="lang-btn active" type="button" data-lang-switch="en" onclick="SiteI18n.switchLanguage('en')" data-i18n="lang.en">English</button>
+            <button class="lang-btn" type="button" data-lang-switch="zh" onclick="SiteI18n.switchLanguage('zh')" data-i18n="lang.zh">Chinese</button>
         </div>
     </nav>
 
     <main class="container">
         <section class="page-header">
-            <h1>📈 关键词趋势追踪</h1>
-            <p>追踪关键词的历年变化，发现研究热点</p>
+            <h1 data-i18n="trends.heading">Keyword Trend Tracking</h1>
+            <p data-i18n="trends.subheading">Track long-term shifts in popular research topics.</p>
         </section>
 
-        <!-- 搜索区域 -->
         <section class="search-section">
             <div class="search-box">
-                <input type="text" id="keyword-input" class="search-input-large"
-                    placeholder="输入关键词，按回车添加（如：transformer, diffusion）">
-                <button class="btn-search" onclick="addKeyword()">添加</button>
+                <input type="text" id="keyword-input" class="search-input-large" data-i18n-placeholder="trends.placeholder" placeholder="Type keywords and press Enter, e.g. transformer, diffusion">
+                <button class="btn-search" type="button" onclick="addKeyword()" data-i18n="trends.add">Add</button>
             </div>
-            <div class="selected-keywords" id="selected-keywords">
-                <!-- 动态生成 -->
-            </div>
+            <div class="selected-keywords" id="selected-keywords"></div>
         </section>
 
-        <!-- 趋势图 -->
         <section class="chart-card full-width">
             <div class="chart-header">
-                <h3>📊 关键词趋势对比</h3>
-                <button class="btn-clear" onclick="clearKeywords()">清空</button>
+                <h3 data-i18n="trends.compare">Keyword Trend Comparison</h3>
+                <button class="btn-clear" type="button" onclick="clearKeywords()" data-i18n="trends.clear">Clear</button>
             </div>
             <div class="chart-body" id="chart-trend-main" style="height: 450px;"></div>
         </section>
 
-        <!-- 新兴关键词 -->
         <section class="emerging-section">
-            <h2>🚀 新兴关键词</h2>
-            <p>近期增长最快的研究主题</p>
-            <div class="emerging-grid" id="emerging-grid">
-                <!-- 动态生成 -->
-            </div>
+            <h2 data-i18n="trends.emerging">Emerging Keywords</h2>
+            <p data-i18n="trends.emerging.desc">Topics growing fastest in recent data.</p>
+            <div class="emerging-grid" id="emerging-grid"></div>
         </section>
 
-        <!-- 热门推荐 -->
         <section class="suggestions-section">
-            <h2>🔥 热门关键词</h2>
-            <div class="suggestions-grid" id="suggestions-grid">
-                <!-- 动态生成 -->
-            </div>
+            <h2 data-i18n="trends.suggestions">Popular Keywords</h2>
+            <div class="suggestions-grid" id="suggestions-grid"></div>
         </section>
     </main>
 
     <footer class="footer">
-        <p>DeepTrender - AI 顶会论文关键词趋势分析系统</p>
+        <p data-i18n="footer.tagline">DeepTrender - AI paper keyword tracking and trend analytics</p>
     </footer>
 
-    <script src="/static/js/toast.js"></script>
-    <script src="/static/js/api.js"></script>
-    <script src="/static/js/charts.js"></script>
+    <script src="./static/js/site.js"></script>
+    <script src="./static/js/toast.js"></script>
+    <script src="./static/js/api.js"></script>
+    <script src="./static/js/charts.js"></script>
     <script>
         let selectedKeywords = [];
 
         async function init() {
-            // 加载热门关键词推荐
             await loadSuggestions();
-
-            // 加载新兴关键词
             await loadEmerging();
 
-            // 绑定回车事件
-            document.getElementById('keyword-input').addEventListener('keypress', (e) => {
-                if (e.key === 'Enter') addKeyword();
+            document.getElementById("keyword-input").addEventListener("keypress", (event) => {
+                if (event.key === "Enter") {
+                    addKeyword();
+                }
             });
 
-            // 默认加载一些热门关键词
-            selectedKeywords = ['transformer', 'diffusion', 'llm', 'reinforcement learning'];
+            selectedKeywords = ["transformer", "diffusion", "llm", "reinforcement learning"];
             updateSelectedDisplay();
             await loadTrends();
         }
 
         function addKeyword() {
-            const input = document.getElementById('keyword-input');
+            const input = document.getElementById("keyword-input");
             const keyword = input.value.trim().toLowerCase();
 
             if (keyword && !selectedKeywords.includes(keyword)) {
@@ -107,11 +95,11 @@
                 loadTrends();
             }
 
-            input.value = '';
+            input.value = "";
         }
 
         function removeKeyword(keyword) {
-            selectedKeywords = selectedKeywords.filter(k => k !== keyword);
+            selectedKeywords = selectedKeywords.filter((item) => item !== keyword);
             updateSelectedDisplay();
             loadTrends();
         }
@@ -119,67 +107,49 @@
         function clearKeywords() {
             selectedKeywords = [];
             updateSelectedDisplay();
-            const chart = Charts.get('chart-trend-main');
-            if (chart) chart.clear();
+            const chart = Charts.get("chart-trend-main");
+            if (chart) {
+                chart.clear();
+            }
         }
 
         function updateSelectedDisplay() {
-            const container = document.getElementById('selected-keywords');
-            container.innerHTML = selectedKeywords.map(kw => `
+            document.getElementById("selected-keywords").innerHTML = selectedKeywords.map((keyword) => `
                 <span class="selected-tag">
-                    ${kw}
-                    <button class="tag-remove" onclick="removeKeyword('${kw}')">&times;</button>
+                    ${keyword}
+                    <button class="tag-remove" onclick="removeKeyword('${keyword}')">&times;</button>
                 </span>
-            `).join('');
+            `).join("");
         }
 
         async function loadTrends() {
-            if (selectedKeywords.length === 0) return;
-
-            try {
-                const trends = await API.getKeywordTrends(selectedKeywords);
-                Charts.renderTrendChart('chart-trend-main', trends);
-            } catch (error) {
-                console.error('加载趋势失败:', error);
+            if (selectedKeywords.length === 0) {
+                return;
             }
+
+            Charts.renderTrendChart("chart-trend-main", await API.getKeywordTrends(selectedKeywords));
         }
 
         async function loadSuggestions() {
-            try {
-                const keywords = await API.getTopKeywords({ limit: 20 });
-                const grid = document.getElementById('suggestions-grid');
-
-                grid.innerHTML = keywords.map(kw => `
-                    <button class="suggestion-btn" onclick="addSuggestion('${kw.keyword}')">
-                        ${kw.keyword}
-                        <span class="suggestion-count">${kw.count}</span>
-                    </button>
-                `).join('');
-            } catch (error) {
-                console.error('加载推荐失败:', error);
-            }
+            const keywords = await API.getTopKeywords({ limit: 20 });
+            document.getElementById("suggestions-grid").innerHTML = keywords.map((item) => `
+                <button class="suggestion-btn" onclick="addSuggestion('${item.keyword}')">
+                    ${item.keyword}
+                    <span class="suggestion-count">${item.count}</span>
+                </button>
+            `).join("");
         }
 
         async function loadEmerging() {
-            try {
-                const emerging = await API.getEmergingKeywords();
-                const grid = document.getElementById('emerging-grid');
-
-                if (emerging && emerging.length > 0) {
-                    grid.innerHTML = emerging.slice(0, 12).map(item => `
-                        <div class="emerging-card" onclick="addSuggestion('${item.keyword}')">
-                            <span class="emerging-keyword">${item.keyword}</span>
-                            <span class="emerging-growth">+${item.growth_rate?.toFixed(0) || '∞'}%</span>
-                        </div>
-                    `).join('');
-                } else {
-                    grid.innerHTML = '<p class="no-data">暂无数据</p>';
-                }
-            } catch (error) {
-                console.error('加载新兴关键词失败:', error);
-                document.getElementById('emerging-grid').innerHTML =
-                    '<p class="no-data">暂无数据</p>';
-            }
+            const emerging = await API.getEmergingKeywords();
+            document.getElementById("emerging-grid").innerHTML = emerging && emerging.length > 0
+                ? emerging.slice(0, 12).map((item) => `
+                    <div class="emerging-card" onclick="addSuggestion('${item.keyword}')">
+                        <span class="emerging-keyword">${item.keyword}</span>
+                        <span class="emerging-growth">+${item.growth_rate?.toFixed(0) || 0}%</span>
+                    </div>
+                `).join("")
+                : '<p class="no-data">No data available.</p>';
         }
 
         function addSuggestion(keyword) {
@@ -190,189 +160,7 @@
             }
         }
 
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener("DOMContentLoaded", init);
     </script>
-
-    <style>
-        .page-header {
-            margin-bottom: 2rem;
-        }
-
-        .page-header h1 {
-            font-size: 1.75rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .page-header p {
-            color: var(--text-secondary);
-        }
-
-        .search-section {
-            margin-bottom: 2rem;
-        }
-
-        .search-box {
-            display: flex;
-            gap: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .search-input-large {
-            flex: 1;
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            color: var(--text-primary);
-            padding: 0.75rem 1rem;
-            border-radius: var(--radius-sm);
-            font-size: 1rem;
-        }
-
-        .search-input-large:focus {
-            outline: none;
-            border-color: var(--accent);
-        }
-
-        .btn-search,
-        .btn-clear {
-            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-            color: white;
-            border: none;
-            padding: 0.75rem 1.5rem;
-            border-radius: var(--radius-sm);
-            cursor: pointer;
-            font-weight: 500;
-            transition: var(--transition);
-        }
-
-        .btn-search:hover,
-        .btn-clear:hover {
-            transform: scale(1.02);
-        }
-
-        .btn-clear {
-            background: var(--bg-tertiary);
-            color: var(--text-secondary);
-        }
-
-        .selected-keywords {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .selected-tag {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            background: rgba(88, 166, 255, 0.15);
-            color: var(--accent);
-            padding: 0.4rem 0.75rem;
-            border-radius: 20px;
-            font-size: 0.9rem;
-        }
-
-        .tag-remove {
-            background: none;
-            border: none;
-            color: var(--accent);
-            cursor: pointer;
-            font-size: 1.1rem;
-            line-height: 1;
-            padding: 0;
-            opacity: 0.7;
-        }
-
-        .tag-remove:hover {
-            opacity: 1;
-        }
-
-        .emerging-section,
-        .suggestions-section {
-            margin-top: 3rem;
-        }
-
-        .emerging-section h2,
-        .suggestions-section h2 {
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .emerging-section p {
-            color: var(--text-secondary);
-            margin-bottom: 1rem;
-        }
-
-        .emerging-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 1rem;
-        }
-
-        .emerging-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: var(--radius-sm);
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-            transition: var(--transition);
-        }
-
-        .emerging-card:hover {
-            border-color: var(--success);
-            transform: translateY(-2px);
-        }
-
-        .emerging-keyword {
-            font-weight: 500;
-        }
-
-        .emerging-growth {
-            color: var(--success);
-            font-size: 0.85rem;
-            font-weight: 600;
-        }
-
-        .suggestions-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-top: 1rem;
-        }
-
-        .suggestion-btn {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            color: var(--text-primary);
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: var(--transition);
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .suggestion-btn:hover {
-            border-color: var(--accent);
-            background: rgba(88, 166, 255, 0.1);
-        }
-
-        .suggestion-count {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            background: var(--bg-tertiary);
-            padding: 0.15rem 0.4rem;
-            border-radius: 10px;
-        }
-
-        .no-data {
-            color: var(--text-muted);
-            font-style: italic;
-        }
-    </style>
 </body>
-
 </html>

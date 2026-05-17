@@ -277,8 +277,330 @@
           "count": 14
         }
       ]
+    },
+    {
+      "bucket": "2026-W11",
+      "paper_count": 1000,
+      "top_keywords": [
+        {
+          "keyword": "large language model",
+          "count": 113
+        },
+        {
+          "keyword": "large language",
+          "count": 61
+        },
+        {
+          "keyword": "language models",
+          "count": 54
+        },
+        {
+          "keyword": "reinforcement learning",
+          "count": 31
+        },
+        {
+          "keyword": "reasoning",
+          "count": 26
+        },
+        {
+          "keyword": "generation",
+          "count": 25
+        },
+        {
+          "keyword": "language",
+          "count": 19
+        },
+        {
+          "keyword": "image",
+          "count": 17
+        },
+        {
+          "keyword": "multimodal large language",
+          "count": 15
+        },
+        {
+          "keyword": "vision language models",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "bucket": "2026-W12",
+      "paper_count": 1000,
+      "top_keywords": [
+        {
+          "keyword": "large language model",
+          "count": 102
+        },
+        {
+          "keyword": "language models",
+          "count": 56
+        },
+        {
+          "keyword": "large language",
+          "count": 48
+        },
+        {
+          "keyword": "reasoning",
+          "count": 35
+        },
+        {
+          "keyword": "language",
+          "count": 32
+        },
+        {
+          "keyword": "reinforcement learning",
+          "count": 30
+        },
+        {
+          "keyword": "video",
+          "count": 24
+        },
+        {
+          "keyword": "generation",
+          "count": 19
+        },
+        {
+          "keyword": "diffusion",
+          "count": 17
+        },
+        {
+          "keyword": "segmentation",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "bucket": "2026-W14",
+      "paper_count": 1000,
+      "top_keywords": [
+        {
+          "keyword": "large language model",
+          "count": 114
+        },
+        {
+          "keyword": "language models",
+          "count": 69
+        },
+        {
+          "keyword": "large language",
+          "count": 64
+        },
+        {
+          "keyword": "reinforcement learning",
+          "count": 30
+        },
+        {
+          "keyword": "reasoning",
+          "count": 28
+        },
+        {
+          "keyword": "language",
+          "count": 28
+        },
+        {
+          "keyword": "generation",
+          "count": 26
+        },
+        {
+          "keyword": "detection",
+          "count": 15
+        },
+        {
+          "keyword": "optimization",
+          "count": 15
+        },
+        {
+          "keyword": "gaussian",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "bucket": "2026-W15",
+      "paper_count": 1000,
+      "top_keywords": [
+        {
+          "keyword": "large language model",
+          "count": 129
+        },
+        {
+          "keyword": "large language",
+          "count": 73
+        },
+        {
+          "keyword": "language models",
+          "count": 60
+        },
+        {
+          "keyword": "reasoning",
+          "count": 32
+        },
+        {
+          "keyword": "reinforcement learning",
+          "count": 29
+        },
+        {
+          "keyword": "generation",
+          "count": 25
+        },
+        {
+          "keyword": "language",
+          "count": 22
+        },
+        {
+          "keyword": "detection",
+          "count": 21
+        },
+        {
+          "keyword": "video",
+          "count": 18
+        },
+        {
+          "keyword": "multimodal large language",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "bucket": "2026-W16",
+      "paper_count": 1000,
+      "top_keywords": [
+        {
+          "keyword": "large language model",
+          "count": 126
+        },
+        {
+          "keyword": "large language",
+          "count": 64
+        },
+        {
+          "keyword": "language models",
+          "count": 63
+        },
+        {
+          "keyword": "reinforcement learning",
+          "count": 28
+        },
+        {
+          "keyword": "language",
+          "count": 26
+        },
+        {
+          "keyword": "generation",
+          "count": 26
+        },
+        {
+          "keyword": "detection",
+          "count": 25
+        },
+        {
+          "keyword": "reasoning",
+          "count": 22
+        },
+        {
+          "keyword": "image",
+          "count": 20
+        },
+        {
+          "keyword": "video",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "bucket": "2026-W17",
+      "paper_count": 1000,
+      "top_keywords": [
+        {
+          "keyword": "large language model",
+          "count": 126
+        },
+        {
+          "keyword": "language models",
+          "count": 65
+        },
+        {
+          "keyword": "large language",
+          "count": 63
+        },
+        {
+          "keyword": "reasoning",
+          "count": 33
+        },
+        {
+          "keyword": "image",
+          "count": 19
+        },
+        {
+          "keyword": "reinforcement learning",
+          "count": 18
+        },
+        {
+          "keyword": "detection",
+          "count": 18
+        },
+        {
+          "keyword": "language",
+          "count": 17
+        },
+        {
+          "keyword": "generation",
+          "count": 17
+        },
+        {
+          "keyword": "visual",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "bucket": "2026-W18",
+      "paper_count": 1000,
+      "top_keywords": [
+        {
+          "keyword": "large language model",
+          "count": 102
+        },
+        {
+          "keyword": "large language",
+          "count": 50
+        },
+        {
+          "keyword": "language models",
+          "count": 39
+        },
+        {
+          "keyword": "reasoning",
+          "count": 22
+        },
+        {
+          "keyword": "language",
+          "count": 17
+        },
+        {
+          "keyword": "reinforcement learning",
+          "count": 17
+        },
+        {
+          "keyword": "generation",
+          "count": 16
+        },
+        {
+          "keyword": "detection",
+          "count": 15
+        },
+        {
+          "keyword": "agents",
+          "count": 12
+        },
+        {
+          "keyword": "language model",
+          "count": 12
+        }
+      ]
     }
   ],
   "cached": true,
-  "exported_at": "2026-03-08T02:16:15.859744"
+  "exported_at": "2026-05-03T03:26:33.901930"
 }

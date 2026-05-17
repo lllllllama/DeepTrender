@@ -1,239 +1,254 @@
 {
   "2026": [
     {
-      "keyword": "wsbd",
-      "count": 1,
+      "keyword": "variational",
+      "count": 2,
       "rank": 1
     },
     {
-      "keyword": "weighted stochastic block",
-      "count": 1,
+      "keyword": "representations",
+      "count": 2,
       "rank": 2
     },
     {
-      "keyword": "utility markov games",
-      "count": 1,
+      "keyword": "processes",
+      "count": 2,
       "rank": 3
     },
     {
-      "keyword": "uncoupled learning dynamics",
-      "count": 1,
+      "keyword": "optimization",
+      "count": 2,
       "rank": 4
     },
     {
-      "keyword": "uncoupled learning algorithm",
-      "count": 1,
+      "keyword": "neural",
+      "count": 2,
       "rank": 5
     },
     {
-      "keyword": "uncoupled learning",
-      "count": 1,
+      "keyword": "markov",
+      "count": 2,
       "rank": 6
     },
     {
-      "keyword": "stochastic block descent",
-      "count": 1,
+      "keyword": "dynamics",
+      "count": 2,
       "rank": 7
     },
     {
-      "keyword": "saddle point problems",
+      "keyword": "wsbd",
       "count": 1,
       "rank": 8
     },
     {
-      "keyword": "quantum neural networks",
+      "keyword": "weighted stochastic block",
       "count": 1,
       "rank": 9
     },
     {
-      "keyword": "quantum neural",
+      "keyword": "weakly supervised kernel",
       "count": 1,
       "rank": 10
     },
     {
-      "keyword": "quantum",
+      "keyword": "weak overlap",
       "count": 1,
       "rank": 11
     },
     {
-      "keyword": "physics",
+      "keyword": "visualizing high dimensional data",
       "count": 1,
       "rank": 12
     },
     {
-      "keyword": "particle system",
+      "keyword": "visualizing",
       "count": 1,
       "rank": 13
     },
     {
-      "keyword": "neural odes",
+      "keyword": "visual prompting reimagined",
       "count": 1,
       "rank": 14
     },
     {
-      "keyword": "neural networks",
+      "keyword": "visual prompting",
       "count": 1,
       "rank": 15
     },
     {
-      "keyword": "neural",
+      "keyword": "visual",
       "count": 1,
       "rank": 16
     },
     {
-      "keyword": "nash equilibria",
+      "keyword": "vision transformer",
       "count": 1,
       "rank": 17
     },
     {
-      "keyword": "mean field optimization",
+      "keyword": "vision based navigation",
       "count": 1,
       "rank": 18
     },
     {
-      "keyword": "matching",
+      "keyword": "verification relaxed speculative",
       "count": 1,
       "rank": 19
     },
     {
-      "keyword": "markov games",
+      "keyword": "vector based adaptation",
       "count": 1,
       "rank": 20
     },
     {
-      "keyword": "markov",
+      "keyword": "vector based",
       "count": 1,
       "rank": 21
     },
     {
-      "keyword": "learning dynamics",
+      "keyword": "variational inference",
       "count": 1,
       "rank": 22
     },
     {
-      "keyword": "learning algorithms",
+      "keyword": "variational gaussian processes",
       "count": 1,
       "rank": 23
     },
     {
-      "keyword": "last iterate convergence",
+      "keyword": "variational family",
       "count": 1,
       "rank": 24
     },
     {
-      "keyword": "grey box dynamics matching",
+      "keyword": "valuation",
       "count": 1,
       "rank": 25
     },
     {
-      "keyword": "gradient flow",
+      "keyword": "utility markov games",
       "count": 1,
       "rank": 26
     },
     {
-      "keyword": "generative models",
+      "keyword": "unseen adversaries",
       "count": 1,
       "rank": 27
     },
     {
-      "keyword": "generalize markov games",
+      "keyword": "unseen",
       "count": 1,
       "rank": 28
     },
     {
-      "keyword": "general utility markov",
+      "keyword": "unlearning",
       "count": 1,
       "rank": 29
     },
     {
-      "keyword": "games",
+      "keyword": "uncoupled learning dynamics",
       "count": 1,
       "rank": 30
     },
     {
-      "keyword": "freezing based optimizer",
+      "keyword": "uncoupled learning algorithm",
       "count": 1,
       "rank": 31
     },
     {
-      "keyword": "flow matching framework",
+      "keyword": "uncoupled learning",
       "count": 1,
       "rank": 32
     },
     {
-      "keyword": "flow matching",
+      "keyword": "tree height estimation",
       "count": 1,
       "rank": 33
     },
     {
-      "keyword": "flow",
+      "keyword": "tree height",
       "count": 1,
       "rank": 34
     },
     {
-      "keyword": "fisher rao gradient flow",
+      "keyword": "treatment effect estimation",
       "count": 1,
       "rank": 35
     },
     {
-      "keyword": "entropic mean field optimization",
+      "keyword": "three step nav achieves",
       "count": 1,
       "rank": 36
     },
     {
-      "keyword": "entropic mean field",
+      "keyword": "three step nav",
       "count": 1,
       "rank": 37
     },
     {
-      "keyword": "energy function",
+      "keyword": "test time adaptation",
       "count": 1,
       "rank": 38
     },
     {
-      "keyword": "efficient uncoupled learning",
+      "keyword": "termed activation prompt",
       "count": 1,
       "rank": 39
     },
     {
-      "keyword": "dynamics matching",
+      "keyword": "teacher forcing",
       "count": 1,
       "rank": 40
     },
     {
-      "keyword": "dynamics",
+      "keyword": "target symmetries",
       "count": 1,
       "rank": 41
     },
     {
-      "keyword": "convex markov games",
+      "keyword": "target",
       "count": 1,
       "rank": 42
     },
     {
-      "keyword": "convex markov",
+      "keyword": "surrogates for chaotic",
       "count": 1,
       "rank": 43
     },
     {
-      "keyword": "continuous time gradient flows",
+      "keyword": "stochastic block descent",
       "count": 1,
       "rank": 44
     },
     {
-      "keyword": "bilinear saddle point problems",
+      "keyword": "speculative decoding",
       "count": 1,
       "rank": 45
     },
     {
-      "keyword": "bilinear saddle point",
+      "keyword": "speculative",
       "count": 1,
       "rank": 46
     },
     {
-      "keyword": "bandit feedback",
+      "keyword": "spectral graph neural",
       "count": 1,
       "rank": 47
+    },
+    {
+      "keyword": "spectral gnns",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "sparse variational gaussian",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "sparse variational",
+      "count": 1,
+      "rank": 50
     }
   ]
 }

@@ -1,14 +1,14 @@
 # 🔬 顶会论文关键词趋势报告
 
-> 自动生成于 2026-03-08 02:16:13
+> 自动生成于 2026-05-03 03:26:32
 
 ## 📊 数据概览
 
 | 指标 | 数值 |
 |------|------|
-| 论文总数 | 6,947 |
-| 关键词总数 | 10,000 |
-| 覆盖会议 | AAAI, ACL, AIMOTION, AISTATS, ARR, AUAI, CVPR, DEEPLEARNINGINDABA, EMNLP, HIGHLIGHTS-CONFERENCE, IACS, ICCV, ICLR, ICML, IJCAI, JDSE, NEURONOVEMBER, NeurIPS, PHILANDNEURO, RESYLAB, UIT |
+| 论文总数 | 13,947 |
+| 关键词总数 | 80,837 |
+| 覆盖会议 | AAAI, ACL, AIMOTION, AISTATS, ARR, AUAI, CVPR, DEEPLEARNINGINDABA, ECCV, EMNLP, HIGHLIGHTS-CONFERENCE, IACS, ICCV, ICLR, ICML, IJCAI, JDSE, NEURONOVEMBER, NeurIPS, PHILANDNEURO, RESYLAB, UIT |
 | 年份范围 | 2023 - 2026 |
 
 ## ☁️ 关键词云
@@ -24,56 +24,56 @@
 
 | 排名 | 关键词 | 出现次数 |
 |------|--------|----------|
-| 1 | large language model | 566 |
-| 2 | large language | 294 |
-| 3 | language models | 292 |
-| 4 | generation | 233 |
-| 5 | diffusion | 227 |
-| 6 | diffusion model | 227 |
-| 7 | image | 195 |
-| 8 | video | 178 |
-| 9 | language | 163 |
-| 10 | detection | 148 |
-| 11 | reasoning | 147 |
-| 12 | visual | 113 |
-| 13 | reinforcement learning | 109 |
-| 14 | segmentation | 106 |
-| 15 | object | 97 |
-| 16 | human | 96 |
-| 17 | neural networks | 91 |
-| 18 | neural | 90 |
-| 19 | multimodal large language | 89 |
-| 20 | gaussian | 88 |
-| 21 | gaussian splatting | 88 |
-| 22 | motion | 88 |
-| 23 | transformer | 84 |
-| 24 | object detection | 81 |
-| 25 | vision language models | 79 |
-| 26 | scene | 78 |
-| 27 | multimodal | 73 |
-| 28 | semantic | 73 |
-| 29 | reconstruction | 71 |
-| 30 | generative | 65 |
-| 31 | synthesis | 65 |
-| 32 | agents | 64 |
-| 33 | vision | 64 |
-| 34 | understanding | 62 |
-| 35 | editing | 57 |
-| 36 | estimation | 57 |
-| 37 | federated learning | 57 |
-| 38 | time series | 54 |
-| 39 | alignment | 53 |
-| 40 | images | 53 |
-| 41 | language model | 53 |
-| 42 | prediction | 52 |
-| 43 | adaptation | 50 |
-| 44 | optimization | 48 |
-| 45 | multimodal large | 47 |
-| 46 | adversarial | 46 |
-| 47 | foundation models | 46 |
-| 48 | knowledge | 46 |
-| 49 | splatting | 46 |
-| 50 | vision language | 46 |
+| 1 | large language model | 1379 |
+| 2 | large language | 718 |
+| 3 | language models | 699 |
+| 4 | generation | 387 |
+| 5 | reasoning | 345 |
+| 6 | language | 324 |
+| 7 | diffusion | 304 |
+| 8 | diffusion model | 299 |
+| 9 | reinforcement learning | 292 |
+| 10 | image | 291 |
+| 11 | video | 285 |
+| 12 | detection | 262 |
+| 13 | visual | 187 |
+| 14 | multimodal large language | 176 |
+| 15 | segmentation | 176 |
+| 16 | neural networks | 169 |
+| 17 | gaussian splatting | 168 |
+| 18 | neural | 164 |
+| 19 | gaussian | 160 |
+| 20 | human | 160 |
+| 21 | vision language models | 158 |
+| 22 | transformer | 145 |
+| 23 | agents | 144 |
+| 24 | semantic | 142 |
+| 25 | motion | 134 |
+| 26 | multimodal | 134 |
+| 27 | object | 131 |
+| 28 | optimization | 122 |
+| 29 | reconstruction | 117 |
+| 30 | vision | 116 |
+| 31 | estimation | 115 |
+| 32 | language model | 115 |
+| 33 | federated learning | 112 |
+| 34 | generative | 111 |
+| 35 | understanding | 109 |
+| 36 | machine learning | 108 |
+| 37 | object detection | 107 |
+| 38 | scene | 107 |
+| 39 | knowledge | 105 |
+| 40 | time series | 103 |
+| 41 | alignment | 102 |
+| 42 | foundation models | 101 |
+| 43 | memory | 99 |
+| 44 | control | 96 |
+| 45 | prediction | 96 |
+| 46 | multimodal large | 94 |
+| 47 | attention | 93 |
+| 48 | editing | 92 |
+| 49 | inference | 92 |
+| 50 | splatting | 90 |
 
 </details>
 
@@ -86,15 +86,15 @@
 以下关键词在最近一年增长显著：
 
 1. **llm agents**
-2. **series**
-3. **agentic**
-4. **natural language processing**
-5. **multi agent reinforcement learning**
-6. **robots**
-7. **relative policy optimization**
-8. **verification**
-9. **code**
-10. **group relative policy**
+2. **agentic**
+3. **code**
+4. **relative policy optimization**
+5. **machine**
+6. **group relative policy**
+7. **series**
+8. **privacy**
+9. **scientific**
+10. **natural language processing**
 
 ## 📚 会议详情
 
@@ -104,7 +104,7 @@
 
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
-| 2026 | 27 | time series, time, series, large language model, causal |
+| 2026 | 49 | large language model, time, time series, series, large language |
 | 2025 | 5 | multimodal, large language model, understanding, transformer based, temporal corruption |
 
 ### ACL
@@ -113,7 +113,7 @@
 
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
-| 2026 | 1 | student persona generation, scalable and controllable, personas, persona generation, orchestrated agents |
+| 2026 | 197 | large language model, large language, language models, reasoning, language |
 
 ### AIMOTION
 
@@ -126,7 +126,7 @@
 
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
-| 2026 | 5 | wsbd, weighted stochastic block, utility markov games, uncoupled learning dynamics, uncoupled learning algorithm |
+| 2026 | 33 | variational, representations, processes, optimization, neural |
 
 ### ARR
 
@@ -144,7 +144,7 @@
 
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
-| 2026 | 112 | diffusion, video, large language model, transformer, multimodal |
+| 2026 | 414 | image, video, large language model, generation, gaussian splatting |
 | 2024 | 2755 | diffusion model, image, diffusion, generation, video |
 
 ### DEEPLEARNINGINDABA
@@ -152,13 +152,21 @@
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
 
+### ECCV
+
+![ECCV 词云](../figures/wordcloud_eccv.png)
+
+| 年份 | 论文数 | Top 5 关键词 |
+|------|--------|--------------|
+| 2026 | 3 | video detection, uhd restoration, uhd image deblurring, uhd image, uhd |
+
 ### EMNLP
 
 ![EMNLP 词云](../figures/wordcloud_emnlp.png)
 
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
-| 2026 | 2 | transformer quantization, tradeoffs, synthesizing cross disciplinary communication, synthesizing cross disciplinary, structured activation outliers |
+| 2026 | 3 | transformer quantization, tradeoffs, synthesizing cross disciplinary communication, synthesizing cross disciplinary, structured activation outliers |
 
 ### HIGHLIGHTS-CONFERENCE
 
@@ -176,7 +184,7 @@
 
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
-| 2026 | 3 | unet based keypoint regression, rotation independent image analysis, regression, racing, orientation for rotation independent |
+| 2026 | 4 | world model, unified driving world, unified driving, unet based keypoint regression, scene understanding |
 
 ### ICLR
 
@@ -184,7 +192,7 @@
 
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
-| 2026 | 135 | large language model, reasoning, language models, large language, transformer |
+| 2026 | 229 | large language model, reasoning, reinforcement learning, language models, large language |
 | 2025 | 1 | spurious, learn shortcuts, generative classifiers, generative, classifiers avoid shortcut |
 | 2024 | 30 | diffusion model, normalizing, multimodal, information, gradient |
 
@@ -194,7 +202,7 @@
 
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
-| 2026 | 9 | vision language models, visual data corrects, visual data, vision language, user centric non terrestrial networks |
+| 2026 | 19 | large language model, language models, vision language models, visual data corrects, visual data |
 | 2025 | 1 | robustness, natural corruptions, natural, impact of compression, impact |
 
 ### IJCAI
@@ -203,7 +211,7 @@
 
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
-| 2026 | 2 | video retrieval platform, video, task directed survey, semantic profiling, platform via natural |
+| 2026 | 7 | weakly supervised action segmentation, weakly supervised action, video retrieval platform, video, toxic habits named |
 
 ### JDSE
 
@@ -221,7 +229,7 @@
 
 | 年份 | 论文数 | Top 5 关键词 |
 |------|--------|--------------|
-| 2026 | 8 | large language model, large language, world models, world, wavelet based cross band integration |
+| 2026 | 21 | large language model, monte carlo, large language, markov decision, language models |
 | 2025 | 2 | transformer models, temperature forecasting, strength, signals, reward modeling |
 | 2023 | 30 | large language model, neural networks, understanding, transformer, textbf |
 

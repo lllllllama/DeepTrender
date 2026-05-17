@@ -1,4 +1,28 @@
 {
+  "large language model": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 1
+    }
+  ],
+  "language models": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 2
+    }
+  ],
   "vision language models": [
     {
       "year": 2025,
@@ -8,7 +32,7 @@
     {
       "year": 2026,
       "count": 2,
-      "rank": 1
+      "rank": 3
     }
   ],
   "robustness": [
@@ -128,7 +152,7 @@
     {
       "year": 2026,
       "count": 1,
-      "rank": 2
+      "rank": 4
     }
   ],
   "visual data": [
@@ -140,7 +164,7 @@
     {
       "year": 2026,
       "count": 1,
-      "rank": 3
+      "rank": 5
     }
   ],
   "vision language": [
@@ -152,34 +176,10 @@
     {
       "year": 2026,
       "count": 1,
-      "rank": 4
-    }
-  ],
-  "user centric non terrestrial networks": [
-    {
-      "year": 2025,
-      "count": 0,
-      "rank": 0
-    },
-    {
-      "year": 2026,
-      "count": 1,
-      "rank": 5
-    }
-  ],
-  "unlearning methods remains": [
-    {
-      "year": 2025,
-      "count": 0,
-      "rank": 0
-    },
-    {
-      "year": 2026,
-      "count": 1,
       "rank": 6
     }
   ],
-  "unlearning methods": [
+  "verbal confidence": [
     {
       "year": 2025,
       "count": 0,
@@ -191,7 +191,7 @@
       "rank": 7
     }
   ],
-  "unlearning": [
+  "verbal": [
     {
       "year": 2025,
       "count": 0,
@@ -203,7 +203,7 @@
       "rank": 8
     }
   ],
-  "trust weighting": [
+  "user centric non terrestrial networks": [
     {
       "year": 2025,
       "count": 0,
@@ -215,7 +215,7 @@
       "rank": 9
     }
   ],
-  "treatment effect heterogeneity": [
+  "unlearning methods remains": [
     {
       "year": 2025,
       "count": 0,
@@ -227,7 +227,7 @@
       "rank": 10
     }
   ],
-  "treatment effect": [
+  "unlearning methods": [
     {
       "year": 2025,
       "count": 0,
@@ -239,7 +239,7 @@
       "rank": 11
     }
   ],
-  "toolmath": [
+  "unlearning": [
     {
       "year": 2025,
       "count": 0,
@@ -251,7 +251,7 @@
       "rank": 12
     }
   ],
-  "synthetic": [
+  "trust weighting": [
     {
       "year": 2025,
       "count": 0,
@@ -263,7 +263,7 @@
       "rank": 13
     }
   ],
-  "steepest descent": [
+  "treatment effect heterogeneity": [
     {
       "year": 2025,
       "count": 0,
@@ -275,7 +275,7 @@
       "rank": 14
     }
   ],
-  "stable diffusion": [
+  "treatment effect": [
     {
       "year": 2025,
       "count": 0,
@@ -287,7 +287,7 @@
       "rank": 15
     }
   ],
-  "spatial trust weighting": [
+  "training for llm": [
     {
       "year": 2025,
       "count": 0,
@@ -299,7 +299,7 @@
       "rank": 16
     }
   ],
-  "spatial": [
+  "toolmath": [
     {
       "year": 2025,
       "count": 0,
@@ -311,7 +311,7 @@
       "rank": 17
     }
   ],
-  "smooth homogeneous neural": [
+  "teach": [
     {
       "year": 2025,
       "count": 0,
@@ -323,7 +323,7 @@
       "rank": 18
     }
   ],
-  "smooth homogeneous models": [
+  "synthetic": [
     {
       "year": 2025,
       "count": 0,
@@ -335,7 +335,7 @@
       "rank": 19
     }
   ],
-  "smooth homogeneous": [
+  "steepest descent": [
     {
       "year": 2025,
       "count": 0,
@@ -347,7 +347,7 @@
       "rank": 20
     }
   ],
-  "sinr estimation framework": [
+  "stable diffusion": [
     {
       "year": 2025,
       "count": 0,
@@ -359,7 +359,7 @@
       "rank": 21
     }
   ],
-  "sinr estimation": [
+  "spectral graph theory": [
     {
       "year": 2025,
       "count": 0,
@@ -371,7 +371,7 @@
       "rank": 22
     }
   ],
-  "sinr": [
+  "spectral graph sparsification": [
     {
       "year": 2025,
       "count": 0,
@@ -383,7 +383,7 @@
       "rank": 23
     }
   ],
-  "satellite based non terrestrial networks": [
+  "spectral graph": [
     {
       "year": 2025,
       "count": 0,
@@ -395,7 +395,7 @@
       "rank": 24
     }
   ],
-  "sandbox": [
+  "spatial trust weighting": [
     {
       "year": 2025,
       "count": 0,
@@ -407,7 +407,7 @@
       "rank": 25
     }
   ],
-  "reasoning": [
+  "spatial": [
     {
       "year": 2025,
       "count": 0,
@@ -419,7 +419,7 @@
       "rank": 26
     }
   ],
-  "realistic multi tool environments": [
+  "solutions to ssl": [
     {
       "year": 2025,
       "count": 0,
@@ -431,7 +431,7 @@
       "rank": 27
     }
   ],
-  "realistic multi tool": [
+  "smooth homogeneous neural": [
     {
       "year": 2025,
       "count": 0,
@@ -443,7 +443,7 @@
       "rank": 28
     }
   ],
-  "realistic long horizon multi tool": [
+  "smooth homogeneous models": [
     {
       "year": 2025,
       "count": 0,
@@ -455,7 +455,7 @@
       "rank": 29
     }
   ],
-  "realistic long horizon": [
+  "smooth homogeneous": [
     {
       "year": 2025,
       "count": 0,
@@ -467,7 +467,7 @@
       "rank": 30
     }
   ],
-  "paintings": [
+  "sinr estimation framework": [
     {
       "year": 2025,
       "count": 0,
@@ -479,7 +479,7 @@
       "rank": 31
     }
   ],
-  "non terrestrial networks": [
+  "sinr estimation": [
     {
       "year": 2025,
       "count": 0,
@@ -491,7 +491,7 @@
       "rank": 32
     }
   ],
-  "neural networks": [
+  "sinr": [
     {
       "year": 2025,
       "count": 0,
@@ -503,7 +503,7 @@
       "rank": 33
     }
   ],
-  "negation handling": [
+  "side observation graphs": [
     {
       "year": 2025,
       "count": 0,
@@ -515,7 +515,7 @@
       "rank": 34
     }
   ],
-  "negation": [
+  "shift": [
     {
       "year": 2025,
       "count": 0,
@@ -527,7 +527,7 @@
       "rank": 35
     }
   ],
-  "multi tool reasoning": [
+  "semi supervised learning": [
     {
       "year": 2025,
       "count": 0,
@@ -539,7 +539,7 @@
       "rank": 36
     }
   ],
-  "multi fidelity augmented surrogate": [
+  "satellite based non terrestrial networks": [
     {
       "year": 2025,
       "count": 0,
@@ -551,7 +551,7 @@
       "rank": 37
     }
   ],
-  "multi fidelity augmented": [
+  "sandbox": [
     {
       "year": 2025,
       "count": 0,
@@ -563,7 +563,7 @@
       "rank": 38
     }
   ],
-  "model via spatial": [
+  "ridge spectral sparsification": [
     {
       "year": 2025,
       "count": 0,
@@ -575,7 +575,7 @@
       "rank": 39
     }
   ],
-  "medical vision language models": [
+  "ridge spectral": [
     {
       "year": 2025,
       "count": 0,
@@ -587,7 +587,7 @@
       "rank": 40
     }
   ],
-  "medical": [
+  "reflective experience": [
     {
       "year": 2025,
       "count": 0,
@@ -599,7 +599,7 @@
       "rank": 41
     }
   ],
-  "math tool benchmark": [
+  "reflective": [
     {
       "year": 2025,
       "count": 0,
@@ -611,7 +611,7 @@
       "rank": 42
     }
   ],
-  "mast": [
+  "reasoning": [
     {
       "year": 2025,
       "count": 0,
@@ -623,7 +623,7 @@
       "rank": 43
     }
   ],
-  "machine unlearning": [
+  "realistic multi tool environments": [
     {
       "year": 2025,
       "count": 0,
@@ -635,7 +635,7 @@
       "rank": 44
     }
   ],
-  "low complexity sinr estimation": [
+  "realistic multi tool": [
     {
       "year": 2025,
       "count": 0,
@@ -647,7 +647,7 @@
       "rank": 45
     }
   ],
-  "long horizon multi tool reasoning": [
+  "realistic long horizon multi tool": [
     {
       "year": 2025,
       "count": 0,
@@ -659,7 +659,7 @@
       "rank": 46
     }
   ],
-  "long horizon multi tool": [
+  "realistic long horizon": [
     {
       "year": 2025,
       "count": 0,
@@ -671,7 +671,7 @@
       "rank": 47
     }
   ],
-  "layer specific fine tuning": [
+  "rct benchmarking": [
     {
       "year": 2025,
       "count": 0,
@@ -683,7 +683,7 @@
       "rank": 48
     }
   ],
-  "large language model": [
+  "pass": [
     {
       "year": 2025,
       "count": 0,
@@ -695,7 +695,7 @@
       "rank": 49
     }
   ],
-  "language models": [
+  "paintings": [
     {
       "year": 2025,
       "count": 0,
@@ -707,7 +707,7 @@
       "rank": 50
     }
   ],
-  "improved negation handling": [
+  "ood": [
     {
       "year": 2025,
       "count": 0,
@@ -719,7 +719,7 @@
       "rank": 51
     }
   ],
-  "implicit bias": [
+  "online spectral graph": [
     {
       "year": 2025,
       "count": 0,
@@ -731,7 +731,7 @@
       "rank": 52
     }
   ],
-  "homogeneous neural networks": [
+  "online spectral": [
     {
       "year": 2025,
       "count": 0,
@@ -743,7 +743,7 @@
       "rank": 53
     }
   ],
-  "homogeneous neural": [
+  "online learning": [
     {
       "year": 2025,
       "count": 0,
@@ -755,7 +755,7 @@
       "rank": 54
     }
   ],
-  "homogeneous models": [
+  "online influence maximization": [
     {
       "year": 2025,
       "count": 0,
@@ -767,7 +767,7 @@
       "rank": 55
     }
   ],
-  "homogeneous": [
+  "online influence": [
     {
       "year": 2025,
       "count": 0,
@@ -779,7 +779,7 @@
       "rank": 56
     }
   ],
-  "handling in medical": [
+  "online": [
     {
       "year": 2025,
       "count": 0,
@@ -791,7 +791,7 @@
       "rank": 57
     }
   ],
-  "handling": [
+  "observational trial calibration": [
     {
       "year": 2025,
       "count": 0,
@@ -803,7 +803,7 @@
       "rank": 58
     }
   ],
-  "generative sandbox": [
+  "non terrestrial networks": [
     {
       "year": 2025,
       "count": 0,
@@ -815,7 +815,7 @@
       "rank": 59
     }
   ],
-  "extend large language": [
+  "neural networks": [
     {
       "year": 2025,
       "count": 0,
@@ -827,7 +827,7 @@
       "rank": 60
     }
   ],
-  "evaluating machine unlearning": [
+  "negation handling": [
     {
       "year": 2025,
       "count": 0,
@@ -839,7 +839,7 @@
       "rank": 61
     }
   ],
-  "enhancing authorship attribution": [
+  "negation": [
     {
       "year": 2025,
       "count": 0,
@@ -851,7 +851,7 @@
       "rank": 62
     }
   ],
-  "enhancing authorship": [
+  "multi tool reasoning": [
     {
       "year": 2025,
       "count": 0,
@@ -863,7 +863,7 @@
       "rank": 63
     }
   ],
-  "effect heterogeneity": [
+  "multi fidelity augmented surrogate": [
     {
       "year": 2025,
       "count": 0,
@@ -875,7 +875,7 @@
       "rank": 64
     }
   ],
-  "easy data unlearning": [
+  "multi fidelity augmented": [
     {
       "year": 2025,
       "count": 0,
@@ -887,7 +887,7 @@
       "rank": 65
     }
   ],
-  "easy data": [
+  "multi armed bandit problems": [
     {
       "year": 2025,
       "count": 0,
@@ -899,7 +899,7 @@
       "rank": 66
     }
   ],
-  "data unlearning bench": [
+  "models mentalize": [
     {
       "year": 2025,
       "count": 0,
@@ -911,7 +911,7 @@
       "rank": 67
     }
   ],
-  "data corrects binding": [
+  "model via spatial": [
     {
       "year": 2025,
       "count": 0,
@@ -923,7 +923,7 @@
       "rank": 68
     }
   ],
-  "data corrects": [
+  "mentalize": [
     {
       "year": 2025,
       "count": 0,
@@ -935,7 +935,7 @@
       "rank": 69
     }
   ],
-  "corrects binding shortcuts": [
+  "medical vision language models": [
     {
       "year": 2025,
       "count": 0,
@@ -947,7 +947,7 @@
       "rank": 70
     }
   ],
-  "controllable generative sandbox": [
+  "medical": [
     {
       "year": 2025,
       "count": 0,
@@ -959,7 +959,7 @@
       "rank": 71
     }
   ],
-  "causal inference": [
+  "maximization": [
     {
       "year": 2025,
       "count": 0,
@@ -971,7 +971,7 @@
       "rank": 72
     }
   ],
-  "causal": [
+  "math tool benchmark": [
     {
       "year": 2025,
       "count": 0,
@@ -983,7 +983,7 @@
       "rank": 73
     }
   ],
-  "bench": [
+  "mast": [
     {
       "year": 2025,
       "count": 0,
@@ -995,7 +995,7 @@
       "rank": 74
     }
   ],
-  "authorship attribution": [
+  "machine unlearning": [
     {
       "year": 2025,
       "count": 0,
@@ -1007,7 +1007,7 @@
       "rank": 75
     }
   ],
-  "authorship": [
+  "low complexity sinr estimation": [
     {
       "year": 2025,
       "count": 0,
@@ -1019,7 +1019,7 @@
       "rank": 76
     }
   ],
-  "augmented surrogate model": [
+  "long horizon multi tool reasoning": [
     {
       "year": 2025,
       "count": 0,
@@ -1031,7 +1031,7 @@
       "rank": 77
     }
   ],
-  "augmented": [
+  "long horizon multi tool": [
     {
       "year": 2025,
       "count": 0,
@@ -1043,7 +1043,7 @@
       "rank": 78
     }
   ],
-  "attribution with synthetic": [
+  "log": [
     {
       "year": 2025,
       "count": 0,
@@ -1055,7 +1055,7 @@
       "rank": 79
     }
   ],
-  "attribution": [
+  "llms compute verbal": [
     {
       "year": 2025,
       "count": 0,
@@ -1067,7 +1067,7 @@
       "rank": 80
     }
   ],
-  "attributing authorship": [
+  "llms compute": [
     {
       "year": 2025,
       "count": 0,
@@ -1079,7 +1079,7 @@
       "rank": 81
     }
   ],
-  "attention based sinr estimation": [
+  "learning with online": [
     {
       "year": 2025,
       "count": 0,
@@ -1091,7 +1091,7 @@
       "rank": 82
     }
   ],
-  "attention based sinr": [
+  "learning with erdős rényi": [
     {
       "year": 2025,
       "count": 0,
@@ -1101,6 +1101,210 @@
       "year": 2026,
       "count": 1,
       "rank": 83
+    }
+  ],
+  "learning feedback grounded agency": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 84
+    }
+  ],
+  "learner": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 85
+    }
+  ],
+  "layer specific fine tuning": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 86
+    }
+  ],
+  "large scale semi supervised learning": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 87
+    }
+  ],
+  "large scale graph learning": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 88
+    }
+  ],
+  "large scale graph": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 89
+    }
+  ],
+  "large language": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 90
+    }
+  ],
+  "laplacian": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 91
+    }
+  ],
+  "language models mentalize": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 92
+    }
+  ],
+  "language": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 93
+    }
+  ],
+  "label invariant": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 94
+    }
+  ],
+  "internalizing agency": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 95
+    }
+  ],
+  "influence": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 96
+    }
+  ],
+  "improved negation handling": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 97
+    }
+  ],
+  "improved large scale graph": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 98
+    }
+  ],
+  "implicit bias": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 99
+    }
+  ],
+  "homogeneous neural networks": [
+    {
+      "year": 2025,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 100
     }
   ]
 }
