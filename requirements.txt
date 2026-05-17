@@ -23,6 +23,9 @@ python-dotenv>=1.0.0
 tqdm>=4.65.0
 feedparser>=6.0.10
 
+# MCP Server
+mcp[cli]>=1.0.0
+
 # Testing
 pytest>=7.4.0
 pytest-cov>=4.1.0
