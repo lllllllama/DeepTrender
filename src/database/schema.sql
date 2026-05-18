@@ -84,6 +84,23 @@ CREATE TABLE IF NOT EXISTS paper_keywords (
     UNIQUE(paper_id, keyword, method)
 );
 
+-- Persistent topic facts derived from structured papers, keywords, and taxonomy.
+CREATE TABLE IF NOT EXISTS paper_topics (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    paper_id        INTEGER NOT NULL REFERENCES papers(paper_id) ON DELETE CASCADE,
+    topic_id        TEXT NOT NULL,
+    canonical_topic TEXT NOT NULL,
+    domain          TEXT,
+    match_method    TEXT NOT NULL,
+    confidence      REAL NOT NULL,
+    evidence_keyword TEXT,
+    evidence_source TEXT,
+    taxonomy_version TEXT NOT NULL,
+    created_at      DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at      DATETIME DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE(paper_id, topic_id, taxonomy_version)
+);
+
 -- Cache for trend queries (accelerates web visualization)
 CREATE TABLE IF NOT EXISTS trend_cache (
     id              INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -197,6 +214,9 @@ CREATE INDEX IF NOT EXISTS idx_paper_keywords_paper ON paper_keywords(paper_id);
 CREATE INDEX IF NOT EXISTS idx_paper_keywords_keyword ON paper_keywords(keyword);
 CREATE INDEX IF NOT EXISTS idx_paper_keywords_method ON paper_keywords(method);
 CREATE INDEX IF NOT EXISTS idx_paper_keywords_keyword_paper ON paper_keywords(keyword, paper_id);  -- Keyword join optimization
+CREATE INDEX IF NOT EXISTS idx_paper_topics_paper ON paper_topics(paper_id);
+CREATE INDEX IF NOT EXISTS idx_paper_topics_topic_version ON paper_topics(topic_id, taxonomy_version);
+CREATE INDEX IF NOT EXISTS idx_paper_topics_domain ON paper_topics(domain);
 CREATE INDEX IF NOT EXISTS idx_trend_cache_keyword_year ON trend_cache(keyword, year);
 
 -- Operational indexes

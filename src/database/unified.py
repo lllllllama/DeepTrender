@@ -95,6 +95,10 @@ class DatabaseRepository(BaseRepository):
             return []
         return self.structured.get_papers_by_venue_year(venue_obj.venue_id, year)
 
+    def get_all_papers(self, limit: int = None) -> List[Paper]:
+        """Return all structured papers."""
+        return self.structured.get_all_papers(limit=limit)
+
     def get_paper_count(self, venue: str = None, year: int = None) -> int:
         """获取论文数量（兼容旧接口）"""
         venue_id = None
@@ -198,6 +202,86 @@ class DatabaseRepository(BaseRepository):
             if keywords:
                 result[venue.canonical_name] = keywords
         return result
+
+    def save_paper_topic(self, **kwargs) -> int:
+        """Persist one canonical paper-topic match."""
+        return self.analysis.save_paper_topic(**kwargs)
+
+    def save_paper_topics(self, matches: List[Dict]) -> List[int]:
+        """Persist multiple paper-topic matches."""
+        return self.analysis.save_paper_topics(matches)
+
+    def get_paper_topics(self, paper_id: int, taxonomy_version: str = None) -> List[Dict]:
+        """Return persisted topic facts for one paper."""
+        return self.analysis.get_paper_topics(
+            paper_id=paper_id,
+            taxonomy_version=taxonomy_version,
+        )
+
+    def get_papers_by_topic(
+        self,
+        topic_id: str,
+        venue: str = None,
+        year: int = None,
+        limit: int = 20,
+        offset: int = 0,
+        taxonomy_version: str = None,
+    ) -> List[Dict]:
+        """Return structured papers with persisted facts for a topic."""
+        return self.analysis.get_papers_by_topic(
+            topic_id=topic_id,
+            venue=venue,
+            year=year,
+            limit=limit,
+            offset=offset,
+            taxonomy_version=taxonomy_version,
+        )
+
+    def get_topic_counts_by_venue_year(
+        self,
+        topic_id: str,
+        venue: str = None,
+        year: int = None,
+        taxonomy_version: str = None,
+    ) -> List[Dict]:
+        """Return persisted topic counts grouped by venue/year."""
+        return self.analysis.get_topic_counts_by_venue_year(
+            topic_id=topic_id,
+            venue=venue,
+            year=year,
+            taxonomy_version=taxonomy_version,
+        )
+
+    def get_paper_topic_count(
+        self,
+        taxonomy_version: str = None,
+        topic_id: str = None,
+    ) -> int:
+        """Return count of persisted paper-topic facts."""
+        return self.analysis.get_paper_topic_count(
+            taxonomy_version=taxonomy_version,
+            topic_id=topic_id,
+        )
+
+    def clear_paper_topics_for_taxonomy_version(self, taxonomy_version: str) -> int:
+        """Delete persisted topic facts for one taxonomy version."""
+        return self.analysis.clear_paper_topics_for_taxonomy_version(taxonomy_version)
+
+    def rebuild_paper_topics(
+        self,
+        taxonomy_version: str = None,
+        limit: int = None,
+        include_children: bool = False,
+    ) -> Dict[str, Any]:
+        """Rebuild paper_topics from structured papers and taxonomy."""
+        from services.topic_facts import rebuild_paper_topics
+
+        return rebuild_paper_topics(
+            repo=self,
+            taxonomy_version=taxonomy_version,
+            limit=limit,
+            include_children=include_children,
+        )
 
     def get_arxiv_stats(self, categories: Optional[List[str]] = None) -> Dict[str, Any]:
         """Return aggregated arXiv stats for API and static export."""

@@ -51,6 +51,11 @@ Supported v0.1 warning codes:
 - `small_sample`
 - `low_topic_match_confidence`
 - `only_arxiv_evidence_for_conference_query`
+- `runtime_topic_matching_fallback`
+- `metric_not_available_for_scope`
+
+`runtime_topic_matching_fallback` means `paper_topics` facts are unavailable for
+the current taxonomy version and the service used runtime topic matching.
 
 ## Pagination
 
@@ -65,3 +70,25 @@ Responses with lists should return the requested slice and report:
 
 Frontend-facing and MCP trend responses must make `relative_frequency` the
 primary trend metric and also expose raw `count` values.
+
+## v0.1 Contracted Tools
+
+The following tools must follow this response contract:
+
+- `list_domains`
+- `list_topics`
+- `resolve_topic`
+- `get_venue_year_topic`
+- `get_data_quality_report`
+- `get_overview_v01`
+- `get_status_v01`
+- `list_venues_v01`
+- `get_paper_provenance`
+- `get_topic_source_coverage`
+- `get_venue_year_source_coverage`
+
+Legacy tools remain available for backward compatibility:
+
+- `get_overview`
+- `get_status`
+- `list_venues`

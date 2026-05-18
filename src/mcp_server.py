@@ -37,11 +37,17 @@ Tools exposed:
     - get_scrape_log          : last scrape timestamp for a venue+year combination
 
   v0.1 taxonomy and serving contract
+    - get_overview_v01       : contract-compliant overview
+    - get_status_v01         : contract-compliant status
+    - list_venues_v01        : contract-compliant venue list
     - list_domains            : taxonomy domains
     - list_topics             : canonical topics
     - resolve_topic           : strict canonical topic resolution
     - get_venue_year_topic    : venue/year/topic facts and evidence
     - get_data_quality_report : raw/structured/source quality metrics
+    - get_paper_provenance   : paper source and topic provenance
+    - get_topic_source_coverage : topic source coverage
+    - get_venue_year_source_coverage : venue/year source coverage
 """
 
 import sys
@@ -563,6 +569,36 @@ def list_configured_venues() -> list:
 # ---------------------------------------------------------------------------
 
 @mcp.tool()
+def get_overview_v01() -> dict:
+    """
+    Return a v0.1 contract-compliant overview.
+
+    The legacy get_overview tool remains available unchanged.
+    """
+    return v01_mcp_views.get_overview_v01(repo=_get_repo())
+
+
+@mcp.tool()
+def get_status_v01() -> dict:
+    """
+    Return a v0.1 contract-compliant status response.
+
+    The legacy get_status tool remains available unchanged.
+    """
+    return v01_mcp_views.get_status_v01(repo=_get_repo())
+
+
+@mcp.tool()
+def list_venues_v01(limit: int = 100, offset: int = 0) -> dict:
+    """
+    Return a v0.1 contract-compliant venue list.
+
+    The legacy list_venues tool remains available unchanged.
+    """
+    return v01_mcp_views.list_venues_v01(limit=limit, offset=offset, repo=_get_repo())
+
+
+@mcp.tool()
 def list_domains(limit: int = 100, offset: int = 0) -> dict:
     """
     Return DeepTrender v0.1 taxonomy domains.
@@ -626,6 +662,43 @@ def get_data_quality_report(scope: Optional[dict] = None) -> dict:
     Return global or scoped data quality metrics and v0.1 warning objects.
     """
     return v01_mcp_views.get_data_quality_report(scope=scope, repo=_get_repo())
+
+
+@mcp.tool()
+def get_paper_provenance(paper_id: int) -> dict:
+    """
+    Return paper, source, and persisted topic provenance.
+    """
+    return v01_mcp_views.get_paper_provenance(paper_id=paper_id, repo=_get_repo())
+
+
+@mcp.tool()
+def get_topic_source_coverage(
+    topic: str,
+    venue: Optional[str] = None,
+    year: Optional[int] = None,
+) -> dict:
+    """
+    Return source coverage for persisted topic facts.
+    """
+    return v01_mcp_views.get_topic_source_coverage(
+        topic=topic,
+        venue=venue,
+        year=int(year) if year is not None else None,
+        repo=_get_repo(),
+    )
+
+
+@mcp.tool()
+def get_venue_year_source_coverage(venue: str, year: int) -> dict:
+    """
+    Return source coverage for a venue/year structured paper scope.
+    """
+    return v01_mcp_views.get_venue_year_source_coverage(
+        venue=venue,
+        year=int(year),
+        repo=_get_repo(),
+    )
 
 
 # ---------------------------------------------------------------------------

@@ -52,6 +52,17 @@ such as `conference`, `journal`, `preprint`, and `unknown`. v0.1 does not force
 a destructive migration. Serving code maps the current fields into the expanded
 status vocabulary where possible.
 
+## Derived Topic Facts
+
+`paper_topics` rows are derived facts, not raw evidence. They are rebuildable
+from structured papers, paper keywords, and the current DeepTrender taxonomy
+resolver. Each row records the taxonomy version, match method, confidence, and
+evidence keyword/source used to derive the fact.
+
+Related topics are not merged into `paper_topics` unless they are independently
+matched. Child topics are not added unless a rebuild explicitly sets
+`include_children=true`.
+
 ## Warning Policy
 
 The serving layer must surface these warning conditions:

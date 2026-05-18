@@ -456,6 +456,18 @@ class StructuredRepository(BaseRepository):
                 (venue_id, year)
             )
             return [self._row_to_paper(conn, row) for row in cursor.fetchall()]
+
+    def get_all_papers(self, limit: int = None) -> List[Paper]:
+        """获取所有结构化论文。"""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            query = "SELECT * FROM papers ORDER BY paper_id"
+            params = []
+            if limit is not None:
+                query += " LIMIT ?"
+                params.append(int(limit))
+            cursor.execute(query, params)
+            return [self._row_to_paper(conn, row) for row in cursor.fetchall()]
     
     def get_paper_count(self, venue_id: int = None, year: int = None) -> int:
         """获取论文数量"""
@@ -681,6 +693,213 @@ class AnalysisRepository(BaseRepository):
                 )
                 for row in cursor.fetchall()
             ]
+
+    # ========== Paper topic fact operations ==========
+
+    def save_paper_topic(
+        self,
+        paper_id: int,
+        topic_id: str,
+        canonical_topic: str,
+        domain: str,
+        match_method: str,
+        confidence: float,
+        evidence_keyword: str = None,
+        evidence_source: str = None,
+        taxonomy_version: str = None,
+    ) -> int:
+        """Persist one canonical paper-topic match."""
+        from taxonomy.loader import TAXONOMY_VERSION
+
+        taxonomy_version = taxonomy_version or TAXONOMY_VERSION
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                INSERT INTO paper_topics
+                (paper_id, topic_id, canonical_topic, domain, match_method,
+                 confidence, evidence_keyword, evidence_source, taxonomy_version, updated_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(paper_id, topic_id, taxonomy_version) DO UPDATE SET
+                    canonical_topic = excluded.canonical_topic,
+                    domain = excluded.domain,
+                    match_method = excluded.match_method,
+                    confidence = excluded.confidence,
+                    evidence_keyword = excluded.evidence_keyword,
+                    evidence_source = excluded.evidence_source,
+                    updated_at = excluded.updated_at
+            """, (
+                int(paper_id),
+                topic_id,
+                canonical_topic,
+                domain,
+                match_method,
+                float(confidence),
+                evidence_keyword,
+                evidence_source,
+                taxonomy_version,
+                datetime.now().isoformat(),
+            ))
+            conn.commit()
+            cursor.execute(
+                """
+                SELECT id FROM paper_topics
+                WHERE paper_id = ? AND topic_id = ? AND taxonomy_version = ?
+                """,
+                (int(paper_id), topic_id, taxonomy_version),
+            )
+            row = cursor.fetchone()
+            return row["id"] if row else cursor.lastrowid
+
+    def save_paper_topics(self, matches: List[Dict]) -> List[int]:
+        """Persist multiple paper-topic matches."""
+        ids = []
+        for match in matches:
+            ids.append(self.save_paper_topic(**match))
+        return ids
+
+    def get_paper_topics(
+        self,
+        paper_id: int,
+        taxonomy_version: str = None,
+    ) -> List[Dict]:
+        """Return persisted topic facts for one paper."""
+        from taxonomy.loader import TAXONOMY_VERSION
+
+        taxonomy_version = taxonomy_version or TAXONOMY_VERSION
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                """
+                SELECT * FROM paper_topics
+                WHERE paper_id = ? AND taxonomy_version = ?
+                ORDER BY confidence DESC, topic_id
+                """,
+                (int(paper_id), taxonomy_version),
+            )
+            return [dict(row) for row in cursor.fetchall()]
+
+    def get_papers_by_topic(
+        self,
+        topic_id: str,
+        venue: str = None,
+        year: int = None,
+        limit: int = 20,
+        offset: int = 0,
+        taxonomy_version: str = None,
+    ) -> List[Dict]:
+        """Return structured papers with persisted facts for a topic."""
+        from taxonomy.loader import TAXONOMY_VERSION
+
+        taxonomy_version = taxonomy_version or TAXONOMY_VERSION
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            query = """
+                SELECT
+                    pt.id AS paper_topic_id,
+                    pt.topic_id,
+                    pt.canonical_topic,
+                    pt.domain AS topic_domain,
+                    pt.match_method,
+                    pt.confidence,
+                    pt.evidence_keyword,
+                    pt.evidence_source,
+                    pt.taxonomy_version,
+                    pt.created_at AS topic_created_at,
+                    pt.updated_at AS topic_updated_at,
+                    p.paper_id,
+                    p.canonical_title,
+                    p.abstract,
+                    p.year,
+                    p.venue_id,
+                    p.venue_type,
+                    p.domain AS paper_domain,
+                    p.quality_flag,
+                    p.url,
+                    p.pdf_url,
+                    v.canonical_name AS venue
+                FROM paper_topics pt
+                JOIN papers p ON pt.paper_id = p.paper_id
+                LEFT JOIN venues v ON p.venue_id = v.venue_id
+                WHERE pt.topic_id = ?
+                  AND pt.taxonomy_version = ?
+            """
+            params = [topic_id, taxonomy_version]
+            if venue:
+                query += " AND v.canonical_name = ?"
+                params.append(venue)
+            if year is not None:
+                query += " AND p.year = ?"
+                params.append(int(year))
+            query += " ORDER BY pt.confidence DESC, p.paper_id LIMIT ? OFFSET ?"
+            params.extend([int(limit), int(offset)])
+            cursor.execute(query, params)
+            return [dict(row) for row in cursor.fetchall()]
+
+    def get_topic_counts_by_venue_year(
+        self,
+        topic_id: str,
+        venue: str = None,
+        year: int = None,
+        taxonomy_version: str = None,
+    ) -> List[Dict]:
+        """Return persisted topic counts grouped by venue and year."""
+        from taxonomy.loader import TAXONOMY_VERSION
+
+        taxonomy_version = taxonomy_version or TAXONOMY_VERSION
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            query = """
+                SELECT
+                    v.canonical_name AS venue,
+                    p.year,
+                    COUNT(DISTINCT p.paper_id) AS count
+                FROM paper_topics pt
+                JOIN papers p ON pt.paper_id = p.paper_id
+                LEFT JOIN venues v ON p.venue_id = v.venue_id
+                WHERE pt.topic_id = ?
+                  AND pt.taxonomy_version = ?
+            """
+            params = [topic_id, taxonomy_version]
+            if venue:
+                query += " AND v.canonical_name = ?"
+                params.append(venue)
+            if year is not None:
+                query += " AND p.year = ?"
+                params.append(int(year))
+            query += " GROUP BY v.canonical_name, p.year ORDER BY p.year, v.canonical_name"
+            cursor.execute(query, params)
+            return [dict(row) for row in cursor.fetchall()]
+
+    def get_paper_topic_count(
+        self,
+        taxonomy_version: str = None,
+        topic_id: str = None,
+    ) -> int:
+        """Return count of persisted paper-topic facts."""
+        from taxonomy.loader import TAXONOMY_VERSION
+
+        taxonomy_version = taxonomy_version or TAXONOMY_VERSION
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            query = "SELECT COUNT(*) AS count FROM paper_topics WHERE taxonomy_version = ?"
+            params = [taxonomy_version]
+            if topic_id:
+                query += " AND topic_id = ?"
+                params.append(topic_id)
+            cursor.execute(query, params)
+            return cursor.fetchone()["count"]
+
+    def clear_paper_topics_for_taxonomy_version(self, taxonomy_version: str) -> int:
+        """Delete topic facts for one taxonomy version."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "DELETE FROM paper_topics WHERE taxonomy_version = ?",
+                (taxonomy_version,),
+            )
+            deleted = cursor.rowcount
+            conn.commit()
+            return deleted
     
     def get_top_keywords(
         self,
