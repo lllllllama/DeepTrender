@@ -85,3 +85,5 @@ htmlcov/
 *.bak
 *.orig
 tmp/
+
+reference/
