@@ -18,6 +18,7 @@ from analysis import get_analyzer
 from analysis.arxiv_agent import ArxivAnalysisAgent
 from database import DatabaseRepository, get_repository
 from scraper.venue_discovery import VenueDiscovery
+from services import mcp_views
 
 
 def create_app(
@@ -195,6 +196,112 @@ def create_app(
                 },
                 "server_time": datetime.now().isoformat(),
             }
+        )
+
+    # ---------- v0.1 contract-aligned read APIs ----------
+
+    @app.route("/api/v01/overview")
+    def api_v01_overview():
+        return jsonify(mcp_views.get_overview_v01(repo=current_repo()))
+
+    @app.route("/api/v01/status")
+    def api_v01_status():
+        return jsonify(mcp_views.get_status_v01(repo=current_repo()))
+
+    @app.route("/api/v01/venues")
+    def api_v01_venues():
+        limit = request.args.get("limit", 100, type=int)
+        offset = request.args.get("offset", 0, type=int)
+        return jsonify(mcp_views.list_venues_v01(limit=limit, offset=offset, repo=current_repo()))
+
+    @app.route("/api/v01/domains")
+    def api_v01_domains():
+        limit = request.args.get("limit", 100, type=int)
+        offset = request.args.get("offset", 0, type=int)
+        return jsonify(mcp_views.list_domains(limit=limit, offset=offset))
+
+    @app.route("/api/v01/topics")
+    def api_v01_topics():
+        domain = request.args.get("domain")
+        limit = request.args.get("limit", 100, type=int)
+        offset = request.args.get("offset", 0, type=int)
+        return jsonify(mcp_views.list_topics(domain=domain, limit=limit, offset=offset))
+
+    @app.route("/api/v01/topics/resolve")
+    def api_v01_resolve_topic():
+        query = request.args.get("query", "")
+        include_children = request.args.get("include_children", "false").lower() == "true"
+        return jsonify(mcp_views.resolve_topic(query, include_children=include_children))
+
+    @app.route("/api/v01/venue-year-topic")
+    def api_v01_venue_year_topic():
+        venue = request.args.get("venue", "")
+        year = request.args.get("year", type=int)
+        topic = request.args.get("topic", "")
+        include_children = request.args.get("include_children", "false").lower() == "true"
+        limit = request.args.get("limit", 20, type=int)
+        offset = request.args.get("offset", 0, type=int)
+        if not venue or year is None or not topic:
+            return jsonify({"error": "venue, year, and topic are required"}), 400
+        return jsonify(
+            mcp_views.get_venue_year_topic(
+                venue=venue,
+                year=year,
+                topic=topic,
+                include_children=include_children,
+                limit=limit,
+                offset=offset,
+                repo=current_repo(),
+            )
+        )
+
+    @app.route("/api/v01/data-quality")
+    def api_v01_data_quality():
+        scope = {
+            key: value
+            for key, value in {
+                "venue": request.args.get("venue"),
+                "year": request.args.get("year", type=int),
+                "topic": request.args.get("topic"),
+                "domain": request.args.get("domain"),
+                "source": request.args.get("source"),
+            }.items()
+            if value not in (None, "")
+        }
+        return jsonify(mcp_views.get_data_quality_report(scope=scope, repo=current_repo()))
+
+    @app.route("/api/v01/papers/<int:paper_id>/provenance")
+    def api_v01_paper_provenance(paper_id):
+        return jsonify(mcp_views.get_paper_provenance(paper_id=paper_id, repo=current_repo()))
+
+    @app.route("/api/v01/topic-source-coverage")
+    def api_v01_topic_source_coverage():
+        topic = request.args.get("topic", "")
+        venue = request.args.get("venue")
+        year = request.args.get("year", type=int)
+        if not topic:
+            return jsonify({"error": "topic is required"}), 400
+        return jsonify(
+            mcp_views.get_topic_source_coverage(
+                topic=topic,
+                venue=venue,
+                year=year,
+                repo=current_repo(),
+            )
+        )
+
+    @app.route("/api/v01/venue-year-source-coverage")
+    def api_v01_venue_year_source_coverage():
+        venue = request.args.get("venue", "")
+        year = request.args.get("year", type=int)
+        if not venue or year is None:
+            return jsonify({"error": "venue and year are required"}), 400
+        return jsonify(
+            mcp_views.get_venue_year_source_coverage(
+                venue=venue,
+                year=year,
+                repo=current_repo(),
+            )
         )
 
     @app.route("/api/refresh", methods=["POST"])

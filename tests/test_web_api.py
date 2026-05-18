@@ -148,6 +148,61 @@ class TestStatusEndpoint:
         assert "total_papers" in data
 
 
+class TestV01FrontendApi:
+
+    def assert_contract(self, data):
+        assert set(data.keys()) == {"data", "meta", "warnings", "evidence"}
+        assert "taxonomy_version" in data["meta"]
+        assert "data_policy_version" in data["meta"]
+        assert "generated_at" in data["meta"]
+        assert "source_layer" in data["meta"]
+        assert "limit" in data["meta"]
+        assert "offset" in data["meta"]
+        assert "has_more" in data["meta"]
+        assert isinstance(data["warnings"], list)
+        assert isinstance(data["evidence"], list)
+
+    def test_v01_overview_contract(self, test_client):
+        response = test_client.get("/api/v01/overview")
+        assert response.status_code == 200
+        data = json.loads(response.data)
+        self.assert_contract(data)
+        assert "normalized_query" in data["data"]
+        assert "total_papers" in data["data"]
+
+    def test_v01_domains_contract(self, test_client):
+        response = test_client.get("/api/v01/domains")
+        assert response.status_code == 200
+        data = json.loads(response.data)
+        self.assert_contract(data)
+        assert "domains" in data["data"]
+
+    def test_v01_data_quality_contract(self, test_client):
+        response = test_client.get("/api/v01/data-quality?venue=ICLR&year=2024")
+        assert response.status_code == 200
+        data = json.loads(response.data)
+        self.assert_contract(data)
+        assert "metrics" in data["data"]
+
+    def test_v01_venue_year_topic_contract(self, test_client):
+        response = test_client.get("/api/v01/venue-year-topic?venue=ICLR&year=2024&topic=transformer")
+        assert response.status_code == 200
+        data = json.loads(response.data)
+        self.assert_contract(data)
+        assert "normalized_query" in data["data"]
+        assert "relative_frequency" in data["data"]
+        assert "matched_papers" in data["data"]
+
+    def test_v01_venue_year_topic_requires_query(self, test_client):
+        response = test_client.get("/api/v01/venue-year-topic?venue=ICLR")
+        assert response.status_code == 400
+
+    def test_legacy_routes_still_work(self, test_client):
+        assert test_client.get("/api/stats/overview").status_code == 200
+        assert test_client.get("/api/status").status_code == 200
+        assert test_client.get("/api/stats/venues").status_code == 200
+
+
 class TestStaticFiles:
 
     def test_index_page(self, test_client):

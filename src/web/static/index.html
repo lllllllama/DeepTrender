@@ -3,84 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeepTrender - AI Paper Trend Analytics</title>
+    <title>DeepTrender - Structured AI/ML Paper Trend Database</title>
     <link rel="stylesheet" href="./static/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2.1.0/dist/echarts-wordcloud.min.js"></script>
 </head>
-<body data-i18n-title="index.title">
+<body>
     <nav class="navbar">
         <div class="nav-brand">
             <span class="brand-text">DeepTrender</span>
         </div>
-        <div class="nav-links">
-            <a href="./index.html" class="nav-link active" data-i18n="nav.home">Home</a>
-            <a href="./venue.html" class="nav-link" data-i18n="nav.venues">Venue Analysis</a>
-            <a href="./trends.html" class="nav-link" data-i18n="nav.trends">Trend Tracking</a>
-            <a href="./comparison.html" class="nav-link" data-i18n="nav.compare">Venue Comparison</a>
-            <a href="./arxiv.html" class="nav-link" data-i18n="nav.arxiv">arXiv Trends</a>
+        <div class="nav-links" aria-label="Primary navigation">
+            <a href="#overview" class="nav-link active">Overview</a>
+            <a href="#domains" class="nav-link">Domains</a>
+            <a href="#topics" class="nav-link">Topics</a>
+            <a href="./venue.html" class="nav-link">Venues</a>
+            <a href="#explorer" class="nav-link">Explorer</a>
+            <a href="./arxiv.html" class="nav-link">arXiv</a>
+            <a href="#data-quality" class="nav-link">Data Quality</a>
         </div>
         <div class="lang-switcher">
-            <button class="lang-btn active" type="button" data-lang-switch="en" onclick="SiteI18n.switchLanguage('en')" data-i18n="lang.en">English</button>
-            <button class="lang-btn" type="button" data-lang-switch="zh" onclick="SiteI18n.switchLanguage('zh')" data-i18n="lang.zh">Chinese</button>
+            <button class="lang-btn active" type="button" data-lang-switch="en" onclick="SiteI18n.switchLanguage('en')">English</button>
+            <button class="lang-btn" type="button" data-lang-switch="zh" onclick="SiteI18n.switchLanguage('zh')">Chinese</button>
         </div>
     </nav>
 
-    <main class="container">
-        <section class="stats-grid">
+    <main class="container topic-dashboard">
+        <section class="product-hero" id="overview" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="section-kicker">Topic-first evidence explorer</p>
+                <h1 id="hero-title">DeepTrender &mdash; Structured AI/ML Paper Trend Database</h1>
+                <p class="hero-description">
+                    Normalized topics, source evidence, relative frequency, counts, provenance, and warnings for human front-ends and AI/MCP-aligned agents.
+                </p>
+            </div>
+            <div class="scope-panel" aria-label="Data scope switcher">
+                <span class="scope-label">Source scope</span>
+                <div class="scope-switcher" id="scope-switcher" role="group" aria-label="Select data scope">
+                    <button class="scope-option" type="button" data-scope="preprint" aria-pressed="false">arXiv Preprint</button>
+                    <button class="scope-option" type="button" data-scope="accepted" aria-pressed="false">Conference Accepted</button>
+                    <button class="scope-option active" type="button" data-scope="mixed" aria-pressed="true">Structured Mixed</button>
+                </div>
+                <p class="scope-note" id="scope-note">Current scope: Structured Mixed. Accepted, preprint, mixed, and unknown evidence are labeled separately.</p>
+            </div>
+        </section>
+
+        <section class="stats-grid" aria-label="Repository summary">
             <div class="stat-card">
                 <div class="stat-content">
-                    <div class="stat-value" id="stat-papers">--</div>
-                    <div class="stat-label" data-i18n="index.stat.papers">Total Papers</div>
+                    <div class="stat-value skeleton-text" id="stat-papers">--</div>
+                    <div class="stat-label">Structured Papers</div>
                 </div>
             </div>
             <div class="stat-card">
                 <div class="stat-content">
-                    <div class="stat-value" id="stat-keywords">--</div>
-                    <div class="stat-label" data-i18n="index.stat.keywords">Tracked Keywords</div>
+                    <div class="stat-value skeleton-text" id="stat-keywords">--</div>
+                    <div class="stat-label">Tracked Keywords</div>
                 </div>
             </div>
             <div class="stat-card">
                 <div class="stat-content">
-                    <div class="stat-value" id="stat-venues">--</div>
-                    <div class="stat-label" data-i18n="index.stat.venues">Covered Venues</div>
+                    <div class="stat-value skeleton-text" id="stat-venues">--</div>
+                    <div class="stat-label">Covered Venues</div>
                 </div>
             </div>
             <div class="stat-card">
                 <div class="stat-content">
-                    <div class="stat-value" id="stat-years">--</div>
-                    <div class="stat-label" data-i18n="index.stat.years">Year Range</div>
+                    <div class="stat-value skeleton-text" id="stat-years">--</div>
+                    <div class="stat-label">Year Range</div>
                 </div>
             </div>
         </section>
 
-        <section class="filter-bar">
+        <section class="warning-panel" id="quality-warning-panel" aria-live="polite">
+            <div>
+                <p class="section-kicker">Data Quality Warnings</p>
+                <h2>Warnings are part of the result</h2>
+            </div>
+            <div class="warning-list" id="quality-warning-list">
+                <div class="warning-item muted">Loading scoped quality checks...</div>
+            </div>
+        </section>
+
+        <section class="section-shell" id="topics">
+            <div class="section-header">
+                <div>
+                    <p class="section-kicker">Canonical taxonomy</p>
+                    <h2>Trending Canonical Topics</h2>
+                    <p>Topic cards use normalized taxonomy entries. Counts remain visible; relative frequency is the primary trend metric when available.</p>
+                </div>
+                <span class="badge badge-mixed" id="active-scope-badge">Structured Mixed</span>
+            </div>
+            <div class="topic-card-grid" id="topic-cards">
+                <div class="topic-card skeleton-card"></div>
+                <div class="topic-card skeleton-card"></div>
+                <div class="topic-card skeleton-card"></div>
+            </div>
+        </section>
+
+        <section class="chart-card full-width primary-chart">
+            <div class="chart-header">
+                <div>
+                    <h3>Topic Relative Frequency Snapshot</h3>
+                    <p class="chart-subtitle">Default y-axis: relative_frequency. Count is shown in tooltips and labels where source data includes it.</p>
+                </div>
+            </div>
+            <div class="chart-body tall" id="chart-topic-frequency" aria-label="Topic relative frequency chart"></div>
+        </section>
+
+        <section class="section-shell" id="explorer">
+            <div class="section-header">
+                <div>
+                    <p class="section-kicker">Venue-Year-Topic Explorer</p>
+                    <h2>Resolve a topic, then inspect evidence</h2>
+                    <p>Child topics are excluded by default. Enable them only when the query explicitly needs broader roll-up behavior.</p>
+                </div>
+            </div>
+
+            <form class="explorer-form" id="topic-explorer-form">
+                <div class="filter-group">
+                    <label for="explorer-venue">Venue</label>
+                    <select id="explorer-venue" class="filter-select" aria-label="Explorer venue">
+                        <option value="">Select venue</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="explorer-year">Year</label>
+                    <select id="explorer-year" class="filter-select" aria-label="Explorer year">
+                        <option value="">Select year</option>
+                    </select>
+                </div>
+                <div class="filter-group wide">
+                    <label for="explorer-topic">Topic query</label>
+                    <input type="search" id="explorer-topic" class="search-input" placeholder="transformer, LLM, diffusion..." aria-label="Topic query" autocomplete="off">
+                </div>
+                <label class="checkbox-row" for="explorer-include-children">
+                    <input type="checkbox" id="explorer-include-children">
+                    <span>include_children</span>
+                </label>
+                <button class="btn-refresh" type="submit">Search</button>
+            </form>
+
+            <div class="normalized-preview" id="topic-preview" aria-live="polite">
+                Enter a topic query to preview canonical normalization.
+            </div>
+
+            <div class="explorer-results" id="explorer-results">
+                <div class="empty-state">
+                    <div class="empty-state-title">No explorer query yet</div>
+                    <div class="empty-state-message">Select a venue, year, and topic to inspect normalized query details, counts, relative_frequency, warnings, and evidence papers.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-shell" id="domains">
+            <div class="section-header">
+                <div>
+                    <p class="section-kicker">Domains</p>
+                    <h2>Domain Overview</h2>
+                    <p>Domains expose coarse taxonomy scope. arXiv categories remain domain-level metadata, not fine-grained accepted-conference evidence.</p>
+                </div>
+            </div>
+            <div class="domain-grid" id="domain-grid">
+                <div class="domain-card skeleton-card"></div>
+                <div class="domain-card skeleton-card"></div>
+            </div>
+        </section>
+
+        <section class="venues-section" id="venues">
+            <div class="section-header">
+                <div>
+                    <p class="section-kicker">Venues</p>
+                    <h2>Venue Overview</h2>
+                    <p>Venue cards use the venue index first and do not fetch every venue's keywords on initial load.</p>
+                </div>
+            </div>
+            <div class="venues-grid" id="venues-grid"></div>
+        </section>
+
+        <section class="section-shell" id="data-quality">
+            <div class="section-header">
+                <div>
+                    <p class="section-kicker">Data Quality</p>
+                    <h2>Scoped Quality Report</h2>
+                    <p>Metrics are shown with the same warning thresholds used by MCP tools.</p>
+                </div>
+            </div>
+            <div class="quality-grid" id="quality-grid">
+                <div class="quality-card skeleton-card"></div>
+                <div class="quality-card skeleton-card"></div>
+                <div class="quality-card skeleton-card"></div>
+            </div>
+            <div class="source-breakdown" id="quality-source-breakdown"></div>
+        </section>
+
+        <section class="filter-bar legacy-filter">
             <div class="filter-group">
-                <label for="filter-venue" data-i18n="index.filter.venue">Venue</label>
+                <label for="filter-venue">Keyword venue filter</label>
                 <select id="filter-venue" class="filter-select">
-                    <option value="" data-i18n="index.filter.venue.all">All venues</option>
+                    <option value="">All venues</option>
                 </select>
             </div>
             <div class="filter-group">
-                <label for="filter-year" data-i18n="index.filter.year">Year</label>
+                <label for="filter-year">Keyword year filter</label>
                 <select id="filter-year" class="filter-select">
-                    <option value="" data-i18n="index.filter.year.all">All years</option>
+                    <option value="">All years</option>
                 </select>
             </div>
-            <button class="btn-refresh" type="button" onclick="refreshData()" data-i18n="index.refresh">Refresh</button>
+            <button class="btn-refresh" type="button" onclick="refreshData()">Refresh keyword charts</button>
         </section>
 
-        <section class="charts-grid">
-            <div class="chart-card large">
+        <section class="charts-grid keyword-section" id="keywords">
+            <div class="chart-card large lazy-panel" id="wordcloud-panel">
                 <div class="chart-header">
-                    <h3 data-i18n="index.cloud">Keyword Cloud</h3>
+                    <div>
+                        <h3>Keyword Cloud</h3>
+                        <p class="chart-subtitle">Keyword view is retained below the topic-first dashboard and loads only when visible.</p>
+                    </div>
                 </div>
                 <div class="chart-body" id="chart-wordcloud"></div>
             </div>
 
             <div class="chart-card">
                 <div class="chart-header">
-                    <h3 data-i18n="index.top">Top 20 Keywords</h3>
+                    <div>
+                        <h3>Top 20 Keywords</h3>
+                        <p class="chart-subtitle">Count-only view, kept separate from trend claims.</p>
+                    </div>
                 </div>
                 <div class="chart-body" id="chart-top-keywords"></div>
             </div>
@@ -88,23 +236,21 @@
 
         <section class="chart-card full-width">
             <div class="chart-header">
-                <h3 data-i18n="index.trends">Keyword Trends</h3>
+                <div>
+                    <h3>Keyword Count Trends</h3>
+                    <p class="chart-subtitle">Legacy keyword chart. Topic metrics above remain the primary trend surface.</p>
+                </div>
                 <div class="chart-actions">
-                    <input type="text" id="trend-search" class="search-input" data-i18n-placeholder="index.search" placeholder="Search keywords..." />
+                    <input type="text" id="trend-search" class="search-input" placeholder="Search keywords..." aria-label="Search keyword trends">
                 </div>
             </div>
             <div class="chart-body tall" id="chart-trends"></div>
         </section>
-
-        <section class="venues-section">
-            <h2 data-i18n="index.venues">Venue Overview</h2>
-            <div class="venues-grid" id="venues-grid"></div>
-        </section>
     </main>
 
     <footer class="footer">
-        <p data-i18n="footer.tagline">DeepTrender - AI paper keyword tracking and trend analytics</p>
-        <p data-i18n="footer.sources.core">Data sources: OpenReview | Semantic Scholar</p>
+        <p>DeepTrender - structured AI/ML paper trend database</p>
+        <p>Source evidence is labeled as accepted, preprint, mixed, or unknown when available.</p>
     </footer>
 
     <script src="./static/js/site.js"></script>
