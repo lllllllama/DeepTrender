@@ -4,7 +4,7 @@ const CHART_THEME = {
     title: { textStyle: { color: "#e6edf3" } },
     legend: { textStyle: { color: "#8b949e" } },
     tooltip: {
-        backgroundColor: "rgba(22, 27, 34, 0.96)",
+        backgroundColor: "rgba(22, 27, 34, 0.95)",
         borderColor: "#30363d",
         textStyle: { color: "#e6edf3" },
     },
@@ -22,34 +22,36 @@ const CHART_THEME = {
     ],
 };
 
-if (window.echarts) {
-    echarts.registerTheme("dark", CHART_THEME);
-}
+echarts.registerTheme("dark", CHART_THEME);
 
 const Charts = {
     instances: {},
-    resizeListenerBound: false,
+    resizeBound: false,
     resizeTimer: null,
 
     ensureResizeListener() {
-        if (this.resizeListenerBound) {
+        if (this.resizeBound) {
             return;
         }
         window.addEventListener("resize", () => {
             window.clearTimeout(this.resizeTimer);
             this.resizeTimer = window.setTimeout(() => this.resizeAll(), 120);
         });
-        this.resizeListenerBound = true;
+        this.resizeBound = true;
     },
 
     init(containerId) {
         const container = document.getElementById(containerId);
-        if (!container || !window.echarts) {
+        if (!container) {
             return null;
         }
 
         const existing = this.instances[containerId];
-        if (existing && !existing.isDisposed?.()) {
+        if (existing && typeof existing.isDisposed === "function" && !existing.isDisposed()) {
+            this.ensureResizeListener();
+            return existing;
+        }
+        if (existing && typeof existing.isDisposed !== "function") {
             this.ensureResizeListener();
             return existing;
         }
@@ -62,31 +64,12 @@ const Charts = {
     },
 
     get(containerId) {
-        const chart = this.instances[containerId];
-        if (!chart || chart.isDisposed?.()) {
-            return null;
-        }
-        return chart;
-    },
-
-    render(containerId, option, emptyMessage = "No data available.") {
-        if (!option) {
-            this.showEmpty(containerId, emptyMessage);
-            return null;
-        }
-        const chart = this.init(containerId);
-        if (!chart) {
-            this.showEmpty(containerId, emptyMessage);
-            return null;
-        }
-        chart.hideLoading();
-        chart.setOption(option, true);
-        return chart;
+        return this.instances[containerId] || null;
     },
 
     destroy(containerId) {
         const chart = this.get(containerId);
-        if (chart) {
+        if (chart && typeof chart.dispose === "function") {
             chart.dispose();
         }
         delete this.instances[containerId];
@@ -94,30 +77,24 @@ const Charts = {
 
     resizeAll() {
         Object.values(this.instances).forEach((chart) => {
-            if (chart && !chart.isDisposed?.()) {
+            if (chart && typeof chart.resize === "function") {
                 chart.resize();
             }
         });
     },
 
-    showLoading(containerId, message = "Loading...") {
+    showLoading(containerId) {
         const chart = this.get(containerId);
         const container = document.getElementById(containerId);
         if (chart) {
             chart.showLoading({
-                text: message,
+                text: "Loading...",
                 color: "#58a6ff",
                 textColor: "#8b949e",
-                maskColor: "rgba(13, 17, 23, 0.72)",
+                maskColor: "rgba(13, 17, 23, 0.8)",
             });
         } else if (container) {
-            container.innerHTML = `
-                <div class="chart-skeleton" aria-live="polite">
-                    <span class="skeleton-line wide"></span>
-                    <span class="skeleton-line"></span>
-                    <span class="skeleton-line short"></span>
-                </div>
-            `;
+            container.innerHTML = '<div class="loading">Loading...</div>';
         }
     },
 
@@ -133,11 +110,14 @@ const Charts = {
         if (!container) {
             return;
         }
+
+        const chart = this.get(containerId);
         this.destroy(containerId);
+
         container.innerHTML = `
-            <div class="error-state" role="status">
+            <div class="error-state">
                 <div class="error-state-title">Load error</div>
-                <div class="error-state-message">${escapeHtml(message)}</div>
+                <div class="error-state-message">${message}</div>
             </div>
         `;
     },
@@ -147,30 +127,28 @@ const Charts = {
         if (!container) {
             return;
         }
+
+        const chart = this.get(containerId);
         this.destroy(containerId);
+
         container.innerHTML = `
-            <div class="empty-state" role="status">
+            <div class="empty-state">
                 <div class="empty-state-title">No data</div>
-                <div class="empty-state-message">${escapeHtml(message)}</div>
+                <div class="empty-state-message">${message}</div>
             </div>
         `;
     },
 
     renderWordcloud(containerId, data) {
-        const limited = (data || []).slice(0, 50);
-        if (!limited.length || !window.echarts) {
-            this.showEmpty(containerId, "No keyword data available.");
-            return null;
-        }
-        if (!echarts.graphic) {
-            this.showError(containerId, "Chart runtime is unavailable.");
+        const chart = this.init(containerId);
+        if (!chart || !data || data.length === 0) {
             return null;
         }
 
-        return this.render(containerId, {
+        chart.setOption({
             tooltip: {
                 show: true,
-                formatter: (params) => `<strong>${escapeHtml(params.name)}</strong><br/>Count: ${params.value}`,
+                formatter: (params) => `<strong>${params.name}</strong><br/>Count: ${params.value}`,
             },
             series: [{
                 type: "wordCloud",
@@ -179,48 +157,43 @@ const Charts = {
                 top: "center",
                 width: "90%",
                 height: "90%",
-                sizeRange: [12, 46],
-                rotationRange: [-20, 20],
-                rotationStep: 10,
-                gridSize: 10,
+                sizeRange: [14, 60],
+                rotationRange: [-45, 45],
+                rotationStep: 15,
+                gridSize: 8,
                 drawOutOfBound: false,
                 textStyle: {
-                    fontFamily: "Inter, sans-serif",
-                    fontWeight: 700,
+                    fontFamily: "sans-serif",
+                    fontWeight: "bold",
                     color() {
-                        const colors = ["#58a6ff", "#79c0ff", "#3fb950", "#d29922", "#a371f7"];
+                        const colors = ["#58a6ff", "#79c0ff", "#3fb950", "#56d364", "#d29922", "#e3b341", "#a371f7", "#bc8cff"];
                         return colors[Math.floor(Math.random() * colors.length)];
                     },
                 },
                 emphasis: {
-                    focus: "self",
-                    textStyle: { shadowBlur: 8, shadowColor: "rgba(88, 166, 255, 0.35)" },
+                    textStyle: {
+                        shadowBlur: 10,
+                        shadowColor: "rgba(88, 166, 255, 0.5)",
+                    },
                 },
-                data: limited.map((item) => ({ name: item.name, value: item.value })),
+                data: data.slice(0, 50).map((item) => ({ name: item.name, value: item.value })),
             }],
-        });
+        }, true);
+        return chart;
     },
 
     renderBarChart(containerId, data) {
-        if (!data || data.length === 0) {
-            this.showEmpty(containerId, "No keyword count data available.");
+        const chart = this.init(containerId);
+        if (!chart || !data || data.length === 0) {
             return null;
         }
 
-        const reversed = [...data].slice(0, 20).reverse();
-        return this.render(containerId, {
-            tooltip: {
-                trigger: "axis",
-                axisPointer: { type: "shadow" },
-                formatter(params) {
-                    const item = params[0];
-                    return `<strong>${escapeHtml(item.name)}</strong><br/>Keyword count: ${item.value}`;
-                },
-            },
-            grid: { left: "3%", right: "12%", bottom: "3%", top: "3%", containLabel: true },
+        const reversed = [...data].reverse();
+        chart.setOption({
+            tooltip: { trigger: "axis", axisPointer: { type: "shadow" } },
+            grid: { left: "3%", right: "10%", bottom: "3%", top: "3%", containLabel: true },
             xAxis: {
                 type: "value",
-                name: "count",
                 axisLine: { lineStyle: { color: "#30363d" } },
                 axisLabel: { color: "#8b949e" },
                 splitLine: { lineStyle: { color: "#21262d" } },
@@ -232,65 +205,39 @@ const Charts = {
                 axisLabel: { color: "#e6edf3", fontSize: 12 },
             },
             series: [{
-                name: "Keyword count",
                 type: "bar",
                 data: reversed.map((item) => item.count),
                 itemStyle: {
-                    color: "#58a6ff",
+                    color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+                        { offset: 0, color: "#667eea" },
+                        { offset: 1, color: "#764ba2" },
+                    ]),
                     borderRadius: [0, 4, 4, 0],
                 },
                 label: { show: true, position: "right", color: "#8b949e", fontSize: 11 },
             }],
-        });
+        }, true);
+        return chart;
     },
 
     renderTrendChart(containerId, trends) {
-        if (!trends || trends.length === 0) {
-            this.showEmpty(containerId, "No relative frequency trend data available.");
+        const chart = this.init(containerId);
+        if (!chart || !trends || trends.length === 0) {
             return null;
         }
 
-        const normalized = trends.slice(0, 5).map((trend) => ({
-            name: trend.topic || trend.keyword || trend.name,
-            years: trend.years || [],
-            relativeFrequencies: trend.relative_frequencies || trend.relativeFrequency || trend.frequency || [],
-            counts: trend.counts || trend.matched_papers || [],
-            totals: trend.total_papers || trend.total_venue_papers || [],
-            sourceScope: trend.source_scope || trend.sourceScope || "structured mixed",
-            warningCounts: trend.warning_counts || trend.warningCounts || [],
-        }));
         const allYears = new Set();
-        normalized.forEach((trend) => trend.years.forEach((year) => allYears.add(year)));
+        trends.forEach((trend) => trend.years.forEach((year) => allYears.add(year)));
         const years = Array.from(allYears).sort();
 
-        return this.render(containerId, {
-            tooltip: {
-                trigger: "axis",
-                formatter(params) {
-                    const year = params?.[0]?.axisValue ?? "";
-                    const rows = params.map((param) => {
-                        const trend = normalized.find((item) => item.name === param.seriesName);
-                        const yearIndex = trend?.years.indexOf(Number(year)) ?? -1;
-                        const count = trend?.counts?.[yearIndex] ?? param.data?.count ?? "n/a";
-                        const total = trend?.totals?.[yearIndex] ?? param.data?.total ?? "n/a";
-                        const warnings = trend?.warningCounts?.[yearIndex] ?? param.data?.warnings ?? 0;
-                        const rel = Number(param.value || 0);
-                        return `${param.marker}<strong>${escapeHtml(param.seriesName)}</strong><br/>
-                            relative_frequency: ${formatPercent(rel)}<br/>
-                            matched_papers: ${count}<br/>
-                            total_papers: ${total}<br/>
-                            source scope: ${escapeHtml(trend?.sourceScope || "structured mixed")}<br/>
-                            warnings: ${warnings}`;
-                    });
-                    return `<strong>${year}</strong><br/>${rows.join("<br/>")}`;
-                },
-            },
+        chart.setOption({
+            tooltip: { trigger: "axis" },
             legend: {
-                data: normalized.map((trend) => trend.name),
+                data: trends.map((trend) => trend.keyword),
                 top: 0,
                 textStyle: { color: "#8b949e" },
             },
-            grid: { left: "3%", right: "4%", bottom: "3%", top: "54px", containLabel: true },
+            grid: { left: "3%", right: "4%", bottom: "3%", top: "50px", containLabel: true },
             xAxis: {
                 type: "category",
                 data: years,
@@ -299,161 +246,41 @@ const Charts = {
             },
             yAxis: {
                 type: "value",
-                name: "relative_frequency",
-                min: 0,
-                axisLine: { lineStyle: { color: "#30363d" } },
-                axisLabel: { color: "#8b949e", formatter: (value) => formatPercent(value) },
-                splitLine: { lineStyle: { color: "#21262d" } },
-            },
-            series: normalized.map((trend) => ({
-                name: trend.name,
-                type: "line",
-                smooth: true,
-                symbol: "circle",
-                symbolSize: 7,
-                data: years.map((year) => {
-                    const index = trend.years.indexOf(Number(year));
-                    if (index < 0) {
-                        return null;
-                    }
-                    const relative = trend.relativeFrequencies[index];
-                    const count = trend.counts[index] || 0;
-                    const total = trend.totals[index] || 0;
-                    return typeof relative === "number" ? relative : (total ? count / total : 0);
-                }),
-                lineStyle: { width: 2 },
-                emphasis: { focus: "series" },
-            })),
-        });
-    },
-
-    renderRelativeFrequencyBars(containerId, items) {
-        if (!items || items.length === 0) {
-            this.showEmpty(containerId, "No topic frequency data available.");
-            return null;
-        }
-        const rows = items.slice(0, 8).reverse();
-        return this.render(containerId, {
-            tooltip: {
-                trigger: "axis",
-                axisPointer: { type: "shadow" },
-                formatter(params) {
-                    const item = rows[params[0].dataIndex];
-                    return `<strong>${escapeHtml(item.name)}</strong><br/>
-                        relative_frequency: ${formatPercent(item.relative_frequency || 0)}<br/>
-                        matched_papers: ${item.count || 0}<br/>
-                        total_papers: ${item.total || 0}<br/>
-                        source scope: ${escapeHtml(item.source_scope || "structured mixed")}<br/>
-                        warnings: ${item.warnings || 0}`;
-                },
-            },
-            grid: { left: "3%", right: "10%", bottom: "4%", top: "4%", containLabel: true },
-            xAxis: {
-                type: "value",
-                name: "relative_frequency",
-                min: 0,
-                axisLabel: { color: "#8b949e", formatter: (value) => formatPercent(value) },
-                splitLine: { lineStyle: { color: "#21262d" } },
-            },
-            yAxis: {
-                type: "category",
-                data: rows.map((item) => item.name),
-                axisLabel: { color: "#e6edf3" },
-                axisLine: { lineStyle: { color: "#30363d" } },
-            },
-            series: [{
-                name: "relative_frequency",
-                type: "bar",
-                data: rows.map((item) => item.relative_frequency || 0),
-                itemStyle: { color: "#3fb950", borderRadius: [0, 4, 4, 0] },
-                label: {
-                    show: true,
-                    position: "right",
-                    color: "#8b949e",
-                    formatter: (params) => formatPercent(params.value),
-                },
-            }],
-        });
-    },
-
-    renderCountTrendChart(containerId, trends) {
-        if (!trends || trends.length === 0) {
-            this.showEmpty(containerId, "No keyword count trend data available.");
-            return null;
-        }
-
-        const normalized = trends.slice(0, 5).map((trend) => ({
-            name: trend.keyword || trend.topic || trend.name,
-            years: (trend.years || []).map((year) => Number(year)),
-            counts: trend.counts || [],
-        }));
-        const allYears = new Set();
-        normalized.forEach((trend) => trend.years.forEach((year) => allYears.add(year)));
-        const years = Array.from(allYears).sort((a, b) => a - b);
-
-        return this.render(containerId, {
-            tooltip: {
-                trigger: "axis",
-                formatter(params) {
-                    const year = Number(params?.[0]?.axisValue);
-                    const rows = params.map((param) => {
-                        const trend = normalized.find((item) => item.name === param.seriesName);
-                        const yearIndex = trend?.years.indexOf(year) ?? -1;
-                        const count = trend?.counts?.[yearIndex] ?? param.value ?? 0;
-                        return `${param.marker}<strong>${escapeHtml(param.seriesName)}</strong><br/>year: ${year}<br/>count: ${count}<br/>metric: keyword count`;
-                    });
-                    return rows.join("<br/>");
-                },
-            },
-            legend: {
-                data: normalized.map((trend) => trend.name),
-                top: 0,
-                textStyle: { color: "#8b949e" },
-            },
-            grid: { left: "3%", right: "4%", bottom: "3%", top: "54px", containLabel: true },
-            xAxis: {
-                type: "category",
-                data: years,
-                axisLine: { lineStyle: { color: "#30363d" } },
-                axisLabel: { color: "#8b949e" },
-            },
-            yAxis: {
-                type: "value",
-                name: "keyword count",
                 axisLine: { lineStyle: { color: "#30363d" } },
                 axisLabel: { color: "#8b949e" },
                 splitLine: { lineStyle: { color: "#21262d" } },
             },
-            series: normalized.map((trend) => ({
-                name: trend.name,
+            series: trends.map((trend) => ({
+                name: trend.keyword,
                 type: "line",
                 smooth: true,
                 symbol: "circle",
-                symbolSize: 7,
+                symbolSize: 8,
                 data: years.map((year) => {
-                    const index = trend.years.indexOf(Number(year));
+                    const index = trend.years.indexOf(year);
                     return index >= 0 ? trend.counts[index] : null;
                 }),
-                lineStyle: { width: 2 },
+                lineStyle: { width: 3 },
                 emphasis: { focus: "series" },
             })),
-        });
+        }, true);
+        return chart;
     },
 
     renderComparisonRadar(containerId, comparison) {
-        const venues = Object.keys(comparison?.venues || {});
-        if (!venues.length) {
-            this.showEmpty(containerId, "No comparison data available.");
+        const chart = this.init(containerId);
+        if (!chart || !comparison) {
             return null;
         }
 
+        const venues = Object.keys(comparison.venues);
         const allKeywords = new Set();
         venues.forEach((venue) => {
             comparison.venues[venue].slice(0, 8).forEach((item) => allKeywords.add(item.keyword));
         });
         const keywords = Array.from(allKeywords).slice(0, 8);
 
-        return this.render(containerId, {
+        chart.setOption({
             tooltip: {},
             legend: { data: venues, top: 0, textStyle: { color: "#8b949e" } },
             radar: {
@@ -470,25 +297,12 @@ const Charts = {
                 data: venues.map((venue) => ({
                     name: venue,
                     value: keywords.map((keyword) => comparison.venues[venue].find((item) => item.keyword === keyword)?.count || 0),
-                    areaStyle: { opacity: 0.16 },
+                    areaStyle: { opacity: 0.2 },
                 })),
             }],
-        });
+        }, true);
+        return chart;
     },
 };
-
-function formatPercent(value) {
-    const number = Number(value || 0);
-    return `${(number * 100).toFixed(number > 0 && number < 0.01 ? 2 : 1)}%`;
-}
-
-function escapeHtml(value) {
-    return String(value ?? "")
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
-}
 
 window.Charts = Charts;

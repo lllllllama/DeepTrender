@@ -1,13 +1,13 @@
 const API = {
     isStatic: false,
     staticDetected: false,
+    modePromise: null,
     cache: new Map(),
     inFlight: new Map(),
     ttl: {
         overview: 60 * 1000,
-        taxonomy: 5 * 60 * 1000,
-        static: Number.POSITIVE_INFINITY,
         chart: 60 * 1000,
+        static: Number.POSITIVE_INFINITY,
         default: 60 * 1000,
     },
 
@@ -15,20 +15,25 @@ const API = {
         if (this.staticDetected) {
             return this.isStatic;
         }
-
-        try {
-            const response = await fetch("./api/health", { method: "HEAD", cache: "no-cache" });
-            this.isStatic = !response.ok;
-        } catch (error) {
-            this.isStatic = true;
+        if (this.modePromise) {
+            return this.modePromise;
         }
 
-        this.staticDetected = true;
-        return this.isStatic;
-    },
+        this.modePromise = fetch("./api/health", { method: "HEAD", cache: "no-cache" })
+            .then((response) => {
+                this.isStatic = !response.ok;
+                return this.isStatic;
+            })
+            .catch(() => {
+                this.isStatic = true;
+                return this.isStatic;
+            })
+            .finally(() => {
+                this.staticDetected = true;
+                this.modePromise = null;
+            });
 
-    cacheKey(url) {
-        return url.toString();
+        return this.modePromise;
     },
 
     makeUrl(endpoint, params = {}) {
@@ -37,10 +42,12 @@ const API = {
             if (value === null || value === undefined || value === "") {
                 return;
             }
+
             if (Array.isArray(value)) {
                 value.forEach((item) => url.searchParams.append(key, item));
                 return;
             }
+
             url.searchParams.set(key, value);
         });
         return url;
@@ -67,7 +74,7 @@ const API = {
 
     async get(endpoint, params = {}, options = {}) {
         const url = this.makeUrl(endpoint, params);
-        const key = this.cacheKey(url);
+        const key = url.toString();
         const ttlMs = options.ttl ?? this.ttl.default;
 
         if (!options.forceRefresh) {
@@ -92,25 +99,21 @@ const API = {
                 this.setCached(key, data, ttlMs);
                 return data;
             })
-            .finally(() => {
-                this.inFlight.delete(key);
-            });
+            .finally(() => this.inFlight.delete(key));
 
         this.inFlight.set(key, request);
         return request;
     },
 
-    async getStatic(path, options = {}) {
+    async getStatic(path) {
         const url = new URL(path, window.location.href);
-        const key = this.cacheKey(url);
-        if (!options.forceRefresh) {
-            const cached = this.getCached(key);
-            if (cached !== null) {
-                return cached;
-            }
-            if (this.inFlight.has(key)) {
-                return this.inFlight.get(key);
-            }
+        const key = url.toString();
+        const cached = this.getCached(key);
+        if (cached !== null) {
+            return cached;
+        }
+        if (this.inFlight.has(key)) {
+            return this.inFlight.get(key);
         }
 
         const request = fetch(path)
@@ -130,35 +133,23 @@ const API = {
         return request;
     },
 
-    staticUnavailable(label) {
-        return {
-            data: {
-                normalized_query: {},
-                unavailable: true,
-                message: `${label} is not available in static export yet.`,
-            },
-            meta: {
-                taxonomy_version: "taxonomy_v0.1",
-                data_policy_version: "data_policy_v0.1",
-                generated_at: new Date().toISOString(),
-                source_layer: "static_export",
-                limit: 0,
-                offset: 0,
-                has_more: false,
-            },
-            warnings: [{
-                code: "static_export_unavailable",
-                message: `${label} is not available in static export yet.`,
-                severity: "low",
-            }],
-            evidence: [],
-        };
+    aggregateVenueIndexKeywords(venues, limit = 50) {
+        const allKeywords = {};
+        venues.forEach((venue) => {
+            (venue.top_keywords || []).forEach((item) => {
+                allKeywords[item.keyword] = (allKeywords[item.keyword] || 0) + item.count;
+            });
+        });
+        return Object.entries(allKeywords)
+            .map(([keyword, count]) => ({ keyword, count }))
+            .sort((a, b) => b.count - a.count)
+            .slice(0, limit);
     },
 
-    async getOverview(options = {}) {
+    async getOverview() {
         await this.detectMode();
         if (!this.isStatic) {
-            return this.get("./api/stats/overview", {}, { ttl: this.ttl.overview, ...options });
+            return this.get("./api/stats/overview", {}, { ttl: this.ttl.overview });
         }
 
         const venues = await this.getStatic("./data/venues/venues_index.json");
@@ -177,50 +168,25 @@ const API = {
         };
     },
 
-    async getOverviewV01(options = {}) {
-        await this.detectMode();
-        if (this.isStatic) {
-            const overview = await this.getOverview(options);
-            return {
-                data: { normalized_query: {}, ...overview },
-                meta: {
-                    taxonomy_version: "taxonomy_v0.1",
-                    data_policy_version: "data_policy_v0.1",
-                    generated_at: new Date().toISOString(),
-                    source_layer: "static_json",
-                    limit: 1,
-                    offset: 0,
-                    has_more: false,
-                },
-                warnings: [],
-                evidence: [{ type: "static_json", path: "./data/venues/venues_index.json" }],
-            };
-        }
-        return this.get("./api/v01/overview", {}, { ttl: this.ttl.overview, ...options });
-    },
-
-    async getVenues(options = {}) {
+    async getVenues() {
         await this.detectMode();
         if (!this.isStatic) {
-            return this.get("./api/stats/venues", {}, { ttl: this.ttl.overview, ...options });
+            return this.get("./api/stats/venues", {}, { ttl: this.ttl.overview });
         }
 
         const venues = await this.getStatic("./data/venues/venues_index.json");
         return venues.map((venue) => ({
             name: venue.name,
-            full_name: venue.full_name,
-            domain: venue.domain,
-            tier: venue.tier,
-            top_keywords: venue.top_keywords || [],
             paper_count: venue.paper_count,
+            top_keywords: venue.top_keywords || [],
             years: venue.years_available || [],
         }));
     },
 
-    async getVenueDetail(venue, options = {}) {
+    async getVenueDetail(venue) {
         await this.detectMode();
         if (!this.isStatic) {
-            return this.get(`./api/stats/venue/${venue}`, {}, { ttl: this.ttl.overview, ...options });
+            return this.get(`./api/stats/venue/${venue}`, {}, { ttl: this.ttl.overview });
         }
 
         const venuesIndex = await this.getStatic("./data/venues/venues_index.json");
@@ -239,26 +205,17 @@ const API = {
         return {
             venue,
             total_papers: venueInfo.paper_count,
-            years: venueInfo.years_available || [],
+            years: venueInfo.years_available,
             yearly_stats: yearlyStats,
         };
     },
 
-    async getTopKeywords(params = {}, options = {}) {
+    async getTopKeywords(params = {}) {
         await this.detectMode();
 
         if (this.isStatic && !params.venue) {
             const venues = await this.getStatic("./data/venues/venues_index.json");
-            const allKeywords = {};
-            venues.forEach((venue) => {
-                (venue.top_keywords || []).forEach((item) => {
-                    allKeywords[item.keyword] = (allKeywords[item.keyword] || 0) + item.count;
-                });
-            });
-            return Object.entries(allKeywords)
-                .map(([keyword, count]) => ({ keyword, count }))
-                .sort((a, b) => b.count - a.count)
-                .slice(0, params.limit || 50);
+            return this.aggregateVenueIndexKeywords(venues, params.limit || 50);
         }
 
         if (this.isStatic && params.venue) {
@@ -280,10 +237,10 @@ const API = {
                 .slice(0, params.limit || 50);
         }
 
-        return this.get("./api/keywords/top", params, { ttl: this.ttl.chart, ...options });
+        return this.get("./api/keywords/top", params, { ttl: this.ttl.chart });
     },
 
-    async getKeywordTrends(keywords = [], venue = null, options = {}) {
+    async getKeywordTrends(keywords = [], venue = null) {
         await this.detectMode();
 
         if (this.isStatic && !venue) {
@@ -305,43 +262,41 @@ const API = {
             });
         }
 
-        return this.get("./api/keywords/trends", { keyword: keywords, venue }, { ttl: this.ttl.chart, ...options });
+        return this.get("./api/keywords/trends", { keyword: keywords, venue }, { ttl: this.ttl.chart });
     },
 
-    async getComparison(year = null, limit = 10, options = {}) {
+    async getComparison(year = null, limit = 10) {
         await this.detectMode();
 
         if (this.isStatic) {
             const venuesIndex = await this.getStatic("./data/venues/venues_index.json");
             const result = { year, venues: {} };
-            venuesIndex.slice(0, 8).forEach((venueInfo) => {
-                const targetYear = year || Math.max(...(venueInfo.years_available || [0]));
-                result.venues[venueInfo.name] = (venueInfo.top_keywords || []).slice(0, limit).map((item) => ({
-                    ...item,
-                    year: targetYear,
-                }));
-            });
+
+            for (const venueInfo of venuesIndex) {
+                try {
+                    const topKeywords = await this.getStatic(`./data/venues/venue_${venueInfo.name}_top_keywords.json`);
+                    const targetYear = year || Math.max(...Object.keys(topKeywords).map(Number));
+                    if (topKeywords[targetYear]) {
+                        result.venues[venueInfo.name] = topKeywords[targetYear].slice(0, limit);
+                    }
+                } catch (error) {
+                    console.warn(`Failed to load static data for ${venueInfo.name}`, error);
+                }
+            }
+
             return result;
         }
 
-        return this.get("./api/keywords/comparison", { year, limit }, { ttl: this.ttl.chart, ...options });
+        return this.get("./api/keywords/comparison", { year, limit }, { ttl: this.ttl.chart });
     },
 
-    async getWordcloudData(venue = null, year = null, limit = 50, options = {}) {
+    async getWordcloudData(venue = null, year = null, limit = 100) {
         await this.detectMode();
 
         if (this.isStatic && !venue) {
             const venues = await this.getStatic("./data/venues/venues_index.json");
-            const allKeywords = {};
-            venues.forEach((venueInfo) => {
-                (venueInfo.top_keywords || []).forEach((item) => {
-                    allKeywords[item.keyword] = (allKeywords[item.keyword] || 0) + item.count;
-                });
-            });
-            return Object.entries(allKeywords)
-                .map(([name, value]) => ({ name, value }))
-                .sort((a, b) => b.value - a.value)
-                .slice(0, limit);
+            return this.aggregateVenueIndexKeywords(venues, limit)
+                .map((item) => ({ name: item.keyword, value: item.count }));
         }
 
         if (this.isStatic && venue) {
@@ -366,87 +321,15 @@ const API = {
                 .map((item) => ({ name: item.keyword, value: item.count }));
         }
 
-        return this.get("./api/keywords/wordcloud", { venue, year, limit }, { ttl: this.ttl.chart, ...options });
+        return this.get("./api/keywords/wordcloud", { venue, year, limit }, { ttl: this.ttl.chart });
     },
 
-    async getEmergingKeywords(options = {}) {
+    async getEmergingKeywords() {
         await this.detectMode();
         if (this.isStatic) {
             return [];
         }
-        return this.get("./api/keywords/emerging", {}, { ttl: this.ttl.chart, ...options });
-    },
-
-    async getDomains(options = {}) {
-        await this.detectMode();
-        if (this.isStatic) {
-            return this.staticUnavailable("Domain taxonomy metadata");
-        }
-        return this.get("./api/v01/domains", {}, { ttl: this.ttl.taxonomy, ...options });
-    },
-
-    async getTopics(domain = null, options = {}) {
-        await this.detectMode();
-        if (this.isStatic) {
-            return this.staticUnavailable("Topic taxonomy metadata");
-        }
-        return this.get("./api/v01/topics", { domain }, { ttl: this.ttl.taxonomy, ...options });
-    },
-
-    async resolveTopic(query, includeChildren = false, options = {}) {
-        await this.detectMode();
-        if (this.isStatic || !query) {
-            return this.staticUnavailable("Topic resolution");
-        }
-        return this.get(
-            "./api/v01/topics/resolve",
-            { query, include_children: includeChildren },
-            { ttl: this.ttl.taxonomy, ...options },
-        );
-    },
-
-    async getVenueYearTopic(venue, year, topic, includeChildren = false, options = {}) {
-        await this.detectMode();
-        if (this.isStatic) {
-            return this.staticUnavailable("Venue-year-topic explorer");
-        }
-        return this.get(
-            "./api/v01/venue-year-topic",
-            { venue, year, topic, include_children: includeChildren, limit: options.limit || 20, offset: options.offset || 0 },
-            { ttl: this.ttl.chart, ...options },
-        );
-    },
-
-    async getDataQualityReport(scope = {}, options = {}) {
-        await this.detectMode();
-        if (this.isStatic) {
-            return this.staticUnavailable("Data quality report");
-        }
-        return this.get("./api/v01/data-quality", scope, { ttl: this.ttl.overview, ...options });
-    },
-
-    async getPaperProvenance(paperId, options = {}) {
-        await this.detectMode();
-        if (this.isStatic) {
-            return this.staticUnavailable("Paper provenance");
-        }
-        return this.get(`./api/v01/papers/${paperId}/provenance`, {}, { ttl: this.ttl.taxonomy, ...options });
-    },
-
-    async getTopicSourceCoverage(topic, venue = null, year = null, options = {}) {
-        await this.detectMode();
-        if (this.isStatic) {
-            return this.staticUnavailable("Topic source coverage");
-        }
-        return this.get("./api/v01/topic-source-coverage", { topic, venue, year }, { ttl: this.ttl.chart, ...options });
-    },
-
-    async getVenueYearSourceCoverage(venue, year, options = {}) {
-        await this.detectMode();
-        if (this.isStatic) {
-            return this.staticUnavailable("Venue-year source coverage");
-        }
-        return this.get("./api/v01/venue-year-source-coverage", { venue, year }, { ttl: this.ttl.chart, ...options });
+        return this.get("./api/keywords/emerging", {}, { ttl: this.ttl.chart });
     },
 };
 

@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeepTrender - Structured AI/ML Paper Trend Database</title>
+    <title>DeepTrender - AI Paper Trend Analytics</title>
     <link rel="stylesheet" href="./static/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 </head>
 <body data-i18n-title="index.title">
-    <nav class="navbar app-navbar">
+    <nav class="navbar">
         <div class="nav-brand">
             <span class="brand-text">DeepTrender</span>
         </div>
-        <div class="nav-links" aria-label="Primary navigation">
-            <a href="#overview" class="nav-link active" data-view-target="overview" data-i18n="nav.overview">Overview</a>
-            <a href="#topics" class="nav-link" data-view-target="topics" data-i18n="nav.topics">Topics</a>
-            <a href="#explorer" class="nav-link" data-view-target="explorer" data-i18n="nav.explorer">Explorer</a>
-            <a href="#domains" class="nav-link" data-view-target="domains" data-i18n="nav.domains">Domains</a>
-            <a href="./venue.html" class="nav-link" data-i18n="nav.venues">Venues</a>
-            <a href="./arxiv.html" class="nav-link" data-i18n="nav.arxiv">arXiv</a>
-            <a href="#quality" class="nav-link" data-view-target="quality" data-i18n="nav.dataQuality">Data Quality</a>
-            <a href="#keywords" class="nav-link" data-view-target="keywords" data-i18n="nav.keywords">Keywords</a>
+        <div class="nav-links">
+            <a href="./index.html" class="nav-link active" data-i18n="nav.home">Home</a>
+            <a href="./venue.html" class="nav-link" data-i18n="nav.venues">Venue Analysis</a>
+            <a href="./trends.html" class="nav-link" data-i18n="nav.trends">Trend Tracking</a>
+            <a href="./comparison.html" class="nav-link" data-i18n="nav.compare">Venue Comparison</a>
+            <a href="./arxiv.html" class="nav-link" data-i18n="nav.arxiv">arXiv Trends</a>
         </div>
         <div class="lang-switcher">
             <button class="lang-btn active" type="button" data-lang-switch="en" onclick="SiteI18n.switchLanguage('en')" data-i18n="lang.en">English</button>
@@ -28,213 +25,85 @@
         </div>
     </nav>
 
-    <main class="container topic-dashboard workbench-shell">
-        <section class="workspace-view view-panel active" data-view="overview" id="overview">
-            <div class="workbench-header">
-                <div>
-                    <p class="section-kicker" data-i18n="index.hero.kicker">Topic data explorer</p>
-                    <h1 id="hero-title" data-i18n="index.hero.title">DeepTrender</h1>
-                    <p class="hero-description" data-i18n="index.hero.desc">Structured AI/ML paper topics, evidence, relative_frequency, counts, and warnings.</p>
-                </div>
-                <div class="scope-panel compact" aria-label="Data scope switcher">
-                    <span class="scope-label" data-i18n="index.scope.label">Source scope</span>
-                    <div class="scope-switcher" id="scope-switcher" role="group" aria-label="Select data scope">
-                        <button class="scope-option" type="button" data-scope="preprint" aria-pressed="false" data-i18n="index.scope.preprint">arXiv Preprint</button>
-                        <button class="scope-option" type="button" data-scope="accepted" aria-pressed="false" data-i18n="index.scope.accepted">Conference Accepted</button>
-                        <button class="scope-option active" type="button" data-scope="mixed" aria-pressed="true" data-i18n="index.scope.mixed">Structured Mixed</button>
-                    </div>
-                    <p class="scope-note" id="scope-note" data-i18n="index.scope.note.mixed">Current scope: Structured Mixed. Accepted, preprint, mixed, and unknown evidence are labeled separately.</p>
+    <main class="container">
+        <section class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-content">
+                    <div class="stat-value" id="stat-papers">--</div>
+                    <div class="stat-label" data-i18n="index.stat.papers">Total Papers</div>
                 </div>
             </div>
-
-            <section class="stats-grid compact-stats" aria-label="Repository summary">
-                <div class="stat-card">
-                    <div class="stat-content">
-                        <div class="stat-value skeleton-text" id="stat-papers">--</div>
-                        <div class="stat-label" data-i18n="index.stat.papers">Structured Papers</div>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-content">
-                        <div class="stat-value skeleton-text" id="stat-keywords">--</div>
-                        <div class="stat-label" data-i18n="index.stat.keywords">Tracked Keywords</div>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-content">
-                        <div class="stat-value skeleton-text" id="stat-venues">--</div>
-                        <div class="stat-label" data-i18n="index.stat.venues">Covered Venues</div>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-content">
-                        <div class="stat-value skeleton-text" id="stat-years">--</div>
-                        <div class="stat-label" data-i18n="index.stat.years">Year Range</div>
-                    </div>
-                </div>
-            </section>
-
-            <div class="overview-layout">
-                <section class="data-panel primary-panel">
-                    <div class="panel-header">
-                        <div>
-                            <h2 data-i18n="index.topicChart.title">Topic Relative Frequency</h2>
-                            <p data-i18n="index.topicChart.subtitle">Primary metric: relative_frequency. Count is shown alongside it.</p>
-                        </div>
-                        <span class="badge badge-mixed" id="active-scope-badge">Structured Mixed</span>
-                    </div>
-                    <div class="chart-body tall" id="chart-topic-frequency" aria-label="Topic relative frequency chart"></div>
-                </section>
-
-                <aside class="data-panel warning-panel" id="quality-warning-panel" aria-live="polite">
-                    <div class="panel-header stack">
-                        <p class="section-kicker" data-i18n="index.quality.kicker">Data Quality</p>
-                        <h2 data-i18n="index.quality.title">Visible warnings</h2>
-                    </div>
-                    <div class="warning-list" id="quality-warning-list">
-                        <div class="warning-item muted" data-i18n="index.quality.loading">Loading scoped quality checks...</div>
-                    </div>
-                </aside>
-            </div>
-        </section>
-
-        <section class="workspace-view view-panel" data-view="topics" id="topics">
-            <div class="view-title-row">
-                <div>
-                    <p class="section-kicker" data-i18n="index.topics.kicker">Canonical taxonomy</p>
-                    <h2 data-i18n="index.topics.title">Canonical Topics</h2>
+            <div class="stat-card">
+                <div class="stat-content">
+                    <div class="stat-value" id="stat-keywords">--</div>
+                    <div class="stat-label" data-i18n="index.stat.keywords">Tracked Keywords</div>
                 </div>
             </div>
-            <div class="topic-card-grid" id="topic-cards">
-                <div class="topic-card skeleton-card"></div>
-                <div class="topic-card skeleton-card"></div>
-                <div class="topic-card skeleton-card"></div>
-            </div>
-        </section>
-
-        <section class="workspace-view view-panel" data-view="explorer" id="explorer">
-            <div class="view-title-row">
-                <div>
-                    <p class="section-kicker" data-i18n="index.explorer.kicker">Venue-Year-Topic Explorer</p>
-                    <h2 data-i18n="index.explorer.title">Inspect topic evidence</h2>
+            <div class="stat-card">
+                <div class="stat-content">
+                    <div class="stat-value" id="stat-venues">--</div>
+                    <div class="stat-label" data-i18n="index.stat.venues">Covered Venues</div>
                 </div>
             </div>
-
-            <form class="explorer-form tool-form" id="topic-explorer-form">
-                <div class="filter-group">
-                    <label for="explorer-venue" data-i18n="index.explorer.venue">Venue</label>
-                    <select id="explorer-venue" class="filter-select" aria-label="Explorer venue">
-                        <option value="">Select venue</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label for="explorer-year" data-i18n="index.explorer.year">Year</label>
-                    <select id="explorer-year" class="filter-select" aria-label="Explorer year">
-                        <option value="">Select year</option>
-                    </select>
-                </div>
-                <div class="filter-group wide">
-                    <label for="explorer-topic" data-i18n="index.explorer.topic">Topic query</label>
-                    <input type="search" id="explorer-topic" class="search-input" placeholder="transformer, LLM, diffusion..." aria-label="Topic query" autocomplete="off" data-i18n-placeholder="index.explorer.topicPlaceholder">
-                </div>
-                <label class="checkbox-row" for="explorer-include-children">
-                    <input type="checkbox" id="explorer-include-children">
-                    <span data-i18n="index.explorer.includeChildren">include_children</span>
-                </label>
-                <button class="btn-refresh" type="submit" data-i18n="index.explorer.search">Search</button>
-            </form>
-
-            <div class="normalized-preview" id="topic-preview" aria-live="polite">
-                <span data-i18n="index.explorer.previewEmpty">Enter a topic query to preview canonical normalization.</span>
-            </div>
-
-            <div class="explorer-results" id="explorer-results">
-                <div class="empty-state">
-                    <div class="empty-state-title" data-i18n="index.explorer.emptyTitle">No explorer query yet</div>
-                    <div class="empty-state-message" data-i18n="index.explorer.emptyMessage">Select a venue, year, and topic to inspect normalized query details, counts, relative_frequency, warnings, and evidence papers.</div>
+            <div class="stat-card">
+                <div class="stat-content">
+                    <div class="stat-value" id="stat-years">--</div>
+                    <div class="stat-label" data-i18n="index.stat.years">Year Range</div>
                 </div>
             </div>
         </section>
 
-        <section class="workspace-view view-panel" data-view="domains" id="domains">
-            <div class="view-title-row">
-                <div>
-                    <p class="section-kicker" data-i18n="index.domains.kicker">Domains</p>
-                    <h2 data-i18n="index.domains.title">Domain Overview</h2>
-                </div>
+        <section class="filter-bar">
+            <div class="filter-group">
+                <label for="filter-venue" data-i18n="index.filter.venue">Venue</label>
+                <select id="filter-venue" class="filter-select">
+                    <option value="" data-i18n="index.filter.venue.all">All venues</option>
+                </select>
             </div>
-            <div class="domain-grid" id="domain-grid">
-                <div class="domain-card skeleton-card"></div>
-                <div class="domain-card skeleton-card"></div>
+            <div class="filter-group">
+                <label for="filter-year" data-i18n="index.filter.year">Year</label>
+                <select id="filter-year" class="filter-select">
+                    <option value="" data-i18n="index.filter.year.all">All years</option>
+                </select>
+            </div>
+            <button class="btn-refresh" type="button" onclick="refreshData()" data-i18n="index.refresh">Refresh</button>
+        </section>
+
+        <section class="charts-grid">
+            <div class="chart-card large">
+                <div class="chart-header">
+                    <h3 data-i18n="index.cloud">Keyword Cloud</h3>
+                </div>
+                <div class="chart-body" id="chart-wordcloud"></div>
+            </div>
+
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 data-i18n="index.top">Top 20 Keywords</h3>
+                </div>
+                <div class="chart-body" id="chart-top-keywords"></div>
             </div>
         </section>
 
-        <section class="workspace-view view-panel" data-view="quality" id="data-quality">
-            <div class="view-title-row">
-                <div>
-                    <p class="section-kicker" data-i18n="index.quality.kicker">Data Quality</p>
-                    <h2 data-i18n="index.quality.reportTitle">Scoped Quality Report</h2>
+        <section class="chart-card full-width">
+            <div class="chart-header">
+                <h3 data-i18n="index.trends">Keyword Trends</h3>
+                <div class="chart-actions">
+                    <input type="text" id="trend-search" class="search-input" data-i18n-placeholder="index.search" placeholder="Search keywords..." />
                 </div>
             </div>
-            <div class="quality-grid" id="quality-grid">
-                <div class="quality-card skeleton-card"></div>
-                <div class="quality-card skeleton-card"></div>
-                <div class="quality-card skeleton-card"></div>
-            </div>
-            <div class="source-breakdown" id="quality-source-breakdown"></div>
+            <div class="chart-body tall" id="chart-trends"></div>
         </section>
 
-        <section class="workspace-view view-panel" data-view="keywords" id="keywords">
-            <div class="view-title-row">
-                <div>
-                    <p class="section-kicker">Keyword reference</p>
-                    <h2 data-i18n="index.keyword.cloud">Keyword Cloud</h2>
-                </div>
-            </div>
-
-            <section class="filter-bar legacy-filter">
-                <div class="filter-group">
-                    <label for="filter-venue" data-i18n="index.keyword.venue">Keyword venue filter</label>
-                    <select id="filter-venue" class="filter-select">
-                        <option value="" data-i18n="index.keyword.allVenues">All venues</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label for="filter-year" data-i18n="index.keyword.year">Keyword year filter</label>
-                    <select id="filter-year" class="filter-select">
-                        <option value="" data-i18n="index.keyword.allYears">All years</option>
-                    </select>
-                </div>
-                <button class="btn-refresh" type="button" onclick="refreshData()" data-i18n="index.keyword.refresh">Refresh keyword charts</button>
-            </section>
-
-            <section class="keyword-layout">
-                <div class="data-panel large lazy-panel" id="wordcloud-panel">
-                    <div class="panel-header">
-                        <h3 data-i18n="index.keyword.cloud">Keyword Cloud</h3>
-                    </div>
-                    <div class="chart-body" id="chart-wordcloud"></div>
-                </div>
-                <div class="data-panel">
-                    <div class="panel-header">
-                        <h3 data-i18n="index.keyword.top">Top 20 Keywords</h3>
-                    </div>
-                    <div class="chart-body" id="chart-top-keywords"></div>
-                </div>
-            </section>
-
-            <section class="data-panel full-width">
-                <div class="panel-header">
-                    <h3 data-i18n="index.keyword.trends">Keyword Count Trends</h3>
-                    <input type="text" id="trend-search" class="search-input" placeholder="Search keywords..." aria-label="Search keyword trends" data-i18n-placeholder="index.keyword.searchPlaceholder">
-                </div>
-                <div class="chart-body tall" id="chart-trends"></div>
-            </section>
+        <section class="venues-section">
+            <h2 data-i18n="index.venues">Venue Overview</h2>
+            <div class="venues-grid" id="venues-grid"></div>
         </section>
     </main>
 
     <footer class="footer">
-        <p data-i18n="footer.tagline">DeepTrender - structured AI/ML paper trend database</p>
+        <p data-i18n="footer.tagline">DeepTrender - AI paper keyword tracking and trend analytics</p>
+        <p data-i18n="footer.sources.core">Data sources: OpenReview | Semantic Scholar</p>
     </footer>
 
     <script src="./static/js/site.js"></script>
