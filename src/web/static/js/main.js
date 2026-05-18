@@ -1,4 +1,5 @@
 const state = {
+    activeView: "overview",
     scope: "mixed",
     venue: "",
     year: "",
@@ -30,6 +31,7 @@ async function init() {
     setupKeywordFilters();
     setupWordcloudObserver();
     setupNavHighlighting();
+    setupViewNavigation();
     setupLanguageRefresh();
     updateScopeText();
 
@@ -201,12 +203,42 @@ function setupWordcloudObserver() {
 }
 
 function setupNavHighlighting() {
-    document.querySelectorAll(".nav-link[href^='#']").forEach((link) => {
-        link.addEventListener("click", () => {
-            document.querySelectorAll(".nav-link").forEach((item) => item.classList.remove("active"));
-            link.classList.add("active");
+    switchView(viewFromHash() || "overview", { updateHash: false });
+}
+
+function setupViewNavigation() {
+    document.querySelectorAll("[data-view-target]").forEach((link) => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault();
+            switchView(link.dataset.viewTarget || "overview");
         });
     });
+    window.addEventListener("hashchange", () => {
+        const view = viewFromHash();
+        if (view) {
+            switchView(view, { updateHash: false });
+        }
+    });
+}
+
+function viewFromHash() {
+    const hash = window.location.hash.replace("#", "");
+    const valid = new Set(["overview", "domains", "topics", "explorer", "quality"]);
+    return valid.has(hash) ? hash : null;
+}
+
+function switchView(view, options = {}) {
+    state.activeView = view;
+    document.querySelectorAll(".view-panel").forEach((panel) => {
+        panel.classList.toggle("active", panel.dataset.view === view);
+    });
+    document.querySelectorAll("[data-view-target]").forEach((link) => {
+        link.classList.toggle("active", link.dataset.viewTarget === view);
+    });
+    if (options.updateHash !== false) {
+        history.replaceState(null, "", `#${view}`);
+    }
+    window.setTimeout(() => Charts.resizeAll(), 80);
 }
 
 async function loadDefaultExplorer() {

@@ -13,13 +13,13 @@
             <span class="brand-text">DeepTrender</span>
         </div>
         <div class="nav-links" aria-label="Primary navigation">
-            <a href="#overview" class="nav-link active" data-i18n="nav.overview">Overview</a>
-            <a href="#domains" class="nav-link" data-i18n="nav.domains">Domains</a>
-            <a href="#topics" class="nav-link" data-i18n="nav.topics">Topics</a>
+            <a href="#overview" class="nav-link active" data-view-target="overview" data-i18n="nav.overview">Overview</a>
+            <a href="#domains" class="nav-link" data-view-target="domains" data-i18n="nav.domains">Domains</a>
+            <a href="#topics" class="nav-link" data-view-target="topics" data-i18n="nav.topics">Topics</a>
             <a href="./venue.html" class="nav-link" data-i18n="nav.venues">Venues</a>
-            <a href="#explorer" class="nav-link" data-i18n="nav.explorer">Explorer</a>
+            <a href="#explorer" class="nav-link" data-view-target="explorer" data-i18n="nav.explorer">Explorer</a>
             <a href="./arxiv.html" class="nav-link" data-i18n="nav.arxiv">arXiv</a>
-            <a href="#data-quality" class="nav-link" data-i18n="nav.dataQuality">Data Quality</a>
+            <a href="#data-quality" class="nav-link" data-view-target="quality" data-i18n="nav.dataQuality">Data Quality</a>
         </div>
         <div class="lang-switcher">
             <button class="lang-btn active" type="button" data-lang-switch="en" onclick="SiteI18n.switchLanguage('en')" data-i18n="lang.en">English</button>
@@ -28,7 +28,7 @@
     </nav>
 
     <main class="container topic-dashboard">
-        <section class="product-hero" id="overview" aria-labelledby="hero-title">
+        <section class="product-hero view-panel active" data-view="overview" id="overview" aria-labelledby="hero-title">
             <div class="hero-copy">
                 <p class="section-kicker" data-i18n="index.hero.kicker">Topic data explorer</p>
                 <h1 id="hero-title" data-i18n="index.hero.title">DeepTrender</h1>
@@ -45,7 +45,7 @@
             </div>
         </section>
 
-        <section class="stats-grid" aria-label="Repository summary">
+        <section class="stats-grid view-panel active" data-view="overview" aria-label="Repository summary">
             <div class="stat-card">
                 <div class="stat-content">
                     <div class="stat-value skeleton-text" id="stat-papers">--</div>
@@ -72,7 +72,7 @@
             </div>
         </section>
 
-        <section class="warning-panel" id="quality-warning-panel" aria-live="polite">
+        <section class="warning-panel view-panel active" data-view="overview" id="quality-warning-panel" aria-live="polite">
             <div>
                 <p class="section-kicker" data-i18n="index.quality.kicker">Data Quality</p>
                 <h2 data-i18n="index.quality.title">Visible warnings</h2>
@@ -82,7 +82,17 @@
             </div>
         </section>
 
-        <section class="section-shell" id="topics">
+        <section class="chart-card full-width primary-chart view-panel active" data-view="overview">
+            <div class="chart-header">
+                <div>
+                    <h3 data-i18n="index.topicChart.title">Topic Relative Frequency</h3>
+                    <p class="chart-subtitle" data-i18n="index.topicChart.subtitle">Primary metric: relative_frequency. Count is shown alongside it.</p>
+                </div>
+            </div>
+            <div class="chart-body tall" id="chart-topic-frequency" aria-label="Topic relative frequency chart"></div>
+        </section>
+
+        <section class="section-shell view-panel" data-view="topics" id="topics">
             <div class="section-header">
                 <div>
                     <p class="section-kicker" data-i18n="index.topics.kicker">Canonical taxonomy</p>
@@ -98,17 +108,7 @@
             </div>
         </section>
 
-        <section class="chart-card full-width primary-chart">
-            <div class="chart-header">
-                <div>
-                    <h3 data-i18n="index.topicChart.title">Topic Relative Frequency</h3>
-                    <p class="chart-subtitle" data-i18n="index.topicChart.subtitle">Primary metric: relative_frequency. Count is shown alongside it.</p>
-                </div>
-            </div>
-            <div class="chart-body tall" id="chart-topic-frequency" aria-label="Topic relative frequency chart"></div>
-        </section>
-
-        <section class="section-shell" id="explorer">
+        <section class="section-shell view-panel" data-view="explorer" id="explorer">
             <div class="section-header">
                 <div>
                     <p class="section-kicker" data-i18n="index.explorer.kicker">Venue-Year-Topic Explorer</p>
@@ -153,7 +153,7 @@
             </div>
         </section>
 
-        <section class="section-shell" id="domains">
+        <section class="section-shell view-panel" data-view="domains" id="domains">
             <div class="section-header">
                 <div>
                     <p class="section-kicker" data-i18n="index.domains.kicker">Domains</p>
@@ -167,7 +167,7 @@
             </div>
         </section>
 
-        <section class="venues-section" id="venues">
+        <section class="venues-section view-panel" data-view="venues" id="venues">
             <div class="section-header">
                 <div>
                     <p class="section-kicker" data-i18n="index.venues.kicker">Venues</p>
@@ -178,7 +178,7 @@
             <div class="venues-grid" id="venues-grid"></div>
         </section>
 
-        <section class="section-shell" id="data-quality">
+        <section class="section-shell view-panel" data-view="quality" id="data-quality">
             <div class="section-header">
                 <div>
                     <p class="section-kicker" data-i18n="index.quality.kicker">Data Quality</p>
@@ -194,7 +194,7 @@
             <div class="source-breakdown" id="quality-source-breakdown"></div>
         </section>
 
-        <section class="filter-bar legacy-filter">
+        <section class="filter-bar legacy-filter view-panel active" data-view="overview">
             <div class="filter-group">
                 <label for="filter-venue" data-i18n="index.keyword.venue">Keyword venue filter</label>
                 <select id="filter-venue" class="filter-select">
@@ -210,7 +210,7 @@
             <button class="btn-refresh" type="button" onclick="refreshData()" data-i18n="index.keyword.refresh">Refresh keyword charts</button>
         </section>
 
-        <section class="charts-grid keyword-section" id="keywords">
+        <section class="charts-grid keyword-section view-panel active" data-view="overview" id="keywords">
             <div class="chart-card large lazy-panel" id="wordcloud-panel">
                 <div class="chart-header">
                     <div>
@@ -232,7 +232,7 @@
             </div>
         </section>
 
-        <section class="chart-card full-width">
+        <section class="chart-card full-width view-panel active" data-view="overview">
             <div class="chart-header">
                 <div>
                     <h3 data-i18n="index.keyword.trends">Keyword Count Trends</h3>

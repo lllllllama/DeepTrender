@@ -2960,3 +2960,71 @@ h4 {
         grid-template-columns: 1fr;
     }
 }
+
+.view-panel {
+    display: none !important;
+}
+
+.view-panel.active {
+    display: grid !important;
+}
+
+.chart-card.view-panel.active,
+.filter-bar.view-panel.active,
+.venues-section.view-panel.active,
+.section-shell.view-panel.active {
+    display: block !important;
+}
+
+.product-hero.view-panel.active {
+    display: grid !important;
+}
+
+.stats-grid.view-panel.active,
+.charts-grid.view-panel.active {
+    display: grid !important;
+}
+
+.topic-dashboard {
+    min-height: calc(100vh - 72px);
+}
+
+.section-shell.view-panel,
+.venues-section.view-panel,
+.chart-card.view-panel {
+    margin-top: 1.25rem;
+}
+
+.topic-card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.topic-card {
+    min-height: 0;
+}
+
+.topic-card h3,
+.domain-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.45rem;
+}
+
+.topic-card p,
+.domain-card p {
+    font-size: 0.86rem;
+    line-height: 1.45;
+}
+
+.topic-meta-grid {
+    font-size: 0.78rem;
+}
+
+.legacy-filter.view-panel.active {
+    display: flex !important;
+}
+
+@media (max-width: 760px) {
+    .topic-card-grid {
+        grid-template-columns: 1fr;
+    }
+}
