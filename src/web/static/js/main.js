@@ -223,7 +223,7 @@ function setupViewNavigation() {
 
 function viewFromHash() {
     const hash = window.location.hash.replace("#", "");
-    const valid = new Set(["overview", "domains", "topics", "explorer", "quality"]);
+    const valid = new Set(["overview", "domains", "topics", "explorer", "quality", "keywords"]);
     return valid.has(hash) ? hash : null;
 }
 
@@ -237,6 +237,9 @@ function switchView(view, options = {}) {
     });
     if (options.updateHash !== false) {
         history.replaceState(null, "", `#${view}`);
+    }
+    if (view === "keywords" && !state.wordcloudLoaded) {
+        window.setTimeout(() => loadWordcloud(), 120);
     }
     window.setTimeout(() => Charts.resizeAll(), 80);
 }
@@ -701,8 +704,8 @@ function ensureWordcloudPlugin() {
 
 function selectTopic(topicId) {
     setControlValue("explorer-topic", topicId);
+    switchView("explorer");
     previewTopicNormalization();
-    document.getElementById("explorer")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function goToVenue(venueName) {
