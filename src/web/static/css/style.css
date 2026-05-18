@@ -2902,3 +2902,61 @@ h4 {
         transition-duration: 0.001ms !important;
     }
 }
+
+/* Compact first viewport: DeepTrender is an app workspace, not a prose landing page. */
+.product-hero {
+    min-height: 190px;
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 0.55fr);
+    align-items: center;
+    padding: 1.4rem 0 1.25rem;
+}
+
+.product-hero h1 {
+    font-size: clamp(2.1rem, 4vw, 3.4rem);
+    margin-bottom: 0.65rem;
+}
+
+.hero-description {
+    max-width: 720px;
+    font-size: 0.98rem;
+}
+
+.scope-panel {
+    padding: 0.85rem;
+}
+
+.scope-switcher {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.scope-option {
+    text-align: center;
+    min-height: 34px;
+    padding: 0.45rem 0.55rem;
+}
+
+.scope-note {
+    margin-top: 0.65rem;
+    font-size: 0.8rem;
+}
+
+.stats-grid {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.warning-panel {
+    margin: 1.25rem 0;
+    padding: 1rem;
+}
+
+@media (max-width: 980px) {
+    .product-hero {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .scope-switcher {
+        grid-template-columns: 1fr;
+    }
+}

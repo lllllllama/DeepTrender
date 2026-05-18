@@ -12,16 +12,16 @@ const state = {
     latestExplorerResponse: null,
 };
 
-const SCOPE_LABELS = {
-    preprint: "arXiv Preprint",
-    accepted: "Conference Accepted",
-    mixed: "Structured Mixed",
+const SCOPE_LABEL_KEYS = {
+    preprint: "index.scope.preprint",
+    accepted: "index.scope.accepted",
+    mixed: "index.scope.mixed",
 };
 
-const SCOPE_NOTES = {
-    preprint: "Current scope: arXiv Preprint. Preprint evidence is not treated as accepted conference evidence.",
-    accepted: "Current scope: Conference Accepted. Accepted, preprint, mixed, and unknown evidence remain visually labeled.",
-    mixed: "Current scope: Structured Mixed. Accepted, preprint, mixed, and unknown evidence are labeled separately.",
+const SCOPE_NOTE_KEYS = {
+    preprint: "index.scope.note.preprint",
+    accepted: "index.scope.note.accepted",
+    mixed: "index.scope.note.mixed",
 };
 
 async function init() {
@@ -30,6 +30,8 @@ async function init() {
     setupKeywordFilters();
     setupWordcloudObserver();
     setupNavHighlighting();
+    setupLanguageRefresh();
+    updateScopeText();
 
     const overviewPromise = loadOverview();
     loadQualityReport();
@@ -100,10 +102,20 @@ async function loadTaxonomy() {
 }
 
 async function loadFilters() {
-    populateSelect("filter-venue", state.venues, "All venues");
-    populateSelect("explorer-venue", state.venues, "Select venue");
-    populateSelect("filter-year", state.years, "All years", true);
-    populateSelect("explorer-year", state.years, "Select year", true);
+    const selectedVenue = document.getElementById("filter-venue")?.value || "";
+    const selectedYear = document.getElementById("filter-year")?.value || "";
+    const explorerVenue = document.getElementById("explorer-venue")?.value || "";
+    const explorerYear = document.getElementById("explorer-year")?.value || "";
+
+    populateSelect("filter-venue", state.venues, t("index.keyword.allVenues", "All venues"));
+    populateSelect("explorer-venue", state.venues, t("index.explorer.venue", "Select venue"));
+    populateSelect("filter-year", state.years, t("index.keyword.allYears", "All years"), true);
+    populateSelect("explorer-year", state.years, t("index.explorer.year", "Select year"), true);
+
+    setControlValue("filter-venue", selectedVenue);
+    setControlValue("filter-year", selectedYear);
+    setControlValue("explorer-venue", explorerVenue);
+    setControlValue("explorer-year", explorerYear);
 }
 
 function setupScopeSwitcher() {
@@ -115,11 +127,30 @@ function setupScopeSwitcher() {
                 item.classList.toggle("active", active);
                 item.setAttribute("aria-pressed", active ? "true" : "false");
             });
-            setText("scope-note", SCOPE_NOTES[state.scope]);
-            setText("active-scope-badge", SCOPE_LABELS[state.scope]);
+            updateScopeText();
             loadQualityReport();
         });
     });
+}
+
+function setupLanguageRefresh() {
+    document.addEventListener("deeptrender:language-changed", () => {
+        updateScopeText();
+        if (state.domains.length || state.topics.length) {
+            renderDomains(state.domains, state.topics, []);
+            renderTopics(state.topics, []);
+        }
+        if (state.latestExplorerResponse) {
+            renderExplorerResponse(state.latestExplorerResponse);
+            renderTopicFrequencyFromExplorer(state.latestExplorerResponse);
+        }
+        loadFilters();
+    });
+}
+
+function updateScopeText() {
+    setText("scope-note", t(SCOPE_NOTE_KEYS[state.scope], ""));
+    setText("active-scope-badge", t(SCOPE_LABEL_KEYS[state.scope], "Structured Mixed"));
 }
 
 function setupExplorer() {
@@ -243,7 +274,7 @@ async function previewTopicNormalization() {
         return;
     }
     if (!topic) {
-        preview.textContent = "Enter a topic query to preview canonical normalization.";
+        preview.textContent = t("index.explorer.previewEmpty", "Enter a topic query to preview canonical normalization.");
         return;
     }
     preview.innerHTML = '<span class="badge badge-unknown">Resolving</span> Normalizing topic query...';
@@ -312,7 +343,7 @@ function renderExplorerResponse(response) {
                     <p>${escapeHtml((query.aliases_used || []).join(", ") || "none")}</p>
                 </div>
                 <div>
-                    <h4>Source Breakdown</h4>
+                    <h4>${escapeHtml(t("index.quality.sourceBreakdown", "Source Breakdown"))}</h4>
                     ${renderKeyValueList(sourceBreakdown)}
                 </div>
                 <div>
@@ -448,7 +479,7 @@ function renderSourceBreakdown(sourceBreakdown) {
         return;
     }
     container.innerHTML = `
-        <h3>Source Breakdown</h3>
+        <h3>${escapeHtml(t("index.quality.sourceBreakdown", "Source Breakdown"))}</h3>
         ${renderKeyValueList(sourceBreakdown)}
     `;
 }
@@ -501,13 +532,13 @@ function renderTopics(topics, warnings) {
         <article class="topic-card">
             <div class="topic-card-top">
                 <span class="badge badge-accepted">${escapeHtml(topic.domain || "domain")}</span>
-                <button class="topic-chip action" type="button" onclick="selectTopic('${escapeAttr(topic.topic_id)}')">Use in explorer</button>
+                <button class="topic-chip action" type="button" onclick="selectTopic('${escapeAttr(topic.topic_id)}')">${escapeHtml(t("index.topics.use", "Use in explorer"))}</button>
             </div>
             <h3>${escapeHtml(topic.canonical_name || topic.topic_id)}</h3>
             <p>${escapeHtml(compactText(topic.definition || "Canonical topic metadata from the DeepTrender taxonomy.", 160))}</p>
             <div class="topic-meta-grid">
-                <span><strong>relative_frequency</strong><br>query-scoped</span>
-                <span><strong>count</strong><br>shown in explorer</span>
+                <span><strong>relative_frequency</strong><br>${escapeHtml(t("index.topics.queryScoped", "query-scoped"))}</span>
+                <span><strong>count</strong><br>${escapeHtml(t("index.topics.shownExplorer", "shown in explorer"))}</span>
             </div>
             <div class="topic-chip-row">
                 ${(topic.aliases || []).slice(0, 3).map((alias) => `<span class="keyword-tag">${escapeHtml(alias)}</span>`).join("")}
@@ -829,6 +860,10 @@ function escapeHtml(value) {
 
 function escapeAttr(value) {
     return escapeHtml(value).replace(/`/g, "&#096;");
+}
+
+function t(key, fallback) {
+    return window.SiteI18n?.t(key, fallback) || fallback || key;
 }
 
 window.refreshData = refreshData;
