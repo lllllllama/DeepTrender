@@ -162,8 +162,8 @@ class TestStaticSiteExporter:
         index_html = index_file.read_text(encoding="utf-8")
         venue_html = venue_file.read_text(encoding="utf-8")
 
-        assert 'href="./static/css/style.css"' in index_html
-        assert 'src="./static/js/api.js"' in index_html
+        assert 'href="./css/style.css"' in index_html
+        assert 'src="./js/api.js"' in index_html
         assert 'href="./index.html"' in venue_html
         assert 'href="/static/' not in index_html
         assert 'src="/static/' not in index_html
