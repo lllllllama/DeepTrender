@@ -93,7 +93,7 @@ S2_VENUES: Dict[str, SemanticScholarConfig] = {
 class SemanticScholarClient:
     """Semantic Scholar API 客户端"""
 
-    def __init__(self, api_key: Optional[str] = None):
+    def __init__(self, api_key: Optional[str] = None, timeout: float = 30.0):
         """
         初始化客户端
 
@@ -101,6 +101,7 @@ class SemanticScholarClient:
             api_key: API Key（可选，用于提高速率限制）
         """
         self.api_key = api_key
+        self.timeout = timeout
         self.session = requests.Session()
         if api_key:
             self.session.headers["x-api-key"] = api_key
@@ -141,7 +142,7 @@ class SemanticScholarClient:
                 params["token"] = token
 
             try:
-                response = self.session.get(S2_SEARCH_URL, params=params)
+                response = self.session.get(S2_SEARCH_URL, params=params, timeout=self.timeout)
                 response.raise_for_status()
                 data = response.json()
 
@@ -173,7 +174,7 @@ class SemanticScholarClient:
         try:
             url = f"{S2_PAPER_URL}/{paper_id}"
             params = {"fields": ",".join(S2_FIELDS)}
-            response = self.session.get(url, params=params)
+            response = self.session.get(url, params=params, timeout=self.timeout)
             response.raise_for_status()
             return response.json()
         except requests.RequestException:

@@ -4,6 +4,7 @@ Flask application entrypoint.
 Serves static assets and REST API endpoints for DeepTrender.
 """
 
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -21,13 +22,39 @@ from scraper.venue_discovery import VenueDiscovery
 from services import mcp_views
 
 
+MAX_API_LIMIT = 500
+MAX_API_OFFSET = 100000
+
+
+def _bounded_query_int(
+    name: str,
+    default: int,
+    min_value: int = 0,
+    max_value: int = MAX_API_LIMIT,
+) -> int:
+    value = request.args.get(name, default, type=int)
+    if value is None:
+        value = default
+    if value < min_value:
+        return min_value
+    if value > max_value:
+        return max_value
+    return value
+
 def create_app(
     repository: Optional[DatabaseRepository] = None,
     analyzer=None,
 ) -> Flask:
     """Create the Flask app with explicit dependencies."""
     app = Flask(__name__, static_folder="static", static_url_path="/static")
-    CORS(app)
+    cors_origins = os.getenv("DEEPTRENDER_CORS_ORIGINS")
+    if cors_origins:
+        origins = (
+            "*"
+            if cors_origins == "*"
+            else [origin.strip() for origin in cors_origins.split(",") if origin.strip()]
+        )
+        CORS(app, origins=origins)
 
     app.config["REPOSITORY"] = repository or get_repository()
     app.config["ANALYZER"] = analyzer or get_analyzer(app.config["REPOSITORY"])
@@ -106,7 +133,7 @@ def create_app(
         repo = current_repo()
         venue = request.args.get("venue")
         year = request.args.get("year", type=int)
-        limit = request.args.get("limit", 50, type=int)
+        limit = _bounded_query_int("limit", 50, min_value=1)
         keywords = repo.get_top_keywords(venue=venue, year=year, limit=limit)
         return jsonify([{"keyword": kw, "count": count} for kw, count in keywords])
 
@@ -136,7 +163,7 @@ def create_app(
     def api_comparison():
         repo = current_repo()
         year = request.args.get("year", type=int)
-        limit = request.args.get("limit", 10, type=int)
+        limit = _bounded_query_int("limit", 10, min_value=1)
         if not year:
             years = repo.get_all_years()
             year = max(years) if years else 2024
@@ -157,7 +184,7 @@ def create_app(
         repo = current_repo()
         venue = request.args.get("venue")
         year = request.args.get("year", type=int)
-        limit = request.args.get("limit", 100, type=int)
+        limit = _bounded_query_int("limit", 100, min_value=1)
         keywords = repo.get_top_keywords(venue=venue, year=year, limit=limit)
         return jsonify([{"name": kw, "value": count} for kw, count in keywords])
 
@@ -210,21 +237,21 @@ def create_app(
 
     @app.route("/api/v01/venues")
     def api_v01_venues():
-        limit = request.args.get("limit", 100, type=int)
-        offset = request.args.get("offset", 0, type=int)
+        limit = _bounded_query_int("limit", 100, min_value=1)
+        offset = _bounded_query_int("offset", 0, min_value=0, max_value=MAX_API_OFFSET)
         return jsonify(mcp_views.list_venues_v01(limit=limit, offset=offset, repo=current_repo()))
 
     @app.route("/api/v01/domains")
     def api_v01_domains():
-        limit = request.args.get("limit", 100, type=int)
-        offset = request.args.get("offset", 0, type=int)
+        limit = _bounded_query_int("limit", 100, min_value=1)
+        offset = _bounded_query_int("offset", 0, min_value=0, max_value=MAX_API_OFFSET)
         return jsonify(mcp_views.list_domains(limit=limit, offset=offset))
 
     @app.route("/api/v01/topics")
     def api_v01_topics():
         domain = request.args.get("domain")
-        limit = request.args.get("limit", 100, type=int)
-        offset = request.args.get("offset", 0, type=int)
+        limit = _bounded_query_int("limit", 100, min_value=1)
+        offset = _bounded_query_int("offset", 0, min_value=0, max_value=MAX_API_OFFSET)
         return jsonify(mcp_views.list_topics(domain=domain, limit=limit, offset=offset))
 
     @app.route("/api/v01/topics/resolve")
@@ -239,8 +266,8 @@ def create_app(
         year = request.args.get("year", type=int)
         topic = request.args.get("topic", "")
         include_children = request.args.get("include_children", "false").lower() == "true"
-        limit = request.args.get("limit", 20, type=int)
-        offset = request.args.get("offset", 0, type=int)
+        limit = _bounded_query_int("limit", 20, min_value=1)
+        offset = _bounded_query_int("offset", 0, min_value=0, max_value=MAX_API_OFFSET)
         if not venue or year is None or not topic:
             return jsonify({"error": "venue, year, and topic are required"}), 400
         return jsonify(
@@ -412,7 +439,7 @@ def create_app(
     def api_arxiv_emerging():
         repo = current_repo()
         category = request.args.get("category", "ALL")
-        limit = request.args.get("limit", 20, type=int)
+        limit = _bounded_query_int("limit", 20, min_value=1)
         min_growth_rate = request.args.get("min_growth_rate", 1.5, type=float)
         return jsonify(
             repo.analysis.get_emerging_topics(
@@ -428,8 +455,8 @@ def create_app(
 
         repo = current_repo()
         category = request.args.get("category")
-        limit = request.args.get("limit", 20, type=int)
-        offset = request.args.get("offset", 0, type=int)
+        limit = _bounded_query_int("limit", 20, min_value=1)
+        offset = _bounded_query_int("offset", 0, min_value=0, max_value=MAX_API_OFFSET)
 
         with repo._get_connection() as conn:
             cursor = conn.cursor()
@@ -633,7 +660,7 @@ def create_app(
     return app
 
 
-def run_server(host: str = "0.0.0.0", port: int = 5000, debug: bool = True):
+def run_server(host: str = "127.0.0.1", port: int = 5000, debug: bool = False):
     app = create_app()
     print(f"\nDeepTrender Web server running at http://localhost:{port}")
     app.run(host=host, port=port, debug=debug)

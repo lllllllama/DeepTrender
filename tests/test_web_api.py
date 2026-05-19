@@ -203,6 +203,36 @@ class TestV01FrontendApi:
         assert test_client.get("/api/stats/venues").status_code == 200
 
 
+class TestApiParameterBounds:
+
+    def test_arxiv_papers_limit_and_offset_are_bounded(self, test_client):
+        from web.app import MAX_API_LIMIT
+
+        response = test_client.get("/api/arxiv/papers?limit=999999&offset=-10")
+
+        assert response.status_code == 200
+        data = json.loads(response.data)
+        assert data["limit"] == MAX_API_LIMIT
+        assert data["offset"] == 0
+
+    def test_v01_limit_and_offset_are_bounded(self, test_client):
+        from web.app import MAX_API_LIMIT
+
+        response = test_client.get("/api/v01/domains?limit=999999&offset=-10")
+
+        assert response.status_code == 200
+        data = json.loads(response.data)
+        assert data["meta"]["limit"] == MAX_API_LIMIT
+        assert data["meta"]["offset"] == 0
+
+    def test_run_server_defaults_are_local_and_non_debug(self):
+        import inspect
+        from web.app import run_server
+
+        signature = inspect.signature(run_server)
+        assert signature.parameters["host"].default == "127.0.0.1"
+        assert signature.parameters["debug"].default is False
+
 class TestStaticFiles:
 
     def test_index_page(self, test_client):

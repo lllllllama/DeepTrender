@@ -89,10 +89,23 @@ class RawRepository(BaseRepository):
         with self._get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute("""
-                INSERT OR REPLACE INTO raw_papers 
+                INSERT INTO raw_papers
                 (source, source_paper_id, title, abstract, authors, year,
                  venue_raw, journal_ref, comments, categories, doi, raw_json, published_at, retrieved_at)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(source, source_paper_id) DO UPDATE SET
+                    title = excluded.title,
+                    abstract = excluded.abstract,
+                    authors = excluded.authors,
+                    year = excluded.year,
+                    venue_raw = excluded.venue_raw,
+                    journal_ref = excluded.journal_ref,
+                    comments = excluded.comments,
+                    categories = excluded.categories,
+                    doi = excluded.doi,
+                    raw_json = excluded.raw_json,
+                    published_at = excluded.published_at,
+                    retrieved_at = excluded.retrieved_at
             """, (
                 paper.source,
                 paper.source_paper_id,
@@ -110,7 +123,15 @@ class RawRepository(BaseRepository):
                 datetime.now().isoformat(),
             ))
             conn.commit()
-            return cursor.lastrowid
+            cursor.execute(
+                """
+                SELECT raw_id FROM raw_papers
+                WHERE source = ? AND source_paper_id = ?
+                """,
+                (paper.source, paper.source_paper_id),
+            )
+            row = cursor.fetchone()
+            return row["raw_id"] if row else cursor.lastrowid
     
     def save_raw_papers(self, papers: List[RawPaper]) -> List[int]:
         """批量保存原始论文"""

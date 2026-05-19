@@ -47,7 +47,7 @@ class OpenAlexVenue:
 class OpenAlexClient:
     """OpenAlex API 客户端"""
 
-    def __init__(self, email: str = None, delay: float = 0.1):
+    def __init__(self, email: str = None, delay: float = 0.1, timeout: float = 30.0):
         """
         初始化客户端
 
@@ -57,6 +57,7 @@ class OpenAlexClient:
         """
         self.email = email
         self.delay = delay
+        self.timeout = timeout
         self.session = requests.Session()
 
         # 设置 User-Agent（OpenAlex 推荐）
@@ -86,7 +87,7 @@ class OpenAlexClient:
             params["mailto"] = self.email
 
         try:
-            response = self.session.get(url, params=params)
+            response = self.session.get(url, params=params, timeout=self.timeout)
             response.raise_for_status()
             return response.json()
         except requests.RequestException:

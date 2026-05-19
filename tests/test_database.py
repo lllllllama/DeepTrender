@@ -162,3 +162,30 @@ class TestDatabaseRepository:
         assert stats["categories"]["cs.CV"] == 0
         assert stats["date_range"]["min"] is not None
         assert stats["date_range"]["max"] is not None
+
+    def test_raw_paper_upsert_preserves_source_link(self, repo, sample_paper):
+        raw_id = repo.raw.save_raw_paper(
+            RawPaper(
+                source="arxiv",
+                source_paper_id="2401.00001",
+                title="Original Title",
+                year=2024,
+            )
+        )
+        repo.save_paper(sample_paper)
+        paper_id = repo.get_papers_by_venue_year("ICLR", 2024)[0].paper_id
+        repo.structured.link_paper_source(paper_id, raw_id, "arxiv")
+
+        updated_raw_id = repo.raw.save_raw_paper(
+            RawPaper(
+                source="arxiv",
+                source_paper_id="2401.00001",
+                title="Updated Title",
+                year=2024,
+            )
+        )
+
+        sources = repo.structured.get_paper_sources(paper_id)
+        assert updated_raw_id == raw_id
+        assert len(sources) == 1
+        assert sources[0].raw_id == raw_id

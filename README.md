@@ -32,7 +32,7 @@ DeepTrender 是一个面向 AI/ML 论文的**关键词追踪与趋势分析**平
 | 🗄️ 数据存储 | SQLite 三层架构（raw / structured / analysis） |
 | 📊 趋势分析 | 年 / 月 / 周 / 日 多粒度时间序列 + 新兴话题检测 |
 | 🌐 Web 服务 | Flask REST API + 静态前端（ECharts 可视化） |
-| 🤖 MCP 服务器 | 14 个工具，供 AI Agent 直接查询统计数据 |
+| 🤖 MCP 服务器 | 29 个工具，供 AI Agent 直接查询统计数据 |
 | 📄 静态导出 | 输出到 `docs/`，无需后端即可在 GitHub Pages 访问 |
 | ⚙️ 自动更新 | GitHub Actions 定时抓取并自动部署 |
 
@@ -49,7 +49,7 @@ deeptrender/
 │   ├── tools/           # 静态站点导出、CCF 注册表导入
 │   ├── visualization/   # 图表生成（matplotlib + ECharts）
 │   ├── web/             # Flask 应用 & 静态前端
-│   ├── mcp_server.py    # MCP 服务器（14 个工具）
+│   ├── mcp_server.py    # MCP 服务器（29 个工具）
 │   └── main.py          # 主流程入口
 ├── tests/               # 单元测试 & 集成测试
 ├── docs/                # 静态站点（GitHub Pages）
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 **2. 运行主流程**
 
 ```bash
-# 默认：采集 arxiv + openalex，提取关键词，生成报告
+# 默认：采集近期 arXiv，提取关键词，生成报告
 python src/main.py
 ```
 
@@ -178,7 +178,7 @@ DeepTrender 内置 MCP 服务器，AI Agent 可直接查询所有统计数据与
 }
 ```
 
-**提供的 14 个工具：**
+**提供的 29 个工具：**
 
 | 分类 | 工具 |
 |------|------|
@@ -187,6 +187,7 @@ DeepTrender 内置 MCP 服务器，AI Agent 可直接查询所有统计数据与
 | 🔑 关键词 | `get_top_keywords`、`get_keyword_trends`、`get_emerging_keywords`、`get_keyword_wordcloud` |
 | 📈 arXiv 专项 | `get_arxiv_timeseries`、`get_arxiv_stats`、`get_arxiv_emerging` |
 | 🗄️ 中间数据 | `get_analysis_meta`、`get_venue_summaries`、`get_keyword_trend_cached`、`get_raw_paper_count`、`get_scrape_log`、`list_configured_venues` |
+| 📑 v0.1 合约 | `get_overview_v01`、`get_status_v01`、`list_venues_v01`、`list_domains`、`list_topics`、`resolve_topic`、`get_venue_year_topic`、`get_data_quality_report`、`get_paper_provenance`、`get_topic_source_coverage`、`get_venue_year_source_coverage` |
 
 ### 📄 静态站点导出
 

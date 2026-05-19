@@ -46,7 +46,7 @@ class ArxivQuery:
 class ArxivClient:
     """arXiv API 客户端"""
 
-    def __init__(self, delay: float = 3.0):
+    def __init__(self, delay: float = 3.0, timeout: float = 30.0):
         """
         初始化客户端
 
@@ -54,6 +54,7 @@ class ArxivClient:
             delay: 请求间隔（秒），arXiv 要求至少 3 秒
         """
         self.delay = delay
+        self.timeout = timeout
         self.session = requests.Session()
         self.session.headers.update({
             "User-Agent": "DepthTrender/1.0 (https://github.com/depthtrender)"
@@ -109,7 +110,7 @@ class ArxivClient:
         }
 
         try:
-            response = self.session.get(ARXIV_API_URL, params=params)
+            response = self.session.get(ARXIV_API_URL, params=params, timeout=self.timeout)
             response.raise_for_status()
 
             # 解析 Atom feed
@@ -242,7 +243,7 @@ class ArxivClient:
         }
 
         try:
-            response = self.session.get(ARXIV_API_URL, params=params)
+            response = self.session.get(ARXIV_API_URL, params=params, timeout=self.timeout)
             response.raise_for_status()
 
             feed = feedparser.parse(response.text)
@@ -337,6 +338,6 @@ class ArxivClient:
             return None
 
 
-def create_arxiv_client(delay: float = 3.0) -> ArxivClient:
+def create_arxiv_client(delay: float = 3.0, timeout: float = 30.0) -> ArxivClient:
     """创建 arXiv 客户端"""
-    return ArxivClient(delay=delay)
+    return ArxivClient(delay=delay, timeout=timeout)
