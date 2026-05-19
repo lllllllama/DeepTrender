@@ -55,6 +55,8 @@ jobs:
     
     permissions:
       contents: write
+      pages: write
+      id-token: write
     
     steps:
       - name: Checkout repository
@@ -67,14 +69,6 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
-      
-      - name: Cache sentence-transformers models
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/torch/sentence_transformers
-          key: ${{ runner.os }}-sentence-transformers-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-sentence-transformers-
       
       - name: Install dependencies
         run: |
@@ -174,6 +168,18 @@ jobs:
             find docs/data -type f -name "*.json" | head -20
           fi
       
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
       - name: Generate summary
         if: always()
         run: |
@@ -248,18 +254,6 @@ jobs:
           
           echo "✅ Changes committed and pushed successfully"
       
-      - name: Notify deployed server (optional)
-        if: success() && vars.DEPLOY_URL != ''
-        continue-on-error: true
-        run: |
-          echo "Notifying deployed server..."
-          curl -X POST "${{ vars.DEPLOY_URL }}/api/refresh" \
-            --connect-timeout 10 \
-            --max-time 30 \
-            -H "Content-Type: application/json" \
-            -d '{"source": "github-actions", "timestamp": "'$(date -u +%Y-%m-%dT%H:%M:%SZ)'"}' || {
-            echo "⚠️ Failed to notify server (non-critical)"
-          }
       
       - name: Upload artifacts
         if: always()

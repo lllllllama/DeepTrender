@@ -26,6 +26,19 @@ echarts.registerTheme("dark", CHART_THEME);
 
 const Charts = {
     instances: {},
+    resizeBound: false,
+    resizeTimer: null,
+
+    ensureResizeListener() {
+        if (this.resizeBound) {
+            return;
+        }
+        window.addEventListener("resize", () => {
+            window.clearTimeout(this.resizeTimer);
+            this.resizeTimer = window.setTimeout(() => this.resizeAll(), 120);
+        });
+        this.resizeBound = true;
+    },
 
     init(containerId) {
         const container = document.getElementById(containerId);
@@ -33,18 +46,41 @@ const Charts = {
             return null;
         }
 
-        if (this.instances[containerId]) {
-            this.instances[containerId].dispose();
+        const existing = this.instances[containerId];
+        if (existing && typeof existing.isDisposed === "function" && !existing.isDisposed()) {
+            this.ensureResizeListener();
+            return existing;
+        }
+        if (existing && typeof existing.isDisposed !== "function") {
+            this.ensureResizeListener();
+            return existing;
         }
 
+        container.innerHTML = "";
         const chart = echarts.init(container, "dark");
         this.instances[containerId] = chart;
-        window.addEventListener("resize", () => chart.resize());
+        this.ensureResizeListener();
         return chart;
     },
 
     get(containerId) {
-        return this.instances[containerId];
+        return this.instances[containerId] || null;
+    },
+
+    destroy(containerId) {
+        const chart = this.get(containerId);
+        if (chart && typeof chart.dispose === "function") {
+            chart.dispose();
+        }
+        delete this.instances[containerId];
+    },
+
+    resizeAll() {
+        Object.values(this.instances).forEach((chart) => {
+            if (chart && typeof chart.resize === "function") {
+                chart.resize();
+            }
+        });
     },
 
     showLoading(containerId) {
@@ -76,9 +112,7 @@ const Charts = {
         }
 
         const chart = this.get(containerId);
-        if (chart) {
-            chart.clear();
-        }
+        this.destroy(containerId);
 
         container.innerHTML = `
             <div class="error-state">
@@ -95,9 +129,7 @@ const Charts = {
         }
 
         const chart = this.get(containerId);
-        if (chart) {
-            chart.clear();
-        }
+        this.destroy(containerId);
 
         container.innerHTML = `
             <div class="empty-state">
@@ -144,9 +176,9 @@ const Charts = {
                         shadowColor: "rgba(88, 166, 255, 0.5)",
                     },
                 },
-                data: data.map((item) => ({ name: item.name, value: item.value })),
+                data: data.slice(0, 50).map((item) => ({ name: item.name, value: item.value })),
             }],
-        });
+        }, true);
         return chart;
     },
 
@@ -184,7 +216,7 @@ const Charts = {
                 },
                 label: { show: true, position: "right", color: "#8b949e", fontSize: 11 },
             }],
-        });
+        }, true);
         return chart;
     },
 
@@ -231,7 +263,7 @@ const Charts = {
                 lineStyle: { width: 3 },
                 emphasis: { focus: "series" },
             })),
-        });
+        }, true);
         return chart;
     },
 
@@ -268,7 +300,7 @@ const Charts = {
                     areaStyle: { opacity: 0.2 },
                 })),
             }],
-        });
+        }, true);
         return chart;
     },
 };

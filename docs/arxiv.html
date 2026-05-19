@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>arXiv Trends - DeepTrender</title>
-    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 </head>
 <body data-i18n-title="arxiv.title">
@@ -88,14 +88,24 @@
         <p data-i18n="footer.sources.all">Data sources: arXiv | OpenReview | Semantic Scholar</p>
     </footer>
 
-    <script src="./static/js/site.js"></script>
-    <script src="./static/js/toast.js"></script>
-    <script src="./static/js/api.js"></script>
-    <script src="./static/js/charts.js"></script>
+    <script src="./js/site.js"></script>
+    <script src="./js/toast.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/charts.js"></script>
     <script>
         let currentGranularity = "year";
         let currentCategory = "ALL";
         let timeseriesChart = null;
+
+        function escapeHtml(value) {
+            return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#39;",
+            }[char]));
+        }
 
         async function init() {
             await loadData();
@@ -117,8 +127,21 @@
         async function loadData() {
             document.getElementById("data-status").textContent = "Loading...";
 
-            const response = await fetch(`./api/arxiv/timeseries?granularity=${currentGranularity}&category=${currentCategory}`);
-            const result = await response.json();
+            const isStatic = await API.detectMode();
+            let result;
+            if (isStatic) {
+                try {
+                    result = await API.getStatic(`./data/arxiv/arxiv_timeseries_${currentGranularity}_${currentCategory}.json`);
+                } catch (error) {
+                    console.warn("No arXiv static data found", error);
+                    result = { data: [], cached: true };
+                }
+            } else {
+                result = await API.get("./api/arxiv/timeseries", {
+                        granularity: currentGranularity,
+                        category: currentCategory,
+                    });
+            }
 
             document.getElementById("data-status").textContent = result.cached ? "Cached" : "Live";
             document.getElementById("data-count").textContent = result.data?.length || 0;
@@ -188,10 +211,10 @@
                 ? '<p class="no-data">No keyword data available.</p>'
                 : `<div class="timeline-grid">${recentData.map((item) => `
                     <div class="timeline-item">
-                        <div class="timeline-bucket">${item.bucket}</div>
-                        <div class="timeline-count">${item.paper_count} papers</div>
+                        <div class="timeline-bucket">${escapeHtml(item.bucket)}</div>
+                        <div class="timeline-count">${Number(item.paper_count || 0).toLocaleString()} papers</div>
                         <div class="timeline-keywords">
-                            ${(item.top_keywords || []).slice(0, 5).map((keyword) => `<span class="keyword-tag">${keyword.keyword}</span>`).join("")}
+                            ${(item.top_keywords || []).slice(0, 5).map((keyword) => `<span class="keyword-tag">${escapeHtml(keyword.keyword)}</span>`).join("")}
                         </div>
                     </div>
                 `).join("")}</div>`;

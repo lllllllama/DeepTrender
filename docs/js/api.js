@@ -1,24 +1,42 @@
 const API = {
     isStatic: false,
     staticDetected: false,
+    modePromise: null,
+    cache: new Map(),
+    inFlight: new Map(),
+    ttl: {
+        overview: 60 * 1000,
+        chart: 60 * 1000,
+        static: Number.POSITIVE_INFINITY,
+        default: 60 * 1000,
+    },
 
     async detectMode() {
         if (this.staticDetected) {
             return this.isStatic;
         }
-
-        try {
-            const response = await fetch("./api/health", { method: "HEAD", cache: "no-cache" });
-            this.isStatic = !response.ok;
-        } catch (error) {
-            this.isStatic = true;
+        if (this.modePromise) {
+            return this.modePromise;
         }
 
-        this.staticDetected = true;
-        return this.isStatic;
+        this.modePromise = fetch("./api/health", { method: "HEAD", cache: "no-cache" })
+            .then((response) => {
+                this.isStatic = !response.ok;
+                return this.isStatic;
+            })
+            .catch(() => {
+                this.isStatic = true;
+                return this.isStatic;
+            })
+            .finally(() => {
+                this.staticDetected = true;
+                this.modePromise = null;
+            });
+
+        return this.modePromise;
     },
 
-    async get(endpoint, params = {}) {
+    makeUrl(endpoint, params = {}) {
         const url = new URL(endpoint, window.location.href);
         Object.entries(params).forEach(([key, value]) => {
             if (value === null || value === undefined || value === "") {
@@ -32,34 +50,141 @@ const API = {
 
             url.searchParams.set(key, value);
         });
+        return url;
+    },
 
-        const response = await fetch(url);
-        if (!response.ok) {
-            const errorData = await response.json().catch(() => ({}));
-            throw new Error(errorData.error || `HTTP ${response.status}: ${response.statusText}`);
+    getCached(key) {
+        const cached = this.cache.get(key);
+        if (!cached) {
+            return null;
         }
-        return response.json();
+        if (cached.expiresAt !== Number.POSITIVE_INFINITY && cached.expiresAt < Date.now()) {
+            this.cache.delete(key);
+            return null;
+        }
+        return cached.value;
+    },
+
+    setCached(key, value, ttlMs) {
+        this.cache.set(key, {
+            value,
+            expiresAt: ttlMs === Number.POSITIVE_INFINITY ? Number.POSITIVE_INFINITY : Date.now() + ttlMs,
+        });
+    },
+
+    async get(endpoint, params = {}, options = {}) {
+        const url = this.makeUrl(endpoint, params);
+        const key = url.toString();
+        const ttlMs = options.ttl ?? this.ttl.default;
+
+        if (!options.forceRefresh) {
+            const cached = this.getCached(key);
+            if (cached !== null) {
+                return cached;
+            }
+            if (this.inFlight.has(key)) {
+                return this.inFlight.get(key);
+            }
+        }
+
+        const request = fetch(url)
+            .then(async (response) => {
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({}));
+                    throw new Error(errorData.error || `HTTP ${response.status}: ${response.statusText}`);
+                }
+                return response.json();
+            })
+            .then((data) => {
+                this.setCached(key, data, ttlMs);
+                return data;
+            })
+            .finally(() => this.inFlight.delete(key));
+
+        this.inFlight.set(key, request);
+        return request;
     },
 
     async getStatic(path) {
-        const response = await fetch(path);
-        if (!response.ok) {
-            throw new Error(`Failed to load ${path}`);
+        const url = new URL(path, window.location.href);
+        const key = url.toString();
+        const cached = this.getCached(key);
+        if (cached !== null) {
+            return cached;
         }
-        return response.json();
+        if (this.inFlight.has(key)) {
+            return this.inFlight.get(key);
+        }
+
+        const request = fetch(path)
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error(`Failed to load ${path}`);
+                }
+                return response.json();
+            })
+            .then((data) => {
+                this.setCached(key, data, this.ttl.static);
+                return data;
+            })
+            .finally(() => this.inFlight.delete(key));
+
+        this.inFlight.set(key, request);
+        return request;
+    },
+
+    aggregateKeywordItems(items, limit = 50) {
+        const allKeywords = {};
+        items.forEach((item) => {
+            if (!item || !item.keyword) {
+                return;
+            }
+            allKeywords[item.keyword] = (allKeywords[item.keyword] || 0) + Number(item.count || 0);
+        });
+        return Object.entries(allKeywords)
+            .map(([keyword, count]) => ({ keyword, count }))
+            .sort((a, b) => b.count - a.count)
+            .slice(0, limit);
+    },
+
+    aggregateVenueIndexKeywords(venues, limit = 50) {
+        return this.aggregateKeywordItems(venues.flatMap((venue) => venue.top_keywords || []), limit);
+    },
+
+    async aggregateStaticVenueKeywords(year = null, limit = 50) {
+        const venues = await this.getStatic("./data/venues/venues_index.json");
+        if (!year) {
+            return this.aggregateVenueIndexKeywords(venues, limit);
+        }
+
+        const yearKey = String(year);
+        const venuesForYear = venues.filter((venue) => (
+            (venue.years_available || []).map(String).includes(yearKey)
+        ));
+        const keywordGroups = await Promise.all(venuesForYear.map(async (venue) => {
+            try {
+                const topKeywords = await this.getStatic(`./data/venues/venue_${venue.name}_top_keywords.json`);
+                return topKeywords[yearKey] || [];
+            } catch (error) {
+                console.warn(`Failed to load static keyword data for ${venue.name}`, error);
+                return [];
+            }
+        }));
+
+        return this.aggregateKeywordItems(keywordGroups.flat(), limit);
     },
 
     async getOverview() {
         await this.detectMode();
         if (!this.isStatic) {
-            return this.get("./api/stats/overview");
+            return this.get("./api/stats/overview", {}, { ttl: this.ttl.overview });
         }
 
         const venues = await this.getStatic("./data/venues/venues_index.json");
         const totalPapers = venues.reduce((sum, venue) => sum + venue.paper_count, 0);
         const totalKeywords = new Set();
-        venues.forEach((venue) => venue.top_keywords.forEach((keyword) => totalKeywords.add(keyword.keyword)));
-        const years = [...new Set(venues.flatMap((venue) => venue.years_available))].sort();
+        venues.forEach((venue) => (venue.top_keywords || []).forEach((keyword) => totalKeywords.add(keyword.keyword)));
+        const years = [...new Set(venues.flatMap((venue) => venue.years_available || []))].sort();
 
         return {
             total_papers: totalPapers,
@@ -74,21 +199,22 @@ const API = {
     async getVenues() {
         await this.detectMode();
         if (!this.isStatic) {
-            return this.get("./api/stats/venues");
+            return this.get("./api/stats/venues", {}, { ttl: this.ttl.overview });
         }
 
         const venues = await this.getStatic("./data/venues/venues_index.json");
         return venues.map((venue) => ({
             name: venue.name,
             paper_count: venue.paper_count,
-            years: venue.years_available,
+            top_keywords: venue.top_keywords || [],
+            years: venue.years_available || [],
         }));
     },
 
     async getVenueDetail(venue) {
         await this.detectMode();
         if (!this.isStatic) {
-            return this.get(`./api/stats/venue/${venue}`);
+            return this.get(`./api/stats/venue/${venue}`, {}, { ttl: this.ttl.overview });
         }
 
         const venuesIndex = await this.getStatic("./data/venues/venues_index.json");
@@ -115,6 +241,10 @@ const API = {
     async getTopKeywords(params = {}) {
         await this.detectMode();
 
+        if (this.isStatic && !params.venue) {
+            return this.aggregateStaticVenueKeywords(params.year || null, params.limit || 50);
+        }
+
         if (this.isStatic && params.venue) {
             const topKeywords = await this.getStatic(`./data/venues/venue_${params.venue}_top_keywords.json`);
             if (params.year) {
@@ -134,11 +264,15 @@ const API = {
                 .slice(0, params.limit || 50);
         }
 
-        return this.get("./api/keywords/top", params);
+        return this.get("./api/keywords/top", params, { ttl: this.ttl.chart });
     },
 
     async getKeywordTrends(keywords = [], venue = null) {
         await this.detectMode();
+
+        if (this.isStatic && !venue) {
+            return [];
+        }
 
         if (this.isStatic && venue) {
             const trends = await this.getStatic(`./data/venues/venue_${venue}_keyword_trends.json`);
@@ -155,7 +289,7 @@ const API = {
             });
         }
 
-        return this.get("./api/keywords/trends", { keyword: keywords, venue });
+        return this.get("./api/keywords/trends", { keyword: keywords, venue }, { ttl: this.ttl.chart });
     },
 
     async getComparison(year = null, limit = 10) {
@@ -180,11 +314,17 @@ const API = {
             return result;
         }
 
-        return this.get("./api/keywords/comparison", { year, limit });
+        return this.get("./api/keywords/comparison", { year, limit }, { ttl: this.ttl.chart });
     },
 
     async getWordcloudData(venue = null, year = null, limit = 100) {
         await this.detectMode();
+
+        if (this.isStatic && !venue) {
+            const keywords = await this.aggregateStaticVenueKeywords(year || null, limit);
+            return keywords
+                .map((item) => ({ name: item.keyword, value: item.count }));
+        }
 
         if (this.isStatic && venue) {
             const topKeywords = await this.getStatic(`./data/venues/venue_${venue}_top_keywords.json`);
@@ -208,7 +348,7 @@ const API = {
                 .map((item) => ({ name: item.keyword, value: item.count }));
         }
 
-        return this.get("./api/keywords/wordcloud", { venue, year, limit });
+        return this.get("./api/keywords/wordcloud", { venue, year, limit }, { ttl: this.ttl.chart });
     },
 
     async getEmergingKeywords() {
@@ -216,7 +356,7 @@ const API = {
         if (this.isStatic) {
             return [];
         }
-        return this.get("./api/keywords/emerging");
+        return this.get("./api/keywords/emerging", {}, { ttl: this.ttl.chart });
     },
 };
 

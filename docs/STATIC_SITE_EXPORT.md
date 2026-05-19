@@ -24,11 +24,10 @@ Visit: http://localhost:8000
 
 ### 3. Deploy to GitHub Pages
 
-1. Push the `docs/` directory to your repository
-2. Go to Settings → Pages
-3. Source: Deploy from a branch
-4. Branch: `main`, Folder: `/docs`
-5. Save
+1. Go to Settings → Pages
+2. Source: GitHub Actions
+3. Save
+4. Run the `Update Keywords` workflow manually or wait for the scheduled run
 
 ## Command Line Options
 
@@ -52,7 +51,7 @@ Options:
 
 ## GitHub Actions Integration
 
-The workflow automatically exports the static site after data collection.
+The workflow automatically exports the static site after data collection, uploads `docs/` as a Pages artifact, and deploys it with `actions/deploy-pages`.
 
 Workflow inputs:
 - `ccf_tier`: Filter by CCF tier (A/B/C/all)

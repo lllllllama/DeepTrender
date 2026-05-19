@@ -3,13 +3,32 @@ const state = {
     year: "",
     venues: [],
     years: [],
+    wordcloudLoaded: false,
+    wordcloudLoading: false,
+    wordcloudPluginLoaded: false,
+    venueKeywordObserver: null,
 };
+
+function escapeHtml(value) {
+    return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+    }[char]));
+}
+
+function encodeRouteParam(value) {
+    return encodeURIComponent(String(value ?? "")).replace(/'/g, "%27");
+}
 
 async function init() {
     try {
         await loadOverview();
         await loadFilters();
-        await refreshData();
+        await Promise.allSettled([loadTopKeywords(), loadTrends()]);
+        scheduleWordcloudLoad();
         await loadVenueCards();
     } catch (error) {
         console.error("Failed to initialize dashboard", error);
@@ -56,24 +75,86 @@ async function loadFilters() {
 }
 
 async function refreshData() {
-    await Promise.all([loadWordcloud(), loadTopKeywords(), loadTrends()]);
+    await Promise.allSettled([loadTopKeywords(), loadTrends()]);
+    if (state.wordcloudLoaded) {
+        await loadWordcloud();
+    } else {
+        scheduleWordcloudLoad();
+    }
+}
+
+function scheduleWordcloudLoad() {
+    const target = document.getElementById("chart-wordcloud");
+    if (!target || state.wordcloudLoaded || state.wordcloudLoading) {
+        return;
+    }
+
+    if (!("IntersectionObserver" in window)) {
+        window.setTimeout(() => loadWordcloud(), 600);
+        return;
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+            observer.disconnect();
+            window.setTimeout(() => loadWordcloud(), 200);
+        }
+    }, { rootMargin: "120px" });
+    observer.observe(target);
+}
+
+function ensureWordcloudPlugin() {
+    if (state.wordcloudPluginLoaded) {
+        return Promise.resolve();
+    }
+
+    const existing = document.getElementById("echarts-wordcloud-script");
+    if (existing) {
+        return new Promise((resolve, reject) => {
+            existing.addEventListener("load", () => {
+                state.wordcloudPluginLoaded = true;
+                resolve();
+            }, { once: true });
+            existing.addEventListener("error", reject, { once: true });
+        });
+    }
+
+    return new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.id = "echarts-wordcloud-script";
+        script.src = "https://cdn.jsdelivr.net/npm/echarts-wordcloud@2.1.0/dist/echarts-wordcloud.min.js";
+        script.async = true;
+        script.onload = () => {
+            state.wordcloudPluginLoaded = true;
+            resolve();
+        };
+        script.onerror = reject;
+        document.head.appendChild(script);
+    });
 }
 
 async function loadWordcloud() {
+    if (state.wordcloudLoading) {
+        return;
+    }
+    state.wordcloudLoading = true;
     const containerId = "chart-wordcloud";
     Charts.showLoading(containerId);
 
     try {
-        const data = await API.getWordcloudData(state.venue || null, state.year || null, 100);
+        await ensureWordcloudPlugin();
+        const data = await API.getWordcloudData(state.venue || null, state.year || null, 50);
         if (!data || data.length === 0) {
             Charts.showEmpty(containerId, "No keyword data available.");
             return;
         }
         Charts.renderWordcloud(containerId, data);
+        state.wordcloudLoaded = true;
     } catch (error) {
         console.error("Failed to load word cloud", error);
         Charts.showError(containerId, "Failed to load the word cloud.");
     } finally {
+        state.wordcloudLoading = false;
         Charts.hideLoading(containerId);
     }
 }
@@ -132,20 +213,22 @@ async function loadVenueCards() {
     try {
         const venues = await API.getVenues();
         container.innerHTML = venues.map((venue) => `
-            <div class="venue-card" onclick="goToVenue('${venue.name}')">
+            <div class="venue-card" onclick="goToVenue('${encodeRouteParam(venue.name)}')">
                 <div class="venue-card-header">
-                    <span class="venue-name">${venue.name}</span>
-                    <span class="venue-count">${venue.paper_count} papers</span>
+                    <span class="venue-name">${escapeHtml(venue.name)}</span>
+                    <span class="venue-count">${Number(venue.paper_count || 0).toLocaleString()} papers</span>
                 </div>
-                <div class="venue-keywords" id="venue-kw-${venue.name}">
-                    <span class="keyword-tag">Loading...</span>
+                <div class="venue-keywords" id="${venueKeywordId(venue.name)}" data-venue="${escapeHtml(venue.name)}">
+                    ${
+                        venue.top_keywords && venue.top_keywords.length > 0
+                            ? venue.top_keywords.slice(0, 5).map((item) => `<span class="keyword-tag">${escapeHtml(item.keyword)}</span>`).join("")
+                            : '<span class="keyword-tag">Keywords on view</span>'
+                    }
                 </div>
             </div>
         `).join("");
 
-        for (const venue of venues) {
-            loadVenueKeywords(venue.name);
-        }
+        setupVenueKeywordObserver();
     } catch (error) {
         console.error("Failed to load venue cards", error);
     }
@@ -154,17 +237,48 @@ async function loadVenueCards() {
 async function loadVenueKeywords(venueName) {
     try {
         const keywords = await API.getTopKeywords({ venue: venueName, limit: 5 });
-        const container = document.getElementById(`venue-kw-${venueName}`);
+        const container = document.getElementById(venueKeywordId(venueName));
         if (container && keywords.length > 0) {
-            container.innerHTML = keywords.map((item) => `<span class="keyword-tag">${item.keyword}</span>`).join("");
+            container.innerHTML = keywords.map((item) => `<span class="keyword-tag">${escapeHtml(item.keyword)}</span>`).join("");
         }
     } catch (error) {
         console.error(`Failed to load keywords for ${venueName}`, error);
     }
 }
 
+function setupVenueKeywordObserver() {
+    const nodes = Array.from(document.querySelectorAll(".venue-keywords[data-venue]"))
+        .filter((node) => node.textContent.includes("Keywords on view"));
+    if (!nodes.length) {
+        return;
+    }
+
+    if (!("IntersectionObserver" in window)) {
+        nodes.slice(0, 6).forEach((node) => loadVenueKeywords(node.dataset.venue));
+        return;
+    }
+
+    state.venueKeywordObserver?.disconnect();
+    state.venueKeywordObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (!entry.isIntersecting) {
+                return;
+            }
+            const node = entry.target;
+            state.venueKeywordObserver.unobserve(node);
+            loadVenueKeywords(node.dataset.venue);
+        });
+    }, { rootMargin: "180px" });
+
+    nodes.forEach((node) => state.venueKeywordObserver.observe(node));
+}
+
+function venueKeywordId(venueName) {
+    return `venue-kw-${String(venueName).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
+}
+
 function goToVenue(venueName) {
-    window.location.href = `./venue.html?venue=${encodeURIComponent(venueName)}`;
+    window.location.href = `./venue.html?venue=${venueName}`;
 }
 
 document.addEventListener("DOMContentLoaded", init);

@@ -9,6 +9,20 @@ const state = {
     venueKeywordObserver: null,
 };
 
+function escapeHtml(value) {
+    return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+    }[char]));
+}
+
+function encodeRouteParam(value) {
+    return encodeURIComponent(String(value ?? "")).replace(/'/g, "%27");
+}
+
 async function init() {
     try {
         await loadOverview();
@@ -199,15 +213,15 @@ async function loadVenueCards() {
     try {
         const venues = await API.getVenues();
         container.innerHTML = venues.map((venue) => `
-            <div class="venue-card" onclick="goToVenue('${venue.name}')">
+            <div class="venue-card" onclick="goToVenue('${encodeRouteParam(venue.name)}')">
                 <div class="venue-card-header">
-                    <span class="venue-name">${venue.name}</span>
-                    <span class="venue-count">${venue.paper_count} papers</span>
+                    <span class="venue-name">${escapeHtml(venue.name)}</span>
+                    <span class="venue-count">${Number(venue.paper_count || 0).toLocaleString()} papers</span>
                 </div>
-                <div class="venue-keywords" id="${venueKeywordId(venue.name)}" data-venue="${venue.name}">
+                <div class="venue-keywords" id="${venueKeywordId(venue.name)}" data-venue="${escapeHtml(venue.name)}">
                     ${
                         venue.top_keywords && venue.top_keywords.length > 0
-                            ? venue.top_keywords.slice(0, 5).map((item) => `<span class="keyword-tag">${item.keyword}</span>`).join("")
+                            ? venue.top_keywords.slice(0, 5).map((item) => `<span class="keyword-tag">${escapeHtml(item.keyword)}</span>`).join("")
                             : '<span class="keyword-tag">Keywords on view</span>'
                     }
                 </div>
@@ -225,7 +239,7 @@ async function loadVenueKeywords(venueName) {
         const keywords = await API.getTopKeywords({ venue: venueName, limit: 5 });
         const container = document.getElementById(venueKeywordId(venueName));
         if (container && keywords.length > 0) {
-            container.innerHTML = keywords.map((item) => `<span class="keyword-tag">${item.keyword}</span>`).join("");
+            container.innerHTML = keywords.map((item) => `<span class="keyword-tag">${escapeHtml(item.keyword)}</span>`).join("");
         }
     } catch (error) {
         console.error(`Failed to load keywords for ${venueName}`, error);
@@ -264,7 +278,7 @@ function venueKeywordId(venueName) {
 }
 
 function goToVenue(venueName) {
-    window.location.href = `./venue.html?venue=${encodeURIComponent(venueName)}`;
+    window.location.href = `./venue.html?venue=${venueName}`;
 }
 
 document.addEventListener("DOMContentLoaded", init);

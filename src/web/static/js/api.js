@@ -133,17 +133,45 @@ const API = {
         return request;
     },
 
-    aggregateVenueIndexKeywords(venues, limit = 50) {
+    aggregateKeywordItems(items, limit = 50) {
         const allKeywords = {};
-        venues.forEach((venue) => {
-            (venue.top_keywords || []).forEach((item) => {
-                allKeywords[item.keyword] = (allKeywords[item.keyword] || 0) + item.count;
-            });
+        items.forEach((item) => {
+            if (!item || !item.keyword) {
+                return;
+            }
+            allKeywords[item.keyword] = (allKeywords[item.keyword] || 0) + Number(item.count || 0);
         });
         return Object.entries(allKeywords)
             .map(([keyword, count]) => ({ keyword, count }))
             .sort((a, b) => b.count - a.count)
             .slice(0, limit);
+    },
+
+    aggregateVenueIndexKeywords(venues, limit = 50) {
+        return this.aggregateKeywordItems(venues.flatMap((venue) => venue.top_keywords || []), limit);
+    },
+
+    async aggregateStaticVenueKeywords(year = null, limit = 50) {
+        const venues = await this.getStatic("./data/venues/venues_index.json");
+        if (!year) {
+            return this.aggregateVenueIndexKeywords(venues, limit);
+        }
+
+        const yearKey = String(year);
+        const venuesForYear = venues.filter((venue) => (
+            (venue.years_available || []).map(String).includes(yearKey)
+        ));
+        const keywordGroups = await Promise.all(venuesForYear.map(async (venue) => {
+            try {
+                const topKeywords = await this.getStatic(`./data/venues/venue_${venue.name}_top_keywords.json`);
+                return topKeywords[yearKey] || [];
+            } catch (error) {
+                console.warn(`Failed to load static keyword data for ${venue.name}`, error);
+                return [];
+            }
+        }));
+
+        return this.aggregateKeywordItems(keywordGroups.flat(), limit);
     },
 
     async getOverview() {
@@ -214,8 +242,7 @@ const API = {
         await this.detectMode();
 
         if (this.isStatic && !params.venue) {
-            const venues = await this.getStatic("./data/venues/venues_index.json");
-            return this.aggregateVenueIndexKeywords(venues, params.limit || 50);
+            return this.aggregateStaticVenueKeywords(params.year || null, params.limit || 50);
         }
 
         if (this.isStatic && params.venue) {
@@ -294,8 +321,8 @@ const API = {
         await this.detectMode();
 
         if (this.isStatic && !venue) {
-            const venues = await this.getStatic("./data/venues/venues_index.json");
-            return this.aggregateVenueIndexKeywords(venues, limit)
+            const keywords = await this.aggregateStaticVenueKeywords(year || null, limit);
+            return keywords
                 .map((item) => ({ name: item.keyword, value: item.count }));
         }
 

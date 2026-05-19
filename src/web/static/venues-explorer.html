@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venue Explorer - DeepTrender</title>
-    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 </head>
 <body>
@@ -29,9 +29,63 @@
         </section>
         <section class="venues-section">
             <div class="venues-table" id="venues-table">
-                <p class="loading">This page requires the Flask API endpoint `/api/venues/explorer`.</p>
+                <p class="loading">Loading venues...</p>
             </div>
         </section>
     </main>
+
+    <script>
+        function escapeHtml(value) {
+            return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#39;",
+            }[char]));
+        }
+
+        async function loadVenues() {
+            const container = document.getElementById("venues-table");
+            try {
+                const response = await fetch("./data/venues/venues_index.json");
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                const venues = await response.json();
+                if (!venues.length) {
+                    container.innerHTML = '<p class="no-data">No venue data available.</p>';
+                    return;
+                }
+
+                container.innerHTML = `
+                    <div class="venues-grid">
+                        ${venues.map((venue) => `
+                            <div class="venue-card">
+                                <div class="venue-card-header">
+                                    <span class="venue-name">${escapeHtml(venue.name)}</span>
+                                    <span class="venue-count">${Number(venue.paper_count || 0).toLocaleString()} papers</span>
+                                </div>
+                                <div class="venue-meta">
+                                    <span>${escapeHtml(venue.full_name || venue.name)}</span>
+                                    <span>${escapeHtml(venue.domain || "General")} / ${escapeHtml(venue.tier || "N/A")}</span>
+                                </div>
+                                <div class="venue-keywords">
+                                    ${(venue.top_keywords || []).slice(0, 6).map((item) => (
+                                        `<span class="keyword-tag">${escapeHtml(item.keyword)}</span>`
+                                    )).join("")}
+                                </div>
+                            </div>
+                        `).join("")}
+                    </div>
+                `;
+            } catch (error) {
+                console.error("Failed to load static venue data", error);
+                container.innerHTML = '<p class="no-data">No static venue data available.</p>';
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", loadVenues);
+    </script>
 </body>
 </html>
