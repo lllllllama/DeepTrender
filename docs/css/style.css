@@ -338,6 +338,66 @@ body::before {
     margin-bottom: 2.5rem;
 }
 
+.control-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    align-items: flex-end;
+    padding: 1.25rem 1.75rem;
+    background: var(--bg-glass);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    margin-bottom: 2.5rem;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+}
+
+.control-group label {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.btn-group {
+    display: inline-flex;
+    gap: 0.25rem;
+    padding: 0.25rem;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+}
+
+.btn-toggle {
+    border: none;
+    border-radius: calc(var(--radius-sm) - 4px);
+    background: transparent;
+    color: var(--text-secondary);
+    padding: 0.5rem 0.85rem;
+    min-width: 56px;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-toggle:hover {
+    color: var(--text-primary);
+    background: rgba(96, 165, 250, 0.12);
+}
+
+.btn-toggle.active {
+    color: white;
+    background: var(--gradient-accent);
+    box-shadow: 0 4px 16px rgba(99, 102, 241, 0.28);
+}
+
 .filter-group {
     display: flex;
     align-items: center;
@@ -1203,6 +1263,25 @@ body::before {
         flex-direction: column;
         align-items: stretch;
         gap: 1rem;
+    }
+
+    .control-panel {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .control-group {
+        width: 100%;
+    }
+
+    .btn-group {
+        width: 100%;
+    }
+
+    .btn-toggle {
+        flex: 1;
     }
 
     .filter-group {

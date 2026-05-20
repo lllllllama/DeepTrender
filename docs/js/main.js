@@ -3,6 +3,7 @@ const state = {
     year: "",
     venues: [],
     years: [],
+    trendSearchTimer: null,
     wordcloudLoaded: false,
     wordcloudLoading: false,
     wordcloudPluginLoaded: false,
@@ -72,6 +73,14 @@ async function loadFilters() {
         state.year = yearSelect.value;
         refreshData();
     });
+
+    const trendSearch = document.getElementById("trend-search");
+    if (trendSearch) {
+        trendSearch.addEventListener("input", () => {
+            window.clearTimeout(state.trendSearchTimer);
+            state.trendSearchTimer = window.setTimeout(() => loadTrends(), 250);
+        });
+    }
 }
 
 async function refreshData() {
@@ -189,7 +198,11 @@ async function loadTrends() {
     Charts.showLoading(containerId);
 
     try {
-        const trends = await API.getKeywordTrends([], state.venue || null);
+        const query = document.getElementById("trend-search")?.value || "";
+        const keywords = query.split(/[,;]/)
+            .map((item) => item.trim())
+            .filter(Boolean);
+        const trends = await API.getKeywordTrends(keywords, state.venue || null);
         if (!trends || trends.length === 0) {
             Charts.showEmpty(containerId, "No trend data available.");
             return;

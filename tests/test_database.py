@@ -72,6 +72,7 @@ class TestDatabaseRepository:
     def test_get_paper_count_by_venue(self, repo_with_data):
         assert repo_with_data.get_paper_count(venue="ICLR") == 2
         assert repo_with_data.get_paper_count(venue="NeurIPS") == 1
+        assert repo_with_data.get_paper_count(venue="UNKNOWN") == 0
 
     def test_get_paper_count_by_year(self, repo_with_data):
         assert repo_with_data.get_paper_count(year=2023) == 2
@@ -89,11 +90,13 @@ class TestDatabaseRepository:
     def test_get_top_keywords_by_venue(self, repo_with_data):
         keywords = repo_with_data.get_top_keywords(venue="ICLR", limit=10)
         assert isinstance(keywords, list)
+        assert repo_with_data.get_top_keywords(venue="UNKNOWN", limit=10) == []
 
     def test_get_total_keyword_count(self, repo_with_data):
         assert repo_with_data.get_total_keyword_count() == 9
         assert repo_with_data.get_total_keyword_count(venue="ICLR") == 8
         assert repo_with_data.get_total_keyword_count(venue="NeurIPS") == 4
+        assert repo_with_data.get_total_keyword_count(venue="UNKNOWN") == 0
 
     def test_get_keyword_trend(self, repo_with_data):
         trend = repo_with_data.get_keyword_trend("transformer")
@@ -101,6 +104,7 @@ class TestDatabaseRepository:
         for year, count in trend.items():
             assert isinstance(year, int)
             assert isinstance(count, int)
+        assert repo_with_data.get_keyword_trend("transformer", venue="UNKNOWN") == {}
 
     def test_get_all_venues(self, repo_with_data):
         venues = repo_with_data.get_all_venues()

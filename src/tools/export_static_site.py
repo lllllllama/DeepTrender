@@ -10,7 +10,7 @@ import shutil
 import argparse
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, Optional
+from typing import Any, Dict, List, Optional
 from collections import defaultdict
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -51,34 +51,55 @@ class StaticSiteExporter:
             "total_size_bytes": 0,
         }
 
-    def export_venues_index(self) -> int:
-        venues_data = []
+    def _clear_generated_venue_data(self) -> None:
+        for path in self.venues_data_dir.glob("venue_*_*.json"):
+            path.unlink()
+        for filename in ("global_keyword_trends.json", "global_emerging_keywords.json"):
+            path = self.venues_data_dir / filename
+            if path.exists():
+                path.unlink()
+
+    def build_venue_index_entry(self, venue_config) -> Optional[Dict[str, Any]]:
+        venue_name = venue_config.name
+        years = self.repo.get_all_years(venue=venue_name)
+        if not years:
+            return None
+
         all_summaries = self.repo.analysis.get_all_venue_summaries()
         summary_map = {s["venue"]: s for s in all_summaries if s.get("year") is None}
+        summary = summary_map.get(venue_name)
 
+        if summary:
+            paper_count = int(summary.get("paper_count", 0) or 0)
+            top_keywords = summary.get("top_keywords", [])[:10]
+        else:
+            paper_count = self.repo.get_paper_count(venue=venue_name)
+            top_kw = self.repo.get_top_keywords(venue=venue_name, limit=10)
+            top_keywords = [{"keyword": kw, "count": c} for kw, c in top_kw]
+
+        if paper_count <= 0 and not top_keywords:
+            return None
+
+        return {
+            "name": venue_name,
+            "full_name": venue_config.full_name,
+            "domain": getattr(venue_config, "domain", "ML"),
+            "tier": "A",
+            "years_available": sorted(years, reverse=True),
+            "paper_count": paper_count,
+            "top_keywords": top_keywords,
+        }
+
+    def collect_venue_index_data(self) -> List[Dict[str, Any]]:
+        venues_data = []
         for _, venue_config in VENUES.items():
-            venue_name = venue_config.name
-            summary = summary_map.get(venue_name)
+            venue_data = self.build_venue_index_entry(venue_config)
+            if venue_data:
+                venues_data.append(venue_data)
+        return venues_data
 
-            if summary:
-                paper_count = summary.get("paper_count", 0)
-                top_keywords = summary.get("top_keywords", [])[:10]
-            else:
-                paper_count = self.repo.get_paper_count(venue=venue_name)
-                top_kw = self.repo.get_top_keywords(venue=venue_name, limit=10)
-                top_keywords = [{"keyword": kw, "count": c} for kw, c in top_kw]
-
-            years = self.repo.get_all_years(venue=venue_name)
-            venue_data = {
-                "name": venue_name,
-                "full_name": venue_config.full_name,
-                "domain": getattr(venue_config, "domain", "ML"),
-                "tier": "A",
-                "years_available": sorted(years, reverse=True),
-                "paper_count": paper_count,
-                "top_keywords": top_keywords,
-            }
-            venues_data.append(venue_data)
+    def export_venues_index(self, venues_data: Optional[List[Dict[str, Any]]] = None) -> int:
+        venues_data = venues_data if venues_data is not None else self.collect_venue_index_data()
 
         output_file = self.venues_data_dir / "venues_index.json"
         with open(output_file, "w", encoding="utf-8") as f:
@@ -156,9 +177,116 @@ class StaticSiteExporter:
         self.stats["total_size_bytes"] += output_file.stat().st_size
         return True
 
+    def export_global_keyword_trends(self, venue_names: List[str], max_keywords: int = 50) -> bool:
+        keyword_yearly_counts = defaultdict(lambda: defaultdict(int))
+
+        for venue_name in venue_names:
+            input_file = self.venues_data_dir / f"venue_{venue_name}_keyword_trends.json"
+            if not input_file.exists():
+                continue
+            with open(input_file, "r", encoding="utf-8") as f:
+                trends = json.load(f)
+
+            for keyword, points in trends.items():
+                for point in points:
+                    year = int(point["year"])
+                    keyword_yearly_counts[keyword][year] += int(point.get("count", 0) or 0)
+
+        if not keyword_yearly_counts:
+            return False
+
+        all_years = sorted({
+            year
+            for yearly_counts in keyword_yearly_counts.values()
+            for year in yearly_counts
+        })
+        totals = {
+            keyword: sum(yearly_counts.values())
+            for keyword, yearly_counts in keyword_yearly_counts.items()
+        }
+        top_keywords = sorted(totals, key=totals.get, reverse=True)[:max_keywords]
+
+        rows = []
+        for keyword in top_keywords:
+            counts = [keyword_yearly_counts[keyword].get(year, 0) for year in all_years]
+            rows.append({
+                "keyword": keyword,
+                "years": all_years,
+                "counts": counts,
+                "total": sum(counts),
+                "points": [
+                    {"year": year, "count": count, "rank": 0}
+                    for year, count in zip(all_years, counts)
+                ],
+            })
+
+        output_file = self.venues_data_dir / "global_keyword_trends.json"
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(rows, f, indent=2, ensure_ascii=False)
+
+        self.stats["total_size_bytes"] += output_file.stat().st_size
+        return True
+
+    def export_global_emerging_keywords(self, limit: int = 50) -> bool:
+        trends_file = self.venues_data_dir / "global_keyword_trends.json"
+        if not trends_file.exists():
+            return False
+
+        with open(trends_file, "r", encoding="utf-8") as f:
+            trends = json.load(f)
+
+        candidates = []
+        for row in trends:
+            years = row.get("years", [])
+            counts = row.get("counts", [])
+            if not years or not counts:
+                continue
+
+            latest_count = int(counts[-1] or 0)
+            previous_count = int(counts[-2] or 0) if len(counts) > 1 else 0
+            if latest_count <= 0:
+                continue
+
+            growth_rate = ((latest_count + 1) / (previous_count + 1) - 1) * 100
+            first_seen = next(
+                (year for year, count in zip(years, counts) if int(count or 0) > 0),
+                years[-1],
+            )
+            candidates.append({
+                "keyword": row["keyword"],
+                "growth_rate": growth_rate,
+                "first_seen": first_seen,
+                "recent_count": latest_count,
+                "previous_count": previous_count,
+                "trend": "up" if latest_count >= previous_count else "down",
+            })
+
+        if not candidates:
+            candidates = [
+                {
+                    "keyword": row["keyword"],
+                    "growth_rate": 0,
+                    "first_seen": row.get("years", [None])[0],
+                    "recent_count": int((row.get("counts") or [0])[-1] or 0),
+                    "previous_count": 0,
+                    "trend": "flat",
+                }
+                for row in trends[:limit]
+            ]
+
+        candidates.sort(key=lambda item: (item["growth_rate"], item["recent_count"]), reverse=True)
+
+        output_file = self.venues_data_dir / "global_emerging_keywords.json"
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(candidates[:limit], f, indent=2, ensure_ascii=False)
+
+        self.stats["total_size_bytes"] += output_file.stat().st_size
+        return True
+
     def export_all_venues(self) -> Dict:
-        venues_count = self.export_venues_index()
+        self._clear_generated_venue_data()
         exported_venues = []
+        venues_data = []
 
         for _, venue_config in VENUES.items():
             venue_name = venue_config.name
@@ -166,7 +294,13 @@ class StaticSiteExporter:
                 if self.export_venue_keyword_trends(venue_name, max_keywords=self.top_keywords):
                     self.export_venue_keywords_index(venue_name)
                     exported_venues.append(venue_name)
+                    venue_data = self.build_venue_index_entry(venue_config)
+                    if venue_data:
+                        venues_data.append(venue_data)
 
+        venues_count = self.export_venues_index(venues_data)
+        self.export_global_keyword_trends(exported_venues)
+        self.export_global_emerging_keywords()
         self.stats["venues_exported"] = len(exported_venues)
         return {"venues_count": venues_count, "venues_exported": exported_venues}
 

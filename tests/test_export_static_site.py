@@ -111,6 +111,41 @@ class TestStaticSiteExporter:
         assert exporter.data_dir.exists()
         assert exporter.venues_data_dir.exists()
         assert exporter.arxiv_data_dir.exists()
+
+    def test_exported_venues_index_matches_detail_artifacts(self, exporter):
+        result = exporter.export_all_venues()
+
+        venues_file = exporter.venues_data_dir / "venues_index.json"
+        with open(venues_file, 'r', encoding='utf-8') as f:
+            venues_data = json.load(f)
+
+        names = {venue["name"] for venue in venues_data}
+        assert names == set(result["venues_exported"])
+        assert names == {"ICLR", "NeurIPS"}
+
+        for venue in venues_data:
+            assert venue["years_available"]
+            assert (exporter.venues_data_dir / f"venue_{venue['name']}_top_keywords.json").exists()
+            assert (exporter.venues_data_dir / f"venue_{venue['name']}_keyword_trends.json").exists()
+
+    def test_export_global_static_trend_files(self, exporter):
+        exporter.export_all_venues()
+
+        trends_file = exporter.venues_data_dir / "global_keyword_trends.json"
+        emerging_file = exporter.venues_data_dir / "global_emerging_keywords.json"
+
+        assert trends_file.exists()
+        assert emerging_file.exists()
+
+        with open(trends_file, 'r', encoding='utf-8') as f:
+            trends = json.load(f)
+        with open(emerging_file, 'r', encoding='utf-8') as f:
+            emerging = json.load(f)
+
+        assert trends
+        assert all({"keyword", "years", "counts", "total"} <= set(row) for row in trends)
+        assert emerging
+        assert all({"keyword", "growth_rate", "recent_count"} <= set(row) for row in emerging)
     
     def test_export_handles_empty_venue(self, exporter):
         result = exporter.export_venue_top_keywords("NONEXISTENT_VENUE", top_n=10)

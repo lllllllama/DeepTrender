@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venue Analysis - DeepTrender</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2.1.0/dist/echarts-wordcloud.min.js"></script>
@@ -98,13 +99,14 @@
             const venueParam = params.get("venue");
             const overview = await API.getOverview();
             const tabs = document.getElementById("venue-tabs");
+            const selectedVenue = overview.venues.includes(venueParam) ? venueParam : overview.venues[0];
 
             tabs.innerHTML = overview.venues.map((venue) => `
-                <button class="venue-tab ${venue === venueParam ? "active" : ""}" onclick="selectVenue('${venue}')">${venue}</button>
+                <button class="venue-tab ${venue === selectedVenue ? "active" : ""}" onclick="selectVenue('${venue}')">${venue}</button>
             `).join("");
 
-            if (venueParam) {
-                selectVenue(venueParam);
+            if (selectedVenue) {
+                selectVenue(selectedVenue);
             }
         }
 

@@ -19,10 +19,29 @@ const API = {
             return this.modePromise;
         }
 
-        this.modePromise = fetch("./api/health", { method: "HEAD", cache: "no-cache" })
+        const host = window.location.hostname;
+        if (window.location.protocol === "file:" || host.endsWith("github.io")) {
+            this.isStatic = true;
+            this.staticDetected = true;
+            return this.isStatic;
+        }
+
+        this.modePromise = fetch("./data/manifest.json", { cache: "no-cache" })
             .then((response) => {
-                this.isStatic = !response.ok;
-                return this.isStatic;
+                if (response.ok) {
+                    this.isStatic = true;
+                    return true;
+                }
+
+                return fetch("./api/health", { method: "HEAD", cache: "no-cache" })
+                    .then((healthResponse) => {
+                        this.isStatic = !healthResponse.ok;
+                        return this.isStatic;
+                    })
+                    .catch(() => {
+                        this.isStatic = true;
+                        return true;
+                    });
             })
             .catch(() => {
                 this.isStatic = true;
@@ -145,6 +164,51 @@ const API = {
             .map(([keyword, count]) => ({ keyword, count }))
             .sort((a, b) => b.count - a.count)
             .slice(0, limit);
+    },
+
+    normalizeTrendRows(trends, limit = 5) {
+        if (!trends) {
+            return [];
+        }
+
+        const rows = Array.isArray(trends)
+            ? trends
+            : Object.entries(trends).map(([keyword, points]) => ({
+                keyword,
+                years: points.map((point) => point.year),
+                counts: points.map((point) => point.count),
+            }));
+
+        return rows
+            .map((row) => {
+                const points = row.points || (row.years || []).map((year, index) => ({
+                    year,
+                    count: (row.counts || [])[index] || 0,
+                }));
+                const years = row.years || points.map((point) => point.year);
+                const counts = row.counts || points.map((point) => point.count);
+                return {
+                    keyword: row.keyword,
+                    years,
+                    counts,
+                    total: row.total ?? counts.reduce((sum, count) => sum + Number(count || 0), 0),
+                };
+            })
+            .filter((row) => row.keyword && row.years.length > 0)
+            .sort((a, b) => b.total - a.total)
+            .slice(0, limit);
+    },
+
+    filterTrendRows(trendRows, keywords = [], fallbackLimit = 5) {
+        const requested = (keywords || [])
+            .map((keyword) => String(keyword || "").trim().toLowerCase())
+            .filter(Boolean);
+
+        if (!requested.length) {
+            return trendRows.slice(0, fallbackLimit);
+        }
+
+        return trendRows.filter((row) => requested.includes(row.keyword.toLowerCase()));
     },
 
     aggregateVenueIndexKeywords(venues, limit = 50) {
@@ -271,22 +335,18 @@ const API = {
         await this.detectMode();
 
         if (this.isStatic && !venue) {
-            return [];
+            try {
+                const trends = await this.getStatic("./data/venues/global_keyword_trends.json");
+                return this.filterTrendRows(this.normalizeTrendRows(trends, 50), keywords, 5);
+            } catch (error) {
+                console.warn("Failed to load global static keyword trends", error);
+                return [];
+            }
         }
 
         if (this.isStatic && venue) {
             const trends = await this.getStatic(`./data/venues/venue_${venue}_keyword_trends.json`);
-            return keywords.flatMap((keyword) => {
-                if (!trends[keyword]) {
-                    return [];
-                }
-
-                return [{
-                    keyword,
-                    years: trends[keyword].map((point) => point.year),
-                    counts: trends[keyword].map((point) => point.count),
-                }];
-            });
+            return this.filterTrendRows(this.normalizeTrendRows(trends, 50), keywords, 5);
         }
 
         return this.get("./api/keywords/trends", { keyword: keywords, venue }, { ttl: this.ttl.chart });
@@ -354,7 +414,12 @@ const API = {
     async getEmergingKeywords() {
         await this.detectMode();
         if (this.isStatic) {
-            return [];
+            try {
+                return await this.getStatic("./data/venues/global_emerging_keywords.json");
+            } catch (error) {
+                console.warn("Failed to load static emerging keywords", error);
+                return [];
+            }
         }
         return this.get("./api/keywords/emerging", {}, { ttl: this.ttl.chart });
     },

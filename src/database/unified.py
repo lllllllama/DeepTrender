@@ -104,8 +104,9 @@ class DatabaseRepository(BaseRepository):
         venue_id = None
         if venue:
             venue_obj = self.structured.get_venue_by_name(venue)
-            if venue_obj:
-                venue_id = venue_obj.venue_id
+            if not venue_obj:
+                return 0
+            venue_id = venue_obj.venue_id
         return self.structured.get_paper_count(venue_id=venue_id, year=year)
 
     def get_top_keywords(
@@ -119,8 +120,9 @@ class DatabaseRepository(BaseRepository):
         venue_id = None
         if venue:
             venue_obj = self.structured.get_venue_by_name(venue)
-            if venue_obj:
-                venue_id = venue_obj.venue_id
+            if not venue_obj:
+                return []
+            venue_id = venue_obj.venue_id
 
         method = None
         if source == "author":
@@ -145,8 +147,9 @@ class DatabaseRepository(BaseRepository):
         venue_id = None
         if venue:
             venue_obj = self.structured.get_venue_by_name(venue)
-            if venue_obj:
-                venue_id = venue_obj.venue_id
+            if not venue_obj:
+                return 0
+            venue_id = venue_obj.venue_id
 
         method = None
         if source == "author":
@@ -165,8 +168,9 @@ class DatabaseRepository(BaseRepository):
         venue_id = None
         if venue:
             venue_obj = self.structured.get_venue_by_name(venue)
-            if venue_obj:
-                venue_id = venue_obj.venue_id
+            if not venue_obj:
+                return {}
+            venue_id = venue_obj.venue_id
         return self.analysis.get_keyword_trend(keyword, venue_id)
 
     def get_all_venues(self) -> List[str]:
