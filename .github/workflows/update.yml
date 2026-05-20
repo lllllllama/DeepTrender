@@ -28,6 +28,23 @@ on:
         description: '每阶段处理上限（测试用）'
         required: false
         default: ''
+      crawl_mode:
+        description: 'Crawl mode: auto/full/incremental. auto runs full bootstrap while the database is below target.'
+        required: false
+        default: 'auto'
+        type: choice
+        options:
+          - auto
+          - full
+          - incremental
+      full_crawl_target:
+        description: 'Structured paper target before switching auto mode back to incremental'
+        required: false
+        default: '20000'
+      arxiv_max_results:
+        description: 'Maximum arXiv results. Blank = 50000 in full mode, 1000 in incremental mode.'
+        required: false
+        default: ''
       arxiv_days:
         description: 'arXiv 采集天数'
         required: false
@@ -51,7 +68,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     
     permissions:
       contents: write
@@ -98,11 +115,43 @@ jobs:
           OPENREVIEW_USERNAME: ${{ secrets.OPENREVIEW_USERNAME }}
           OPENREVIEW_PASSWORD: ${{ secrets.OPENREVIEW_PASSWORD }}
           PYTHONUNBUFFERED: "1"
-        timeout-minutes: 45
+        timeout-minutes: 100
         run: |
           set -e
           
           CMD="python src/main.py"
+          CRAWL_MODE="${{ github.event.inputs.crawl_mode }}"
+          if [ -z "$CRAWL_MODE" ]; then
+            CRAWL_MODE="auto"
+          fi
+
+          FULL_CRAWL_TARGET="${{ github.event.inputs.full_crawl_target }}"
+          if [ -z "$FULL_CRAWL_TARGET" ]; then
+            FULL_CRAWL_TARGET="20000"
+          fi
+
+          CURRENT_PAPER_COUNT=$(python - <<'PY'
+          import sys
+          sys.path.insert(0, 'src')
+          try:
+              from database import get_repository
+              print(get_repository().get_paper_count())
+          except Exception:
+              print(0)
+          PY
+          )
+
+          RUN_FULL_CRAWL="false"
+          if [ "$CRAWL_MODE" = "full" ]; then
+            RUN_FULL_CRAWL="true"
+          elif [ "$CRAWL_MODE" = "auto" ] && [ "${CURRENT_PAPER_COUNT:-0}" -lt "$FULL_CRAWL_TARGET" ]; then
+            RUN_FULL_CRAWL="true"
+          fi
+
+          echo "Current structured papers: ${CURRENT_PAPER_COUNT:-0}"
+          echo "Crawl mode: $CRAWL_MODE"
+          echo "Full crawl target: $FULL_CRAWL_TARGET"
+          echo "Run full crawl: $RUN_FULL_CRAWL"
           
           SOURCE="${{ github.event.inputs.source }}"
           if [ -z "$SOURCE" ]; then
@@ -111,9 +160,25 @@ jobs:
           CMD="$CMD --source $SOURCE"
           
           ARXIV_DAYS="${{ github.event.inputs.arxiv_days }}"
-          if [ -n "$ARXIV_DAYS" ]; then
-            CMD="$CMD --arxiv-days $ARXIV_DAYS"
+          if [ "$RUN_FULL_CRAWL" = "true" ]; then
+            if [ -z "$ARXIV_DAYS" ] || [ "$ARXIV_DAYS" -lt 3650 ]; then
+              ARXIV_DAYS="3650"
+            fi
+            CMD="$CMD --full-crawl"
+          elif [ -z "$ARXIV_DAYS" ]; then
+            ARXIV_DAYS="7"
           fi
+          CMD="$CMD --arxiv-days $ARXIV_DAYS"
+
+          ARXIV_MAX_RESULTS="${{ github.event.inputs.arxiv_max_results }}"
+          if [ -z "$ARXIV_MAX_RESULTS" ]; then
+            if [ "$RUN_FULL_CRAWL" = "true" ]; then
+              ARXIV_MAX_RESULTS="50000"
+            else
+              ARXIV_MAX_RESULTS="1000"
+            fi
+          fi
+          CMD="$CMD --arxiv-max-results $ARXIV_MAX_RESULTS"
           
           if [ -n "${{ github.event.inputs.venues }}" ]; then
             VENUES=$(echo "${{ github.event.inputs.venues }}" | tr ',' ' ')
@@ -125,8 +190,12 @@ jobs:
             CMD="$CMD --year $YEARS"
           fi
           
-          if [ -n "${{ github.event.inputs.limit }}" ]; then
-            CMD="$CMD --limit ${{ github.event.inputs.limit }}"
+          LIMIT="${{ github.event.inputs.limit }}"
+          if [ -z "$LIMIT" ] && [ "$RUN_FULL_CRAWL" = "true" ]; then
+            LIMIT="50000"
+          fi
+          if [ -n "$LIMIT" ]; then
+            CMD="$CMD --limit $LIMIT"
           fi
           
           echo "========================================="

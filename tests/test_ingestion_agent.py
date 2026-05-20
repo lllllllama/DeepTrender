@@ -12,6 +12,19 @@ class FailingRepository:
 
 
 class FakeArxivClient:
+    def __init__(self):
+        self.recent_calls = []
+
+    def search_recent(self, categories, days, max_results):
+        self.recent_calls.append(
+            {
+                "categories": categories,
+                "days": days,
+                "max_results": max_results,
+            }
+        )
+        return []
+
     def search_by_category(self, category, max_results):
         return [
             RawPaper(
@@ -33,3 +46,18 @@ def test_arxiv_save_failure_is_logged(caplog):
 
     assert saved_count == 0
     assert "Failed to save arXiv paper 2401.00001 for category cs.LG" in caplog.text
+
+
+def test_ingestion_run_passes_arxiv_max_results():
+    arxiv_client = FakeArxivClient()
+    agent = IngestionAgent(repository=object(), arxiv_client=arxiv_client)
+
+    result = agent.run(
+        sources=["arxiv"],
+        arxiv_days=3650,
+        arxiv_max_results=50000,
+    )
+
+    assert result == {"arxiv": 0}
+    assert arxiv_client.recent_calls[0]["days"] == 3650
+    assert arxiv_client.recent_calls[0]["max_results"] == 50000

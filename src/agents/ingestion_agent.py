@@ -353,6 +353,7 @@ class IngestionAgent:
         self,
         sources: List[str] = None,
         arxiv_days: int = 7,
+        arxiv_max_results: int = 1000,
         venues: List[str] = None,
         years: List[int] = None,
     ) -> Dict[str, int]:
@@ -377,7 +378,10 @@ class IngestionAgent:
 
         # arXiv
         if "arxiv" in sources:
-            results["arxiv"] = self.ingest_arxiv_recent(days=arxiv_days)
+            results["arxiv"] = self.ingest_arxiv_recent(
+                days=arxiv_days,
+                max_results=arxiv_max_results,
+            )
 
         # OpenAlex
         if "openalex" in sources and venues and years:
@@ -416,6 +420,7 @@ class IngestionAgent:
 def run_ingestion(
     sources: List[str] = None,
     arxiv_days: int = 7,
+    arxiv_max_results: int = 1000,
     venues: List[str] = None,
     years: List[int] = None,
 ) -> Dict[str, int]:
@@ -424,6 +429,7 @@ def run_ingestion(
     return agent.run(
         sources=sources,
         arxiv_days=arxiv_days,
+        arxiv_max_results=arxiv_max_results,
         venues=venues,
         years=years,
     )
