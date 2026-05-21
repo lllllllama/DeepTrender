@@ -1,252 +1,252 @@
 {
   "2026": [
     {
-      "keyword": "variational",
+      "keyword": "dynamics",
       "count": 2,
       "rank": 1
     },
     {
-      "keyword": "representations",
+      "keyword": "markov",
       "count": 2,
       "rank": 2
     },
     {
-      "keyword": "processes",
+      "keyword": "optimization",
       "count": 2,
       "rank": 3
     },
     {
-      "keyword": "optimization",
+      "keyword": "processes",
       "count": 2,
       "rank": 4
     },
     {
-      "keyword": "neural",
+      "keyword": "representations",
       "count": 2,
       "rank": 5
     },
     {
-      "keyword": "markov",
+      "keyword": "variational",
       "count": 2,
       "rank": 6
     },
     {
-      "keyword": "dynamics",
-      "count": 2,
+      "keyword": "accurate tree height",
+      "count": 1,
       "rank": 7
     },
     {
-      "keyword": "wsbd",
+      "keyword": "activation",
       "count": 1,
       "rank": 8
     },
     {
-      "keyword": "weighted stochastic block",
+      "keyword": "activation prompts",
       "count": 1,
       "rank": 9
     },
     {
-      "keyword": "weakly supervised kernel",
+      "keyword": "adaptation",
       "count": 1,
       "rank": 10
     },
     {
-      "keyword": "weak overlap",
+      "keyword": "adaptation methods",
       "count": 1,
       "rank": 11
     },
     {
-      "keyword": "visualizing high dimensional data",
+      "keyword": "adaptive window ucb",
       "count": 1,
       "rank": 12
     },
     {
-      "keyword": "visualizing",
+      "keyword": "adversarial patch attack",
       "count": 1,
       "rank": 13
     },
     {
-      "keyword": "visual prompting reimagined",
+      "keyword": "adversarial patches",
       "count": 1,
       "rank": 14
     },
     {
-      "keyword": "visual prompting",
+      "keyword": "affine mixing",
       "count": 1,
       "rank": 15
     },
     {
-      "keyword": "visual",
+      "keyword": "algorithm learns graph",
       "count": 1,
       "rank": 16
     },
     {
-      "keyword": "vision transformer",
+      "keyword": "analytical belief",
       "count": 1,
       "rank": 17
     },
     {
-      "keyword": "vision based navigation",
+      "keyword": "analytical belief propagation",
       "count": 1,
       "rank": 18
     },
     {
-      "keyword": "verification relaxed speculative",
+      "keyword": "antibody design",
       "count": 1,
       "rank": 19
     },
     {
-      "keyword": "vector based adaptation",
+      "keyword": "assessing machine",
       "count": 1,
       "rank": 20
     },
     {
-      "keyword": "vector based",
+      "keyword": "assessing machine unlearning",
       "count": 1,
       "rank": 21
     },
     {
-      "keyword": "variational inference",
+      "keyword": "attention",
       "count": 1,
       "rank": 22
     },
     {
-      "keyword": "variational gaussian processes",
+      "keyword": "attention regularization",
       "count": 1,
       "rank": 23
     },
     {
-      "keyword": "variational family",
+      "keyword": "attention scores",
       "count": 1,
       "rank": 24
     },
     {
-      "keyword": "valuation",
+      "keyword": "bandit feedback",
       "count": 1,
       "rank": 25
     },
     {
-      "keyword": "utility markov games",
+      "keyword": "bases",
       "count": 1,
       "rank": 26
     },
     {
-      "keyword": "unseen adversaries",
+      "keyword": "bases for vector based",
       "count": 1,
       "rank": 27
     },
     {
-      "keyword": "unseen",
+      "keyword": "bayesian inference",
       "count": 1,
       "rank": 28
     },
     {
-      "keyword": "unlearning",
+      "keyword": "bayesian optimization",
       "count": 1,
       "rank": 29
     },
     {
-      "keyword": "uncoupled learning dynamics",
+      "keyword": "belief",
       "count": 1,
       "rank": 30
     },
     {
-      "keyword": "uncoupled learning algorithm",
+      "keyword": "belief propagation",
       "count": 1,
       "rank": 31
     },
     {
-      "keyword": "uncoupled learning",
+      "keyword": "bilinear saddle point",
       "count": 1,
       "rank": 32
     },
     {
-      "keyword": "tree height estimation",
+      "keyword": "bilinear saddle point problems",
       "count": 1,
       "rank": 33
     },
     {
-      "keyword": "tree height",
+      "keyword": "bootstrapping",
       "count": 1,
       "rank": 34
     },
     {
-      "keyword": "treatment effect estimation",
+      "keyword": "canopy tree height",
       "count": 1,
       "rank": 35
     },
     {
-      "keyword": "three step nav achieves",
+      "keyword": "carlo",
       "count": 1,
       "rank": 36
     },
     {
-      "keyword": "three step nav",
+      "keyword": "causal effect",
       "count": 1,
       "rank": 37
     },
     {
-      "keyword": "test time adaptation",
+      "keyword": "causal effect estimation",
       "count": 1,
       "rank": 38
     },
     {
-      "keyword": "termed activation prompt",
+      "keyword": "causal treatment effect",
       "count": 1,
       "rank": 39
     },
     {
-      "keyword": "teacher forcing",
+      "keyword": "chaotic dynamics",
       "count": 1,
       "rank": 40
     },
     {
-      "keyword": "target symmetries",
+      "keyword": "clients",
       "count": 1,
       "rank": 41
     },
     {
-      "keyword": "target",
+      "keyword": "clustering",
       "count": 1,
       "rank": 42
     },
     {
-      "keyword": "surrogates for chaotic",
+      "keyword": "clustering problems",
       "count": 1,
       "rank": 43
     },
     {
-      "keyword": "stochastic block descent",
+      "keyword": "cmrm",
       "count": 1,
       "rank": 44
     },
     {
-      "keyword": "speculative decoding",
+      "keyword": "conditional independence",
       "count": 1,
       "rank": 45
     },
     {
-      "keyword": "speculative",
+      "keyword": "conformal margin risk",
       "count": 1,
       "rank": 46
     },
     {
-      "keyword": "spectral graph neural",
+      "keyword": "continuous time gradient flows",
       "count": 1,
       "rank": 47
     },
     {
-      "keyword": "spectral gnns",
+      "keyword": "convex markov",
       "count": 1,
       "rank": 48
     },
     {
-      "keyword": "sparse variational gaussian",
+      "keyword": "convex markov games",
       "count": 1,
       "rank": 49
     },
     {
-      "keyword": "sparse variational",
+      "keyword": "cuts",
       "count": 1,
       "rank": 50
     }

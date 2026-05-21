@@ -672,6 +672,11 @@ body::before {
     transform: scale(1.05);
 }
 
+.keyword-tag.muted {
+    color: var(--text-muted);
+    background: rgba(100, 116, 139, 0.12);
+}
+
 /* ==================== 页脚 ==================== */
 .footer {
     text-align: center;
@@ -1618,7 +1623,7 @@ body::before {
 
 .toast-message {
     font-size: 0.875rem;
-    color: var(ndary);
+    color: var(--text-secondary);
 }
 
 .toast-close {
@@ -1689,7 +1694,7 @@ body::before {
 .empty-state-title {
     font-size: 1.25rem;
     font-weight: 600;
-    color: va--text-primary);
+    color: var(--text-primary);
     margin-bottom: 0.5rem;
 }
 
@@ -1717,7 +1722,7 @@ body::before {
 }
 
 .error-state {
-   y: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1744,8 +1749,9 @@ body::before {
 
 .error-state-message {
     font-size: 0.9rem;
-    color: var(--text-secondary);    margin-bottom: 1.25rem;
-    max-th: 500px;
+    color: var(--text-secondary);
+    margin-bottom: 1.25rem;
+    max-width: 500px;
 }
 
 .error-state-actions {
@@ -1774,7 +1780,7 @@ body::before {
     color: var(--text-primary);
     border: 1px solid var(--border-color);
     padding: 0.65rem 1.25rem;
-    border-radius: va-sm);
+    border-radius: var(--radius-sm);
     font-weight: 600;
     cursor: pointer;
     transition: var(--transition);
@@ -1799,7 +1805,7 @@ body::before {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.3);
     transform: translate(-50%, -50%);
-    transition: width 0.6s, height s;
+    transition: width 0.6s, height 0.6s;
 }
 
 .btn-refresh:active::after,
@@ -2011,7 +2017,7 @@ select:disabled {
     color: var(--text-secondary);
 }
 
-.to{
+.toast-close {
     background: none;
     border: none;
     color: var(--text-muted);
@@ -2044,7 +2050,8 @@ select:disabled {
     color: var(--danger);
 }
 
-.toast.warning {er-left: 4px solid var(--warning);
+.toast.warning {
+    border-left: 4px solid var(--warning);
 }
 
 .toast.warning .toast-icon {
@@ -2133,7 +2140,7 @@ select:disabled {
     margin-bottom: 0.5rem;
 }
 
-.-message {
+.error-state-message {
     font-size: 0.9rem;
     color: var(--text-secondary);
     margin-bottom: 1.25rem;

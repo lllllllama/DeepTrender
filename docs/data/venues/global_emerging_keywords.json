@@ -1,0 +1,346 @@
+[
+  {
+    "keyword": "large language model",
+    "growth_rate": 5033.333333333334,
+    "first_seen": 2023,
+    "recent_count": 153,
+    "previous_count": 2,
+    "trend": "up"
+  },
+  {
+    "keyword": "generation",
+    "growth_rate": 3300.0,
+    "first_seen": 2024,
+    "recent_count": 33,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "diffusion model",
+    "growth_rate": 2500.0,
+    "first_seen": 2024,
+    "recent_count": 25,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "video",
+    "growth_rate": 2100.0,
+    "first_seen": 2024,
+    "recent_count": 21,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "detection",
+    "growth_rate": 2100.0,
+    "first_seen": 2024,
+    "recent_count": 21,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "reasoning",
+    "growth_rate": 2050.0,
+    "first_seen": 2024,
+    "recent_count": 42,
+    "previous_count": 1,
+    "trend": "up"
+  },
+  {
+    "keyword": "vision language model",
+    "growth_rate": 1700.0,
+    "first_seen": 2024,
+    "recent_count": 17,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "gaussian splatting",
+    "growth_rate": 1700.0,
+    "first_seen": 2024,
+    "recent_count": 17,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "transformer",
+    "growth_rate": 1700.0,
+    "first_seen": 2023,
+    "recent_count": 17,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "gaussian",
+    "growth_rate": 1400.0,
+    "first_seen": 2024,
+    "recent_count": 14,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "adaptation",
+    "growth_rate": 1300.0,
+    "first_seen": 2024,
+    "recent_count": 13,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "segmentation",
+    "growth_rate": 1200.0,
+    "first_seen": 2024,
+    "recent_count": 12,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "vision",
+    "growth_rate": 1200.0,
+    "first_seen": 2024,
+    "recent_count": 12,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "motion",
+    "growth_rate": 1100.0,
+    "first_seen": 2024,
+    "recent_count": 11,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "splatting",
+    "growth_rate": 1100.0,
+    "first_seen": 2024,
+    "recent_count": 11,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "semantic",
+    "growth_rate": 1000.0,
+    "first_seen": 2024,
+    "recent_count": 10,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "object",
+    "growth_rate": 900.0,
+    "first_seen": 2024,
+    "recent_count": 9,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "human",
+    "growth_rate": 900.0,
+    "first_seen": 2024,
+    "recent_count": 9,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "autonomous driving",
+    "growth_rate": 900.0,
+    "first_seen": 2024,
+    "recent_count": 9,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "object detection",
+    "growth_rate": 800.0,
+    "first_seen": 2024,
+    "recent_count": 8,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "scene",
+    "growth_rate": 800.0,
+    "first_seen": 2024,
+    "recent_count": 8,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "reconstruction",
+    "growth_rate": 800.0,
+    "first_seen": 2024,
+    "recent_count": 8,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "multimodal large",
+    "growth_rate": 800.0,
+    "first_seen": 2024,
+    "recent_count": 8,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "driving",
+    "growth_rate": 800.0,
+    "first_seen": 2024,
+    "recent_count": 8,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "dynamic",
+    "growth_rate": 700.0,
+    "first_seen": 2024,
+    "recent_count": 7,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "federated learning",
+    "growth_rate": 700.0,
+    "first_seen": 2024,
+    "recent_count": 7,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "text",
+    "growth_rate": 700.0,
+    "first_seen": 2024,
+    "recent_count": 7,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "prediction",
+    "growth_rate": 700.0,
+    "first_seen": 2024,
+    "recent_count": 7,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "estimation",
+    "growth_rate": 600.0,
+    "first_seen": 2024,
+    "recent_count": 6,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "editing",
+    "growth_rate": 600.0,
+    "first_seen": 2024,
+    "recent_count": 6,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "point",
+    "growth_rate": 600.0,
+    "first_seen": 2024,
+    "recent_count": 6,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "synthesis",
+    "growth_rate": 500.0,
+    "first_seen": 2024,
+    "recent_count": 5,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "depth",
+    "growth_rate": 500.0,
+    "first_seen": 2024,
+    "recent_count": 5,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "point cloud",
+    "growth_rate": 500.0,
+    "first_seen": 2024,
+    "recent_count": 5,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "fusion",
+    "growth_rate": 500.0,
+    "first_seen": 2024,
+    "recent_count": 5,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "understanding",
+    "growth_rate": 400.0,
+    "first_seen": 2023,
+    "recent_count": 9,
+    "previous_count": 1,
+    "trend": "up"
+  },
+  {
+    "keyword": "images",
+    "growth_rate": 400.0,
+    "first_seen": 2024,
+    "recent_count": 4,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "vision transformer",
+    "growth_rate": 400.0,
+    "first_seen": 2024,
+    "recent_count": 4,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "multimodal",
+    "growth_rate": 333.3333333333333,
+    "first_seen": 2024,
+    "recent_count": 12,
+    "previous_count": 2,
+    "trend": "up"
+  },
+  {
+    "keyword": "image generation",
+    "growth_rate": 300.0,
+    "first_seen": 2024,
+    "recent_count": 3,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "face",
+    "growth_rate": 300.0,
+    "first_seen": 2024,
+    "recent_count": 3,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "generative",
+    "growth_rate": 150.0,
+    "first_seen": 2024,
+    "recent_count": 4,
+    "previous_count": 1,
+    "trend": "up"
+  },
+  {
+    "keyword": "adversarial",
+    "growth_rate": 100.0,
+    "first_seen": 2024,
+    "recent_count": 1,
+    "previous_count": 0,
+    "trend": "up"
+  }
+]

@@ -1,0 +1,702 @@
+{
+  "large language model": [
+    {
+      "year": 2026,
+      "count": 75,
+      "rank": 1
+    }
+  ],
+  "reasoning": [
+    {
+      "year": 2026,
+      "count": 20,
+      "rank": 2
+    }
+  ],
+  "generation": [
+    {
+      "year": 2026,
+      "count": 7,
+      "rank": 3
+    }
+  ],
+  "code": [
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 4
+    }
+  ],
+  "memory": [
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 5
+    }
+  ],
+  "reinforcement learning": [
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 6
+    }
+  ],
+  "textbf": [
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 7
+    }
+  ],
+  "retrieval": [
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 8
+    }
+  ],
+  "understanding": [
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 9
+    }
+  ],
+  "benchmarking": [
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 10
+    }
+  ],
+  "causal": [
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 11
+    }
+  ],
+  "group relative policy": [
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 12
+    }
+  ],
+  "large reasoning models": [
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 13
+    }
+  ],
+  "llm agent": [
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 14
+    }
+  ],
+  "relative policy optimization": [
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 15
+    }
+  ],
+  "search": [
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 16
+    }
+  ],
+  "agents": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 17
+    }
+  ],
+  "bias": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 18
+    }
+  ],
+  "graph": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 19
+    }
+  ],
+  "languages": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 20
+    }
+  ],
+  "narrative": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 21
+    }
+  ],
+  "policy": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 22
+    }
+  ],
+  "policy optimization": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 23
+    }
+  ],
+  "reward": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 24
+    }
+  ],
+  "semantic": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 25
+    }
+  ],
+  "small language": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 26
+    }
+  ],
+  "text": [
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 27
+    }
+  ],
+  "adaptation": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 28
+    }
+  ],
+  "agent": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 29
+    }
+  ],
+  "alignment": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 30
+    }
+  ],
+  "clinical": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 31
+    }
+  ],
+  "code generation": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 32
+    }
+  ],
+  "contrastive learning": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 33
+    }
+  ],
+  "conversational": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 34
+    }
+  ],
+  "cot": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 35
+    }
+  ],
+  "data selection": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 36
+    }
+  ],
+  "detection": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 37
+    }
+  ],
+  "dialogue": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 38
+    }
+  ],
+  "efficient inference": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 39
+    }
+  ],
+  "enhancing reinforcement learning": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 40
+    }
+  ],
+  "evaluating": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 41
+    }
+  ],
+  "execution": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 42
+    }
+  ],
+  "gender": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 43
+    }
+  ],
+  "gender bias": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 44
+    }
+  ],
+  "good": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 45
+    }
+  ],
+  "graphical user interface": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 46
+    }
+  ],
+  "gui": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 47
+    }
+  ],
+  "hallucinations": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 48
+    }
+  ],
+  "hierarchical": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 49
+    }
+  ],
+  "inference": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 50
+    }
+  ],
+  "injection": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 51
+    }
+  ],
+  "knowledge graph": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 52
+    }
+  ],
+  "language model agents": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 53
+    }
+  ],
+  "large vision language models": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 54
+    }
+  ],
+  "logical": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 55
+    }
+  ],
+  "long term memory": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 56
+    }
+  ],
+  "makes": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 57
+    }
+  ],
+  "multilingual rag": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 58
+    }
+  ],
+  "multimodal": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 59
+    }
+  ],
+  "multimodal large": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 60
+    }
+  ],
+  "natural language": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 61
+    }
+  ],
+  "optimization": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 62
+    }
+  ],
+  "prompt": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 63
+    }
+  ],
+  "quantifying": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 64
+    }
+  ],
+  "recall": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 65
+    }
+  ],
+  "reinforcement": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 66
+    }
+  ],
+  "relative policy": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 67
+    }
+  ],
+  "retrieval augmented generation": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 68
+    }
+  ],
+  "reward models": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 69
+    }
+  ],
+  "risk": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 70
+    }
+  ],
+  "small language models": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 71
+    }
+  ],
+  "speech": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 72
+    }
+  ],
+  "sql": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 73
+    }
+  ],
+  "steering": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 74
+    }
+  ],
+  "tokens": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 75
+    }
+  ],
+  "translation": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 76
+    }
+  ],
+  "understand": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 77
+    }
+  ],
+  "understanding and mitigating": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 78
+    }
+  ],
+  "unlearning": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 79
+    }
+  ],
+  "video": [
+    {
+      "year": 2026,
+      "count": 2,
+      "rank": 80
+    }
+  ],
+  "abilities of large": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 81
+    }
+  ],
+  "academic image forensics": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 82
+    }
+  ],
+  "academic images": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 83
+    }
+  ],
+  "accelerating": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 84
+    }
+  ],
+  "accelerating long context llm": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 85
+    }
+  ],
+  "accurate causal": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 86
+    }
+  ],
+  "accurate causal graph": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 87
+    }
+  ],
+  "achieving faithful reasoning": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 88
+    }
+  ],
+  "action": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 89
+    }
+  ],
+  "action graph similarity": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 90
+    }
+  ],
+  "activations": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 91
+    }
+  ],
+  "adaptation in large": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 92
+    }
+  ],
+  "adaptation methods": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 93
+    }
+  ],
+  "adaptive instruction": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 94
+    }
+  ],
+  "adaptive instruction composition": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 95
+    }
+  ],
+  "adaptive output": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 96
+    }
+  ],
+  "adaptive output formats": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 97
+    }
+  ],
+  "adaptive retrieval loop": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 98
+    }
+  ],
+  "adaptive retrieval methodology": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 99
+    }
+  ],
+  "adaptive thinking": [
+    {
+      "year": 2026,
+      "count": 1,
+      "rank": 100
+    }
+  ]
+}

@@ -153,14 +153,15 @@ const API = {
     },
 
     aggregateKeywordItems(items, limit = 50) {
-        const allKeywords = {};
+        const allKeywords = new Map();
         items.forEach((item) => {
             if (!item || !item.keyword) {
                 return;
             }
-            allKeywords[item.keyword] = (allKeywords[item.keyword] || 0) + Number(item.count || 0);
+            const keyword = String(item.keyword);
+            allKeywords.set(keyword, (allKeywords.get(keyword) || 0) + Number(item.count || 0));
         });
-        return Object.entries(allKeywords)
+        return Array.from(allKeywords.entries())
             .map(([keyword, count]) => ({ keyword, count }))
             .sort((a, b) => b.count - a.count)
             .slice(0, limit);
@@ -244,15 +245,20 @@ const API = {
             return this.get("./api/stats/overview", {}, { ttl: this.ttl.overview });
         }
 
-        const venues = await this.getStatic("./data/venues/venues_index.json");
-        const totalPapers = venues.reduce((sum, venue) => sum + venue.paper_count, 0);
-        const totalKeywords = new Set();
-        venues.forEach((venue) => (venue.top_keywords || []).forEach((keyword) => totalKeywords.add(keyword.keyword)));
+        const [venues, manifest] = await Promise.all([
+            this.getStatic("./data/venues/venues_index.json"),
+            this.getStatic("./data/manifest.json").catch(() => null),
+        ]);
+        const totalPapers = Number(manifest?.stats?.total_papers)
+            || venues.reduce((sum, venue) => sum + venue.paper_count, 0);
+        const fallbackKeywords = new Set();
+        venues.forEach((venue) => (venue.top_keywords || []).forEach((keyword) => fallbackKeywords.add(keyword.keyword)));
+        const totalKeywords = Number(manifest?.stats?.total_keywords) || fallbackKeywords.size;
         const years = [...new Set(venues.flatMap((venue) => venue.years_available || []))].sort();
 
         return {
             total_papers: totalPapers,
-            total_keywords: totalKeywords.size,
+            total_keywords: totalKeywords,
             total_venues: venues.length,
             venues: venues.map((venue) => venue.name),
             years,
@@ -315,14 +321,14 @@ const API = {
                 return topKeywords[params.year] || [];
             }
 
-            const allKeywords = {};
+            const allKeywords = new Map();
             Object.values(topKeywords).forEach((yearData) => {
                 yearData.forEach((item) => {
-                    allKeywords[item.keyword] = (allKeywords[item.keyword] || 0) + item.count;
+                    allKeywords.set(item.keyword, (allKeywords.get(item.keyword) || 0) + item.count);
                 });
             });
 
-            return Object.entries(allKeywords)
+            return Array.from(allKeywords.entries())
                 .map(([keyword, count]) => ({ keyword, count }))
                 .sort((a, b) => b.count - a.count)
                 .slice(0, params.limit || 50);
@@ -359,17 +365,24 @@ const API = {
             const venuesIndex = await this.getStatic("./data/venues/venues_index.json");
             const result = { year, venues: {} };
 
-            for (const venueInfo of venuesIndex) {
+            const venueResults = await Promise.all(venuesIndex.map(async (venueInfo) => {
                 try {
                     const topKeywords = await this.getStatic(`./data/venues/venue_${venueInfo.name}_top_keywords.json`);
                     const targetYear = year || Math.max(...Object.keys(topKeywords).map(Number));
                     if (topKeywords[targetYear]) {
-                        result.venues[venueInfo.name] = topKeywords[targetYear].slice(0, limit);
+                        return [venueInfo.name, topKeywords[targetYear].slice(0, limit)];
                     }
                 } catch (error) {
                     console.warn(`Failed to load static data for ${venueInfo.name}`, error);
                 }
-            }
+                return null;
+            }));
+
+            venueResults
+                .filter(Boolean)
+                .forEach(([venueName, keywords]) => {
+                    result.venues[venueName] = keywords;
+                });
 
             return result;
         }
@@ -393,13 +406,13 @@ const API = {
             if (year && topKeywords[year]) {
                 data = topKeywords[year];
             } else {
-                const allKeywords = {};
+                const allKeywords = new Map();
                 Object.values(topKeywords).forEach((yearData) => {
                     yearData.forEach((item) => {
-                        allKeywords[item.keyword] = (allKeywords[item.keyword] || 0) + item.count;
+                        allKeywords.set(item.keyword, (allKeywords.get(item.keyword) || 0) + item.count);
                     });
                 });
-                data = Object.entries(allKeywords).map(([keyword, count]) => ({ keyword, count }));
+                data = Array.from(allKeywords.entries()).map(([keyword, count]) => ({ keyword, count }));
             }
 
             return data

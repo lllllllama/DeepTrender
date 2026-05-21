@@ -1,9 +1,12 @@
 {
-  "generated_at": "2026-05-20T04:23:52.445120",
+  "generated_at": "2026-05-21T11:27:53.658547",
   "stats": {
-    "venues_exported": 5,
+    "venues_exported": 33,
+    "venues_with_data": 11,
     "arxiv_exported": 3,
     "files_copied": 15,
-    "total_size_bytes": 410701
+    "total_size_bytes": 594573,
+    "total_papers": 13947,
+    "total_keywords": 80799
   }
 }

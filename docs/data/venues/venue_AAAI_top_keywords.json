@@ -1,0 +1,486 @@
+{
+  "2025": [
+    {
+      "keyword": "large language model",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "multimodal",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "action recognition",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "awareness",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "battery",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "battery longevity",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "benchmarking",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "benchmarking financial",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "benchmarking financial multimodal",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "charging",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "cognitive analytic therapy",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "computation",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "delayed full charging",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "departure",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "depressive",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "depressive symptoms",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "depressive symptoms identification",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "document understanding",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "enabling delayed full",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "enabling delayed full charging",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "fine grained",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "fine grained action",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "fine grained action recognition",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "longevity",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "mama memeia",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "memes",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "modeling",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "multi aspect multi agent collaboration",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "multi hop",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "multi hop reasoning",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "multi modal large language",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "multi step computation",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "multimodal multi hop",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "multimodal multi hop reasoning",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "perform multi modal multi hop",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "reasoning",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "recognizing fine grained actions",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "scenario awareness",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "sequence",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "skeleton",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "symptoms",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "symptoms identification",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "temporal",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "temporal corruption",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "transformer based",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "understanding",
+      "count": 1,
+      "rank": 46
+    }
+  ],
+  "2026": [
+    {
+      "keyword": "large language model",
+      "count": 5,
+      "rank": 1
+    },
+    {
+      "keyword": "time",
+      "count": 4,
+      "rank": 2
+    },
+    {
+      "keyword": "series",
+      "count": 3,
+      "rank": 3
+    },
+    {
+      "keyword": "time series",
+      "count": 3,
+      "rank": 4
+    },
+    {
+      "keyword": "additive models",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "bias",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "causal",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "distribution shift",
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "keyword": "education",
+      "count": 2,
+      "rank": 9
+    },
+    {
+      "keyword": "forecasting",
+      "count": 2,
+      "rank": 10
+    },
+    {
+      "keyword": "foundation",
+      "count": 2,
+      "rank": 11
+    },
+    {
+      "keyword": "generation",
+      "count": 2,
+      "rank": 12
+    },
+    {
+      "keyword": "grounding",
+      "count": 2,
+      "rank": 13
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 2,
+      "rank": 14
+    },
+    {
+      "keyword": "scalable",
+      "count": 2,
+      "rank": 15
+    },
+    {
+      "keyword": "time series forecasting",
+      "count": 2,
+      "rank": 16
+    },
+    {
+      "keyword": "accelerating dynamic",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "accelerating dynamic adapter",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "accurate air quality",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "accurately upscaling terrestrial",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "act",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "action outcome circuit",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "adaptation",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "adaptation time",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "additive",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "aids",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "aids indoor",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "aids indoor wireless",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "aigc era",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "air quality",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "air quality forecasting",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "aligned knowledge tracing",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "analysis method",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "angiogram",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "asymmetric hierarchical",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "asymmetric hierarchical attention",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "attention gathers",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "attention heads act",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "attention network",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "autonomous network",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "autonomous network incident",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "behavior alignment",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "bridging day",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "carbon fluxes",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "causal additive",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "causal additive models",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "causal analysis",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "causal diagnostics",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "causal graphs",
+      "count": 1,
+      "rank": 50
+    }
+  ]
+}

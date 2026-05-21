@@ -1,0 +1,506 @@
+{
+  "2024": [
+    {
+      "keyword": "diffusion model",
+      "count": 228,
+      "rank": 1
+    },
+    {
+      "keyword": "generation",
+      "count": 146,
+      "rank": 2
+    },
+    {
+      "keyword": "video",
+      "count": 138,
+      "rank": 3
+    },
+    {
+      "keyword": "large language model",
+      "count": 125,
+      "rank": 4
+    },
+    {
+      "keyword": "detection",
+      "count": 89,
+      "rank": 5
+    },
+    {
+      "keyword": "segmentation",
+      "count": 87,
+      "rank": 6
+    },
+    {
+      "keyword": "object",
+      "count": 76,
+      "rank": 7
+    },
+    {
+      "keyword": "human",
+      "count": 70,
+      "rank": 8
+    },
+    {
+      "keyword": "object detection",
+      "count": 62,
+      "rank": 9
+    },
+    {
+      "keyword": "motion",
+      "count": 61,
+      "rank": 10
+    },
+    {
+      "keyword": "vision language model",
+      "count": 61,
+      "rank": 11
+    },
+    {
+      "keyword": "gaussian splatting",
+      "count": 59,
+      "rank": 12
+    },
+    {
+      "keyword": "scene",
+      "count": 59,
+      "rank": 13
+    },
+    {
+      "keyword": "gaussian",
+      "count": 52,
+      "rank": 14
+    },
+    {
+      "keyword": "semantic",
+      "count": 49,
+      "rank": 15
+    },
+    {
+      "keyword": "reconstruction",
+      "count": 47,
+      "rank": 16
+    },
+    {
+      "keyword": "vision",
+      "count": 46,
+      "rank": 17
+    },
+    {
+      "keyword": "synthesis",
+      "count": 45,
+      "rank": 18
+    },
+    {
+      "keyword": "image generation",
+      "count": 42,
+      "rank": 19
+    },
+    {
+      "keyword": "estimation",
+      "count": 41,
+      "rank": 20
+    },
+    {
+      "keyword": "images",
+      "count": 40,
+      "rank": 21
+    },
+    {
+      "keyword": "semantic segmentation",
+      "count": 39,
+      "rank": 22
+    },
+    {
+      "keyword": "depth",
+      "count": 36,
+      "rank": 23
+    },
+    {
+      "keyword": "point cloud",
+      "count": 36,
+      "rank": 24
+    },
+    {
+      "keyword": "pose",
+      "count": 36,
+      "rank": 25
+    },
+    {
+      "keyword": "adversarial",
+      "count": 35,
+      "rank": 26
+    },
+    {
+      "keyword": "editing",
+      "count": 35,
+      "rank": 27
+    },
+    {
+      "keyword": "radiance fields",
+      "count": 35,
+      "rank": 28
+    },
+    {
+      "keyword": "understanding",
+      "count": 35,
+      "rank": 29
+    },
+    {
+      "keyword": "splatting",
+      "count": 34,
+      "rank": 30
+    },
+    {
+      "keyword": "transformer",
+      "count": 33,
+      "rank": 31
+    },
+    {
+      "keyword": "neural radiance",
+      "count": 31,
+      "rank": 32
+    },
+    {
+      "keyword": "neural radiance fields",
+      "count": 31,
+      "rank": 33
+    },
+    {
+      "keyword": "vision transformer",
+      "count": 31,
+      "rank": 34
+    },
+    {
+      "keyword": "pose estimation",
+      "count": 30,
+      "rank": 35
+    },
+    {
+      "keyword": "generative",
+      "count": 29,
+      "rank": 36
+    },
+    {
+      "keyword": "point",
+      "count": 29,
+      "rank": 37
+    },
+    {
+      "keyword": "recognition",
+      "count": 29,
+      "rank": 38
+    },
+    {
+      "keyword": "adaptation",
+      "count": 28,
+      "rank": 39
+    },
+    {
+      "keyword": "dynamic",
+      "count": 27,
+      "rank": 40
+    },
+    {
+      "keyword": "federated learning",
+      "count": 27,
+      "rank": 41
+    },
+    {
+      "keyword": "multimodal",
+      "count": 27,
+      "rank": 42
+    },
+    {
+      "keyword": "text",
+      "count": 27,
+      "rank": 43
+    },
+    {
+      "keyword": "multimodal large",
+      "count": 25,
+      "rank": 44
+    },
+    {
+      "keyword": "face",
+      "count": 24,
+      "rank": 45
+    },
+    {
+      "keyword": "scenes",
+      "count": 23,
+      "rank": 46
+    },
+    {
+      "keyword": "shape",
+      "count": 23,
+      "rank": 47
+    },
+    {
+      "keyword": "fusion",
+      "count": 22,
+      "rank": 48
+    },
+    {
+      "keyword": "tracking",
+      "count": 22,
+      "rank": 49
+    },
+    {
+      "keyword": "video diffusion",
+      "count": 22,
+      "rank": 50
+    }
+  ],
+  "2026": [
+    {
+      "keyword": "large language model",
+      "count": 23,
+      "rank": 1
+    },
+    {
+      "keyword": "video",
+      "count": 18,
+      "rank": 2
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 17,
+      "rank": 3
+    },
+    {
+      "keyword": "gaussian splatting",
+      "count": 17,
+      "rank": 4
+    },
+    {
+      "keyword": "generation",
+      "count": 17,
+      "rank": 5
+    },
+    {
+      "keyword": "detection",
+      "count": 16,
+      "rank": 6
+    },
+    {
+      "keyword": "vision language model",
+      "count": 15,
+      "rank": 7
+    },
+    {
+      "keyword": "gaussian",
+      "count": 13,
+      "rank": 8
+    },
+    {
+      "keyword": "vision",
+      "count": 12,
+      "rank": 9
+    },
+    {
+      "keyword": "motion",
+      "count": 11,
+      "rank": 10
+    },
+    {
+      "keyword": "splatting",
+      "count": 11,
+      "rank": 11
+    },
+    {
+      "keyword": "multimodal",
+      "count": 10,
+      "rank": 12
+    },
+    {
+      "keyword": "autonomous driving",
+      "count": 9,
+      "rank": 13
+    },
+    {
+      "keyword": "human",
+      "count": 9,
+      "rank": 14
+    },
+    {
+      "keyword": "reasoning",
+      "count": 9,
+      "rank": 15
+    },
+    {
+      "keyword": "transformer",
+      "count": 9,
+      "rank": 16
+    },
+    {
+      "keyword": "object detection",
+      "count": 8,
+      "rank": 17
+    },
+    {
+      "keyword": "reconstruction",
+      "count": 8,
+      "rank": 18
+    },
+    {
+      "keyword": "segmentation",
+      "count": 8,
+      "rank": 19
+    },
+    {
+      "keyword": "adaptation",
+      "count": 7,
+      "rank": 20
+    },
+    {
+      "keyword": "driving",
+      "count": 7,
+      "rank": 21
+    },
+    {
+      "keyword": "dynamic",
+      "count": 7,
+      "rank": 22
+    },
+    {
+      "keyword": "robust",
+      "count": 7,
+      "rank": 23
+    },
+    {
+      "keyword": "semantic",
+      "count": 7,
+      "rank": 24
+    },
+    {
+      "keyword": "domain",
+      "count": 6,
+      "rank": 25
+    },
+    {
+      "keyword": "federated learning",
+      "count": 6,
+      "rank": 26
+    },
+    {
+      "keyword": "knowledge",
+      "count": 6,
+      "rank": 27
+    },
+    {
+      "keyword": "multimodal large",
+      "count": 6,
+      "rank": 28
+    },
+    {
+      "keyword": "object",
+      "count": 6,
+      "rank": 29
+    },
+    {
+      "keyword": "point",
+      "count": 6,
+      "rank": 30
+    },
+    {
+      "keyword": "scene",
+      "count": 6,
+      "rank": 31
+    },
+    {
+      "keyword": "spatial",
+      "count": 6,
+      "rank": 32
+    },
+    {
+      "keyword": "textbf",
+      "count": 6,
+      "rank": 33
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 5,
+      "rank": 34
+    },
+    {
+      "keyword": "camera",
+      "count": 5,
+      "rank": 35
+    },
+    {
+      "keyword": "composed image retrieval",
+      "count": 5,
+      "rank": 36
+    },
+    {
+      "keyword": "continual learning",
+      "count": 5,
+      "rank": 37
+    },
+    {
+      "keyword": "depth",
+      "count": 5,
+      "rank": 38
+    },
+    {
+      "keyword": "editing",
+      "count": 5,
+      "rank": 39
+    },
+    {
+      "keyword": "federated",
+      "count": 5,
+      "rank": 40
+    },
+    {
+      "keyword": "geometric",
+      "count": 5,
+      "rank": 41
+    },
+    {
+      "keyword": "graph",
+      "count": 5,
+      "rank": 42
+    },
+    {
+      "keyword": "large vision language models",
+      "count": 5,
+      "rank": 43
+    },
+    {
+      "keyword": "manipulation",
+      "count": 5,
+      "rank": 44
+    },
+    {
+      "keyword": "monocular",
+      "count": 5,
+      "rank": 45
+    },
+    {
+      "keyword": "point cloud",
+      "count": 5,
+      "rank": 46
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 5,
+      "rank": 47
+    },
+    {
+      "keyword": "retrieval",
+      "count": 5,
+      "rank": 48
+    },
+    {
+      "keyword": "synthesis",
+      "count": 5,
+      "rank": 49
+    },
+    {
+      "keyword": "autonomous",
+      "count": 4,
+      "rank": 50
+    }
+  ]
+}

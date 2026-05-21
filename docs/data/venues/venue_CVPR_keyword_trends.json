@@ -1,0 +1,1682 @@
+{
+  "diffusion model": [
+    {
+      "year": 2024,
+      "count": 228,
+      "rank": 1
+    },
+    {
+      "year": 2026,
+      "count": 17,
+      "rank": 3
+    }
+  ],
+  "generation": [
+    {
+      "year": 2024,
+      "count": 146,
+      "rank": 2
+    },
+    {
+      "year": 2026,
+      "count": 17,
+      "rank": 5
+    }
+  ],
+  "video": [
+    {
+      "year": 2024,
+      "count": 138,
+      "rank": 3
+    },
+    {
+      "year": 2026,
+      "count": 18,
+      "rank": 2
+    }
+  ],
+  "large language model": [
+    {
+      "year": 2024,
+      "count": 125,
+      "rank": 4
+    },
+    {
+      "year": 2026,
+      "count": 23,
+      "rank": 1
+    }
+  ],
+  "detection": [
+    {
+      "year": 2024,
+      "count": 89,
+      "rank": 5
+    },
+    {
+      "year": 2026,
+      "count": 16,
+      "rank": 6
+    }
+  ],
+  "segmentation": [
+    {
+      "year": 2024,
+      "count": 87,
+      "rank": 6
+    },
+    {
+      "year": 2026,
+      "count": 8,
+      "rank": 19
+    }
+  ],
+  "object": [
+    {
+      "year": 2024,
+      "count": 76,
+      "rank": 7
+    },
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 29
+    }
+  ],
+  "human": [
+    {
+      "year": 2024,
+      "count": 70,
+      "rank": 8
+    },
+    {
+      "year": 2026,
+      "count": 9,
+      "rank": 14
+    }
+  ],
+  "vision language model": [
+    {
+      "year": 2024,
+      "count": 61,
+      "rank": 11
+    },
+    {
+      "year": 2026,
+      "count": 15,
+      "rank": 7
+    }
+  ],
+  "gaussian splatting": [
+    {
+      "year": 2024,
+      "count": 59,
+      "rank": 12
+    },
+    {
+      "year": 2026,
+      "count": 17,
+      "rank": 4
+    }
+  ],
+  "motion": [
+    {
+      "year": 2024,
+      "count": 61,
+      "rank": 10
+    },
+    {
+      "year": 2026,
+      "count": 11,
+      "rank": 10
+    }
+  ],
+  "object detection": [
+    {
+      "year": 2024,
+      "count": 62,
+      "rank": 9
+    },
+    {
+      "year": 2026,
+      "count": 8,
+      "rank": 17
+    }
+  ],
+  "scene": [
+    {
+      "year": 2024,
+      "count": 59,
+      "rank": 13
+    },
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 31
+    }
+  ],
+  "gaussian": [
+    {
+      "year": 2024,
+      "count": 52,
+      "rank": 14
+    },
+    {
+      "year": 2026,
+      "count": 13,
+      "rank": 8
+    }
+  ],
+  "vision": [
+    {
+      "year": 2024,
+      "count": 46,
+      "rank": 17
+    },
+    {
+      "year": 2026,
+      "count": 12,
+      "rank": 9
+    }
+  ],
+  "semantic": [
+    {
+      "year": 2024,
+      "count": 49,
+      "rank": 15
+    },
+    {
+      "year": 2026,
+      "count": 7,
+      "rank": 24
+    }
+  ],
+  "reconstruction": [
+    {
+      "year": 2024,
+      "count": 47,
+      "rank": 16
+    },
+    {
+      "year": 2026,
+      "count": 8,
+      "rank": 18
+    }
+  ],
+  "synthesis": [
+    {
+      "year": 2024,
+      "count": 45,
+      "rank": 18
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 49
+    }
+  ],
+  "image generation": [
+    {
+      "year": 2024,
+      "count": 42,
+      "rank": 19
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 96
+    }
+  ],
+  "splatting": [
+    {
+      "year": 2024,
+      "count": 34,
+      "rank": 30
+    },
+    {
+      "year": 2026,
+      "count": 11,
+      "rank": 11
+    }
+  ],
+  "estimation": [
+    {
+      "year": 2024,
+      "count": 41,
+      "rank": 20
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 84
+    }
+  ],
+  "images": [
+    {
+      "year": 2024,
+      "count": 40,
+      "rank": 21
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 57
+    }
+  ],
+  "transformer": [
+    {
+      "year": 2024,
+      "count": 33,
+      "rank": 31
+    },
+    {
+      "year": 2026,
+      "count": 9,
+      "rank": 16
+    }
+  ],
+  "depth": [
+    {
+      "year": 2024,
+      "count": 36,
+      "rank": 23
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 38
+    }
+  ],
+  "point cloud": [
+    {
+      "year": 2024,
+      "count": 36,
+      "rank": 24
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 46
+    }
+  ],
+  "editing": [
+    {
+      "year": 2024,
+      "count": 35,
+      "rank": 27
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 39
+    }
+  ],
+  "semantic segmentation": [
+    {
+      "year": 2024,
+      "count": 39,
+      "rank": 22
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "understanding": [
+    {
+      "year": 2024,
+      "count": 35,
+      "rank": 29
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 67
+    }
+  ],
+  "multimodal": [
+    {
+      "year": 2024,
+      "count": 27,
+      "rank": 42
+    },
+    {
+      "year": 2026,
+      "count": 10,
+      "rank": 12
+    }
+  ],
+  "pose": [
+    {
+      "year": 2024,
+      "count": 36,
+      "rank": 25
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "adversarial": [
+    {
+      "year": 2024,
+      "count": 35,
+      "rank": 26
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "radiance fields": [
+    {
+      "year": 2024,
+      "count": 35,
+      "rank": 28
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "vision transformer": [
+    {
+      "year": 2024,
+      "count": 31,
+      "rank": 34
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 70
+    }
+  ],
+  "point": [
+    {
+      "year": 2024,
+      "count": 29,
+      "rank": 37
+    },
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 30
+    }
+  ],
+  "adaptation": [
+    {
+      "year": 2024,
+      "count": 28,
+      "rank": 39
+    },
+    {
+      "year": 2026,
+      "count": 7,
+      "rank": 20
+    }
+  ],
+  "dynamic": [
+    {
+      "year": 2024,
+      "count": 27,
+      "rank": 40
+    },
+    {
+      "year": 2026,
+      "count": 7,
+      "rank": 22
+    }
+  ],
+  "generative": [
+    {
+      "year": 2024,
+      "count": 29,
+      "rank": 36
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 55
+    }
+  ],
+  "federated learning": [
+    {
+      "year": 2024,
+      "count": 27,
+      "rank": 41
+    },
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 26
+    }
+  ],
+  "neural radiance": [
+    {
+      "year": 2024,
+      "count": 31,
+      "rank": 32
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "neural radiance fields": [
+    {
+      "year": 2024,
+      "count": 31,
+      "rank": 33
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "multimodal large": [
+    {
+      "year": 2024,
+      "count": 25,
+      "rank": 44
+    },
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 28
+    }
+  ],
+  "pose estimation": [
+    {
+      "year": 2024,
+      "count": 30,
+      "rank": 35
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "recognition": [
+    {
+      "year": 2024,
+      "count": 29,
+      "rank": 38
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "autonomous driving": [
+    {
+      "year": 2024,
+      "count": 20,
+      "rank": 56
+    },
+    {
+      "year": 2026,
+      "count": 9,
+      "rank": 13
+    }
+  ],
+  "driving": [
+    {
+      "year": 2024,
+      "count": 21,
+      "rank": 52
+    },
+    {
+      "year": 2026,
+      "count": 7,
+      "rank": 21
+    }
+  ],
+  "text": [
+    {
+      "year": 2024,
+      "count": 27,
+      "rank": 43
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "face": [
+    {
+      "year": 2024,
+      "count": 24,
+      "rank": 45
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 85
+    }
+  ],
+  "tracking": [
+    {
+      "year": 2024,
+      "count": 22,
+      "rank": 49
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 66
+    }
+  ],
+  "video generation": [
+    {
+      "year": 2024,
+      "count": 22,
+      "rank": 51
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 69
+    }
+  ],
+  "reasoning": [
+    {
+      "year": 2024,
+      "count": 17,
+      "rank": 84
+    },
+    {
+      "year": 2026,
+      "count": 9,
+      "rank": 15
+    }
+  ],
+  "fusion": [
+    {
+      "year": 2024,
+      "count": 22,
+      "rank": 48
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 89
+    }
+  ],
+  "prediction": [
+    {
+      "year": 2024,
+      "count": 21,
+      "rank": 54
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 63
+    }
+  ],
+  "camera": [
+    {
+      "year": 2024,
+      "count": 20,
+      "rank": 57
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 35
+    }
+  ],
+  "image editing": [
+    {
+      "year": 2024,
+      "count": 21,
+      "rank": 53
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 95
+    }
+  ],
+  "robust": [
+    {
+      "year": 2024,
+      "count": 17,
+      "rank": 85
+    },
+    {
+      "year": 2026,
+      "count": 7,
+      "rank": 23
+    }
+  ],
+  "scenes": [
+    {
+      "year": 2024,
+      "count": 23,
+      "rank": 46
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "shape": [
+    {
+      "year": 2024,
+      "count": 23,
+      "rank": 47
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "clip": [
+    {
+      "year": 2024,
+      "count": 20,
+      "rank": 58
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 78
+    }
+  ],
+  "distillation": [
+    {
+      "year": 2024,
+      "count": 20,
+      "rank": 59
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 82
+    }
+  ],
+  "domain": [
+    {
+      "year": 2024,
+      "count": 17,
+      "rank": 79
+    },
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 25
+    }
+  ],
+  "video diffusion": [
+    {
+      "year": 2024,
+      "count": 22,
+      "rank": 50
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "action": [
+    {
+      "year": 2024,
+      "count": 19,
+      "rank": 64
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 72
+    }
+  ],
+  "anomaly": [
+    {
+      "year": 2024,
+      "count": 19,
+      "rank": 66
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 74
+    }
+  ],
+  "foundation models": [
+    {
+      "year": 2024,
+      "count": 18,
+      "rank": 72
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 53
+    }
+  ],
+  "videos": [
+    {
+      "year": 2024,
+      "count": 21,
+      "rank": 55
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "interaction": [
+    {
+      "year": 2024,
+      "count": 18,
+      "rank": 73
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 98
+    }
+  ],
+  "continual learning": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 87
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 37
+    }
+  ],
+  "large vision language models": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 94
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 43
+    }
+  ],
+  "monocular": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 97
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 45
+    }
+  ],
+  "retrieval": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 99
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 48
+    }
+  ],
+  "human motion": [
+    {
+      "year": 2024,
+      "count": 20,
+      "rank": 60
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "representation": [
+    {
+      "year": 2024,
+      "count": 20,
+      "rank": 61
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "single image": [
+    {
+      "year": 2024,
+      "count": 20,
+      "rank": 62
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stable diffusion": [
+    {
+      "year": 2024,
+      "count": 20,
+      "rank": 63
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "autonomous": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 86
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 50
+    }
+  ],
+  "domain adaptation": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 88
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 52
+    }
+  ],
+  "alignment": [
+    {
+      "year": 2024,
+      "count": 19,
+      "rank": 65
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "localization": [
+    {
+      "year": 2024,
+      "count": 19,
+      "rank": 67
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "modeling": [
+    {
+      "year": 2024,
+      "count": 19,
+      "rank": 68
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "prompt": [
+    {
+      "year": 2024,
+      "count": 19,
+      "rank": 69
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "image restoration": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 92
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 97
+    }
+  ],
+  "completion": [
+    {
+      "year": 2024,
+      "count": 18,
+      "rank": 70
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "depth estimation": [
+    {
+      "year": 2024,
+      "count": 18,
+      "rank": 71
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "objects": [
+    {
+      "year": 2024,
+      "count": 18,
+      "rank": 74
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "perception": [
+    {
+      "year": 2024,
+      "count": 18,
+      "rank": 75
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "rendering": [
+    {
+      "year": 2024,
+      "count": 18,
+      "rank": 76
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "view synthesis": [
+    {
+      "year": 2024,
+      "count": 18,
+      "rank": 77
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "control": [
+    {
+      "year": 2024,
+      "count": 17,
+      "rank": 78
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "fields": [
+    {
+      "year": 2024,
+      "count": 17,
+      "rank": 80
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "grounding": [
+    {
+      "year": 2024,
+      "count": 17,
+      "rank": 81
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "hand": [
+    {
+      "year": 2024,
+      "count": 17,
+      "rank": 82
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "matching": [
+    {
+      "year": 2024,
+      "count": 17,
+      "rank": 83
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "event": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 89
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "feature": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 90
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "human pose": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 91
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "image super resolution": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 93
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "medical": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 95
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "mesh": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 96
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "radiance": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 98
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "self supervised learning": [
+    {
+      "year": 2024,
+      "count": 16,
+      "rank": 100
+    },
+    {
+      "year": 2026,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "knowledge": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 27
+    }
+  ],
+  "spatial": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 32
+    }
+  ],
+  "textbf": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 6,
+      "rank": 33
+    }
+  ],
+  "anomaly detection": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 34
+    }
+  ],
+  "composed image retrieval": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 36
+    }
+  ],
+  "federated": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 40
+    }
+  ],
+  "geometric": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 41
+    }
+  ],
+  "graph": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 42
+    }
+  ],
+  "manipulation": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 44
+    }
+  ],
+  "reinforcement learning": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 5,
+      "rank": 47
+    }
+  ],
+  "composed image": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 51
+    }
+  ],
+  "generalization": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 54
+    }
+  ],
+  "image retrieval": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 56
+    }
+  ],
+  "knowledge distillation": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 58
+    }
+  ],
+  "large multimodal": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 59
+    }
+  ],
+  "multimodal models": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 60
+    }
+  ],
+  "optimization": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 61
+    }
+  ],
+  "planning": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 62
+    }
+  ],
+  "real world": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 64
+    }
+  ],
+  "test time adaptation": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 65
+    }
+  ],
+  "unified": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "rank": 68
+    }
+  ],
+  "acceleration": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 71
+    }
+  ],
+  "active": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 73
+    }
+  ],
+  "attention": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 75
+    }
+  ],
+  "causal": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 76
+    }
+  ],
+  "classification": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 77
+    }
+  ],
+  "dense video": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 79
+    }
+  ],
+  "dense video captioning": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 80
+    }
+  ],
+  "diffusion transformers": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 81
+    }
+  ],
+  "egocentric": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 83
+    }
+  ],
+  "few shot learning": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 86
+    }
+  ],
+  "flow matching": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 87
+    }
+  ],
+  "foundation model": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 88
+    }
+  ],
+  "generate": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 90
+    }
+  ],
+  "geometry": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 91
+    }
+  ],
+  "global": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 92
+    }
+  ],
+  "guidance": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 93
+    }
+  ],
+  "hoi": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 94
+    }
+  ],
+  "large multimodal models": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 99
+    }
+  ],
+  "lighting": [
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2026,
+      "count": 3,
+      "rank": 100
+    }
+  ]
+}

@@ -6,12 +6,12 @@
       "rank": 1
     },
     {
-      "keyword": "normalizing",
+      "keyword": "deep",
       "count": 2,
       "rank": 2
     },
     {
-      "keyword": "multimodal",
+      "keyword": "gradient",
       "count": 2,
       "rank": 3
     },
@@ -21,274 +21,274 @@
       "rank": 4
     },
     {
-      "keyword": "gradient",
+      "keyword": "multimodal",
       "count": 2,
       "rank": 5
     },
     {
-      "keyword": "diffusion",
+      "keyword": "normalizing",
       "count": 2,
       "rank": 6
     },
     {
-      "keyword": "deep",
-      "count": 2,
+      "keyword": "adaptive prediction sets",
+      "count": 1,
       "rank": 7
     },
     {
-      "keyword": "zoo experts",
+      "keyword": "adversarial",
       "count": 1,
       "rank": 8
     },
     {
-      "keyword": "wasserstein gradient flow",
+      "keyword": "architectures",
       "count": 1,
       "rank": 9
     },
     {
-      "keyword": "volumetric",
+      "keyword": "automatic code",
       "count": 1,
       "rank": 10
     },
     {
-      "keyword": "vlms",
+      "keyword": "automatic code parallelization",
       "count": 1,
       "rank": 11
     },
     {
-      "keyword": "visual graph matching",
+      "keyword": "binder",
       "count": 1,
       "rank": 12
     },
     {
-      "keyword": "visual graph",
+      "keyword": "black box models",
       "count": 1,
       "rank": 13
     },
     {
-      "keyword": "vision language models",
+      "keyword": "box embedding",
       "count": 1,
       "rank": 14
     },
     {
-      "keyword": "vision based tactile sensor",
+      "keyword": "breaking physical",
       "count": 1,
       "rank": 15
     },
     {
-      "keyword": "velocity field",
+      "keyword": "certified robustness",
       "count": 1,
       "rank": 16
     },
     {
-      "keyword": "vectors",
+      "keyword": "cfasl",
       "count": 1,
       "rank": 17
     },
     {
-      "keyword": "variational autoencoder",
+      "keyword": "chain monte carlo",
       "count": 1,
       "rank": 18
     },
     {
-      "keyword": "variables",
+      "keyword": "change condition",
       "count": 1,
       "rank": 19
     },
     {
-      "keyword": "unseen image synthesis",
+      "keyword": "classes learning",
       "count": 1,
       "rank": 20
     },
     {
-      "keyword": "unseen image domains",
+      "keyword": "classes learning problem",
       "count": 1,
       "rank": 21
     },
     {
-      "keyword": "unseen image",
+      "keyword": "classification",
       "count": 1,
       "rank": 22
     },
     {
-      "keyword": "unseen domain images",
+      "keyword": "classifier via label",
       "count": 1,
       "rank": 23
     },
     {
-      "keyword": "unified path gradient",
+      "keyword": "clip",
       "count": 1,
       "rank": 24
     },
     {
-      "keyword": "unified path",
+      "keyword": "clip meets",
       "count": 1,
       "rank": 25
     },
     {
-      "keyword": "unified learning",
+      "keyword": "clip meets model",
       "count": 1,
       "rank": 26
     },
     {
-      "keyword": "unified",
+      "keyword": "composite factor aligned",
       "count": 1,
       "rank": 27
     },
     {
-      "keyword": "underlying wasserstein gradient",
+      "keyword": "composite factor aligned symmetry",
       "count": 1,
       "rank": 28
     },
     {
-      "keyword": "tree search",
+      "keyword": "conformal prediction",
       "count": 1,
       "rank": 29
     },
     {
-      "keyword": "transfer learning",
+      "keyword": "content",
       "count": 1,
       "rank": 30
     },
     {
-      "keyword": "textit",
+      "keyword": "contextual",
       "count": 1,
       "rank": 31
     },
     {
-      "keyword": "textbf",
+      "keyword": "contextual dynamic pricing",
       "count": 1,
       "rank": 32
     },
     {
-      "keyword": "text classification",
+      "keyword": "contextual elasticity",
       "count": 1,
       "rank": 33
     },
     {
-      "keyword": "teacher",
+      "keyword": "contextual prompting",
       "count": 1,
       "rank": 34
     },
     {
-      "keyword": "tactile sensor",
+      "keyword": "deep classifier",
       "count": 1,
       "rank": 35
     },
     {
-      "keyword": "tactile image",
+      "keyword": "deep exploration",
       "count": 1,
       "rank": 36
     },
     {
-      "keyword": "tactile",
+      "keyword": "deep learning",
       "count": 1,
       "rank": 37
     },
     {
-      "keyword": "symmetry learning",
+      "keyword": "deep learning models",
       "count": 1,
       "rank": 38
     },
     {
-      "keyword": "symmetry aware learning approach",
+      "keyword": "deep visual",
       "count": 1,
       "rank": 39
     },
     {
-      "keyword": "symmetry aware learning",
+      "keyword": "deep visual graph",
       "count": 1,
       "rank": 40
     },
     {
-      "keyword": "suppression",
+      "keyword": "denoising diffusion probabilistic",
       "count": 1,
       "rank": 41
     },
     {
-      "keyword": "student",
+      "keyword": "diffusion probabilistic models",
       "count": 1,
       "rank": 42
     },
     {
-      "keyword": "stop overkilling simple",
+      "keyword": "discriminative",
       "count": 1,
       "rank": 43
     },
     {
-      "keyword": "stop overkilling",
+      "keyword": "discriminative models",
       "count": 1,
       "rank": 44
     },
     {
-      "keyword": "stochastic adversarial networks",
+      "keyword": "distillation via regularizing",
       "count": 1,
       "rank": 45
     },
     {
-      "keyword": "stochastic adversarial",
+      "keyword": "domain specific feature extractors",
       "count": 1,
       "rank": 46
     },
     {
-      "keyword": "stable diffusion",
+      "keyword": "dynamic pricing problem",
       "count": 1,
       "rank": 47
     },
     {
-      "keyword": "sparse",
+      "keyword": "e mcts",
       "count": 1,
       "rank": 48
     },
     {
-      "keyword": "sorted adaptive prediction",
+      "keyword": "elasticity",
       "count": 1,
       "rank": 49
     },
     {
-      "keyword": "solving mixed integer linear",
+      "keyword": "elasticity and heteroscedastic",
       "count": 1,
       "rank": 50
     }
   ],
   "2025": [
     {
-      "keyword": "spurious",
+      "keyword": "avoid shortcut",
       "count": 1,
       "rank": 1
     },
     {
-      "keyword": "learn shortcuts",
+      "keyword": "avoid shortcut solutions",
       "count": 1,
       "rank": 2
     },
     {
-      "keyword": "generative classifiers",
+      "keyword": "classifiers",
       "count": 1,
       "rank": 3
     },
     {
-      "keyword": "generative",
+      "keyword": "classifiers avoid shortcut",
       "count": 1,
       "rank": 4
     },
     {
-      "keyword": "classifiers avoid shortcut",
+      "keyword": "generative",
       "count": 1,
       "rank": 5
     },
     {
-      "keyword": "classifiers",
+      "keyword": "generative classifiers",
       "count": 1,
       "rank": 6
     },
     {
-      "keyword": "avoid shortcut solutions",
+      "keyword": "learn shortcuts",
       "count": 1,
       "rank": 7
     },
     {
-      "keyword": "avoid shortcut",
+      "keyword": "spurious",
       "count": 1,
       "rank": 8
     }
@@ -296,7 +296,7 @@
   "2026": [
     {
       "keyword": "large language model",
-      "count": 33,
+      "count": 39,
       "rank": 1
     },
     {
@@ -306,131 +306,131 @@
     },
     {
       "keyword": "reinforcement learning",
-      "count": 11,
+      "count": 12,
       "rank": 3
-    },
-    {
-      "keyword": "language models",
-      "count": 11,
-      "rank": 4
-    },
-    {
-      "keyword": "large language",
-      "count": 10,
-      "rank": 5
     },
     {
       "keyword": "transformer",
       "count": 8,
-      "rank": 6
-    },
-    {
-      "keyword": "visual",
-      "count": 6,
-      "rank": 7
-    },
-    {
-      "keyword": "neural",
-      "count": 6,
-      "rank": 8
-    },
-    {
-      "keyword": "language",
-      "count": 6,
-      "rank": 9
-    },
-    {
-      "keyword": "generation",
-      "count": 6,
-      "rank": 10
+      "rank": 4
     },
     {
       "keyword": "diffusion model",
-      "count": 6,
-      "rank": 11
+      "count": 7,
+      "rank": 5
     },
     {
       "keyword": "alignment",
       "count": 6,
-      "rank": 12
+      "rank": 6
     },
     {
-      "keyword": "time series",
-      "count": 5,
-      "rank": 13
-    },
-    {
-      "keyword": "optimization",
-      "count": 5,
-      "rank": 14
-    },
-    {
-      "keyword": "large reasoning models",
-      "count": 5,
-      "rank": 15
-    },
-    {
-      "keyword": "diffusion",
-      "count": 5,
-      "rank": 16
+      "keyword": "generation",
+      "count": 6,
+      "rank": 7
     },
     {
       "keyword": "agents",
       "count": 5,
-      "rank": 17
+      "rank": 8
     },
     {
-      "keyword": "text",
-      "count": 4,
-      "rank": 18
+      "keyword": "large reasoning models",
+      "count": 5,
+      "rank": 9
     },
     {
-      "keyword": "protein",
-      "count": 4,
-      "rank": 19
+      "keyword": "optimization",
+      "count": 5,
+      "rank": 10
     },
     {
-      "keyword": "large reasoning",
-      "count": 4,
-      "rank": 20
-    },
-    {
-      "keyword": "information",
-      "count": 4,
-      "rank": 21
-    },
-    {
-      "keyword": "benchmarking",
-      "count": 4,
-      "rank": 22
+      "keyword": "time series",
+      "count": 5,
+      "rank": 11
     },
     {
       "keyword": "agentic",
       "count": 4,
+      "rank": 12
+    },
+    {
+      "keyword": "benchmarking",
+      "count": 4,
+      "rank": 13
+    },
+    {
+      "keyword": "information",
+      "count": 4,
+      "rank": 14
+    },
+    {
+      "keyword": "large reasoning",
+      "count": 4,
+      "rank": 15
+    },
+    {
+      "keyword": "protein",
+      "count": 4,
+      "rank": 16
+    },
+    {
+      "keyword": "text",
+      "count": 4,
+      "rank": 17
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "rank": 18
+    },
+    {
+      "keyword": "causal",
+      "count": 3,
+      "rank": 19
+    },
+    {
+      "keyword": "classification",
+      "count": 3,
+      "rank": 20
+    },
+    {
+      "keyword": "compression",
+      "count": 3,
+      "rank": 21
+    },
+    {
+      "keyword": "discovery",
+      "count": 3,
+      "rank": 22
+    },
+    {
+      "keyword": "flow",
+      "count": 3,
       "rank": 23
     },
     {
-      "keyword": "segmentation",
+      "keyword": "foundation models",
       "count": 3,
       "rank": 24
     },
     {
-      "keyword": "reward",
+      "keyword": "llm alignment",
       "count": 3,
       "rank": 25
     },
     {
-      "keyword": "prediction",
+      "keyword": "machine learning",
       "count": 3,
       "rank": 26
     },
     {
-      "keyword": "policy",
+      "keyword": "multivariate time",
       "count": 3,
       "rank": 27
     },
     {
-      "keyword": "object",
+      "keyword": "multivariate time series",
       "count": 3,
       "rank": 28
     },
@@ -440,107 +440,107 @@
       "rank": 29
     },
     {
-      "keyword": "multivariate time series",
+      "keyword": "object",
       "count": 3,
       "rank": 30
     },
     {
-      "keyword": "multivariate time",
+      "keyword": "policy",
       "count": 3,
       "rank": 31
     },
     {
-      "keyword": "machine learning",
+      "keyword": "prediction",
       "count": 3,
       "rank": 32
     },
     {
-      "keyword": "llm alignment",
+      "keyword": "reward",
       "count": 3,
       "rank": 33
     },
     {
-      "keyword": "foundation models",
+      "keyword": "segmentation",
       "count": 3,
       "rank": 34
     },
     {
-      "keyword": "flow",
-      "count": 3,
+      "keyword": "accurate",
+      "count": 2,
       "rank": 35
     },
     {
-      "keyword": "discovery",
-      "count": 3,
+      "keyword": "activation steering",
+      "count": 2,
       "rank": 36
     },
     {
-      "keyword": "compression",
-      "count": 3,
+      "keyword": "adaptation",
+      "count": 2,
       "rank": 37
     },
     {
-      "keyword": "classification",
-      "count": 3,
+      "keyword": "bias",
+      "count": 2,
       "rank": 38
     },
     {
-      "keyword": "causal",
-      "count": 3,
+      "keyword": "category",
+      "count": 2,
       "rank": 39
     },
     {
-      "keyword": "attention",
-      "count": 3,
+      "keyword": "coding",
+      "count": 2,
       "rank": 40
     },
     {
-      "keyword": "world models",
+      "keyword": "comprehensive",
       "count": 2,
       "rank": 41
     },
     {
-      "keyword": "world model",
+      "keyword": "concept",
       "count": 2,
       "rank": 42
     },
     {
-      "keyword": "world",
+      "keyword": "continual learning",
       "count": 2,
       "rank": 43
     },
     {
-      "keyword": "vision",
+      "keyword": "control",
       "count": 2,
       "rank": 44
     },
     {
-      "keyword": "video",
+      "keyword": "convergence",
       "count": 2,
       "rank": 45
     },
     {
-      "keyword": "unlearnable",
+      "keyword": "cooperative multi agent reinforcement",
       "count": 2,
       "rank": 46
     },
     {
-      "keyword": "understanding",
+      "keyword": "detection",
       "count": 2,
       "rank": 47
     },
     {
-      "keyword": "topological",
+      "keyword": "direct preference optimization",
       "count": 2,
       "rank": 48
     },
     {
-      "keyword": "time series forecasting",
+      "keyword": "drift",
       "count": 2,
       "rank": 49
     },
     {
-      "keyword": "time",
+      "keyword": "entropy",
       "count": 2,
       "rank": 50
     }
