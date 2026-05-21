@@ -1,0 +1,31 @@
+version: keyword_stat_aliases_v0.1
+updated_at: "2026-05-20"
+description: >
+  Surface-form normalization used only for aggregate keyword statistics.
+  These mappings repair keyword-extractor fragments and common shorthand in
+  charts without changing the stricter serving taxonomy aliases.
+
+canonical_variants:
+  large_language_model:
+    target_topic: large_language_model
+    reason: extraction_fragment
+    aliases:
+      - large language
+      - language model
+      - language models
+      - multimodal large language
+
+  vision_language_model:
+    target_topic: vision_language_model
+    reason: extraction_fragment
+    aliases:
+      - vision language
+      - vision language models
+      - vision-language model
+      - vision-language models
+
+  diffusion_model:
+    target_topic: diffusion_model
+    reason: common_shorthand
+    aliases:
+      - diffusion

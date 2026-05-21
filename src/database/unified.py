@@ -1,11 +1,12 @@
 """Unified repository and singleton factories."""
 
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 from config import ARXIV_CATEGORIES
 from scraper.models import Paper, Venue
+from taxonomy.keyword_normalizer import get_keyword_canonicalizer
 
 from .repository import (
     AnalysisRepository,
@@ -16,11 +17,7 @@ from .repository import (
 
 
 class DatabaseRepository(BaseRepository):
-    """
-    统一数据库仓库
-
-    整合三层仓库的功能，并提供向后兼容的接口。
-    """
+    """Compatibility facade that combines raw, structured, and analysis repos."""
 
     def __init__(self, db_path: Path = None):
         super().__init__(db_path)
@@ -29,7 +26,7 @@ class DatabaseRepository(BaseRepository):
         self.analysis = AnalysisRepository(self.db_path)
 
     def save_paper(self, paper: Paper) -> bool:
-        """保存论文（兼容旧接口）"""
+        """Save a structured paper and its keywords."""
         try:
             if not paper.venue_name and getattr(paper, "venue", None):
                 paper.venue_name = paper.venue
@@ -63,11 +60,10 @@ class DatabaseRepository(BaseRepository):
 
             return True
         except Exception as exc:
-            print(f"保存论文失败: {exc}")
+            print(f"Failed to save paper: {exc}")
             return False
 
     def save_papers(self, papers: List[Paper]) -> int:
-        """批量保存论文（兼容旧接口）"""
         count = 0
         for paper in papers:
             if self.save_paper(paper):
@@ -75,7 +71,6 @@ class DatabaseRepository(BaseRepository):
         return count
 
     def get_paper(self, paper_id: int) -> Optional[Paper]:
-        """获取论文"""
         if isinstance(paper_id, str):
             if not paper_id.isdigit():
                 return None
@@ -89,18 +84,15 @@ class DatabaseRepository(BaseRepository):
         return paper
 
     def get_papers_by_venue_year(self, venue: str, year: int) -> List[Paper]:
-        """Compatibility wrapper accepting venue canonical name."""
         venue_obj = self.structured.get_venue_by_name(venue)
         if not venue_obj:
             return []
         return self.structured.get_papers_by_venue_year(venue_obj.venue_id, year)
 
     def get_all_papers(self, limit: int = None) -> List[Paper]:
-        """Return all structured papers."""
         return self.structured.get_all_papers(limit=limit)
 
     def get_paper_count(self, venue: str = None, year: int = None) -> int:
-        """获取论文数量（兼容旧接口）"""
         venue_id = None
         if venue:
             venue_obj = self.structured.get_venue_by_name(venue)
@@ -109,6 +101,82 @@ class DatabaseRepository(BaseRepository):
             venue_id = venue_obj.venue_id
         return self.structured.get_paper_count(venue_id=venue_id, year=year)
 
+    def _get_venue_id_for_query(self, venue: str = None) -> Optional[int]:
+        if not venue:
+            return None
+        venue_obj = self.structured.get_venue_by_name(venue)
+        return venue_obj.venue_id if venue_obj else -1
+
+    def _keyword_method_for_source(self, source: str = None) -> Optional[str]:
+        if source == "author":
+            return "author"
+        if source == "extracted":
+            return "extracted"
+        return None
+
+    def _keyword_paper_rows(
+        self,
+        venue_id: Optional[int] = None,
+        year: Optional[int] = None,
+        method: Optional[str] = None,
+    ) -> List[Tuple[str, int]]:
+        if venue_id == -1:
+            return []
+
+        query = """
+            SELECT pk.keyword, pk.paper_id
+            FROM paper_keywords pk
+            JOIN papers p ON pk.paper_id = p.paper_id
+            WHERE 1=1
+        """
+        params: list[Any] = []
+        if venue_id is not None:
+            query += " AND p.venue_id = ?"
+            params.append(venue_id)
+        if year:
+            query += " AND p.year = ?"
+            params.append(year)
+        if method:
+            query += " AND pk.method = ?"
+            params.append(method)
+
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, params)
+            return [(row["keyword"], row["paper_id"]) for row in cursor.fetchall()]
+
+    def _raw_keyword_count_rows(
+        self,
+        venue_id: Optional[int] = None,
+        year: Optional[int] = None,
+        method: Optional[str] = None,
+    ) -> List[Tuple[str, int]]:
+        if venue_id == -1:
+            return []
+
+        query = """
+            SELECT pk.keyword, COUNT(DISTINCT pk.paper_id) as count
+            FROM paper_keywords pk
+            JOIN papers p ON pk.paper_id = p.paper_id
+            WHERE 1=1
+        """
+        params: list[Any] = []
+        if venue_id is not None:
+            query += " AND p.venue_id = ?"
+            params.append(venue_id)
+        if year:
+            query += " AND p.year = ?"
+            params.append(year)
+        if method:
+            query += " AND pk.method = ?"
+            params.append(method)
+
+        query += " GROUP BY pk.keyword ORDER BY count DESC, pk.keyword ASC"
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, params)
+            return [(row["keyword"], row["count"]) for row in cursor.fetchall()]
+
     def get_top_keywords(
         self,
         venue: str = None,
@@ -116,26 +184,15 @@ class DatabaseRepository(BaseRepository):
         source: str = None,
         limit: int = 50,
     ) -> List[Tuple[str, int]]:
-        """获取 Top-K 关键词（兼容旧接口）"""
-        venue_id = None
-        if venue:
-            venue_obj = self.structured.get_venue_by_name(venue)
-            if not venue_obj:
-                return []
-            venue_id = venue_obj.venue_id
-
-        method = None
-        if source == "author":
-            method = "author"
-        elif source == "extracted":
-            method = "extracted"
-
-        return self.analysis.get_top_keywords(
-            venue_id=venue_id,
-            year=year,
-            method=method,
-            limit=limit,
-        )
+        """Return canonical Top-K keywords counted once per paper."""
+        venue_id = self._get_venue_id_for_query(venue)
+        method = self._keyword_method_for_source(source)
+        rows = self._keyword_paper_rows(venue_id=venue_id, year=year, method=method)
+        canonicalizer = get_keyword_canonicalizer()
+        return [
+            item.as_pair()
+            for item in canonicalizer.aggregate_paper_keyword_rows(rows, limit=limit)
+        ]
 
     def get_total_keyword_count(
         self,
@@ -143,42 +200,44 @@ class DatabaseRepository(BaseRepository):
         year: int = None,
         source: str = None,
     ) -> int:
-        """获取去重后的关键词总数。"""
-        venue_id = None
-        if venue:
-            venue_obj = self.structured.get_venue_by_name(venue)
-            if not venue_obj:
-                return 0
-            venue_id = venue_obj.venue_id
-
-        method = None
-        if source == "author":
-            method = "author"
-        elif source == "extracted":
-            method = "extracted"
-
-        return self.analysis.get_total_keyword_count(
-            venue_id=venue_id,
-            year=year,
-            method=method,
-        )
+        """Return the canonical distinct keyword count for the requested scope."""
+        venue_id = self._get_venue_id_for_query(venue)
+        method = self._keyword_method_for_source(source)
+        rows = self._keyword_paper_rows(venue_id=venue_id, year=year, method=method)
+        return len(get_keyword_canonicalizer().aggregate_paper_keyword_rows(rows))
 
     def get_keyword_trend(self, keyword: str, venue: str = None) -> Dict[int, int]:
-        """获取关键词趋势（兼容旧接口）"""
-        venue_id = None
-        if venue:
-            venue_obj = self.structured.get_venue_by_name(venue)
-            if not venue_obj:
-                return {}
-            venue_id = venue_obj.venue_id
-        return self.analysis.get_keyword_trend(keyword, venue_id)
+        """Return a canonical keyword trend counted once per paper/year."""
+        venue_id = self._get_venue_id_for_query(venue)
+        if venue_id == -1:
+            return {}
+
+        surface_forms = get_keyword_canonicalizer().equivalent_surface_forms(keyword)
+        if not surface_forms:
+            return {}
+
+        placeholders = ",".join("?" for _ in surface_forms)
+        query = f"""
+            SELECT p.year, COUNT(DISTINCT pk.paper_id) as count
+            FROM paper_keywords pk
+            JOIN papers p ON pk.paper_id = p.paper_id
+            WHERE LOWER(pk.keyword) IN ({placeholders})
+        """
+        params: list[Any] = [form.lower() for form in surface_forms]
+        if venue_id is not None:
+            query += " AND p.venue_id = ?"
+            params.append(venue_id)
+        query += " GROUP BY p.year ORDER BY p.year"
+
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(query, params)
+            return {row["year"]: row["count"] for row in cursor.fetchall()}
 
     def get_all_venues(self) -> List[str]:
-        """获取所有会议名称（兼容旧接口）"""
         return [venue.canonical_name for venue in self.structured.get_all_venues()]
 
     def get_all_years(self, venue: str = None) -> List[int]:
-        """获取所有年份（兼容旧接口）"""
         with self._get_connection() as conn:
             cursor = conn.cursor()
             if venue:
@@ -195,11 +254,10 @@ class DatabaseRepository(BaseRepository):
             return [row["year"] for row in cursor.fetchall()]
 
     def get_venue_comparison(self, year: int, limit: int = 10) -> Dict[str, List[Tuple[str, int]]]:
-        """获取会议对比（兼容旧接口）"""
         result = {}
         for venue in self.structured.get_all_venues():
-            keywords = self.analysis.get_top_keywords(
-                venue_id=venue.venue_id,
+            keywords = self.get_top_keywords(
+                venue=venue.canonical_name,
                 year=year,
                 limit=limit,
             )
@@ -207,16 +265,62 @@ class DatabaseRepository(BaseRepository):
                 result[venue.canonical_name] = keywords
         return result
 
+    def get_keyword_normalization_audit(
+        self,
+        venue: str = None,
+        year: int = None,
+        source: str = None,
+        limit: int = 25,
+    ) -> Dict[str, Any]:
+        """Return raw-vs-canonical keyword evidence for QA artifacts."""
+        venue_id = self._get_venue_id_for_query(venue)
+        method = self._keyword_method_for_source(source)
+        raw_rows = self._raw_keyword_count_rows(venue_id=venue_id, year=year, method=method)
+        paper_rows = self._keyword_paper_rows(venue_id=venue_id, year=year, method=method)
+        canonicalizer = get_keyword_canonicalizer()
+        canonical_rows = canonicalizer.aggregate_paper_keyword_rows(paper_rows)
+
+        noise_total = 0
+        noise_examples = []
+        for keyword, count in raw_rows:
+            if canonicalizer.normalize(keyword) is None:
+                noise_total += count
+                if len(noise_examples) < limit:
+                    noise_examples.append({"keyword": keyword, "count": count})
+
+        merged_groups = [
+            item.as_dict(include_variants=True)
+            for item in canonical_rows
+            if len(item.variants) > 1
+        ][:limit]
+
+        return {
+            "scope": {"venue": venue, "year": year, "source": source},
+            "counting_rule": "canonical_keyword_counted_once_per_paper",
+            "raw_top_keywords": [
+                {"keyword": keyword, "count": count}
+                for keyword, count in raw_rows[:limit]
+            ],
+            "canonical_top_keywords": [
+                item.as_dict(include_variants=True)
+                for item in canonical_rows[:limit]
+            ],
+            "merged_groups": merged_groups,
+            "filtered_noise": {
+                "row_count": noise_total,
+                "examples": noise_examples,
+            },
+            "raw_distinct_keywords": len(raw_rows),
+            "canonical_distinct_keywords": len(canonical_rows),
+        }
+
     def save_paper_topic(self, **kwargs) -> int:
-        """Persist one canonical paper-topic match."""
         return self.analysis.save_paper_topic(**kwargs)
 
     def save_paper_topics(self, matches: List[Dict]) -> List[int]:
-        """Persist multiple paper-topic matches."""
         return self.analysis.save_paper_topics(matches)
 
     def get_paper_topics(self, paper_id: int, taxonomy_version: str = None) -> List[Dict]:
-        """Return persisted topic facts for one paper."""
         return self.analysis.get_paper_topics(
             paper_id=paper_id,
             taxonomy_version=taxonomy_version,
@@ -231,7 +335,6 @@ class DatabaseRepository(BaseRepository):
         offset: int = 0,
         taxonomy_version: str = None,
     ) -> List[Dict]:
-        """Return structured papers with persisted facts for a topic."""
         return self.analysis.get_papers_by_topic(
             topic_id=topic_id,
             venue=venue,
@@ -248,7 +351,6 @@ class DatabaseRepository(BaseRepository):
         year: int = None,
         taxonomy_version: str = None,
     ) -> List[Dict]:
-        """Return persisted topic counts grouped by venue/year."""
         return self.analysis.get_topic_counts_by_venue_year(
             topic_id=topic_id,
             venue=venue,
@@ -261,14 +363,12 @@ class DatabaseRepository(BaseRepository):
         taxonomy_version: str = None,
         topic_id: str = None,
     ) -> int:
-        """Return count of persisted paper-topic facts."""
         return self.analysis.get_paper_topic_count(
             taxonomy_version=taxonomy_version,
             topic_id=topic_id,
         )
 
     def clear_paper_topics_for_taxonomy_version(self, taxonomy_version: str) -> int:
-        """Delete persisted topic facts for one taxonomy version."""
         return self.analysis.clear_paper_topics_for_taxonomy_version(taxonomy_version)
 
     def rebuild_paper_topics(
@@ -277,7 +377,6 @@ class DatabaseRepository(BaseRepository):
         limit: int = None,
         include_children: bool = False,
     ) -> Dict[str, Any]:
-        """Rebuild paper_topics from structured papers and taxonomy."""
         from services.topic_facts import rebuild_paper_topics
 
         return rebuild_paper_topics(
@@ -288,7 +387,6 @@ class DatabaseRepository(BaseRepository):
         )
 
     def get_arxiv_stats(self, categories: Optional[List[str]] = None) -> Dict[str, Any]:
-        """Return aggregated arXiv stats for API and static export."""
         category_list = categories or ARXIV_CATEGORIES
         category_counts = {}
 
@@ -325,7 +423,6 @@ class DatabaseRepository(BaseRepository):
         }
 
     def log_scrape(self, venue: str, year: int, paper_count: int):
-        """记录爬取日志"""
         with self._get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute(
@@ -338,7 +435,6 @@ class DatabaseRepository(BaseRepository):
             conn.commit()
 
     def get_last_scrape(self, venue: str, year: int) -> Optional[datetime]:
-        """获取上次爬取时间"""
         with self._get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute(
@@ -355,15 +451,10 @@ class DatabaseRepository(BaseRepository):
             return None
 
     def should_scrape(self, venue: str, year: int, max_age_days: int = 7) -> bool:
-        """检查是否需要爬取"""
-        from datetime import timedelta
-
         last_scrape = self.get_last_scrape(venue, year)
         if last_scrape is None:
             return True
-
-        age = datetime.now() - last_scrape
-        return age > timedelta(days=max_age_days)
+        return datetime.now() - last_scrape > timedelta(days=max_age_days)
 
 
 _repository: Optional[DatabaseRepository] = None
@@ -373,7 +464,6 @@ _analysis_repository: Optional[AnalysisRepository] = None
 
 
 def get_repository(db_path: Path = None) -> DatabaseRepository:
-    """获取统一数据库仓库（单例）"""
     global _repository
     if _repository is None:
         _repository = DatabaseRepository(db_path)
@@ -381,7 +471,6 @@ def get_repository(db_path: Path = None) -> DatabaseRepository:
 
 
 def get_raw_repository(db_path: Path = None) -> RawRepository:
-    """获取原始数据层仓库"""
     global _raw_repository
     if _raw_repository is None:
         _raw_repository = RawRepository(db_path)
@@ -389,7 +478,6 @@ def get_raw_repository(db_path: Path = None) -> RawRepository:
 
 
 def get_structured_repository(db_path: Path = None) -> StructuredRepository:
-    """获取结构化数据层仓库"""
     global _structured_repository
     if _structured_repository is None:
         _structured_repository = StructuredRepository(db_path)
@@ -397,7 +485,6 @@ def get_structured_repository(db_path: Path = None) -> StructuredRepository:
 
 
 def get_analysis_repository(db_path: Path = None) -> AnalysisRepository:
-    """获取分析层仓库"""
     global _analysis_repository
     if _analysis_repository is None:
         _analysis_repository = AnalysisRepository(db_path)
