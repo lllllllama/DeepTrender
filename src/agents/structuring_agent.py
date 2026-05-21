@@ -40,19 +40,40 @@ VENUE_PATTERNS = {
     "CVPR": [r"\bCVPR\b", r"Computer Vision and Pattern Recognition"],
     "ICCV": [r"\bICCV\b", r"International Conference on Computer Vision"],
     "ECCV": [r"\bECCV\b", r"European Conference on Computer Vision"],
+    "WACV": [r"\bWACV\b", r"Winter Conference on Applications of Computer Vision"],
+    "ACM MM": [r"\bACM MM\b", r"\bACM Multimedia\b", r"International Conference on Multimedia"],
     
     # NLP 顶会
     "ACL": [r"\bACL\s*20\d{2}\b", r"Annual Meeting of the Association for Computational Linguistics"],
     "EMNLP": [r"\bEMNLP\b", r"Empirical Methods in Natural Language Processing"],
     "NAACL": [r"\bNAACL\b", r"North American.*ACL"],
+    "COLING": [r"\bCOLING\b", r"Computational Linguistics"],
+    "EACL": [r"\bEACL\b", r"European Chapter.*Association for Computational Linguistics"],
     
     # AI 综合
     "AAAI": [r"\bAAAI\b", r"AAAI Conference on Artificial Intelligence"],
     "IJCAI": [r"\bIJCAI\b", r"International Joint Conference on Artificial Intelligence"],
+    "UAI": [r"\bUAI\b", r"Uncertainty in Artificial Intelligence"],
+    "COLT": [r"\bCOLT\b", r"Conference on Learning Theory"],
+    "KDD": [r"\bKDD\b", r"Knowledge Discovery and Data Mining"],
+    "SIGIR": [r"\bSIGIR\b", r"Research and Development in Information Retrieval"],
+    "WWW": [r"\bWWW\b", r"\bThe Web Conference\b", r"World Wide Web Conference"],
+    "WSDM": [r"\bWSDM\b", r"Web Search and Data Mining"],
+    "CIKM": [r"\bCIKM\b", r"Information and Knowledge Management"],
+    "ICDM": [r"\bICDM\b", r"International Conference on Data Mining"],
+    "SIGMOD": [r"\bSIGMOD\b", r"Management of Data", r"Proceedings of the ACM on Management of Data"],
+    "VLDB": [r"\bVLDB\b", r"Very Large Data Bases", r"VLDB Endowment"],
+    "ICDE": [r"\bICDE\b", r"International Conference on Data Engineering"],
     
     # 其他
     "CoRL": [r"\bCoRL\b", r"Conference on Robot Learning"],
     "AISTATS": [r"\bAISTATS\b", r"Artificial Intelligence and Statistics"],
+    "ICSE": [r"\bICSE\b", r"International Conference on Software Engineering"],
+    "FSE": [r"\bFSE\b", r"Foundations of Software Engineering"],
+    "CHI": [r"\bCHI\b", r"Human Factors in Computing Systems"],
+    "UIST": [r"\bUIST\b", r"User Interface Software and Technology"],
+    "ICRA": [r"\bICRA\b", r"International Conference on Robotics and Automation"],
+    "IROS": [r"\bIROS\b", r"Intelligent Robots and Systems"],
 }
 
 # 领域分类

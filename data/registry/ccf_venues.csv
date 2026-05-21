@@ -19,3 +19,18 @@ ICDE,IEEE International Conference on Data Engineering,DB,A,s2,,ICDE,ICDE,icde
 CoRL,Conference on Robot Learning,RL,B,openreview,CoRL/.*,CoRL,CoRL,corl
 AISTATS,International Conference on Artificial Intelligence and Statistics,ML,B,openreview,AISTATS/.*,AISTATS,AISTATS,aistats
 UAI,Conference on Uncertainty in Artificial Intelligence,ML,B,s2,,UAI,UAI,uai
+COLM,Conference on Language Modeling,NLP,B,openreview,COLM.cc/.*,COLM,COLM,colm
+WACV,IEEE/CVF Winter Conference on Applications of Computer Vision,CV,B,s2,,WACV,WACV,wacv
+ACM MM,ACM International Conference on Multimedia,CV,A,s2,,ACM Multimedia,ACM Multimedia,"acm mm,mm,acm multimedia"
+COLING,International Conference on Computational Linguistics,NLP,B,s2,,COLING,COLING,coling
+EACL,European Chapter of the Association for Computational Linguistics,NLP,B,s2,,EACL,EACL,eacl
+WSDM,ACM International Conference on Web Search and Data Mining,Web,B,s2,,WSDM,WSDM,wsdm
+CIKM,ACM International Conference on Information and Knowledge Management,IR,B,s2,,CIKM,CIKM,cikm
+ICDM,IEEE International Conference on Data Mining,DM,B,s2,,ICDM,ICDM,icdm
+COLT,Conference on Learning Theory,ML,B,s2,,COLT,COLT,colt
+ICSE,International Conference on Software Engineering,SE,A,s2,,ICSE,ICSE,icse
+FSE,ACM International Conference on the Foundations of Software Engineering,SE,A,s2,,FSE,FSE,"fse,esec-fse"
+CHI,ACM CHI Conference on Human Factors in Computing Systems,HCI,A,s2,,CHI,CHI,chi
+UIST,ACM Symposium on User Interface Software and Technology,HCI,A,s2,,UIST,UIST,uist
+ICRA,IEEE International Conference on Robotics and Automation,RL,B,s2,,ICRA,ICRA,icra
+IROS,IEEE/RSJ International Conference on Intelligent Robots and Systems,RL,B,s2,,IROS,IROS,iros

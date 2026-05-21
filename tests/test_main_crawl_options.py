@@ -15,8 +15,10 @@ def test_full_crawl_expands_bootstrap_defaults():
     assert options["arxiv_days"] == FULL_CRAWL_ARXIV_DAYS
     assert options["arxiv_max_results"] == FULL_CRAWL_ARXIV_MAX_RESULTS
     assert options["limit"] == FULL_CRAWL_PROCESSING_LIMIT
-    assert {"ICLR", "NeurIPS", "CVPR", "ACL"}.issubset(set(options["venues"]))
-    assert {2021, 2022, 2023, 2024, 2025}.issubset(set(options["years"]))
+    assert {"ICLR", "NeurIPS", "CVPR", "ACL", "KDD", "SIGMOD", "ICSE"}.issubset(
+        set(options["venues"])
+    )
+    assert {2020, 2021, 2022, 2023, 2024, 2025}.issubset(set(options["years"]))
 
 
 def test_full_crawl_preserves_explicit_scope_but_raises_caps():

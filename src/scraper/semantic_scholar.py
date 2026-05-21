@@ -38,6 +38,11 @@ class SemanticScholarConfig:
     years: List[int]
 
 
+RECENT_ANNUAL_YEARS = [2025, 2024, 2023, 2022, 2021, 2020]
+RECENT_ODD_CV_YEARS = [2025, 2023, 2021]
+RECENT_EVEN_CV_YEARS = [2024, 2022, 2020]
+
+
 # 支持的会议（通过 Semantic Scholar）
 S2_VENUES: Dict[str, SemanticScholarConfig] = {
     # ========== 计算机视觉会议 ==========
@@ -45,19 +50,19 @@ S2_VENUES: Dict[str, SemanticScholarConfig] = {
         name="CVPR",
         full_name="IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         venue_query="CVPR",
-        years=[2024, 2023, 2022, 2021]
+        years=RECENT_ANNUAL_YEARS,
     ),
     "ICCV": SemanticScholarConfig(
         name="ICCV",
         full_name="IEEE/CVF International Conference on Computer Vision",
         venue_query="ICCV",
-        years=[2023, 2021]  # 每两年一次
+        years=RECENT_ODD_CV_YEARS,
     ),
     "ECCV": SemanticScholarConfig(
         name="ECCV",
         full_name="European Conference on Computer Vision",
         venue_query="ECCV",
-        years=[2024, 2022]  # 每两年一次
+        years=RECENT_EVEN_CV_YEARS,
     ),
 
     # ========== 自然语言处理会议 ==========
@@ -65,13 +70,13 @@ S2_VENUES: Dict[str, SemanticScholarConfig] = {
         name="ACL",
         full_name="Annual Meeting of the Association for Computational Linguistics",
         venue_query="ACL",
-        years=[2024, 2023, 2022]
+        years=RECENT_ANNUAL_YEARS,
     ),
     "NAACL": SemanticScholarConfig(
         name="NAACL",
         full_name="North American Chapter of the ACL",
         venue_query="NAACL",
-        years=[2024, 2022]
+        years=[2025, 2024, 2022, 2021],
     ),
 
     # ========== 人工智能综合会议 ==========
@@ -79,14 +84,35 @@ S2_VENUES: Dict[str, SemanticScholarConfig] = {
         name="AAAI",
         full_name="AAAI Conference on Artificial Intelligence",
         venue_query="AAAI",
-        years=[2024, 2023, 2022]
+        years=RECENT_ANNUAL_YEARS,
     ),
     "IJCAI": SemanticScholarConfig(
         name="IJCAI",
         full_name="International Joint Conference on Artificial Intelligence",
         venue_query="IJCAI",
-        years=[2024, 2023, 2022]
+        years=RECENT_ANNUAL_YEARS,
     ),
+    "WACV": SemanticScholarConfig("WACV", "IEEE/CVF Winter Conference on Applications of Computer Vision", "WACV", RECENT_ANNUAL_YEARS),
+    "ACM MM": SemanticScholarConfig("ACM MM", "ACM International Conference on Multimedia", "ACM Multimedia", RECENT_ANNUAL_YEARS),
+    "COLING": SemanticScholarConfig("COLING", "International Conference on Computational Linguistics", "COLING", [2025, 2024, 2022, 2020]),
+    "EACL": SemanticScholarConfig("EACL", "European Chapter of the Association for Computational Linguistics", "EACL", [2024, 2023, 2021]),
+    "UAI": SemanticScholarConfig("UAI", "Conference on Uncertainty in Artificial Intelligence", "UAI", RECENT_ANNUAL_YEARS),
+    "COLT": SemanticScholarConfig("COLT", "Conference on Learning Theory", "COLT", RECENT_ANNUAL_YEARS),
+    "KDD": SemanticScholarConfig("KDD", "ACM SIGKDD Conference on Knowledge Discovery and Data Mining", "KDD", RECENT_ANNUAL_YEARS),
+    "SIGIR": SemanticScholarConfig("SIGIR", "International ACM SIGIR Conference on Research and Development in Information Retrieval", "SIGIR", RECENT_ANNUAL_YEARS),
+    "WWW": SemanticScholarConfig("WWW", "The Web Conference", "WWW", RECENT_ANNUAL_YEARS),
+    "WSDM": SemanticScholarConfig("WSDM", "ACM International Conference on Web Search and Data Mining", "WSDM", RECENT_ANNUAL_YEARS),
+    "CIKM": SemanticScholarConfig("CIKM", "ACM International Conference on Information and Knowledge Management", "CIKM", RECENT_ANNUAL_YEARS),
+    "ICDM": SemanticScholarConfig("ICDM", "IEEE International Conference on Data Mining", "ICDM", RECENT_ANNUAL_YEARS),
+    "SIGMOD": SemanticScholarConfig("SIGMOD", "ACM SIGMOD International Conference on Management of Data", "Proceedings of the ACM on Management of Data", RECENT_ANNUAL_YEARS),
+    "VLDB": SemanticScholarConfig("VLDB", "International Conference on Very Large Data Bases", "Proceedings of the VLDB Endowment", RECENT_ANNUAL_YEARS),
+    "ICDE": SemanticScholarConfig("ICDE", "IEEE International Conference on Data Engineering", "ICDE", RECENT_ANNUAL_YEARS),
+    "ICSE": SemanticScholarConfig("ICSE", "International Conference on Software Engineering", "ICSE", RECENT_ANNUAL_YEARS),
+    "FSE": SemanticScholarConfig("FSE", "ACM International Conference on the Foundations of Software Engineering", "FSE", RECENT_ANNUAL_YEARS),
+    "CHI": SemanticScholarConfig("CHI", "ACM CHI Conference on Human Factors in Computing Systems", "CHI", RECENT_ANNUAL_YEARS),
+    "UIST": SemanticScholarConfig("UIST", "ACM Symposium on User Interface Software and Technology", "UIST", RECENT_ANNUAL_YEARS),
+    "ICRA": SemanticScholarConfig("ICRA", "IEEE International Conference on Robotics and Automation", "ICRA", RECENT_ANNUAL_YEARS),
+    "IROS": SemanticScholarConfig("IROS", "IEEE/RSJ International Conference on Intelligent Robots and Systems", "IROS", RECENT_ANNUAL_YEARS),
 }
 
 
@@ -107,7 +133,36 @@ class SemanticScholarClient:
             self.session.headers["x-api-key"] = api_key
 
         # 速率限制：无 key 时 100 req/5min
-        self.request_delay = 0.5
+        # Semantic Scholar's unauthenticated limit is low; stay below
+        # 100 requests per 5 minutes and explicitly back off on 429.
+        self.request_delay = 1.0 if api_key else 3.2
+
+    def _get_with_retries(self, url: str, params: Dict[str, Any]) -> Optional[requests.Response]:
+        for attempt in range(4):
+            try:
+                response = self.session.get(url, params=params, timeout=self.timeout)
+                if response.status_code == 429:
+                    retry_after = response.headers.get("Retry-After")
+                    try:
+                        wait_seconds = float(retry_after) if retry_after else 0.0
+                    except ValueError:
+                        wait_seconds = 0.0
+                    wait_seconds = max(wait_seconds, self.request_delay * (attempt + 1))
+                    logger.warning(
+                        "Semantic Scholar rate limited; sleeping %.1fs before retry %s/4",
+                        wait_seconds,
+                        attempt + 1,
+                    )
+                    time.sleep(wait_seconds)
+                    continue
+                response.raise_for_status()
+                return response
+            except requests.RequestException:
+                if attempt == 3:
+                    logger.exception("Semantic Scholar API request failed: %s", url)
+                    return None
+                time.sleep(self.request_delay * (attempt + 1))
+        return None
 
     def search_papers(
         self,
@@ -142,8 +197,9 @@ class SemanticScholarClient:
                 params["token"] = token
 
             try:
-                response = self.session.get(S2_SEARCH_URL, params=params, timeout=self.timeout)
-                response.raise_for_status()
+                response = self._get_with_retries(S2_SEARCH_URL, params=params)
+                if response is None:
+                    break
                 data = response.json()
 
                 batch = data.get("data", [])
@@ -174,8 +230,9 @@ class SemanticScholarClient:
         try:
             url = f"{S2_PAPER_URL}/{paper_id}"
             params = {"fields": ",".join(S2_FIELDS)}
-            response = self.session.get(url, params=params, timeout=self.timeout)
-            response.raise_for_status()
+            response = self._get_with_retries(url, params=params)
+            if response is None:
+                return None
             return response.json()
         except requests.RequestException:
             logger.exception("Failed to fetch Semantic Scholar paper %s", paper_id)

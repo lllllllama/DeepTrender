@@ -200,15 +200,18 @@ class IngestionAgent:
     ) -> int:
         """按会议采集 Semantic Scholar 论文"""
         client = self._get_s2_client()
+        config = S2_VENUES.get(venue_name)
+        canonical_venue = config.name if config else venue_name
+        venue_query = config.venue_query if config else venue_name
 
-        print(f"\n📥 [Ingestion] 正在从 Semantic Scholar 采集 {venue_name} {year}...")
+        print(f"\n📥 [Ingestion] 正在从 Semantic Scholar 采集 {canonical_venue} {year}...")
 
-        raw_papers = client.search_papers(venue_name, year, max_results)
+        raw_papers = client.search_papers(venue_query, year, max_results)
 
         saved_count = 0
         for data in raw_papers:
             try:
-                paper = self._parse_s2_to_raw(data, venue_name, year)
+                paper = self._parse_s2_to_raw(data, canonical_venue, year)
                 if paper:
                     self.repo.save_raw_paper(paper)
                     saved_count += 1
@@ -216,11 +219,11 @@ class IngestionAgent:
                 logger.exception(
                     "Failed to parse or save Semantic Scholar paper %s for %s %s",
                     data.get("paperId", "<unknown>") if isinstance(data, dict) else "<unknown>",
-                    venue_name,
+                    canonical_venue,
                     year,
                 )
 
-        print(f"✅ Semantic Scholar {venue_name} {year}: 已保存 {saved_count} 篇")
+        print(f"✅ Semantic Scholar {canonical_venue} {year}: 已保存 {saved_count} 篇")
         return saved_count
 
     def _parse_s2_to_raw(self, data: Dict, venue: str, year: int) -> Optional[RawPaper]:
