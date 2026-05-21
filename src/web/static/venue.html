@@ -129,9 +129,21 @@
             const detail = await API.getVenueDetail(venue);
             document.getElementById("venue-paper-count").textContent = detail.total_papers.toLocaleString();
             document.getElementById("venue-year-count").textContent = detail.years.length;
-            Charts.renderWordcloud("chart-venue-wordcloud", await API.getWordcloudData(venue, null, 100));
+            if (!detail.total_papers || detail.yearly_stats.length === 0) {
+                Charts.showEmpty("chart-venue-wordcloud", "No keyword data available for this venue yet.");
+                Charts.showEmpty("chart-yearly-papers", "No yearly paper data available.");
+                Charts.showEmpty("chart-keyword-evolution", "No trend data available.");
+                renderYearlyTable([]);
+                return;
+            }
+
+            const [wordcloudData, trends] = await Promise.all([
+                API.getWordcloudData(venue, null, 100),
+                API.getKeywordTrends([], venue),
+            ]);
+            Charts.renderWordcloud("chart-venue-wordcloud", wordcloudData);
             renderYearlyPapers(detail.yearly_stats);
-            Charts.renderTrendChart("chart-keyword-evolution", await API.getKeywordTrends([], venue));
+            Charts.renderTrendChart("chart-keyword-evolution", trends);
             renderYearlyTable(detail.yearly_stats);
         }
 
@@ -171,6 +183,12 @@
             const header = document.getElementById("table-header");
             const body = document.getElementById("table-body");
             const sorted = [...yearlyStats].sort((a, b) => b.year - a.year);
+
+            if (sorted.length === 0) {
+                header.innerHTML = "";
+                body.innerHTML = `<tr><td>${SiteI18n.t("venue.noData", "No data available")}</td></tr>`;
+                return;
+            }
 
             header.innerHTML = `<th>${SiteI18n.t("venue.rank", "Rank")}</th>` + sorted.map((item) => `<th>${item.year}</th>`).join("");
 

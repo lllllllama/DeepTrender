@@ -225,7 +225,7 @@ async function loadVenueCards() {
 
     try {
         const venues = await API.getVenues();
-        container.innerHTML = venues.map((venue) => `
+        const html = venues.map((venue) => `
             <div class="venue-card" onclick="goToVenue('${encodeRouteParam(venue.name)}')">
                 <div class="venue-card-header">
                     <span class="venue-name">${escapeHtml(venue.name)}</span>
@@ -235,13 +235,16 @@ async function loadVenueCards() {
                     ${
                         venue.top_keywords && venue.top_keywords.length > 0
                             ? venue.top_keywords.slice(0, 5).map((item) => `<span class="keyword-tag">${escapeHtml(item.keyword)}</span>`).join("")
-                            : '<span class="keyword-tag">Keywords on view</span>'
+                            : '<span class="keyword-tag muted">No keyword data</span>'
                     }
                 </div>
             </div>
         `).join("");
 
-        setupVenueKeywordObserver();
+        window.requestAnimationFrame(() => {
+            container.innerHTML = html;
+            setupVenueKeywordObserver();
+        });
     } catch (error) {
         console.error("Failed to load venue cards", error);
     }
@@ -261,7 +264,7 @@ async function loadVenueKeywords(venueName) {
 
 function setupVenueKeywordObserver() {
     const nodes = Array.from(document.querySelectorAll(".venue-keywords[data-venue]"))
-        .filter((node) => node.textContent.includes("Keywords on view"));
+        .filter((node) => node.textContent.includes("No keyword data"));
     if (!nodes.length) {
         return;
     }
