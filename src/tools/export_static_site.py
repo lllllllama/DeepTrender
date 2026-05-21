@@ -11,7 +11,7 @@ import argparse
 import csv
 from pathlib import Path
 from datetime import datetime
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 from collections import defaultdict
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -23,6 +23,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from database import DatabaseRepository, get_repository
 from config import VENUES, ROOT_DIR
+from taxonomy.keyword_normalizer import get_keyword_canonicalizer
 
 
 class StaticSiteExporter:
@@ -48,6 +49,7 @@ class StaticSiteExporter:
 
         self.repo = repository or get_repository()
         self.registry_metadata = self._load_venue_registry_metadata()
+        self._keyword_cache = None
         self.stats = {
             "venues_exported": 0,
             "venues_with_data": 0,
@@ -57,12 +59,9 @@ class StaticSiteExporter:
         }
 
     def _clear_generated_venue_data(self) -> None:
-        for path in self.venues_data_dir.glob("venue_*_*.json"):
-            path.unlink()
-        for filename in ("global_keyword_trends.json", "global_emerging_keywords.json"):
-            path = self.venues_data_dir / filename
-            if path.exists():
-                path.unlink()
+        # Active export files are overwritten below. Avoid unlinking existing
+        # artifacts so restricted Windows environments can regenerate docs.
+        return
 
     def _load_venue_registry_metadata(self) -> Dict[str, Dict[str, Any]]:
         metadata = {
@@ -120,7 +119,7 @@ class StaticSiteExporter:
         venue_obj = self.repo.structured.get_venue_by_name(venue_name)
         years = self.repo.get_all_years(venue=venue_name)
         paper_count = self.repo.get_paper_count(venue=venue_name)
-        top_kw = self.repo.get_top_keywords(venue=venue_name, limit=10)
+        top_kw = self._top_cached_keywords(venue=venue_name, limit=10)
         top_keywords = [{"keyword": kw, "count": c} for kw, c in top_kw]
 
         return {
@@ -147,6 +146,90 @@ class StaticSiteExporter:
             venues_data.append(self.build_venue_index_entry(venue_name))
         return venues_data
 
+    def _get_keyword_cache(self) -> Dict[str, Any]:
+        if self._keyword_cache is not None:
+            return self._keyword_cache
+
+        cache = {
+            "labels": {},
+            "topics": {},
+            "global": defaultdict(set),
+            "global_year": defaultdict(lambda: defaultdict(set)),
+            "venue": defaultdict(lambda: defaultdict(set)),
+            "venue_year": defaultdict(lambda: defaultdict(set)),
+        }
+        canonicalizer = get_keyword_canonicalizer()
+
+        with self.repo._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                """
+                SELECT v.canonical_name AS venue, p.year, pk.keyword, pk.paper_id
+                FROM paper_keywords pk
+                JOIN papers p ON pk.paper_id = p.paper_id
+                LEFT JOIN venues v ON p.venue_id = v.venue_id
+                """
+            )
+
+            for row in cursor.fetchall():
+                venue = row["venue"]
+                year = row["year"]
+                paper_id = row["paper_id"]
+                normalized = canonicalizer.normalize(row["keyword"])
+                if not normalized or paper_id is None:
+                    continue
+
+                key = normalized.canonical_key
+                cache["labels"][key] = normalized.canonical_keyword
+                cache["topics"][key] = normalized.topic_id
+                cache["global"][key].add(paper_id)
+                if year is not None:
+                    cache["global_year"][int(year)][key].add(paper_id)
+                if venue:
+                    cache["venue"][venue][key].add(paper_id)
+                    if year is not None:
+                        cache["venue_year"][(venue, int(year))][key].add(paper_id)
+
+        self._keyword_cache = cache
+        return cache
+
+    def _top_cached_keyword_keys(
+        self,
+        venue: Optional[str] = None,
+        year: Optional[int] = None,
+        limit: int = 50,
+    ) -> List[tuple[str, str, int]]:
+        cache = self._get_keyword_cache()
+        if venue and year:
+            group = cache["venue_year"].get((venue, int(year)), {})
+        elif venue:
+            group = cache["venue"].get(venue, {})
+        elif year:
+            group = cache["global_year"].get(int(year), {})
+        else:
+            group = cache["global"]
+
+        rows = [
+            (key, cache["labels"].get(key, key.replace("_", " ")), len(paper_ids))
+            for key, paper_ids in group.items()
+        ]
+        return sorted(rows, key=lambda item: (-item[2], item[1]))[:limit]
+
+    def _top_cached_keywords(
+        self,
+        venue: Optional[str] = None,
+        year: Optional[int] = None,
+        limit: int = 50,
+    ) -> List[Tuple[str, int]]:
+        return [
+            (label, count)
+            for _, label, count in self._top_cached_keyword_keys(
+                venue=venue,
+                year=year,
+                limit=limit,
+            )
+        ]
+
     def export_venues_index(self, venues_data: Optional[List[Dict[str, Any]]] = None) -> int:
         venues_data = venues_data if venues_data is not None else self.collect_venue_index_data()
 
@@ -164,7 +247,7 @@ class StaticSiteExporter:
         years = self.repo.get_all_years(venue=venue_name)
         yearly_data = {}
         for year in sorted(years):
-            top_keywords = self.repo.get_top_keywords(venue=venue_name, year=year, limit=top_n)
+            top_keywords = self._top_cached_keywords(venue=venue_name, year=year, limit=top_n)
             yearly_data[str(year)] = [
                 {"keyword": kw, "count": count, "rank": rank + 1}
                 for rank, (kw, count) in enumerate(top_keywords)
@@ -186,15 +269,16 @@ class StaticSiteExporter:
         keyword_yearly_ranks = defaultdict(dict)
 
         for year in sorted(years):
-            top_keywords = self.repo.get_top_keywords(venue=venue_name, year=year, limit=100)
-            for rank, (kw, count) in enumerate(top_keywords, start=1):
-                keyword_yearly_counts[kw][year] = count
-                keyword_yearly_ranks[kw][year] = rank
+            top_keywords = self._top_cached_keyword_keys(venue=venue_name, year=year, limit=100)
+            for rank, (key, _label, count) in enumerate(top_keywords, start=1):
+                keyword_yearly_counts[key][year] = count
+                keyword_yearly_ranks[key][year] = rank
 
         keyword_totals = {kw: sum(counts.values()) for kw, counts in keyword_yearly_counts.items()}
         top_keywords = sorted(keyword_totals.keys(), key=lambda k: keyword_totals[k], reverse=True)[:max_keywords]
 
         trends_data = {}
+        labels = self._get_keyword_cache()["labels"]
         for kw in top_keywords:
             yearly_points = []
             for year in sorted(years):
@@ -205,7 +289,7 @@ class StaticSiteExporter:
                         "rank": keyword_yearly_ranks[kw].get(year, 0),
                     }
                 )
-            trends_data[kw] = yearly_points
+            trends_data[labels.get(kw, kw.replace("_", " "))] = yearly_points
 
         output_file = self.venues_data_dir / f"venue_{venue_name}_keyword_trends.json"
         with open(output_file, "w", encoding="utf-8") as f:
@@ -218,7 +302,7 @@ class StaticSiteExporter:
         if not self.is_known_venue_name(venue_name):
             return False
 
-        top_keywords = self.repo.get_top_keywords(venue=venue_name, limit=self.top_keywords)
+        top_keywords = self._top_cached_keywords(venue=venue_name, limit=self.top_keywords)
 
         output_file = self.venues_data_dir / f"venue_{venue_name}_keywords_index.json"
         with open(output_file, "w", encoding="utf-8") as f:
@@ -228,39 +312,21 @@ class StaticSiteExporter:
         return True
 
     def export_global_keyword_trends(self, venue_names: List[str], max_keywords: int = 50) -> bool:
-        keyword_yearly_counts = defaultdict(lambda: defaultdict(int))
-
-        for venue_name in venue_names:
-            input_file = self.venues_data_dir / f"venue_{venue_name}_keyword_trends.json"
-            if not input_file.exists():
-                continue
-            with open(input_file, "r", encoding="utf-8") as f:
-                trends = json.load(f)
-
-            for keyword, points in trends.items():
-                for point in points:
-                    year = int(point["year"])
-                    keyword_yearly_counts[keyword][year] += int(point.get("count", 0) or 0)
-
-        if not keyword_yearly_counts:
+        cache = self._get_keyword_cache()
+        if not cache["global"]:
             return False
 
-        all_years = sorted({
-            year
-            for yearly_counts in keyword_yearly_counts.values()
-            for year in yearly_counts
-        })
-        totals = {
-            keyword: sum(yearly_counts.values())
-            for keyword, yearly_counts in keyword_yearly_counts.items()
-        }
-        top_keywords = sorted(totals, key=totals.get, reverse=True)[:max_keywords]
+        all_years = sorted(cache["global_year"])
+        top_keywords = self._top_cached_keyword_keys(limit=max_keywords)
 
         rows = []
-        for keyword in top_keywords:
-            counts = [keyword_yearly_counts[keyword].get(year, 0) for year in all_years]
+        for key, label, _total in top_keywords:
+            counts = [
+                len(cache["global_year"].get(year, {}).get(key, set()))
+                for year in all_years
+            ]
             rows.append({
-                "keyword": keyword,
+                "keyword": label,
                 "years": all_years,
                 "counts": counts,
                 "total": sum(counts),
