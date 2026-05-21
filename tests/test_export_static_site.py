@@ -4,7 +4,6 @@ Tests for static site export functionality
 
 import pytest
 import json
-import tempfile
 from pathlib import Path
 import sys
 
@@ -16,9 +15,8 @@ from tools.export_static_site import StaticSiteExporter
 class TestStaticSiteExporter:
     
     @pytest.fixture
-    def temp_output_dir(self):
-        with tempfile.TemporaryDirectory() as tmpdir:
-            yield Path(tmpdir)
+    def temp_output_dir(self, tmp_path):
+        return tmp_path
     
     @pytest.fixture
     def exporter(self, temp_output_dir, repo_with_data):
@@ -121,12 +119,15 @@ class TestStaticSiteExporter:
 
         names = {venue["name"] for venue in venues_data}
         assert names == set(result["venues_exported"])
-        assert names == {"ICLR", "NeurIPS"}
+        assert {"ICLR", "NeurIPS", "CVPR", "ACL"}.issubset(names)
 
         for venue in venues_data:
-            assert venue["years_available"]
             assert (exporter.venues_data_dir / f"venue_{venue['name']}_top_keywords.json").exists()
             assert (exporter.venues_data_dir / f"venue_{venue['name']}_keyword_trends.json").exists()
+            assert (exporter.venues_data_dir / f"venue_{venue['name']}_keywords_index.json").exists()
+
+        empty_registry_venue = next(venue for venue in venues_data if venue["name"] == "CVPR")
+        assert empty_registry_venue["has_data"] is False
 
     def test_export_global_static_trend_files(self, exporter):
         exporter.export_all_venues()
@@ -146,6 +147,21 @@ class TestStaticSiteExporter:
         assert all({"keyword", "years", "counts", "total"} <= set(row) for row in trends)
         assert emerging
         assert all({"keyword", "growth_rate", "recent_count"} <= set(row) for row in emerging)
+
+    def test_export_keyword_normalization_audit(self, exporter):
+        result = exporter.export_keyword_normalization_audit()
+        assert result is True
+
+        audit_file = exporter.quality_data_dir / "keyword_normalization_audit.json"
+        assert audit_file.exists()
+
+        with open(audit_file, 'r', encoding='utf-8') as f:
+            audit = json.load(f)
+
+        assert audit["counting_rule"] == "canonical_keyword_counted_once_per_paper"
+        assert "raw_top_keywords" in audit
+        assert "canonical_top_keywords" in audit
+        assert "filtered_noise" in audit
     
     def test_export_handles_empty_venue(self, exporter):
         result = exporter.export_venue_top_keywords("NONEXISTENT_VENUE", top_n=10)
@@ -206,6 +222,5 @@ class TestStaticSiteExporter:
 
 
 @pytest.fixture
-def temp_output_dir():
-    with tempfile.TemporaryDirectory() as tmpdir:
-        yield Path(tmpdir)
+def temp_output_dir(tmp_path):
+    return tmp_path

@@ -3,7 +3,7 @@
 from datetime import datetime
 from pathlib import Path
 
-from scraper.models import RawPaper
+from scraper.models import RawPaper, create_legacy_paper
 
 
 class TestDatabaseRepository:
@@ -97,6 +97,47 @@ class TestDatabaseRepository:
         assert repo_with_data.get_total_keyword_count(venue="ICLR") == 8
         assert repo_with_data.get_total_keyword_count(venue="NeurIPS") == 4
         assert repo_with_data.get_total_keyword_count(venue="UNKNOWN") == 0
+
+    def test_keyword_stats_merge_aliases_and_filter_noise(self, repo):
+        papers = [
+            create_legacy_paper(
+                id="llm_001",
+                title="Large Language Model Evaluation",
+                abstract="Evaluation of LLM behavior.",
+                authors=["A"],
+                venue="ICLR",
+                year=2024,
+                url="https://example.com/llm1",
+                keywords=["large language model", "language models", "102"],
+            ),
+            create_legacy_paper(
+                id="llm_002",
+                title="Prompting Large Language Models",
+                abstract="Study of large language systems.",
+                authors=["B"],
+                venue="ICLR",
+                year=2024,
+                url="https://example.com/llm2",
+                keywords=["large language", "reasoning"],
+            ),
+        ]
+        repo.save_papers(papers)
+
+        top_keywords = repo.get_top_keywords(venue="ICLR", year=2024, limit=10)
+        keyword_counts = dict(top_keywords)
+
+        assert keyword_counts["large language model"] == 2
+        assert "language models" not in keyword_counts
+        assert "large language" not in keyword_counts
+        assert "102" not in keyword_counts
+
+        trend = repo.get_keyword_trend("language models", venue="ICLR")
+        assert trend == {2024: 2}
+
+        audit = repo.get_keyword_normalization_audit(venue="ICLR", year=2024)
+        merged_names = {item["keyword"] for item in audit["merged_groups"]}
+        assert "large language model" in merged_names
+        assert audit["filtered_noise"]["examples"][0]["keyword"] == "102"
 
     def test_get_keyword_trend(self, repo_with_data):
         trend = repo_with_data.get_keyword_trend("transformer")

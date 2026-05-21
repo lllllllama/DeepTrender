@@ -8,6 +8,7 @@ import sys
 import json
 import shutil
 import argparse
+import csv
 from pathlib import Path
 from datetime import datetime
 from typing import Any, Dict, List, Optional
@@ -37,15 +38,19 @@ class StaticSiteExporter:
         self.data_dir = self.output_dir / "data"
         self.venues_data_dir = self.data_dir / "venues"
         self.arxiv_data_dir = self.data_dir / "arxiv"
+        self.quality_data_dir = self.data_dir / "quality"
         self.top_keywords = top_keywords
 
         self.data_dir.mkdir(parents=True, exist_ok=True)
         self.venues_data_dir.mkdir(parents=True, exist_ok=True)
         self.arxiv_data_dir.mkdir(parents=True, exist_ok=True)
+        self.quality_data_dir.mkdir(parents=True, exist_ok=True)
 
         self.repo = repository or get_repository()
+        self.registry_metadata = self._load_venue_registry_metadata()
         self.stats = {
             "venues_exported": 0,
+            "venues_with_data": 0,
             "arxiv_exported": 0,
             "files_copied": 0,
             "total_size_bytes": 0,
@@ -59,43 +64,87 @@ class StaticSiteExporter:
             if path.exists():
                 path.unlink()
 
-    def build_venue_index_entry(self, venue_config) -> Optional[Dict[str, Any]]:
-        venue_name = venue_config.name
+    def _load_venue_registry_metadata(self) -> Dict[str, Dict[str, Any]]:
+        metadata = {
+            name: {
+                "name": config.name,
+                "full_name": config.full_name,
+                "domain": "ML",
+                "tier": "A",
+                "source": "config",
+            }
+            for name, config in VENUES.items()
+        }
+
+        registry_path = ROOT_DIR / "data" / "registry" / "ccf_venues.csv"
+        if not registry_path.exists():
+            return metadata
+
+        with registry_path.open("r", encoding="utf-8", newline="") as handle:
+            for row in csv.DictReader(handle):
+                name = (row.get("canonical_name") or "").strip()
+                if not name:
+                    continue
+                metadata[name] = {
+                    "name": name,
+                    "full_name": row.get("full_name") or name,
+                    "domain": row.get("domain") or "General",
+                    "tier": row.get("tier") or "C",
+                    "source": row.get("source_preference") or "registry",
+                }
+        return metadata
+
+    def collect_venue_names(self) -> List[str]:
+        names = set(self.registry_metadata)
+        names.update(venue.canonical_name for venue in self.repo.structured.get_all_venues())
+        names.update(VENUES)
+
+        def sort_key(name: str):
+            return (
+                -self.repo.get_paper_count(venue=name),
+                self.registry_metadata.get(name, {}).get("tier", "Z"),
+                name,
+            )
+
+        return sorted(names, key=sort_key)
+
+    def is_known_venue_name(self, venue_name: str) -> bool:
+        return (
+            venue_name in self.registry_metadata
+            or venue_name in VENUES
+            or self.repo.structured.get_venue_by_name(venue_name) is not None
+        )
+
+    def build_venue_index_entry(self, venue_name: str) -> Dict[str, Any]:
+        metadata = self.registry_metadata.get(venue_name, {"name": venue_name})
+        venue_obj = self.repo.structured.get_venue_by_name(venue_name)
         years = self.repo.get_all_years(venue=venue_name)
-        if not years:
-            return None
-
-        all_summaries = self.repo.analysis.get_all_venue_summaries()
-        summary_map = {s["venue"]: s for s in all_summaries if s.get("year") is None}
-        summary = summary_map.get(venue_name)
-
-        if summary:
-            paper_count = int(summary.get("paper_count", 0) or 0)
-            top_keywords = summary.get("top_keywords", [])[:10]
-        else:
-            paper_count = self.repo.get_paper_count(venue=venue_name)
-            top_kw = self.repo.get_top_keywords(venue=venue_name, limit=10)
-            top_keywords = [{"keyword": kw, "count": c} for kw, c in top_kw]
-
-        if paper_count <= 0 and not top_keywords:
-            return None
+        paper_count = self.repo.get_paper_count(venue=venue_name)
+        top_kw = self.repo.get_top_keywords(venue=venue_name, limit=10)
+        top_keywords = [{"keyword": kw, "count": c} for kw, c in top_kw]
 
         return {
             "name": venue_name,
-            "full_name": venue_config.full_name,
-            "domain": getattr(venue_config, "domain", "ML"),
-            "tier": "A",
+            "full_name": metadata.get("full_name")
+            or getattr(venue_obj, "full_name", None)
+            or venue_name,
+            "domain": metadata.get("domain")
+            or getattr(venue_obj, "domain", None)
+            or "General",
+            "tier": metadata.get("tier")
+            or getattr(venue_obj, "tier", None)
+            or "C",
+            "source": metadata.get("source", "database"),
             "years_available": sorted(years, reverse=True),
             "paper_count": paper_count,
             "top_keywords": top_keywords,
+            "has_data": paper_count > 0,
         }
 
     def collect_venue_index_data(self) -> List[Dict[str, Any]]:
         venues_data = []
-        for _, venue_config in VENUES.items():
-            venue_data = self.build_venue_index_entry(venue_config)
-            if venue_data:
-                venues_data.append(venue_data)
+        for venue_name in self.collect_venue_names():
+            venues_data.append(self.build_venue_index_entry(venue_name))
         return venues_data
 
     def export_venues_index(self, venues_data: Optional[List[Dict[str, Any]]] = None) -> int:
@@ -109,10 +158,10 @@ class StaticSiteExporter:
         return len(venues_data)
 
     def export_venue_top_keywords(self, venue_name: str, top_n: int = 50) -> bool:
-        years = self.repo.get_all_years(venue=venue_name)
-        if not years:
+        if not self.is_known_venue_name(venue_name):
             return False
 
+        years = self.repo.get_all_years(venue=venue_name)
         yearly_data = {}
         for year in sorted(years):
             top_keywords = self.repo.get_top_keywords(venue=venue_name, year=year, limit=top_n)
@@ -129,10 +178,10 @@ class StaticSiteExporter:
         return True
 
     def export_venue_keyword_trends(self, venue_name: str, max_keywords: int = 300) -> bool:
-        years = self.repo.get_all_years(venue=venue_name)
-        if not years:
+        if not self.is_known_venue_name(venue_name):
             return False
 
+        years = self.repo.get_all_years(venue=venue_name)
         keyword_yearly_counts = defaultdict(dict)
         keyword_yearly_ranks = defaultdict(dict)
 
@@ -166,9 +215,10 @@ class StaticSiteExporter:
         return True
 
     def export_venue_keywords_index(self, venue_name: str) -> bool:
-        top_keywords = self.repo.get_top_keywords(venue=venue_name, limit=self.top_keywords)
-        if not top_keywords:
+        if not self.is_known_venue_name(venue_name):
             return False
+
+        top_keywords = self.repo.get_top_keywords(venue=venue_name, limit=self.top_keywords)
 
         output_file = self.venues_data_dir / f"venue_{venue_name}_keywords_index.json"
         with open(output_file, "w", encoding="utf-8") as f:
@@ -283,26 +333,47 @@ class StaticSiteExporter:
         self.stats["total_size_bytes"] += output_file.stat().st_size
         return True
 
+    def export_keyword_normalization_audit(self) -> bool:
+        audit = self.repo.get_keyword_normalization_audit(limit=25)
+        audit["generated_at"] = datetime.now().isoformat()
+        audit["policy"] = {
+            "taxonomy_policy": "DeepTrender canonical topics backed by arXiv, ACM CCS, and Papers with Code mappings where configured.",
+            "alias_policy": "strict taxonomy aliases plus export-only keyword_stat_aliases for extractor fragments.",
+        }
+
+        output_file = self.quality_data_dir / "keyword_normalization_audit.json"
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(audit, f, indent=2, ensure_ascii=False)
+
+        self.stats["total_size_bytes"] += output_file.stat().st_size
+        return True
+
     def export_all_venues(self) -> Dict:
         self._clear_generated_venue_data()
         exported_venues = []
+        venues_with_data = []
         venues_data = []
 
-        for _, venue_config in VENUES.items():
-            venue_name = venue_config.name
-            if self.export_venue_top_keywords(venue_name, top_n=50):
-                if self.export_venue_keyword_trends(venue_name, max_keywords=self.top_keywords):
-                    self.export_venue_keywords_index(venue_name)
-                    exported_venues.append(venue_name)
-                    venue_data = self.build_venue_index_entry(venue_config)
-                    if venue_data:
-                        venues_data.append(venue_data)
+        for venue_name in self.collect_venue_names():
+            self.export_venue_top_keywords(venue_name, top_n=50)
+            self.export_venue_keyword_trends(venue_name, max_keywords=self.top_keywords)
+            self.export_venue_keywords_index(venue_name)
+            exported_venues.append(venue_name)
+            venue_data = self.build_venue_index_entry(venue_name)
+            venues_data.append(venue_data)
+            if venue_data["has_data"]:
+                venues_with_data.append(venue_name)
 
         venues_count = self.export_venues_index(venues_data)
         self.export_global_keyword_trends(exported_venues)
         self.export_global_emerging_keywords()
         self.stats["venues_exported"] = len(exported_venues)
-        return {"venues_count": venues_count, "venues_exported": exported_venues}
+        self.stats["venues_with_data"] = len(venues_with_data)
+        return {
+            "venues_count": venues_count,
+            "venues_exported": exported_venues,
+            "venues_with_data": venues_with_data,
+        }
 
     def export_arxiv_timeseries(self) -> int:
         granularities = ["day", "week", "month", "year"]
@@ -388,6 +459,8 @@ class StaticSiteExporter:
         return copied_count
 
     def export_manifest(self):
+        self.stats["total_papers"] = self.repo.get_paper_count()
+        self.stats["total_keywords"] = self.repo.get_total_keyword_count()
         manifest = {
             "generated_at": datetime.now().isoformat(),
             "stats": self.stats,
@@ -399,6 +472,7 @@ class StaticSiteExporter:
     def export_all(self):
         self.export_all_venues()
         self.export_all_arxiv()
+        self.export_keyword_normalization_audit()
         self.copy_static_assets()
         self.export_manifest()
         return self.stats
