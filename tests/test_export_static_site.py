@@ -4,6 +4,8 @@ Tests for static site export functionality
 
 import pytest
 import json
+import re
+import shutil
 from pathlib import Path
 import sys
 
@@ -15,8 +17,8 @@ from tools.export_static_site import StaticSiteExporter
 class TestStaticSiteExporter:
     
     @pytest.fixture
-    def temp_output_dir(self, tmp_path):
-        return tmp_path
+    def temp_output_dir(self, request):
+        return make_workspace_temp_dir(request.node.name)
     
     @pytest.fixture
     def exporter(self, temp_output_dir, repo_with_data):
@@ -222,5 +224,14 @@ class TestStaticSiteExporter:
 
 
 @pytest.fixture
-def temp_output_dir(tmp_path):
-    return tmp_path
+def temp_output_dir(request):
+    return make_workspace_temp_dir(request.node.name)
+
+
+def make_workspace_temp_dir(name):
+    safe_name = re.sub(r"[^a-zA-Z0-9_.-]+", "_", name)
+    path = Path(__file__).parents[1] / "tmp" / "test_export_static_site" / safe_name
+    if path.exists():
+        shutil.rmtree(path, ignore_errors=True)
+    path.mkdir(parents=True, exist_ok=True)
+    return path
