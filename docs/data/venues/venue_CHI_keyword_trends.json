@@ -1,0 +1,8102 @@
+{
+  "design": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 70
+    },
+    {
+      "year": 2022,
+      "count": 3,
+      "rank": 1
+    },
+    {
+      "year": 2023,
+      "count": 4,
+      "rank": 1
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "reality": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "year": 2023,
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "year": 2024,
+      "count": 4,
+      "rank": 1
+    }
+  ],
+  "augmented reality": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2024,
+      "count": 3,
+      "rank": 3
+    }
+  ],
+  "virtual reality": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 4,
+      "rank": 2
+    }
+  ],
+  "people": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "year": 2021,
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "devices": [
+    {
+      "year": 2020,
+      "count": 3,
+      "rank": 1
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "mobile": [
+    {
+      "year": 2020,
+      "count": 3,
+      "rank": 2
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "care": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 54
+    }
+  ],
+  "large language model": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 3,
+      "rank": 4
+    }
+  ],
+  "objects": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "spatial": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "technology": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "text": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 9
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "touch": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 10
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "health": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "mental health": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "wild": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "educational": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 86
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 63
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "computational": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 62
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "computational notebooks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "creating": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "investigating": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "notebooks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "online": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "supporting": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "collaboration": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 51
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 63
+    }
+  ],
+  "communication": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 54
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 66
+    }
+  ],
+  "comparative": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 56
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 67
+    }
+  ],
+  "artificial": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 2,
+      "rank": 5
+    }
+  ],
+  "game": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 2,
+      "rank": 6
+    }
+  ],
+  "hci": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 2,
+      "rank": 7
+    }
+  ],
+  "moral": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 2,
+      "rank": 8
+    }
+  ],
+  "social": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 2,
+      "rank": 9
+    }
+  ],
+  "access": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "access control": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "addressed consent banners": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "affect regulation": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "affect regulation technology": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "affects united": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "affects united states": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "affordances outweigh": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "affordances outweigh attributes": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "anti elab movement": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "approach for quantitatively": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "arrays for reconfigurable": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "assistive technology": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "audio tactile crossword puzzle": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "authoring": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "authoring system": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "average internet user": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "banners": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "barriers": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "barriers to stopping": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "blind people": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "boat": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "breathing pacer": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "capturing experts": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "capturing experts mental": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "care conception": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "care work": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "challenge public": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "challenge public understanding": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cheat": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cheat sheets": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "chinese language validation": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "co creation cards": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "co designed": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cognitive": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cognitive load": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "collaborative immersive": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "collaborative immersive authoring": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "community based access control": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "comparison of audio tactile": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 50
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "complex science concepts": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 51
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "consent": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 52
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "consent banners": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 53
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "content representations": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 54
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "context aware sentence retrieval": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 55
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "coping": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 56
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "coping responses": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 57
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "crafting critical": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 58
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "crafting critical heritage": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 59
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "critical heritage": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 60
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "critical heritage discourses": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 61
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "crossword": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 62
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "crossword puzzle": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 63
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "culturally": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 64
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "culturally sensitive tool": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 65
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "current approaches": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 66
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "dark patterns": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 67
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "data visualization": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 68
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "data visualization techniques": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 69
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "deep learning": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 70
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "deep learning algorithms": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 71
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "deep learning system": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 72
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "demand scale": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 73
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "deployed in clinics": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 74
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "description and sonification": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 75
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "design engineering approach": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 76
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "design peak": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 77
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "design peak mystical": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 78
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "designing consent banners": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 79
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "detection of diabetic": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 80
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "diabetic retinopathy": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 81
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "direct manipulation": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 82
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "disabilities": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 83
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "disabilities created": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 84
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "disproportionately affects united": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 85
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "eeg": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 86
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "efficacy": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 87
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "email": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 88
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "embraces critical discourses": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 89
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "enables blind users": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 90
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "enhance opportunities": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 91
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "ergonomic patient": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 92
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "ergonomic patient transfers": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 93
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "evaluating a personalizable": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 94
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "evidence suggests voice": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 95
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "exhibition": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 96
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "exhibition design": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 97
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "experts": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 98
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "experts mental": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 99
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "experts mental models": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 100
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "abuse": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "accessible": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "accessible videos": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "activities for people": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "advance health": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "advance health equity": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "advice": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "affecting mental health": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "african": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "african human computer": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "african human computer interaction": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "agents": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "alternate utopian narrative": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "artifact": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "artists": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "assistance": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "assistance in data driven": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "audio": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "audio description": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "audio description generation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "automatic": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "automatic audio": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "automatic audio description": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "barriers and assistance": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "black": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "black lives": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "black lives matter": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "black older": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "black older adults": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bodily": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bodily play": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bodily play experiences": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bodily play mechanic": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "chi": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "chi participant": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "civic": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "civic tech": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "civic tech initiatives": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "collaborative mixed": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "collaborative mixed reality": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "commercial mobile crowdsourcing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "commodity nfc reader": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "community health": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "comparing crowdsourced design": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "comparing perspectives": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "composition behaviour": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 50
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "computation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 51
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "conference": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 52
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "constituent factors": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 53
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "contact": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 54
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "contact tracing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 55
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "contact tracing approaches": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 56
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "conversation environment informed": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 57
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "crowdsourced design": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 58
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "crowdsourced design feedback": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 59
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "crowdsourcing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 60
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "crowdsourcing tasks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 61
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cue": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 62
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "current ems": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 63
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cycle of poor": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 64
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "data defined rich id motion": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 65
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "data driven reflection": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 66
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "dementia": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 67
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "dementia community health": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 68
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "description": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 69
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "design and governance": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 71
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "design guidelines": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 72
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "designing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 73
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "designing bodily play": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 74
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "designing dementia": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 75
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "designing dementia caregiver": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 76
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "designing programming error": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 77
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "development": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 78
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "developmental": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 79
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "developmental disabilities": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 80
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "digital contact": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 81
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "digital contact tracing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 82
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "diy tasks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 83
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "diy tasks serve": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 84
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "documentation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 85
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "educational vr study": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 87
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "electrical muscle": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 88
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "electrical muscle stimulation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 89
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "email input": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 90
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "embedding information": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 91
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "empower": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 92
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "empower individuals": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 93
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "empowerment": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 94
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "ems": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 95
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "engaging": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 96
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "engaging viewers": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 97
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "engineering": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 98
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "english writers": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 99
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "enhancing technologies": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 100
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "account security": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "accounts": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "adapted and adaptable": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "addressing the lived": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "applications engage": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "assists": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "audio matters": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "augment care": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "augmented reality simulation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "avatar": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "avatar customization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "avatar customization enhances": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "blind and low": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bringing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bringing fun": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cad software fusion": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cameras": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "candyfly": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "china": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "clinical": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "co teaching": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "comfortably wear augmented": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "complex applications": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "complex software": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "complex software applications": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "computational support": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "computer form": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "computer form factors": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "connected": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "consensus toward next generation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "content analysis": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "conversational": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "conversational agent": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "critical playful speculations": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "critically ill": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "critically ill patients": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "crossing decision making": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "curated data": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "curated data views": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "customization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "customization enhances visual": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cyclists": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cyclists crossing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cyclists crossing decision making": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "data enabled design exploration": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 50
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "data views": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 51
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "deaths": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 52
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "design consensus": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 53
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "design exploration": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 54
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "design material": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 55
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "designers": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 56
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "disabilities through adapted": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 57
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "disorders screening": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 58
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "distance": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 59
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "distance perception": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 60
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "drone": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 61
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "drone pilots": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 62
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "educational technologies": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 64
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "effects of field": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 65
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "egocentric distance": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 66
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "egocentric distance perception": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 67
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "emerging computer form": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 68
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "engage": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 69
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "engage older adults": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 70
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "enhances visual": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 71
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "enhances visual avatar": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 72
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "enterprise applications engage": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 73
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "enterprise applications offer": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 74
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "esport learning": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 75
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "establishing design consensus": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 76
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "experienced designers": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 77
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "exploration and participatory": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 78
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "exploring spatial": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 79
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "fetching": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 80
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "fetching packages": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 81
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "field": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 82
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "field of view": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 83
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "form": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 84
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "form of co design": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 85
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "games": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 86
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "head worn augmented": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 87
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "head worn augmented reality": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 88
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "home": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 89
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ]
+}

@@ -1,0 +1,1237 @@
+{
+  "2020": [
+    {
+      "keyword": "software",
+      "count": 3,
+      "rank": 1
+    },
+    {
+      "keyword": "administration services",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "administrative service application",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "analytic",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "analytic services",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "analytic services compromise",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "analytics misconfiguration detector",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "api test",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "api test data",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "apple and google",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "approach to write",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "artifacts",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "bassiana",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "bassiana cultured",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "bean borer",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "beauveria bassiana",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "bran media",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "builder",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "builder pattern",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "chat",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "chat activity",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "chat messages",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "chatbot framework",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "city of paringin",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "classifier test",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "classifier test input",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "code",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "code writing",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "code writing involves",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "coffee bean",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "coffee bean borer",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "compromise",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "compromise mobile",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "compromise mobile privacy",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "configuration",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "construction",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "coordination",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "coordination tool",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "deep neural networks",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "deep reinforcement",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "design",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "design coordination tool",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "design patterns",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "detecting",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "detecting anomalous",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "detecting anomalous network",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "developer",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "developer relations team",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "development",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "development and operation",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2021": [
+    {
+      "keyword": "software",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "abstract syntax tree",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "adaptation",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "ast mapping",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "ast mapping algorithms",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "automated generation",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "breaking",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "client developers",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "code",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "converting source code",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "differential testing",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "differential testing approach",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "efficient search",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "efficient search based",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "evaluating abstract",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "evaluating abstract syntax",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "evolving libraries",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "experience",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "experience report",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "generation",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "generation of stand alone",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "javascript libraries",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "javascript programs",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "jsfix",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "large software",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "large source code",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "library",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "library method",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "main",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "overflow",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "programming language",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "programs to evolving",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "query",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "query logs",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "query reformulation",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "report",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "semantic patches",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "software libraries",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "source code",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "stack",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "stack overflow",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "stack overflow make",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "syntax tree",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "syntax tree mapping",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "translating a large",
+      "count": 1,
+      "rank": 45
+    }
+  ],
+  "2022": [
+    {
+      "keyword": "android",
+      "count": 1,
+      "rank": 1
+    },
+    {
+      "keyword": "android non sdk apls",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "balance",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "call graphs",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "coverage guided greybox fuzzing",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "deep learning",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "deep learning produce",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "demystifying",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "demystifying android",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "demystifying android non sdk",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "diverse sampling",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "empirical study",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "false positives from static",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "graphs",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "hard to reach",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "heuristic",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "heuristic for probabilistic",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "identify hard",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "learning produce invalid",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "lines",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "measurement",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "measurement and understanding",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "non sdk apls",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "optimizing fuzzing",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "optimizing fuzzing schedules",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "path",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "path transitions",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "preach",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "probabilistic",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "probabilistic reachability",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "produce invalid inputs",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "product lines",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "program states",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "pruning",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "pruning false positives",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "reach statements",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "reachability to identify",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "real world software",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "real world software product",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "runtime program",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "runtime program states",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "sampling from real world",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "search based diverse",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "search based diverse sampling",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "software product",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "software product lines",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "statements",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "static",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "static call",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "static call graphs",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2023": [
+    {
+      "keyword": "software",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "apps",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "aware",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "aware model",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "bug",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "bug reports",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "bug reproduction",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "bug reproduction approach",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "bugs",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "case",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "case on smalltalk",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "class level software network",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "classes",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "context aware bug",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "context aware bug reproduction",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "decisions",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "deep learning",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "deep learning type",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "design",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "design decisions",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "developers",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "dlinfer",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "domain",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "domain aware",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "domain aware model",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "dynamic languages",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "effort estimates",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "engineers gambit",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "experiences",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "experiences and survival",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "identifying key classes",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "implementation",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "implementation design",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "implementation design decisions",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "initial software",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "initial software comprehension",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "java",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "key",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "key classes",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "language type system",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "languages",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "liquid",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "liquid types",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "liquid types extend",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "mobile apps",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "pressure",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "program",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "program translation",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "python",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "python programming",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2024": [
+    {
+      "keyword": "code",
+      "count": 4,
+      "rank": 1
+    },
+    {
+      "keyword": "large language model",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "aalta",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "ads",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "analysis tasks",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "api",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "approach for effective",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "apps",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "apr",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "apr methods",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "arithmetic theory",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "authentication",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "automated library apis",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "automated program repair",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "bandpass filter chips",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "blind android users",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "boundary conditions",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "cdp and ddp",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "channel adversarial siamese networks",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "channel state information",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "chip stacking process",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "code clone",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "code clone detection",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "code knowledge",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "code translation",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "concrete",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "concrete constraint",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "concrete constraint guided",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "constraint guided",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "constraint guided symbolic",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "conversion matrix",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "debugging",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "debugging with program",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "demodulation reference signal",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "dependency prediction",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "detection polarization angle",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "editing",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "effective code",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "effective code clone",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "enhance code translation",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "execution",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "failure indexing",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "failure proximity",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "failures",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "filter chips",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "filter transmission performance",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "fuzzing ltl solvers",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "genai make",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "genai make usability",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "graphical user interface",
+      "count": 1,
+      "rank": 50
+    }
+  ]
+}

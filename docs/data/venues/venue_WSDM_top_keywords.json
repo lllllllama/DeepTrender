@@ -1,0 +1,816 @@
+{
+  "2020": [
+    {
+      "keyword": "accelerating deep",
+      "count": 1,
+      "rank": 1
+    },
+    {
+      "keyword": "accelerating deep convolutional",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "ad hoc retrieval",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "ad hoc retrieval tasks",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "anomalies",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "anomaly",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "convolutional neural network",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "deep convolutional",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "deep convolutional neural",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "downstream ad hoc retrieval",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "edge",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "edge streams",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "effect",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "estimation with surrogate",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "f fade",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "factorization",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "factorization for anomaly",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "filter",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "filter pruning",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "frequency factorization",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "long term",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "long term causal",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "long term causal effects",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "long term effect",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "long term effect estimation",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "long term effect presents",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "neural networks",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "pre training",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "prop",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "pruning",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "representative",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "representative words",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "representative words prediction",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "retrieval",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "streams",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "surrogate",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "surrogate representation",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "words prediction",
+      "count": 1,
+      "rank": 39
+    }
+  ],
+  "2021": [
+    {
+      "keyword": "sequential",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "assistant",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "assistant system",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "classifiers",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "continuous data streams",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "contrastive learning",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "data streams",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "degeneration problem",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "differentially private",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "differentially private classification",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "differentially private ensemble",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "ensemble classifiers",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "explainable",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "explainable recommendation systems",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "financial",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "financial information processing",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "financial journalists",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "finsense",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "guided explainable",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "guided explainable recommendation",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "item embeddings",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "item embeddings distribution",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "journalists",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "journalists and investors",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "meta path guided",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "meta path guided explainable",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "paper demonstrates finsense",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "private ensemble",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "private ensemble classifiers",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "recommendation",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "recommender",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "recommender systems",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "representation degeneration problem",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "reward signals",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "sequential deep learning",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "sequential recommendation",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "supervised",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "supervised advantage",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "supervised advantage actor critic",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "supervised sequential",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "supervised sequential learning",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "temporal meta path",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "temporal meta path guided",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "transformer and bert",
+      "count": 1,
+      "rank": 44
+    }
+  ],
+  "2022": [
+    {
+      "keyword": "adaptation",
+      "count": 1,
+      "rank": 1
+    },
+    {
+      "keyword": "adaptation for matching",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "articles",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "attribute extraction",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "dame",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "diversified query",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "diversified query generator",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "documents",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "domain",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "domain adaptation",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "entities",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "entity matching",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "guided",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "guided by knowledge",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "knowledge graph",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "learning transferable node",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "matching entities",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "node",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "node representations",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "queries",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "query generation",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "query generation guided",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "representations for attribute",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "target",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "target domain",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "transferable node",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "transferable node representations",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "web documents",
+      "count": 1,
+      "rank": 28
+    }
+  ],
+  "2023": [
+    {
+      "keyword": "graph neural network",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "advertising",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "advertising targeting",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "alleviating structural distribution",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "cia agents",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "city citizen patient",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "computational advertising systems",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "connections empower",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "connections empower person job",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "contrastive learning",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "contrastive learning recommendation",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "contrastive multi behavior recommendation",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "conversational information access",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "creative evaluation",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "develop and evaluate",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "devil",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "distribution",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "distribution shift",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "driven disruptive",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "driven disruptive innovation",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "empower person job fit",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "enhancement multi behavior contrastive",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "evaluate conversational",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "evaluate conversational information",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "fair graph",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "fair graph neural",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "graph anomaly",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "graph anomaly detection",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "graph neural",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "health",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "hood of social",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "information access",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "information access agents",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "infrastructure",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "knowledge distillation",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "knowledge enhancement",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "knowledge enhancement multi behavior",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "learning fair graph",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "leveraging user simulation",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "machine learning",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "media advertising",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "modern programmatic systems",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "multi behavior contrastive learning",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "network matters",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "neural networks",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "normal nodes",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "partial knowledge distillation",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "person job fit",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "person job fit models",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "professional network matters",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2024": []
+}

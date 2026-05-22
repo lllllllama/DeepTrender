@@ -29,12 +29,14 @@ Current local snapshot, inspected on 2026-05-21:
 
 | Metric | Value |
 | --- | ---: |
-| Raw papers | 11,194 |
-| Structured papers | 13,947 |
-| Venues in database | 22 |
-| CCF registry venues | 20 |
-| Extracted keyword rows | 178,907 |
-| Structured year range | 2023-2026 |
+| Raw papers | 52,252 |
+| Structured papers | 54,978 |
+| Venues in database | 39 |
+| CCF registry venues | 35 |
+| Static venues exported | 47 |
+| Static venues with data | 28 |
+| Extracted keyword rows | 195,402 |
+| Structured year range | 2020-2026 |
 
 ## System Diagram
 

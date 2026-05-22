@@ -1,1 +1,1262 @@
-{}
+{
+  "2020": [
+    {
+      "keyword": "online",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "privacy",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "ad hoc search",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "adversarial binary autoencoder",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "android",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "android ecosystem",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "android maintains security",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "android security",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "android security bulletin",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "answers aggregation",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "archive wayback machine",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "automated reengineering",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "automated reengineering techniques",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "automatic extraction",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "blockchain",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "capturing trends",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "case",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "case study",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "centralized solutions",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "cities",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "clustering",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "clustering algorithm",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "collaborative approach",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "combines wikipedia",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "communities",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "communities of practice",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "content sharing",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "context aware document term",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "contribution",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "correlation",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "correlation clustering",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "correlation clustering algorithm",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "curation",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "curation and analysis",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "cyber physical system approach",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "decentralized",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "decentralizedcommunity information systems",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "deep attentive",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "document",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "document term",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "document term weighting",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "driver",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "driver repositioning",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "dynamic graph convolutional",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "dynamic hub",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "dynamic hub labelings",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "editions",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "efficient implicit",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "efficient implicit unsupervised",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "empirical",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2021": [
+    {
+      "keyword": "natural language processing",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "access visual artwork",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "action",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "alerting",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "alerting authorities",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "analysis for tracking",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "analysis of big",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "april",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "april 19 23",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "artwork",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "artwork visual elements",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "attack detection",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "attack detection framework",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "authorities",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "big scholar",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "big scholar data",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "biographies in catalan",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "blind people",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "candidate",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "catalan wikipedia",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "cdn bursts",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "charging",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "charging recommendation based",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "classification",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "code",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "completion",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "completion task",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "complexes",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "conditions for smart",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "conference",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "consumption",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "data poisoning",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "decomposition",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "decomposition of simplicial",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "deep",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "deep extreme",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "deep learning models",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "deep neural",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "deep neural networks",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "deepfake attack",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "deepfake attack detection",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "description",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "description logic",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "description logic concepts",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "detection",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "detection framework",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "detector to rule",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "discriminative",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "discriminative retrieval models",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "dnn",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2022": [
+    {
+      "keyword": "graph completion",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "knowledge graph",
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "keyword": "knowledge graph completion",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "natural language processing",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "neural network",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "social media",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "social networks",
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "keyword": "answering",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "assessment",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "automatic content",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "automatic content congregating",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "automatic question answering",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "based face partition",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "battle arena",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "bias mitigation",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "biomedical word sense",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "caching",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "chinese",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "chinese financial",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "chinese knowledge graph",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "chinese online video",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "collections",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "complexes",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "content congregating",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "contents",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "contextualized representation learning",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "cooperative edge",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "cooperative edge caching",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "cooperative retriever",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "deep",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "deep recommender systems",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "deep recommenders",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "dependency",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "discovery",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "discrimination to generation",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "disentangling long",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "distribution",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "distribution calibration loss",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "drs",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "edge caching",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "face",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "face images",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "face partition approach",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "face recognition",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "face recognition models",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "financial",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "financial texts",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "frequent",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "frequent pattern mining",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2023": [
+    {
+      "keyword": "recommendation",
+      "count": 3,
+      "rank": 1
+    },
+    {
+      "keyword": "accounts",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "detection",
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "keyword": "session based",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "accessibility",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "accessibility conformance evaluation",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "accessibility evaluation process",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "activism",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "activism online",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "adaptive graph transformer",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "adaptive transformer block",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "adversarial sybil",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "adversarial sybil accounts",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "advertisement audition",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "anomaly",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "anonymity for web",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "ant group",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "attacks",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "aura",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "aura project",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "authority",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "authority aura",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "automatic feature selection",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "auxiliary behaviors",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "based portfolio",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "based portfolio selection",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "battle",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "battle outcome",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "battle outcome prediction",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "behaviors",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "bias",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "bias estimation",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "big",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "big provenance",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "blockchain",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "blockchain accounts",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "breaking",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "breaking fairness",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "bridge",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "classification",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "clustering",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "clustering graph network",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "collaborative session based",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "collaborative session based recommender",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "collective",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "collective classification",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "combining worker factors",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "commodity",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "commodity hardware",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2024": [
+    {
+      "keyword": "search",
+      "count": 4,
+      "rank": 1
+    },
+    {
+      "keyword": "large language model",
+      "count": 3,
+      "rank": 2
+    },
+    {
+      "keyword": "web",
+      "count": 3,
+      "rank": 3
+    },
+    {
+      "keyword": "analytics",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "keyword",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "recommendation",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "recommender",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "recommender systems",
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "keyword": "sponsored search",
+      "count": 2,
+      "rank": 9
+    },
+    {
+      "keyword": "academia and industry",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "advertisement relevance feedback",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "advertising",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "advertising bureau europe",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "amidst",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "amidst conflicts",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "analytics and machine",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "analytics and modeling",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "analytics of radio",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "anomaly ranking",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "arbitrary hidden services",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "area networks",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "aspect based sentiment",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "aspect based sentiment analysis",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "aspect based sentiment quadruple",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "attack exploiting",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "attack exploiting vulnerabilities",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "augmented generation",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "backdooring pre trained models",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "baidu sponsored search",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "based on users",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "behavioral facilitation",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "behavioral facilitation information",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "benchmarking",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "boosting llms",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "broader web community",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "bureau europe",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "bureau europe transparency",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "burst induced poisson process",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "chain",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "chain poisoning",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "chemical declaration data",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "clarification",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "cloud spot instance",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "conditional diffusion model",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "conflicts",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "consent",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "consent framework",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "content",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "content analytics",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "contrastive anomaly",
+      "count": 1,
+      "rank": 50
+    }
+  ]
+}

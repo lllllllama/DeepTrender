@@ -1,0 +1,7049 @@
+{
+  "estimation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 2,
+      "rank": 1
+    }
+  ],
+  "convergence": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "linear": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "optimization": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 54
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stochastic block": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 73
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "differentially private": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "lower bound": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 31
+    }
+  ],
+  "mathcal": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 32
+    }
+  ],
+  "asymptotically optimal": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 1
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "asymptotically optimal information directed": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bayesian ids algorithm": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "characterize implicit regularization": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "complexity": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "complexity guarantees": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "computationally and statistically": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "computationally efficient estimator": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "constant dimension": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "control problem": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "convergence of sgd": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "dimension": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "effects of mild": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "efficient estimator": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "efficient truncated": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "efficient truncated regression": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "finite time": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "finite time analysis": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "frequentist information directed sampling": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "gradient descent": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "guarantees": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "ids": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "implicit": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "implicit regularization": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "implicit regularization properties": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "landscape of shallow": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "linear two timescale": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "linear two timescale stochastic": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "markovian noise": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "mild over parameterization": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "momentum": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "open problem": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "optimal": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "optimal information directed sampling": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "optimization algorithms": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "optimization landscape": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "optimizers": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "optimizing optimizers": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "polyak": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "polyak steps": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "regret": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "regret optimal": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "regret optimal algorithms": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "regret optimal gradient descent": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "regularization": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "relu neural": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "relu neural networks": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 50
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sampling": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 51
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sgd": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 52
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sgd in constant": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 53
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "shallow relu": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 54
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "shallow relu neural": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 55
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "simple relu neural": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 56
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "smooth strongly convex": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 57
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "square": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 58
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "square loss": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 59
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "statistically efficient": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 60
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "statistically efficient estimator": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 61
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "statistically efficient truncated": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 62
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "steps": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 63
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stochastic approximation": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 64
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "strong convexity parameter": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 65
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "strongly convex optimization": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 66
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "tight": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 67
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "tight convergence": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 68
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "time analysis": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 69
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "truncated linear regression": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 70
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "two timescale stochastic approximation": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 71
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "understand implicit regularization": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 72
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "analyze oja": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 1
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "analyze oja algorithm": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "convex relaxations": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "covariance": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "efficient guarantees": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "gaussian": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "gaussian processes": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "guarantees for oja": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "networks to gaussian": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "neural networks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "oja": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "oja algorithm": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "polynomial networks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "private robust": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "private robust estimation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "processes": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "rank one updates": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "rate": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "robust": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "robust estimation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "simplify to gaussian": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stabilizing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stabilizing convex": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stabilizing convex relaxations": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "streaming k pca": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bandit problem": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 1
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "block models": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "community": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "community recovery": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "constraints": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "correlated stochastic block": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "extragradient methods": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "finite sum": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "finite sum optimization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "linear bandit problem": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "linear bandits": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "minimax": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "multiple correlated": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "multiple correlated graphs": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "primal dual extragradient methods": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "safe linear": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "safe linear bandit": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "safety": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "separable minimax": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "separable minimax optimization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stochastic block models": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sum optimization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "unknown polytopes": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "unknown roundwise constraints": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "algorithmically effective": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "algorithmically effective differentially": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "benefits of interactivity": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "block model": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bound": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bound of minimizing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "clustering": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "clusters": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "combinatorial distribution shift": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "complete riemannian manifold": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "convex optimization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "differentially private synthetic": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "distance geometry problem": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "distribution": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "distribution shift": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "distribution shift remains": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "dynamic": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "dynamic regret": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "effective differentially private": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "euclidean distance": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "euclidean distance geometry": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "functions": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "gap free clustering": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "general dynamic": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "general dynamic regret": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "geodesic metric": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "geodesic metric spaces": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graphs": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "hypothesis selection": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "lazy": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "lazy online": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "lazy online convex": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "learning mixtures": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "locally private": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "locally private hypothesis": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "lower": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "matrix completion": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "matrix completion perspective": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "metric spaces": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "minimizing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "minimizing dynamic": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "minimizing dynamic regret": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "minimizing polyak ojasiewicz functions": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "mixture of linear": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "nctd": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "nctm": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "non clashing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 50
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "non clashing teaching": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 51
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "online convex": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 52
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "online convex optimization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 53
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "pairwise comparison design": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 55
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "pairwise differences": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 56
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "polyak ojasiewicz": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 57
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "polyak ojasiewicz functions": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 58
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "private": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 59
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "private and lazy": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 60
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "private hypothesis": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 61
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "private hypothesis selection": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 62
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "private synthetic data": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 63
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "provable benefits": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 64
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "robustness of sdp": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 65
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sample optimal locally": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 66
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sample optimal locally private": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 67
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sdp": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 68
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sensitivity": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 69
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sensitivity and robustness": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 70
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sharp analysis": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 71
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "size": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 72
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stochastic block model": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 74
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "symmetric mixture": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 75
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "synthetic data": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 76
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "tackling combinatorial": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 77
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "tackling combinatorial distribution": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 78
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "teaching": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 79
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "teaching map": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 80
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "type of euclidean": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 81
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "varepsilon": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 82
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "absolute": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 2
+    }
+  ],
+  "absolute loss": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 3
+    }
+  ],
+  "bayes smoothing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 4
+    }
+  ],
+  "bounds": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 5
+    }
+  ],
+  "bounds for learning": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 6
+    }
+  ],
+  "calibration": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 7
+    }
+  ],
+  "computationally efficient": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 8
+    }
+  ],
+  "computationally efficient multi class": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 9
+    }
+  ],
+  "cut off and absolute": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 10
+    }
+  ],
+  "efficient multi class": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 11
+    }
+  ],
+  "efficient multi class calibration": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 12
+    }
+  ],
+  "empirical bayes": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 13
+    }
+  ],
+  "empirical bayes smoothing": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 14
+    }
+  ],
+  "empirical bayes theory": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 15
+    }
+  ],
+  "equivalent gaussian model": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 16
+    }
+  ],
+  "feedback": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 17
+    }
+  ],
+  "fundamental limits": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 18
+    }
+  ],
+  "generalization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 19
+    }
+  ],
+  "generalization bounds": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 20
+    }
+  ],
+  "identity covariance gaussian": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 21
+    }
+  ],
+  "information theoretic": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 22
+    }
+  ],
+  "information theoretic generalization bounds": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 23
+    }
+  ],
+  "learning from quantum": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 24
+    }
+  ],
+  "learning truncated": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 25
+    }
+  ],
+  "learning truncated gaussians": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 26
+    }
+  ],
+  "lightly supervised pre training": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 27
+    }
+  ],
+  "lipschitz continuous score function": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 28
+    }
+  ],
+  "low rank matrix": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 29
+    }
+  ],
+  "low rank matrix estimation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 30
+    }
+  ],
+  "matrix": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 33
+    }
+  ],
+  "matrix estimation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 34
+    }
+  ],
+  "mode": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 35
+    }
+  ],
+  "multi class": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 36
+    }
+  ],
+  "multi class calibration": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 37
+    }
+  ],
+  "non linear": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 38
+    }
+  ],
+  "non linear low rank": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 39
+    }
+  ],
+  "non linear low rank matrix": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 40
+    }
+  ],
+  "optimal score estimation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 41
+    }
+  ],
+  "partial": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 42
+    }
+  ],
+  "partial feedback": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 43
+    }
+  ],
+  "projected smooth calibration": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 44
+    }
+  ],
+  "quantum data": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 45
+    }
+  ],
+  "query lower bounds": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 46
+    }
+  ],
+  "rates": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 47
+    }
+  ],
+  "rates for regression": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 48
+    }
+  ],
+  "recent ai developments": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 49
+    }
+  ],
+  "regression": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "rho": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 51
+    }
+  ],
+  "score estimation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 52
+    }
+  ],
+  "score function": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 53
+    }
+  ],
+  "separations": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 54
+    }
+  ],
+  "separations between cut off": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 55
+    }
+  ],
+  "smooth calibration": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 56
+    }
+  ],
+  "statistical query lower": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 57
+    }
+  ],
+  "supervised": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 58
+    }
+  ],
+  "truncated gaussians": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 59
+    }
+  ],
+  "truncation set": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 60
+    }
+  ],
+  "universal rates": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 61
+    }
+  ]
+}

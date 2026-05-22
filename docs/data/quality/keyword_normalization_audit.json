@@ -8,123 +8,123 @@
   "raw_top_keywords": [
     {
       "keyword": "large language model",
-      "count": 1379
+      "count": 1414
     },
     {
       "keyword": "large language",
-      "count": 718
+      "count": 742
     },
     {
       "keyword": "language models",
-      "count": 699
+      "count": 724
     },
     {
       "keyword": "generation",
-      "count": 387
-    },
-    {
-      "keyword": "reasoning",
-      "count": 345
+      "count": 404
     },
     {
       "keyword": "language",
-      "count": 324
+      "count": 349
     },
     {
-      "keyword": "diffusion",
-      "count": 304
-    },
-    {
-      "keyword": "diffusion model",
-      "count": 299
-    },
-    {
-      "keyword": "reinforcement learning",
-      "count": 292
+      "keyword": "reasoning",
+      "count": 347
     },
     {
       "keyword": "image",
-      "count": 291
+      "count": 316
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 313
+    },
+    {
+      "keyword": "diffusion",
+      "count": 311
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 310
     },
     {
       "keyword": "video",
-      "count": 285
+      "count": 302
     },
     {
       "keyword": "detection",
-      "count": 262
+      "count": 295
     },
     {
       "keyword": "visual",
-      "count": 187
+      "count": 203
+    },
+    {
+      "keyword": "segmentation",
+      "count": 194
+    },
+    {
+      "keyword": "neural networks",
+      "count": 193
+    },
+    {
+      "keyword": "neural",
+      "count": 188
+    },
+    {
+      "keyword": "human",
+      "count": 180
     },
     {
       "keyword": "multimodal large language",
       "count": 176
     },
     {
-      "keyword": "segmentation",
-      "count": 176
-    },
-    {
-      "keyword": "neural networks",
-      "count": 169
-    },
-    {
       "keyword": "gaussian splatting",
-      "count": 168
-    },
-    {
-      "keyword": "neural",
-      "count": 164
+      "count": 170
     },
     {
       "keyword": "gaussian",
-      "count": 160
-    },
-    {
-      "keyword": "human",
-      "count": 160
+      "count": 163
     },
     {
       "keyword": "vision language models",
-      "count": 158
-    },
-    {
-      "keyword": "transformer",
-      "count": 145
-    },
-    {
-      "keyword": "agents",
-      "count": 144
+      "count": 160
     },
     {
       "keyword": "semantic",
-      "count": 142
+      "count": 155
+    },
+    {
+      "keyword": "object",
+      "count": 152
+    },
+    {
+      "keyword": "transformer",
+      "count": 152
     },
     {
       "keyword": "motion",
-      "count": 134
+      "count": 151
     }
   ],
   "canonical_top_keywords": [
     {
       "keyword": "large language model",
-      "count": 1575,
+      "count": 1617,
       "topic_id": "large_language_model",
       "canonical_key": "large_language_model",
       "variants": [
         {
           "keyword": "large language model",
-          "count": 1379
+          "count": 1414
         },
         {
           "keyword": "large language",
-          "count": 718
+          "count": 742
         },
         {
           "keyword": "language models",
-          "count": 699
+          "count": 724
         },
         {
           "keyword": "multimodal large language",
@@ -132,23 +132,23 @@
         },
         {
           "keyword": "language model",
-          "count": 115
+          "count": 121
         }
       ]
     },
     {
       "keyword": "diffusion model",
-      "count": 429,
+      "count": 441,
       "topic_id": "diffusion_model",
       "canonical_key": "diffusion_model",
       "variants": [
         {
           "keyword": "diffusion",
-          "count": 304
+          "count": 311
         },
         {
           "keyword": "diffusion model",
-          "count": 299
+          "count": 310
         },
         {
           "keyword": "denoising diffusion model",
@@ -158,78 +158,94 @@
     },
     {
       "keyword": "generation",
-      "count": 387,
+      "count": 404,
       "canonical_key": "generation",
       "variants": [
         {
           "keyword": "generation",
-          "count": 387
+          "count": 404
         }
       ]
     },
     {
       "keyword": "reasoning",
-      "count": 345,
+      "count": 347,
       "topic_id": "reasoning",
       "canonical_key": "reasoning",
       "variants": [
         {
           "keyword": "reasoning",
-          "count": 345
+          "count": 347
         }
       ]
     },
     {
       "keyword": "reinforcement learning",
-      "count": 319,
+      "count": 347,
       "topic_id": "reinforcement_learning",
       "canonical_key": "reinforcement_learning",
       "variants": [
         {
           "keyword": "reinforcement learning",
-          "count": 292
+          "count": 313
         },
         {
           "keyword": "deep reinforcement learning",
-          "count": 27
+          "count": 34
         }
       ]
     },
     {
       "keyword": "video",
-      "count": 285,
+      "count": 302,
       "canonical_key": "video",
       "variants": [
         {
           "keyword": "video",
-          "count": 285
+          "count": 302
         }
       ]
     },
     {
       "keyword": "detection",
-      "count": 262,
+      "count": 295,
       "canonical_key": "detection",
       "variants": [
         {
           "keyword": "detection",
-          "count": 262
+          "count": 295
+        }
+      ]
+    },
+    {
+      "keyword": "segmentation",
+      "count": 222,
+      "topic_id": "segmentation",
+      "canonical_key": "segmentation",
+      "variants": [
+        {
+          "keyword": "segmentation",
+          "count": 194
+        },
+        {
+          "keyword": "image segmentation",
+          "count": 50
         }
       ]
     },
     {
       "keyword": "vision language model",
-      "count": 205,
+      "count": 207,
       "topic_id": "vision_language_model",
       "canonical_key": "vision_language_model",
       "variants": [
         {
           "keyword": "vision language models",
-          "count": 158
+          "count": 160
         },
         {
           "keyword": "vision language",
-          "count": 78
+          "count": 79
         },
         {
           "keyword": "vlm",
@@ -242,74 +258,73 @@
       ]
     },
     {
-      "keyword": "segmentation",
-      "count": 203,
-      "topic_id": "segmentation",
-      "canonical_key": "segmentation",
-      "variants": [
-        {
-          "keyword": "segmentation",
-          "count": 176
-        },
-        {
-          "keyword": "image segmentation",
-          "count": 47
-        }
-      ]
-    },
-    {
       "keyword": "neural networks",
-      "count": 169,
+      "count": 194,
       "canonical_key": "neural_networks",
       "variants": [
         {
           "keyword": "neural networks",
-          "count": 169
-        }
-      ]
-    },
-    {
-      "keyword": "gaussian splatting",
-      "count": 168,
-      "canonical_key": "gaussian_splatting",
-      "variants": [
+          "count": 193
+        },
         {
-          "keyword": "gaussian splatting",
-          "count": 168
-        }
-      ]
-    },
-    {
-      "keyword": "gaussian",
-      "count": 160,
-      "canonical_key": "gaussian",
-      "variants": [
-        {
-          "keyword": "gaussian",
-          "count": 160
+          "keyword": "neural networks’",
+          "count": 1
         }
       ]
     },
     {
       "keyword": "human",
-      "count": 160,
+      "count": 180,
       "canonical_key": "human",
       "variants": [
         {
           "keyword": "human",
-          "count": 160
+          "count": 180
+        }
+      ]
+    },
+    {
+      "keyword": "gaussian splatting",
+      "count": 170,
+      "canonical_key": "gaussian_splatting",
+      "variants": [
+        {
+          "keyword": "gaussian splatting",
+          "count": 170
+        }
+      ]
+    },
+    {
+      "keyword": "gaussian",
+      "count": 163,
+      "canonical_key": "gaussian",
+      "variants": [
+        {
+          "keyword": "gaussian",
+          "count": 163
+        }
+      ]
+    },
+    {
+      "keyword": "semantic",
+      "count": 155,
+      "canonical_key": "semantic",
+      "variants": [
+        {
+          "keyword": "semantic",
+          "count": 155
         }
       ]
     },
     {
       "keyword": "transformer",
-      "count": 148,
+      "count": 155,
       "topic_id": "transformer",
       "canonical_key": "transformer",
       "variants": [
         {
           "keyword": "transformer",
-          "count": 145
+          "count": 152
         },
         {
           "keyword": "transformer architecture",
@@ -318,123 +333,112 @@
       ]
     },
     {
-      "keyword": "agents",
-      "count": 144,
-      "canonical_key": "agents",
+      "keyword": "object",
+      "count": 152,
+      "canonical_key": "object",
       "variants": [
         {
-          "keyword": "agents",
-          "count": 144
-        }
-      ]
-    },
-    {
-      "keyword": "semantic",
-      "count": 142,
-      "canonical_key": "semantic",
-      "variants": [
-        {
-          "keyword": "semantic",
-          "count": 142
+          "keyword": "object",
+          "count": 152
         }
       ]
     },
     {
       "keyword": "motion",
-      "count": 134,
+      "count": 151,
       "canonical_key": "motion",
       "variants": [
         {
           "keyword": "motion",
-          "count": 134
+          "count": 151
+        }
+      ]
+    },
+    {
+      "keyword": "agents",
+      "count": 147,
+      "canonical_key": "agents",
+      "variants": [
+        {
+          "keyword": "agents",
+          "count": 147
         }
       ]
     },
     {
       "keyword": "multimodal",
-      "count": 134,
+      "count": 144,
       "canonical_key": "multimodal",
       "variants": [
         {
           "keyword": "multimodal",
-          "count": 134
-        }
-      ]
-    },
-    {
-      "keyword": "object",
-      "count": 131,
-      "canonical_key": "object",
-      "variants": [
-        {
-          "keyword": "object",
-          "count": 131
-        }
-      ]
-    },
-    {
-      "keyword": "optimization",
-      "count": 122,
-      "canonical_key": "optimization",
-      "variants": [
-        {
-          "keyword": "optimization",
-          "count": 122
-        }
-      ]
-    },
-    {
-      "keyword": "reconstruction",
-      "count": 117,
-      "canonical_key": "reconstruction",
-      "variants": [
-        {
-          "keyword": "reconstruction",
-          "count": 117
-        }
-      ]
-    },
-    {
-      "keyword": "vision",
-      "count": 116,
-      "canonical_key": "vision",
-      "variants": [
-        {
-          "keyword": "vision",
-          "count": 116
+          "count": 144
         }
       ]
     },
     {
       "keyword": "estimation",
-      "count": 115,
+      "count": 138,
       "canonical_key": "estimation",
       "variants": [
         {
           "keyword": "estimation",
-          "count": 115
+          "count": 138
+        }
+      ]
+    },
+    {
+      "keyword": "optimization",
+      "count": 138,
+      "canonical_key": "optimization",
+      "variants": [
+        {
+          "keyword": "optimization",
+          "count": 138
+        }
+      ]
+    },
+    {
+      "keyword": "knowledge",
+      "count": 131,
+      "canonical_key": "knowledge",
+      "variants": [
+        {
+          "keyword": "knowledge",
+          "count": 131
+        }
+      ]
+    },
+    {
+      "keyword": "machine learning",
+      "count": 127,
+      "canonical_key": "machine_learning",
+      "variants": [
+        {
+          "keyword": "machine learning",
+          "count": 127
+        }
+      ]
+    },
+    {
+      "keyword": "reconstruction",
+      "count": 125,
+      "canonical_key": "reconstruction",
+      "variants": [
+        {
+          "keyword": "reconstruction",
+          "count": 125
         }
       ]
     },
     {
       "keyword": "federated learning",
-      "count": 112,
+      "count": 122,
       "canonical_key": "federated_learning",
       "variants": [
         {
           "keyword": "federated learning",
-          "count": 112
-        }
-      ]
-    },
-    {
-      "keyword": "generative",
-      "count": 111,
-      "canonical_key": "generative",
-      "variants": [
-        {
-          "keyword": "generative",
-          "count": 111
+          "count": 122
         }
       ]
     }
@@ -442,21 +446,21 @@
   "merged_groups": [
     {
       "keyword": "large language model",
-      "count": 1575,
+      "count": 1617,
       "topic_id": "large_language_model",
       "canonical_key": "large_language_model",
       "variants": [
         {
           "keyword": "large language model",
-          "count": 1379
+          "count": 1414
         },
         {
           "keyword": "large language",
-          "count": 718
+          "count": 742
         },
         {
           "keyword": "language models",
-          "count": 699
+          "count": 724
         },
         {
           "keyword": "multimodal large language",
@@ -464,23 +468,23 @@
         },
         {
           "keyword": "language model",
-          "count": 115
+          "count": 121
         }
       ]
     },
     {
       "keyword": "diffusion model",
-      "count": 429,
+      "count": 441,
       "topic_id": "diffusion_model",
       "canonical_key": "diffusion_model",
       "variants": [
         {
           "keyword": "diffusion",
-          "count": 304
+          "count": 311
         },
         {
           "keyword": "diffusion model",
-          "count": 299
+          "count": 310
         },
         {
           "keyword": "denoising diffusion model",
@@ -490,33 +494,49 @@
     },
     {
       "keyword": "reinforcement learning",
-      "count": 319,
+      "count": 347,
       "topic_id": "reinforcement_learning",
       "canonical_key": "reinforcement_learning",
       "variants": [
         {
           "keyword": "reinforcement learning",
-          "count": 292
+          "count": 313
         },
         {
           "keyword": "deep reinforcement learning",
-          "count": 27
+          "count": 34
+        }
+      ]
+    },
+    {
+      "keyword": "segmentation",
+      "count": 222,
+      "topic_id": "segmentation",
+      "canonical_key": "segmentation",
+      "variants": [
+        {
+          "keyword": "segmentation",
+          "count": 194
+        },
+        {
+          "keyword": "image segmentation",
+          "count": 50
         }
       ]
     },
     {
       "keyword": "vision language model",
-      "count": 205,
+      "count": 207,
       "topic_id": "vision_language_model",
       "canonical_key": "vision_language_model",
       "variants": [
         {
           "keyword": "vision language models",
-          "count": 158
+          "count": 160
         },
         {
           "keyword": "vision language",
-          "count": 78
+          "count": 79
         },
         {
           "keyword": "vlm",
@@ -529,30 +549,29 @@
       ]
     },
     {
-      "keyword": "segmentation",
-      "count": 203,
-      "topic_id": "segmentation",
-      "canonical_key": "segmentation",
+      "keyword": "neural networks",
+      "count": 194,
+      "canonical_key": "neural_networks",
       "variants": [
         {
-          "keyword": "segmentation",
-          "count": 176
+          "keyword": "neural networks",
+          "count": 193
         },
         {
-          "keyword": "image segmentation",
-          "count": 47
+          "keyword": "neural networks’",
+          "count": 1
         }
       ]
     },
     {
       "keyword": "transformer",
-      "count": 148,
+      "count": 155,
       "topic_id": "transformer",
       "canonical_key": "transformer",
       "variants": [
         {
           "keyword": "transformer",
-          "count": 145
+          "count": 152
         },
         {
           "keyword": "transformer architecture",
@@ -561,14 +580,50 @@
       ]
     },
     {
+      "keyword": "object detection",
+      "count": 120,
+      "topic_id": "object_detection",
+      "canonical_key": "object_detection",
+      "variants": [
+        {
+          "keyword": "object detection",
+          "count": 118
+        },
+        {
+          "keyword": "object localization",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 116,
+      "topic_id": "graph_neural_network",
+      "canonical_key": "graph_neural_network",
+      "variants": [
+        {
+          "keyword": "graph neural networks",
+          "count": 81
+        },
+        {
+          "keyword": "graph neural network",
+          "count": 32
+        },
+        {
+          "keyword": "gnn",
+          "count": 5
+        }
+      ]
+    },
+    {
       "keyword": "alignment",
-      "count": 102,
+      "count": 107,
       "topic_id": "alignment",
       "canonical_key": "alignment",
       "variants": [
         {
           "keyword": "alignment",
-          "count": 102
+          "count": 107
         },
         {
           "keyword": "model alignment",
@@ -593,34 +648,14 @@
       ]
     },
     {
-      "keyword": "graph neural network",
-      "count": 83,
-      "topic_id": "graph_neural_network",
-      "canonical_key": "graph_neural_network",
-      "variants": [
-        {
-          "keyword": "graph neural networks",
-          "count": 58
-        },
-        {
-          "keyword": "graph neural network",
-          "count": 22
-        },
-        {
-          "keyword": "gnn",
-          "count": 5
-        }
-      ]
-    },
-    {
       "keyword": "image generation",
-      "count": 66,
+      "count": 69,
       "topic_id": "image_generation",
       "canonical_key": "image_generation",
       "variants": [
         {
           "keyword": "image generation",
-          "count": 52
+          "count": 55
         },
         {
           "keyword": "image synthesis",
@@ -630,28 +665,28 @@
     },
     {
       "keyword": "retrieval augmented generation",
-      "count": 62,
+      "count": 65,
       "topic_id": "retrieval_augmented_generation",
       "canonical_key": "retrieval_augmented_generation",
       "variants": [
         {
           "keyword": "retrieval augmented generation",
-          "count": 37
+          "count": 39
         },
         {
           "keyword": "rag",
-          "count": 33
+          "count": 35
         }
       ]
     },
     {
       "keyword": "distillation",
-      "count": 59,
+      "count": 62,
       "canonical_key": "distillation",
       "variants": [
         {
           "keyword": "distillation",
-          "count": 58
+          "count": 61
         },
         {
           "keyword": "distillationƒ",
@@ -661,13 +696,13 @@
     },
     {
       "keyword": "representation learning",
-      "count": 52,
+      "count": 58,
       "topic_id": "representation_learning",
       "canonical_key": "representation_learning",
       "variants": [
         {
           "keyword": "representation learning",
-          "count": 44
+          "count": 50
         },
         {
           "keyword": "feature learning",
@@ -677,13 +712,13 @@
     },
     {
       "keyword": "contrastive learning",
-      "count": 45,
+      "count": 57,
       "topic_id": "contrastive_learning",
       "canonical_key": "contrastive_learning",
       "variants": [
         {
           "keyword": "contrastive learning",
-          "count": 43
+          "count": 55
         },
         {
           "keyword": "contrastive representation learning",
@@ -693,12 +728,12 @@
     },
     {
       "keyword": "knowledge distillation",
-      "count": 39,
+      "count": 44,
       "canonical_key": "knowledge_distillation",
       "variants": [
         {
           "keyword": "knowledge distillation",
-          "count": 38
+          "count": 43
         },
         {
           "keyword": "knowledge distillationƒ",
@@ -708,13 +743,13 @@
     },
     {
       "keyword": "self supervised learning",
-      "count": 32,
+      "count": 37,
       "topic_id": "self_supervised_learning",
       "canonical_key": "self_supervised_learning",
       "variants": [
         {
           "keyword": "self supervised learning",
-          "count": 27
+          "count": 32
         },
         {
           "keyword": "ssl",
@@ -724,17 +759,21 @@
     },
     {
       "keyword": "imitation learning",
-      "count": 25,
+      "count": 31,
       "topic_id": "imitation_learning",
       "canonical_key": "imitation_learning",
       "variants": [
         {
           "keyword": "imitation learning",
-          "count": 23
+          "count": 28
         },
         {
           "keyword": "behavioral cloning",
           "count": 2
+        },
+        {
+          "keyword": "learning from demonstration",
+          "count": 1
         }
       ]
     },
@@ -750,6 +789,21 @@
         },
         {
           "keyword": "long context modeling",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "keyword": "varepsilon",
+      "count": 13,
+      "canonical_key": "varepsilon",
+      "variants": [
+        {
+          "keyword": "varepsilon",
+          "count": 12
+        },
+        {
+          "keyword": "varepsilon,δ",
           "count": 1
         }
       ]
@@ -771,23 +825,8 @@
       ]
     },
     {
-      "keyword": "varepsilon",
-      "count": 12,
-      "canonical_key": "varepsilon",
-      "variants": [
-        {
-          "keyword": "varepsilon",
-          "count": 11
-        },
-        {
-          "keyword": "varepsilon,δ",
-          "count": 1
-        }
-      ]
-    },
-    {
       "keyword": "diffusion policy",
-      "count": 10,
+      "count": 11,
       "topic_id": "diffusion_policy",
       "canonical_key": "diffusion_policy",
       "variants": [
@@ -797,13 +836,13 @@
         },
         {
           "keyword": "diffusion policies",
-          "count": 2
+          "count": 3
         }
       ]
     },
     {
       "keyword": "open vocabulary detection",
-      "count": 7,
+      "count": 8,
       "topic_id": "open_vocabulary_detection",
       "canonical_key": "open_vocabulary_detection",
       "variants": [
@@ -813,7 +852,7 @@
         },
         {
           "keyword": "open vocabulary detection",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -832,56 +871,26 @@
           "count": 1
         }
       ]
-    },
-    {
-      "keyword": "burgers equation",
-      "count": 2,
-      "canonical_key": "burgers_equation",
-      "variants": [
-        {
-          "keyword": "burgers equation",
-          "count": 1
-        },
-        {
-          "keyword": "burgers' equation",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "keyword": "pad",
-      "count": 2,
-      "canonical_key": "pad",
-      "variants": [
-        {
-          "keyword": "pad",
-          "count": 1
-        },
-        {
-          "keyword": "padé",
-          "count": 1
-        }
-      ]
     }
   ],
   "filtered_noise": {
-    "row_count": 967,
+    "row_count": 1057,
     "examples": [
       {
         "keyword": "language",
-        "count": 324
+        "count": 349
       },
       {
         "keyword": "image",
-        "count": 291
+        "count": 316
       },
       {
         "keyword": "visual",
-        "count": 187
+        "count": 203
       },
       {
         "keyword": "neural",
-        "count": 164
+        "count": 188
       },
       {
         "keyword": "imageƒ",
@@ -889,9 +898,9 @@
       }
     ]
   },
-  "raw_distinct_keywords": 80837,
-  "canonical_distinct_keywords": 80799,
-  "generated_at": "2026-05-21T11:27:49.278812",
+  "raw_distinct_keywords": 91119,
+  "canonical_distinct_keywords": 91077,
+  "generated_at": "2026-05-21T14:11:46.743434",
   "policy": {
     "taxonomy_policy": "DeepTrender canonical topics backed by arXiv, ACM CCS, and Papers with Code mappings where configured.",
     "alias_policy": "strict taxonomy aliases plus export-only keyword_stat_aliases for extractor fragments."

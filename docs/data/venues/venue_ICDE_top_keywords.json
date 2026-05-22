@@ -1,1 +1,1262 @@
-{}
+{
+  "2020": [
+    {
+      "keyword": "query",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "adaptive top k overlap",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "allocation",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "allocation for network",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "application to feature",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "approximate maximum",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "approximate maximum independent",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "attribute",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "attribute domain",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "bayesian",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "bayesian networks",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "bidirectional",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "bidirectional order",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "bidirectional order dependencies",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "big categorical data",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "cargo",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "cargo loading",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "cargo loading plan",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "categories",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "category",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "category hierarchy soft",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "chip",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "compatibility oriented storage stacks",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "computing mutual",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "computing mutual information",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "concise",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "concise and informative",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "data in relational",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "data lakes",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "data summarization",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "data summarizer",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "databases",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "dependency",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "dynamic",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "dynamic approximate maximum",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "efficient and scalable",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "efficient bidirectional order",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "efficient joinable table",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "efficient random walk",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "electronics",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "experts",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "feature grouping",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "fill",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "fill vc allocation",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "finding joinable tables",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "hierarchy",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "hierarchy soft constraint",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "high dimensional similarity based approach",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "improvement",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "independent set",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2021": [
+    {
+      "keyword": "reinforcement learning",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "advertising",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "assisted bandit",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "assisted bandit learning",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "autonomous materialized view",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "baidu",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "baidu image",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "baidu image advertising",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "bandit",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "challenging spider dataset",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "compression",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "contextual bandit",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "contextual bandit learning",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "crowdrebate",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "crowdrebate platform",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "crowdrebate problem",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "crowdrl",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "data labelling",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "data series",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "data series collections",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "database",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "database exploration",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "database information",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "deep reinforcement",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "delivery",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "delivery problems",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "desired",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "desired tuples",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "differentially private",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "differentially private publication",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "differentially private sequential",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "dpdp",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "dynamic pickup",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "e commerce",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "e commerce recommendation systems",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "effective platform",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "error bounded lossy compression",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "exploration",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "fake click",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "fake click information",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "finding and ranking",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "graphics processing units",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "hash",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "hash functions",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "hash tables",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "heterogeneous information",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "heterogeneous information assisted",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "hucb algorithm",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "improving prediction based lossy",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "industry scale dynamic pickup",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2022": [
+    {
+      "keyword": "entity",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "recommendation",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "answer",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "answer explanation",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "assignment",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "auxiliary information",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "bilateral preference aware task",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "boosting",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "boosting entity mention",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "boosting retrieval",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "buying",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "buying recommendation model",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "centralized",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "centralized ledger",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "centralized ledger database",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "certa",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "clean time",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "clean time series",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "community aware social recommendation",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "conditional regression rules",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "contrastive alignment",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "crowdsourcing",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "crrs",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "data provenance improves",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "database",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "deep learning",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "deep learning framework",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "delta",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "demonstration of fine",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "dependency discovery",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "distilled evidences",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "dynamic",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "dynamic functional dependency",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "dynamic hitting set",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "effective explanations",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "emd",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "emd globalizer",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "emd systems",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "entity mention detection",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "entity resolution",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "entity resolution models",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "evidence",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "evidence distillation",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "existing emd systems",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "existing question answering",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "explanation",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "explanations",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "extended",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "extended abstract",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "federated deep",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2023": [
+    {
+      "keyword": "platform",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "accurate yet fast",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "adaptive stream",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "adaptive stream partitioner",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "aggregation",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "analytics",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "batch based cooperative task",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "bcta",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "click through rate",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "click through rate prediction",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "clustering",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "clustering results",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "cooperative task",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "cooperative task assignment",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "cpix",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "crossing city poi recommendations",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "data streams",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "dbms",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "dbms fuzzing",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "dbms fuzzing coverage",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "deep",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "deep feature based text",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "deep neural",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "deep neural network",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "domain specific knowledge bases",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "efficient platform",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "explainable table",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "explainable table interpretation",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "explanations",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "extended abstract",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "fast version",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "fast version switching",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "feature based text clustering",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "federated learning",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "federated learning acceleration",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "financial",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "financial knowledge base",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "fuzzing",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "global machine learning",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "graph",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "graph processing",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "graph version switching",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "hierarchical interest modeling",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "improve dbms fuzzing",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "incremental",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "incremental sliding window",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "incremental sliding window aggregation",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "interest modeling",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "interpretation",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "knowledge",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2024": [
+    {
+      "keyword": "anomaly detection",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "extended abstract",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "graphs",
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "keyword": "multivariate time series",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "time",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "time series",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "accelerating sparse",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "accelerating sparse matrix matrix",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "accurate discharge medication",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "additional numeric attributes",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "anchored vertex",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "anchored vertex tracking",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "anomaly",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "anomaly detection method",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "asymmetry",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "attention alignment",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "attribute correlation",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "automatic medication recommendation",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "based methods",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "binary treatment assignment",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "business",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "business intelligence",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "cascade",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "causal implicit generative",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "causal learning",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "clustering",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "complex event summarization",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "complex social",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "complex social event",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "computation",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "concurrency",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "configuration",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "cores",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "cost aware binary treatment",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "cross modal",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "cross modal image text retrieval",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "data augmentation",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "data systems",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "data systems performance",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "database management system",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "datalab",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "debiased online",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "debiased online trajectory",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "decoupled spatial temporal representations",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "denoising high order graph",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "detection",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "direct roi",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "direct roi prediction",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "discharge medication",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "discharge medication recommendation",
+      "count": 1,
+      "rank": 50
+    }
+  ]
+}

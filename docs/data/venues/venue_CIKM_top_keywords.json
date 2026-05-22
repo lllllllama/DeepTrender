@@ -1,0 +1,1262 @@
+{
+  "2020": [
+    {
+      "keyword": "search",
+      "count": 3,
+      "rank": 1
+    },
+    {
+      "keyword": "click through rate",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "click through rate prediction",
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "keyword": "ctr",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "ctr prediction",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "detection",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "information",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "prediction",
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "keyword": "rate prediction",
+      "count": 2,
+      "rank": 9
+    },
+    {
+      "keyword": "recommendation",
+      "count": 2,
+      "rank": 10
+    },
+    {
+      "keyword": "web",
+      "count": 2,
+      "rank": 11
+    },
+    {
+      "keyword": "active",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "active search",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "analytics",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "analyzing product",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "anomalous feature transfers",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "anomaly",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "anomaly subgraph",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "anomaly subgraph detection",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "answer",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "answer generation",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "argument mining",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "articles",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "attention",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "attribution",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "automatic unbiased",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "automatic unbiased learning",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "bandit",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "base",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "base bandits",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "benchmark tasks",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "benchmarking",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "bing web search",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "bridging the gap",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "bundle recommendation",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "causality learning",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "claim detection",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "click",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "click data",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "commonsense knowledge base",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "confidence",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "context aware speaker",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "context aware speaker recognition",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "cost",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "cost estimation",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "cost estimation technique",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "covariate shift",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "credibility",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "credibility research",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2021": [
+    {
+      "keyword": "graph",
+      "count": 3,
+      "rank": 1
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 3,
+      "rank": 2
+    },
+    {
+      "keyword": "information",
+      "count": 3,
+      "rank": 3
+    },
+    {
+      "keyword": "contrastive learning",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "graph neural",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "heterogeneous",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "link prediction",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "neural network",
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "keyword": "prediction",
+      "count": 2,
+      "rank": 9
+    },
+    {
+      "keyword": "ada",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "adasim",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "aging issue",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "ambiguous relation classification",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "anomaly",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "anomaly detection framework",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "assessment",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "assisting manual",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "assisting manual fact checking",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "based on euclidean",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "based on hybrid",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "batch based task assignment",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "claims",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "classification",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "click through rate",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "click through rate prediction",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "closing",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "closing higher order motifs",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "concept drift",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "constructing noise free",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "context information",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "contextualizing scientific claims",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "contrastive pre training",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "credit",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "credit risk",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "credit risk assessment",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "cross features",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "crowdsourcing with untrusted",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "ctr",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "ctr prediction",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "deep learning",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "deep learning models",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "deep learning software",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "deep learning technologies",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "deep traffic models",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "description framework",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "detecting",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "detecting and contextualizing",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "detection",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "detection leveraging multi level",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "distance matrix",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2022": [
+    {
+      "keyword": "recommendation",
+      "count": 4,
+      "rank": 1
+    },
+    {
+      "keyword": "domain",
+      "count": 3,
+      "rank": 2
+    },
+    {
+      "keyword": "knowledge",
+      "count": 3,
+      "rank": 3
+    },
+    {
+      "keyword": "deep reinforcement",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "graph",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "knowledge graphs",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "action space",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "action space search",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "adapted xai solution",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "addressing cold",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "addressing cold start",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "advanced",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "advanced query",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "advanced query generation",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "adversarial adaptation",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "adversarial spatial temporal network",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "artificial intelligence",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "attention based personalized",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "attention based personalized federated",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "automated randomization validation",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "automated test quality",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "automatic dbscan parameters",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "automatically select",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "automating dbscan",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "bert",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "bert latent",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "bert latent space",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "bert vector space",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "biased continuous feedback",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "biased feedback",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "causal",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "causal effects",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "causal effects estimation",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "chilean social",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "chilean social outbreak",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "chinese",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "chinese characters",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "chinese word",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "chinese word embeddings",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "cold",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "cold start",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "complex deep learning",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "compression",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "constraints",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "continuous biased feedback",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "continuous feedback",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "contrastive learning",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "contrastive variational",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "contrastive variational autoencoder",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2023": [
+    {
+      "keyword": "graph",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "knowledge",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "product",
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "keyword": "recommendation",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "access",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "access information",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "adaptive",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "adaptive testing",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "adaptive testing framework",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "advisors",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "algebraic word problems",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "analyzing index",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "analyzing index advisors",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "anomaly detection inspired",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "aspect aware entities",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "aspect related",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "aspect related images",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "association rule",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "association rule hiding",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "asymmetric contrastive",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "asymmetric contrastive learning",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "benchmarking heterogeneous graph",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "bidirectional transformer",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "bootstrap proportion test",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "brand",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "brand lift",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "brand lift test",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "catastrophic interference",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "class incremental",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "class incremental learning",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "co purchase",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "co purchase correlation",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "community",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "community questions",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "computerized adaptive",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "computerized adaptive testing",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "conservation",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "contrastive learning",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "corpora",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "correlation",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "detection inspired class",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "diverse",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "diverse corpora",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "dual level asymmetric contrastive",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "dynamic sparse graph",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "effective graph embedding",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "effects",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "efficient knowledge extraction",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "embedding",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2024": [
+    {
+      "keyword": "knowledge",
+      "count": 3,
+      "rank": 1
+    },
+    {
+      "keyword": "recommendation",
+      "count": 3,
+      "rank": 2
+    },
+    {
+      "keyword": "sequential recommendation",
+      "count": 3,
+      "rank": 3
+    },
+    {
+      "keyword": "contrastive learning",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "generation",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "learning model",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "recommendation systems",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "retrieval augmented",
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "keyword": "retrieval augmented generation",
+      "count": 2,
+      "rank": 9
+    },
+    {
+      "keyword": "adversarial attack",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "alignment",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "amia",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "anomaly detection performance",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "answering",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "artificial intelligence",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "attack",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "attack effectiveness",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "attributions for informative",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "bidirectional",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "bidirectional encoding",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "bidirectional encoding network",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "bots shield fake",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "bridging user dynamics",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "causal discovery",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "chronological order",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "cikm",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "cikm mmsr",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "clinical",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "clinical notes",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "cloud sequences learning",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "complex information landscapes",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "complex scenarios",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "compositional and hierarchical",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "confidence aware privileged feature",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "consumption",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "contrastive bidirectional",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "contrastive bidirectional encoding",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "conversations",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "correcting biases",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "dense features",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "detection models",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "discovery",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "distillation",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "efficient and secure",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "energy",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "energy consumption",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "energy consumption prediction",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "engagement based fake",
+      "count": 1,
+      "rank": 50
+    }
+  ]
+}

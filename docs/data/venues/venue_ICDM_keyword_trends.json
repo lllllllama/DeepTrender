@@ -1,0 +1,8102 @@
+{
+  "graph neural network": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 3,
+      "rank": 1
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 22
+    }
+  ],
+  "neural networks": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 52
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "year": 2023,
+      "count": 3,
+      "rank": 2
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph neural": [
+    {
+      "year": 2020,
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph classification": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 23
+    }
+  ],
+  "temporal": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 66
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 52
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "generative adversarial network": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 20
+    }
+  ],
+  "modeling": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 2,
+      "rank": 1
+    }
+  ],
+  "user": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 2,
+      "rank": 2
+    }
+  ],
+  "accurate time": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "accurate time series": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "additive": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "adversarial": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "adversarial attacks": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "attacks": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "classification": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "closeness": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "closeness calculation": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cyber attack detection": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "cyber attacks": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "defending water treatment": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "derivation of prediction": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "detect cyber attacks": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "directories": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "document": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "document directories": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "efficient top k": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "efficient top k temporal": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "exploiting spatio temporal effects": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "expressive graph": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "expressive graph neural": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "expressive graph representations": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "extend deep neural": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "fast and accurate": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "feature ranking": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "flights": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "flights graph": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "flights graph convolutional": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "generalizing universal": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "generalizing universal adversarial": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph convolutional": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph convolutional networks": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph representation learning": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph topology": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "influence of feature": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "interpreting influence": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "interval search": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "l vy flights graph": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "levitating": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "levy flights": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "lfgcn": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "massive document directories": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "mining text": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "mining text outliers": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "models for screening": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 50
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "neural network": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 51
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "nodes": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 53
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "outliers": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 54
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "perturbation": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 55
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "prediction models": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 56
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "questionnaires optimization": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 57
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "ranking in derivation": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 58
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "screening questionnaires": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 59
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "screening questionnaires optimization": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 60
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "select important nodes": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 61
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "spatio temporal effects": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 62
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "supervised interval": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 63
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "supervised interval search": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 64
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "supervised time series": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 65
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "temporal closeness calculation": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 67
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "text": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 68
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "text outliers": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 69
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "time series": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 70
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "time series classification": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 71
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "time series forest": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 72
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "top k": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 73
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "top k temporal": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 74
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "top k temporal closeness": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 75
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "universal": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 76
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "universal adversarial": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 77
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "universal adversarial attacks": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 78
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "water treatment": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 79
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "water treatment networks": [
+    {
+      "year": 2020,
+      "count": 1,
+      "rank": 80
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "active pairwise": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 1
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "active pairwise comparisons": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "adaptive kernel density": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "adversarial network": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "algorithm for robust": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "arbitrary": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "arbitrary number": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "architecture search": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "budget": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bypass leakage": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "darts": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "data generation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "data generation model": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "data generation process": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "density": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "density estimation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "detecting and mitigating": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "eliminating information bypass": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "end nas method": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "estimation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "explicit sparse": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "explicit sparse regularization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "failure risks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "generation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "information bypass": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "information bypass leakage": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "integrates context free grammar": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "isolation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "isolation kernel": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "isolation kernel density": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "kernel": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "kernel density": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "kernel density estimation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "layers": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "meet context free": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "meet context free grammar": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "mitigating test time": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "mitigating test time failure": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "model agnostic uncertainty learning": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "networks meet": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "networks meet context free": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "neural architecture": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "neural architecture search": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "neural networks meet": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "number": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "pairwise active": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "pairwise active recovery": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "pca": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 50
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "principal component analysis": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 51
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "recovery": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 52
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "recurrent neural": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 53
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "recurrent neural network": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 54
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "risk advisor": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 55
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "risk advisor reliably": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 56
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "robust": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 57
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "robust subspace": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 58
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "robust subspace recovery": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 59
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "robustifying darts": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 60
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "search": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 61
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "shoestring": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 62
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "shoestring budget": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 63
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sparse regularization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 64
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "subspace": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 65
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "subspace recovery": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 66
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "tabular": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 67
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "tabular data": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 68
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "tabular data generation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 69
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "test time failure risks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 70
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "well known principal component": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 71
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "winner": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 72
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "winner determination": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 1,
+      "rank": 73
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "alternating propagation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 1
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bmf methods": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "boolean matrix": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "boolean matrix factorization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bug": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bug localization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bug localization methods": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "bug report": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "control flow": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "control flow graph": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "critical neurons": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "deep neural networks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "dynamic": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "dynamic hypergraphs": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "dynamic networks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "flow graph": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "guarantee": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "high frequency stock": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "high frequency stock movement": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "hybrid interpretable": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "hybrid interpretable transformer": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "hyperbolic": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "hyperbolic network": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "hypergraph": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "hypergraph hyperbolic network": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "kernel based hybrid interpretable": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "learn neural networks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "learning for sets": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "matrix": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "matrix factorization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "movement prediction task": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "multi level abstraction": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "networks": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "networks mechanism": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "neural networks mechanism": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "neurons": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "precision guarantee": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "preserving": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "preserving representation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "preserving representation learning": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "representation learning": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sets": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "similarity": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "similarity preserving": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "similarity preserving representation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stock": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stock movement": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "stock movement prediction": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "symmetric": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 50
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "symmetric variables": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 51
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "time evolving dynamic hypergraphs": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 53
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "usual bmf methods": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 54
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "variables": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 1,
+      "rank": 55
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "anti noise muiti view feature": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "balancing graph summarization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "change": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "change detection": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "classic contextual combinatorial": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "clustering": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "clustering enables": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "combinatorial bandit": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "combinatorial bandit problem": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "combinatorial multi armed bandit": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "contextual combinatorial bandit": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "contextual combinatorial multi armed": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "current multi view feature": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "decision focused graph neural": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "decision focused learning": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "detection": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "dfl": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "distribution based": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "distribution based trajectory": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "distribution based trajectory clustering": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "effective entity alignment": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "entity alignment": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "equipping federated graph": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "evolving temporal knowledge": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "fair federated graph": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "feature": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "feature selection": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "feature selection algorithms": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "federated graph neural": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph attention network": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph change": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph change detection": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph convolutional network": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph structure": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph structure feature": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph structure feature co refinement": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "graph summarization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "keynotes": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "knowledge": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "knowledge graphs": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "multi view": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "multi view feature": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "multi view feature selection": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "neural contextual": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "neural contextual combinatorial": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "non stationary neural contextual": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 50
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "optimization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 51
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "optimization layer": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 52
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "ricci": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 53
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "ricci curvature": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 54
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "sample constraints": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 55
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "selection": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 56
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "self supervised graph": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 57
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "self supervised graph structure feature": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 58
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "structure aware group": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 59
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "structure aware group fairness": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 60
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "summarization": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 61
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "temporal knowledge": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 62
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "temporal knowledge graphs": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 63
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "tidkc": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 64
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "tkgs": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 65
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "trajectory": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 66
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "trajectory clustering": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 67
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "trajectory clustering enables": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 1,
+      "rank": 68
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "rank": 0
+    }
+  ],
+  "adversarial denoise": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 3
+    }
+  ],
+  "adversarial denoise imputation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 4
+    }
+  ],
+  "adversarial denoise network": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 5
+    }
+  ],
+  "bi level user modeling": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 6
+    }
+  ],
+  "cover": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 7
+    }
+  ],
+  "cover page": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 8
+    }
+  ],
+  "deep recommender systems": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 9
+    }
+  ],
+  "deep recommenders": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 10
+    }
+  ],
+  "denoise imputation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 11
+    }
+  ],
+  "denoise imputation network": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 12
+    }
+  ],
+  "drs": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 13
+    }
+  ],
+  "emerging": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 14
+    }
+  ],
+  "emerging intents": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 15
+    }
+  ],
+  "exploitation or exploration": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 16
+    }
+  ],
+  "exploration": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 17
+    }
+  ],
+  "generative adversarial": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 18
+    }
+  ],
+  "generative adversarial denoise": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 19
+    }
+  ],
+  "gprec": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 21
+    }
+  ],
+  "graph classification requires": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 24
+    }
+  ],
+  "group": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 25
+    }
+  ],
+  "icdm": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 26
+    }
+  ],
+  "imputation network": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 27
+    }
+  ],
+  "incomplete data": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 28
+    }
+  ],
+  "intents": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 29
+    }
+  ],
+  "key": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 30
+    }
+  ],
+  "key subgraph": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 31
+    }
+  ],
+  "next item recommendation": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 32
+    }
+  ],
+  "page": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 33
+    }
+  ],
+  "shopping": [
+    {
+      "year": 2020,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "rank": 34
+    }
+  ]
+}

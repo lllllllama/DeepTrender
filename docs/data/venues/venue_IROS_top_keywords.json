@@ -1,0 +1,1262 @@
+{
+  "2020": [
+    {
+      "keyword": "robot",
+      "count": 4,
+      "rank": 1
+    },
+    {
+      "keyword": "model predictive control",
+      "count": 3,
+      "rank": 2
+    },
+    {
+      "keyword": "planning",
+      "count": 3,
+      "rank": 3
+    },
+    {
+      "keyword": "autonomous",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "autonomous driving",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "convolutional neural network",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "depth",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "detection",
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "keyword": "driving",
+      "count": 2,
+      "rank": 9
+    },
+    {
+      "keyword": "dynamic",
+      "count": 2,
+      "rank": 10
+    },
+    {
+      "keyword": "estimation",
+      "count": 2,
+      "rank": 11
+    },
+    {
+      "keyword": "mobile robot",
+      "count": 2,
+      "rank": 12
+    },
+    {
+      "keyword": "model predictive",
+      "count": 2,
+      "rank": 13
+    },
+    {
+      "keyword": "modeling",
+      "count": 2,
+      "rank": 14
+    },
+    {
+      "keyword": "neural network",
+      "count": 2,
+      "rank": 15
+    },
+    {
+      "keyword": "online",
+      "count": 2,
+      "rank": 16
+    },
+    {
+      "keyword": "point cloud",
+      "count": 2,
+      "rank": 17
+    },
+    {
+      "keyword": "point cloud data",
+      "count": 2,
+      "rank": 18
+    },
+    {
+      "keyword": "radar",
+      "count": 2,
+      "rank": 19
+    },
+    {
+      "keyword": "robots",
+      "count": 2,
+      "rank": 20
+    },
+    {
+      "keyword": "slam",
+      "count": 2,
+      "rank": 21
+    },
+    {
+      "keyword": "visual odometry",
+      "count": 2,
+      "rank": 22
+    },
+    {
+      "keyword": "abstractions",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "abstractions for autonomous",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "aerial ground robots",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "affordance based mobile robot",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "aggregation approach",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "alignment",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "alignment and change",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "annoyance aware preference",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "anomaly",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "application code",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "approach to spatiotemporal",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "assembly",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "attention network",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "attributes with category free",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "autonomous mobile robot",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "autonomous robot navigation",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "autonomous vehicles",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "autopilot system developed",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "aware preference",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "aware preference elicitation",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "based graph slam",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "based large scale slam",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "based monocular visual",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "based programmable",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "based programmable matter",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "behavior",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "behavior trees",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2021": [
+    {
+      "keyword": "robot",
+      "count": 4,
+      "rank": 1
+    },
+    {
+      "keyword": "control",
+      "count": 3,
+      "rank": 2
+    },
+    {
+      "keyword": "manipulation",
+      "count": 3,
+      "rank": 3
+    },
+    {
+      "keyword": "motion planning",
+      "count": 3,
+      "rank": 4
+    },
+    {
+      "keyword": "demonstrations",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "detection",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "estimation",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "motion",
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "keyword": "planning",
+      "count": 2,
+      "rank": 9
+    },
+    {
+      "keyword": "prediction",
+      "count": 2,
+      "rank": 10
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 2,
+      "rank": 11
+    },
+    {
+      "keyword": "robots",
+      "count": 2,
+      "rank": 12
+    },
+    {
+      "keyword": "tactile sensing",
+      "count": 2,
+      "rank": 13
+    },
+    {
+      "keyword": "achieves terrain detection",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "action space",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "active",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "active locomotion",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "active visual",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "active visual search",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "actor critic deep reinforcement",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "admittance controller based teleoperation",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "aerial",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "aerial manipulators",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "aircraft unmanned system",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "angles",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "assisting kinesthetic teaching",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "asynchronous actions",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "atmospheric",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "atmospheric sensing uas",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "attachment mechanism",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "attachment positions",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "attacking",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "attacking an automated",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "automated",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "automated turret",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "automatic learning",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "automatic learning system",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "autonomous aerial",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "autonomous bi manual",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "autonomous bi manual surgical",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "autonomous cooperative transportation",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "aware assistance",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "backchannel",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "based on skills",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "based on transformer",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "bayes",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "bayes tree",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "bi manual surgical",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "bi manual surgical suturing",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "bilevel planning",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2022": [
+    {
+      "keyword": "robot",
+      "count": 3,
+      "rank": 1
+    },
+    {
+      "keyword": "aerial",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "bin",
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "keyword": "control",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "deep learning",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "design",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "lidar sensors",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "motions",
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "keyword": "navigation",
+      "count": 2,
+      "rank": 9
+    },
+    {
+      "keyword": "objects",
+      "count": 2,
+      "rank": 10
+    },
+    {
+      "keyword": "path",
+      "count": 2,
+      "rank": 11
+    },
+    {
+      "keyword": "picking",
+      "count": 2,
+      "rank": 12
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 2,
+      "rank": 13
+    },
+    {
+      "keyword": "accurate",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "accurate robot control",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "active space debris",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "adapting simultaneous mapping",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "adaptive computed",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "adaptive computed torque",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "aerial images",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "aerial manipulation",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "aerial pickup",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "aerial pruning",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "agency orbital robotics",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "algorithm for high speed",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "algorithm for informative",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "amod systems",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "amorphous obstacle navigation",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "ana avatar xprize",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "analysis and retargeting",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "animation",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "animation for immersive",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "antagonist agonist artificial muscles",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "apple",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "apple trees",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "applies batch picking",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "arm",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "arm motions",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "artificial muscles",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "asynchronous optical",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "asynchronous optical communications",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "attention deep",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "attention deep learning",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "auto store",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "auto store bin",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "auto store bin picking",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "automated driving systems",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "autonomous obstacle detection",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "autonomous robotic",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "autonomous robotic manipulation",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2023": [
+    {
+      "keyword": "planning",
+      "count": 5,
+      "rank": 1
+    },
+    {
+      "keyword": "robot",
+      "count": 4,
+      "rank": 2
+    },
+    {
+      "keyword": "environments",
+      "count": 3,
+      "rank": 3
+    },
+    {
+      "keyword": "model predictive control",
+      "count": 3,
+      "rank": 4
+    },
+    {
+      "keyword": "path planning",
+      "count": 3,
+      "rank": 5
+    },
+    {
+      "keyword": "control",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "estimation",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "motion planning",
+      "count": 2,
+      "rank": 8
+    },
+    {
+      "keyword": "navigation",
+      "count": 2,
+      "rank": 9
+    },
+    {
+      "keyword": "pose",
+      "count": 2,
+      "rank": 10
+    },
+    {
+      "keyword": "pose estimation",
+      "count": 2,
+      "rank": 11
+    },
+    {
+      "keyword": "real data",
+      "count": 2,
+      "rank": 12
+    },
+    {
+      "keyword": "robot navigation",
+      "count": 2,
+      "rank": 13
+    },
+    {
+      "keyword": "simultaneous localization",
+      "count": 2,
+      "rank": 14
+    },
+    {
+      "keyword": "uncertainty",
+      "count": 2,
+      "rank": 15
+    },
+    {
+      "keyword": "unstructured outdoor environments",
+      "count": 2,
+      "rank": 16
+    },
+    {
+      "keyword": "actively reusing",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "actively reusing validation",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "adaptive time surface",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "aerial vehicles",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "aggressive trajectory generation",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "amphibious design",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "amphibious uavs",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "amphibious uavs feature",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "angle estimation",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "anthropomorphic dual arms",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "approximation",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "approximation and particle",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "aquatic robot quadruped",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "articulated rigid",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "articulated rigid bodies",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "artificial neural networks",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "assistance personalization control",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "automated palletizing tasks",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "automation",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "autonomous drone racing",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "autonomous exploration",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "autonomous micro aerial",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "autonomous mission planning",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "autonomous racing drones",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "barrier function",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "barriers for scalable",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "based total time",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "benefits under time",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "bev",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "bev representation",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "biomimetic skin",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "biomimetic skin morphology",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "biped robot",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "biped robot walking",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2024": [
+    {
+      "keyword": "large language model",
+      "count": 4,
+      "rank": 1
+    },
+    {
+      "keyword": "control",
+      "count": 3,
+      "rank": 2
+    },
+    {
+      "keyword": "integrating large language",
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "keyword": "point",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "pose",
+      "count": 2,
+      "rank": 5
+    },
+    {
+      "keyword": "segmentation",
+      "count": 2,
+      "rank": 6
+    },
+    {
+      "keyword": "teleoperation",
+      "count": 2,
+      "rank": 7
+    },
+    {
+      "keyword": "accuracy and stability",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "admittance",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "admittance control",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "ai enhanced uavs utilizing",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "air vehicles",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "aligned image pair",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "applied on quadruped",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "autonomous exploration",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "autonomous mobile",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "autonomous mobile manipulator",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "battery disassembly",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "battery disassembly autonomous",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "bidirectional non overlapping filtering",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "bimanual",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "bimanual dexterous",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "bimanual dexterous teleoperation",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "calibration free vision assisted container",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "camera radar sensor fusion",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "challenging robotics control",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "cloud",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "collision injury protection",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "competency",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "complex human instructions",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "complex maritime",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "complex maritime situations",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "conditional generative",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "conditional generative denoiser",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "conflict based search",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "constraints",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "contact",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "container loading",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "continuous",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "continuous paths",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "continuous time",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "continuoustime conflict based search",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "control problems",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "coordinating multiple robots",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "covolutional neural network",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "current physical interaction",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "data capture",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "data sets",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "denoiser for nighttime",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "deployment of vision based",
+      "count": 1,
+      "rank": 50
+    }
+  ]
+}

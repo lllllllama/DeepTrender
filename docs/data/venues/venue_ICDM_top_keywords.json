@@ -1,0 +1,1217 @@
+{
+  "2020": [
+    {
+      "keyword": "graph",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "graph neural",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "keyword": "accurate time",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "accurate time series",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "additive",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "adversarial",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "adversarial attacks",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "attacks",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "classification",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "closeness",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "closeness calculation",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "cyber attack detection",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "cyber attacks",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "defending water treatment",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "derivation of prediction",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "detect cyber attacks",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "directories",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "document",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "document directories",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "efficient top k",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "efficient top k temporal",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "exploiting spatio temporal effects",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "expressive graph",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "expressive graph neural",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "expressive graph representations",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "extend deep neural",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "fast and accurate",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "feature ranking",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "flights",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "flights graph",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "flights graph convolutional",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "generalizing universal",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "generalizing universal adversarial",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "graph classification",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "graph convolutional",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "graph convolutional networks",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "graph representation learning",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "graph topology",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "influence of feature",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "interpreting influence",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "interval search",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "l vy flights graph",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "levitating",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "levy flights",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "lfgcn",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "massive document directories",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "mining text",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "mining text outliers",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "models for screening",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2021": [
+    {
+      "keyword": "active pairwise",
+      "count": 1,
+      "rank": 1
+    },
+    {
+      "keyword": "active pairwise comparisons",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "adaptive kernel density",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "adversarial network",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "algorithm for robust",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "arbitrary",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "arbitrary number",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "architecture search",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "budget",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "bypass leakage",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "darts",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "data generation",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "data generation model",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "data generation process",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "density",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "density estimation",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "detecting and mitigating",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "eliminating information bypass",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "end nas method",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "estimation",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "explicit sparse",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "explicit sparse regularization",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "failure risks",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "generation",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "generative adversarial network",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "information bypass",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "information bypass leakage",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "integrates context free grammar",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "isolation",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "isolation kernel",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "isolation kernel density",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "kernel",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "kernel density",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "kernel density estimation",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "layers",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "meet context free",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "meet context free grammar",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "mitigating test time",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "mitigating test time failure",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "model agnostic uncertainty learning",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "networks meet",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "networks meet context free",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "neural architecture",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "neural architecture search",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "neural networks meet",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "number",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "pairwise active",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "pairwise active recovery",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "pca",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2022": [
+    {
+      "keyword": "alternating propagation",
+      "count": 1,
+      "rank": 1
+    },
+    {
+      "keyword": "bmf methods",
+      "count": 1,
+      "rank": 2
+    },
+    {
+      "keyword": "boolean matrix",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "boolean matrix factorization",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "bug",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "bug localization",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "bug localization methods",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "bug report",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "control flow",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "control flow graph",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "critical neurons",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "deep neural networks",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "dynamic",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "dynamic hypergraphs",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "dynamic networks",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "flow graph",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "guarantee",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "high frequency stock",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "high frequency stock movement",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "hybrid interpretable",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "hybrid interpretable transformer",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "hyperbolic",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "hyperbolic network",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "hypergraph",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "hypergraph hyperbolic network",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "kernel based hybrid interpretable",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "learn neural networks",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "learning for sets",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "matrix",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "matrix factorization",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "movement prediction task",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "multi level abstraction",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "networks",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "networks mechanism",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "neural networks",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "neural networks mechanism",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "neurons",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "precision guarantee",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "preserving",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "preserving representation",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "preserving representation learning",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "representation learning",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "sets",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "similarity",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "similarity preserving",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "similarity preserving representation",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "stock",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "stock movement",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "stock movement prediction",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "symmetric",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2023": [
+    {
+      "keyword": "graph neural network",
+      "count": 3,
+      "rank": 1
+    },
+    {
+      "keyword": "neural networks",
+      "count": 3,
+      "rank": 2
+    },
+    {
+      "keyword": "graph",
+      "count": 2,
+      "rank": 3
+    },
+    {
+      "keyword": "graph neural",
+      "count": 2,
+      "rank": 4
+    },
+    {
+      "keyword": "anti noise muiti view feature",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "balancing graph summarization",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "change",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "change detection",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "classic contextual combinatorial",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "clustering",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "clustering enables",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "combinatorial bandit",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "combinatorial bandit problem",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "combinatorial multi armed bandit",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "contextual combinatorial bandit",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "contextual combinatorial multi armed",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "current multi view feature",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "decision focused graph neural",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "decision focused learning",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "detection",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "dfl",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "distribution based",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "distribution based trajectory",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "distribution based trajectory clustering",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "effective entity alignment",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "entity alignment",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "equipping federated graph",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "evolving temporal knowledge",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "fair federated graph",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "feature",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "feature selection",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "feature selection algorithms",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "federated graph neural",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "graph attention network",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "graph change",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "graph change detection",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "graph convolutional network",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "graph structure",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "graph structure feature",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "graph structure feature co refinement",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "graph summarization",
+      "count": 1,
+      "rank": 41
+    },
+    {
+      "keyword": "keynotes",
+      "count": 1,
+      "rank": 42
+    },
+    {
+      "keyword": "knowledge",
+      "count": 1,
+      "rank": 43
+    },
+    {
+      "keyword": "knowledge graphs",
+      "count": 1,
+      "rank": 44
+    },
+    {
+      "keyword": "multi view",
+      "count": 1,
+      "rank": 45
+    },
+    {
+      "keyword": "multi view feature",
+      "count": 1,
+      "rank": 46
+    },
+    {
+      "keyword": "multi view feature selection",
+      "count": 1,
+      "rank": 47
+    },
+    {
+      "keyword": "neural contextual",
+      "count": 1,
+      "rank": 48
+    },
+    {
+      "keyword": "neural contextual combinatorial",
+      "count": 1,
+      "rank": 49
+    },
+    {
+      "keyword": "non stationary neural contextual",
+      "count": 1,
+      "rank": 50
+    }
+  ],
+  "2024": [
+    {
+      "keyword": "modeling",
+      "count": 2,
+      "rank": 1
+    },
+    {
+      "keyword": "user",
+      "count": 2,
+      "rank": 2
+    },
+    {
+      "keyword": "adversarial denoise",
+      "count": 1,
+      "rank": 3
+    },
+    {
+      "keyword": "adversarial denoise imputation",
+      "count": 1,
+      "rank": 4
+    },
+    {
+      "keyword": "adversarial denoise network",
+      "count": 1,
+      "rank": 5
+    },
+    {
+      "keyword": "bi level user modeling",
+      "count": 1,
+      "rank": 6
+    },
+    {
+      "keyword": "cover",
+      "count": 1,
+      "rank": 7
+    },
+    {
+      "keyword": "cover page",
+      "count": 1,
+      "rank": 8
+    },
+    {
+      "keyword": "deep recommender systems",
+      "count": 1,
+      "rank": 9
+    },
+    {
+      "keyword": "deep recommenders",
+      "count": 1,
+      "rank": 10
+    },
+    {
+      "keyword": "denoise imputation",
+      "count": 1,
+      "rank": 11
+    },
+    {
+      "keyword": "denoise imputation network",
+      "count": 1,
+      "rank": 12
+    },
+    {
+      "keyword": "drs",
+      "count": 1,
+      "rank": 13
+    },
+    {
+      "keyword": "emerging",
+      "count": 1,
+      "rank": 14
+    },
+    {
+      "keyword": "emerging intents",
+      "count": 1,
+      "rank": 15
+    },
+    {
+      "keyword": "exploitation or exploration",
+      "count": 1,
+      "rank": 16
+    },
+    {
+      "keyword": "exploration",
+      "count": 1,
+      "rank": 17
+    },
+    {
+      "keyword": "generative adversarial",
+      "count": 1,
+      "rank": 18
+    },
+    {
+      "keyword": "generative adversarial denoise",
+      "count": 1,
+      "rank": 19
+    },
+    {
+      "keyword": "generative adversarial network",
+      "count": 1,
+      "rank": 20
+    },
+    {
+      "keyword": "gprec",
+      "count": 1,
+      "rank": 21
+    },
+    {
+      "keyword": "graph",
+      "count": 1,
+      "rank": 22
+    },
+    {
+      "keyword": "graph classification",
+      "count": 1,
+      "rank": 23
+    },
+    {
+      "keyword": "graph classification requires",
+      "count": 1,
+      "rank": 24
+    },
+    {
+      "keyword": "group",
+      "count": 1,
+      "rank": 25
+    },
+    {
+      "keyword": "icdm",
+      "count": 1,
+      "rank": 26
+    },
+    {
+      "keyword": "imputation network",
+      "count": 1,
+      "rank": 27
+    },
+    {
+      "keyword": "incomplete data",
+      "count": 1,
+      "rank": 28
+    },
+    {
+      "keyword": "intents",
+      "count": 1,
+      "rank": 29
+    },
+    {
+      "keyword": "key",
+      "count": 1,
+      "rank": 30
+    },
+    {
+      "keyword": "key subgraph",
+      "count": 1,
+      "rank": 31
+    },
+    {
+      "keyword": "next item recommendation",
+      "count": 1,
+      "rank": 32
+    },
+    {
+      "keyword": "page",
+      "count": 1,
+      "rank": 33
+    },
+    {
+      "keyword": "shopping",
+      "count": 1,
+      "rank": 34
+    },
+    {
+      "keyword": "single",
+      "count": 1,
+      "rank": 35
+    },
+    {
+      "keyword": "single key",
+      "count": 1,
+      "rank": 36
+    },
+    {
+      "keyword": "single key subgraph",
+      "count": 1,
+      "rank": 37
+    },
+    {
+      "keyword": "traditional graph classification",
+      "count": 1,
+      "rank": 38
+    },
+    {
+      "keyword": "user behavior decoupling",
+      "count": 1,
+      "rank": 39
+    },
+    {
+      "keyword": "user modeling",
+      "count": 1,
+      "rank": 40
+    },
+    {
+      "keyword": "weakly supervised graph classification",
+      "count": 1,
+      "rank": 41
+    }
+  ]
+}
