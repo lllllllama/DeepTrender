@@ -130,6 +130,10 @@ Run a small update:
 python src/main.py --source arxiv --arxiv-days 7 --arxiv-max-results 200 --limit 200
 ```
 
+The pipeline rebuilds the derived `paper_topics` fact layer after keyword
+analysis so topic queries use persisted facts by default. For quick ingestion
+smoke runs, add `--skip-topic-facts`.
+
 Run a broad bootstrap:
 
 ```bash

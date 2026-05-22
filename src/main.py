@@ -68,6 +68,34 @@ def resolve_crawl_options(
     }
 
 
+def run_topic_fact_rebuild(
+    *,
+    skip_topic_facts: bool = False,
+    include_child_topics: bool = False,
+    rebuild_func=None,
+) -> dict | None:
+    """Rebuild persisted topic facts after keyword analysis."""
+
+    if skip_topic_facts:
+        print("\n[topic facts] Rebuild skipped")
+        return None
+
+    if rebuild_func is None:
+        from services.topic_facts import rebuild_paper_topics as rebuild_func
+
+    print("\n[topic facts] Rebuilding paper_topics")
+    summary = rebuild_func(include_children=include_child_topics)
+    print(
+        "   processed={processed_papers} matched={matched_papers} facts={topic_match_count}".format(
+            **summary
+        )
+    )
+    if summary.get("warnings"):
+        for warning in summary["warnings"]:
+            print(f"   warning: {warning.get('code')}: {warning.get('message')}")
+    return summary
+
+
 def run_pipeline(
     sources: List[str] = None,
     arxiv_days: int = 7,
@@ -79,6 +107,8 @@ def run_pipeline(
     full_crawl: bool = False,
     skip_ingestion: bool = False,
     skip_structuring: bool = False,
+    skip_topic_facts: bool = False,
+    include_child_topics: bool = False,
 ) -> str:
     print("=" * 60)
     print("DeepTrender - Three-stage Pipeline")
@@ -139,6 +169,11 @@ def run_pipeline(
         analysis_agent.run(method="yake", limit=limit)
         analysis_agent.run(method="keybert", limit=limit)
 
+    run_topic_fact_rebuild(
+        skip_topic_facts=skip_topic_facts,
+        include_child_topics=include_child_topics,
+    )
+
     try:
         from analysis.arxiv_agent import ArxivAnalysisAgent
 
@@ -192,8 +227,22 @@ def main():
         action="store_true",
         help="Use broad first-run crawl defaults for GitHub Actions/bootstrap runs",
     )
-    parser.add_argument("--skip-ingestion", action="store_true", help="Skip ingestion stage")
-    parser.add_argument("--skip-structuring", action="store_true", help="Skip structuring stage")
+    parser.add_argument(
+        "--skip-ingestion", action="store_true", help="Skip ingestion stage"
+    )
+    parser.add_argument(
+        "--skip-structuring", action="store_true", help="Skip structuring stage"
+    )
+    parser.add_argument(
+        "--skip-topic-facts",
+        action="store_true",
+        help="Skip rebuilding the derived paper_topics fact layer",
+    )
+    parser.add_argument(
+        "--include-child-topics",
+        action="store_true",
+        help="Explicitly include child taxonomy topics when rebuilding paper_topics",
+    )
 
     args = parser.parse_args()
     sources = None if args.source == "all" else [args.source]
@@ -209,6 +258,8 @@ def main():
         full_crawl=args.full_crawl,
         skip_ingestion=args.skip_ingestion,
         skip_structuring=args.skip_structuring,
+        skip_topic_facts=args.skip_topic_facts,
+        include_child_topics=args.include_child_topics,
     )
 
 

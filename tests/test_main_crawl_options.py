@@ -5,6 +5,7 @@ from main import (
     FULL_CRAWL_ARXIV_MAX_RESULTS,
     FULL_CRAWL_PROCESSING_LIMIT,
     resolve_crawl_options,
+    run_topic_fact_rebuild,
 )
 
 
@@ -53,3 +54,56 @@ def test_incremental_options_keep_small_defaults():
     assert options["arxiv_days"] == 7
     assert options["arxiv_max_results"] == 1000
     assert options["limit"] == 5000
+
+
+def test_topic_fact_rebuild_runs_by_default():
+    calls = []
+
+    def fake_rebuild(**kwargs):
+        calls.append(kwargs)
+        return {
+            "processed_papers": 3,
+            "matched_papers": 2,
+            "topic_match_count": 4,
+            "warnings": [],
+        }
+
+    summary = run_topic_fact_rebuild(rebuild_func=fake_rebuild)
+
+    assert calls == [{"include_children": False}]
+    assert summary["topic_match_count"] == 4
+
+
+def test_topic_fact_rebuild_can_include_children():
+    calls = []
+
+    def fake_rebuild(**kwargs):
+        calls.append(kwargs)
+        return {
+            "processed_papers": 1,
+            "matched_papers": 1,
+            "topic_match_count": 2,
+            "warnings": [],
+        }
+
+    run_topic_fact_rebuild(include_child_topics=True, rebuild_func=fake_rebuild)
+
+    assert calls == [{"include_children": True}]
+
+
+def test_topic_fact_rebuild_can_be_skipped():
+    calls = []
+
+    def fake_rebuild(**kwargs):
+        calls.append(kwargs)
+        return {
+            "processed_papers": 1,
+            "matched_papers": 1,
+            "topic_match_count": 1,
+            "warnings": [],
+        }
+
+    summary = run_topic_fact_rebuild(skip_topic_facts=True, rebuild_func=fake_rebuild)
+
+    assert summary is None
+    assert calls == []
