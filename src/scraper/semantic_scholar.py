@@ -12,6 +12,7 @@ from typing import List, Optional, Iterator, Dict, Any
 from dataclasses import dataclass
 
 from .models import Paper
+from .ccf_registry import load_ccf_venue_registry
 
 
 logger = logging.getLogger(__name__)
@@ -114,6 +115,26 @@ S2_VENUES: Dict[str, SemanticScholarConfig] = {
     "ICRA": SemanticScholarConfig("ICRA", "IEEE International Conference on Robotics and Automation", "ICRA", RECENT_ANNUAL_YEARS),
     "IROS": SemanticScholarConfig("IROS", "IEEE/RSJ International Conference on Intelligent Robots and Systems", "IROS", RECENT_ANNUAL_YEARS),
 }
+
+
+def _extend_s2_venues_from_ccf_registry() -> None:
+    """Populate Semantic Scholar coverage from the CCF venue registry."""
+
+    for venue in load_ccf_venue_registry().values():
+        if not venue.s2_venue_key:
+            continue
+        S2_VENUES.setdefault(
+            venue.canonical_name,
+            SemanticScholarConfig(
+                name=venue.canonical_name,
+                full_name=venue.full_name,
+                venue_query=venue.s2_venue_key,
+                years=RECENT_ANNUAL_YEARS,
+            ),
+        )
+
+
+_extend_s2_venues_from_ccf_registry()
 
 
 class SemanticScholarClient:

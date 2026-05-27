@@ -1,1741 +1,6381 @@
 {
   "large language model": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 2,
+      "relative_frequency": 0.000667,
       "rank": 1
     },
     {
       "year": 2026,
       "count": 5,
+      "relative_frequency": 0.102041,
       "rank": 1
     }
   ],
   "time": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 4,
+      "relative_frequency": 0.081633,
       "rank": 2
     }
   ],
   "series": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.061224,
       "rank": 3
     }
   ],
   "time series": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.061224,
       "rank": 4
     }
   ],
   "multimodal": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 2,
+      "relative_frequency": 0.000667,
       "rank": 2
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "additive models": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 5
     }
   ],
   "bias": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 6
     }
   ],
   "causal": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 7
     }
   ],
   "distribution shift": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 8
     }
   ],
   "education": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 9
     }
   ],
   "forecasting": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 10
     }
   ],
   "foundation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 11
     }
   ],
   "generation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 12
     }
   ],
   "grounding": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 13
     }
   ],
   "reinforcement learning": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 14
     }
   ],
   "scalable": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 15
     }
   ],
   "time series forecasting": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.040816,
       "rank": 16
     }
   ],
   "action recognition": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 3
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "awareness": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 4
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "battery": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 5
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "battery longevity": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 6
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "benchmarking": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 7
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "benchmarking financial": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 8
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "benchmarking financial multimodal": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 9
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "charging": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 10
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "cognitive analytic therapy": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 11
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "computation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 12
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "delayed full charging": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 13
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "departure": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 14
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "depressive": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 15
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "depressive symptoms": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 16
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "depressive symptoms identification": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 17
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "document understanding": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 18
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "enabling delayed full": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 19
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "enabling delayed full charging": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 20
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "fine grained": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 21
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "fine grained action": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 22
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "fine grained action recognition": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 23
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "longevity": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 24
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "mama memeia": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 25
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "memes": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 26
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "modeling": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 27
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "multi aspect multi agent collaboration": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 28
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "multi hop": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 29
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "multi hop reasoning": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 30
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "multi modal large language": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 31
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "multi step computation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 32
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "multimodal multi hop": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 33
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "multimodal multi hop reasoning": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 34
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "perform multi modal multi hop": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 35
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "reasoning": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 36
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "recognizing fine grained actions": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 37
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "scenario awareness": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 38
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "sequence": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 39
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "skeleton": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 40
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "symptoms": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 41
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "symptoms identification": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 42
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "temporal": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 43
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "temporal corruption": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 44
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "transformer based": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 45
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "understanding": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 1,
+      "relative_frequency": 0.000333,
       "rank": 46
     },
     {
       "year": 2026,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
   "accelerating dynamic": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 17
     }
   ],
   "accelerating dynamic adapter": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 18
     }
   ],
   "accurate air quality": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 19
     }
   ],
   "accurately upscaling terrestrial": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 20
     }
   ],
   "act": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 21
     }
   ],
   "action outcome circuit": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 22
     }
   ],
   "adaptation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 23
     }
   ],
   "adaptation time": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 24
     }
   ],
   "additive": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 25
     }
   ],
   "aids": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 26
     }
   ],
   "aids indoor": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 27
     }
   ],
   "aids indoor wireless": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 28
     }
   ],
   "aigc era": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 29
     }
   ],
   "air quality": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 30
     }
   ],
   "air quality forecasting": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 31
     }
   ],
   "aligned knowledge tracing": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 32
     }
   ],
   "analysis method": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 33
     }
   ],
   "angiogram": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 34
     }
   ],
   "anomaly detection": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 35
     }
   ],
   "asymmetric hierarchical": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 36
     }
   ],
   "asymmetric hierarchical attention": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 37
     }
   ],
   "attention gathers": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 38
     }
   ],
   "attention heads act": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 39
     }
   ],
   "attention network": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 40
     }
   ],
   "autonomous network": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 41
     }
   ],
   "autonomous network incident": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 42
     }
   ],
   "behavior alignment": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 43
     }
   ],
   "bridging day": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 44
     }
   ],
   "carbon fluxes": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 45
     }
   ],
   "causal additive": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 46
     }
   ],
   "causal additive models": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 47
     }
   ],
   "causal analysis": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 48
     }
   ],
   "causal diagnostics": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 49
     }
   ],
   "causal graphs": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 50
     }
   ],
   "causal structure": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 51
     }
   ],
   "causal structure learning": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 52
     }
   ],
   "central": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 53
     }
   ],
   "choices": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 54
     }
   ],
   "circuit": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 55
     }
   ],
   "class": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 56
     }
   ],
   "class composition bias": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 57
     }
   ],
   "clustering": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 58
     }
   ],
   "cold start": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 59
     }
   ],
   "cold start recommendation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 60
     }
   ],
   "combinatorial": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 61
     }
   ],
   "combinatorial problems": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 62
     }
   ],
   "compose": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 63
     }
   ],
   "composition": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 64
     }
   ],
   "composition bias": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 65
     }
   ],
   "compositionality": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 66
     }
   ],
   "consciousness indicator assays": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 67
     }
   ],
   "consciousness recommend mechanism linked": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 68
     }
   ],
   "control methods": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 69
     }
   ],
   "copilots": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 70
     }
   ],
   "corpus and methods": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 71
     }
   ],
   "cuda kernel": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 72
     }
   ],
   "curated test time": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 73
     }
   ],
   "curated test time adaptation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 74
     }
   ],
   "cycle consistent learning": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 75
     }
   ],
   "daily": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 76
     }
   ],
   "daily fantasy": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 77
     }
   ],
   "daily fantasy sports": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 78
     }
   ],
   "dataset distillation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 79
     }
   ],
   "day": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 80
     }
   ],
   "day and night": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 81
     }
   ],
   "ddpg": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 82
     }
   ],
   "ddpg agent": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 83
     }
   ],
   "ddpg feasible set": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 84
     }
   ],
   "decoupled functional": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 85
     }
   ],
   "decoupled functional modules": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 86
     }
   ],
   "deep deterministic policy": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 87
     }
   ],
   "deep generative": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 88
     }
   ],
   "deep generative models": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 89
     }
   ],
   "deep interest network": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 90
     }
   ],
   "deep learning models": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 91
     }
   ],
   "deep ode networks": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 92
     }
   ],
   "deformable state space": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 93
     }
   ],
   "delay differential": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 94
     }
   ],
   "delay differential equations": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 95
     }
   ],
   "deterministic policy gradient": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 96
     }
   ],
   "diagnostics in smart": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 97
     }
   ],
   "diffusion enhanced neural": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 98
     }
   ],
   "diffusion enhanced neural representation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 99
     }
   ],
   "diffusion model": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2025,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.020408,
       "rank": 100
     }
   ]

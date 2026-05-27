@@ -1,449 +1,2817 @@
 {
   "action segmentation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 1
     }
   ],
   "adaptive network": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 2
     }
   ],
   "adaptive network named": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 3
     }
   ],
   "approximately": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 4
     }
   ],
   "approximately consensus": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 5
     }
   ],
   "artificial": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 6
     }
   ],
   "artificial intelligence": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 7
     }
   ],
   "black box models era": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 8
     }
   ],
   "clinical graph": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 9
     }
   ],
   "clinical graph structure": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 10
     }
   ],
   "clinical texts": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 11
     }
   ],
   "common ground": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 12
     }
   ],
   "eeg seizure": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 13
     }
   ],
   "eeg seizure diagnosis": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 14
     }
   ],
   "empirical risk minimization": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 15
     }
   ],
   "enhancing representation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 16
     }
   ],
   "enhancing representation learning": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 17
     }
   ],
   "entropy semi supervised inverse": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 18
     }
   ],
   "evaluating llms": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 19
     }
   ],
   "evaluating llms performance": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 20
     }
   ],
   "extraction in spanish": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 21
     }
   ],
   "finding common": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 22
     }
   ],
   "finding common ground": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 23
     }
   ],
   "graph": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 24
     }
   ],
   "ground": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 25
     }
   ],
   "habit extraction": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 26
     }
   ],
   "hoi": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 27
     }
   ],
   "hoi aware adaptive": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 28
     }
   ],
   "hoi aware adaptive network": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 29
     }
   ],
   "intelligence": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 30
     }
   ],
   "inverse reinforcement": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 31
     }
   ],
   "inverse reinforcement learning": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 32
     }
   ],
   "language semantic": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 33
     }
   ],
   "language semantic profiling": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 34
     }
   ],
   "learning theory": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 35
     }
   ],
   "maximum entropy": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 36
     }
   ],
   "maximum entropy principle": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 37
     }
   ],
   "maximum entropy semi supervised": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 38
     }
   ],
   "models era": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 39
     }
   ],
   "natural": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 40
     }
   ],
   "natural language": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 41
     }
   ],
   "natural language processing": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 42
     }
   ],
   "natural language semantic": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 43
     }
   ],
   "neuro symbolic artificial": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 44
     }
   ],
   "neuro symbolic artificial intelligence": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 45
     }
   ],
   "platform via natural": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 46
     }
   ],
   "reinforcement": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 47
     }
   ],
   "reinforcement learning": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 48
     }
   ],
   "representation learning": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 49
     }
   ],
   "representation learning challenging": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 50
     }
   ],
   "segmentation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 51
     }
   ],
   "semantic profiling": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 52
     }
   ],
   "semi supervised inverse reinforcement": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 53
     }
   ],
   "spanish clinical": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 54
     }
   ],
   "spanish clinical texts": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 55
     }
   ],
   "task directed survey": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 56
     }
   ],
   "theory of finding": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 57
     }
   ],
   "toxic habit": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 58
     }
   ],
   "toxic habit extraction": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 59
     }
   ],
   "toxic habits named": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 60
     }
   ],
   "video": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 61
     }
   ],
   "video retrieval platform": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 62
     }
   ],
   "weakly supervised action": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 63
     }
   ],
   "weakly supervised action segmentation": [
     {
+      "year": 2020,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2021,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 64
     }
   ]

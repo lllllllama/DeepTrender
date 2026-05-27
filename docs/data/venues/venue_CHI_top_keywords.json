@@ -1,1262 +1,1513 @@
 {
   "2020": [
     {
-      "keyword": "devices",
-      "count": 3,
+      "keyword": "design",
+      "count": 21,
+      "relative_frequency": 0.027097,
       "rank": 1
     },
     {
-      "keyword": "mobile",
-      "count": 3,
+      "keyword": "virtual reality",
+      "count": 10,
+      "relative_frequency": 0.012903,
       "rank": 2
     },
     {
-      "keyword": "care",
-      "count": 2,
+      "keyword": "text",
+      "count": 9,
+      "relative_frequency": 0.011613,
       "rank": 3
     },
     {
-      "keyword": "design",
-      "count": 2,
+      "keyword": "virtual",
+      "count": 9,
+      "relative_frequency": 0.011613,
       "rank": 4
     },
     {
-      "keyword": "objects",
-      "count": 2,
+      "keyword": "hci",
+      "count": 7,
+      "relative_frequency": 0.009032,
       "rank": 5
     },
     {
-      "keyword": "people",
-      "count": 2,
+      "keyword": "reality",
+      "count": 7,
+      "relative_frequency": 0.009032,
       "rank": 6
     },
     {
-      "keyword": "spatial",
-      "count": 2,
+      "keyword": "designing",
+      "count": 6,
+      "relative_frequency": 0.007742,
       "rank": 7
     },
     {
-      "keyword": "technology",
-      "count": 2,
+      "keyword": "interaction",
+      "count": 6,
+      "relative_frequency": 0.007742,
       "rank": 8
     },
     {
-      "keyword": "text",
-      "count": 2,
+      "keyword": "devices",
+      "count": 5,
+      "relative_frequency": 0.006452,
       "rank": 9
     },
     {
-      "keyword": "touch",
-      "count": 2,
+      "keyword": "mobile",
+      "count": 5,
+      "relative_frequency": 0.006452,
       "rank": 10
     },
     {
-      "keyword": "access",
-      "count": 1,
+      "keyword": "people",
+      "count": 5,
+      "relative_frequency": 0.006452,
       "rank": 11
     },
     {
-      "keyword": "access control",
-      "count": 1,
+      "keyword": "social",
+      "count": 5,
+      "relative_frequency": 0.006452,
       "rank": 12
     },
     {
-      "keyword": "addressed consent banners",
-      "count": 1,
+      "keyword": "care",
+      "count": 4,
+      "relative_frequency": 0.005161,
       "rank": 13
     },
     {
-      "keyword": "affect regulation",
-      "count": 1,
+      "keyword": "interactive",
+      "count": 4,
+      "relative_frequency": 0.005161,
       "rank": 14
     },
     {
-      "keyword": "affect regulation technology",
-      "count": 1,
+      "keyword": "online",
+      "count": 4,
+      "relative_frequency": 0.005161,
       "rank": 15
     },
     {
-      "keyword": "affects united",
-      "count": 1,
+      "keyword": "support",
+      "count": 4,
+      "relative_frequency": 0.005161,
       "rank": 16
     },
     {
-      "keyword": "affects united states",
-      "count": 1,
+      "keyword": "technologies",
+      "count": 4,
+      "relative_frequency": 0.005161,
       "rank": 17
     },
     {
-      "keyword": "affordances outweigh",
-      "count": 1,
+      "keyword": "technology",
+      "count": 4,
+      "relative_frequency": 0.005161,
       "rank": 18
     },
     {
-      "keyword": "affordances outweigh attributes",
-      "count": 1,
+      "keyword": "text entry",
+      "count": 4,
+      "relative_frequency": 0.005161,
       "rank": 19
     },
     {
-      "keyword": "anti elab movement",
-      "count": 1,
+      "keyword": "understanding",
+      "count": 4,
+      "relative_frequency": 0.005161,
       "rank": 20
     },
     {
-      "keyword": "approach for quantitatively",
-      "count": 1,
+      "keyword": "agency",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 21
     },
     {
-      "keyword": "arrays for reconfigurable",
-      "count": 1,
+      "keyword": "amazon mechanical turk",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 22
     },
     {
-      "keyword": "assistive technology",
-      "count": 1,
+      "keyword": "augmented reality",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 23
     },
     {
-      "keyword": "audio tactile crossword puzzle",
-      "count": 1,
+      "keyword": "awareness",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 24
     },
     {
-      "keyword": "authoring",
-      "count": 1,
+      "keyword": "community",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 25
     },
     {
-      "keyword": "authoring system",
-      "count": 1,
+      "keyword": "conversational agents",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 26
     },
     {
-      "keyword": "average internet user",
-      "count": 1,
+      "keyword": "design space",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 27
     },
     {
-      "keyword": "banners",
-      "count": 1,
+      "keyword": "dynamics",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 28
     },
     {
-      "keyword": "barriers",
-      "count": 1,
+      "keyword": "exploring",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 29
     },
     {
-      "keyword": "barriers to stopping",
-      "count": 1,
+      "keyword": "facebook",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 30
     },
     {
-      "keyword": "blind people",
-      "count": 1,
+      "keyword": "feedback",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 31
     },
     {
-      "keyword": "boat",
-      "count": 1,
+      "keyword": "interface",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 32
     },
     {
-      "keyword": "breathing pacer",
-      "count": 1,
+      "keyword": "machine",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 33
     },
     {
-      "keyword": "capturing experts",
-      "count": 1,
+      "keyword": "making",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 34
     },
     {
-      "keyword": "capturing experts mental",
-      "count": 1,
+      "keyword": "mental",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 35
     },
     {
-      "keyword": "care conception",
-      "count": 1,
+      "keyword": "objects",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 36
     },
     {
-      "keyword": "care work",
-      "count": 1,
+      "keyword": "privacy",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 37
     },
     {
-      "keyword": "challenge public",
-      "count": 1,
+      "keyword": "smart home",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 38
     },
     {
-      "keyword": "challenge public understanding",
-      "count": 1,
+      "keyword": "social media",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 39
     },
     {
-      "keyword": "cheat",
-      "count": 1,
+      "keyword": "touch",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 40
     },
     {
-      "keyword": "cheat sheets",
-      "count": 1,
+      "keyword": "user",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 41
     },
     {
-      "keyword": "chinese language validation",
-      "count": 1,
+      "keyword": "user interface",
+      "count": 3,
+      "relative_frequency": 0.003871,
       "rank": 42
     },
     {
-      "keyword": "co creation cards",
-      "count": 1,
+      "keyword": "acceptability",
+      "count": 2,
+      "relative_frequency": 0.002581,
       "rank": 43
     },
     {
-      "keyword": "co designed",
-      "count": 1,
+      "keyword": "activity",
+      "count": 2,
+      "relative_frequency": 0.002581,
       "rank": 44
     },
     {
-      "keyword": "cognitive",
-      "count": 1,
+      "keyword": "adults",
+      "count": 2,
+      "relative_frequency": 0.002581,
       "rank": 45
     },
     {
-      "keyword": "cognitive load",
-      "count": 1,
+      "keyword": "barriers",
+      "count": 2,
+      "relative_frequency": 0.002581,
       "rank": 46
     },
     {
-      "keyword": "collaborative immersive",
-      "count": 1,
+      "keyword": "bringing",
+      "count": 2,
+      "relative_frequency": 0.002581,
       "rank": 47
     },
     {
-      "keyword": "collaborative immersive authoring",
-      "count": 1,
+      "keyword": "building",
+      "count": 2,
+      "relative_frequency": 0.002581,
       "rank": 48
     },
     {
-      "keyword": "community based access control",
-      "count": 1,
+      "keyword": "children",
+      "count": 2,
+      "relative_frequency": 0.002581,
       "rank": 49
     },
     {
-      "keyword": "comparison of audio tactile",
-      "count": 1,
+      "keyword": "cognitive load",
+      "count": 2,
+      "relative_frequency": 0.002581,
       "rank": 50
     }
   ],
   "2021": [
     {
-      "keyword": "health",
-      "count": 2,
+      "keyword": "design",
+      "count": 15,
+      "relative_frequency": 0.020027,
       "rank": 1
     },
     {
-      "keyword": "mental health",
-      "count": 2,
+      "keyword": "older",
+      "count": 7,
+      "relative_frequency": 0.009346,
       "rank": 2
     },
     {
-      "keyword": "people",
-      "count": 2,
+      "keyword": "privacy",
+      "count": 7,
+      "relative_frequency": 0.009346,
       "rank": 3
     },
     {
-      "keyword": "wild",
-      "count": 2,
+      "keyword": "interaction",
+      "count": 6,
+      "relative_frequency": 0.008011,
       "rank": 4
     },
     {
-      "keyword": "abuse",
-      "count": 1,
+      "keyword": "older adults",
+      "count": 6,
+      "relative_frequency": 0.008011,
       "rank": 5
     },
     {
-      "keyword": "accessible",
-      "count": 1,
+      "keyword": "people",
+      "count": 6,
+      "relative_frequency": 0.008011,
       "rank": 6
     },
     {
-      "keyword": "accessible videos",
-      "count": 1,
+      "keyword": "social",
+      "count": 6,
+      "relative_frequency": 0.008011,
       "rank": 7
     },
     {
-      "keyword": "activities for people",
-      "count": 1,
+      "keyword": "augmented reality",
+      "count": 5,
+      "relative_frequency": 0.006676,
       "rank": 8
     },
     {
-      "keyword": "advance health",
-      "count": 1,
+      "keyword": "hci",
+      "count": 5,
+      "relative_frequency": 0.006676,
       "rank": 9
     },
     {
-      "keyword": "advance health equity",
-      "count": 1,
+      "keyword": "user",
+      "count": 5,
+      "relative_frequency": 0.006676,
       "rank": 10
     },
     {
-      "keyword": "advice",
-      "count": 1,
+      "keyword": "users",
+      "count": 5,
+      "relative_frequency": 0.006676,
       "rank": 11
     },
     {
-      "keyword": "affecting mental health",
-      "count": 1,
+      "keyword": "case study",
+      "count": 4,
+      "relative_frequency": 0.00534,
       "rank": 12
     },
     {
-      "keyword": "african",
-      "count": 1,
+      "keyword": "designing",
+      "count": 4,
+      "relative_frequency": 0.00534,
       "rank": 13
     },
     {
-      "keyword": "african human computer",
-      "count": 1,
+      "keyword": "digital",
+      "count": 4,
+      "relative_frequency": 0.00534,
       "rank": 14
     },
     {
-      "keyword": "african human computer interaction",
-      "count": 1,
+      "keyword": "information",
+      "count": 4,
+      "relative_frequency": 0.00534,
       "rank": 15
     },
     {
-      "keyword": "agents",
-      "count": 1,
+      "keyword": "reality",
+      "count": 4,
+      "relative_frequency": 0.00534,
       "rank": 16
     },
     {
-      "keyword": "alternate utopian narrative",
-      "count": 1,
+      "keyword": "technology",
+      "count": 4,
+      "relative_frequency": 0.00534,
       "rank": 17
     },
     {
-      "keyword": "artifact",
-      "count": 1,
+      "keyword": "understanding",
+      "count": 4,
+      "relative_frequency": 0.00534,
       "rank": 18
     },
     {
-      "keyword": "artists",
-      "count": 1,
+      "keyword": "virtual",
+      "count": 4,
+      "relative_frequency": 0.00534,
       "rank": 19
     },
     {
-      "keyword": "assistance",
-      "count": 1,
+      "keyword": "adults",
+      "count": 3,
+      "relative_frequency": 0.004005,
       "rank": 20
     },
     {
-      "keyword": "assistance in data driven",
-      "count": 1,
+      "keyword": "children",
+      "count": 3,
+      "relative_frequency": 0.004005,
       "rank": 21
     },
     {
-      "keyword": "audio",
-      "count": 1,
+      "keyword": "effect",
+      "count": 3,
+      "relative_frequency": 0.004005,
       "rank": 22
     },
     {
-      "keyword": "audio description",
-      "count": 1,
+      "keyword": "games",
+      "count": 3,
+      "relative_frequency": 0.004005,
       "rank": 23
     },
     {
-      "keyword": "audio description generation",
-      "count": 1,
+      "keyword": "guidance",
+      "count": 3,
+      "relative_frequency": 0.004005,
       "rank": 24
     },
     {
-      "keyword": "automatic",
-      "count": 1,
+      "keyword": "health",
+      "count": 3,
+      "relative_frequency": 0.004005,
       "rank": 25
     },
     {
-      "keyword": "automatic audio",
-      "count": 1,
+      "keyword": "live",
+      "count": 3,
+      "relative_frequency": 0.004005,
       "rank": 26
     },
     {
-      "keyword": "automatic audio description",
-      "count": 1,
+      "keyword": "online",
+      "count": 3,
+      "relative_frequency": 0.004005,
       "rank": 27
     },
     {
-      "keyword": "barriers and assistance",
-      "count": 1,
+      "keyword": "analytics",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 28
     },
     {
-      "keyword": "black",
-      "count": 1,
+      "keyword": "anxiety",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 29
     },
     {
-      "keyword": "black lives",
-      "count": 1,
+      "keyword": "authentication",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 30
     },
     {
-      "keyword": "black lives matter",
-      "count": 1,
+      "keyword": "authoring",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 31
     },
     {
-      "keyword": "black older",
-      "count": 1,
+      "keyword": "automated vehicles",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 32
     },
     {
-      "keyword": "black older adults",
-      "count": 1,
+      "keyword": "black lives",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 33
     },
     {
-      "keyword": "bodily",
-      "count": 1,
+      "keyword": "black lives matter",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 34
     },
     {
-      "keyword": "bodily play",
-      "count": 1,
+      "keyword": "blv",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 35
     },
     {
-      "keyword": "bodily play experiences",
-      "count": 1,
+      "keyword": "case",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 36
     },
     {
-      "keyword": "bodily play mechanic",
-      "count": 1,
+      "keyword": "chi",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 37
     },
     {
-      "keyword": "chi",
-      "count": 1,
+      "keyword": "contact",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 38
     },
     {
-      "keyword": "chi participant",
-      "count": 1,
+      "keyword": "dementia",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 39
     },
     {
-      "keyword": "civic",
-      "count": 1,
+      "keyword": "design space",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 40
     },
     {
-      "keyword": "civic tech",
-      "count": 1,
+      "keyword": "development",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 41
     },
     {
-      "keyword": "civic tech initiatives",
-      "count": 1,
+      "keyword": "developmental",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 42
     },
     {
-      "keyword": "collaborative mixed",
-      "count": 1,
+      "keyword": "developmental disabilities",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 43
     },
     {
-      "keyword": "collaborative mixed reality",
-      "count": 1,
+      "keyword": "digital technologies",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 44
     },
     {
-      "keyword": "commercial mobile crowdsourcing",
-      "count": 1,
+      "keyword": "disabilities",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 45
     },
     {
-      "keyword": "commodity nfc reader",
-      "count": 1,
+      "keyword": "embodied",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 46
     },
     {
-      "keyword": "community health",
-      "count": 1,
+      "keyword": "everyday life",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 47
     },
     {
-      "keyword": "comparing crowdsourced design",
-      "count": 1,
+      "keyword": "exploring",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 48
     },
     {
-      "keyword": "comparing perspectives",
-      "count": 1,
+      "keyword": "feedback",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 49
     },
     {
-      "keyword": "composition behaviour",
-      "count": 1,
+      "keyword": "game",
+      "count": 2,
+      "relative_frequency": 0.00267,
       "rank": 50
     }
   ],
   "2022": [
     {
       "keyword": "design",
-      "count": 3,
+      "count": 14,
+      "relative_frequency": 0.022013,
       "rank": 1
     },
     {
-      "keyword": "augmented reality",
-      "count": 2,
+      "keyword": "reality",
+      "count": 14,
+      "relative_frequency": 0.022013,
       "rank": 2
     },
     {
-      "keyword": "reality",
-      "count": 2,
+      "keyword": "virtual reality",
+      "count": 13,
+      "relative_frequency": 0.02044,
       "rank": 3
     },
     {
-      "keyword": "virtual reality",
-      "count": 2,
+      "keyword": "augmented reality",
+      "count": 8,
+      "relative_frequency": 0.012579,
       "rank": 4
     },
     {
-      "keyword": "account security",
-      "count": 1,
+      "keyword": "social",
+      "count": 6,
+      "relative_frequency": 0.009434,
       "rank": 5
     },
     {
-      "keyword": "accounts",
-      "count": 1,
+      "keyword": "games",
+      "count": 5,
+      "relative_frequency": 0.007862,
       "rank": 6
     },
     {
-      "keyword": "adapted and adaptable",
-      "count": 1,
+      "keyword": "understanding",
+      "count": 5,
+      "relative_frequency": 0.007862,
       "rank": 7
     },
     {
-      "keyword": "addressing the lived",
-      "count": 1,
+      "keyword": "virtual",
+      "count": 5,
+      "relative_frequency": 0.007862,
       "rank": 8
     },
     {
-      "keyword": "applications engage",
-      "count": 1,
+      "keyword": "mental health",
+      "count": 4,
+      "relative_frequency": 0.006289,
       "rank": 9
     },
     {
-      "keyword": "assists",
-      "count": 1,
+      "keyword": "older adults",
+      "count": 4,
+      "relative_frequency": 0.006289,
       "rank": 10
     },
     {
-      "keyword": "audio matters",
-      "count": 1,
+      "keyword": "social media",
+      "count": 4,
+      "relative_frequency": 0.006289,
       "rank": 11
     },
     {
-      "keyword": "augment care",
-      "count": 1,
+      "keyword": "agents",
+      "count": 3,
+      "relative_frequency": 0.004717,
       "rank": 12
     },
     {
-      "keyword": "augmented reality simulation",
-      "count": 1,
+      "keyword": "case study",
+      "count": 3,
+      "relative_frequency": 0.004717,
       "rank": 13
     },
     {
-      "keyword": "avatar",
-      "count": 1,
+      "keyword": "creators",
+      "count": 3,
+      "relative_frequency": 0.004717,
       "rank": 14
     },
     {
-      "keyword": "avatar customization",
-      "count": 1,
+      "keyword": "exploration",
+      "count": 3,
+      "relative_frequency": 0.004717,
       "rank": 15
     },
     {
-      "keyword": "avatar customization enhances",
-      "count": 1,
+      "keyword": "interaction",
+      "count": 3,
+      "relative_frequency": 0.004717,
       "rank": 16
     },
     {
-      "keyword": "blind and low",
-      "count": 1,
+      "keyword": "older",
+      "count": 3,
+      "relative_frequency": 0.004717,
       "rank": 17
     },
     {
-      "keyword": "bringing",
-      "count": 1,
+      "keyword": "online",
+      "count": 3,
+      "relative_frequency": 0.004717,
       "rank": 18
     },
     {
-      "keyword": "bringing fun",
-      "count": 1,
+      "keyword": "participatory design",
+      "count": 3,
+      "relative_frequency": 0.004717,
       "rank": 19
     },
     {
-      "keyword": "cad software fusion",
-      "count": 1,
+      "keyword": "people",
+      "count": 3,
+      "relative_frequency": 0.004717,
       "rank": 20
     },
     {
-      "keyword": "cameras",
-      "count": 1,
+      "keyword": "sexual",
+      "count": 3,
+      "relative_frequency": 0.004717,
       "rank": 21
     },
     {
-      "keyword": "candyfly",
-      "count": 1,
+      "keyword": "adults",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 22
     },
     {
-      "keyword": "china",
-      "count": 1,
+      "keyword": "augmented",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 23
     },
     {
-      "keyword": "clinical",
-      "count": 1,
+      "keyword": "augmented reality experiences",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 24
     },
     {
-      "keyword": "co teaching",
-      "count": 1,
+      "keyword": "cameras",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 25
     },
     {
-      "keyword": "comfortably wear augmented",
-      "count": 1,
+      "keyword": "collaboration",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 26
     },
     {
-      "keyword": "complex applications",
-      "count": 1,
+      "keyword": "collaborative",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 27
     },
     {
-      "keyword": "complex software",
-      "count": 1,
+      "keyword": "communities",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 28
     },
     {
-      "keyword": "complex software applications",
-      "count": 1,
+      "keyword": "content",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 29
     },
     {
-      "keyword": "computational",
-      "count": 1,
+      "keyword": "conversational",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 30
     },
     {
-      "keyword": "computational support",
-      "count": 1,
+      "keyword": "customization",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 31
     },
     {
-      "keyword": "computer form",
-      "count": 1,
+      "keyword": "design opportunities",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 32
     },
     {
-      "keyword": "computer form factors",
-      "count": 1,
+      "keyword": "designers",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 33
     },
     {
-      "keyword": "connected",
-      "count": 1,
+      "keyword": "developers",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 34
     },
     {
-      "keyword": "consensus toward next generation",
-      "count": 1,
+      "keyword": "devices",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 35
     },
     {
-      "keyword": "content analysis",
-      "count": 1,
+      "keyword": "digital",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 36
     },
     {
-      "keyword": "conversational",
-      "count": 1,
+      "keyword": "digital games",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 37
     },
     {
-      "keyword": "conversational agent",
-      "count": 1,
+      "keyword": "enhancing",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 38
     },
     {
-      "keyword": "critical playful speculations",
-      "count": 1,
+      "keyword": "examining",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 39
     },
     {
-      "keyword": "critically ill",
-      "count": 1,
+      "keyword": "expertise",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 40
     },
     {
-      "keyword": "critically ill patients",
-      "count": 1,
+      "keyword": "field",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 41
     },
     {
-      "keyword": "crossing decision making",
-      "count": 1,
+      "keyword": "force",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 42
     },
     {
-      "keyword": "curated data",
-      "count": 1,
+      "keyword": "force feedback",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 43
     },
     {
-      "keyword": "curated data views",
-      "count": 1,
+      "keyword": "human",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 44
     },
     {
-      "keyword": "customization",
-      "count": 1,
+      "keyword": "immersive virtual reality",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 45
     },
     {
-      "keyword": "customization enhances visual",
-      "count": 1,
+      "keyword": "information",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 46
     },
     {
-      "keyword": "cyclists",
-      "count": 1,
+      "keyword": "instructional videos",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 47
     },
     {
-      "keyword": "cyclists crossing",
-      "count": 1,
+      "keyword": "interactions",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 48
     },
     {
-      "keyword": "cyclists crossing decision making",
-      "count": 1,
+      "keyword": "interactive",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 49
     },
     {
-      "keyword": "data enabled design exploration",
-      "count": 1,
+      "keyword": "lived experience",
+      "count": 2,
+      "relative_frequency": 0.003145,
       "rank": 50
     }
   ],
   "2023": [
     {
-      "keyword": "design",
-      "count": 4,
+      "keyword": "virtual reality",
+      "count": 15,
+      "relative_frequency": 0.015991,
       "rank": 1
     },
     {
-      "keyword": "computational notebooks",
-      "count": 2,
+      "keyword": "design",
+      "count": 14,
+      "relative_frequency": 0.014925,
       "rank": 2
     },
     {
-      "keyword": "creating",
-      "count": 2,
+      "keyword": "social",
+      "count": 10,
+      "relative_frequency": 0.010661,
       "rank": 3
     },
     {
-      "keyword": "investigating",
-      "count": 2,
+      "keyword": "mental",
+      "count": 8,
+      "relative_frequency": 0.008529,
       "rank": 4
     },
     {
-      "keyword": "notebooks",
-      "count": 2,
+      "keyword": "reality",
+      "count": 8,
+      "relative_frequency": 0.008529,
       "rank": 5
     },
     {
-      "keyword": "online",
-      "count": 2,
+      "keyword": "virtual",
+      "count": 7,
+      "relative_frequency": 0.007463,
       "rank": 6
     },
     {
-      "keyword": "reality",
-      "count": 2,
+      "keyword": "hci",
+      "count": 6,
+      "relative_frequency": 0.006397,
       "rank": 7
     },
     {
-      "keyword": "supporting",
-      "count": 2,
+      "keyword": "large language model",
+      "count": 6,
+      "relative_frequency": 0.006397,
       "rank": 8
     },
     {
-      "keyword": "accessible pattern",
-      "count": 1,
+      "keyword": "support",
+      "count": 6,
+      "relative_frequency": 0.006397,
       "rank": 9
     },
     {
-      "keyword": "accessible pattern design",
-      "count": 1,
+      "keyword": "exploration",
+      "count": 5,
+      "relative_frequency": 0.00533,
       "rank": 10
     },
     {
-      "keyword": "accurate interactive data",
-      "count": 1,
+      "keyword": "exploring",
+      "count": 5,
+      "relative_frequency": 0.00533,
       "rank": 11
     },
     {
-      "keyword": "action",
-      "count": 1,
+      "keyword": "mental health",
+      "count": 5,
+      "relative_frequency": 0.00533,
       "rank": 12
     },
     {
-      "keyword": "action translate",
-      "count": 1,
+      "keyword": "social media",
+      "count": 5,
+      "relative_frequency": 0.00533,
       "rank": 13
     },
     {
-      "keyword": "addressing the usage",
-      "count": 1,
+      "keyword": "creating",
+      "count": 4,
+      "relative_frequency": 0.004264,
       "rank": 14
     },
     {
-      "keyword": "affective location based advertising",
-      "count": 1,
+      "keyword": "designing",
+      "count": 4,
+      "relative_frequency": 0.004264,
       "rank": 15
     },
     {
-      "keyword": "agency",
-      "count": 1,
+      "keyword": "interaction",
+      "count": 4,
+      "relative_frequency": 0.004264,
       "rank": 16
     },
     {
-      "keyword": "ai powered",
-      "count": 1,
+      "keyword": "investigating",
+      "count": 4,
+      "relative_frequency": 0.004264,
       "rank": 17
     },
     {
-      "keyword": "ai powered code",
-      "count": 1,
+      "keyword": "machine learning",
+      "count": 4,
+      "relative_frequency": 0.004264,
       "rank": 18
     },
     {
-      "keyword": "ai powered code assistants",
-      "count": 1,
+      "keyword": "mixed reality",
+      "count": 4,
+      "relative_frequency": 0.004264,
       "rank": 19
     },
     {
-      "keyword": "assistants",
-      "count": 1,
+      "keyword": "online",
+      "count": 4,
+      "relative_frequency": 0.004264,
       "rank": 20
     },
     {
-      "keyword": "attention capture",
-      "count": 1,
+      "keyword": "social support",
+      "count": 4,
+      "relative_frequency": 0.004264,
       "rank": 21
     },
     {
-      "keyword": "attention capture deceptive",
-      "count": 1,
+      "keyword": "user",
+      "count": 4,
+      "relative_frequency": 0.004264,
       "rank": 22
     },
     {
       "keyword": "augmented reality",
-      "count": 1,
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 23
     },
     {
-      "keyword": "augmented reality application",
-      "count": 1,
+      "keyword": "autonomy",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 24
     },
     {
-      "keyword": "augmenting pathologists",
-      "count": 1,
+      "keyword": "avatars",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 25
     },
     {
-      "keyword": "automated",
-      "count": 1,
+      "keyword": "collaboration",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 26
     },
     {
-      "keyword": "automated vehicles",
-      "count": 1,
+      "keyword": "computational notebooks",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 27
     },
     {
-      "keyword": "autonomy",
-      "count": 1,
+      "keyword": "computer vision",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 28
     },
     {
-      "keyword": "avatars",
-      "count": 1,
+      "keyword": "control",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 29
     },
     {
-      "keyword": "back",
-      "count": 1,
+      "keyword": "conversational",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 30
     },
     {
-      "keyword": "behavior",
-      "count": 1,
+      "keyword": "digital",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 31
     },
     {
-      "keyword": "blended realities",
-      "count": 1,
+      "keyword": "examining",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 32
     },
     {
-      "keyword": "blind",
-      "count": 1,
+      "keyword": "force",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 33
     },
     {
-      "keyword": "blind weavers",
-      "count": 1,
+      "keyword": "haptic",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 34
     },
     {
-      "keyword": "boards hit",
-      "count": 1,
+      "keyword": "interactive",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 35
     },
     {
-      "keyword": "boards hit back",
-      "count": 1,
+      "keyword": "media",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 36
     },
     {
-      "keyword": "bridged by inertial",
-      "count": 1,
+      "keyword": "natural language",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 37
     },
     {
-      "keyword": "building positively",
-      "count": 1,
+      "keyword": "older adults",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 38
     },
     {
-      "keyword": "building positively affective",
-      "count": 1,
+      "keyword": "people",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 39
     },
     {
-      "keyword": "camera",
-      "count": 1,
+      "keyword": "privacy",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 40
     },
     {
-      "keyword": "camera movements",
-      "count": 1,
+      "keyword": "quality",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 41
     },
     {
-      "keyword": "capture deceptive",
-      "count": 1,
+      "keyword": "remote",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 42
     },
     {
-      "keyword": "capture deceptive designs",
-      "count": 1,
+      "keyword": "supporting",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 43
     },
     {
-      "keyword": "cars",
-      "count": 1,
+      "keyword": "trust",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 44
     },
     {
-      "keyword": "case",
-      "count": 1,
+      "keyword": "understanding",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 45
     },
     {
-      "keyword": "case study",
-      "count": 1,
+      "keyword": "users",
+      "count": 3,
+      "relative_frequency": 0.003198,
       "rank": 46
     },
     {
-      "keyword": "challenge experiences",
-      "count": 1,
+      "keyword": "artificial intelligence",
+      "count": 2,
+      "relative_frequency": 0.002132,
       "rank": 47
     },
     {
-      "keyword": "co designing wearables",
-      "count": 1,
+      "keyword": "assistance",
+      "count": 2,
+      "relative_frequency": 0.002132,
       "rank": 48
     },
     {
-      "keyword": "code",
-      "count": 1,
+      "keyword": "biases",
+      "count": 2,
+      "relative_frequency": 0.002132,
       "rank": 49
     },
     {
-      "keyword": "code assistants",
-      "count": 1,
+      "keyword": "blind",
+      "count": 2,
+      "relative_frequency": 0.002132,
       "rank": 50
     }
   ],
   "2024": [
     {
-      "keyword": "reality",
-      "count": 4,
+      "keyword": "virtual reality",
+      "count": 15,
+      "relative_frequency": 0.013966,
       "rank": 1
     },
     {
-      "keyword": "virtual reality",
-      "count": 4,
+      "keyword": "large language model",
+      "count": 13,
+      "relative_frequency": 0.012104,
       "rank": 2
     },
     {
-      "keyword": "augmented reality",
-      "count": 3,
+      "keyword": "design",
+      "count": 10,
+      "relative_frequency": 0.009311,
       "rank": 3
     },
     {
-      "keyword": "large language model",
-      "count": 3,
+      "keyword": "hci",
+      "count": 10,
+      "relative_frequency": 0.009311,
       "rank": 4
     },
     {
-      "keyword": "artificial",
-      "count": 2,
+      "keyword": "reality",
+      "count": 9,
+      "relative_frequency": 0.00838,
       "rank": 5
     },
     {
-      "keyword": "game",
-      "count": 2,
+      "keyword": "augmented reality",
+      "count": 7,
+      "relative_frequency": 0.006518,
       "rank": 6
     },
     {
-      "keyword": "hci",
-      "count": 2,
+      "keyword": "older adults",
+      "count": 7,
+      "relative_frequency": 0.006518,
       "rank": 7
     },
     {
-      "keyword": "moral",
-      "count": 2,
+      "keyword": "social",
+      "count": 7,
+      "relative_frequency": 0.006518,
       "rank": 8
     },
     {
-      "keyword": "social",
-      "count": 2,
+      "keyword": "supporting",
+      "count": 6,
+      "relative_frequency": 0.005587,
       "rank": 9
     },
     {
-      "keyword": "accessible obfuscation support",
-      "count": 1,
+      "keyword": "community",
+      "count": 5,
+      "relative_frequency": 0.004655,
       "rank": 10
     },
     {
-      "keyword": "acrylic",
-      "count": 1,
+      "keyword": "health",
+      "count": 5,
+      "relative_frequency": 0.004655,
       "rank": 11
     },
     {
-      "keyword": "acrylic sheets",
-      "count": 1,
+      "keyword": "social media",
+      "count": 5,
+      "relative_frequency": 0.004655,
       "rank": 12
     },
     {
-      "keyword": "adaptive mid air ultrasound",
-      "count": 1,
+      "keyword": "understanding",
+      "count": 5,
+      "relative_frequency": 0.004655,
       "rank": 13
     },
     {
-      "keyword": "adhd",
-      "count": 1,
+      "keyword": "care",
+      "count": 4,
+      "relative_frequency": 0.003724,
       "rank": 14
     },
     {
-      "keyword": "adult social",
-      "count": 1,
+      "keyword": "collaboration",
+      "count": 4,
+      "relative_frequency": 0.003724,
       "rank": 15
     },
     {
-      "keyword": "adult social care",
-      "count": 1,
+      "keyword": "making",
+      "count": 4,
+      "relative_frequency": 0.003724,
       "rank": 16
     },
     {
-      "keyword": "adult social services",
-      "count": 1,
+      "keyword": "mental health",
+      "count": 4,
+      "relative_frequency": 0.003724,
       "rank": 17
     },
     {
-      "keyword": "adults to explore",
-      "count": 1,
+      "keyword": "privacy",
+      "count": 4,
+      "relative_frequency": 0.003724,
       "rank": 18
     },
     {
-      "keyword": "advantaged price discrimination",
-      "count": 1,
+      "keyword": "authoring",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 19
     },
     {
-      "keyword": "affective design",
-      "count": 1,
+      "keyword": "children",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 20
     },
     {
-      "keyword": "african american respondents",
-      "count": 1,
+      "keyword": "communication",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 21
     },
     {
-      "keyword": "ai enhanced social",
-      "count": 1,
+      "keyword": "designing",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 22
     },
     {
-      "keyword": "ai enhanced social engagement",
-      "count": 1,
+      "keyword": "electrical muscle stimulation",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 23
     },
     {
-      "keyword": "aid",
-      "count": 1,
+      "keyword": "exploration",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 24
     },
     {
-      "keyword": "aid for university",
-      "count": 1,
+      "keyword": "feedback",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 25
     },
     {
-      "keyword": "american jews",
-      "count": 1,
+      "keyword": "games",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 26
     },
     {
-      "keyword": "american respondents",
-      "count": 1,
+      "keyword": "human ai collaboration",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 27
     },
     {
-      "keyword": "analysis tools",
-      "count": 1,
+      "keyword": "insights",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 28
     },
     {
-      "keyword": "apple",
-      "count": 1,
+      "keyword": "integrating",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 29
     },
     {
-      "keyword": "apple s mobile",
-      "count": 1,
+      "keyword": "investigating",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 30
     },
     {
-      "keyword": "applying moral foundations",
-      "count": 1,
+      "keyword": "literacy",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 31
     },
     {
-      "keyword": "apps",
-      "count": 1,
+      "keyword": "music",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 32
     },
     {
-      "keyword": "artifacts",
-      "count": 1,
+      "keyword": "people",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 33
     },
     {
-      "keyword": "artificial intelligence",
-      "count": 1,
+      "keyword": "physical",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 34
     },
     {
-      "keyword": "artificial intelligences",
-      "count": 1,
+      "keyword": "physical activity",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 35
     },
     {
-      "keyword": "asd",
-      "count": 1,
+      "keyword": "remote",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 36
     },
     {
-      "keyword": "assistant",
-      "count": 1,
+      "keyword": "smart",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 37
     },
     {
-      "keyword": "asynchronous social interactions",
-      "count": 1,
+      "keyword": "smartphone",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 38
     },
     {
-      "keyword": "augmented smart home",
-      "count": 1,
+      "keyword": "support",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 39
     },
     {
-      "keyword": "authentication",
-      "count": 1,
+      "keyword": "temporal",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 40
     },
     {
-      "keyword": "autism spectrum",
-      "count": 1,
+      "keyword": "text",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 41
     },
     {
-      "keyword": "autism spectrum disorder",
-      "count": 1,
+      "keyword": "user",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 42
     },
     {
-      "keyword": "autoethnographic",
-      "count": 1,
+      "keyword": "users",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 43
     },
     {
-      "keyword": "autoethnographic kaleidoscope",
-      "count": 1,
+      "keyword": "video",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 44
     },
     {
-      "keyword": "auxiliary tool",
-      "count": 1,
+      "keyword": "virtual",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 45
     },
     {
-      "keyword": "behavioral differences",
-      "count": 1,
+      "keyword": "workers",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 46
     },
     {
-      "keyword": "bengali",
-      "count": 1,
+      "keyword": "writing",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 47
     },
     {
-      "keyword": "bengali sentiment analysis",
-      "count": 1,
+      "keyword": "young adults",
+      "count": 3,
+      "relative_frequency": 0.002793,
       "rank": 48
     },
     {
-      "keyword": "billion people worldwide",
-      "count": 1,
+      "keyword": "accessible",
+      "count": 2,
+      "relative_frequency": 0.001862,
       "rank": 49
     },
     {
-      "keyword": "blended",
-      "count": 1,
+      "keyword": "activity",
+      "count": 2,
+      "relative_frequency": 0.001862,
       "rank": 50
     }
-  ]
+  ],
+  "2025": []
 }

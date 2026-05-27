@@ -10,6 +10,7 @@ Ingestion Agent
 """
 
 import logging
+import os
 import sys
 from pathlib import Path
 from typing import List, Optional, Dict, Any
@@ -69,7 +70,9 @@ class IngestionAgent:
     def _get_s2_client(self) -> SemanticScholarClient:
         """懒加载 Semantic Scholar 客户端"""
         if self.s2 is None:
-            self.s2 = SemanticScholarClient()
+            self.s2 = SemanticScholarClient(
+                api_key=os.getenv("SEMANTIC_SCHOLAR_API_KEY") or None
+            )
         return self.s2
 
     def _get_or_client(self) -> OpenReviewClient:

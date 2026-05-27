@@ -2,1261 +2,1512 @@
   "2020": [
     {
       "keyword": "robot",
-      "count": 4,
+      "count": 28,
+      "relative_frequency": 0.024327,
       "rank": 1
     },
     {
-      "keyword": "model predictive control",
-      "count": 3,
+      "keyword": "reinforcement learning",
+      "count": 13,
+      "relative_frequency": 0.011295,
       "rank": 2
     },
     {
-      "keyword": "planning",
-      "count": 3,
+      "keyword": "control",
+      "count": 12,
+      "relative_frequency": 0.010426,
       "rank": 3
     },
     {
-      "keyword": "autonomous",
-      "count": 2,
+      "keyword": "planning",
+      "count": 12,
+      "relative_frequency": 0.010426,
       "rank": 4
     },
     {
-      "keyword": "autonomous driving",
-      "count": 2,
+      "keyword": "driving",
+      "count": 9,
+      "relative_frequency": 0.007819,
       "rank": 5
     },
     {
-      "keyword": "convolutional neural network",
-      "count": 2,
+      "keyword": "motion planning",
+      "count": 9,
+      "relative_frequency": 0.007819,
       "rank": 6
     },
     {
-      "keyword": "depth",
-      "count": 2,
+      "keyword": "object",
+      "count": 9,
+      "relative_frequency": 0.007819,
       "rank": 7
     },
     {
-      "keyword": "detection",
-      "count": 2,
+      "keyword": "point cloud",
+      "count": 9,
+      "relative_frequency": 0.007819,
       "rank": 8
     },
     {
-      "keyword": "driving",
-      "count": 2,
+      "keyword": "estimation",
+      "count": 8,
+      "relative_frequency": 0.00695,
       "rank": 9
     },
     {
-      "keyword": "dynamic",
-      "count": 2,
+      "keyword": "navigation",
+      "count": 8,
+      "relative_frequency": 0.00695,
       "rank": 10
     },
     {
-      "keyword": "estimation",
-      "count": 2,
+      "keyword": "robotic",
+      "count": 7,
+      "relative_frequency": 0.006082,
       "rank": 11
     },
     {
-      "keyword": "mobile robot",
-      "count": 2,
+      "keyword": "robots",
+      "count": 7,
+      "relative_frequency": 0.006082,
       "rank": 12
     },
     {
-      "keyword": "model predictive",
-      "count": 2,
+      "keyword": "slam",
+      "count": 7,
+      "relative_frequency": 0.006082,
       "rank": 13
     },
     {
-      "keyword": "modeling",
-      "count": 2,
+      "keyword": "aerial vehicles",
+      "count": 6,
+      "relative_frequency": 0.005213,
       "rank": 14
     },
     {
-      "keyword": "neural network",
-      "count": 2,
+      "keyword": "detection",
+      "count": 6,
+      "relative_frequency": 0.005213,
       "rank": 15
     },
     {
-      "keyword": "online",
-      "count": 2,
+      "keyword": "localization",
+      "count": 6,
+      "relative_frequency": 0.005213,
       "rank": 16
     },
     {
-      "keyword": "point cloud",
-      "count": 2,
+      "keyword": "model predictive control",
+      "count": 6,
+      "relative_frequency": 0.005213,
       "rank": 17
     },
     {
-      "keyword": "point cloud data",
-      "count": 2,
+      "keyword": "autonomous",
+      "count": 5,
+      "relative_frequency": 0.004344,
       "rank": 18
     },
     {
-      "keyword": "radar",
-      "count": 2,
+      "keyword": "autonomous driving",
+      "count": 5,
+      "relative_frequency": 0.004344,
       "rank": 19
     },
     {
-      "keyword": "robots",
-      "count": 2,
+      "keyword": "dynamic",
+      "count": 5,
+      "relative_frequency": 0.004344,
       "rank": 20
     },
     {
-      "keyword": "slam",
-      "count": 2,
+      "keyword": "reinforcement",
+      "count": 5,
+      "relative_frequency": 0.004344,
       "rank": 21
     },
     {
-      "keyword": "visual odometry",
-      "count": 2,
+      "keyword": "tracking",
+      "count": 5,
+      "relative_frequency": 0.004344,
       "rank": 22
     },
     {
-      "keyword": "abstractions",
-      "count": 1,
+      "keyword": "deep",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 23
     },
     {
-      "keyword": "abstractions for autonomous",
-      "count": 1,
+      "keyword": "depth",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 24
     },
     {
-      "keyword": "aerial ground robots",
-      "count": 1,
+      "keyword": "human",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 25
     },
     {
-      "keyword": "affordance based mobile robot",
-      "count": 1,
+      "keyword": "joint",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 26
     },
     {
-      "keyword": "aggregation approach",
-      "count": 1,
+      "keyword": "locomotion",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 27
     },
     {
-      "keyword": "alignment",
-      "count": 1,
+      "keyword": "mobile robot",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 28
     },
     {
-      "keyword": "alignment and change",
-      "count": 1,
+      "keyword": "neural network",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 29
     },
     {
-      "keyword": "annoyance aware preference",
-      "count": 1,
+      "keyword": "odometry",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 30
     },
     {
-      "keyword": "anomaly",
-      "count": 1,
+      "keyword": "optimization",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 31
     },
     {
-      "keyword": "anomaly detection",
-      "count": 1,
+      "keyword": "path",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 32
     },
     {
-      "keyword": "application code",
-      "count": 1,
+      "keyword": "point",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 33
     },
     {
-      "keyword": "approach to spatiotemporal",
-      "count": 1,
+      "keyword": "semantic",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 34
     },
     {
-      "keyword": "assembly",
-      "count": 1,
+      "keyword": "tactile",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 35
     },
     {
-      "keyword": "attention network",
-      "count": 1,
+      "keyword": "trajectory optimization",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 36
     },
     {
-      "keyword": "attributes with category free",
-      "count": 1,
+      "keyword": "unmanned aerial vehicles",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 37
     },
     {
-      "keyword": "autonomous mobile robot",
-      "count": 1,
+      "keyword": "visual slam",
+      "count": 4,
+      "relative_frequency": 0.003475,
       "rank": 38
     },
     {
-      "keyword": "autonomous robot navigation",
-      "count": 1,
+      "keyword": "contact",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 39
     },
     {
-      "keyword": "autonomous vehicles",
-      "count": 1,
+      "keyword": "convolutional neural network",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 40
     },
     {
-      "keyword": "autopilot system developed",
-      "count": 1,
+      "keyword": "deep reinforcement",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 41
     },
     {
-      "keyword": "aware preference",
-      "count": 1,
+      "keyword": "exploration",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 42
     },
     {
-      "keyword": "aware preference elicitation",
-      "count": 1,
+      "keyword": "force",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 43
     },
     {
-      "keyword": "based graph slam",
-      "count": 1,
+      "keyword": "gait",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 44
     },
     {
-      "keyword": "based large scale slam",
-      "count": 1,
+      "keyword": "gaussian process",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 45
     },
     {
-      "keyword": "based monocular visual",
-      "count": 1,
+      "keyword": "human robot interaction",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 46
     },
     {
-      "keyword": "based programmable",
-      "count": 1,
+      "keyword": "interaction",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 47
     },
     {
-      "keyword": "based programmable matter",
-      "count": 1,
+      "keyword": "learning approach",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 48
     },
     {
-      "keyword": "behavior",
-      "count": 1,
+      "keyword": "mapping",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 49
     },
     {
-      "keyword": "behavior trees",
-      "count": 1,
+      "keyword": "model free reinforcement learning",
+      "count": 3,
+      "relative_frequency": 0.002606,
       "rank": 50
     }
   ],
   "2021": [
     {
       "keyword": "robot",
-      "count": 4,
+      "count": 22,
+      "relative_frequency": 0.020972,
       "rank": 1
     },
     {
       "keyword": "control",
-      "count": 3,
+      "count": 16,
+      "relative_frequency": 0.015253,
       "rank": 2
     },
     {
-      "keyword": "manipulation",
-      "count": 3,
+      "keyword": "motion",
+      "count": 14,
+      "relative_frequency": 0.013346,
       "rank": 3
     },
     {
-      "keyword": "motion planning",
-      "count": 3,
+      "keyword": "reinforcement learning",
+      "count": 14,
+      "relative_frequency": 0.013346,
       "rank": 4
     },
     {
-      "keyword": "demonstrations",
-      "count": 2,
+      "keyword": "robots",
+      "count": 12,
+      "relative_frequency": 0.011439,
       "rank": 5
     },
     {
       "keyword": "detection",
-      "count": 2,
+      "count": 9,
+      "relative_frequency": 0.00858,
       "rank": 6
     },
     {
-      "keyword": "estimation",
-      "count": 2,
+      "keyword": "manipulation",
+      "count": 9,
+      "relative_frequency": 0.00858,
       "rank": 7
     },
     {
-      "keyword": "motion",
-      "count": 2,
+      "keyword": "object",
+      "count": 9,
+      "relative_frequency": 0.00858,
       "rank": 8
     },
     {
       "keyword": "planning",
-      "count": 2,
+      "count": 9,
+      "relative_frequency": 0.00858,
       "rank": 9
     },
     {
-      "keyword": "prediction",
-      "count": 2,
+      "keyword": "slam",
+      "count": 8,
+      "relative_frequency": 0.007626,
       "rank": 10
     },
     {
-      "keyword": "reinforcement learning",
-      "count": 2,
+      "keyword": "deep reinforcement",
+      "count": 7,
+      "relative_frequency": 0.006673,
       "rank": 11
     },
     {
-      "keyword": "robots",
-      "count": 2,
+      "keyword": "motion planning",
+      "count": 7,
+      "relative_frequency": 0.006673,
       "rank": 12
     },
     {
-      "keyword": "tactile sensing",
-      "count": 2,
+      "keyword": "pose",
+      "count": 7,
+      "relative_frequency": 0.006673,
       "rank": 13
     },
     {
-      "keyword": "achieves terrain detection",
-      "count": 1,
+      "keyword": "autonomous",
+      "count": 6,
+      "relative_frequency": 0.00572,
       "rank": 14
     },
     {
-      "keyword": "action space",
-      "count": 1,
+      "keyword": "autonomous driving",
+      "count": 6,
+      "relative_frequency": 0.00572,
       "rank": 15
     },
     {
-      "keyword": "active",
-      "count": 1,
+      "keyword": "dynamic",
+      "count": 6,
+      "relative_frequency": 0.00572,
       "rank": 16
     },
     {
-      "keyword": "active locomotion",
-      "count": 1,
+      "keyword": "estimation",
+      "count": 6,
+      "relative_frequency": 0.00572,
       "rank": 17
     },
     {
-      "keyword": "active visual",
-      "count": 1,
+      "keyword": "navigation",
+      "count": 6,
+      "relative_frequency": 0.00572,
       "rank": 18
     },
     {
-      "keyword": "active visual search",
-      "count": 1,
+      "keyword": "pose estimation",
+      "count": 6,
+      "relative_frequency": 0.00572,
       "rank": 19
     },
     {
-      "keyword": "actor critic deep reinforcement",
-      "count": 1,
+      "keyword": "semantic",
+      "count": 6,
+      "relative_frequency": 0.00572,
       "rank": 20
     },
     {
-      "keyword": "admittance controller based teleoperation",
-      "count": 1,
+      "keyword": "tactile sensing",
+      "count": 6,
+      "relative_frequency": 0.00572,
       "rank": 21
     },
     {
-      "keyword": "aerial",
-      "count": 1,
+      "keyword": "human",
+      "count": 5,
+      "relative_frequency": 0.004766,
       "rank": 22
     },
     {
-      "keyword": "aerial manipulators",
-      "count": 1,
+      "keyword": "mobile",
+      "count": 5,
+      "relative_frequency": 0.004766,
       "rank": 23
     },
     {
-      "keyword": "aircraft unmanned system",
-      "count": 1,
+      "keyword": "model predictive control",
+      "count": 5,
+      "relative_frequency": 0.004766,
       "rank": 24
     },
     {
-      "keyword": "angles",
-      "count": 1,
+      "keyword": "object detection",
+      "count": 5,
+      "relative_frequency": 0.004766,
       "rank": 25
     },
     {
-      "keyword": "assisting kinesthetic teaching",
-      "count": 1,
+      "keyword": "prediction",
+      "count": 5,
+      "relative_frequency": 0.004766,
       "rank": 26
     },
     {
-      "keyword": "asynchronous actions",
-      "count": 1,
+      "keyword": "robotic",
+      "count": 5,
+      "relative_frequency": 0.004766,
       "rank": 27
     },
     {
-      "keyword": "atmospheric",
-      "count": 1,
+      "keyword": "segmentation",
+      "count": 5,
+      "relative_frequency": 0.004766,
       "rank": 28
     },
     {
-      "keyword": "atmospheric sensing uas",
-      "count": 1,
+      "keyword": "soft",
+      "count": 5,
+      "relative_frequency": 0.004766,
       "rank": 29
     },
     {
-      "keyword": "attachment mechanism",
-      "count": 1,
+      "keyword": "trajectory",
+      "count": 5,
+      "relative_frequency": 0.004766,
       "rank": 30
     },
     {
-      "keyword": "attachment positions",
-      "count": 1,
+      "keyword": "collision avoidance",
+      "count": 4,
+      "relative_frequency": 0.003813,
       "rank": 31
     },
     {
-      "keyword": "attacking",
-      "count": 1,
+      "keyword": "driving",
+      "count": 4,
+      "relative_frequency": 0.003813,
       "rank": 32
     },
     {
-      "keyword": "attacking an automated",
-      "count": 1,
+      "keyword": "localization",
+      "count": 4,
+      "relative_frequency": 0.003813,
       "rank": 33
     },
     {
-      "keyword": "automated",
-      "count": 1,
+      "keyword": "map",
+      "count": 4,
+      "relative_frequency": 0.003813,
       "rank": 34
     },
     {
-      "keyword": "automated turret",
-      "count": 1,
+      "keyword": "path planning",
+      "count": 4,
+      "relative_frequency": 0.003813,
       "rank": 35
     },
     {
-      "keyword": "automatic learning",
-      "count": 1,
+      "keyword": "quadruped",
+      "count": 4,
+      "relative_frequency": 0.003813,
       "rank": 36
     },
     {
-      "keyword": "automatic learning system",
-      "count": 1,
+      "keyword": "sensing",
+      "count": 4,
+      "relative_frequency": 0.003813,
       "rank": 37
     },
     {
-      "keyword": "autonomous aerial",
-      "count": 1,
+      "keyword": "tactile",
+      "count": 4,
+      "relative_frequency": 0.003813,
       "rank": 38
     },
     {
-      "keyword": "autonomous bi manual",
-      "count": 1,
+      "keyword": "tracking",
+      "count": 4,
+      "relative_frequency": 0.003813,
       "rank": 39
     },
     {
-      "keyword": "autonomous bi manual surgical",
-      "count": 1,
+      "keyword": "aerial",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 40
     },
     {
-      "keyword": "autonomous cooperative transportation",
-      "count": 1,
+      "keyword": "aerial vehicles",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 41
     },
     {
-      "keyword": "aware assistance",
-      "count": 1,
+      "keyword": "continuum",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 42
     },
     {
-      "keyword": "backchannel",
-      "count": 1,
+      "keyword": "deep learning",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 43
     },
     {
-      "keyword": "based on skills",
-      "count": 1,
+      "keyword": "demonstrations",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 44
     },
     {
-      "keyword": "based on transformer",
-      "count": 1,
+      "keyword": "design",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 45
     },
     {
-      "keyword": "bayes",
-      "count": 1,
+      "keyword": "environment",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 46
     },
     {
-      "keyword": "bayes tree",
-      "count": 1,
+      "keyword": "environments",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 47
     },
     {
-      "keyword": "bi manual surgical",
-      "count": 1,
+      "keyword": "event",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 48
     },
     {
-      "keyword": "bi manual surgical suturing",
-      "count": 1,
+      "keyword": "exploration",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 49
     },
     {
-      "keyword": "bilevel planning",
-      "count": 1,
+      "keyword": "generative",
+      "count": 3,
+      "relative_frequency": 0.00286,
       "rank": 50
     }
   ],
   "2022": [
     {
       "keyword": "robot",
-      "count": 3,
+      "count": 32,
+      "relative_frequency": 0.026059,
       "rank": 1
     },
     {
-      "keyword": "aerial",
-      "count": 2,
+      "keyword": "reinforcement learning",
+      "count": 15,
+      "relative_frequency": 0.012215,
       "rank": 2
     },
     {
-      "keyword": "bin",
-      "count": 2,
+      "keyword": "navigation",
+      "count": 11,
+      "relative_frequency": 0.008958,
       "rank": 3
     },
     {
-      "keyword": "control",
-      "count": 2,
+      "keyword": "planning",
+      "count": 11,
+      "relative_frequency": 0.008958,
       "rank": 4
     },
     {
-      "keyword": "deep learning",
-      "count": 2,
+      "keyword": "manipulation",
+      "count": 10,
+      "relative_frequency": 0.008143,
       "rank": 5
     },
     {
-      "keyword": "design",
-      "count": 2,
+      "keyword": "motion",
+      "count": 10,
+      "relative_frequency": 0.008143,
       "rank": 6
     },
     {
-      "keyword": "lidar sensors",
-      "count": 2,
+      "keyword": "control",
+      "count": 9,
+      "relative_frequency": 0.007329,
       "rank": 7
     },
     {
-      "keyword": "motions",
-      "count": 2,
+      "keyword": "motion planning",
+      "count": 9,
+      "relative_frequency": 0.007329,
       "rank": 8
     },
     {
-      "keyword": "navigation",
-      "count": 2,
+      "keyword": "pose estimation",
+      "count": 9,
+      "relative_frequency": 0.007329,
       "rank": 9
     },
     {
-      "keyword": "objects",
-      "count": 2,
+      "keyword": "object",
+      "count": 8,
+      "relative_frequency": 0.006515,
       "rank": 10
     },
     {
-      "keyword": "path",
-      "count": 2,
+      "keyword": "recognition",
+      "count": 8,
+      "relative_frequency": 0.006515,
       "rank": 11
     },
     {
-      "keyword": "picking",
-      "count": 2,
+      "keyword": "slam",
+      "count": 8,
+      "relative_frequency": 0.006515,
       "rank": 12
     },
     {
-      "keyword": "reinforcement learning",
-      "count": 2,
+      "keyword": "objects",
+      "count": 7,
+      "relative_frequency": 0.0057,
       "rank": 13
     },
     {
-      "keyword": "accurate",
-      "count": 1,
+      "keyword": "design",
+      "count": 6,
+      "relative_frequency": 0.004886,
       "rank": 14
     },
     {
-      "keyword": "accurate robot control",
-      "count": 1,
+      "keyword": "estimation",
+      "count": 6,
+      "relative_frequency": 0.004886,
       "rank": 15
     },
     {
-      "keyword": "active space debris",
-      "count": 1,
+      "keyword": "human",
+      "count": 6,
+      "relative_frequency": 0.004886,
       "rank": 16
     },
     {
-      "keyword": "adapting simultaneous mapping",
-      "count": 1,
+      "keyword": "pose",
+      "count": 6,
+      "relative_frequency": 0.004886,
       "rank": 17
     },
     {
-      "keyword": "adaptive computed",
-      "count": 1,
+      "keyword": "aerial",
+      "count": 5,
+      "relative_frequency": 0.004072,
       "rank": 18
     },
     {
-      "keyword": "adaptive computed torque",
-      "count": 1,
+      "keyword": "autonomous",
+      "count": 5,
+      "relative_frequency": 0.004072,
       "rank": 19
     },
     {
-      "keyword": "aerial images",
-      "count": 1,
+      "keyword": "model predictive control",
+      "count": 5,
+      "relative_frequency": 0.004072,
       "rank": 20
     },
     {
-      "keyword": "aerial manipulation",
-      "count": 1,
+      "keyword": "robotic",
+      "count": 5,
+      "relative_frequency": 0.004072,
       "rank": 21
     },
     {
-      "keyword": "aerial pickup",
-      "count": 1,
+      "keyword": "soft",
+      "count": 5,
+      "relative_frequency": 0.004072,
       "rank": 22
     },
     {
-      "keyword": "aerial pruning",
-      "count": 1,
+      "keyword": "autonomous vehicles",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 23
     },
     {
-      "keyword": "agency orbital robotics",
-      "count": 1,
+      "keyword": "camera",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 24
     },
     {
-      "keyword": "algorithm for high speed",
-      "count": 1,
+      "keyword": "deep learning",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 25
     },
     {
-      "keyword": "algorithm for informative",
-      "count": 1,
+      "keyword": "deformable objects",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 26
     },
     {
-      "keyword": "amod systems",
-      "count": 1,
+      "keyword": "dynamic",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 27
     },
     {
-      "keyword": "amorphous obstacle navigation",
-      "count": 1,
+      "keyword": "environments",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 28
     },
     {
-      "keyword": "ana avatar xprize",
-      "count": 1,
+      "keyword": "lidar",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 29
     },
     {
-      "keyword": "analysis and retargeting",
-      "count": 1,
+      "keyword": "localization",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 30
     },
     {
-      "keyword": "animation",
-      "count": 1,
+      "keyword": "path",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 31
     },
     {
-      "keyword": "animation for immersive",
-      "count": 1,
+      "keyword": "path planning",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 32
     },
     {
-      "keyword": "antagonist agonist artificial muscles",
-      "count": 1,
+      "keyword": "policy",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 33
     },
     {
-      "keyword": "apple",
-      "count": 1,
+      "keyword": "robots",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 34
     },
     {
-      "keyword": "apple trees",
-      "count": 1,
+      "keyword": "segmentation",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 35
     },
     {
-      "keyword": "applies batch picking",
-      "count": 1,
+      "keyword": "semantic segmentation",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 36
     },
     {
-      "keyword": "arm",
-      "count": 1,
+      "keyword": "tactile",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 37
     },
     {
-      "keyword": "arm motions",
-      "count": 1,
+      "keyword": "trajectory optimization",
+      "count": 4,
+      "relative_frequency": 0.003257,
       "rank": 38
     },
     {
-      "keyword": "artificial muscles",
-      "count": 1,
+      "keyword": "calibration",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 39
     },
     {
-      "keyword": "asynchronous optical",
-      "count": 1,
+      "keyword": "case study",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 40
     },
     {
-      "keyword": "asynchronous optical communications",
-      "count": 1,
+      "keyword": "contact",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 41
     },
     {
-      "keyword": "attention deep",
-      "count": 1,
+      "keyword": "deformable",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 42
     },
     {
-      "keyword": "attention deep learning",
-      "count": 1,
+      "keyword": "detection",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 43
     },
     {
-      "keyword": "auto store",
-      "count": 1,
+      "keyword": "grasping",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 44
     },
     {
-      "keyword": "auto store bin",
-      "count": 1,
+      "keyword": "humanoid robots",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 45
     },
     {
-      "keyword": "auto store bin picking",
-      "count": 1,
+      "keyword": "kinodynamic",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 46
     },
     {
-      "keyword": "automated driving systems",
-      "count": 1,
+      "keyword": "model predictive",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 47
     },
     {
-      "keyword": "autonomous obstacle detection",
-      "count": 1,
+      "keyword": "monocular",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 48
     },
     {
-      "keyword": "autonomous robotic",
-      "count": 1,
+      "keyword": "nonlinear model predictive",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 49
     },
     {
-      "keyword": "autonomous robotic manipulation",
-      "count": 1,
+      "keyword": "object pose estimation",
+      "count": 3,
+      "relative_frequency": 0.002443,
       "rank": 50
     }
   ],
   "2023": [
     {
-      "keyword": "planning",
-      "count": 5,
+      "keyword": "robot",
+      "count": 23,
+      "relative_frequency": 0.018474,
       "rank": 1
     },
     {
-      "keyword": "robot",
-      "count": 4,
+      "keyword": "object",
+      "count": 14,
+      "relative_frequency": 0.011245,
       "rank": 2
     },
     {
-      "keyword": "environments",
-      "count": 3,
+      "keyword": "planning",
+      "count": 13,
+      "relative_frequency": 0.010442,
       "rank": 3
     },
     {
-      "keyword": "model predictive control",
-      "count": 3,
+      "keyword": "reinforcement learning",
+      "count": 13,
+      "relative_frequency": 0.010442,
       "rank": 4
     },
     {
-      "keyword": "path planning",
-      "count": 3,
+      "keyword": "control",
+      "count": 11,
+      "relative_frequency": 0.008835,
       "rank": 5
     },
     {
-      "keyword": "control",
-      "count": 2,
+      "keyword": "detection",
+      "count": 10,
+      "relative_frequency": 0.008032,
       "rank": 6
     },
     {
-      "keyword": "estimation",
-      "count": 2,
+      "keyword": "motion planning",
+      "count": 8,
+      "relative_frequency": 0.006426,
       "rank": 7
     },
     {
-      "keyword": "motion planning",
-      "count": 2,
+      "keyword": "object detection",
+      "count": 7,
+      "relative_frequency": 0.005622,
       "rank": 8
     },
     {
-      "keyword": "navigation",
-      "count": 2,
+      "keyword": "autonomous driving",
+      "count": 6,
+      "relative_frequency": 0.004819,
       "rank": 9
     },
     {
-      "keyword": "pose",
-      "count": 2,
+      "keyword": "estimation",
+      "count": 6,
+      "relative_frequency": 0.004819,
       "rank": 10
     },
     {
-      "keyword": "pose estimation",
-      "count": 2,
+      "keyword": "navigation",
+      "count": 6,
+      "relative_frequency": 0.004819,
       "rank": 11
     },
     {
-      "keyword": "real data",
-      "count": 2,
+      "keyword": "robotic",
+      "count": 6,
+      "relative_frequency": 0.004819,
       "rank": 12
     },
     {
-      "keyword": "robot navigation",
-      "count": 2,
+      "keyword": "soft",
+      "count": 6,
+      "relative_frequency": 0.004819,
       "rank": 13
     },
     {
-      "keyword": "simultaneous localization",
-      "count": 2,
+      "keyword": "autonomous",
+      "count": 5,
+      "relative_frequency": 0.004016,
       "rank": 14
     },
     {
-      "keyword": "uncertainty",
-      "count": 2,
+      "keyword": "environments",
+      "count": 5,
+      "relative_frequency": 0.004016,
       "rank": 15
     },
     {
-      "keyword": "unstructured outdoor environments",
-      "count": 2,
+      "keyword": "localization",
+      "count": 5,
+      "relative_frequency": 0.004016,
       "rank": 16
     },
     {
-      "keyword": "actively reusing",
-      "count": 1,
+      "keyword": "model predictive control",
+      "count": 5,
+      "relative_frequency": 0.004016,
       "rank": 17
     },
     {
-      "keyword": "actively reusing validation",
-      "count": 1,
+      "keyword": "path planning",
+      "count": 5,
+      "relative_frequency": 0.004016,
       "rank": 18
     },
     {
-      "keyword": "adaptive time surface",
-      "count": 1,
+      "keyword": "pose estimation",
+      "count": 5,
+      "relative_frequency": 0.004016,
       "rank": 19
     },
     {
-      "keyword": "aerial vehicles",
-      "count": 1,
+      "keyword": "prediction",
+      "count": 5,
+      "relative_frequency": 0.004016,
       "rank": 20
     },
     {
-      "keyword": "aggressive trajectory generation",
-      "count": 1,
+      "keyword": "trajectory",
+      "count": 5,
+      "relative_frequency": 0.004016,
       "rank": 21
     },
     {
-      "keyword": "amphibious design",
-      "count": 1,
+      "keyword": "aerial vehicles",
+      "count": 4,
+      "relative_frequency": 0.003213,
       "rank": 22
     },
     {
-      "keyword": "amphibious uavs",
-      "count": 1,
+      "keyword": "collision avoidance",
+      "count": 4,
+      "relative_frequency": 0.003213,
       "rank": 23
     },
     {
-      "keyword": "amphibious uavs feature",
-      "count": 1,
+      "keyword": "environment",
+      "count": 4,
+      "relative_frequency": 0.003213,
       "rank": 24
     },
     {
-      "keyword": "angle estimation",
-      "count": 1,
+      "keyword": "manipulation",
+      "count": 4,
+      "relative_frequency": 0.003213,
       "rank": 25
     },
     {
-      "keyword": "anthropomorphic dual arms",
-      "count": 1,
+      "keyword": "robots",
+      "count": 4,
+      "relative_frequency": 0.003213,
       "rank": 26
     },
     {
-      "keyword": "approximation",
-      "count": 1,
+      "keyword": "robust",
+      "count": 4,
+      "relative_frequency": 0.003213,
       "rank": 27
     },
     {
-      "keyword": "approximation and particle",
-      "count": 1,
+      "keyword": "segmentation",
+      "count": 4,
+      "relative_frequency": 0.003213,
       "rank": 28
     },
     {
-      "keyword": "aquatic robot quadruped",
-      "count": 1,
+      "keyword": "slam",
+      "count": 4,
+      "relative_frequency": 0.003213,
       "rank": 29
     },
     {
-      "keyword": "articulated rigid",
-      "count": 1,
+      "keyword": "unmanned aerial vehicles",
+      "count": 4,
+      "relative_frequency": 0.003213,
       "rank": 30
     },
     {
-      "keyword": "articulated rigid bodies",
-      "count": 1,
+      "keyword": "aerial vehicle",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 31
     },
     {
-      "keyword": "artificial neural networks",
-      "count": 1,
+      "keyword": "autonomous vehicles",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 32
     },
     {
-      "keyword": "assistance personalization control",
-      "count": 1,
+      "keyword": "cluttered environments",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 33
     },
     {
-      "keyword": "automated palletizing tasks",
-      "count": 1,
+      "keyword": "controller",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 34
     },
     {
-      "keyword": "automation",
-      "count": 1,
+      "keyword": "deep reinforcement",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 35
     },
     {
-      "keyword": "autonomous drone racing",
-      "count": 1,
+      "keyword": "dense",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 36
     },
     {
-      "keyword": "autonomous exploration",
-      "count": 1,
+      "keyword": "design",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 37
     },
     {
-      "keyword": "autonomous micro aerial",
-      "count": 1,
+      "keyword": "domain",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 38
     },
     {
-      "keyword": "autonomous mission planning",
-      "count": 1,
+      "keyword": "dynamic",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 39
     },
     {
-      "keyword": "autonomous racing drones",
-      "count": 1,
+      "keyword": "dynamic environments",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 40
     },
     {
-      "keyword": "barrier function",
-      "count": 1,
+      "keyword": "elevation",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 41
     },
     {
-      "keyword": "barriers for scalable",
-      "count": 1,
+      "keyword": "force",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 42
     },
     {
-      "keyword": "based total time",
-      "count": 1,
+      "keyword": "human",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 43
     },
     {
-      "keyword": "benefits under time",
-      "count": 1,
+      "keyword": "leveraging",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 44
     },
     {
-      "keyword": "bev",
-      "count": 1,
+      "keyword": "lidar",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 45
     },
     {
-      "keyword": "bev representation",
-      "count": 1,
+      "keyword": "mapping",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 46
     },
     {
-      "keyword": "biomimetic skin",
-      "count": 1,
+      "keyword": "mobile robot",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 47
     },
     {
-      "keyword": "biomimetic skin morphology",
-      "count": 1,
+      "keyword": "model predictive",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 48
     },
     {
-      "keyword": "biped robot",
-      "count": 1,
+      "keyword": "motion",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 49
     },
     {
-      "keyword": "biped robot walking",
-      "count": 1,
+      "keyword": "multi agent reinforcement learning",
+      "count": 3,
+      "relative_frequency": 0.00241,
       "rank": 50
     }
   ],
   "2024": [
     {
-      "keyword": "large language model",
-      "count": 4,
+      "keyword": "robot",
+      "count": 20,
+      "relative_frequency": 0.012143,
       "rank": 1
     },
     {
-      "keyword": "control",
-      "count": 3,
+      "keyword": "large language model",
+      "count": 15,
+      "relative_frequency": 0.009107,
       "rank": 2
     },
     {
-      "keyword": "integrating large language",
-      "count": 2,
+      "keyword": "reinforcement learning",
+      "count": 13,
+      "relative_frequency": 0.007893,
       "rank": 3
     },
     {
-      "keyword": "point",
-      "count": 2,
+      "keyword": "navigation",
+      "count": 10,
+      "relative_frequency": 0.006072,
       "rank": 4
     },
     {
-      "keyword": "pose",
-      "count": 2,
+      "keyword": "planning",
+      "count": 10,
+      "relative_frequency": 0.006072,
       "rank": 5
     },
     {
-      "keyword": "segmentation",
-      "count": 2,
+      "keyword": "model predictive control",
+      "count": 9,
+      "relative_frequency": 0.005464,
       "rank": 6
     },
     {
-      "keyword": "teleoperation",
-      "count": 2,
+      "keyword": "motion planning",
+      "count": 9,
+      "relative_frequency": 0.005464,
       "rank": 7
     },
     {
-      "keyword": "accuracy and stability",
-      "count": 1,
+      "keyword": "robots",
+      "count": 9,
+      "relative_frequency": 0.005464,
       "rank": 8
     },
     {
-      "keyword": "admittance",
-      "count": 1,
+      "keyword": "control",
+      "count": 8,
+      "relative_frequency": 0.004857,
       "rank": 9
     },
     {
-      "keyword": "admittance control",
-      "count": 1,
+      "keyword": "manipulation",
+      "count": 7,
+      "relative_frequency": 0.00425,
       "rank": 10
     },
     {
-      "keyword": "ai enhanced uavs utilizing",
-      "count": 1,
+      "keyword": "model predictive",
+      "count": 7,
+      "relative_frequency": 0.00425,
       "rank": 11
     },
     {
-      "keyword": "air vehicles",
-      "count": 1,
+      "keyword": "object",
+      "count": 7,
+      "relative_frequency": 0.00425,
       "rank": 12
     },
     {
-      "keyword": "aligned image pair",
-      "count": 1,
+      "keyword": "slam",
+      "count": 7,
+      "relative_frequency": 0.00425,
       "rank": 13
     },
     {
-      "keyword": "applied on quadruped",
-      "count": 1,
+      "keyword": "active",
+      "count": 6,
+      "relative_frequency": 0.003643,
       "rank": 14
     },
     {
-      "keyword": "autonomous exploration",
-      "count": 1,
+      "keyword": "point",
+      "count": 6,
+      "relative_frequency": 0.003643,
       "rank": 15
     },
     {
-      "keyword": "autonomous mobile",
-      "count": 1,
+      "keyword": "point cloud",
+      "count": 6,
+      "relative_frequency": 0.003643,
       "rank": 16
     },
     {
-      "keyword": "autonomous mobile manipulator",
-      "count": 1,
+      "keyword": "segmentation",
+      "count": 6,
+      "relative_frequency": 0.003643,
       "rank": 17
     },
     {
-      "keyword": "battery disassembly",
-      "count": 1,
+      "keyword": "autonomous",
+      "count": 5,
+      "relative_frequency": 0.003036,
       "rank": 18
     },
     {
-      "keyword": "battery disassembly autonomous",
-      "count": 1,
+      "keyword": "calibration",
+      "count": 5,
+      "relative_frequency": 0.003036,
       "rank": 19
     },
     {
-      "keyword": "bidirectional non overlapping filtering",
-      "count": 1,
+      "keyword": "cloud",
+      "count": 5,
+      "relative_frequency": 0.003036,
       "rank": 20
     },
     {
-      "keyword": "bimanual",
-      "count": 1,
+      "keyword": "constraints",
+      "count": 5,
+      "relative_frequency": 0.003036,
       "rank": 21
     },
     {
-      "keyword": "bimanual dexterous",
-      "count": 1,
+      "keyword": "deep reinforcement",
+      "count": 5,
+      "relative_frequency": 0.003036,
       "rank": 22
     },
     {
-      "keyword": "bimanual dexterous teleoperation",
-      "count": 1,
+      "keyword": "detection",
+      "count": 5,
+      "relative_frequency": 0.003036,
       "rank": 23
     },
     {
-      "keyword": "calibration free vision assisted container",
-      "count": 1,
+      "keyword": "environments",
+      "count": 5,
+      "relative_frequency": 0.003036,
       "rank": 24
     },
     {
-      "keyword": "camera radar sensor fusion",
-      "count": 1,
+      "keyword": "reinforcement",
+      "count": 5,
+      "relative_frequency": 0.003036,
       "rank": 25
     },
     {
-      "keyword": "challenging robotics control",
-      "count": 1,
+      "keyword": "robotic",
+      "count": 5,
+      "relative_frequency": 0.003036,
       "rank": 26
     },
     {
-      "keyword": "cloud",
-      "count": 1,
+      "keyword": "bev",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 27
     },
     {
-      "keyword": "collision injury protection",
-      "count": 1,
+      "keyword": "depth",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 28
     },
     {
-      "keyword": "competency",
-      "count": 1,
+      "keyword": "depth estimation",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 29
     },
     {
-      "keyword": "complex human instructions",
-      "count": 1,
+      "keyword": "exploration",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 30
     },
     {
-      "keyword": "complex maritime",
-      "count": 1,
+      "keyword": "gaussian splatting",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 31
     },
     {
-      "keyword": "complex maritime situations",
-      "count": 1,
+      "keyword": "human",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 32
     },
     {
-      "keyword": "conditional generative",
-      "count": 1,
+      "keyword": "localization",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 33
     },
     {
-      "keyword": "conditional generative denoiser",
-      "count": 1,
+      "keyword": "motion",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 34
     },
     {
-      "keyword": "conflict based search",
-      "count": 1,
+      "keyword": "multi agent path finding",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 35
     },
     {
-      "keyword": "constraints",
-      "count": 1,
+      "keyword": "optimization",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 36
     },
     {
-      "keyword": "contact",
-      "count": 1,
+      "keyword": "policy",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 37
     },
     {
-      "keyword": "container loading",
-      "count": 1,
+      "keyword": "prediction",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 38
     },
     {
-      "keyword": "continuous",
-      "count": 1,
+      "keyword": "reconstruction",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 39
     },
     {
-      "keyword": "continuous paths",
-      "count": 1,
+      "keyword": "simultaneous localization",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 40
     },
     {
-      "keyword": "continuous time",
-      "count": 1,
+      "keyword": "soft",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 41
     },
     {
-      "keyword": "continuoustime conflict based search",
-      "count": 1,
+      "keyword": "tactile",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 42
     },
     {
-      "keyword": "control problems",
-      "count": 1,
+      "keyword": "teleoperation",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 43
     },
     {
-      "keyword": "coordinating multiple robots",
-      "count": 1,
+      "keyword": "trajectory",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 44
     },
     {
-      "keyword": "covolutional neural network",
-      "count": 1,
+      "keyword": "trajectory planning",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 45
     },
     {
-      "keyword": "current physical interaction",
-      "count": 1,
+      "keyword": "vision",
+      "count": 4,
+      "relative_frequency": 0.002429,
       "rank": 46
     },
     {
-      "keyword": "data capture",
-      "count": 1,
+      "keyword": "aerial vehicles",
+      "count": 3,
+      "relative_frequency": 0.001821,
       "rank": 47
     },
     {
-      "keyword": "data sets",
-      "count": 1,
+      "keyword": "autonomous driving",
+      "count": 3,
+      "relative_frequency": 0.001821,
       "rank": 48
     },
     {
-      "keyword": "denoiser for nighttime",
-      "count": 1,
+      "keyword": "autonomous navigation",
+      "count": 3,
+      "relative_frequency": 0.001821,
       "rank": 49
     },
     {
-      "keyword": "deployment of vision based",
-      "count": 1,
+      "keyword": "continuum",
+      "count": 3,
+      "relative_frequency": 0.001821,
       "rank": 50
     }
-  ]
+  ],
+  "2025": []
 }

@@ -3,54 +3,108 @@
     {
       "keyword": "italic",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 1
     },
     {
       "keyword": "italic toggle",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 2
     },
     {
       "keyword": "jats",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 3
     },
     {
       "keyword": "lower bound",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 4
     },
     {
       "keyword": "oblivious subspace",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 5
     },
     {
       "keyword": "oblivious subspace embeddings",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 6
     },
     {
       "keyword": "ose",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 7
     },
     {
       "keyword": "subspace",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 8
     },
     {
       "keyword": "subspace embeddings",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 9
     },
     {
       "keyword": "toggle",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 10
     }
   ],
   "2023": [],
-  "2024": []
+  "2024": [
+    {
+      "keyword": "genrewrite",
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 1
+    },
+    {
+      "keyword": "language rewrite rules",
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 2
+    },
+    {
+      "keyword": "large language model",
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 3
+    },
+    {
+      "keyword": "natural language rewrite",
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 4
+    },
+    {
+      "keyword": "query",
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 5
+    },
+    {
+      "keyword": "query rewriting",
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 6
+    },
+    {
+      "keyword": "rewriting",
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 7
+    }
+  ],
+  "2025": []
 }

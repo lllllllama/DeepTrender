@@ -1,48 +1,59 @@
 {
+  "2023": [],
+  "2024": [],
   "2025": [
     {
       "keyword": "cnns under natural",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 1
     },
     {
       "keyword": "compression",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 2
     },
     {
       "keyword": "computer vision systems",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 3
     },
     {
       "keyword": "evaluating the impact",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 4
     },
     {
       "keyword": "impact",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 5
     },
     {
       "keyword": "impact of compression",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 6
     },
     {
       "keyword": "natural",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 7
     },
     {
       "keyword": "natural corruptions",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 8
     },
     {
       "keyword": "robustness",
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 9
     }
   ],
@@ -50,251 +61,301 @@
     {
       "keyword": "large language model",
       "count": 4,
+      "relative_frequency": 0.210526,
       "rank": 1
     },
     {
       "keyword": "vision language model",
       "count": 2,
+      "relative_frequency": 0.105263,
       "rank": 2
     },
     {
       "keyword": "adversarial",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 3
     },
     {
       "keyword": "adversarial label",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 4
     },
     {
       "keyword": "adversarial label invariant",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 5
     },
     {
       "keyword": "adversarial multi armed bandit",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 6
     },
     {
       "keyword": "agency",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 7
     },
     {
       "keyword": "agency from reflective",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 8
     },
     {
       "keyword": "arms",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 9
     },
     {
       "keyword": "attention based sinr",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 10
     },
     {
       "keyword": "attention based sinr estimation",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 11
     },
     {
       "keyword": "attributing authorship",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 12
     },
     {
       "keyword": "attribution",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 13
     },
     {
       "keyword": "attribution with synthetic",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 14
     },
     {
       "keyword": "augmented",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 15
     },
     {
       "keyword": "augmented surrogate model",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 16
     },
     {
       "keyword": "authorship",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 17
     },
     {
       "keyword": "authorship attribution",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 18
     },
     {
       "keyword": "automated causal",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 19
     },
     {
       "keyword": "automated causal engine",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 20
     },
     {
       "keyword": "bench",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 21
     },
     {
       "keyword": "benchmarking and observational",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 22
     },
     {
       "keyword": "budgeted online",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 23
     },
     {
       "keyword": "budgeted online influence",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 24
     },
     {
       "keyword": "cached",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 25
     },
     {
       "keyword": "causal",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 26
     },
     {
       "keyword": "causal effect estimation",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 27
     },
     {
       "keyword": "causal engine",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 28
     },
     {
       "keyword": "causal inference",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 29
     },
     {
       "keyword": "chosen influencer set",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 30
     },
     {
       "keyword": "coherent",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 31
     },
     {
       "keyword": "coherent factuality",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 32
     },
     {
       "keyword": "common cardinality constraint",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 33
     },
     {
       "keyword": "compute",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 34
     },
     {
       "keyword": "compute verbal",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 35
     },
     {
       "keyword": "compute verbal confidence",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 36
     },
     {
       "keyword": "confidence",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 37
     },
     {
       "keyword": "conformal training",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 38
     },
     {
       "keyword": "controllable generative sandbox",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 39
     },
     {
       "keyword": "corrects binding shortcuts",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 40
     },
     {
       "keyword": "data augmentations",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 41
     },
     {
       "keyword": "data corrects",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 42
     },
     {
       "keyword": "data corrects binding",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 43
     },
     {
       "keyword": "data unlearning bench",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 44
     },
     {
       "keyword": "differentiable conformal training",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 45
     },
     {
       "keyword": "distribution",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 46
     },
     {
       "keyword": "early experience",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 47
     },
     {
       "keyword": "easy data",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 48
     },
     {
       "keyword": "easy data unlearning",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 49
     },
     {
       "keyword": "effect heterogeneity",
       "count": 1,
+      "relative_frequency": 0.052632,
       "rank": 50
     }
   ]

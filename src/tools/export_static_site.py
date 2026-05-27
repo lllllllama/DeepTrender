@@ -10,7 +10,7 @@ import shutil
 import argparse
 import csv
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional, Tuple
 from collections import defaultdict
 
@@ -24,6 +24,10 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from database import DatabaseRepository, get_repository
 from config import VENUES, ROOT_DIR
 from taxonomy.keyword_normalizer import get_keyword_canonicalizer
+
+
+ARXIV_EXPORT_CATEGORIES = ["ALL", "cs.LG", "cs.CV", "cs.CL", "cs.AI", "cs.RO"]
+ARXIV_EXPORT_GRANULARITIES = ["year", "month", "week", "day"]
 
 
 class StaticSiteExporter:
@@ -121,6 +125,22 @@ class StaticSiteExporter:
         paper_count = self.repo.get_paper_count(venue=venue_name)
         top_kw = self._top_cached_keywords(venue=venue_name, limit=10)
         top_keywords = [{"keyword": kw, "count": c} for kw, c in top_kw]
+        has_data = paper_count > 0
+        data_warnings = []
+        if not has_data:
+            data_warnings.append(
+                {
+                    "code": "registered_no_papers",
+                    "message": "Venue is registered but no structured papers were exported for it.",
+                }
+            )
+        elif not top_keywords:
+            data_warnings.append(
+                {
+                    "code": "low_sample_size",
+                    "message": "Venue has papers but no exported keyword facts.",
+                }
+            )
 
         return {
             "name": venue_name,
@@ -137,7 +157,9 @@ class StaticSiteExporter:
             "years_available": sorted(years, reverse=True),
             "paper_count": paper_count,
             "top_keywords": top_keywords,
-            "has_data": paper_count > 0,
+            "has_data": has_data,
+            "data_status": "ok" if has_data else "registered_no_papers",
+            "warnings": data_warnings,
         }
 
     def collect_venue_index_data(self) -> List[Dict[str, Any]]:
@@ -248,8 +270,14 @@ class StaticSiteExporter:
         yearly_data = {}
         for year in sorted(years):
             top_keywords = self._top_cached_keywords(venue=venue_name, year=year, limit=top_n)
+            denominator = self.repo.get_paper_count(venue=venue_name, year=year)
             yearly_data[str(year)] = [
-                {"keyword": kw, "count": count, "rank": rank + 1}
+                {
+                    "keyword": kw,
+                    "count": count,
+                    "relative_frequency": round(count / denominator, 6) if denominator else 0,
+                    "rank": rank + 1,
+                }
                 for rank, (kw, count) in enumerate(top_keywords)
             ]
 
@@ -270,11 +298,18 @@ class StaticSiteExporter:
 
         for year in sorted(years):
             top_keywords = self._top_cached_keyword_keys(venue=venue_name, year=year, limit=100)
+            denominator = self.repo.get_paper_count(venue=venue_name, year=year)
             for rank, (key, _label, count) in enumerate(top_keywords, start=1):
-                keyword_yearly_counts[key][year] = count
+                keyword_yearly_counts[key][year] = {
+                    "count": count,
+                    "relative_frequency": round(count / denominator, 6) if denominator else 0,
+                }
                 keyword_yearly_ranks[key][year] = rank
 
-        keyword_totals = {kw: sum(counts.values()) for kw, counts in keyword_yearly_counts.items()}
+        keyword_totals = {
+            kw: sum(point["count"] for point in counts.values())
+            for kw, counts in keyword_yearly_counts.items()
+        }
         top_keywords = sorted(keyword_totals.keys(), key=lambda k: keyword_totals[k], reverse=True)[:max_keywords]
 
         trends_data = {}
@@ -285,7 +320,8 @@ class StaticSiteExporter:
                 yearly_points.append(
                     {
                         "year": year,
-                        "count": keyword_yearly_counts[kw].get(year, 0),
+                        "count": keyword_yearly_counts[kw].get(year, {}).get("count", 0),
+                        "relative_frequency": keyword_yearly_counts[kw].get(year, {}).get("relative_frequency", 0),
                         "rank": keyword_yearly_ranks[kw].get(year, 0),
                     }
                 )
@@ -325,14 +361,20 @@ class StaticSiteExporter:
                 len(cache["global_year"].get(year, {}).get(key, set()))
                 for year in all_years
             ]
+            denominators = [self.repo.get_paper_count(year=year) for year in all_years]
             rows.append({
                 "keyword": label,
                 "years": all_years,
                 "counts": counts,
                 "total": sum(counts),
                 "points": [
-                    {"year": year, "count": count, "rank": 0}
-                    for year, count in zip(all_years, counts)
+                    {
+                        "year": year,
+                        "count": count,
+                        "relative_frequency": round(count / denominator, 6) if denominator else 0,
+                        "rank": 0,
+                    }
+                    for year, count, denominator in zip(all_years, counts, denominators)
                 ],
             })
 
@@ -442,15 +484,12 @@ class StaticSiteExporter:
         }
 
     def export_arxiv_timeseries(self) -> int:
-        granularities = ["day", "week", "month", "year"]
-        categories = ["ALL", "cs.LG", "cs.CV", "cs.CL", "cs.AI", "cs.RO"]
         exported_count = 0
 
-        for granularity in granularities:
-            for category in categories:
+        for granularity in ARXIV_EXPORT_GRANULARITIES:
+            for category in ARXIV_EXPORT_CATEGORIES:
                 data = self.repo.analysis.get_arxiv_timeseries(category, granularity)
-                if not data:
-                    continue
+                warnings = self._arxiv_warnings(category=category, data=data)
 
                 output_data = {
                     "granularity": granularity,
@@ -458,6 +497,7 @@ class StaticSiteExporter:
                     "data": data,
                     "cached": True,
                     "exported_at": datetime.now().isoformat(),
+                    "warnings": warnings,
                 }
                 output_file = self.arxiv_data_dir / f"arxiv_timeseries_{granularity}_{category}.json"
                 with open(output_file, "w", encoding="utf-8") as f:
@@ -466,6 +506,147 @@ class StaticSiteExporter:
                 self.stats["total_size_bytes"] += output_file.stat().st_size
                 exported_count += 1
 
+        return exported_count
+
+    def _arxiv_keyword_trend_rows(self, category: str, granularity: str) -> Dict[str, List[Dict[str, Any]]]:
+        rows = self.repo.analysis.get_keyword_trends_for_scope(
+            scope="arxiv",
+            granularity=granularity,
+            venue=category,
+        )
+        trends = defaultdict(list)
+        for row in rows:
+            trends[row["keyword"]].append(
+                {
+                    "bucket": row["bucket"],
+                    "count": row["count"],
+                    "relative_frequency": row.get("relative_frequency", 0),
+                    "rank": row.get("rank", 0),
+                }
+            )
+        return dict(trends)
+
+    def export_arxiv_keyword_trends(self) -> int:
+        exported_count = 0
+        for category in ARXIV_EXPORT_CATEGORIES:
+            keyword_totals = defaultdict(int)
+            for granularity in ARXIV_EXPORT_GRANULARITIES:
+                trends = self._arxiv_keyword_trend_rows(category, granularity)
+                warnings = []
+                if not trends:
+                    warnings.append(
+                        {
+                            "code": "registered_no_papers",
+                            "message": "No arXiv keyword trend cache was exported for this category/granularity.",
+                        }
+                    )
+                for keyword, points in trends.items():
+                    keyword_totals[keyword] += sum(int(point.get("count") or 0) for point in points)
+                output_data = {
+                    "category": category,
+                    "granularity": granularity,
+                    "trends": trends,
+                    "exported_at": datetime.now().isoformat(),
+                    "warnings": warnings,
+                }
+                output_file = self.arxiv_data_dir / f"arxiv_keyword_trends_{granularity}_{category}.json"
+                with open(output_file, "w", encoding="utf-8") as f:
+                    json.dump(output_data, f, indent=2, ensure_ascii=False)
+                self.stats["total_size_bytes"] += output_file.stat().st_size
+                exported_count += 1
+
+            keywords = [
+                keyword
+                for keyword, _total in sorted(
+                    keyword_totals.items(),
+                    key=lambda item: (-item[1], item[0]),
+                )[: self.top_keywords]
+            ]
+            index_output = {
+                "category": category,
+                "keywords": keywords,
+                "exported_at": datetime.now().isoformat(),
+                "warnings": []
+                if keywords
+                else [
+                    {
+                        "code": "registered_no_papers",
+                        "message": "No cached arXiv keywords were exported for this category.",
+                    }
+                ],
+            }
+            output_file = self.arxiv_data_dir / f"arxiv_keywords_index_{category}.json"
+            with open(output_file, "w", encoding="utf-8") as f:
+                json.dump(index_output, f, indent=2, ensure_ascii=False)
+            self.stats["total_size_bytes"] += output_file.stat().st_size
+            exported_count += 1
+        return exported_count
+
+    def _arxiv_raw_and_linked_counts(self, category: str) -> Tuple[int, int]:
+        with self.repo._get_connection() as conn:
+            cursor = conn.cursor()
+            params = []
+            where = "WHERE r.source = 'arxiv'"
+            if category != "ALL":
+                where += " AND r.categories LIKE ?"
+                params.append(f"%{category}%")
+            cursor.execute(f"SELECT COUNT(*) AS count FROM raw_papers r {where}", params)
+            raw_count = cursor.fetchone()["count"]
+            cursor.execute(
+                f"""
+                SELECT COUNT(DISTINCT ps.paper_id) AS count
+                FROM raw_papers r
+                JOIN paper_sources ps ON ps.raw_id = r.raw_id AND ps.source = 'arxiv'
+                {where}
+                """,
+                params,
+            )
+            linked_count = cursor.fetchone()["count"]
+        return raw_count, linked_count
+
+    def _arxiv_warnings(self, category: str, data: Optional[List[Dict]] = None) -> List[Dict[str, str]]:
+        warnings = []
+        raw_count, linked_count = self._arxiv_raw_and_linked_counts(category)
+        if raw_count == 0:
+            warnings.append({"code": "registered_no_papers", "message": "No raw arXiv papers are registered for this category."})
+        if raw_count > linked_count:
+            warnings.append(
+                {
+                    "code": "missing_source_mapping",
+                    "message": f"{raw_count - linked_count} raw arXiv papers are not linked to structured paper_id records.",
+                }
+            )
+        if linked_count and linked_count < 5:
+            warnings.append({"code": "low_sample_size", "message": "Fewer than 5 linked arXiv papers are available."})
+        if not data:
+            warnings.append({"code": "registered_no_papers", "message": "No analysis cache was exported for this arXiv scope."})
+        for row in data or []:
+            warnings.extend(row.get("warnings") or [])
+        if self._stale_status() == "stale":
+            warnings.append({"code": "stale_data", "message": "Latest source data is older than the freshness threshold."})
+        return self._dedupe_warnings(warnings)
+
+    def export_arxiv_quality(self) -> int:
+        exported_count = 0
+        for category in ARXIV_EXPORT_CATEGORIES:
+            raw_count, linked_count = self._arxiv_raw_and_linked_counts(category)
+            timeseries = []
+            for granularity in ARXIV_EXPORT_GRANULARITIES:
+                timeseries.extend(self.repo.analysis.get_arxiv_timeseries(category, granularity))
+            output_data = {
+                "category": category,
+                "generated_at": datetime.now().isoformat(),
+                "raw_paper_count": raw_count,
+                "linked_paper_count": linked_count,
+                "source_mapping_coverage_ratio": round(linked_count / raw_count, 6) if raw_count else 0,
+                "stale_status": self._stale_status(),
+                "warnings": self._arxiv_warnings(category=category, data=timeseries),
+            }
+            output_file = self.arxiv_data_dir / f"arxiv_quality_{category}.json"
+            with open(output_file, "w", encoding="utf-8") as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+            self.stats["total_size_bytes"] += output_file.stat().st_size
+            exported_count += 1
         return exported_count
 
     def export_arxiv_emerging(self) -> int:
@@ -500,6 +681,8 @@ class StaticSiteExporter:
     def export_all_arxiv(self) -> Dict:
         results = {
             "timeseries": self.export_arxiv_timeseries(),
+            "keyword_trends": self.export_arxiv_keyword_trends(),
+            "quality": self.export_arxiv_quality(),
             "emerging": self.export_arxiv_emerging(),
             "stats": self.export_arxiv_stats(),
         }
@@ -524,11 +707,76 @@ class StaticSiteExporter:
         self.stats["files_copied"] = copied_count
         return copied_count
 
+    def _dedupe_warnings(self, warnings: List[Dict[str, str]]) -> List[Dict[str, str]]:
+        seen = set()
+        deduped = []
+        for warning in warnings:
+            key = (warning.get("code"), warning.get("message"))
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped.append(warning)
+        return deduped
+
+    def _stale_status(self) -> str:
+        latest = self.repo.analysis.get_max_retrieved_at()
+        if not latest:
+            return "no_data"
+        try:
+            latest_dt = datetime.fromisoformat(str(latest))
+        except ValueError:
+            return "unknown"
+        return "stale" if datetime.now() - latest_dt > timedelta(days=30) else "fresh"
+
+    def _coverage_ratios(self) -> Dict[str, float]:
+        total_papers = self.repo.get_paper_count()
+        if total_papers <= 0:
+            return {"keyword_coverage_ratio": 0, "topic_fact_coverage_ratio": 0}
+        with self.repo._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT COUNT(DISTINCT paper_id) AS count FROM paper_keywords")
+            keyword_papers = cursor.fetchone()["count"]
+            cursor.execute("SELECT COUNT(DISTINCT paper_id) AS count FROM paper_topics")
+            topic_papers = cursor.fetchone()["count"]
+        return {
+            "keyword_coverage_ratio": round(keyword_papers / total_papers, 6),
+            "topic_fact_coverage_ratio": round(topic_papers / total_papers, 6),
+        }
+
     def export_manifest(self):
         self.stats["total_papers"] = self.repo.get_paper_count()
         self.stats["total_keywords"] = self.repo.get_total_keyword_count()
+        coverage = self._coverage_ratios()
+        venues_with_data = self.stats.get("venues_with_data", [])
+        if isinstance(venues_with_data, int):
+            venues_with_data = [
+                item["name"]
+                for item in self.collect_venue_index_data()
+                if item.get("has_data")
+            ]
+        venues_exported = self.stats.get("venues_exported", [])
+        if isinstance(venues_exported, int):
+            venues_exported = [item["name"] for item in self.collect_venue_index_data()]
+        venues_without_data = sorted(set(venues_exported) - set(venues_with_data))
         manifest = {
             "generated_at": datetime.now().isoformat(),
+            "stale_status": self._stale_status(),
+            "arxiv_categories_exported": ARXIV_EXPORT_CATEGORIES,
+            "venues_exported": venues_exported,
+            "venues_with_data": venues_with_data,
+            "venues_without_data": venues_without_data,
+            "keyword_coverage_ratio": coverage["keyword_coverage_ratio"],
+            "topic_fact_coverage_ratio": coverage["topic_fact_coverage_ratio"],
+            "warnings": self._dedupe_warnings(
+                [
+                    {
+                        "code": "stale_data",
+                        "message": "Latest source data is older than the freshness threshold.",
+                    }
+                ]
+                if self._stale_status() == "stale"
+                else []
+            ),
             "stats": self.stats,
         }
         manifest_file = self.output_dir / "data" / "manifest.json"

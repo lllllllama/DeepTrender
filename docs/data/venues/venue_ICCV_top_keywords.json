@@ -1,178 +1,216 @@
 {
+  "2021": [],
+  "2023": [],
+  "2025": [],
   "2026": [
     {
       "keyword": "accurate cone",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 1
     },
     {
       "keyword": "accurate cone localization",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 2
     },
     {
       "keyword": "autonomous racing",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 3
     },
     {
       "keyword": "autonomous racing systems",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 4
     },
     {
       "keyword": "characteristic",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 5
     },
     {
       "keyword": "characteristic orientation",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 6
     },
     {
       "keyword": "computing a characteristic",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 7
     },
     {
       "keyword": "cone localization",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 8
     },
     {
       "keyword": "driving",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 9
     },
     {
       "keyword": "driving world",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 10
     },
     {
       "keyword": "driving world model",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 11
     },
     {
       "keyword": "editing",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 12
     },
     {
       "keyword": "editing image generations",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 13
     },
     {
       "keyword": "editing models",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 14
     },
     {
       "keyword": "editing region",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 15
     },
     {
       "keyword": "editing region reasoning",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 16
     },
     {
       "keyword": "future scene generation",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 17
     },
     {
       "keyword": "general intensity direction",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 18
     },
     {
       "keyword": "generation",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 19
     },
     {
       "keyword": "image analysis",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 20
     },
     {
       "keyword": "image editing",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 21
     },
     {
       "keyword": "image editing models",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 22
     },
     {
       "keyword": "instruction based image editing",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 23
     },
     {
       "keyword": "keypoint regression",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 24
     },
     {
       "keyword": "large language model",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 25
     },
     {
       "keyword": "localization",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 26
     },
     {
       "keyword": "orientation for rotation independent",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 27
     },
     {
       "keyword": "racing",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 28
     },
     {
       "keyword": "regression",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 29
     },
     {
       "keyword": "rotation independent image analysis",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 30
     },
     {
       "keyword": "scene understanding",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 31
     },
     {
       "keyword": "unet based keypoint regression",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 32
     },
     {
       "keyword": "unified driving",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 33
     },
     {
       "keyword": "unified driving world",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 34
     },
     {
       "keyword": "world model",
       "count": 1,
+      "relative_frequency": 0.25,
       "rank": 35
     }
   ]

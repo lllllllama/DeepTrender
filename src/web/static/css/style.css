@@ -434,6 +434,23 @@ body::before {
     box-shadow: 0 0 0 4px var(--accent-glow);
 }
 
+.filter-input {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 0.6rem 1rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
+    font-family: inherit;
+    min-width: 180px;
+}
+
+.filter-input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-glow);
+}
+
 .btn-refresh {
     background: var(--gradient-accent);
     color: white;
@@ -675,6 +692,38 @@ body::before {
 .keyword-tag.muted {
     color: var(--text-muted);
     background: rgba(100, 116, 139, 0.12);
+}
+
+.keyword-evidence {
+    display: inline-block;
+    margin: 0.2rem;
+}
+
+.keyword-evidence summary {
+    cursor: pointer;
+}
+
+.keyword-metric {
+    margin-left: 0.35rem;
+    color: var(--text-secondary);
+    font-size: 0.8em;
+}
+
+.evidence-list {
+    margin-top: 0.4rem;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: var(--bg-secondary);
+    max-width: 520px;
+}
+
+.evidence-item {
+    display: grid;
+    gap: 0.2rem;
+    margin-bottom: 0.45rem;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
 }
 
 /* ==================== 页脚 ==================== */

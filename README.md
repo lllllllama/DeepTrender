@@ -19,23 +19,23 @@ Live site: https://lllllllama.github.io/DeepTrender/
 | --- | --- |
 | Data ingestion | arXiv, OpenReview, OpenAlex, Semantic Scholar |
 | Database | SQLite with raw, structured, and analysis layers |
-| Venue coverage | Configured OpenReview venues plus `data/registry/ccf_venues.csv` registry entries |
+| Venue coverage | Configured OpenReview venues plus broad CCF conference registry entries |
 | Keyword statistics | Canonical keyword aggregation with alias merging and noise filtering |
 | Trends | arXiv day/week/month/year series, venue-year keywords, global emerging topics |
 | Interfaces | Static Pages dashboard, Flask REST API, MCP server |
 | Automation | GitHub Actions crawl/update/export/deploy workflow |
 
-Current local snapshot, inspected on 2026-05-21:
+Current local snapshot, inspected on 2026-05-27:
 
 | Metric | Value |
 | --- | ---: |
-| Raw papers | 52,252 |
-| Structured papers | 54,978 |
-| Venues in database | 39 |
-| CCF registry venues | 35 |
+| Raw papers | 140,522 |
+| Structured papers | 142,263 |
+| Venues in database | 43 |
+| CCF registry venues | 387 |
 | Static venues exported | 47 |
-| Static venues with data | 28 |
-| Extracted keyword rows | 195,402 |
+| Static venues with data | 32 |
+| Extracted keyword rows | 285,763 |
 | Structured year range | 2020-2026 |
 
 ## System Diagram
@@ -72,9 +72,12 @@ DeepTrender keeps source evidence and derived facts separate:
 | Static export | `docs/data/**` | JSON files consumed by GitHub Pages |
 
 Venue metadata is bootstrapped from `src/config.py` and extended by
-`data/registry/ccf_venues.csv`. Registry-only venues are still exported to the
-dashboard with `has_data: false`, so coverage gaps are visible instead of being
-silently hidden.
+`data/registry/ccf_venues.csv`, which tracks the CCF 2026 conference list. The
+registry is loaded by ingestion,
+structuring, and static export code, so newly registered CCF venues do not need
+to be duplicated in several Python constants. Registry-only venues are still
+exported to the dashboard with `has_data: false`, so coverage gaps are visible
+instead of being silently hidden.
 
 ## Keyword Policy
 
@@ -176,11 +179,21 @@ Important `Update Keywords` inputs:
 | --- | --- | --- |
 | `source` | `arxiv`, `openalex`, `s2`, `openreview`, or `all` | `all` |
 | `crawl_mode` | `auto`, `full`, or `incremental` | `auto` |
-| `full_crawl_target` | Structured-paper threshold before auto mode switches to incremental | `20000` |
+| `full_crawl_target` | Structured-paper threshold before auto mode switches to incremental | `200000` |
 | `arxiv_days` | arXiv lookback window | `7`, raised in full mode |
 | `arxiv_max_results` | arXiv fetch cap | resolved by workflow |
 | `limit` | Processing cap | raised in full mode |
+| `ccf_tier` | Optional CCF tier filter for full crawl | `all` |
+| `ccf_domain` | Optional domain filter such as `AI`, `DB`, `SE`, or `Security` | blank |
+| `venue_offset`, `venue_count` | Batch a resolved venue list across multiple Actions runs | blank |
 | `export_only` | Export/deploy static site without crawling | `false` |
+
+The intended large-data workflow is Actions-first: run `Update Keywords` with
+`crawl_mode=full` and optional CCF tier/domain/batch inputs, let the workflow
+fetch and export data on GitHub, and use the uploaded `deeptrender-data-*`
+artifact for the SQLite database. The workflow commits generated Pages/output
+artifacts but does not stage `data/keywords.db`, avoiding oversized database
+pushes from local or CI runs.
 
 ## Repository Map
 

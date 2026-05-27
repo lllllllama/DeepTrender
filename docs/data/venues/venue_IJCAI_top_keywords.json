@@ -1,253 +1,309 @@
 {
+  "2020": [],
+  "2021": [],
+  "2022": [],
+  "2023": [],
+  "2024": [],
+  "2025": [],
   "2026": [
     {
       "keyword": "action segmentation",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 1
     },
     {
       "keyword": "adaptive network",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 2
     },
     {
       "keyword": "adaptive network named",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 3
     },
     {
       "keyword": "approximately",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 4
     },
     {
       "keyword": "approximately consensus",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 5
     },
     {
       "keyword": "artificial",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 6
     },
     {
       "keyword": "artificial intelligence",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 7
     },
     {
       "keyword": "black box models era",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 8
     },
     {
       "keyword": "clinical graph",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 9
     },
     {
       "keyword": "clinical graph structure",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 10
     },
     {
       "keyword": "clinical texts",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 11
     },
     {
       "keyword": "common ground",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 12
     },
     {
       "keyword": "eeg seizure",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 13
     },
     {
       "keyword": "eeg seizure diagnosis",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 14
     },
     {
       "keyword": "empirical risk minimization",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 15
     },
     {
       "keyword": "enhancing representation",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 16
     },
     {
       "keyword": "enhancing representation learning",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 17
     },
     {
       "keyword": "entropy semi supervised inverse",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 18
     },
     {
       "keyword": "evaluating llms",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 19
     },
     {
       "keyword": "evaluating llms performance",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 20
     },
     {
       "keyword": "extraction in spanish",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 21
     },
     {
       "keyword": "finding common",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 22
     },
     {
       "keyword": "finding common ground",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 23
     },
     {
       "keyword": "graph",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 24
     },
     {
       "keyword": "ground",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 25
     },
     {
       "keyword": "habit extraction",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 26
     },
     {
       "keyword": "hoi",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 27
     },
     {
       "keyword": "hoi aware adaptive",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 28
     },
     {
       "keyword": "hoi aware adaptive network",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 29
     },
     {
       "keyword": "intelligence",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 30
     },
     {
       "keyword": "inverse reinforcement",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 31
     },
     {
       "keyword": "inverse reinforcement learning",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 32
     },
     {
       "keyword": "language semantic",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 33
     },
     {
       "keyword": "language semantic profiling",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 34
     },
     {
       "keyword": "learning theory",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 35
     },
     {
       "keyword": "maximum entropy",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 36
     },
     {
       "keyword": "maximum entropy principle",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 37
     },
     {
       "keyword": "maximum entropy semi supervised",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 38
     },
     {
       "keyword": "models era",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 39
     },
     {
       "keyword": "natural",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 40
     },
     {
       "keyword": "natural language",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 41
     },
     {
       "keyword": "natural language processing",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 42
     },
     {
       "keyword": "natural language semantic",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 43
     },
     {
       "keyword": "neuro symbolic artificial",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 44
     },
     {
       "keyword": "neuro symbolic artificial intelligence",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 45
     },
     {
       "keyword": "platform via natural",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 46
     },
     {
       "keyword": "reinforcement",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 47
     },
     {
       "keyword": "reinforcement learning",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 48
     },
     {
       "keyword": "representation learning",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 49
     },
     {
       "keyword": "representation learning challenging",
       "count": 1,
+      "relative_frequency": 0.142857,
       "rank": 50
     }
   ]

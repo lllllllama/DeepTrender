@@ -37,6 +37,7 @@
                 <label data-i18n="arxiv.granularity">Granularity</label>
                 <div class="btn-group">
                     <button class="btn-toggle active" data-granularity="year" onclick="setGranularity('year')" data-i18n="arxiv.year">Year</button>
+                    <button class="btn-toggle" data-granularity="month" onclick="setGranularity('month')">Month</button>
                     <button class="btn-toggle" data-granularity="week" onclick="setGranularity('week')" data-i18n="arxiv.week">Week</button>
                     <button class="btn-toggle" data-granularity="day" onclick="setGranularity('day')" data-i18n="arxiv.day">Day</button>
                 </div>
@@ -51,6 +52,10 @@
                     <option value="cs.AI">cs.AI</option>
                     <option value="cs.RO">cs.RO</option>
                 </select>
+            </div>
+            <div class="control-group">
+                <label for="keyword-search">Keyword</label>
+                <input id="keyword-search" class="filter-input" type="search" placeholder="Search keyword">
             </div>
             <button class="btn-refresh" type="button" onclick="loadData()">Refresh</button>
         </section>
@@ -81,6 +86,18 @@
                 <span class="status-label" data-i18n="arxiv.points">Data points:</span>
                 <span class="status-value" id="data-count">--</span>
             </div>
+            <div class="status-item">
+                <span class="status-label">Generated:</span>
+                <span class="status-value" id="generated-at">--</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">Freshness:</span>
+                <span class="status-value" id="stale-status">--</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">Warnings:</span>
+                <span class="status-value" id="warning-list">--</span>
+            </div>
         </section>
     </main>
 
@@ -97,6 +114,7 @@
         let currentGranularity = "year";
         let currentCategory = "ALL";
         let timeseriesChart = null;
+        let currentKeywordQuery = "";
 
         function escapeHtml(value) {
             return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -109,6 +127,11 @@
         }
 
         async function init() {
+            const keywordSearch = document.getElementById("keyword-search");
+            keywordSearch.addEventListener("input", () => {
+                currentKeywordQuery = keywordSearch.value.trim().toLowerCase();
+                loadData();
+            });
             await loadData();
         }
 
@@ -132,10 +155,21 @@
             let result;
             if (isStatic) {
                 try {
-                    result = await API.getStatic(`./data/arxiv/arxiv_timeseries_${currentGranularity}_${currentCategory}.json`);
+                    const [series, quality, manifest] = await Promise.all([
+                        API.getStatic(`./data/arxiv/arxiv_timeseries_${currentGranularity}_${currentCategory}.json`),
+                        API.getStatic(`./data/arxiv/arxiv_quality_${currentCategory}.json`).catch(() => null),
+                        API.getStatic("./data/manifest.json").catch(() => null),
+                    ]);
+                    result = series;
+                    result.quality = quality;
+                    result.manifest = manifest;
                 } catch (error) {
                     console.warn("No arXiv static data found", error);
-                    result = { data: [], cached: true };
+                    result = {
+                        data: [],
+                        cached: true,
+                        warnings: [{ code: "registered_no_papers", message: "Static arXiv export is missing for this scope." }],
+                    };
                 }
             } else {
                 result = await API.get("./api/arxiv/timeseries", {
@@ -147,6 +181,9 @@
             document.getElementById("data-status").textContent = result.cached ? "Cached" : "Live";
             document.getElementById("data-count").textContent = result.data?.length || 0;
             document.getElementById("chart-subtitle").textContent = `${currentGranularity} - ${currentCategory}`;
+            document.getElementById("generated-at").textContent = result.exported_at || result.manifest?.generated_at || "--";
+            document.getElementById("stale-status").textContent = result.quality?.stale_status || result.manifest?.stale_status || "--";
+            renderWarnings([...(result.warnings || []), ...(result.quality?.warnings || [])]);
 
             if (result.data && result.data.length > 0) {
                 renderTimeseriesChart(result.data);
@@ -154,8 +191,20 @@
                 return;
             }
 
-            showNoData("chart-timeseries");
+            showNoData("chart-timeseries", result.warnings || []);
             document.getElementById("keywords-timeline").innerHTML = '<p class="no-data">No arXiv data available yet.</p>';
+        }
+
+        function renderWarnings(warnings) {
+            const unique = new Map();
+            (warnings || []).forEach((warning) => {
+                if (warning && warning.code) {
+                    unique.set(warning.code, warning.message || warning.code);
+                }
+            });
+            document.getElementById("warning-list").textContent = unique.size
+                ? Array.from(unique.keys()).join(", ")
+                : "None";
         }
 
         function renderTimeseriesChart(data) {
@@ -215,17 +264,45 @@
                         <div class="timeline-bucket">${escapeHtml(item.bucket)}</div>
                         <div class="timeline-count">${Number(item.paper_count || 0).toLocaleString()} papers</div>
                         <div class="timeline-keywords">
-                            ${(item.top_keywords || []).slice(0, 5).map((keyword) => `<span class="keyword-tag">${escapeHtml(keyword.keyword)}</span>`).join("")}
+                            ${renderKeywordItems(item)}
                         </div>
                     </div>
                 `).join("")}</div>`;
         }
 
-        function showNoData(containerId) {
+        function renderKeywordItems(item) {
+            const keywords = (item.top_keywords || [])
+                .filter((keyword) => !currentKeywordQuery || String(keyword.keyword).toLowerCase().includes(currentKeywordQuery))
+                .slice(0, 8);
+            if (!keywords.length) {
+                return '<span class="keyword-tag muted">No matching keyword data</span>';
+            }
+            return keywords.map((keyword) => `
+                <details class="keyword-evidence">
+                    <summary class="keyword-tag">
+                        ${escapeHtml(keyword.keyword)}
+                        <span class="keyword-metric">#${Number(keyword.rank || 0)} count ${Number(keyword.count || 0)} rel ${Number(keyword.relative_frequency || 0).toFixed(3)}</span>
+                    </summary>
+                    <div class="evidence-list">
+                        ${(keyword.evidence || []).slice(0, 3).map((evidence) => `
+                            <div class="evidence-item">
+                                <strong>${escapeHtml(evidence.paper_id)}</strong>
+                                ${escapeHtml(evidence.title || "Untitled")}
+                                <span>${escapeHtml(evidence.published_at || evidence.retrieved_at || "")}</span>
+                                <span>${escapeHtml(evidence.matched_keyword || "")}</span>
+                            </div>
+                        `).join("") || '<div class="evidence-item">No evidence sample exported.</div>'}
+                    </div>
+                </details>
+            `).join("");
+        }
+
+        function showNoData(containerId, warnings = []) {
+            const reason = (warnings || []).map((warning) => warning.code).join(", ") || "not_analyzed";
             document.getElementById(containerId).innerHTML = `
                 <div class="no-data-message">
                     <p>No arXiv trend data is available.</p>
-                    <p>Run the analysis pipeline first.</p>
+                    <p>Reason: ${escapeHtml(reason)}.</p>
                 </div>
             `;
         }

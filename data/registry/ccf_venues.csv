@@ -1,36 +1,388 @@
 canonical_name,full_name,domain,tier,source_preference,openreview_id_pattern,s2_venue_key,openalex_venue_name,aliases
-ICLR,International Conference on Learning Representations,ML,A,openreview,ICLR.cc/.*,ICLR,ICLR,iclr
-NeurIPS,Conference on Neural Information Processing Systems,ML,A,openreview,NeurIPS.cc/.*,NeurIPS,NeurIPS,"neurips,nips"
-ICML,International Conference on Machine Learning,ML,A,openreview,ICML.cc/.*,ICML,ICML,icml
-CVPR,Conference on Computer Vision and Pattern Recognition,CV,A,s2,,CVPR,CVPR,cvpr
-ICCV,International Conference on Computer Vision,CV,A,s2,,ICCV,ICCV,iccv
-ECCV,European Conference on Computer Vision,CV,A,s2,,ECCV,ECCV,eccv
-ACL,Annual Meeting of the Association for Computational Linguistics,NLP,A,s2,,ACL,ACL,acl
-EMNLP,Conference on Empirical Methods in Natural Language Processing,NLP,A,openreview,EMNLP/.*,EMNLP,EMNLP,emnlp
-NAACL,North American Chapter of the Association for Computational Linguistics,NLP,A,s2,,NAACL,NAACL,naacl
-AAAI,AAAI Conference on Artificial Intelligence,AI,A,s2,,AAAI,AAAI,aaai
-IJCAI,International Joint Conference on Artificial Intelligence,AI,A,s2,,IJCAI,IJCAI,ijcai
-KDD,ACM SIGKDD Conference on Knowledge Discovery and Data Mining,DM,A,s2,,KDD,KDD,kdd
-SIGIR,International ACM SIGIR Conference on Research and Development in Information Retrieval,IR,A,s2,,SIGIR,SIGIR,sigir
-WWW,The Web Conference,Web,A,s2,,WWW,WWW,"www,thewebconf"
-SIGMOD,ACM SIGMOD International Conference on Management of Data,DB,A,s2,,SIGMOD,SIGMOD,sigmod
-VLDB,International Conference on Very Large Data Bases,DB,A,s2,,VLDB,VLDB,vldb
-ICDE,IEEE International Conference on Data Engineering,DB,A,s2,,ICDE,ICDE,icde
-CoRL,Conference on Robot Learning,RL,B,openreview,CoRL/.*,CoRL,CoRL,corl
-AISTATS,International Conference on Artificial Intelligence and Statistics,ML,B,openreview,AISTATS/.*,AISTATS,AISTATS,aistats
-UAI,Conference on Uncertainty in Artificial Intelligence,ML,B,s2,,UAI,UAI,uai
-COLM,Conference on Language Modeling,NLP,B,openreview,COLM.cc/.*,COLM,COLM,colm
-WACV,IEEE/CVF Winter Conference on Applications of Computer Vision,CV,B,s2,,WACV,WACV,wacv
-ACM MM,ACM International Conference on Multimedia,CV,A,s2,,ACM Multimedia,ACM Multimedia,"acm mm,mm,acm multimedia"
-COLING,International Conference on Computational Linguistics,NLP,B,s2,,COLING,COLING,coling
-EACL,European Chapter of the Association for Computational Linguistics,NLP,B,s2,,EACL,EACL,eacl
-WSDM,ACM International Conference on Web Search and Data Mining,Web,B,s2,,WSDM,WSDM,wsdm
-CIKM,ACM International Conference on Information and Knowledge Management,IR,B,s2,,CIKM,CIKM,cikm
-ICDM,IEEE International Conference on Data Mining,DM,B,s2,,ICDM,ICDM,icdm
-COLT,Conference on Learning Theory,ML,B,s2,,COLT,COLT,colt
+PPoPP,ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming,Systems,A,s2,,PPoPP,PPoPP,ppopp
+FAST,USENIX Conference on File and Storage Technologies,Systems,A,s2,,FAST,FAST,fast
+DAC,Design Automation Conference,Systems,A,s2,,DAC,DAC,dac
+HPCA,IEEE International Symposium on High Performance Computer Architecture,Systems,A,s2,,HPCA,HPCA,hpca
+MICRO,IEEE/ACM International Symposium on Microarchitecture,Systems,A,s2,,MICRO,MICRO,micro
+SC,"International Conference for High Performance Computing, Networking, Storage, and Analysis",Systems,A,s2,,SC,SC,sc
+ASPLOS,International Conference on Architectural Support for Programming Languages and Operating Systems,Systems,A,s2,,ASPLOS,ASPLOS,asplos
+ISCA,International Symposium on Computer Architecture,Systems,A,s2,,ISCA,ISCA,isca
+ACM SIGOPS ATC,ACM SIGOPS Annual Technical Conference,Systems,A,s2,,USENIX ATC,USENIX ATC,"acm sigops atc,acmsigopsatc,atc,usenix atc"
+EuroSys,European Conference on Computer Systems,Systems,A,s2,,EuroSys,EuroSys,eurosys
+HPDC,The International ACM Symposium on High-Performance Parallel and Distributed Computing,Systems,A,s2,,HPDC,HPDC,hpdc
+SoCC,ACM Symposium on Cloud Computing,Systems,B,s2,,SoCC,SoCC,socc
+SPAA,ACM Symposium on Parallelism in Algorithms and Architectures,Systems,B,s2,,SPAA,SPAA,spaa
+PODC,ACM Symposium on Principles of Distributed Computing,Systems,B,s2,,PODC,PODC,podc
+FPGA,ACM/SIGDA International Symposium on Field-Programmable Gate Arrays,Systems,B,s2,,FPGA,FPGA,fpga
+CGO,The International Symposium on Code Generation and Optimization,Systems,B,s2,,CGO,CGO,cgo
+DATE,"Design, Automation & Test in Europe",Systems,B,s2,,DATE,DATE,date
+HOT CHIPS,Hot Chips: A Symposium on High Performance Chips,Systems,B,s2,,HOT CHIPS,HOT CHIPS,"hot chips,hotchips"
+CLUSTER,IEEE International Conference on Cluster Computing,Systems,B,s2,,CLUSTER,CLUSTER,cluster
+ICCD,International Conference on Computer Design,Systems,B,s2,,ICCD,ICCD,iccd
+ICCAD,International Conference on Computer-Aided Design,Systems,B,s2,,ICCAD,ICCAD,iccad
+ICDCS,IEEE International Conference on Distributed Computing Systems,Systems,B,s2,,ICDCS,ICDCS,icdcs
+CODES+ISSS,International Conference on Hardware/Software Co-design and System Synthesis,Systems,B,s2,,CODES+ISSS,CODES+ISSS,"codes+isss,codesisss"
+HiPEAC,International Conference on High Performance and Embedded Architectures and Compilers,Systems,B,s2,,HiPEAC,HiPEAC,hipeac
+SIGMETRICS,International Conference on Measurement and Modeling of Computer Systems,Systems,B,s2,,SIGMETRICS,SIGMETRICS,sigmetrics
+PACT,International Conference on Parallel Architectures and Compilation Techniques,Systems,B,s2,,PACT,PACT,pact
+ICPP,International Conference on Parallel Processing,Systems,B,s2,,ICPP,ICPP,icpp
+ICS,International Conference on Supercomputing,Systems,B,s2,,ICS,ICS,ics
+VEE,International Conference on Virtual Execution Environments,Systems,B,s2,,VEE,VEE,vee
+IPDPS,IEEE International Parallel & Distributed Processing Symposium,Systems,B,s2,,IPDPS,IPDPS,ipdps
+Performance,"International Symposium on Computer Performance, Modeling, Measurements and Evaluation",Systems,B,s2,,Performance,Performance,performance
+ITC,International Test Conference,Systems,B,s2,,ITC,ITC,itc
+LISA,Large Installation System Administration Conference,Systems,B,s2,,LISA,LISA,lisa
+MSST,Mass Storage Systems and Technologies,Systems,B,s2,,MSST,MSST,msst
+RTAS,IEEE Real-Time and Embedded Technology and Applications Symposium,Systems,B,s2,,RTAS,RTAS,rtas
+Euro-Par,European Conference on Parallel and Distributed Computing,Systems,B,s2,,Euro-Par,Euro-Par,"euro-par,europar"
+ISCAS,IEEE International Symposium on Circuits and Systems,Systems,B,s2,,ISCAS,ISCAS,iscas
+CF,ACM International Conference on Computing Frontiers,Systems,C,s2,,CF,CF,cf
+SYSTOR,ACM International Systems and Storage Conference,Systems,C,s2,,SYSTOR,SYSTOR,systor
+NOCS,ACM/IEEE International Symposium on Networks-on-Chip,Systems,C,s2,,NOCS,NOCS,nocs
+ASAP,"IEEE International Conference on Application-Specific Systems, Architectures, and Processors",Systems,C,s2,,ASAP,ASAP,asap
+ASP-DAC,Asia and South Pacific Design Automation Conference,Systems,C,s2,,ASP-DAC,ASP-DAC,"asp-dac,aspdac"
+ETS,IEEE European Test Symposium,Systems,C,s2,,ETS,ETS,ets
+FPL,International Conference on Field-Programmable Logic and Applications,Systems,C,s2,,FPL,FPL,fpl
+FCCM,IEEE Symposium on Field-Programmable Custom Computing Machines,Systems,C,s2,,FCCM,FCCM,fccm
+GLSVLSI,Great Lakes Symposium on VLSI,Systems,C,s2,,GLSVLSI,GLSVLSI,glsvlsi
+ATS,IEEE Asian Test Symposium,Systems,C,s2,,ATS,ATS,ats
+HPCC,IEEE International Conference on High Performance Computing and Communications,Systems,C,s2,,HPCC,HPCC,hpcc
+HiPC,"IEEE International Conference on High Performance Computing, Data and Analytics",Systems,C,s2,,HiPC,HiPC,hipc
+MASCOTS,"International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",Systems,C,s2,,MASCOTS,MASCOTS,mascots
+ISPA,IEEE International Symposium on Parallel and Distributed Processing with Applications,Systems,C,s2,,ISPA,ISPA,ispa
+CCGRID,"IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing",Systems,C,s2,,CCGRID,CCGRID,ccgrid
+NPC,IFIP International Conference on Network and Parallel Computing,Systems,C,s2,,NPC,NPC,npc
+ICA3PP,International Conference on Algorithms and Architectures for Parallel Processing,Systems,C,s2,,ICA3PP,ICA3PP,ica3pp
+CASES,"International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",Systems,C,s2,,CASES,CASES,cases
+FPT,International Conference on Field-Programmable Technology,Systems,C,s2,,FPT,FPT,fpt
+ICPADS,International Conference on Parallel and Distributed Systems,Systems,C,s2,,ICPADS,ICPADS,icpads
+ISLPED,International Symposium on Low Power Electronics and Design,Systems,C,s2,,ISLPED,ISLPED,islped
+ISPD,International Symposium on Physical Design,Systems,C,s2,,ISPD,ISPD,ispd
+HOTI,IEEE Symposium on High-Performance Interconnects,Systems,C,s2,,HOTI,HOTI,hoti
+VTS,IEEE VLSI Test Symposium,Systems,C,s2,,VTS,VTS,vts
+ITC-Asia,International Test Conference in Asia,Systems,C,s2,,ITC-Asia,ITC-Asia,"itc-asia,itcasia"
+SEC Edge,ACM/IEEE Symposium on Edge Computing,Systems,C,s2,,ACM IEEE Symposium on Edge Computing,ACM IEEE Symposium on Edge Computing,"acm ieee sec,edge computing sec,sec edge,secedge"
+NAS,"International Conference on Networking, Architecture and Storages",Systems,C,s2,,NAS,NAS,nas
+HotStorage,HotStorage,Systems,C,s2,,HotStorage,HotStorage,hotstorage
+APPT,International Symposium on Advanced Parallel Processing Technology,Systems,C,s2,,APPT,APPT,appt
+JCC,International Conference on JointCloud Computing,Systems,C,s2,,JCC,JCC,jcc
+SIGCOMM,"ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",Network,A,s2,,SIGCOMM,SIGCOMM,sigcomm
+MobiCom,ACM International Conference on Mobile Computing and Networking,Network,A,s2,,MobiCom,MobiCom,mobicom
+INFOCOM,IEEE International Conference on Computer Communications,Network,A,s2,,INFOCOM,INFOCOM,infocom
+NSDI,Symposium on Network System Design and Implementation,Network,A,s2,,NSDI,NSDI,nsdi
+SenSys,ACM Conference on Embedded Networked Sensor Systems,Network,B,s2,,SenSys,SenSys,sensys
+CoNEXT,ACM International Conference on Emerging Networking Experiments and Technologies,Network,B,s2,,CoNEXT,CoNEXT,conext
+SECON,"IEEE International Conference on Sensing, Communication, and Networking",Network,B,s2,,SECON,SECON,secon
+IPSN,International Conference on Information Processing in Sensor Networks,Network,B,s2,,IPSN,IPSN,ipsn
+MobiSys,"ACM International Conference on Mobile Systems, Applications, and Services",Network,B,s2,,MobiSys,MobiSys,mobisys
+ICNP,IEEE International Conference on Network Protocols,Network,B,s2,,ICNP,ICNP,icnp
+MobiHoc,"International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",Network,B,s2,,MobiHoc,MobiHoc,mobihoc
+NOSSDAV,International Workshop on Network and Operating System Support for Digital Audio and Video,Network,B,s2,,NOSSDAV,NOSSDAV,nossdav
+IWQoS,IEEE/ACM International Workshop on Quality of Service,Network,B,s2,,IWQoS,IWQoS,iwqos
+IMC,ACM Internet Measurement Conference,Network,B,s2,,IMC,IMC,imc
+ANCS,ACM/IEEE Symposium on Architectures for Networking and Communication Systems,Network,C,s2,,ANCS,ANCS,ancs
+APNOMS,Asia-Pacific Network Operations and Management Symposium,Network,C,s2,,APNOMS,APNOMS,apnoms
+FORTE,"International Conference on Formal Techniques for Distributed Objects, Components, and Systems",Network,C,s2,,FORTE,FORTE,forte
+LCN,IEEE Conference on Local Computer Networks,Network,C,s2,,LCN,LCN,lcn
+GLOBECOM,IEEE Global Communications Conference,Network,C,s2,,GLOBECOM,GLOBECOM,globecom
+ICC,IEEE International Conference on Communications,Network,C,s2,,ICC,ICC,icc
+ICCCN,IEEE International Conference on Computer Communications and Networks,Network,C,s2,,ICCCN,ICCCN,icccn
+MASS,IEEE International Conference on Mobile Adhoc and Sensor Systems,Network,C,s2,,MASS,MASS,mass
+P2P,IEEE International Conference on Peer-to-Peer Computing,Network,C,s2,,P2P,P2P,p2p
+IPCCC,IEEE International Performance Computing and Communications Conference,Network,C,s2,,IPCCC,IPCCC,ipccc
+WoWMoM,"IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",Network,C,s2,,WoWMoM,WoWMoM,wowmom
+ISCC,IEEE Symposium on Computers and Communications,Network,C,s2,,ISCC,ISCC,iscc
+WCNC,IEEE Wireless Communications and Networking Conference,Network,C,s2,,WCNC,WCNC,wcnc
+Networking,IFIP International Conferences on Networking,Network,C,s2,,Networking,Networking,networking
+IM,IFIP/IEEE International Symposium on Integrated Network Management,Network,C,s2,,IM,IM,im
+MSN,"International Conference on Mobility, Sensing and Networking",Network,C,s2,,MSN,MSN,msn
+MSWiM,"International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",Network,C,s2,,MSWiM,MSWiM,mswim
+WASA,The International Conference on Wireless Artificial Intelligent Computing Systems and Applications,Network,C,s2,,WASA,WASA,wasa
+HotNets,ACM The Workshop on Hot Topics in Networks,Network,C,s2,,HotNets,HotNets,hotnets
+APNet,Asia-Pacific Workshop on Networking,Network,C,s2,,APNet,APNet,apnet
+CCS,ACM Conference on Computer and Communications Security,Security,A,s2,,CCS,CCS,ccs
+EUROCRYPT,International Conference on the Theory and Applications of Cryptographic Techniques,Security,A,s2,,EUROCRYPT,EUROCRYPT,eurocrypt
+S&P,IEEE Symposium on Security and Privacy,Security,A,s2,,S&P,S&P,"s&p,sp"
+CRYPTO,International Cryptology Conference,Security,A,s2,,CRYPTO,CRYPTO,crypto
+USENIX Security,USENIX Security Symposium,Security,A,s2,,USENIX Security,USENIX Security,"usenix security,usenixsecurity"
+NDSS,Network and Distributed System Security Symposium,Security,A,s2,,NDSS,NDSS,ndss
+ACSAC,Annual Computer Security Applications Conference,Security,B,s2,,ACSAC,ACSAC,acsac
+ASIACRYPT,Annual International Conference on the Theory and Application of Cryptology and Information Security,Security,B,s2,,ASIACRYPT,ASIACRYPT,asiacrypt
+ESORICS,European Symposium on Research in Computer Security,Security,B,s2,,ESORICS,ESORICS,esorics
+FSE Crypto,Fast Software Encryption,Security,B,s2,,Fast Software Encryption,Fast Software Encryption,"fse crypto,fsecrypto"
+CSFW,IEEE Computer Security Foundations Workshop,Security,B,s2,,CSFW,CSFW,csfw
+SRDS,IEEE International Symposium on Reliable Distributed Systems,Security,B,s2,,SRDS,SRDS,srds
+CHES,International Conference on Cryptographic Hardware and Embedded Systems,Security,B,s2,,CHES,CHES,ches
+DSN,International Conference on Dependable Systems and Networks,Security,B,s2,,DSN,DSN,dsn
+RAID,International Symposium on Recent Advances in Intrusion Detection,Security,B,s2,,RAID,RAID,raid
+PKC,International Workshop on Practice and Theory in Public Key Cryptography,Security,B,s2,,PKC,PKC,pkc
+TCC,Theory of Cryptography Conference,Security,B,s2,,TCC,TCC,tcc
+WiSec,ACM Conference on Security and Privacy in Wireless and Mobile Networks,Security,C,s2,,WiSec,WiSec,wisec
+SACMAT,ACM Symposium on Access Control Models and Technologies,Security,C,s2,,SACMAT,SACMAT,sacmat
+DRM,ACM Workshop on Digital Rights Management,Security,C,s2,,DRM,DRM,drm
+IH&MMSec,ACM Workshop on Information Hiding and Multimedia Security,Security,C,s2,,IH&MMSec,IH&MMSec,"ih&mmsec,ihmmsec"
+ACNS,International Conference on Applied Cryptography and Network Security,Security,C,s2,,ACNS,ACNS,acns
+AsiaCCS,ACM Asia Conference on Computer and Communications Security,Security,C,s2,,AsiaCCS,AsiaCCS,asiaccs
+ACISP,Australasia Conference on Information Security and Privacy,Security,C,s2,,ACISP,ACISP,acisp
+CT-RSA,The Cryptographer's Track at RSA Conference,Security,C,s2,,CT-RSA,CT-RSA,"ct-rsa,ctrsa"
+DIMVA,Conference on Detection of Intrusions and Malware & Vulnerability Assessment,Security,C,s2,,DIMVA,DIMVA,dimva
+DFRWS,Digital Forensic Research Workshop,Security,C,s2,,DFRWS,DFRWS,dfrws
+FC,Financial Cryptography and Data Security,Security,C,s2,,FC,FC,fc
+TrustCom,"IEEE International Conference on Trust, Security and Privacy in Computing and Communications",Security,C,s2,,TrustCom,TrustCom,trustcom
+SEC,IFIP International Information Security Conference,Security,C,s2,,SEC,SEC,sec
+IFIP WG 11.9,IFIP Working Group 11.9 International Conference on Digital Forensics,Security,C,s2,,IFIP WG 11.9,IFIP WG 11.9,"ifip wg 11.9,ifipwg119"
+ISC,Information Security Conference,Security,C,s2,,ISC,ISC,isc
+ICDF2C,International Conference on Digital Forensics & Cyber Crime,Security,C,s2,,ICDF2C,ICDF2C,icdf2c
+ICICS,International Conference on Information and Communications Security,Security,C,s2,,ICICS,ICICS,icics
+SecureComm,International Conference on Security and Privacy in Communication Networks,Security,C,s2,,SecureComm,SecureComm,securecomm
+NSPW,New Security Paradigms Workshop,Security,C,s2,,NSPW,NSPW,nspw
+PAM,Passive and Active Measurement Conference,Security,C,s2,,PAM,PAM,pam
+PETS,Privacy Enhancing Technologies Symposium,Security,C,s2,,PETS,PETS,pets
+SAC,Selected Areas in Cryptography,Security,C,s2,,SAC,SAC,sac
+SOUPS,Symposium On Usable Privacy and Security,Security,C,s2,,SOUPS,SOUPS,soups
+HotSec,USENIX Workshop on Hot Topics in Security,Security,C,s2,,HotSec,HotSec,hotsec
+EuroS&P,IEEE European Symposium on Security and Privacy,Security,C,s2,,EuroS&P,EuroS&P,"euros&p,eurosp"
+Inscrypt,International Conference on Information Security and Cryptology,Security,C,s2,,Inscrypt,Inscrypt,inscrypt
+CODASPY,Conference on Data and Application Security and Privacy,Security,C,s2,,CODASPY,CODASPY,codaspy
+BlockSys,"International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",Security,C,s2,,BlockSys,BlockSys,blocksys
+CSCloud,International Conference on Cyber Security and Cloud Computing,Security,C,s2,,CSCloud,CSCloud,cscloud
+PLDI,ACM SIGPLAN Conference on Programming Language Design and Implementation,SE,A,s2,,PLDI,PLDI,pldi
+POPL,ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages,SE,A,s2,,POPL,POPL,popl
+FSE,ACM International Conference on the Foundations of Software Engineering,SE,A,s2,,FSE,FSE,"esec-fse,fse"
+SOSP,ACM Symposium on Operating Systems Principles,SE,A,s2,,SOSP,SOSP,sosp
+OOPSLA,"Conference on Object-Oriented Programming Systems, Languages, and Applications",SE,A,s2,,OOPSLA,OOPSLA,oopsla
+ASE,International Conference on Automated Software Engineering,SE,A,s2,,ASE,ASE,ase
 ICSE,International Conference on Software Engineering,SE,A,s2,,ICSE,ICSE,icse
-FSE,ACM International Conference on the Foundations of Software Engineering,SE,A,s2,,FSE,FSE,"fse,esec-fse"
-CHI,ACM CHI Conference on Human Factors in Computing Systems,HCI,A,s2,,CHI,CHI,chi
+ISSTA,International Symposium on Software Testing and Analysis,SE,A,s2,,ISSTA,ISSTA,issta
+OSDI,USENIX Symposium on Operating Systems Design and Implementation,SE,A,s2,,OSDI,OSDI,osdi
+FM,International Symposium on Formal Methods,SE,A,s2,,FM,FM,fm
+ECOOP,European Conference on Object-Oriented Programming,SE,B,s2,,ECOOP,ECOOP,ecoop
+ETAPS,European Joint Conferences on Theory and Practice of Software,SE,B,s2,,ETAPS,ETAPS,etaps
+ICPC,IEEE International Conference on Program Comprehension,SE,B,s2,,ICPC,ICPC,icpc
+RE,IEEE International Requirements Engineering Conference,SE,B,s2,,RE,RE,re
+CAiSE,International Conference on Advanced Information Systems Engineering,SE,B,s2,,CAiSE,CAiSE,caise
+ICFP,ACM SIGPLAN International Conference on Function Programming,SE,B,s2,,ICFP,ICFP,icfp
+LCTES,"ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems",SE,B,s2,,LCTES,LCTES,lctes
+MoDELS,ACM/IEEE International Conference on Model Driven EngineeringLanguages and Systems,SE,B,s2,,MoDELS,MoDELS,models
+CP,International Conference on Principles and Practice of Constraint Programming,SE,B,s2,,CP,CP,cp
+CSOC,International Conference on Service Oriented Computing,SE,B,s2,,CSOC,CSOC,csoc
+SANER,"IEEE International Conference on Software Analysis, Evolution, and Reengineering",SE,B,s2,,SANER,SANER,saner
+ICSME,International Conference on Software Maintenance and Evolution,SE,B,s2,,ICSME,ICSME,icsme
+VMCAI,"International Conference on Verification, Model Checking and Abstract Interpretation",SE,B,s2,,VMCAI,VMCAI,vmcai
+ICWS,IEEE International Conference on Web Services,SE,B,s2,,ICWS,ICWS,icws
+Middleware,International Middleware Conference,SE,B,s2,,Middleware,Middleware,middleware
+SAS,International Static Analysis Symposium,SE,B,s2,,SAS,SAS,sas
+ESEM,International Symposium on Empirical Software Engineering and Measurement,SE,B,s2,,ESEM,ESEM,esem
+ISSRE,IEEE International Symposium on Software Reliability Engineering,SE,B,s2,,ISSRE,ISSRE,issre
+HotOS,USENIX Workshop on Hot Topics in Operating Systems,SE,B,s2,,HotOS,HotOS,hotos
+CC,International Conference on Compiler Construction,SE,B,s2,,CC,CC,cc
+PEPM,ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation,SE,C,s2,,PEPM,PEPM,pepm
+PASTE,ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering,SE,C,s2,,PASTE,PASTE,paste
+APLAS,Asian Symposium on Programming Languages and Systems,SE,C,s2,,APLAS,APLAS,aplas
+APSEC,Asia-Pacific Software Engineering Conference,SE,C,s2,,APSEC,APSEC,apsec
+EASE,International Conference on Evaluation and Assessment in Software Engineering,SE,C,s2,,EASE,EASE,ease
+ICECCS,International Conference on Engineering of Complex Computer Systems,SE,C,s2,,ICECCS,ICECCS,iceccs
+ICST,"IEEE International Conference on Software Testing, Verification and Validation",SE,C,s2,,ICST,ICST,icst
+ISPASS,IEEE International Symposium on Performance Analysis of Systems and Software,SE,C,s2,,ISPASS,ISPASS,ispass
+SCAM,IEEE International Working Conference on Source Code Analysis and Manipulation,SE,C,s2,,SCAM,SCAM,scam
+COMPSAC,International Computer Software and Applications Conference,SE,C,s2,,COMPSAC,COMPSAC,compsac
+ICFEM,International Conference on Formal Engineering Methods,SE,C,s2,,ICFEM,ICFEM,icfem
+SSE,IEEE International Conference on Software Services Engineering,SE,C,s2,,SSE,SSE,sse
+ICSSP,International Conference on Software and System Process,SE,C,s2,,ICSSP,ICSSP,icssp
+SEKE,International Conference on Software Engineering and Knowledge Engineering,SE,C,s2,,SEKE,SEKE,seke
+QRS,"International Conference on Software Quality, Reliability and Security",SE,C,s2,,QRS,QRS,qrs
+ICSR,International Conference on Software Reuse,SE,C,s2,,ICSR,ICSR,icsr
+ICWE,International Conference on Web Engineering,SE,C,s2,,ICWE,ICWE,icwe
+SPIN,International Symposium on Model Checking of Software,SE,C,s2,,SPIN,SPIN,spin
+ATVA,International Symposium on Automated Technology for Verification and Analysis,SE,C,s2,,ATVA,ATVA,atva
+LOPSTR,International Symposium on Logic-based Program Synthesis and Transformation,SE,C,s2,,LOPSTR,LOPSTR,lopstr
+TASE,Theoretical Aspects of Software Engineering Conference,SE,C,s2,,TASE,TASE,tase
+MSR,Mining Software Repositories,SE,C,s2,,MSR,MSR,msr
+REFSQ,Requirements Engineering: Foundation for Software Quality,SE,C,s2,,REFSQ,REFSQ,refsq
+WICSA,Working IEEE/IFIP Conference on Software Architecture,SE,C,s2,,WICSA,WICSA,wicsa
+Internetware,Asia-Pacific Symposium on Internetware,SE,C,s2,,Internetware,Internetware,internetware
+RV,International Conference on Runtime Verification,SE,C,s2,,RV,RV,rv
+MEMOCODE,International Conference on Formal Methods and Models for Co-Design,SE,C,s2,,MEMOCODE,MEMOCODE,memocode
+SIGMOD,ACM SIGMOD Conference,DB,A,s2,,Proceedings of the ACM on Management of Data,SIGMOD,sigmod
+KDD,ACM SIGKDD Conference on Knowledge Discovery and Data Mining,DB,A,s2,,KDD,KDD,"kdd,sigkdd"
+ICDE,IEEE International Conference on Data Engineering,DB,A,s2,,ICDE,ICDE,icde
+SIGIR,International ACM SIGIR Conference on Research and Development in Information Retrieval,DB,A,s2,,SIGIR,SIGIR,sigir
+VLDB,International Conference on Very Large Data Bases,DB,A,s2,,Proceedings of the VLDB Endowment,VLDB,vldb
+CIKM,ACM International Conference on Information and Knowledge Management,DB,B,s2,,CIKM,CIKM,cikm
+WSDM,ACM International Conference on Web Search and Data Mining,DB,B,s2,,WSDM,WSDM,wsdm
+PODS,ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems,DB,B,s2,,PODS,PODS,pods
+DASFAA,International Conference on Database Systems for Advanced Applications,DB,B,s2,,DASFAA,DASFAA,dasfaa
+ECML-PKDD,European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases,DB,B,s2,,ECML-PKDD,ECML-PKDD,"ecml-pkdd,ecmlpkdd"
+ISWC,IEEE International Semantic Web Conference,DB,B,s2,,ISWC,ISWC,iswc
+ICDM,IEEE International Conference on Data Mining,DB,B,s2,,ICDM,ICDM,icdm
+ICDT,International Conference on Database Theory,DB,B,s2,,ICDT,ICDT,icdt
+EDBT,International Conference on Extending Database Technology,DB,B,s2,,EDBT,EDBT,edbt
+CIDR,Conference on Innovative Data Systems Research,DB,B,s2,,CIDR,CIDR,cidr
+SDM,SIAM International Conference on Data Mining,DB,B,s2,,SDM,SDM,sdm
+RecSys,ACM Conference on Recommender Systems,DB,B,s2,,RecSys,RecSys,recsys
+WISE,Web Information Systems Engineering Conference,DB,B,s2,,WISE,WISE,wise
+APWeb,Asia Pacific Web Conference,DB,C,s2,,APWeb,APWeb,apweb
+DEXA,International Conference on Database and Expert System Applications,DB,C,s2,,DEXA,DEXA,dexa
+ECIR,European Conference on Information Retrieval,DB,C,s2,,ECIR,ECIR,ecir
+ESWC,Extended Semantic Web Conference,DB,C,s2,,ESWC,ESWC,eswc
+WebDB,International Workshop on Web and Databases,DB,C,s2,,WebDB,WebDB,webdb
+ER,International Conference on Conceptual Modeling,DB,C,s2,,ER,ER,er
+MDM,International Conference on Mobile Data Management,DB,C,s2,,MDM,MDM,mdm
+SSDBM,International Conference on Scientific and Statistical Database Management,DB,C,s2,,SSDBM,SSDBM,ssdbm
+WAIM,International Conference on Web Age Information Management,DB,C,s2,,WAIM,WAIM,waim
+SSTD,International Symposium on Spatial and Temporal Databases,DB,C,s2,,SSTD,SSTD,sstd
+PAKDD,Pacific-Asia Conference on Knowledge Discovery and Data Mining,DB,C,s2,,PAKDD,PAKDD,pakdd
+ADMA,International Conference on Advanced Data Mining and Applications,DB,C,s2,,ADMA,ADMA,adma
+WISA,Web Information Systems and Applications,DB,C,s2,,WISA,WISA,wisa
+STOC,ACM Symposium on the Theory of Computing,Theory,A,s2,,STOC,STOC,stoc
+SODA,ACM-SIAM Symposium on Discrete Algorithms,Theory,A,s2,,SODA,SODA,soda
+CAV,International Conference on Computer Aided Verification,Theory,A,s2,,CAV,CAV,cav
+FOCS,IEEE Annual Symposium on Foundations of Computer Science,Theory,A,s2,,FOCS,FOCS,focs
+LICS,ACM/IEEE Symposium on Logic in Computer Science,Theory,A,s2,,LICS,LICS,lics
+SoCG,International Symposium on Computational Geometry,Theory,B,s2,,SoCG,SoCG,socg
+ESA,European Symposium on Algorithms,Theory,B,s2,,ESA,ESA,esa
+CCC,Conference on Computational Complexity,Theory,B,s2,,CCC,CCC,ccc
+ICALP,"International Colloquium on Automata, Languages and Programming",Theory,B,s2,,ICALP,ICALP,icalp
+CADE,Conference on Automated Deduction,Theory,B,s2,,CADE,CADE,cade
+CONCUR,International Conference on Concurrency Theory,Theory,B,s2,,CONCUR,CONCUR,concur
+HSCC,International Conference on Hybrid Systems: Computation and Control,Theory,B,s2,,HSCC,HSCC,hscc
+SAT,International Conference on Theory and Applications of Satisfiability Testing,Theory,B,s2,,SAT,SAT,sat
+COCOON,International Computing and Combinatorics Conference,Theory,B,s2,,COCOON,COCOON,cocoon
+FMCAD,Formal Methods in Computer-Aided Design,Theory,B,s2,,FMCAD,FMCAD,fmcad
+CSL,Computer Science Logic,Theory,C,s2,,CSL,CSL,csl
+FSTTCS,Foundations of Software Technology and Theoretical Computer Science,Theory,C,s2,,FSTTCS,FSTTCS,fsttcs
+DSAA,IEEE International Conference on Data Science and Advanced Analytics,Theory,C,s2,,DSAA,DSAA,dsaa
+ICTAC,International Colloquium on Theoretical Aspects of Computing,Theory,C,s2,,ICTAC,ICTAC,ictac
+IPCO,International Conference on Integer Programming and Combinatorial Optimization,Theory,C,s2,,IPCO,IPCO,ipco
+FSCD,International Conference on Formal Structures for Computation and Deduction,Theory,C,s2,,FSCD,FSCD,fscd
+ISAAC,International Symposium on Algorithms and Computation,Theory,C,s2,,ISAAC,ISAAC,isaac
+MFCS,International Conference on Mathematical Foundations of Computer Science,Theory,C,s2,,MFCS,MFCS,mfcs
+STACS,Symposium on Theoretical Aspects of Computer Science,Theory,C,s2,,STACS,STACS,stacs
+SETTA,"International Symposium on Software Engineering: Theories, Tools, and Applications",Theory,C,s2,,SETTA,SETTA,setta
+ACM MM,ACM International Conference on Multimedia,CG,A,s2,,ACM Multimedia,ACM Multimedia,"acm mm,acm multimedia,acmmm,mm"
+SIGGRAPH,ACM Special Interest Group on Computer Graphics,CG,A,s2,,SIGGRAPH,SIGGRAPH,siggraph
+VR,IEEE Virtual Reality,CG,A,s2,,VR,VR,vr
+IEEE VIS,IEEE Visualization Conference,CG,A,s2,,IEEE VIS,IEEE VIS,"ieee vis,ieeevis"
+ICMR,ACM SIGMM International Conference on Multimedia Retrieval,CG,B,s2,,ICMR,ICMR,icmr
+I3D,ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games,CG,B,s2,,I3D,I3D,i3d
+SCA,ACM SIGGRAPH/Eurographics Symposium on Computer Animation,CG,B,s2,,SCA,SCA,sca
+DCC,Data Compression Conference,CG,B,s2,,DCC,DCC,dcc
+Eurographics,Annual Conference of the European Association for Computer Graphics,CG,B,s2,,Eurographics,Eurographics,eurographics
+EuroVis,Eurographics Conference on Visualization,CG,B,s2,,EuroVis,EuroVis,eurovis
+SGP,Eurographics Symposium on Geometry Processing,CG,B,s2,,SGP,SGP,sgp
+EGSR,Eurographics Symposium on Rendering,CG,B,s2,,EGSR,EGSR,egsr
+ICASSP,"IEEE International Conference on Acoustics, Speech and Signal Processing",CG,B,s2,,ICASSP,ICASSP,icassp
+ICME,IEEE International Conference on Multimedia & Expo,CG,B,s2,,ICME,ICME,icme
+ISMAR,International Symposium on Mixed and Augmented Reality,CG,B,s2,,ISMAR,ISMAR,ismar
+PG,Pacific Conference on Computer Graphics and Applications,CG,B,s2,,PG,PG,pg
+SPM,Symposium on Solid and Physical Modeling,CG,B,s2,,SPM,SPM,spm
+INTER-SPEECH,Conference of the International Speech Communication Association,CG,B,s2,,INTER-SPEECH,INTER-SPEECH,"inter-speech,interspeech"
+VRST,ACM Symposium on Virtual Reality Software and Technology,CG,C,s2,,VRST,VRST,vrst
+CASA,International Conference on Computer Animation and Social Agents,CG,C,s2,,CASA,CASA,casa
+CGI,Computer Graphics International,CG,C,s2,,CGI,CGI,cgi
+GMP,Geometric Modeling and Processing,CG,C,s2,,GMP,GMP,gmp
+PacificVis,IEEE Pacific Visualization Symposium,CG,C,s2,,PacificVis,PacificVis,pacificvis
+3DV,International Conference on 3D Vision,CG,C,s2,,3DV,3DV,3dv
+CAD-Graphics,International Conference on Computer-Aided Design and Computer Graphics Processing,CG,C,s2,,CAD Graphics,CAD Graphics,"cad/graphics,cad-graphics,cadgraphics"
+ICIP,IEEE International Conference on Image Processing,CG,C,s2,,ICIP,ICIP,icip
+MMM,International Conference on Multimedia Modeling,CG,C,s2,,MMM,MMM,mmm
+MMAsia,ACM Multimedia Asia,CG,C,s2,,MMAsia,MMAsia,mmasia
+SMI,Shape Modeling International,CG,C,s2,,SMI,SMI,smi
+ICVRV,International Conference on Virtual Reality and Visualization,CG,C,s2,,ICVRV,ICVRV,icvrv
+CVM,Computational Visual Media,CG,C,s2,,CVM,CVM,cvm
+PRCV,Chinese Conference on Pattern Recognition and Computer Vision,CG,C,s2,,PRCV,PRCV,prcv
+ICIG,International Conference on Image and Graphics,CG,C,s2,,ICIG,ICIG,icig
+NCMMSC,National Conference on Man-Machine Speech Communication,CG,C,s2,,NCMMSC,NCMMSC,ncmmsc
+ASRU,Automatic Speech Recognition and Understanding Workshop,CG,C,s2,,ASRU,ASRU,asru
+SLT,Spoken Language Technology,CG,C,s2,,SLT,SLT,slt
+AAAI,AAAI Conference on Artificial Intelligence,AI,A,s2,,AAAI,AAAI,aaai
+NeurIPS,Conference on Neural Information Processing Systems,AI,A,openreview,NeurIPS.cc/.*,NeurIPS,NeurIPS,neurips
+ACL,Annual Meeting of the Association for Computational Linguistics,AI,A,s2,,ACL,ACL,acl
+CVPR,IEEE/CVF Computer Vision and Pattern Recognition Conference,AI,A,s2,,CVPR,CVPR,cvpr
+ICCV,International Conference on Computer Vision,AI,A,s2,,ICCV,ICCV,iccv
+ICML,International Conference on Machine Learning,AI,A,openreview,ICML.cc/.*,ICML,ICML,icml
+ICLR,International Conference on Learning Representations,AI,A,openreview,ICLR.cc/.*,ICLR,ICLR,iclr
+COLT,Annual Conference on Computational Learning Theory,AI,B,s2,,COLT,COLT,colt
+EMNLP,Conference on Empirical Methods in Natural Language Processing,AI,B,openreview,EMNLP/.*,EMNLP,EMNLP,emnlp
+ECAI,European Conference on Artificial Intelligence,AI,B,s2,,ECAI,ECAI,ecai
+ECCV,European Conference on Computer Vision,AI,B,s2,,ECCV,ECCV,eccv
+ICRA,IEEE International Conference on Robotics and Automation,AI,B,s2,,ICRA,ICRA,icra
+ICAPS,International Conference on Automated Planning and Scheduling,AI,B,s2,,ICAPS,ICAPS,icaps
+ICCBR,International Conference on Case-Based Reasoning,AI,B,s2,,ICCBR,ICCBR,iccbr
+COLING,International Conference on Computational Linguistics,AI,B,s2,,COLING,COLING,coling
+KR,International Conference on Principles of Knowledge Representation and Reasoning,AI,B,s2,,KR,KR,kr
+UAI,Conference on Uncertainty in Artificial Intelligence,AI,B,s2,,UAI,UAI,uai
+AAMAS,International Joint Conference on Autonomous Agents and Multi-agent Systems,AI,B,s2,,AAMAS,AAMAS,aamas
+PPSN,Parallel Problem Solving from Nature,AI,B,s2,,PPSN,PPSN,ppsn
+NAACL,North American Chapter of the Association for Computational Linguistics,AI,B,s2,,NAACL,NAACL,naacl
+IJCAI,International Joint Conference on Artificial Intelligence,AI,B,s2,,IJCAI,IJCAI,ijcai
+AISTATS,International Conference on Artificial Intelligence and Statistics,AI,C,openreview,AISTATS/.*,AISTATS,AISTATS,aistats
+ACCV,Asian Conference on Computer Vision,AI,C,s2,,ACCV,ACCV,accv
+ACML,Asian Conference on Machine Learning,AI,C,s2,,ACML,ACML,acml
+BMVC,British Machine Vision Conference,AI,C,s2,,BMVC,BMVC,bmvc
+NLPCC,CCF International Conference on Natural Language Processing and Chinese Computing,AI,C,s2,,NLPCC,NLPCC,nlpcc
+CoNLL,Conference on Computational Natural Language Learning,AI,C,s2,,CoNLL,CoNLL,conll
+GECCO,Genetic and Evolutionary Computation Conference,AI,C,s2,,GECCO,GECCO,gecco
+ICTAI,IEEE International Conference on Tools with Artificial Intelligence,AI,C,s2,,ICTAI,ICTAI,ictai
+IROS,IEEE\\RSJ International Conference on Intelligent Robots and Systems,AI,C,s2,,IROS,IROS,iros
+ALT,International Conference on Algorithmic Learning Theory,AI,C,s2,,ALT,ALT,alt
+ICANN,International Conference on Artificial Neural Networks,AI,C,s2,,ICANN,ICANN,icann
+FG,IEEE International Conference on Automatic Face and Gesture Recognition,AI,C,s2,,FG,FG,fg
+ICDAR,International Conference on Document Analysis and Recognition,AI,C,s2,,ICDAR,ICDAR,icdar
+ILP,International Conference on Inductive Logic Programming,AI,C,s2,,ILP,ILP,ilp
+KSEM,"International conference on Knowledge Science, Engineering and Management",AI,C,s2,,KSEM,KSEM,ksem
+ICONIP,International Conference on Neural Information Processing,AI,C,s2,,ICONIP,ICONIP,iconip
+ICPR,International Conference on Pattern Recognition,AI,C,s2,,ICPR,ICPR,icpr
+IJCB,International Joint Conference on Biometrics,AI,C,s2,,IJCB,IJCB,ijcb
+IJCNN,International Joint Conference on Neural Networks,AI,C,s2,,IJCNN,IJCNN,ijcnn
+PRICAI,Pacific Rim International Conference on Artificial Intelligence,AI,C,s2,,PRICAI,PRICAI,pricai
+IEEE CEC,Congress on Evolutionary Computation,AI,C,s2,,IEEE CEC,IEEE CEC,"ieee cec,ieeecec"
+DAI,International Conference on Distributed Artificial Intelligence,AI,C,s2,,DAI,DAI,dai
+CSCW,ACM Conference On Computer-Supported Cooperative Work And Social Computing,HCI,A,s2,,CSCW,CSCW,cscw
+CHI,ACM Conference on Human Factors in Computing Systems,HCI,A,s2,,CHI,CHI,chi
+UbiComp,ACM international joint conference on Pervasive and Ubiquitous Computing,HCI,A,s2,,UbiComp,UbiComp,ubicomp
 UIST,ACM Symposium on User Interface Software and Technology,HCI,A,s2,,UIST,UIST,uist
-ICRA,IEEE International Conference on Robotics and Automation,RL,B,s2,,ICRA,ICRA,icra
-IROS,IEEE/RSJ International Conference on Intelligent Robots and Systems,RL,B,s2,,IROS,IROS,iros
+GROUP,ACM International Conference on Supporting Group Work,HCI,B,s2,,GROUP,GROUP,group
+IUI,ACM International Conference on Intelligent User Interfaces,HCI,B,s2,,IUI,IUI,iui
+ISS,ACM International Conference on Interactive Surfaces and Spaces,HCI,B,s2,,ISS,ISS,iss
+ECSCW,European Conference on Computer Supported Cooperative Work,HCI,B,s2,,ECSCW,ECSCW,ecscw
+PERCOM,IEEE International Conference on Pervasive Computing and Communications,HCI,B,s2,,PERCOM,PERCOM,percom
+MobileHCI,ACM International Conference on Mobile Human-Computer Interaction,HCI,B,s2,,MobileHCI,MobileHCI,mobilehci
+ICWSM,The International AAAI Conference on Web and Social Media,HCI,B,s2,,ICWSM,ICWSM,icwsm
+DIS,ACM SIGCHI Conference on Designing Interactive Systems,HCI,C,s2,,DIS,DIS,dis
+ICMI,ACM International Conference on Multimodal Interaction,HCI,C,s2,,ICMI,ICMI,icmi
+ASSETS,International ACM SIGACCESS Conference on Computers and Accessibility,HCI,C,s2,,ASSETS,ASSETS,assets
+GI,Graphics Interface,HCI,C,s2,,GI,GI,gi
+UIC,IEEE International Conference on Ubiquitous Intelligence and Computing,HCI,C,s2,,UIC,UIC,uic
+-,IEEE World Haptics Conference,HCI,C,s2,,-,-,-
+INTERACT,International Conference on Human- Computer Interaction of International Federation for Information Processing,HCI,C,s2,,INTERACT,INTERACT,interact
+IDC,ACM Interaction Design and Children,HCI,C,s2,,IDC,IDC,idc
+CollaborateCom,"International Conference on Collaborative Computing: Networking, Applications and Worksharing",HCI,C,s2,,CollaborateCom,CollaborateCom,collaboratecom
+CSCWD,International Conference on Computer Supported Cooperative Work in Design,HCI,C,s2,,CSCWD,CSCWD,cscwd
+CoopIS,International Conference on Cooperative Information Systems,HCI,C,s2,,CoopIS,CoopIS,coopis
+MobiQuitous,"International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",HCI,C,s2,,MobiQuitous,MobiQuitous,mobiquitous
+AVI,International Working Conference on Advanced Visual Interfaces,HCI,C,s2,,AVI,AVI,avi
+GPC,"Conference on Green, Pervasive and Cloud Computing",HCI,C,s2,,GPC,GPC,gpc
+ICXR,CCF International Conference on Extended Reality,HCI,C,s2,,ICXR,ICXR,icxr
+WWW,International World Wide Web Conference,Interdisciplinary,A,s2,,WWW,WWW,www
+RTSS,IEEE Real-Time Systems Symposium,Interdisciplinary,A,s2,,RTSS,RTSS,rtss
+CogSci,Annual Meeting of the Cognitive Science Society,Interdisciplinary,B,s2,,CogSci,CogSci,cogsci
+BIBM,IEEE International Conference on Bioinformatics and Biomedicine,Interdisciplinary,B,s2,,BIBM,BIBM,bibm
+EMSOFT,International Conference on Embedded Software,Interdisciplinary,B,s2,,EMSOFT,EMSOFT,emsoft
+ISMB,International conference on Intelligent Systems for Molecular Biology,Interdisciplinary,B,s2,,ISMB,ISMB,ismb
+RECOMB,Annual International Conference on Research in Computational Molecular Biology,Interdisciplinary,B,s2,,RECOMB,RECOMB,recomb
+MICCAI,International Conference on Medical Image Computing and Computer-Assisted Intervention,Interdisciplinary,B,s2,,MICCAI,MICCAI,miccai
+WINE,Conference on Web and Internet Economics,Interdisciplinary,B,s2,,WINE,WINE,wine
+AMIA,American Medical Informatics Association Annual Symposium,Interdisciplinary,C,s2,,AMIA,AMIA,amia
+APBC,Asia Pacific Bioinformatics Conference,Interdisciplinary,C,s2,,APBC,APBC,apbc
+IEEE BigData,IEEE International Conference on Big Data,Interdisciplinary,C,s2,,IEEE BigData,IEEE BigData,"ieee bigdata,ieeebigdata"
+IEEE CLOUD,IEEE International Conference on Cloud Computing,Interdisciplinary,C,s2,,IEEE CLOUD,IEEE CLOUD,"ieee cloud,ieeecloud"
+SMC,"IEEE International Conference on Systems, Man, and Cybernetics",Interdisciplinary,C,s2,,SMC,SMC,smc
+COSIT,International Conference on Spatial Information Theory,Interdisciplinary,C,s2,,COSIT,COSIT,cosit
+ISBRA,International Symposium on Bioinformatics Research and Applications,Interdisciplinary,C,s2,,ISBRA,ISBRA,isbra
+SAGT,International Symposium on Algorithmic Game Theory,Interdisciplinary,C,s2,,SAGT,SAGT,sagt
+SIGSPATIAL,ACM Special Interest Group on Spatial Information,Interdisciplinary,C,s2,,SIGSPATIAL,SIGSPATIAL,sigspatial
+ICIC,International Conference on Intelligent Computing,Interdisciplinary,C,s2,,ICIC,ICIC,icic
+ICSS,International Conference on Service Science,Interdisciplinary,C,s2,,ICSS,ICSS,icss
+AFT,Advances in Financial Technologies,Interdisciplinary,C,s2,,AFT,AFT,aft
+IJTCS-FAW,International Joint Conference on Theoretical Computer Science,Interdisciplinary,C,s2,,IJTCS-FAW,IJTCS-FAW,"ijtcs-faw,ijtcsfaw"

@@ -1,1262 +1,1513 @@
 {
   "2020": [
     {
+      "keyword": "query",
+      "count": 5,
+      "relative_frequency": 0.015385,
+      "rank": 1
+    },
+    {
+      "keyword": "distributed",
+      "count": 4,
+      "relative_frequency": 0.012308,
+      "rank": 2
+    },
+    {
+      "keyword": "graph",
+      "count": 4,
+      "relative_frequency": 0.012308,
+      "rank": 3
+    },
+    {
+      "keyword": "database",
+      "count": 3,
+      "relative_frequency": 0.009231,
+      "rank": 4
+    },
+    {
+      "keyword": "graphs",
+      "count": 3,
+      "relative_frequency": 0.009231,
+      "rank": 5
+    },
+    {
+      "keyword": "json",
+      "count": 3,
+      "relative_frequency": 0.009231,
+      "rank": 6
+    },
+    {
+      "keyword": "oltp",
+      "count": 3,
+      "relative_frequency": 0.009231,
+      "rank": 7
+    },
+    {
+      "keyword": "queries",
+      "count": 3,
+      "relative_frequency": 0.009231,
+      "rank": 8
+    },
+    {
+      "keyword": "storage",
+      "count": 3,
+      "relative_frequency": 0.009231,
+      "rank": 9
+    },
+    {
+      "keyword": "access",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 10
+    },
+    {
+      "keyword": "big data",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 11
+    },
+    {
+      "keyword": "cache",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 12
+    },
+    {
+      "keyword": "compression",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 13
+    },
+    {
+      "keyword": "data analytics",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 14
+    },
+    {
+      "keyword": "data cleaning",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 15
+    },
+    {
+      "keyword": "dbms",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 16
+    },
+    {
+      "keyword": "filters",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 17
+    },
+    {
+      "keyword": "gpus",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 18
+    },
+    {
+      "keyword": "internet of things",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 19
+    },
+    {
+      "keyword": "isolation",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 20
+    },
+    {
+      "keyword": "monitoring",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 21
+    },
+    {
+      "keyword": "optimization",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 22
+    },
+    {
+      "keyword": "points",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 23
+    },
+    {
+      "keyword": "search",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 24
+    },
+    {
+      "keyword": "search problem",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 25
+    },
+    {
+      "keyword": "sql queries",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 26
+    },
+    {
+      "keyword": "stacked",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 27
+    },
+    {
+      "keyword": "stacked filters",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 28
+    },
+    {
+      "keyword": "structure",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 29
+    },
+    {
+      "keyword": "text",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 30
+    },
+    {
+      "keyword": "user",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 31
+    },
+    {
+      "keyword": "users",
+      "count": 2,
+      "relative_frequency": 0.006154,
+      "rank": 32
+    },
+    {
+      "keyword": "accelerate lloyd algorithm",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 33
+    },
+    {
+      "keyword": "access control",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 34
+    },
+    {
+      "keyword": "access control policies",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 35
+    },
+    {
       "keyword": "accuracy guarantee",
       "count": 1,
-      "rank": 1
+      "relative_frequency": 0.003077,
+      "rank": 36
+    },
+    {
+      "keyword": "accurate cardinality estimates",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 37
+    },
+    {
+      "keyword": "accurate distance estimation",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 38
+    },
+    {
+      "keyword": "accurate lsh framework",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 39
+    },
+    {
+      "keyword": "activedeeper",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 40
+    },
+    {
+      "keyword": "adapting compiled",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 41
+    },
+    {
+      "keyword": "adapting compiled queries",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 42
+    },
+    {
+      "keyword": "adaptive memory",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 43
+    },
+    {
+      "keyword": "adaptive memory management",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 44
+    },
+    {
+      "keyword": "address important societal",
+      "count": 1,
+      "relative_frequency": 0.003077,
+      "rank": 45
     },
     {
       "keyword": "addresses machine learning",
       "count": 1,
-      "rank": 2
-    },
-    {
-      "keyword": "analysis tools",
-      "count": 1,
-      "rank": 3
-    },
-    {
-      "keyword": "analysis tools exhibit",
-      "count": 1,
-      "rank": 4
-    },
-    {
-      "keyword": "benchmarking",
-      "count": 1,
-      "rank": 5
-    },
-    {
-      "keyword": "black box optimization",
-      "count": 1,
-      "rank": 6
-    },
-    {
-      "keyword": "cloud",
-      "count": 1,
-      "rank": 7
-    },
-    {
-      "keyword": "cloud configuration optimization",
-      "count": 1,
-      "rank": 8
-    },
-    {
-      "keyword": "cloud configuration problem",
-      "count": 1,
-      "rank": 9
-    },
-    {
-      "keyword": "cloud configurations grow",
-      "count": 1,
-      "rank": 10
-    },
-    {
-      "keyword": "community",
-      "count": 1,
-      "rank": 11
-    },
-    {
-      "keyword": "community search",
-      "count": 1,
-      "rank": 12
-    },
-    {
-      "keyword": "community search problem",
-      "count": 1,
-      "rank": 13
-    },
-    {
-      "keyword": "comprehensive and efficient",
-      "count": 1,
-      "rank": 14
-    },
-    {
-      "keyword": "compression",
-      "count": 1,
-      "rank": 15
-    },
-    {
-      "keyword": "configuration",
-      "count": 1,
-      "rank": 16
-    },
-    {
-      "keyword": "data borg",
-      "count": 1,
-      "rank": 17
-    },
-    {
-      "keyword": "diametrics",
-      "count": 1,
-      "rank": 18
-    },
-    {
-      "keyword": "disk",
-      "count": 1,
-      "rank": 19
-    },
-    {
-      "keyword": "distributed",
-      "count": 1,
-      "rank": 20
-    },
-    {
-      "keyword": "distributed framework",
-      "count": 1,
-      "rank": 21
-    },
-    {
-      "keyword": "efficient workload",
-      "count": 1,
-      "rank": 22
-    },
-    {
-      "keyword": "efficient workload compression",
-      "count": 1,
-      "rank": 23
-    },
-    {
-      "keyword": "engines",
-      "count": 1,
-      "rank": 24
-    },
-    {
-      "keyword": "equivalent documents",
-      "count": 1,
-      "rank": 25
-    },
-    {
-      "keyword": "framework for single source",
-      "count": 1,
-      "rank": 26
-    },
-    {
-      "keyword": "google",
-      "count": 1,
-      "rank": 27
-    },
-    {
-      "keyword": "guarantee",
-      "count": 1,
-      "rank": 28
-    },
-    {
-      "keyword": "inconsistency",
-      "count": 1,
-      "rank": 29
-    },
-    {
-      "keyword": "internal query engines",
-      "count": 1,
-      "rank": 30
-    },
-    {
-      "keyword": "learning task",
-      "count": 1,
-      "rank": 31
-    },
-    {
-      "keyword": "machine learning",
-      "count": 1,
-      "rank": 32
-    },
-    {
-      "keyword": "monitoring",
-      "count": 1,
-      "rank": 33
-    },
-    {
-      "keyword": "optimization",
-      "count": 1,
-      "rank": 34
-    },
-    {
-      "keyword": "paper introduces diametrics",
-      "count": 1,
-      "rank": 35
-    },
-    {
-      "keyword": "queries",
-      "count": 1,
-      "rank": 36
-    },
-    {
-      "keyword": "query",
-      "count": 1,
-      "rank": 37
-    },
-    {
-      "keyword": "query engines",
-      "count": 1,
-      "rank": 38
-    },
-    {
-      "keyword": "reasons of inconsistency",
-      "count": 1,
-      "rank": 39
-    },
-    {
-      "keyword": "relational",
-      "count": 1,
-      "rank": 40
-    },
-    {
-      "keyword": "relational data borg",
-      "count": 1,
-      "rank": 41
-    },
-    {
-      "keyword": "relational data processing",
-      "count": 1,
-      "rank": 42
-    },
-    {
-      "keyword": "representative workload",
-      "count": 1,
-      "rank": 43
-    },
-    {
-      "keyword": "search",
-      "count": 1,
-      "rank": 44
-    },
-    {
-      "keyword": "search problem",
-      "count": 1,
-      "rank": 45
-    },
-    {
-      "keyword": "semantically equivalent",
-      "count": 1,
+      "relative_frequency": 0.003077,
       "rank": 46
     },
     {
-      "keyword": "semantically equivalent documents",
+      "keyword": "algorithm selection",
       "count": 1,
+      "relative_frequency": 0.003077,
       "rank": 47
     },
     {
-      "keyword": "sentiment analysis tools",
+      "keyword": "algorithm system codesign",
       "count": 1,
+      "relative_frequency": 0.003077,
       "rank": 48
     },
     {
-      "keyword": "simrank",
+      "keyword": "algorithm system codesign approach",
       "count": 1,
+      "relative_frequency": 0.003077,
       "rank": 49
     },
     {
-      "keyword": "simrank queries",
+      "keyword": "allowing distributed components",
       "count": 1,
+      "relative_frequency": 0.003077,
       "rank": 50
     }
   ],
   "2021": [
     {
       "keyword": "graph",
-      "count": 2,
+      "count": 6,
+      "relative_frequency": 0.016529,
       "rank": 1
+    },
+    {
+      "keyword": "query",
+      "count": 5,
+      "relative_frequency": 0.013774,
+      "rank": 2
+    },
+    {
+      "keyword": "platform",
+      "count": 3,
+      "relative_frequency": 0.008264,
+      "rank": 3
+    },
+    {
+      "keyword": "processing",
+      "count": 3,
+      "relative_frequency": 0.008264,
+      "rank": 4
+    },
+    {
+      "keyword": "analyzing",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 5
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 6
+    },
+    {
+      "keyword": "cloud",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 7
+    },
+    {
+      "keyword": "data lake",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 8
+    },
+    {
+      "keyword": "database",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 9
+    },
+    {
+      "keyword": "databases",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 10
+    },
+    {
+      "keyword": "demonstration",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 11
+    },
+    {
+      "keyword": "design space",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 12
+    },
+    {
+      "keyword": "detection",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 13
+    },
+    {
+      "keyword": "discovery",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 14
+    },
+    {
+      "keyword": "dynamic",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 15
+    },
+    {
+      "keyword": "embedding",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 16
     },
     {
       "keyword": "graph analysis",
       "count": 2,
-      "rank": 2
+      "relative_frequency": 0.00551,
+      "rank": 17
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 18
+    },
+    {
+      "keyword": "graphs",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 19
+    },
+    {
+      "keyword": "intelligent",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 20
+    },
+    {
+      "keyword": "knowledge",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 21
+    },
+    {
+      "keyword": "knowledge graphs",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 22
+    },
+    {
+      "keyword": "neural networks",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 23
+    },
+    {
+      "keyword": "nodes",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 24
+    },
+    {
+      "keyword": "path",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 25
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 26
+    },
+    {
+      "keyword": "relational databases",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 27
+    },
+    {
+      "keyword": "remote",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 28
+    },
+    {
+      "keyword": "spark",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 29
+    },
+    {
+      "keyword": "storage",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 30
+    },
+    {
+      "keyword": "web",
+      "count": 2,
+      "relative_frequency": 0.00551,
+      "rank": 31
+    },
+    {
+      "keyword": "absolute deviation",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 32
     },
     {
       "keyword": "abstraction for general",
       "count": 1,
-      "rank": 3
+      "relative_frequency": 0.002755,
+      "rank": 33
     },
     {
-      "keyword": "analyzing",
+      "keyword": "accelerating",
       "count": 1,
-      "rank": 4
+      "relative_frequency": 0.002755,
+      "rank": 34
+    },
+    {
+      "keyword": "accelerating declarative top k",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 35
+    },
+    {
+      "keyword": "accelerating groupwise",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 36
+    },
+    {
+      "keyword": "accelerating groupwise comparison",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 37
+    },
+    {
+      "keyword": "accurate frequency estimations",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 38
+    },
+    {
+      "keyword": "accurate mad",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 39
+    },
+    {
+      "keyword": "acs",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 40
+    },
+    {
+      "keyword": "additional compilation",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 41
+    },
+    {
+      "keyword": "age",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 42
+    },
+    {
+      "keyword": "age of intelligent",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 43
+    },
+    {
+      "keyword": "agglomerative clustering",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 44
+    },
+    {
+      "keyword": "algorithms for distance generalized",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 45
+    },
+    {
+      "keyword": "analysis of structural",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 46
+    },
+    {
+      "keyword": "analytics",
+      "count": 1,
+      "relative_frequency": 0.002755,
+      "rank": 47
     },
     {
       "keyword": "analyzing graphs",
       "count": 1,
-      "rank": 5
-    },
-    {
-      "keyword": "automl approach based",
-      "count": 1,
-      "rank": 6
-    },
-    {
-      "keyword": "cache enabled distributed",
-      "count": 1,
-      "rank": 7
-    },
-    {
-      "keyword": "cache enabled distributed framework",
-      "count": 1,
-      "rank": 8
-    },
-    {
-      "keyword": "consent",
-      "count": 1,
-      "rank": 9
-    },
-    {
-      "keyword": "data lake",
-      "count": 1,
-      "rank": 10
-    },
-    {
-      "keyword": "data lake exploration",
-      "count": 1,
-      "rank": 11
-    },
-    {
-      "keyword": "data processing",
-      "count": 1,
-      "rank": 12
-    },
-    {
-      "keyword": "data usage",
-      "count": 1,
-      "rank": 13
-    },
-    {
-      "keyword": "databases",
-      "count": 1,
-      "rank": 14
-    },
-    {
-      "keyword": "develop complex models",
-      "count": 1,
-      "rank": 15
-    },
-    {
-      "keyword": "differentially private",
-      "count": 1,
-      "rank": 16
-    },
-    {
-      "keyword": "embedding",
-      "count": 1,
-      "rank": 17
-    },
-    {
-      "keyword": "embedding model training",
-      "count": 1,
-      "rank": 18
-    },
-    {
-      "keyword": "embedding models",
-      "count": 1,
-      "rank": 19
-    },
-    {
-      "keyword": "enabling personal",
-      "count": 1,
-      "rank": 20
-    },
-    {
-      "keyword": "enabling personal consent",
-      "count": 1,
-      "rank": 21
-    },
-    {
-      "keyword": "exploration",
-      "count": 1,
-      "rank": 22
-    },
-    {
-      "keyword": "general data",
-      "count": 1,
-      "rank": 23
-    },
-    {
-      "keyword": "general data processing",
-      "count": 1,
-      "rank": 24
-    },
-    {
-      "keyword": "graph analysis platform",
-      "count": 1,
-      "rank": 25
-    },
-    {
-      "keyword": "graph analysis services",
-      "count": 1,
-      "rank": 26
-    },
-    {
-      "keyword": "graph clustering",
-      "count": 1,
-      "rank": 27
-    },
-    {
-      "keyword": "graph neural network",
-      "count": 1,
-      "rank": 28
-    },
-    {
-      "keyword": "het",
-      "count": 1,
-      "rank": 29
-    },
-    {
-      "keyword": "huge embedding",
-      "count": 1,
-      "rank": 30
-    },
-    {
-      "keyword": "huge embedding model",
-      "count": 1,
-      "rank": 31
-    },
-    {
-      "keyword": "lake",
-      "count": 1,
-      "rank": 32
-    },
-    {
-      "keyword": "link prediction",
-      "count": 1,
-      "rank": 33
-    },
-    {
-      "keyword": "matrix valued",
-      "count": 1,
-      "rank": 34
-    },
-    {
-      "keyword": "matrix valued bernoulli",
-      "count": 1,
-      "rank": 35
-    },
-    {
-      "keyword": "matrix valued bernoulli distribution",
-      "count": 1,
-      "rank": 36
-    },
-    {
-      "keyword": "matrix valued data query",
-      "count": 1,
-      "rank": 37
-    },
-    {
-      "keyword": "motif based analysis",
-      "count": 1,
-      "rank": 38
-    },
-    {
-      "keyword": "motif paths",
-      "count": 1,
-      "rank": 39
-    },
-    {
-      "keyword": "neural networks",
-      "count": 1,
-      "rank": 40
-    },
-    {
-      "keyword": "nodes",
-      "count": 1,
-      "rank": 41
-    },
-    {
-      "keyword": "personal",
-      "count": 1,
-      "rank": 42
-    },
-    {
-      "keyword": "personal consent",
-      "count": 1,
-      "rank": 43
-    },
-    {
-      "keyword": "present realgraph web",
-      "count": 1,
-      "rank": 44
-    },
-    {
-      "keyword": "processing",
-      "count": 1,
-      "rank": 45
-    },
-    {
-      "keyword": "realgraph web",
-      "count": 1,
-      "rank": 46
-    },
-    {
-      "keyword": "relational databases",
-      "count": 1,
-      "rank": 47
-    },
-    {
-      "keyword": "ronin",
-      "count": 1,
+      "relative_frequency": 0.002755,
       "rank": 48
     },
     {
-      "keyword": "scalable automl approach",
+      "keyword": "analyzing the lsm",
       "count": 1,
+      "relative_frequency": 0.002755,
       "rank": 49
     },
     {
-      "keyword": "scaling",
+      "keyword": "anchor",
       "count": 1,
+      "relative_frequency": 0.002755,
       "rank": 50
     }
   ],
   "2022": [
     {
-      "keyword": "assisting",
-      "count": 1,
+      "keyword": "database",
+      "count": 4,
+      "relative_frequency": 0.011429,
       "rank": 1
     },
     {
-      "keyword": "assisting data",
-      "count": 1,
+      "keyword": "graphs",
+      "count": 4,
+      "relative_frequency": 0.011429,
       "rank": 2
     },
     {
-      "keyword": "assisting data science",
-      "count": 1,
+      "keyword": "query",
+      "count": 4,
+      "relative_frequency": 0.011429,
       "rank": 3
     },
     {
-      "keyword": "augmenting provenance",
-      "count": 1,
+      "keyword": "database systems",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 4
     },
     {
-      "keyword": "bipartite graphs",
-      "count": 1,
+      "keyword": "entity",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 5
     },
     {
-      "keyword": "coordination for distributed",
-      "count": 1,
+      "keyword": "federated learning",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 6
     },
     {
-      "keyword": "correlated window pairs",
-      "count": 1,
+      "keyword": "graph",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 7
     },
     {
-      "keyword": "data driven science requires",
-      "count": 1,
+      "keyword": "graph neural",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 8
     },
     {
-      "keyword": "data fairness",
-      "count": 1,
+      "keyword": "graph neural network",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 9
     },
     {
-      "keyword": "data generation",
-      "count": 1,
+      "keyword": "queries",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 10
     },
     {
-      "keyword": "data management",
-      "count": 1,
+      "keyword": "scalable",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 11
     },
     {
-      "keyword": "data modelling",
-      "count": 1,
+      "keyword": "spatial",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 12
     },
     {
-      "keyword": "data science",
-      "count": 1,
+      "keyword": "time",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 13
     },
     {
-      "keyword": "data science practice",
-      "count": 1,
+      "keyword": "time series",
+      "count": 3,
+      "relative_frequency": 0.008571,
       "rank": 14
     },
     {
-      "keyword": "data stores",
-      "count": 1,
+      "keyword": "anomaly detection",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 15
     },
     {
-      "keyword": "democratizing",
-      "count": 1,
+      "keyword": "bipartite graphs",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 16
     },
     {
-      "keyword": "democratizing network",
-      "count": 1,
+      "keyword": "blockchain",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 17
     },
     {
-      "keyword": "democratizing network representation",
-      "count": 1,
+      "keyword": "data exploration",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 18
     },
     {
-      "keyword": "distributed transaction",
-      "count": 1,
+      "keyword": "data science",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 19
     },
     {
-      "keyword": "distributed transaction processing",
-      "count": 1,
+      "keyword": "data stores",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 20
     },
     {
-      "keyword": "embedding based link",
-      "count": 1,
+      "keyword": "data streams",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 21
     },
     {
-      "keyword": "embedding based link prediction",
-      "count": 1,
+      "keyword": "database system",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 22
     },
     {
-      "keyword": "embedding method",
-      "count": 1,
+      "keyword": "distributed",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 23
     },
     {
-      "keyword": "entity",
-      "count": 1,
+      "keyword": "dynamic graphs",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 24
     },
     {
       "keyword": "entity matching",
-      "count": 1,
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 25
     },
     {
-      "keyword": "entity records",
-      "count": 1,
+      "keyword": "explainability framework",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 26
     },
     {
-      "keyword": "explainability",
-      "count": 1,
+      "keyword": "explanations",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 27
     },
     {
-      "keyword": "explainability framework",
-      "count": 1,
+      "keyword": "fairness",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 28
     },
     {
-      "keyword": "explaining query",
-      "count": 1,
+      "keyword": "federated",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 29
     },
     {
-      "keyword": "explaining query results",
-      "count": 1,
+      "keyword": "machine learning",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 30
     },
     {
-      "keyword": "fair synthetic data",
-      "count": 1,
+      "keyword": "machine learning models",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 31
     },
     {
-      "keyword": "fairness",
-      "count": 1,
+      "keyword": "matching",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 32
     },
     {
-      "keyword": "form long time",
-      "count": 1,
+      "keyword": "memory",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 33
     },
     {
-      "keyword": "framework for embedding based",
-      "count": 1,
+      "keyword": "neural network training",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 34
     },
     {
-      "keyword": "gem",
-      "count": 1,
+      "keyword": "neural networks",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 35
     },
     {
-      "keyword": "generalized entity",
-      "count": 1,
+      "keyword": "optimization",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 36
     },
     {
-      "keyword": "generalized entity matching",
-      "count": 1,
+      "keyword": "points",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 37
     },
     {
-      "keyword": "generating justifiably fair",
-      "count": 1,
+      "keyword": "processing",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 38
     },
     {
-      "keyword": "graph",
-      "count": 1,
+      "keyword": "query processing",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 39
     },
     {
-      "keyword": "graph convolutional networks",
-      "count": 1,
+      "keyword": "query results",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 40
     },
     {
-      "keyword": "in network coordination",
-      "count": 1,
+      "keyword": "random",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 41
     },
     {
-      "keyword": "industrial internet",
-      "count": 1,
+      "keyword": "relational",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 42
     },
     {
-      "keyword": "join augmented deep explanations",
-      "count": 1,
+      "keyword": "relational database",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 43
     },
     {
-      "keyword": "justifiably fair synthetic",
-      "count": 1,
+      "keyword": "schema",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 44
     },
     {
-      "keyword": "kelpie",
-      "count": 1,
+      "keyword": "science",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 45
     },
     {
-      "keyword": "key value",
-      "count": 1,
+      "keyword": "search",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 46
     },
     {
-      "keyword": "key value store",
-      "count": 1,
+      "keyword": "series",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 47
     },
     {
-      "keyword": "link prediction",
-      "count": 1,
+      "keyword": "sql",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 48
     },
     {
-      "keyword": "link prediction models",
-      "count": 1,
+      "keyword": "vertical federated",
+      "count": 2,
+      "relative_frequency": 0.005714,
       "rank": 49
     },
     {
-      "keyword": "location",
+      "keyword": "ability",
       "count": 1,
+      "relative_frequency": 0.002857,
       "rank": 50
     }
   ],
   "2023": [
     {
-      "keyword": "accelerating aggregation queries",
-      "count": 1,
+      "keyword": "time series",
+      "count": 8,
+      "relative_frequency": 0.020305,
       "rank": 1
     },
     {
-      "keyword": "aggregation queries",
-      "count": 1,
+      "keyword": "query",
+      "count": 7,
+      "relative_frequency": 0.017766,
       "rank": 2
     },
     {
-      "keyword": "analytics system",
-      "count": 1,
+      "keyword": "processing",
+      "count": 6,
+      "relative_frequency": 0.015228,
       "rank": 3
     },
     {
-      "keyword": "analyzing the impact",
-      "count": 1,
+      "keyword": "graph",
+      "count": 5,
+      "relative_frequency": 0.01269,
       "rank": 4
     },
     {
-      "keyword": "attacks",
-      "count": 1,
+      "keyword": "series",
+      "count": 5,
+      "relative_frequency": 0.01269,
       "rank": 5
     },
     {
-      "keyword": "billion scale bipartite graphs",
-      "count": 1,
+      "keyword": "differential privacy",
+      "count": 4,
+      "relative_frequency": 0.010152,
       "rank": 6
     },
     {
-      "keyword": "bipartite",
-      "count": 1,
+      "keyword": "graphs",
+      "count": 4,
+      "relative_frequency": 0.010152,
       "rank": 7
     },
     {
-      "keyword": "bipartite graph embedding",
-      "count": 1,
+      "keyword": "time",
+      "count": 4,
+      "relative_frequency": 0.010152,
       "rank": 8
     },
     {
-      "keyword": "bipartite graphs",
-      "count": 1,
+      "keyword": "machine learning",
+      "count": 3,
+      "relative_frequency": 0.007614,
       "rank": 9
     },
     {
-      "keyword": "cardinality",
-      "count": 1,
+      "keyword": "queries",
+      "count": 3,
+      "relative_frequency": 0.007614,
       "rank": 10
     },
     {
-      "keyword": "cardinality estimation",
-      "count": 1,
+      "keyword": "query processing",
+      "count": 3,
+      "relative_frequency": 0.007614,
       "rank": 11
     },
     {
-      "keyword": "class memory",
-      "count": 1,
+      "keyword": "time series data",
+      "count": 3,
+      "relative_frequency": 0.007614,
       "rank": 12
     },
     {
-      "keyword": "data aware global explainability",
-      "count": 1,
+      "keyword": "analytics system",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 13
     },
     {
-      "keyword": "data aware global explanations",
-      "count": 1,
+      "keyword": "anomaly detection",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 14
     },
     {
-      "keyword": "data processing",
-      "count": 1,
+      "keyword": "apache arrow",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 15
     },
     {
-      "keyword": "data processing systems",
-      "count": 1,
+      "keyword": "assignment",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 16
     },
     {
-      "keyword": "declarative sub operators",
-      "count": 1,
+      "keyword": "case",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 17
     },
     {
-      "keyword": "demonstrating waffle",
-      "count": 1,
+      "keyword": "column type annotation",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 18
     },
     {
-      "keyword": "design space",
-      "count": 1,
+      "keyword": "community search",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 19
     },
     {
-      "keyword": "design space exploration",
-      "count": 1,
+      "keyword": "compression",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 20
     },
     {
-      "keyword": "document stores",
-      "count": 1,
+      "keyword": "data lakes",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 21
     },
     {
-      "keyword": "encryption",
-      "count": 1,
+      "keyword": "data processing",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 22
     },
     {
-      "keyword": "estimation on execution",
-      "count": 1,
+      "keyword": "data processing systems",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 23
     },
     {
-      "keyword": "execution plans",
-      "count": 1,
+      "keyword": "data series",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 24
     },
     {
-      "keyword": "existing fh ope",
-      "count": 1,
+      "keyword": "database system",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 25
     },
     {
-      "keyword": "existing fh ope schemes",
-      "count": 1,
+      "keyword": "deep",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 26
     },
     {
-      "keyword": "explainability",
-      "count": 1,
+      "keyword": "detection",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 27
     },
     {
-      "keyword": "fh ope",
-      "count": 1,
+      "keyword": "federated learning",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 28
     },
     {
-      "keyword": "fh ope schemes",
-      "count": 1,
+      "keyword": "graph neural",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 29
     },
     {
-      "keyword": "frequency hiding order preserving encryption",
-      "count": 1,
+      "keyword": "graph neural network",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 30
     },
     {
-      "keyword": "geospatial",
-      "count": 1,
+      "keyword": "imputation",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 31
     },
     {
-      "keyword": "geospatial video",
-      "count": 1,
+      "keyword": "index",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 32
     },
     {
-      "keyword": "geospatial video analytics",
-      "count": 1,
+      "keyword": "matching",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 33
     },
     {
-      "keyword": "global explainability",
-      "count": 1,
+      "keyword": "modern",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 34
     },
     {
-      "keyword": "global local induced",
-      "count": 1,
+      "keyword": "neural networks",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 35
     },
     {
-      "keyword": "global local induced approach",
-      "count": 1,
+      "keyword": "property graphs",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 36
     },
     {
-      "keyword": "graph",
-      "count": 1,
+      "keyword": "search",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 37
     },
     {
-      "keyword": "graph data",
-      "count": 1,
+      "keyword": "similarity search",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 38
     },
     {
-      "keyword": "graph neural",
-      "count": 1,
+      "keyword": "sketching",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 39
     },
     {
-      "keyword": "graph neural network",
-      "count": 1,
+      "keyword": "stable",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 40
     },
     {
-      "keyword": "grid",
-      "count": 1,
+      "keyword": "task assignment",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 41
     },
     {
-      "keyword": "grid index",
-      "count": 1,
+      "keyword": "time series forecasting",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 42
     },
     {
-      "keyword": "hash joins",
-      "count": 1,
+      "keyword": "transactions",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 43
     },
     {
-      "keyword": "heterogeneous json data",
-      "count": 1,
+      "keyword": "tree",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 44
     },
     {
-      "keyword": "hierarchical partitioning",
-      "count": 1,
+      "keyword": "type annotation",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 45
     },
     {
-      "keyword": "impact of cardinality",
-      "count": 1,
+      "keyword": "workloads",
+      "count": 2,
+      "relative_frequency": 0.005076,
       "rank": 46
     },
     {
-      "keyword": "index",
+      "keyword": "accelerating aggregation queries",
       "count": 1,
+      "relative_frequency": 0.002538,
       "rank": 47
     },
     {
-      "keyword": "induced",
+      "keyword": "accelerating data",
       "count": 1,
+      "relative_frequency": 0.002538,
       "rank": 48
     },
     {
-      "keyword": "induced approach",
+      "keyword": "accelerating data preparation",
       "count": 1,
+      "relative_frequency": 0.002538,
       "rank": 49
     },
     {
-      "keyword": "inquest",
+      "keyword": "accurate piecewise",
       "count": 1,
+      "relative_frequency": 0.002538,
       "rank": 50
     }
   ],
   "2024": [
     {
-      "keyword": "discovery",
-      "count": 2,
+      "keyword": "graph",
+      "count": 11,
+      "relative_frequency": 0.024719,
       "rank": 1
     },
     {
-      "keyword": "abbreviations",
-      "count": 1,
+      "keyword": "query",
+      "count": 7,
+      "relative_frequency": 0.01573,
       "rank": 2
     },
     {
-      "keyword": "accuracy guarantee",
-      "count": 1,
+      "keyword": "time series",
+      "count": 7,
+      "relative_frequency": 0.01573,
       "rank": 3
     },
     {
-      "keyword": "acronyms",
-      "count": 1,
+      "keyword": "large language model",
+      "count": 6,
+      "relative_frequency": 0.013483,
       "rank": 4
     },
     {
-      "keyword": "affect",
-      "count": 1,
+      "keyword": "database",
+      "count": 5,
+      "relative_frequency": 0.011236,
       "rank": 5
     },
     {
-      "keyword": "approximate inclusion",
-      "count": 1,
+      "keyword": "graph neural network",
+      "count": 5,
+      "relative_frequency": 0.011236,
       "rank": 6
     },
     {
-      "keyword": "approximate inclusion dependencies",
-      "count": 1,
+      "keyword": "graph neural",
+      "count": 4,
+      "relative_frequency": 0.008989,
       "rank": 7
     },
     {
-      "keyword": "assistant harnessing llms",
-      "count": 1,
+      "keyword": "processing",
+      "count": 4,
+      "relative_frequency": 0.008989,
       "rank": 8
     },
     {
-      "keyword": "auction",
-      "count": 1,
+      "keyword": "sql",
+      "count": 4,
+      "relative_frequency": 0.008989,
       "rank": 9
     },
     {
-      "keyword": "big data",
-      "count": 1,
+      "keyword": "time",
+      "count": 4,
+      "relative_frequency": 0.008989,
       "rank": 10
     },
     {
-      "keyword": "big data applications",
-      "count": 1,
+      "keyword": "data analytics",
+      "count": 3,
+      "relative_frequency": 0.006742,
       "rank": 11
     },
     {
-      "keyword": "bipartite graph",
-      "count": 1,
+      "keyword": "discovery",
+      "count": 3,
+      "relative_frequency": 0.006742,
       "rank": 12
     },
     {
-      "keyword": "bipartite graph analysis",
-      "count": 1,
+      "keyword": "index",
+      "count": 3,
+      "relative_frequency": 0.006742,
       "rank": 13
     },
     {
-      "keyword": "burst subgraph discovery",
-      "count": 1,
+      "keyword": "indexes",
+      "count": 3,
+      "relative_frequency": 0.006742,
       "rank": 14
     },
     {
-      "keyword": "burst subgraphs",
-      "count": 1,
+      "keyword": "knowledge graph",
+      "count": 3,
+      "relative_frequency": 0.006742,
       "rank": 15
     },
     {
-      "keyword": "byte addressable storage",
-      "count": 1,
+      "keyword": "reasoning",
+      "count": 3,
+      "relative_frequency": 0.006742,
       "rank": 16
     },
     {
-      "keyword": "cache management",
-      "count": 1,
+      "keyword": "search",
+      "count": 3,
+      "relative_frequency": 0.006742,
       "rank": 17
     },
     {
-      "keyword": "called compute express",
-      "count": 1,
+      "keyword": "similarity",
+      "count": 3,
+      "relative_frequency": 0.006742,
       "rank": 18
     },
     {
-      "keyword": "candidate cause ranker",
-      "count": 1,
+      "keyword": "spark",
+      "count": 3,
+      "relative_frequency": 0.006742,
       "rank": 19
     },
     {
-      "keyword": "categorical",
-      "count": 1,
+      "keyword": "trajectory",
+      "count": 3,
+      "relative_frequency": 0.006742,
       "rank": 20
     },
     {
-      "keyword": "categorical columns",
-      "count": 1,
+      "keyword": "accelerating",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 21
     },
     {
-      "keyword": "categorical duplicates affect",
-      "count": 1,
+      "keyword": "adaptive query execution",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 22
     },
     {
-      "keyword": "categorical duplicates exhibit",
-      "count": 1,
+      "keyword": "ann",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 23
     },
     {
-      "keyword": "causal",
-      "count": 1,
+      "keyword": "approximate nearest",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 24
     },
     {
-      "keyword": "causal graph",
-      "count": 1,
+      "keyword": "compression",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 25
     },
     {
-      "keyword": "causal graph refiner",
-      "count": 1,
+      "keyword": "data lakes",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 26
     },
     {
-      "keyword": "causal inference",
-      "count": 1,
+      "keyword": "database management systems",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 27
     },
     {
-      "keyword": "clique count",
-      "count": 1,
+      "keyword": "database systems",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 28
     },
     {
-      "keyword": "clique count estimation",
-      "count": 1,
+      "keyword": "databases",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 29
     },
     {
-      "keyword": "cliques",
-      "count": 1,
+      "keyword": "deep learning",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 30
     },
     {
-      "keyword": "cloud native nosql",
-      "count": 1,
+      "keyword": "dynamic graphs",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 31
     },
     {
-      "keyword": "cloud native nosql database",
-      "count": 1,
+      "keyword": "entity",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 32
     },
     {
-      "keyword": "community",
-      "count": 1,
+      "keyword": "fast",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 33
     },
     {
-      "keyword": "community search",
-      "count": 1,
+      "keyword": "forecasting",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 34
     },
     {
-      "keyword": "compute express link",
-      "count": 1,
+      "keyword": "graphs",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 35
     },
     {
-      "keyword": "cost optimization",
-      "count": 1,
+      "keyword": "knowledge",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 36
     },
     {
-      "keyword": "cxl",
-      "count": 1,
+      "keyword": "lakes",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 37
     },
     {
-      "keyword": "data lakes",
-      "count": 1,
+      "keyword": "learned",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 38
     },
     {
-      "keyword": "data models",
-      "count": 1,
+      "keyword": "logic",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 39
     },
     {
-      "keyword": "data rich entities",
-      "count": 1,
+      "keyword": "machine learning",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 40
     },
     {
-      "keyword": "data seller",
-      "count": 1,
+      "keyword": "maintained data lakes",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 41
     },
     {
-      "keyword": "database",
-      "count": 1,
+      "keyword": "nearest neighbor",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 42
     },
     {
-      "keyword": "database engines",
-      "count": 1,
+      "keyword": "nearest neighbor search",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 43
     },
     {
-      "keyword": "dealing with acronyms",
-      "count": 1,
+      "keyword": "neural network",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 44
     },
     {
-      "keyword": "dependencies",
-      "count": 1,
+      "keyword": "neural networks",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 45
     },
     {
-      "keyword": "diagnosing large",
-      "count": 1,
+      "keyword": "oracle",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 46
     },
     {
-      "keyword": "diagnosing large systems",
-      "count": 1,
+      "keyword": "points",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 47
     },
     {
-      "keyword": "direct memory access",
-      "count": 1,
+      "keyword": "queries",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 48
     },
     {
-      "keyword": "disaggregated memory",
-      "count": 1,
+      "keyword": "query optimization",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 49
     },
     {
-      "keyword": "disaggregated memory separates",
-      "count": 1,
+      "keyword": "scale",
+      "count": 2,
+      "relative_frequency": 0.004494,
       "rank": 50
     }
-  ]
+  ],
+  "2025": []
 }

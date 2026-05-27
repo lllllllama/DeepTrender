@@ -17,17 +17,33 @@ from agents import IngestionAgent, StructuringAgent
 from agents.analysis_agent import AnalysisAgent
 from analysis import get_analyzer
 from config import VENUES
+from scraper.ccf_registry import filter_ccf_venue_names, load_ccf_venue_registry
 from scraper.semantic_scholar import S2_VENUES
 from visualization import generate_all_charts
 from report import generate_report
 
 FULL_CRAWL_ARXIV_DAYS = 3650
 FULL_CRAWL_ARXIV_MAX_RESULTS = 50000
-FULL_CRAWL_PROCESSING_LIMIT = 50000
+FULL_CRAWL_PROCESSING_LIMIT = 100000
 
 
-def _full_crawl_venues() -> List[str]:
-    return sorted(set(VENUES.keys()) | set(S2_VENUES.keys()))
+def _full_crawl_venues(
+    ccf_tier: str | None = None,
+    ccf_domain: str | None = None,
+    venue_offset: int = 0,
+    venue_count: int | None = None,
+) -> List[str]:
+    ccf_venues = set(filter_ccf_venue_names(tier=ccf_tier, domain=ccf_domain))
+    if ccf_tier or ccf_domain:
+        venues = sorted(ccf_venues | set(VENUES.keys()))
+    else:
+        venues = sorted(set(VENUES.keys()) | set(S2_VENUES.keys()) | ccf_venues)
+
+    if venue_offset:
+        venues = venues[venue_offset:]
+    if venue_count:
+        venues = venues[:venue_count]
+    return venues
 
 
 def _full_crawl_years() -> List[int]:
@@ -45,6 +61,10 @@ def resolve_crawl_options(
     years: List[int] = None,
     limit: int = 5000,
     full_crawl: bool = False,
+    ccf_tier: str | None = None,
+    ccf_domain: str | None = None,
+    venue_offset: int = 0,
+    venue_count: int | None = None,
 ) -> dict:
     """Resolve incremental defaults versus broad first-run bootstrap defaults."""
 
@@ -62,7 +82,12 @@ def resolve_crawl_options(
         "sources": sources or ["arxiv", "openalex", "s2", "openreview"],
         "arxiv_days": max(arxiv_days or 0, FULL_CRAWL_ARXIV_DAYS),
         "arxiv_max_results": max(arxiv_max_results or 0, FULL_CRAWL_ARXIV_MAX_RESULTS),
-        "venues": venues or _full_crawl_venues(),
+        "venues": venues or _full_crawl_venues(
+            ccf_tier=ccf_tier,
+            ccf_domain=ccf_domain,
+            venue_offset=venue_offset,
+            venue_count=venue_count,
+        ),
         "years": years or _full_crawl_years(),
         "limit": max(limit or 0, FULL_CRAWL_PROCESSING_LIMIT),
     }
@@ -105,6 +130,10 @@ def run_pipeline(
     extractor: str = "yake",
     limit: int = 5000,
     full_crawl: bool = False,
+    ccf_tier: str | None = None,
+    ccf_domain: str | None = None,
+    venue_offset: int = 0,
+    venue_count: int | None = None,
     skip_ingestion: bool = False,
     skip_structuring: bool = False,
     skip_topic_facts: bool = False,
@@ -123,6 +152,10 @@ def run_pipeline(
         years=years,
         limit=limit,
         full_crawl=full_crawl,
+        ccf_tier=ccf_tier,
+        ccf_domain=ccf_domain,
+        venue_offset=venue_offset,
+        venue_count=venue_count,
     )
 
     sources = crawl_options["sources"]
@@ -137,6 +170,11 @@ def run_pipeline(
         print(f"   arXiv days: {arxiv_days}")
         print(f"   arXiv max results: {arxiv_max_results}")
         print(f"   processing limit: {limit}")
+        print(f"   venues: {len(venues or [])}")
+        if ccf_tier:
+            print(f"   CCF tier filter: {ccf_tier}")
+        if ccf_domain:
+            print(f"   CCF domain filter: {ccf_domain}")
 
     if not skip_ingestion:
         print("\n[1/3] Ingestion")
@@ -178,8 +216,9 @@ def run_pipeline(
         from analysis.arxiv_agent import ArxivAnalysisAgent
 
         arxiv_agent = ArxivAnalysisAgent()
-        arxiv_agent.run_all_granularities(category="ALL", force=False)
-        arxiv_agent.detect_emerging_topics(category="ALL", threshold=1.5)
+        arxiv_agent.run_default_categories(force=False)
+        for category in ArxivAnalysisAgent.CATEGORIES:
+            arxiv_agent.detect_emerging_topics(category=category, threshold=1.5)
     except Exception as exc:
         print(f"arXiv analysis warning: {exc}")
 
@@ -228,6 +267,34 @@ def main():
         help="Use broad first-run crawl defaults for GitHub Actions/bootstrap runs",
     )
     parser.add_argument(
+        "--ccf-tier",
+        choices=["A", "B", "C", "all"],
+        default=None,
+        help="Filter full-crawl registry venues by CCF tier",
+    )
+    parser.add_argument(
+        "--ccf-domain",
+        default=None,
+        help="Filter full-crawl registry venues by registry domain, e.g. AI, DB, SE",
+    )
+    parser.add_argument(
+        "--venue-offset",
+        type=int,
+        default=0,
+        help="Skip this many resolved full-crawl venues for Actions batching",
+    )
+    parser.add_argument(
+        "--venue-count",
+        type=int,
+        default=None,
+        help="Limit resolved full-crawl venues for Actions batching",
+    )
+    parser.add_argument(
+        "--list-ccf-venues",
+        action="store_true",
+        help="Print the loaded CCF registry venues and exit",
+    )
+    parser.add_argument(
         "--skip-ingestion", action="store_true", help="Skip ingestion stage"
     )
     parser.add_argument(
@@ -246,6 +313,10 @@ def main():
 
     args = parser.parse_args()
     sources = None if args.source == "all" else [args.source]
+    if args.list_ccf_venues:
+        for venue in load_ccf_venue_registry().values():
+            print(f"{venue.canonical_name}\t{venue.tier}\t{venue.domain}\t{venue.full_name}")
+        return
 
     run_pipeline(
         sources=sources,
@@ -256,6 +327,10 @@ def main():
         extractor=args.extractor,
         limit=args.limit,
         full_crawl=args.full_crawl,
+        ccf_tier=args.ccf_tier,
+        ccf_domain=args.ccf_domain,
+        venue_offset=args.venue_offset,
+        venue_count=args.venue_count,
         skip_ingestion=args.skip_ingestion,
         skip_structuring=args.skip_structuring,
         skip_topic_facts=args.skip_topic_facts,

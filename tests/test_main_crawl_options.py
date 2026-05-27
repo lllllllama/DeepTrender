@@ -19,6 +19,10 @@ def test_full_crawl_expands_bootstrap_defaults():
     assert {"ICLR", "NeurIPS", "CVPR", "ACL", "KDD", "SIGMOD", "ICSE"}.issubset(
         set(options["venues"])
     )
+    assert {"PPoPP", "SIGCOMM", "CCS", "STOC", "ACM MM", "CHI", "WWW"}.issubset(
+        set(options["venues"])
+    )
+    assert len(options["venues"]) >= 360
     assert {2020, 2021, 2022, 2023, 2024, 2025}.issubset(set(options["years"]))
 
 
@@ -54,6 +58,22 @@ def test_incremental_options_keep_small_defaults():
     assert options["arxiv_days"] == 7
     assert options["arxiv_max_results"] == 1000
     assert options["limit"] == 5000
+
+
+def test_full_crawl_can_filter_and_batch_ccf_registry_scope():
+    options = resolve_crawl_options(
+        full_crawl=True,
+        ccf_tier="A",
+        ccf_domain="AI",
+        venue_offset=1,
+        venue_count=3,
+    )
+
+    assert len(options["venues"]) == 3
+    assert set(options["venues"]).issubset(
+        {"ICLR", "NeurIPS", "ICML", "EMNLP", "COLM", "CoRL", "LOG", "AISTATS"}
+        | {"AAAI", "ACL", "CVPR", "ICCV", "IJCAI"}
+    )
 
 
 def test_topic_fact_rebuild_runs_by_default():

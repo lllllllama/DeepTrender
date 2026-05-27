@@ -3,16 +3,25 @@
     {
       "year": 2022,
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 1
     },
     {
       "year": 2023,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2024,
       "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
@@ -20,16 +29,25 @@
     {
       "year": 2022,
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 2
     },
     {
       "year": 2023,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2024,
       "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
@@ -37,16 +55,25 @@
     {
       "year": 2022,
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 3
     },
     {
       "year": 2023,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2024,
       "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
@@ -54,16 +81,25 @@
     {
       "year": 2022,
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 4
     },
     {
       "year": 2023,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2024,
       "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
@@ -71,16 +107,25 @@
     {
       "year": 2022,
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 5
     },
     {
       "year": 2023,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2024,
       "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
@@ -88,16 +133,25 @@
     {
       "year": 2022,
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 6
     },
     {
       "year": 2023,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2024,
       "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
@@ -105,16 +159,25 @@
     {
       "year": 2022,
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 7
     },
     {
       "year": 2023,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2024,
       "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
@@ -122,16 +185,25 @@
     {
       "year": 2022,
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 8
     },
     {
       "year": 2023,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2024,
       "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
@@ -139,16 +211,25 @@
     {
       "year": 2022,
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 9
     },
     {
       "year": 2023,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2024,
       "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ],
@@ -156,16 +237,207 @@
     {
       "year": 2022,
       "count": 1,
+      "relative_frequency": 1.0,
       "rank": 10
     },
     {
       "year": 2023,
       "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     },
     {
       "year": 2024,
       "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    }
+  ],
+  "genrewrite": [
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 1
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    }
+  ],
+  "language rewrite rules": [
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 2
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    }
+  ],
+  "large language model": [
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 3
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    }
+  ],
+  "natural language rewrite": [
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 4
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    }
+  ],
+  "query": [
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 5
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    }
+  ],
+  "query rewriting": [
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 6
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    }
+  ],
+  "rewriting": [
+    {
+      "year": 2022,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2023,
+      "count": 0,
+      "relative_frequency": 0,
+      "rank": 0
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "relative_frequency": 0.333333,
+      "rank": 7
+    },
+    {
+      "year": 2025,
+      "count": 0,
+      "relative_frequency": 0,
       "rank": 0
     }
   ]

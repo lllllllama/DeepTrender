@@ -160,11 +160,13 @@ CREATE TABLE IF NOT EXISTS analysis_venue_summary (
 CREATE TABLE IF NOT EXISTS analysis_keyword_trends (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     scope TEXT NOT NULL,  -- 'venue' / 'overall' / 'arxiv'
-    venue TEXT DEFAULT '',  -- empty string for overall/arxiv scope
+    venue TEXT DEFAULT '',  -- empty string for overall; arxiv scope stores category here
     keyword TEXT NOT NULL,
-    granularity TEXT NOT NULL,  -- 'year'/'week'/'day'
-    bucket TEXT NOT NULL,  -- year="2024", week="2024-W05", day="2024-02-03"
+    granularity TEXT NOT NULL,  -- 'year'/'month'/'week'/'day'
+    bucket TEXT NOT NULL,  -- year="2024", month="2024-02", week="2024-W05", day="2024-02-03"
     count INTEGER DEFAULT 0,
+    relative_frequency REAL DEFAULT 0.0,
+    rank INTEGER DEFAULT 0,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (scope, venue, keyword, granularity, bucket)
 );
@@ -172,10 +174,11 @@ CREATE TABLE IF NOT EXISTS analysis_keyword_trends (
 -- D) arXiv timeseries cache
 CREATE TABLE IF NOT EXISTS analysis_arxiv_timeseries (
     category TEXT NOT NULL,  -- cs.LG/cs.CL/cs.CV/cs.AI/ALL
-    granularity TEXT NOT NULL,  -- 'year'/'week'/'day'
+    granularity TEXT NOT NULL,  -- 'year'/'month'/'week'/'day'
     bucket TEXT NOT NULL,  -- ISO format
     paper_count INTEGER DEFAULT 0,
     top_keywords_json TEXT,  -- JSON array
+    warnings_json TEXT,  -- JSON array of data-quality warning codes/messages
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (category, granularity, bucket)
 );

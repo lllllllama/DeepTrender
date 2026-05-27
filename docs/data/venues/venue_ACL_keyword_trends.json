@@ -3,6 +3,7 @@
     {
       "year": 2026,
       "count": 75,
+      "relative_frequency": 0.380711,
       "rank": 1
     }
   ],
@@ -10,6 +11,7 @@
     {
       "year": 2026,
       "count": 20,
+      "relative_frequency": 0.101523,
       "rank": 2
     }
   ],
@@ -17,6 +19,7 @@
     {
       "year": 2026,
       "count": 7,
+      "relative_frequency": 0.035533,
       "rank": 3
     }
   ],
@@ -24,6 +27,7 @@
     {
       "year": 2026,
       "count": 6,
+      "relative_frequency": 0.030457,
       "rank": 4
     }
   ],
@@ -31,6 +35,7 @@
     {
       "year": 2026,
       "count": 6,
+      "relative_frequency": 0.030457,
       "rank": 5
     }
   ],
@@ -38,6 +43,7 @@
     {
       "year": 2026,
       "count": 6,
+      "relative_frequency": 0.030457,
       "rank": 6
     }
   ],
@@ -45,6 +51,7 @@
     {
       "year": 2026,
       "count": 6,
+      "relative_frequency": 0.030457,
       "rank": 7
     }
   ],
@@ -52,6 +59,7 @@
     {
       "year": 2026,
       "count": 5,
+      "relative_frequency": 0.025381,
       "rank": 8
     }
   ],
@@ -59,6 +67,7 @@
     {
       "year": 2026,
       "count": 5,
+      "relative_frequency": 0.025381,
       "rank": 9
     }
   ],
@@ -66,6 +75,7 @@
     {
       "year": 2026,
       "count": 4,
+      "relative_frequency": 0.020305,
       "rank": 10
     }
   ],
@@ -73,6 +83,7 @@
     {
       "year": 2026,
       "count": 4,
+      "relative_frequency": 0.020305,
       "rank": 11
     }
   ],
@@ -80,6 +91,7 @@
     {
       "year": 2026,
       "count": 4,
+      "relative_frequency": 0.020305,
       "rank": 12
     }
   ],
@@ -87,6 +99,7 @@
     {
       "year": 2026,
       "count": 4,
+      "relative_frequency": 0.020305,
       "rank": 13
     }
   ],
@@ -94,6 +107,7 @@
     {
       "year": 2026,
       "count": 4,
+      "relative_frequency": 0.020305,
       "rank": 14
     }
   ],
@@ -101,6 +115,7 @@
     {
       "year": 2026,
       "count": 4,
+      "relative_frequency": 0.020305,
       "rank": 15
     }
   ],
@@ -108,6 +123,7 @@
     {
       "year": 2026,
       "count": 4,
+      "relative_frequency": 0.020305,
       "rank": 16
     }
   ],
@@ -115,6 +131,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 17
     }
   ],
@@ -122,6 +139,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 18
     }
   ],
@@ -129,6 +147,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 19
     }
   ],
@@ -136,6 +155,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 20
     }
   ],
@@ -143,6 +163,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 21
     }
   ],
@@ -150,6 +171,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 22
     }
   ],
@@ -157,6 +179,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 23
     }
   ],
@@ -164,6 +187,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 24
     }
   ],
@@ -171,6 +195,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 25
     }
   ],
@@ -178,6 +203,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 26
     }
   ],
@@ -185,6 +211,7 @@
     {
       "year": 2026,
       "count": 3,
+      "relative_frequency": 0.015228,
       "rank": 27
     }
   ],
@@ -192,6 +219,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 28
     }
   ],
@@ -199,6 +227,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 29
     }
   ],
@@ -206,6 +235,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 30
     }
   ],
@@ -213,6 +243,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 31
     }
   ],
@@ -220,6 +251,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 32
     }
   ],
@@ -227,6 +259,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 33
     }
   ],
@@ -234,6 +267,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 34
     }
   ],
@@ -241,6 +275,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 35
     }
   ],
@@ -248,6 +283,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 36
     }
   ],
@@ -255,6 +291,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 37
     }
   ],
@@ -262,6 +299,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 38
     }
   ],
@@ -269,6 +307,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 39
     }
   ],
@@ -276,6 +315,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 40
     }
   ],
@@ -283,6 +323,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 41
     }
   ],
@@ -290,6 +331,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 42
     }
   ],
@@ -297,6 +339,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 43
     }
   ],
@@ -304,6 +347,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 44
     }
   ],
@@ -311,6 +355,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 45
     }
   ],
@@ -318,6 +363,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 46
     }
   ],
@@ -325,6 +371,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 47
     }
   ],
@@ -332,6 +379,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 48
     }
   ],
@@ -339,6 +387,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 49
     }
   ],
@@ -346,6 +395,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 50
     }
   ],
@@ -353,6 +403,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 51
     }
   ],
@@ -360,6 +411,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 52
     }
   ],
@@ -367,6 +419,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 53
     }
   ],
@@ -374,6 +427,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 54
     }
   ],
@@ -381,6 +435,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 55
     }
   ],
@@ -388,6 +443,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 56
     }
   ],
@@ -395,6 +451,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 57
     }
   ],
@@ -402,6 +459,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 58
     }
   ],
@@ -409,6 +467,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 59
     }
   ],
@@ -416,6 +475,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 60
     }
   ],
@@ -423,6 +483,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 61
     }
   ],
@@ -430,6 +491,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 62
     }
   ],
@@ -437,6 +499,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 63
     }
   ],
@@ -444,6 +507,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 64
     }
   ],
@@ -451,6 +515,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 65
     }
   ],
@@ -458,6 +523,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 66
     }
   ],
@@ -465,6 +531,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 67
     }
   ],
@@ -472,6 +539,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 68
     }
   ],
@@ -479,6 +547,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 69
     }
   ],
@@ -486,6 +555,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 70
     }
   ],
@@ -493,6 +563,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 71
     }
   ],
@@ -500,6 +571,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 72
     }
   ],
@@ -507,6 +579,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 73
     }
   ],
@@ -514,6 +587,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 74
     }
   ],
@@ -521,6 +595,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 75
     }
   ],
@@ -528,6 +603,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 76
     }
   ],
@@ -535,6 +611,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 77
     }
   ],
@@ -542,6 +619,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 78
     }
   ],
@@ -549,6 +627,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 79
     }
   ],
@@ -556,6 +635,7 @@
     {
       "year": 2026,
       "count": 2,
+      "relative_frequency": 0.010152,
       "rank": 80
     }
   ],
@@ -563,6 +643,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 81
     }
   ],
@@ -570,6 +651,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 82
     }
   ],
@@ -577,6 +659,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 83
     }
   ],
@@ -584,6 +667,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 84
     }
   ],
@@ -591,6 +675,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 85
     }
   ],
@@ -598,6 +683,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 86
     }
   ],
@@ -605,6 +691,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 87
     }
   ],
@@ -612,6 +699,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 88
     }
   ],
@@ -619,6 +707,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 89
     }
   ],
@@ -626,6 +715,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 90
     }
   ],
@@ -633,6 +723,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 91
     }
   ],
@@ -640,6 +731,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 92
     }
   ],
@@ -647,6 +739,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 93
     }
   ],
@@ -654,6 +747,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 94
     }
   ],
@@ -661,6 +755,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 95
     }
   ],
@@ -668,6 +763,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 96
     }
   ],
@@ -675,6 +771,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 97
     }
   ],
@@ -682,6 +779,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 98
     }
   ],
@@ -689,6 +787,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 99
     }
   ],
@@ -696,6 +795,7 @@
     {
       "year": 2026,
       "count": 1,
+      "relative_frequency": 0.005076,
       "rank": 100
     }
   ]

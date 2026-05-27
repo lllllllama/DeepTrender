@@ -1,351 +1,65 @@
 [
   {
-    "name": "IROS",
-    "full_name": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
-    "domain": "RL",
-    "tier": "B",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 4987,
-    "top_keywords": [
-      {
-        "keyword": "robot",
-        "count": 16
-      },
-      {
-        "keyword": "planning",
-        "count": 12
-      },
-      {
-        "keyword": "control",
-        "count": 11
-      },
-      {
-        "keyword": "model predictive control",
-        "count": 8
-      },
-      {
-        "keyword": "motion planning",
-        "count": 8
-      },
-      {
-        "keyword": "estimation",
-        "count": 7
-      },
-      {
-        "keyword": "robots",
-        "count": 7
-      },
-      {
-        "keyword": "detection",
-        "count": 6
-      },
-      {
-        "keyword": "manipulation",
-        "count": 6
-      },
-      {
-        "keyword": "navigation",
-        "count": 6
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "ICRA",
-    "full_name": "IEEE International Conference on Robotics and Automation",
-    "domain": "RL",
-    "tier": "B",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 4867,
-    "top_keywords": [
-      {
-        "keyword": "robot",
-        "count": 16
-      },
-      {
-        "keyword": "manipulation",
-        "count": 15
-      },
-      {
-        "keyword": "control",
-        "count": 10
-      },
-      {
-        "keyword": "object",
-        "count": 10
-      },
-      {
-        "keyword": "motion",
-        "count": 9
-      },
-      {
-        "keyword": "planning",
-        "count": 9
-      },
-      {
-        "keyword": "motion planning",
-        "count": 8
-      },
-      {
-        "keyword": "objects",
-        "count": 8
-      },
-      {
-        "keyword": "reinforcement learning",
-        "count": 8
-      },
-      {
-        "keyword": "robotic",
-        "count": 8
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "ACM MM",
-    "full_name": "ACM International Conference on Multimedia",
-    "domain": "CV",
+    "name": "AAAI",
+    "full_name": "AAAI Conference on Artificial Intelligence",
+    "domain": "AI",
     "tier": "A",
     "source": "s2",
     "years_available": [
+      2026,
+      2025,
       2024,
       2023,
       2022,
       2021,
       2020
     ],
-    "paper_count": 4129,
+    "paper_count": 13693,
     "top_keywords": [
       {
-        "keyword": "video",
-        "count": 14
+        "keyword": "large language model",
+        "count": 7
       },
       {
-        "keyword": "graph",
-        "count": 6
+        "keyword": "time",
+        "count": 4
       },
       {
         "keyword": "multimodal",
-        "count": 6
-      },
-      {
-        "keyword": "detection",
-        "count": 5
-      },
-      {
-        "keyword": "face",
-        "count": 5
-      },
-      {
-        "keyword": "generative adversarial network",
-        "count": 5
-      },
-      {
-        "keyword": "large language model",
-        "count": 5
-      },
-      {
-        "keyword": "captioning",
-        "count": 4
-      },
-      {
-        "keyword": "diffusion model",
-        "count": 4
-      },
-      {
-        "keyword": "images",
-        "count": 4
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "CHI",
-    "full_name": "ACM CHI Conference on Human Factors in Computing Systems",
-    "domain": "HCI",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 4098,
-    "top_keywords": [
-      {
-        "keyword": "design",
-        "count": 11
-      },
-      {
-        "keyword": "reality",
-        "count": 9
-      },
-      {
-        "keyword": "augmented reality",
-        "count": 6
-      },
-      {
-        "keyword": "people",
-        "count": 6
-      },
-      {
-        "keyword": "virtual reality",
-        "count": 6
-      },
-      {
-        "keyword": "hci",
-        "count": 5
-      },
-      {
-        "keyword": "technology",
-        "count": 5
-      },
-      {
-        "keyword": "mental",
-        "count": 4
-      },
-      {
-        "keyword": "mental health",
-        "count": 4
-      },
-      {
-        "keyword": "online",
-        "count": 4
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "CIKM",
-    "full_name": "ACM International Conference on Information and Knowledge Management",
-    "domain": "IR",
-    "tier": "B",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 3207,
-    "top_keywords": [
-      {
-        "keyword": "recommendation",
-        "count": 11
-      },
-      {
-        "keyword": "knowledge",
-        "count": 9
-      },
-      {
-        "keyword": "graph",
-        "count": 7
-      },
-      {
-        "keyword": "information",
-        "count": 7
-      },
-      {
-        "keyword": "contrastive learning",
-        "count": 6
-      },
-      {
-        "keyword": "graph neural network",
-        "count": 5
-      },
-      {
-        "keyword": "prediction",
-        "count": 5
-      },
-      {
-        "keyword": "search",
-        "count": 5
-      },
-      {
-        "keyword": "detection",
-        "count": 4
-      },
-      {
-        "keyword": "entity",
-        "count": 4
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "WWW",
-    "full_name": "The Web Conference",
-    "domain": "Web",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 3181,
-    "top_keywords": [
-      {
-        "keyword": "recommendation",
-        "count": 7
-      },
-      {
-        "keyword": "search",
-        "count": 6
-      },
-      {
-        "keyword": "large language model",
-        "count": 5
-      },
-      {
-        "keyword": "web",
-        "count": 5
-      },
-      {
-        "keyword": "graph neural network",
-        "count": 4
-      },
-      {
-        "keyword": "natural language processing",
-        "count": 4
-      },
-      {
-        "keyword": "online",
-        "count": 4
-      },
-      {
-        "keyword": "recommender systems",
-        "count": 4
-      },
-      {
-        "keyword": "social media",
-        "count": 4
-      },
-      {
-        "keyword": "detection",
         "count": 3
+      },
+      {
+        "keyword": "series",
+        "count": 3
+      },
+      {
+        "keyword": "time series",
+        "count": 3
+      },
+      {
+        "keyword": "additive models",
+        "count": 2
+      },
+      {
+        "keyword": "bias",
+        "count": 2
+      },
+      {
+        "keyword": "causal",
+        "count": 2
+      },
+      {
+        "keyword": "distribution shift",
+        "count": 2
+      },
+      {
+        "keyword": "education",
+        "count": 2
       }
     ],
-    "has_data": true
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
   },
   {
     "name": "CVPR",
@@ -355,9 +69,14 @@
     "source": "s2",
     "years_available": [
       2026,
-      2024
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
     ],
-    "paper_count": 3169,
+    "paper_count": 12495,
     "top_keywords": [
       {
         "keyword": "diffusion model",
@@ -400,489 +119,168 @@
         "count": 76
       }
     ],
-    "has_data": true
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
   },
   {
-    "name": "WACV",
-    "full_name": "IEEE/CVF Winter Conference on Applications of Computer Vision",
-    "domain": "CV",
+    "name": "IROS",
+    "full_name": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "domain": "RL",
     "tier": "B",
     "source": "s2",
     "years_available": [
+      2025,
       2024,
       2023,
       2022,
       2021,
       2020
     ],
-    "paper_count": 3159,
+    "paper_count": 8105,
     "top_keywords": [
       {
-        "keyword": "classification",
-        "count": 6
-      },
-      {
-        "keyword": "diffusion model",
-        "count": 6
-      },
-      {
-        "keyword": "domain",
-        "count": 6
-      },
-      {
-        "keyword": "pose",
-        "count": 6
-      },
-      {
-        "keyword": "pose estimation",
-        "count": 6
-      },
-      {
-        "keyword": "images",
-        "count": 5
-      },
-      {
-        "keyword": "human",
-        "count": 4
-      },
-      {
-        "keyword": "human pose",
-        "count": 4
-      },
-      {
-        "keyword": "neural networks",
-        "count": 4
-      },
-      {
-        "keyword": "robust",
-        "count": 4
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "KDD",
-    "full_name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
-    "domain": "DM",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 2799,
-    "top_keywords": [
-      {
-        "keyword": "graph neural network",
-        "count": 11
-      },
-      {
-        "keyword": "graph",
-        "count": 9
-      },
-      {
-        "keyword": "graph neural",
-        "count": 8
-      },
-      {
-        "keyword": "machine learning",
-        "count": 6
-      },
-      {
-        "keyword": "neural networks",
-        "count": 6
+        "keyword": "robot",
+        "count": 125
       },
       {
         "keyword": "reinforcement learning",
-        "count": 6
+        "count": 68
       },
       {
-        "keyword": "search",
-        "count": 6
+        "keyword": "control",
+        "count": 56
       },
       {
-        "keyword": "knowledge",
-        "count": 4
+        "keyword": "planning",
+        "count": 55
       },
       {
-        "keyword": "deep",
-        "count": 3
+        "keyword": "object",
+        "count": 47
       },
       {
-        "keyword": "deep learning",
-        "count": 3
+        "keyword": "motion planning",
+        "count": 42
+      },
+      {
+        "keyword": "navigation",
+        "count": 41
+      },
+      {
+        "keyword": "robots",
+        "count": 36
+      },
+      {
+        "keyword": "motion",
+        "count": 34
+      },
+      {
+        "keyword": "slam",
+        "count": 34
       }
     ],
-    "has_data": true
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
   },
   {
-    "name": "SIGIR",
-    "full_name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
-    "domain": "IR",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 2085,
-    "top_keywords": [
-      {
-        "keyword": "recommendation",
-        "count": 11
-      },
-      {
-        "keyword": "large language model",
-        "count": 7
-      },
-      {
-        "keyword": "search",
-        "count": 7
-      },
-      {
-        "keyword": "retrieval",
-        "count": 6
-      },
-      {
-        "keyword": "recommender systems",
-        "count": 5
-      },
-      {
-        "keyword": "user",
-        "count": 5
-      },
-      {
-        "keyword": "information",
-        "count": 4
-      },
-      {
-        "keyword": "information retrieval",
-        "count": 4
-      },
-      {
-        "keyword": "query",
-        "count": 4
-      },
-      {
-        "keyword": "detection",
-        "count": 3
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "ICDE",
-    "full_name": "IEEE International Conference on Data Engineering",
-    "domain": "DB",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 1791,
-    "top_keywords": [
-      {
-        "keyword": "extended abstract",
-        "count": 4
-      },
-      {
-        "keyword": "recommendation",
-        "count": 4
-      },
-      {
-        "keyword": "dynamic",
-        "count": 3
-      },
-      {
-        "keyword": "graphs",
-        "count": 3
-      },
-      {
-        "keyword": "platform",
-        "count": 3
-      },
-      {
-        "keyword": "query",
-        "count": 3
-      },
-      {
-        "keyword": "series",
-        "count": 3
-      },
-      {
-        "keyword": "task assignment",
-        "count": 3
-      },
-      {
-        "keyword": "time",
-        "count": 3
-      },
-      {
-        "keyword": "time series",
-        "count": 3
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "VLDB",
-    "full_name": "International Conference on Very Large Data Bases",
-    "domain": "DB",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 1766,
-    "top_keywords": [
-      {
-        "keyword": "graph",
-        "count": 5
-      },
-      {
-        "keyword": "processing",
-        "count": 3
-      },
-      {
-        "keyword": "query",
-        "count": 3
-      },
-      {
-        "keyword": "accuracy guarantee",
-        "count": 2
-      },
-      {
-        "keyword": "bipartite graphs",
-        "count": 2
-      },
-      {
-        "keyword": "community",
-        "count": 2
-      },
-      {
-        "keyword": "community search",
-        "count": 2
-      },
-      {
-        "keyword": "data processing",
-        "count": 2
-      },
-      {
-        "keyword": "discovery",
-        "count": 2
-      },
-      {
-        "keyword": "engines",
-        "count": 2
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "ICSE",
-    "full_name": "International Conference on Software Engineering",
-    "domain": "SE",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 1343,
-    "top_keywords": [
-      {
-        "keyword": "software",
-        "count": 7
-      },
-      {
-        "keyword": "code",
-        "count": 6
-      },
-      {
-        "keyword": "apps",
-        "count": 2
-      },
-      {
-        "keyword": "deep learning",
-        "count": 2
-      },
-      {
-        "keyword": "design",
-        "count": 2
-      },
-      {
-        "keyword": "large language model",
-        "count": 2
-      },
-      {
-        "keyword": "library",
-        "count": 2
-      },
-      {
-        "keyword": "program",
-        "count": 2
-      },
-      {
-        "keyword": "translation",
-        "count": 2
-      },
-      {
-        "keyword": "aalta",
-        "count": 1
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "UAI",
-    "full_name": "Conference on Uncertainty in Artificial Intelligence",
-    "domain": "ML",
+    "name": "ICRA",
+    "full_name": "IEEE International Conference on Robotics and Automation",
+    "domain": "RL",
     "tier": "B",
     "source": "s2",
     "years_available": [
+      2025,
       2024,
       2023,
       2022,
       2021,
       2020
     ],
-    "paper_count": 1039,
+    "paper_count": 8000,
     "top_keywords": [
+      {
+        "keyword": "robot",
+        "count": 99
+      },
+      {
+        "keyword": "control",
+        "count": 81
+      },
+      {
+        "keyword": "reinforcement learning",
+        "count": 79
+      },
+      {
+        "keyword": "planning",
+        "count": 55
+      },
+      {
+        "keyword": "object",
+        "count": 49
+      },
+      {
+        "keyword": "manipulation",
+        "count": 48
+      },
+      {
+        "keyword": "motion",
+        "count": 47
+      },
+      {
+        "keyword": "robots",
+        "count": 44
+      },
+      {
+        "keyword": "motion planning",
+        "count": 40
+      },
+      {
+        "keyword": "navigation",
+        "count": 39
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "NeurIPS",
+    "full_name": "Conference on Neural Information Processing Systems",
+    "domain": "ML",
+    "tier": "A",
+    "source": "openreview",
+    "years_available": [
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "paper_count": 7283,
+    "top_keywords": [
+      {
+        "keyword": "large language model",
+        "count": 9
+      },
+      {
+        "keyword": "neural networks",
+        "count": 4
+      },
+      {
+        "keyword": "monte carlo",
+        "count": 3
+      },
+      {
+        "keyword": "camera",
+        "count": 2
+      },
       {
         "keyword": "causal",
-        "count": 3
-      },
-      {
-        "keyword": "bayesian",
         "count": 2
       },
       {
-        "keyword": "linear",
-        "count": 2
-      },
-      {
-        "keyword": "machine learning",
-        "count": 2
-      },
-      {
-        "keyword": "optimization",
-        "count": 2
-      },
-      {
-        "keyword": "predictive",
-        "count": 2
-      },
-      {
-        "keyword": "quantization",
-        "count": 2
-      },
-      {
-        "keyword": "robust",
-        "count": 2
-      },
-      {
-        "keyword": "accurate learning algorithms",
-        "count": 1
-      },
-      {
-        "keyword": "adacat",
-        "count": 1
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "ICDM",
-    "full_name": "IEEE International Conference on Data Mining",
-    "domain": "DM",
-    "tier": "B",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 942,
-    "top_keywords": [
-      {
-        "keyword": "graph neural network",
-        "count": 6
-      },
-      {
-        "keyword": "graph",
-        "count": 5
-      },
-      {
-        "keyword": "neural networks",
-        "count": 5
-      },
-      {
-        "keyword": "graph neural",
-        "count": 4
-      },
-      {
-        "keyword": "generative adversarial network",
-        "count": 2
-      },
-      {
-        "keyword": "graph classification",
-        "count": 2
-      },
-      {
-        "keyword": "modeling",
-        "count": 2
-      },
-      {
-        "keyword": "temporal",
-        "count": 2
-      },
-      {
-        "keyword": "user",
-        "count": 2
-      },
-      {
-        "keyword": "accurate time",
-        "count": 1
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "WSDM",
-    "full_name": "ACM International Conference on Web Search and Data Mining",
-    "domain": "Web",
-    "tier": "B",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 886,
-    "top_keywords": [
-      {
-        "keyword": "contrastive learning",
+        "keyword": "fields",
         "count": 2
       },
       {
@@ -890,97 +288,21 @@
         "count": 2
       },
       {
-        "keyword": "neural networks",
+        "keyword": "markov decision",
         "count": 2
       },
       {
-        "keyword": "recommendation",
+        "keyword": "prediction",
         "count": 2
       },
       {
-        "keyword": "sequential",
+        "keyword": "reasoning",
         "count": 2
-      },
-      {
-        "keyword": "accelerating deep",
-        "count": 1
-      },
-      {
-        "keyword": "accelerating deep convolutional",
-        "count": 1
-      },
-      {
-        "keyword": "ad hoc retrieval",
-        "count": 1
-      },
-      {
-        "keyword": "ad hoc retrieval tasks",
-        "count": 1
-      },
-      {
-        "keyword": "adaptation",
-        "count": 1
       }
     ],
-    "has_data": true
-  },
-  {
-    "name": "COLT",
-    "full_name": "Conference on Learning Theory",
-    "domain": "ML",
-    "tier": "B",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022,
-      2021,
-      2020
-    ],
-    "paper_count": 747,
-    "top_keywords": [
-      {
-        "keyword": "estimation",
-        "count": 3
-      },
-      {
-        "keyword": "convergence",
-        "count": 2
-      },
-      {
-        "keyword": "differentially private",
-        "count": 2
-      },
-      {
-        "keyword": "linear",
-        "count": 2
-      },
-      {
-        "keyword": "lower bound",
-        "count": 2
-      },
-      {
-        "keyword": "mathcal",
-        "count": 2
-      },
-      {
-        "keyword": "optimization",
-        "count": 2
-      },
-      {
-        "keyword": "stochastic block",
-        "count": 2
-      },
-      {
-        "keyword": "absolute",
-        "count": 1
-      },
-      {
-        "keyword": "absolute loss",
-        "count": 1
-      }
-    ],
-    "has_data": true
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
   },
   {
     "name": "ICLR",
@@ -993,7 +315,7 @@
       2025,
       2024
     ],
-    "paper_count": 260,
+    "paper_count": 6214,
     "top_keywords": [
       {
         "keyword": "large language model",
@@ -1036,7 +358,1195 @@
         "count": 5
       }
     ],
-    "has_data": true
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "ACM MM",
+    "full_name": "ACM International Conference on Multimedia",
+    "domain": "CV",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 5981,
+    "top_keywords": [
+      {
+        "keyword": "video",
+        "count": 75
+      },
+      {
+        "keyword": "detection",
+        "count": 38
+      },
+      {
+        "keyword": "object detection",
+        "count": 29
+      },
+      {
+        "keyword": "recognition",
+        "count": 26
+      },
+      {
+        "keyword": "segmentation",
+        "count": 25
+      },
+      {
+        "keyword": "knowledge",
+        "count": 24
+      },
+      {
+        "keyword": "diffusion model",
+        "count": 23
+      },
+      {
+        "keyword": "images",
+        "count": 23
+      },
+      {
+        "keyword": "large language model",
+        "count": 23
+      },
+      {
+        "keyword": "retrieval",
+        "count": 22
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "ICCV",
+    "full_name": "International Conference on Computer Vision",
+    "domain": "CV",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2026,
+      2025,
+      2023,
+      2021
+    ],
+    "paper_count": 5628,
+    "top_keywords": [
+      {
+        "keyword": "accurate cone",
+        "count": 1
+      },
+      {
+        "keyword": "accurate cone localization",
+        "count": 1
+      },
+      {
+        "keyword": "autonomous racing",
+        "count": 1
+      },
+      {
+        "keyword": "autonomous racing systems",
+        "count": 1
+      },
+      {
+        "keyword": "characteristic",
+        "count": 1
+      },
+      {
+        "keyword": "characteristic orientation",
+        "count": 1
+      },
+      {
+        "keyword": "computing a characteristic",
+        "count": 1
+      },
+      {
+        "keyword": "cone localization",
+        "count": 1
+      },
+      {
+        "keyword": "driving",
+        "count": 1
+      },
+      {
+        "keyword": "driving world",
+        "count": 1
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "CHI",
+    "full_name": "ACM CHI Conference on Human Factors in Computing Systems",
+    "domain": "HCI",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 5309,
+    "top_keywords": [
+      {
+        "keyword": "design",
+        "count": 74
+      },
+      {
+        "keyword": "virtual reality",
+        "count": 55
+      },
+      {
+        "keyword": "reality",
+        "count": 42
+      },
+      {
+        "keyword": "social",
+        "count": 34
+      },
+      {
+        "keyword": "hci",
+        "count": 29
+      },
+      {
+        "keyword": "virtual",
+        "count": 28
+      },
+      {
+        "keyword": "augmented reality",
+        "count": 26
+      },
+      {
+        "keyword": "older adults",
+        "count": 22
+      },
+      {
+        "keyword": "large language model",
+        "count": 21
+      },
+      {
+        "keyword": "understanding",
+        "count": 21
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "IJCAI",
+    "full_name": "International Joint Conference on Artificial Intelligence",
+    "domain": "AI",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 5292,
+    "top_keywords": [
+      {
+        "keyword": "action segmentation",
+        "count": 1
+      },
+      {
+        "keyword": "adaptive network",
+        "count": 1
+      },
+      {
+        "keyword": "adaptive network named",
+        "count": 1
+      },
+      {
+        "keyword": "approximately",
+        "count": 1
+      },
+      {
+        "keyword": "approximately consensus",
+        "count": 1
+      },
+      {
+        "keyword": "artificial",
+        "count": 1
+      },
+      {
+        "keyword": "artificial intelligence",
+        "count": 1
+      },
+      {
+        "keyword": "black box models era",
+        "count": 1
+      },
+      {
+        "keyword": "clinical graph",
+        "count": 1
+      },
+      {
+        "keyword": "clinical graph structure",
+        "count": 1
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "ICML",
+    "full_name": "International Conference on Machine Learning",
+    "domain": "ML",
+    "tier": "A",
+    "source": "openreview",
+    "years_available": [
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "paper_count": 4456,
+    "top_keywords": [
+      {
+        "keyword": "large language model",
+        "count": 4
+      },
+      {
+        "keyword": "vision language model",
+        "count": 2
+      },
+      {
+        "keyword": "adversarial",
+        "count": 1
+      },
+      {
+        "keyword": "adversarial label",
+        "count": 1
+      },
+      {
+        "keyword": "adversarial label invariant",
+        "count": 1
+      },
+      {
+        "keyword": "adversarial multi armed bandit",
+        "count": 1
+      },
+      {
+        "keyword": "agency",
+        "count": 1
+      },
+      {
+        "keyword": "agency from reflective",
+        "count": 1
+      },
+      {
+        "keyword": "arms",
+        "count": 1
+      },
+      {
+        "keyword": "attention based sinr",
+        "count": 1
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "ECCV",
+    "full_name": "European Conference on Computer Vision",
+    "domain": "CV",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2026,
+      2024,
+      2022,
+      2020
+    ],
+    "paper_count": 4378,
+    "top_keywords": [
+      {
+        "keyword": "ai generated",
+        "count": 1
+      },
+      {
+        "keyword": "ai generated video",
+        "count": 1
+      },
+      {
+        "keyword": "ai generated video detection",
+        "count": 1
+      },
+      {
+        "keyword": "autoregressive flow",
+        "count": 1
+      },
+      {
+        "keyword": "class subspace",
+        "count": 1
+      },
+      {
+        "keyword": "deblurring",
+        "count": 1
+      },
+      {
+        "keyword": "detection",
+        "count": 1
+      },
+      {
+        "keyword": "detection methods",
+        "count": 1
+      },
+      {
+        "keyword": "detection methods perform",
+        "count": 1
+      },
+      {
+        "keyword": "fall",
+        "count": 1
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "CIKM",
+    "full_name": "ACM International Conference on Information and Knowledge Management",
+    "domain": "IR",
+    "tier": "B",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 4010,
+    "top_keywords": [
+      {
+        "keyword": "graph",
+        "count": 51
+      },
+      {
+        "keyword": "recommendation",
+        "count": 47
+      },
+      {
+        "keyword": "graph neural network",
+        "count": 36
+      },
+      {
+        "keyword": "large language model",
+        "count": 34
+      },
+      {
+        "keyword": "knowledge",
+        "count": 32
+      },
+      {
+        "keyword": "neural networks",
+        "count": 32
+      },
+      {
+        "keyword": "prediction",
+        "count": 24
+      },
+      {
+        "keyword": "time series",
+        "count": 23
+      },
+      {
+        "keyword": "search",
+        "count": 22
+      },
+      {
+        "keyword": "graph neural",
+        "count": 21
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "WWW",
+    "full_name": "The Web Conference",
+    "domain": "Web",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 3992,
+    "top_keywords": [
+      {
+        "keyword": "graph",
+        "count": 51
+      },
+      {
+        "keyword": "graph neural network",
+        "count": 39
+      },
+      {
+        "keyword": "recommendation",
+        "count": 39
+      },
+      {
+        "keyword": "knowledge",
+        "count": 32
+      },
+      {
+        "keyword": "web",
+        "count": 32
+      },
+      {
+        "keyword": "large language model",
+        "count": 30
+      },
+      {
+        "keyword": "graph neural",
+        "count": 29
+      },
+      {
+        "keyword": "social",
+        "count": 25
+      },
+      {
+        "keyword": "neural networks",
+        "count": 24
+      },
+      {
+        "keyword": "social media",
+        "count": 24
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "WACV",
+    "full_name": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+    "domain": "CV",
+    "tier": "B",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 3898,
+    "top_keywords": [
+      {
+        "keyword": "segmentation",
+        "count": 39
+      },
+      {
+        "keyword": "detection",
+        "count": 37
+      },
+      {
+        "keyword": "domain",
+        "count": 28
+      },
+      {
+        "keyword": "video",
+        "count": 28
+      },
+      {
+        "keyword": "diffusion model",
+        "count": 26
+      },
+      {
+        "keyword": "object",
+        "count": 26
+      },
+      {
+        "keyword": "pose",
+        "count": 23
+      },
+      {
+        "keyword": "semantic segmentation",
+        "count": 23
+      },
+      {
+        "keyword": "classification",
+        "count": 22
+      },
+      {
+        "keyword": "images",
+        "count": 22
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "KDD",
+    "full_name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "domain": "DM",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 3445,
+    "top_keywords": [
+      {
+        "keyword": "graph neural network",
+        "count": 47
+      },
+      {
+        "keyword": "graph",
+        "count": 46
+      },
+      {
+        "keyword": "neural networks",
+        "count": 33
+      },
+      {
+        "keyword": "graph neural",
+        "count": 30
+      },
+      {
+        "keyword": "machine learning",
+        "count": 29
+      },
+      {
+        "keyword": "knowledge",
+        "count": 23
+      },
+      {
+        "keyword": "large language model",
+        "count": 23
+      },
+      {
+        "keyword": "recommendation",
+        "count": 23
+      },
+      {
+        "keyword": "reinforcement learning",
+        "count": 23
+      },
+      {
+        "keyword": "time series",
+        "count": 21
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "NAACL",
+    "full_name": "North American Chapter of the Association for Computational Linguistics",
+    "domain": "NLP",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2022,
+      2021
+    ],
+    "paper_count": 2763,
+    "top_keywords": [],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": [
+      {
+        "code": "low_sample_size",
+        "message": "Venue has papers but no exported keyword facts."
+      }
+    ]
+  },
+  {
+    "name": "SIGIR",
+    "full_name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "domain": "IR",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 2588,
+    "top_keywords": [
+      {
+        "keyword": "recommendation",
+        "count": 60
+      },
+      {
+        "keyword": "retrieval",
+        "count": 59
+      },
+      {
+        "keyword": "information retrieval",
+        "count": 40
+      },
+      {
+        "keyword": "information",
+        "count": 36
+      },
+      {
+        "keyword": "search",
+        "count": 34
+      },
+      {
+        "keyword": "large language model",
+        "count": 33
+      },
+      {
+        "keyword": "user",
+        "count": 31
+      },
+      {
+        "keyword": "recommender systems",
+        "count": 24
+      },
+      {
+        "keyword": "graph",
+        "count": 21
+      },
+      {
+        "keyword": "recommender",
+        "count": 16
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "VLDB",
+    "full_name": "International Conference on Very Large Data Bases",
+    "domain": "DB",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 2285,
+    "top_keywords": [
+      {
+        "keyword": "graph",
+        "count": 29
+      },
+      {
+        "keyword": "query",
+        "count": 28
+      },
+      {
+        "keyword": "time series",
+        "count": 19
+      },
+      {
+        "keyword": "processing",
+        "count": 16
+      },
+      {
+        "keyword": "database",
+        "count": 15
+      },
+      {
+        "keyword": "graphs",
+        "count": 15
+      },
+      {
+        "keyword": "graph neural network",
+        "count": 13
+      },
+      {
+        "keyword": "queries",
+        "count": 12
+      },
+      {
+        "keyword": "time",
+        "count": 12
+      },
+      {
+        "keyword": "graph neural",
+        "count": 10
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "ICDE",
+    "full_name": "IEEE International Conference on Data Engineering",
+    "domain": "DB",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 2132,
+    "top_keywords": [
+      {
+        "keyword": "extended abstract",
+        "count": 51
+      },
+      {
+        "keyword": "extended",
+        "count": 30
+      },
+      {
+        "keyword": "graph",
+        "count": 30
+      },
+      {
+        "keyword": "time series",
+        "count": 17
+      },
+      {
+        "keyword": "query",
+        "count": 15
+      },
+      {
+        "keyword": "time",
+        "count": 15
+      },
+      {
+        "keyword": "graph neural network",
+        "count": 13
+      },
+      {
+        "keyword": "search",
+        "count": 13
+      },
+      {
+        "keyword": "queries",
+        "count": 12
+      },
+      {
+        "keyword": "series",
+        "count": 12
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "COLING",
+    "full_name": "International Conference on Computational Linguistics",
+    "domain": "NLP",
+    "tier": "B",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2022,
+      2020
+    ],
+    "paper_count": 2080,
+    "top_keywords": [],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": [
+      {
+        "code": "low_sample_size",
+        "message": "Venue has papers but no exported keyword facts."
+      }
+    ]
+  },
+  {
+    "name": "ICSE",
+    "full_name": "International Conference on Software Engineering",
+    "domain": "SE",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 1548,
+    "top_keywords": [
+      {
+        "keyword": "code",
+        "count": 35
+      },
+      {
+        "keyword": "software",
+        "count": 35
+      },
+      {
+        "keyword": "large language model",
+        "count": 15
+      },
+      {
+        "keyword": "test",
+        "count": 15
+      },
+      {
+        "keyword": "deep learning",
+        "count": 12
+      },
+      {
+        "keyword": "developers",
+        "count": 12
+      },
+      {
+        "keyword": "software engineering",
+        "count": 12
+      },
+      {
+        "keyword": "open source",
+        "count": 9
+      },
+      {
+        "keyword": "bugs",
+        "count": 8
+      },
+      {
+        "keyword": "deep neural networks",
+        "count": 8
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "UIST",
+    "full_name": "ACM Symposium on User Interface Software and Technology",
+    "domain": "HCI",
+    "tier": "A",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 1226,
+    "top_keywords": [],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": [
+      {
+        "code": "low_sample_size",
+        "message": "Venue has papers but no exported keyword facts."
+      }
+    ]
+  },
+  {
+    "name": "UAI",
+    "full_name": "Conference on Uncertainty in Artificial Intelligence",
+    "domain": "ML",
+    "tier": "B",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 1204,
+    "top_keywords": [
+      {
+        "keyword": "bayesian",
+        "count": 14
+      },
+      {
+        "keyword": "causal",
+        "count": 14
+      },
+      {
+        "keyword": "robust",
+        "count": 10
+      },
+      {
+        "keyword": "neural networks",
+        "count": 9
+      },
+      {
+        "keyword": "probabilistic",
+        "count": 8
+      },
+      {
+        "keyword": "reinforcement learning",
+        "count": 8
+      },
+      {
+        "keyword": "causal discovery",
+        "count": 6
+      },
+      {
+        "keyword": "estimation",
+        "count": 6
+      },
+      {
+        "keyword": "graph",
+        "count": 6
+      },
+      {
+        "keyword": "inference",
+        "count": 6
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "ICDM",
+    "full_name": "IEEE International Conference on Data Mining",
+    "domain": "DM",
+    "tier": "B",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 1145,
+    "top_keywords": [
+      {
+        "keyword": "graph",
+        "count": 24
+      },
+      {
+        "keyword": "graph neural network",
+        "count": 19
+      },
+      {
+        "keyword": "neural networks",
+        "count": 14
+      },
+      {
+        "keyword": "graph neural",
+        "count": 13
+      },
+      {
+        "keyword": "classification",
+        "count": 7
+      },
+      {
+        "keyword": "detection",
+        "count": 7
+      },
+      {
+        "keyword": "federated",
+        "count": 7
+      },
+      {
+        "keyword": "federated learning",
+        "count": 7
+      },
+      {
+        "keyword": "time series",
+        "count": 6
+      },
+      {
+        "keyword": "user",
+        "count": 6
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "WSDM",
+    "full_name": "ACM International Conference on Web Search and Data Mining",
+    "domain": "Web",
+    "tier": "B",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 1032,
+    "top_keywords": [
+      {
+        "keyword": "graph neural network",
+        "count": 16
+      },
+      {
+        "keyword": "recommendation",
+        "count": 16
+      },
+      {
+        "keyword": "graph",
+        "count": 12
+      },
+      {
+        "keyword": "search",
+        "count": 12
+      },
+      {
+        "keyword": "neural networks",
+        "count": 11
+      },
+      {
+        "keyword": "graph neural",
+        "count": 10
+      },
+      {
+        "keyword": "recommender systems",
+        "count": 10
+      },
+      {
+        "keyword": "knowledge",
+        "count": 9
+      },
+      {
+        "keyword": "large language model",
+        "count": 8
+      },
+      {
+        "keyword": "recommender",
+        "count": 8
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
+  },
+  {
+    "name": "EACL",
+    "full_name": "European Chapter of the Association for Computational Linguistics",
+    "domain": "NLP",
+    "tier": "B",
+    "source": "s2",
+    "years_available": [
+      2024,
+      2023,
+      2021
+    ],
+    "paper_count": 904,
+    "top_keywords": [],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": [
+      {
+        "code": "low_sample_size",
+        "message": "Venue has papers but no exported keyword facts."
+      }
+    ]
+  },
+  {
+    "name": "COLT",
+    "full_name": "Conference on Learning Theory",
+    "domain": "ML",
+    "tier": "B",
+    "source": "s2",
+    "years_available": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "paper_count": 898,
+    "top_keywords": [
+      {
+        "keyword": "optimization",
+        "count": 12
+      },
+      {
+        "keyword": "optimal",
+        "count": 10
+      },
+      {
+        "keyword": "reinforcement learning",
+        "count": 10
+      },
+      {
+        "keyword": "online",
+        "count": 9
+      },
+      {
+        "keyword": "open problem",
+        "count": 9
+      },
+      {
+        "keyword": "convex optimization",
+        "count": 7
+      },
+      {
+        "keyword": "complexity",
+        "count": 6
+      },
+      {
+        "keyword": "linear",
+        "count": 6
+      },
+      {
+        "keyword": "online learning",
+        "count": 6
+      },
+      {
+        "keyword": "queries",
+        "count": 6
+      }
+    ],
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
   },
   {
     "name": "ACL",
@@ -1090,118 +1600,68 @@
         "count": 4
       }
     ],
-    "has_data": true
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
   },
   {
-    "name": "AAAI",
-    "full_name": "AAAI Conference on Artificial Intelligence",
-    "domain": "AI",
+    "name": "SIGMOD",
+    "full_name": "ACM SIGMOD International Conference on Management of Data",
+    "domain": "DB",
     "tier": "A",
     "source": "s2",
     "years_available": [
-      2026,
-      2025
-    ],
-    "paper_count": 54,
-    "top_keywords": [
-      {
-        "keyword": "large language model",
-        "count": 7
-      },
-      {
-        "keyword": "time",
-        "count": 4
-      },
-      {
-        "keyword": "multimodal",
-        "count": 3
-      },
-      {
-        "keyword": "series",
-        "count": 3
-      },
-      {
-        "keyword": "time series",
-        "count": 3
-      },
-      {
-        "keyword": "additive models",
-        "count": 2
-      },
-      {
-        "keyword": "bias",
-        "count": 2
-      },
-      {
-        "keyword": "causal",
-        "count": 2
-      },
-      {
-        "keyword": "distribution shift",
-        "count": 2
-      },
-      {
-        "keyword": "education",
-        "count": 2
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "NeurIPS",
-    "full_name": "Conference on Neural Information Processing Systems",
-    "domain": "ML",
-    "tier": "A",
-    "source": "openreview",
-    "years_available": [
-      2026,
       2025,
-      2023
+      2024,
+      2023,
+      2022
     ],
-    "paper_count": 53,
+    "paper_count": 39,
     "top_keywords": [
       {
+        "keyword": "genrewrite",
+        "count": 1
+      },
+      {
+        "keyword": "italic",
+        "count": 1
+      },
+      {
+        "keyword": "italic toggle",
+        "count": 1
+      },
+      {
+        "keyword": "jats",
+        "count": 1
+      },
+      {
+        "keyword": "language rewrite rules",
+        "count": 1
+      },
+      {
         "keyword": "large language model",
-        "count": 9
+        "count": 1
       },
       {
-        "keyword": "neural networks",
-        "count": 4
+        "keyword": "lower bound",
+        "count": 1
       },
       {
-        "keyword": "monte carlo",
-        "count": 3
+        "keyword": "natural language rewrite",
+        "count": 1
       },
       {
-        "keyword": "camera",
-        "count": 2
+        "keyword": "oblivious subspace",
+        "count": 1
       },
       {
-        "keyword": "causal",
-        "count": 2
-      },
-      {
-        "keyword": "fields",
-        "count": 2
-      },
-      {
-        "keyword": "graph neural network",
-        "count": 2
-      },
-      {
-        "keyword": "markov decision",
-        "count": 2
-      },
-      {
-        "keyword": "prediction",
-        "count": 2
-      },
-      {
-        "keyword": "reasoning",
-        "count": 2
+        "keyword": "oblivious subspace embeddings",
+        "count": 1
       }
     ],
-    "has_data": true
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
   },
   {
     "name": "AISTATS",
@@ -1255,280 +1715,9 @@
         "count": 1
       }
     ],
-    "has_data": true
-  },
-  {
-    "name": "ICML",
-    "full_name": "International Conference on Machine Learning",
-    "domain": "ML",
-    "tier": "A",
-    "source": "openreview",
-    "years_available": [
-      2026,
-      2025
-    ],
-    "paper_count": 20,
-    "top_keywords": [
-      {
-        "keyword": "large language model",
-        "count": 4
-      },
-      {
-        "keyword": "vision language model",
-        "count": 2
-      },
-      {
-        "keyword": "adversarial",
-        "count": 1
-      },
-      {
-        "keyword": "adversarial label",
-        "count": 1
-      },
-      {
-        "keyword": "adversarial label invariant",
-        "count": 1
-      },
-      {
-        "keyword": "adversarial multi armed bandit",
-        "count": 1
-      },
-      {
-        "keyword": "agency",
-        "count": 1
-      },
-      {
-        "keyword": "agency from reflective",
-        "count": 1
-      },
-      {
-        "keyword": "arms",
-        "count": 1
-      },
-      {
-        "keyword": "attention based sinr",
-        "count": 1
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "IJCAI",
-    "full_name": "International Joint Conference on Artificial Intelligence",
-    "domain": "AI",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2026
-    ],
-    "paper_count": 7,
-    "top_keywords": [
-      {
-        "keyword": "action segmentation",
-        "count": 1
-      },
-      {
-        "keyword": "adaptive network",
-        "count": 1
-      },
-      {
-        "keyword": "adaptive network named",
-        "count": 1
-      },
-      {
-        "keyword": "approximately",
-        "count": 1
-      },
-      {
-        "keyword": "approximately consensus",
-        "count": 1
-      },
-      {
-        "keyword": "artificial",
-        "count": 1
-      },
-      {
-        "keyword": "artificial intelligence",
-        "count": 1
-      },
-      {
-        "keyword": "black box models era",
-        "count": 1
-      },
-      {
-        "keyword": "clinical graph",
-        "count": 1
-      },
-      {
-        "keyword": "clinical graph structure",
-        "count": 1
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "SIGMOD",
-    "full_name": "ACM SIGMOD International Conference on Management of Data",
-    "domain": "DB",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2024,
-      2023,
-      2022
-    ],
-    "paper_count": 5,
-    "top_keywords": [
-      {
-        "keyword": "italic",
-        "count": 1
-      },
-      {
-        "keyword": "italic toggle",
-        "count": 1
-      },
-      {
-        "keyword": "jats",
-        "count": 1
-      },
-      {
-        "keyword": "lower bound",
-        "count": 1
-      },
-      {
-        "keyword": "oblivious subspace",
-        "count": 1
-      },
-      {
-        "keyword": "oblivious subspace embeddings",
-        "count": 1
-      },
-      {
-        "keyword": "ose",
-        "count": 1
-      },
-      {
-        "keyword": "subspace",
-        "count": 1
-      },
-      {
-        "keyword": "subspace embeddings",
-        "count": 1
-      },
-      {
-        "keyword": "toggle",
-        "count": 1
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "ICCV",
-    "full_name": "International Conference on Computer Vision",
-    "domain": "CV",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2026
-    ],
-    "paper_count": 4,
-    "top_keywords": [
-      {
-        "keyword": "accurate cone",
-        "count": 1
-      },
-      {
-        "keyword": "accurate cone localization",
-        "count": 1
-      },
-      {
-        "keyword": "autonomous racing",
-        "count": 1
-      },
-      {
-        "keyword": "autonomous racing systems",
-        "count": 1
-      },
-      {
-        "keyword": "characteristic",
-        "count": 1
-      },
-      {
-        "keyword": "characteristic orientation",
-        "count": 1
-      },
-      {
-        "keyword": "computing a characteristic",
-        "count": 1
-      },
-      {
-        "keyword": "cone localization",
-        "count": 1
-      },
-      {
-        "keyword": "driving",
-        "count": 1
-      },
-      {
-        "keyword": "driving world",
-        "count": 1
-      }
-    ],
-    "has_data": true
-  },
-  {
-    "name": "ECCV",
-    "full_name": "European Conference on Computer Vision",
-    "domain": "CV",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [
-      2026
-    ],
-    "paper_count": 3,
-    "top_keywords": [
-      {
-        "keyword": "ai generated",
-        "count": 1
-      },
-      {
-        "keyword": "ai generated video",
-        "count": 1
-      },
-      {
-        "keyword": "ai generated video detection",
-        "count": 1
-      },
-      {
-        "keyword": "autoregressive flow",
-        "count": 1
-      },
-      {
-        "keyword": "class subspace",
-        "count": 1
-      },
-      {
-        "keyword": "deblurring",
-        "count": 1
-      },
-      {
-        "keyword": "detection",
-        "count": 1
-      },
-      {
-        "keyword": "detection methods",
-        "count": 1
-      },
-      {
-        "keyword": "detection methods perform",
-        "count": 1
-      },
-      {
-        "keyword": "fall",
-        "count": 1
-      }
-    ],
-    "has_data": true
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
   },
   {
     "name": "EMNLP",
@@ -1582,7 +1771,9 @@
         "count": 1
       }
     ],
-    "has_data": true
+    "has_data": true,
+    "data_status": "ok",
+    "warnings": []
   },
   {
     "name": "FSE",
@@ -1593,7 +1784,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "LOG",
@@ -1604,40 +1802,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
-  },
-  {
-    "name": "NAACL",
-    "full_name": "North American Chapter of the Association for Computational Linguistics",
-    "domain": "NLP",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [],
-    "paper_count": 0,
-    "top_keywords": [],
-    "has_data": false
-  },
-  {
-    "name": "UIST",
-    "full_name": "ACM Symposium on User Interface Software and Technology",
-    "domain": "HCI",
-    "tier": "A",
-    "source": "s2",
-    "years_available": [],
-    "paper_count": 0,
-    "top_keywords": [],
-    "has_data": false
-  },
-  {
-    "name": "COLING",
-    "full_name": "International Conference on Computational Linguistics",
-    "domain": "NLP",
-    "tier": "B",
-    "source": "s2",
-    "years_available": [],
-    "paper_count": 0,
-    "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "COLM",
@@ -1648,7 +1820,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "CoRL",
@@ -1659,18 +1838,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
-  },
-  {
-    "name": "EACL",
-    "full_name": "European Chapter of the Association for Computational Linguistics",
-    "domain": "NLP",
-    "tier": "B",
-    "source": "s2",
-    "years_available": [],
-    "paper_count": 0,
-    "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "AIMOTION",
@@ -1681,7 +1856,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "ARR",
@@ -1692,7 +1874,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "AUAI",
@@ -1703,7 +1892,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "DEEPLEARNINGINDABA",
@@ -1714,7 +1910,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "HIGHLIGHTS-CONFERENCE",
@@ -1725,7 +1928,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "IACS",
@@ -1736,7 +1946,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "JDSE",
@@ -1747,7 +1964,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "NEURONOVEMBER",
@@ -1758,7 +1982,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "PHILANDNEURO",
@@ -1769,7 +2000,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "RESYLAB",
@@ -1780,7 +2018,14 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   },
   {
     "name": "UIT",
@@ -1791,6 +2036,13 @@
     "years_available": [],
     "paper_count": 0,
     "top_keywords": [],
-    "has_data": false
+    "has_data": false,
+    "data_status": "registered_no_papers",
+    "warnings": [
+      {
+        "code": "registered_no_papers",
+        "message": "Venue is registered but no structured papers were exported for it."
+      }
+    ]
   }
 ]

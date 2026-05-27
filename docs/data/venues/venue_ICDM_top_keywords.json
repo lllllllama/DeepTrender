@@ -2,1216 +2,1512 @@
   "2020": [
     {
       "keyword": "graph",
-      "count": 2,
+      "count": 5,
+      "relative_frequency": 0.025907,
       "rank": 1
     },
     {
       "keyword": "graph neural",
-      "count": 2,
+      "count": 4,
+      "relative_frequency": 0.020725,
       "rank": 2
     },
     {
       "keyword": "graph neural network",
-      "count": 2,
+      "count": 4,
+      "relative_frequency": 0.020725,
       "rank": 3
+    },
+    {
+      "keyword": "deep",
+      "count": 3,
+      "relative_frequency": 0.015544,
+      "rank": 4
+    },
+    {
+      "keyword": "time series",
+      "count": 3,
+      "relative_frequency": 0.015544,
+      "rank": 5
+    },
+    {
+      "keyword": "adversarial",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 6
+    },
+    {
+      "keyword": "adversarial attacks",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 7
+    },
+    {
+      "keyword": "attention",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 8
+    },
+    {
+      "keyword": "classification",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 9
+    },
+    {
+      "keyword": "deep neural",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 10
+    },
+    {
+      "keyword": "deep neural networks",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 11
+    },
+    {
+      "keyword": "document",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 12
+    },
+    {
+      "keyword": "embedding",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 13
+    },
+    {
+      "keyword": "graph convolutional",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 14
+    },
+    {
+      "keyword": "graph convolutional network",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 15
+    },
+    {
+      "keyword": "graph learning",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 16
+    },
+    {
+      "keyword": "neural networks",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 17
+    },
+    {
+      "keyword": "time",
+      "count": 2,
+      "relative_frequency": 0.010363,
+      "rank": 18
+    },
+    {
+      "keyword": "absence epilepsy",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 19
+    },
+    {
+      "keyword": "absence epilepsy detection",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 20
     },
     {
       "keyword": "accurate time",
       "count": 1,
-      "rank": 4
+      "relative_frequency": 0.005181,
+      "rank": 21
     },
     {
       "keyword": "accurate time series",
       "count": 1,
-      "rank": 5
+      "relative_frequency": 0.005181,
+      "rank": 22
+    },
+    {
+      "keyword": "active anomaly",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 23
+    },
+    {
+      "keyword": "active anomaly detection",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 24
+    },
+    {
+      "keyword": "active learning",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 25
+    },
+    {
+      "keyword": "active learning based",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 26
+    },
+    {
+      "keyword": "added skip",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 27
+    },
+    {
+      "keyword": "added skip dense",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 28
     },
     {
       "keyword": "additive",
       "count": 1,
-      "rank": 6
+      "relative_frequency": 0.005181,
+      "rank": 29
     },
     {
-      "keyword": "adversarial",
+      "keyword": "admm",
       "count": 1,
-      "rank": 7
+      "relative_frequency": 0.005181,
+      "rank": 30
     },
     {
-      "keyword": "adversarial attacks",
+      "keyword": "adversarial active",
       "count": 1,
-      "rank": 8
+      "relative_frequency": 0.005181,
+      "rank": 31
+    },
+    {
+      "keyword": "adversarial active learning",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 32
+    },
+    {
+      "keyword": "adversarial label flipping attacks",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 33
+    },
+    {
+      "keyword": "aggregation rules",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 34
+    },
+    {
+      "keyword": "algorithm selection",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 35
+    },
+    {
+      "keyword": "amazon product reviews",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 36
+    },
+    {
+      "keyword": "anomaly",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 37
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 38
+    },
+    {
+      "keyword": "anomaly detection algorithms",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 39
+    },
+    {
+      "keyword": "anomaly detection system",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 40
+    },
+    {
+      "keyword": "application of machine",
+      "count": 1,
+      "relative_frequency": 0.005181,
+      "rank": 41
     },
     {
       "keyword": "attacks",
       "count": 1,
-      "rank": 9
-    },
-    {
-      "keyword": "classification",
-      "count": 1,
-      "rank": 10
-    },
-    {
-      "keyword": "closeness",
-      "count": 1,
-      "rank": 11
-    },
-    {
-      "keyword": "closeness calculation",
-      "count": 1,
-      "rank": 12
-    },
-    {
-      "keyword": "cyber attack detection",
-      "count": 1,
-      "rank": 13
-    },
-    {
-      "keyword": "cyber attacks",
-      "count": 1,
-      "rank": 14
-    },
-    {
-      "keyword": "defending water treatment",
-      "count": 1,
-      "rank": 15
-    },
-    {
-      "keyword": "derivation of prediction",
-      "count": 1,
-      "rank": 16
-    },
-    {
-      "keyword": "detect cyber attacks",
-      "count": 1,
-      "rank": 17
-    },
-    {
-      "keyword": "directories",
-      "count": 1,
-      "rank": 18
-    },
-    {
-      "keyword": "document",
-      "count": 1,
-      "rank": 19
-    },
-    {
-      "keyword": "document directories",
-      "count": 1,
-      "rank": 20
-    },
-    {
-      "keyword": "efficient top k",
-      "count": 1,
-      "rank": 21
-    },
-    {
-      "keyword": "efficient top k temporal",
-      "count": 1,
-      "rank": 22
-    },
-    {
-      "keyword": "exploiting spatio temporal effects",
-      "count": 1,
-      "rank": 23
-    },
-    {
-      "keyword": "expressive graph",
-      "count": 1,
-      "rank": 24
-    },
-    {
-      "keyword": "expressive graph neural",
-      "count": 1,
-      "rank": 25
-    },
-    {
-      "keyword": "expressive graph representations",
-      "count": 1,
-      "rank": 26
-    },
-    {
-      "keyword": "extend deep neural",
-      "count": 1,
-      "rank": 27
-    },
-    {
-      "keyword": "fast and accurate",
-      "count": 1,
-      "rank": 28
-    },
-    {
-      "keyword": "feature ranking",
-      "count": 1,
-      "rank": 29
-    },
-    {
-      "keyword": "flights",
-      "count": 1,
-      "rank": 30
-    },
-    {
-      "keyword": "flights graph",
-      "count": 1,
-      "rank": 31
-    },
-    {
-      "keyword": "flights graph convolutional",
-      "count": 1,
-      "rank": 32
-    },
-    {
-      "keyword": "generalizing universal",
-      "count": 1,
-      "rank": 33
-    },
-    {
-      "keyword": "generalizing universal adversarial",
-      "count": 1,
-      "rank": 34
-    },
-    {
-      "keyword": "graph classification",
-      "count": 1,
-      "rank": 35
-    },
-    {
-      "keyword": "graph convolutional",
-      "count": 1,
-      "rank": 36
-    },
-    {
-      "keyword": "graph convolutional networks",
-      "count": 1,
-      "rank": 37
-    },
-    {
-      "keyword": "graph representation learning",
-      "count": 1,
-      "rank": 38
-    },
-    {
-      "keyword": "graph topology",
-      "count": 1,
-      "rank": 39
-    },
-    {
-      "keyword": "influence of feature",
-      "count": 1,
-      "rank": 40
-    },
-    {
-      "keyword": "interpreting influence",
-      "count": 1,
-      "rank": 41
-    },
-    {
-      "keyword": "interval search",
-      "count": 1,
+      "relative_frequency": 0.005181,
       "rank": 42
     },
     {
-      "keyword": "l vy flights graph",
+      "keyword": "attention network",
       "count": 1,
+      "relative_frequency": 0.005181,
       "rank": 43
     },
     {
-      "keyword": "levitating",
+      "keyword": "attention with dual optimizer",
       "count": 1,
+      "relative_frequency": 0.005181,
       "rank": 44
     },
     {
-      "keyword": "levy flights",
+      "keyword": "auc",
       "count": 1,
+      "relative_frequency": 0.005181,
       "rank": 45
     },
     {
-      "keyword": "lfgcn",
+      "keyword": "auc optimization",
       "count": 1,
+      "relative_frequency": 0.005181,
       "rank": 46
     },
     {
-      "keyword": "massive document directories",
+      "keyword": "auc optimization algorithms",
       "count": 1,
+      "relative_frequency": 0.005181,
       "rank": 47
     },
     {
-      "keyword": "mining text",
+      "keyword": "auc scores",
       "count": 1,
+      "relative_frequency": 0.005181,
       "rank": 48
     },
     {
-      "keyword": "mining text outliers",
+      "keyword": "auc scores compared",
       "count": 1,
+      "relative_frequency": 0.005181,
       "rank": 49
     },
     {
-      "keyword": "models for screening",
+      "keyword": "automated",
       "count": 1,
+      "relative_frequency": 0.005181,
       "rank": 50
     }
   ],
   "2021": [
     {
+      "keyword": "deep learning",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 1
+    },
+    {
+      "keyword": "detection",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 2
+    },
+    {
+      "keyword": "electronic health records",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 3
+    },
+    {
+      "keyword": "graph",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 4
+    },
+    {
+      "keyword": "graph convolutional networks",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 5
+    },
+    {
+      "keyword": "health records",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 6
+    },
+    {
+      "keyword": "language processing",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 7
+    },
+    {
+      "keyword": "multi view",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 8
+    },
+    {
+      "keyword": "natural language",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 9
+    },
+    {
+      "keyword": "natural language processing",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 10
+    },
+    {
+      "keyword": "pca",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 11
+    },
+    {
+      "keyword": "principal component analysis",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 12
+    },
+    {
+      "keyword": "prior",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 13
+    },
+    {
+      "keyword": "robust",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 14
+    },
+    {
+      "keyword": "search",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 15
+    },
+    {
+      "keyword": "subspace",
+      "count": 2,
+      "relative_frequency": 0.009756,
+      "rank": 16
+    },
+    {
+      "keyword": "accurate",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 17
+    },
+    {
+      "keyword": "accurate community",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 18
+    },
+    {
+      "keyword": "accurate community detection",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 19
+    },
+    {
+      "keyword": "active learning",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 20
+    },
+    {
+      "keyword": "active learning approaches",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 21
+    },
+    {
       "keyword": "active pairwise",
       "count": 1,
-      "rank": 1
+      "relative_frequency": 0.004878,
+      "rank": 22
     },
     {
       "keyword": "active pairwise comparisons",
       "count": 1,
-      "rank": 2
+      "relative_frequency": 0.004878,
+      "rank": 23
     },
     {
       "keyword": "adaptive kernel density",
       "count": 1,
-      "rank": 3
+      "relative_frequency": 0.004878,
+      "rank": 24
     },
     {
       "keyword": "adversarial network",
       "count": 1,
-      "rank": 4
+      "relative_frequency": 0.004878,
+      "rank": 25
+    },
+    {
+      "keyword": "ai based decision making systems",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 26
     },
     {
       "keyword": "algorithm for robust",
       "count": 1,
-      "rank": 5
+      "relative_frequency": 0.004878,
+      "rank": 27
+    },
+    {
+      "keyword": "amazon mechanical turk",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 28
+    },
+    {
+      "keyword": "analysis and inference",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 29
+    },
+    {
+      "keyword": "anomaly",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 30
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 31
+    },
+    {
+      "keyword": "approximation for deep",
+      "count": 1,
+      "relative_frequency": 0.004878,
+      "rank": 32
     },
     {
       "keyword": "arbitrary",
       "count": 1,
-      "rank": 6
+      "relative_frequency": 0.004878,
+      "rank": 33
     },
     {
       "keyword": "arbitrary number",
       "count": 1,
-      "rank": 7
+      "relative_frequency": 0.004878,
+      "rank": 34
     },
     {
       "keyword": "architecture search",
       "count": 1,
-      "rank": 8
-    },
-    {
-      "keyword": "budget",
-      "count": 1,
-      "rank": 9
-    },
-    {
-      "keyword": "bypass leakage",
-      "count": 1,
-      "rank": 10
-    },
-    {
-      "keyword": "darts",
-      "count": 1,
-      "rank": 11
-    },
-    {
-      "keyword": "data generation",
-      "count": 1,
-      "rank": 12
-    },
-    {
-      "keyword": "data generation model",
-      "count": 1,
-      "rank": 13
-    },
-    {
-      "keyword": "data generation process",
-      "count": 1,
-      "rank": 14
-    },
-    {
-      "keyword": "density",
-      "count": 1,
-      "rank": 15
-    },
-    {
-      "keyword": "density estimation",
-      "count": 1,
-      "rank": 16
-    },
-    {
-      "keyword": "detecting and mitigating",
-      "count": 1,
-      "rank": 17
-    },
-    {
-      "keyword": "eliminating information bypass",
-      "count": 1,
-      "rank": 18
-    },
-    {
-      "keyword": "end nas method",
-      "count": 1,
-      "rank": 19
-    },
-    {
-      "keyword": "estimation",
-      "count": 1,
-      "rank": 20
-    },
-    {
-      "keyword": "explicit sparse",
-      "count": 1,
-      "rank": 21
-    },
-    {
-      "keyword": "explicit sparse regularization",
-      "count": 1,
-      "rank": 22
-    },
-    {
-      "keyword": "failure risks",
-      "count": 1,
-      "rank": 23
-    },
-    {
-      "keyword": "generation",
-      "count": 1,
-      "rank": 24
-    },
-    {
-      "keyword": "generative adversarial network",
-      "count": 1,
-      "rank": 25
-    },
-    {
-      "keyword": "graph neural network",
-      "count": 1,
-      "rank": 26
-    },
-    {
-      "keyword": "information bypass",
-      "count": 1,
-      "rank": 27
-    },
-    {
-      "keyword": "information bypass leakage",
-      "count": 1,
-      "rank": 28
-    },
-    {
-      "keyword": "integrates context free grammar",
-      "count": 1,
-      "rank": 29
-    },
-    {
-      "keyword": "isolation",
-      "count": 1,
-      "rank": 30
-    },
-    {
-      "keyword": "isolation kernel",
-      "count": 1,
-      "rank": 31
-    },
-    {
-      "keyword": "isolation kernel density",
-      "count": 1,
-      "rank": 32
-    },
-    {
-      "keyword": "kernel",
-      "count": 1,
-      "rank": 33
-    },
-    {
-      "keyword": "kernel density",
-      "count": 1,
-      "rank": 34
-    },
-    {
-      "keyword": "kernel density estimation",
-      "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 35
     },
     {
-      "keyword": "layers",
+      "keyword": "area",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 36
     },
     {
-      "keyword": "meet context free",
+      "keyword": "area chairs",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 37
     },
     {
-      "keyword": "meet context free grammar",
+      "keyword": "association studies",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 38
     },
     {
-      "keyword": "mitigating test time",
+      "keyword": "avoidance",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 39
     },
     {
-      "keyword": "mitigating test time failure",
+      "keyword": "avoidance in tensor",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 40
     },
     {
-      "keyword": "model agnostic uncertainty learning",
+      "keyword": "balanced",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 41
     },
     {
-      "keyword": "networks meet",
+      "keyword": "balanced triangles",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 42
     },
     {
-      "keyword": "networks meet context free",
+      "keyword": "bat",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 43
     },
     {
-      "keyword": "neural architecture",
+      "keyword": "bayes",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 44
     },
     {
-      "keyword": "neural architecture search",
+      "keyword": "bayes classifier",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 45
     },
     {
-      "keyword": "neural networks meet",
+      "keyword": "bayes classifier based",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 46
     },
     {
-      "keyword": "number",
+      "keyword": "beat aligned",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 47
     },
     {
-      "keyword": "pairwise active",
+      "keyword": "beat aligned transformer",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 48
     },
     {
-      "keyword": "pairwise active recovery",
+      "keyword": "behaviors",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 49
     },
     {
-      "keyword": "pca",
+      "keyword": "blocks",
       "count": 1,
+      "relative_frequency": 0.004878,
       "rank": 50
     }
   ],
   "2022": [
     {
+      "keyword": "graph",
+      "count": 5,
+      "relative_frequency": 0.028902,
+      "rank": 1
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 5,
+      "relative_frequency": 0.028902,
+      "rank": 2
+    },
+    {
+      "keyword": "neural networks",
+      "count": 3,
+      "relative_frequency": 0.017341,
+      "rank": 3
+    },
+    {
+      "keyword": "anomaly",
+      "count": 2,
+      "relative_frequency": 0.011561,
+      "rank": 4
+    },
+    {
+      "keyword": "detection",
+      "count": 2,
+      "relative_frequency": 0.011561,
+      "rank": 5
+    },
+    {
+      "keyword": "domain",
+      "count": 2,
+      "relative_frequency": 0.011561,
+      "rank": 6
+    },
+    {
+      "keyword": "federated",
+      "count": 2,
+      "relative_frequency": 0.011561,
+      "rank": 7
+    },
+    {
+      "keyword": "graphs",
+      "count": 2,
+      "relative_frequency": 0.011561,
+      "rank": 8
+    },
+    {
+      "keyword": "knowledge",
+      "count": 2,
+      "relative_frequency": 0.011561,
+      "rank": 9
+    },
+    {
+      "keyword": "node classification",
+      "count": 2,
+      "relative_frequency": 0.011561,
+      "rank": 10
+    },
+    {
+      "keyword": "topological data analysis",
+      "count": 2,
+      "relative_frequency": 0.011561,
+      "rank": 11
+    },
+    {
+      "keyword": "transfer",
+      "count": 2,
+      "relative_frequency": 0.011561,
+      "rank": 12
+    },
+    {
+      "keyword": "adaptive expansion control",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 13
+    },
+    {
+      "keyword": "adaptive model",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 14
+    },
+    {
+      "keyword": "adaptive model fine tuning",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 15
+    },
+    {
+      "keyword": "adversarial",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 16
+    },
+    {
+      "keyword": "adversarial data augmentation",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 17
+    },
+    {
+      "keyword": "adversarially robust neural",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 18
+    },
+    {
+      "keyword": "algorithm fairness",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 19
+    },
+    {
       "keyword": "alternating propagation",
       "count": 1,
-      "rank": 1
+      "relative_frequency": 0.00578,
+      "rank": 20
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 21
+    },
+    {
+      "keyword": "anomaly detection techniques",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 22
+    },
+    {
+      "keyword": "anti money laundering",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 23
+    },
+    {
+      "keyword": "applications like twitter",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 24
+    },
+    {
+      "keyword": "augmentation and adaptive",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 25
+    },
+    {
+      "keyword": "augmentation based graph anomaly",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 26
+    },
+    {
+      "keyword": "augmenting knowledge transfer",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 27
+    },
+    {
+      "keyword": "automatic field pair",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 28
+    },
+    {
+      "keyword": "automatic sleep",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 29
+    },
+    {
+      "keyword": "automatic sleep staging",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 30
+    },
+    {
+      "keyword": "autonomously knowledge learning",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 31
+    },
+    {
+      "keyword": "autonomously learning knowledge",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 32
+    },
+    {
+      "keyword": "backpropagation free graph neural",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 33
+    },
+    {
+      "keyword": "bayesian",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 34
+    },
+    {
+      "keyword": "bayesian uncertainty propagation",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 35
     },
     {
       "keyword": "bmf methods",
       "count": 1,
-      "rank": 2
+      "relative_frequency": 0.00578,
+      "rank": 36
     },
     {
       "keyword": "boolean matrix",
       "count": 1,
-      "rank": 3
+      "relative_frequency": 0.00578,
+      "rank": 37
     },
     {
       "keyword": "boolean matrix factorization",
       "count": 1,
-      "rank": 4
+      "relative_frequency": 0.00578,
+      "rank": 38
+    },
+    {
+      "keyword": "boosting object detection",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 39
+    },
+    {
+      "keyword": "bridging",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 40
+    },
+    {
+      "keyword": "bridging graph",
+      "count": 1,
+      "relative_frequency": 0.00578,
+      "rank": 41
     },
     {
       "keyword": "bug",
       "count": 1,
-      "rank": 5
+      "relative_frequency": 0.00578,
+      "rank": 42
     },
     {
       "keyword": "bug localization",
       "count": 1,
-      "rank": 6
+      "relative_frequency": 0.00578,
+      "rank": 43
     },
     {
       "keyword": "bug localization methods",
       "count": 1,
-      "rank": 7
+      "relative_frequency": 0.00578,
+      "rank": 44
     },
     {
       "keyword": "bug report",
       "count": 1,
-      "rank": 8
-    },
-    {
-      "keyword": "control flow",
-      "count": 1,
-      "rank": 9
-    },
-    {
-      "keyword": "control flow graph",
-      "count": 1,
-      "rank": 10
-    },
-    {
-      "keyword": "critical neurons",
-      "count": 1,
-      "rank": 11
-    },
-    {
-      "keyword": "deep neural networks",
-      "count": 1,
-      "rank": 12
-    },
-    {
-      "keyword": "dynamic",
-      "count": 1,
-      "rank": 13
-    },
-    {
-      "keyword": "dynamic hypergraphs",
-      "count": 1,
-      "rank": 14
-    },
-    {
-      "keyword": "dynamic networks",
-      "count": 1,
-      "rank": 15
-    },
-    {
-      "keyword": "flow graph",
-      "count": 1,
-      "rank": 16
-    },
-    {
-      "keyword": "guarantee",
-      "count": 1,
-      "rank": 17
-    },
-    {
-      "keyword": "high frequency stock",
-      "count": 1,
-      "rank": 18
-    },
-    {
-      "keyword": "high frequency stock movement",
-      "count": 1,
-      "rank": 19
-    },
-    {
-      "keyword": "hybrid interpretable",
-      "count": 1,
-      "rank": 20
-    },
-    {
-      "keyword": "hybrid interpretable transformer",
-      "count": 1,
-      "rank": 21
-    },
-    {
-      "keyword": "hyperbolic",
-      "count": 1,
-      "rank": 22
-    },
-    {
-      "keyword": "hyperbolic network",
-      "count": 1,
-      "rank": 23
-    },
-    {
-      "keyword": "hypergraph",
-      "count": 1,
-      "rank": 24
-    },
-    {
-      "keyword": "hypergraph hyperbolic network",
-      "count": 1,
-      "rank": 25
-    },
-    {
-      "keyword": "kernel based hybrid interpretable",
-      "count": 1,
-      "rank": 26
-    },
-    {
-      "keyword": "learn neural networks",
-      "count": 1,
-      "rank": 27
-    },
-    {
-      "keyword": "learning for sets",
-      "count": 1,
-      "rank": 28
-    },
-    {
-      "keyword": "matrix",
-      "count": 1,
-      "rank": 29
-    },
-    {
-      "keyword": "matrix factorization",
-      "count": 1,
-      "rank": 30
-    },
-    {
-      "keyword": "movement prediction task",
-      "count": 1,
-      "rank": 31
-    },
-    {
-      "keyword": "multi level abstraction",
-      "count": 1,
-      "rank": 32
-    },
-    {
-      "keyword": "networks",
-      "count": 1,
-      "rank": 33
-    },
-    {
-      "keyword": "networks mechanism",
-      "count": 1,
-      "rank": 34
-    },
-    {
-      "keyword": "neural networks",
-      "count": 1,
-      "rank": 35
-    },
-    {
-      "keyword": "neural networks mechanism",
-      "count": 1,
-      "rank": 36
-    },
-    {
-      "keyword": "neurons",
-      "count": 1,
-      "rank": 37
-    },
-    {
-      "keyword": "precision guarantee",
-      "count": 1,
-      "rank": 38
-    },
-    {
-      "keyword": "preserving",
-      "count": 1,
-      "rank": 39
-    },
-    {
-      "keyword": "preserving representation",
-      "count": 1,
-      "rank": 40
-    },
-    {
-      "keyword": "preserving representation learning",
-      "count": 1,
-      "rank": 41
-    },
-    {
-      "keyword": "representation learning",
-      "count": 1,
-      "rank": 42
-    },
-    {
-      "keyword": "sets",
-      "count": 1,
-      "rank": 43
-    },
-    {
-      "keyword": "similarity",
-      "count": 1,
-      "rank": 44
-    },
-    {
-      "keyword": "similarity preserving",
-      "count": 1,
+      "relative_frequency": 0.00578,
       "rank": 45
     },
     {
-      "keyword": "similarity preserving representation",
+      "keyword": "causal",
       "count": 1,
+      "relative_frequency": 0.00578,
       "rank": 46
     },
     {
-      "keyword": "stock",
+      "keyword": "causal effect",
       "count": 1,
+      "relative_frequency": 0.00578,
       "rank": 47
     },
     {
-      "keyword": "stock movement",
+      "keyword": "causal effect inference",
       "count": 1,
+      "relative_frequency": 0.00578,
       "rank": 48
     },
     {
-      "keyword": "stock movement prediction",
+      "keyword": "causal effect prediction",
       "count": 1,
+      "relative_frequency": 0.00578,
       "rank": 49
     },
     {
-      "keyword": "symmetric",
+      "keyword": "change detection",
       "count": 1,
+      "relative_frequency": 0.00578,
       "rank": 50
     }
   ],
   "2023": [
     {
-      "keyword": "graph neural network",
-      "count": 3,
+      "keyword": "graph",
+      "count": 6,
+      "relative_frequency": 0.028169,
       "rank": 1
     },
     {
       "keyword": "neural networks",
-      "count": 3,
+      "count": 6,
+      "relative_frequency": 0.028169,
       "rank": 2
     },
     {
-      "keyword": "graph",
-      "count": 2,
+      "keyword": "graph neural network",
+      "count": 5,
+      "relative_frequency": 0.023474,
       "rank": 3
     },
     {
       "keyword": "graph neural",
-      "count": 2,
+      "count": 4,
+      "relative_frequency": 0.018779,
       "rank": 4
+    },
+    {
+      "keyword": "feature",
+      "count": 3,
+      "relative_frequency": 0.014085,
+      "rank": 5
+    },
+    {
+      "keyword": "federated learning",
+      "count": 3,
+      "relative_frequency": 0.014085,
+      "rank": 6
+    },
+    {
+      "keyword": "federated",
+      "count": 2,
+      "relative_frequency": 0.00939,
+      "rank": 7
+    },
+    {
+      "keyword": "icdm",
+      "count": 2,
+      "relative_frequency": 0.00939,
+      "rank": 8
+    },
+    {
+      "keyword": "optimization",
+      "count": 2,
+      "relative_frequency": 0.00939,
+      "rank": 9
+    },
+    {
+      "keyword": "accuracy and efficiency",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 10
+    },
+    {
+      "keyword": "activities",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 11
+    },
+    {
+      "keyword": "acyclicity assurance",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 12
+    },
+    {
+      "keyword": "adam",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 13
+    },
+    {
+      "keyword": "adaptive gradient methods",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 14
+    },
+    {
+      "keyword": "adaptive learning rates",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 15
+    },
+    {
+      "keyword": "adaptive optimization",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 16
+    },
+    {
+      "keyword": "adaptive tree based model",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 17
+    },
+    {
+      "keyword": "addressing spatial temporal",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 18
+    },
+    {
+      "keyword": "addressing spatial temporal distribution",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 19
+    },
+    {
+      "keyword": "ads",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 20
+    },
+    {
+      "keyword": "ads perception",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 21
+    },
+    {
+      "keyword": "ads perception module",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 22
+    },
+    {
+      "keyword": "adversarial feature",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 23
+    },
+    {
+      "keyword": "adversarial feature desensitization",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 24
+    },
+    {
+      "keyword": "adversarial network",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 25
+    },
+    {
+      "keyword": "adversarial task transferable attacks",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 26
+    },
+    {
+      "keyword": "aggregating network",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 27
+    },
+    {
+      "keyword": "anomalies",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 28
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 29
+    },
+    {
+      "keyword": "anomaly detection method",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 30
     },
     {
       "keyword": "anti noise muiti view feature",
       "count": 1,
-      "rank": 5
+      "relative_frequency": 0.004695,
+      "rank": 31
+    },
+    {
+      "keyword": "assurance",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 32
+    },
+    {
+      "keyword": "attack",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 33
+    },
+    {
+      "keyword": "autonomous driving",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 34
+    },
+    {
+      "keyword": "autonomous driving systems",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 35
+    },
+    {
+      "keyword": "aware variational",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 36
+    },
+    {
+      "keyword": "aware variational representation",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 37
+    },
+    {
+      "keyword": "backdoor attack",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 38
+    },
+    {
+      "keyword": "background diversity",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 39
+    },
+    {
+      "keyword": "balanced continual graph",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 40
+    },
+    {
+      "keyword": "balancing and contrasting",
+      "count": 1,
+      "relative_frequency": 0.004695,
+      "rank": 41
     },
     {
       "keyword": "balancing graph summarization",
       "count": 1,
-      "rank": 6
-    },
-    {
-      "keyword": "change",
-      "count": 1,
-      "rank": 7
-    },
-    {
-      "keyword": "change detection",
-      "count": 1,
-      "rank": 8
-    },
-    {
-      "keyword": "classic contextual combinatorial",
-      "count": 1,
-      "rank": 9
-    },
-    {
-      "keyword": "clustering",
-      "count": 1,
-      "rank": 10
-    },
-    {
-      "keyword": "clustering enables",
-      "count": 1,
-      "rank": 11
-    },
-    {
-      "keyword": "combinatorial bandit",
-      "count": 1,
-      "rank": 12
-    },
-    {
-      "keyword": "combinatorial bandit problem",
-      "count": 1,
-      "rank": 13
-    },
-    {
-      "keyword": "combinatorial multi armed bandit",
-      "count": 1,
-      "rank": 14
-    },
-    {
-      "keyword": "contextual combinatorial bandit",
-      "count": 1,
-      "rank": 15
-    },
-    {
-      "keyword": "contextual combinatorial multi armed",
-      "count": 1,
-      "rank": 16
-    },
-    {
-      "keyword": "current multi view feature",
-      "count": 1,
-      "rank": 17
-    },
-    {
-      "keyword": "decision focused graph neural",
-      "count": 1,
-      "rank": 18
-    },
-    {
-      "keyword": "decision focused learning",
-      "count": 1,
-      "rank": 19
-    },
-    {
-      "keyword": "detection",
-      "count": 1,
-      "rank": 20
-    },
-    {
-      "keyword": "dfl",
-      "count": 1,
-      "rank": 21
-    },
-    {
-      "keyword": "distribution based",
-      "count": 1,
-      "rank": 22
-    },
-    {
-      "keyword": "distribution based trajectory",
-      "count": 1,
-      "rank": 23
-    },
-    {
-      "keyword": "distribution based trajectory clustering",
-      "count": 1,
-      "rank": 24
-    },
-    {
-      "keyword": "effective entity alignment",
-      "count": 1,
-      "rank": 25
-    },
-    {
-      "keyword": "entity alignment",
-      "count": 1,
-      "rank": 26
-    },
-    {
-      "keyword": "equipping federated graph",
-      "count": 1,
-      "rank": 27
-    },
-    {
-      "keyword": "evolving temporal knowledge",
-      "count": 1,
-      "rank": 28
-    },
-    {
-      "keyword": "fair federated graph",
-      "count": 1,
-      "rank": 29
-    },
-    {
-      "keyword": "feature",
-      "count": 1,
-      "rank": 30
-    },
-    {
-      "keyword": "feature selection",
-      "count": 1,
-      "rank": 31
-    },
-    {
-      "keyword": "feature selection algorithms",
-      "count": 1,
-      "rank": 32
-    },
-    {
-      "keyword": "federated graph neural",
-      "count": 1,
-      "rank": 33
-    },
-    {
-      "keyword": "graph attention network",
-      "count": 1,
-      "rank": 34
-    },
-    {
-      "keyword": "graph change",
-      "count": 1,
-      "rank": 35
-    },
-    {
-      "keyword": "graph change detection",
-      "count": 1,
-      "rank": 36
-    },
-    {
-      "keyword": "graph convolutional network",
-      "count": 1,
-      "rank": 37
-    },
-    {
-      "keyword": "graph structure",
-      "count": 1,
-      "rank": 38
-    },
-    {
-      "keyword": "graph structure feature",
-      "count": 1,
-      "rank": 39
-    },
-    {
-      "keyword": "graph structure feature co refinement",
-      "count": 1,
-      "rank": 40
-    },
-    {
-      "keyword": "graph summarization",
-      "count": 1,
-      "rank": 41
-    },
-    {
-      "keyword": "keynotes",
-      "count": 1,
+      "relative_frequency": 0.004695,
       "rank": 42
     },
     {
-      "keyword": "knowledge",
+      "keyword": "bandit",
       "count": 1,
+      "relative_frequency": 0.004695,
       "rank": 43
     },
     {
-      "keyword": "knowledge graphs",
+      "keyword": "bandit online",
       "count": 1,
+      "relative_frequency": 0.004695,
       "rank": 44
     },
     {
-      "keyword": "multi view",
+      "keyword": "bandit online multiclass",
       "count": 1,
+      "relative_frequency": 0.004695,
       "rank": 45
     },
     {
-      "keyword": "multi view feature",
+      "keyword": "based malware detectors",
       "count": 1,
+      "relative_frequency": 0.004695,
       "rank": 46
     },
     {
-      "keyword": "multi view feature selection",
+      "keyword": "bayesian structure",
       "count": 1,
+      "relative_frequency": 0.004695,
       "rank": 47
     },
     {
-      "keyword": "neural contextual",
+      "keyword": "bayesian structure learning",
       "count": 1,
+      "relative_frequency": 0.004695,
       "rank": 48
     },
     {
-      "keyword": "neural contextual combinatorial",
+      "keyword": "biased samples",
       "count": 1,
+      "relative_frequency": 0.004695,
       "rank": 49
     },
     {
-      "keyword": "non stationary neural contextual",
+      "keyword": "blockchain based decentralized vertical",
       "count": 1,
+      "relative_frequency": 0.004695,
       "rank": 50
     }
   ],
   "2024": [
     {
-      "keyword": "modeling",
-      "count": 2,
+      "keyword": "graph",
+      "count": 6,
+      "relative_frequency": 0.037975,
       "rank": 1
     },
     {
-      "keyword": "user",
-      "count": 2,
+      "keyword": "graph neural",
+      "count": 4,
+      "relative_frequency": 0.025316,
       "rank": 2
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 4,
+      "relative_frequency": 0.025316,
+      "rank": 3
+    },
+    {
+      "keyword": "classification",
+      "count": 3,
+      "relative_frequency": 0.018987,
+      "rank": 4
+    },
+    {
+      "keyword": "federated learning",
+      "count": 3,
+      "relative_frequency": 0.018987,
+      "rank": 5
+    },
+    {
+      "keyword": "group",
+      "count": 3,
+      "relative_frequency": 0.018987,
+      "rank": 6
+    },
+    {
+      "keyword": "icdm",
+      "count": 3,
+      "relative_frequency": 0.018987,
+      "rank": 7
+    },
+    {
+      "keyword": "large language model",
+      "count": 3,
+      "relative_frequency": 0.018987,
+      "rank": 8
+    },
+    {
+      "keyword": "user",
+      "count": 3,
+      "relative_frequency": 0.018987,
+      "rank": 9
+    },
+    {
+      "keyword": "dynamic graphs",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 10
+    },
+    {
+      "keyword": "features",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 11
+    },
+    {
+      "keyword": "federated",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 12
+    },
+    {
+      "keyword": "graph classification",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 13
+    },
+    {
+      "keyword": "modeling",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 14
+    },
+    {
+      "keyword": "neural network",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 15
+    },
+    {
+      "keyword": "neural networks",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 16
+    },
+    {
+      "keyword": "recommendation",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 17
+    },
+    {
+      "keyword": "recommendation systems",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 18
+    },
+    {
+      "keyword": "recommender systems",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 19
+    },
+    {
+      "keyword": "text",
+      "count": 2,
+      "relative_frequency": 0.012658,
+      "rank": 20
+    },
+    {
+      "keyword": "accurate traffic flow",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 21
+    },
+    {
+      "keyword": "adapting language model",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 22
+    },
+    {
+      "keyword": "adapting large language",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 23
+    },
+    {
+      "keyword": "adaptive graph",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 24
+    },
+    {
+      "keyword": "adaptive graph neural",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 25
+    },
+    {
+      "keyword": "adaptive loss aware",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 26
+    },
+    {
+      "keyword": "adaptive loss aware modulation",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 27
+    },
+    {
+      "keyword": "addressing selection bias",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 28
     },
     {
       "keyword": "adversarial denoise",
       "count": 1,
-      "rank": 3
+      "relative_frequency": 0.006329,
+      "rank": 29
     },
     {
       "keyword": "adversarial denoise imputation",
       "count": 1,
-      "rank": 4
+      "relative_frequency": 0.006329,
+      "rank": 30
     },
     {
       "keyword": "adversarial denoise network",
       "count": 1,
-      "rank": 5
-    },
-    {
-      "keyword": "bi level user modeling",
-      "count": 1,
-      "rank": 6
-    },
-    {
-      "keyword": "cover",
-      "count": 1,
-      "rank": 7
-    },
-    {
-      "keyword": "cover page",
-      "count": 1,
-      "rank": 8
-    },
-    {
-      "keyword": "deep recommender systems",
-      "count": 1,
-      "rank": 9
-    },
-    {
-      "keyword": "deep recommenders",
-      "count": 1,
-      "rank": 10
-    },
-    {
-      "keyword": "denoise imputation",
-      "count": 1,
-      "rank": 11
-    },
-    {
-      "keyword": "denoise imputation network",
-      "count": 1,
-      "rank": 12
-    },
-    {
-      "keyword": "drs",
-      "count": 1,
-      "rank": 13
-    },
-    {
-      "keyword": "emerging",
-      "count": 1,
-      "rank": 14
-    },
-    {
-      "keyword": "emerging intents",
-      "count": 1,
-      "rank": 15
-    },
-    {
-      "keyword": "exploitation or exploration",
-      "count": 1,
-      "rank": 16
-    },
-    {
-      "keyword": "exploration",
-      "count": 1,
-      "rank": 17
-    },
-    {
-      "keyword": "generative adversarial",
-      "count": 1,
-      "rank": 18
-    },
-    {
-      "keyword": "generative adversarial denoise",
-      "count": 1,
-      "rank": 19
-    },
-    {
-      "keyword": "generative adversarial network",
-      "count": 1,
-      "rank": 20
-    },
-    {
-      "keyword": "gprec",
-      "count": 1,
-      "rank": 21
-    },
-    {
-      "keyword": "graph",
-      "count": 1,
-      "rank": 22
-    },
-    {
-      "keyword": "graph classification",
-      "count": 1,
-      "rank": 23
-    },
-    {
-      "keyword": "graph classification requires",
-      "count": 1,
-      "rank": 24
-    },
-    {
-      "keyword": "group",
-      "count": 1,
-      "rank": 25
-    },
-    {
-      "keyword": "icdm",
-      "count": 1,
-      "rank": 26
-    },
-    {
-      "keyword": "imputation network",
-      "count": 1,
-      "rank": 27
-    },
-    {
-      "keyword": "incomplete data",
-      "count": 1,
-      "rank": 28
-    },
-    {
-      "keyword": "intents",
-      "count": 1,
-      "rank": 29
-    },
-    {
-      "keyword": "key",
-      "count": 1,
-      "rank": 30
-    },
-    {
-      "keyword": "key subgraph",
-      "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 31
     },
     {
-      "keyword": "next item recommendation",
+      "keyword": "aerial vehicles",
       "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 32
     },
     {
-      "keyword": "page",
+      "keyword": "aided by unmanned",
       "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 33
     },
     {
-      "keyword": "shopping",
+      "keyword": "anomaly",
       "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 34
     },
     {
-      "keyword": "single",
+      "keyword": "anomaly edge detection",
       "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 35
     },
     {
-      "keyword": "single key",
+      "keyword": "anomaly edges",
       "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 36
     },
     {
-      "keyword": "single key subgraph",
+      "keyword": "approximate equitable",
       "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 37
     },
     {
-      "keyword": "traditional graph classification",
+      "keyword": "approximate equitable partitions",
       "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 38
     },
     {
-      "keyword": "user behavior decoupling",
+      "keyword": "attacks",
       "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 39
     },
     {
-      "keyword": "user modeling",
+      "keyword": "audio driven talking head",
       "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 40
     },
     {
-      "keyword": "weakly supervised graph classification",
+      "keyword": "audio driven talking head generation",
       "count": 1,
+      "relative_frequency": 0.006329,
       "rank": 41
+    },
+    {
+      "keyword": "audio driven talking head synthesis",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 42
+    },
+    {
+      "keyword": "augmentation guided bi level",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 43
+    },
+    {
+      "keyword": "automatic stacked gate",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 44
+    },
+    {
+      "keyword": "aware masked",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 45
+    },
+    {
+      "keyword": "aware masked auto encoder",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 46
+    },
+    {
+      "keyword": "backdoor",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 47
+    },
+    {
+      "keyword": "backdoor attacks",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 48
+    },
+    {
+      "keyword": "balancing component",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 49
+    },
+    {
+      "keyword": "balancing component sample",
+      "count": 1,
+      "relative_frequency": 0.006329,
+      "rank": 50
     }
-  ]
+  ],
+  "2025": []
 }

@@ -160,9 +160,9 @@ class TestArxivTimeseries:
         agent = ArxivAnalysisAgent()
         
         papers = [
-            {"raw_id": 1, "title": "P1", "abstract": "T", "year": 2023, "categories": "cs.LG"},
-            {"raw_id": 2, "title": "P2", "abstract": "T", "year": 2023, "categories": "cs.LG"},
-            {"raw_id": 3, "title": "P3", "abstract": "T", "year": 2024, "categories": "cs.LG"}
+            {"raw_id": 1, "title": "P1", "abstract": "T", "year": 2024, "categories": "cs.LG", "published_at": datetime(2023, 1, 1)},
+            {"raw_id": 2, "title": "P2", "abstract": "T", "year": 2024, "categories": "cs.LG", "published_at": datetime(2023, 2, 1)},
+            {"raw_id": 3, "title": "P3", "abstract": "T", "year": 2024, "categories": "cs.LG", "published_at": datetime(2024, 1, 1)}
         ]
         
         buckets = agent._group_by_year(papers)

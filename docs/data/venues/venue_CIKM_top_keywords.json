@@ -1,1262 +1,1513 @@
 {
   "2020": [
     {
-      "keyword": "search",
-      "count": 3,
+      "keyword": "graph",
+      "count": 9,
+      "relative_frequency": 0.016187,
       "rank": 1
     },
     {
-      "keyword": "click through rate",
-      "count": 2,
+      "keyword": "knowledge",
+      "count": 9,
+      "relative_frequency": 0.016187,
       "rank": 2
     },
     {
-      "keyword": "click through rate prediction",
-      "count": 2,
+      "keyword": "search",
+      "count": 7,
+      "relative_frequency": 0.01259,
       "rank": 3
     },
     {
-      "keyword": "ctr",
-      "count": 2,
+      "keyword": "neural networks",
+      "count": 6,
+      "relative_frequency": 0.010791,
       "rank": 4
     },
     {
-      "keyword": "ctr prediction",
-      "count": 2,
+      "keyword": "recommendation",
+      "count": 6,
+      "relative_frequency": 0.010791,
       "rank": 5
     },
     {
-      "keyword": "detection",
-      "count": 2,
+      "keyword": "knowledge graph",
+      "count": 5,
+      "relative_frequency": 0.008993,
       "rank": 6
     },
     {
-      "keyword": "information",
-      "count": 2,
+      "keyword": "query",
+      "count": 5,
+      "relative_frequency": 0.008993,
       "rank": 7
     },
     {
-      "keyword": "prediction",
-      "count": 2,
+      "keyword": "detection",
+      "count": 4,
+      "relative_frequency": 0.007194,
       "rank": 8
     },
     {
-      "keyword": "rate prediction",
-      "count": 2,
+      "keyword": "neural network",
+      "count": 4,
+      "relative_frequency": 0.007194,
       "rank": 9
     },
     {
-      "keyword": "recommendation",
-      "count": 2,
+      "keyword": "online",
+      "count": 4,
+      "relative_frequency": 0.007194,
       "rank": 10
     },
     {
       "keyword": "web",
-      "count": 2,
+      "count": 4,
+      "relative_frequency": 0.007194,
       "rank": 11
     },
     {
-      "keyword": "active",
-      "count": 1,
+      "keyword": "convolutional neural network",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 12
     },
     {
-      "keyword": "active search",
-      "count": 1,
+      "keyword": "feedback",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 13
     },
     {
-      "keyword": "analytics",
-      "count": 1,
+      "keyword": "heterogeneous",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 14
     },
     {
-      "keyword": "analyzing product",
-      "count": 1,
+      "keyword": "inference",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 15
     },
     {
-      "keyword": "anomalous feature transfers",
-      "count": 1,
+      "keyword": "information",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 16
     },
     {
-      "keyword": "anomaly",
-      "count": 1,
+      "keyword": "journalistic",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 17
     },
     {
-      "keyword": "anomaly detection",
-      "count": 1,
+      "keyword": "journalistic knowledge",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 18
     },
     {
-      "keyword": "anomaly subgraph",
-      "count": 1,
+      "keyword": "machine learning",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 19
     },
     {
-      "keyword": "anomaly subgraph detection",
-      "count": 1,
+      "keyword": "matching",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 20
     },
     {
-      "keyword": "answer",
-      "count": 1,
+      "keyword": "platforms",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 21
     },
     {
-      "keyword": "answer generation",
-      "count": 1,
+      "keyword": "prediction",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 22
     },
     {
-      "keyword": "argument mining",
-      "count": 1,
+      "keyword": "recommender systems",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 23
     },
     {
-      "keyword": "articles",
-      "count": 1,
+      "keyword": "reinforcement learning",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 24
     },
     {
-      "keyword": "attention",
-      "count": 1,
+      "keyword": "users",
+      "count": 3,
+      "relative_frequency": 0.005396,
       "rank": 25
     },
     {
-      "keyword": "attribution",
-      "count": 1,
+      "keyword": "anomaly detection",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 26
     },
     {
-      "keyword": "automatic unbiased",
-      "count": 1,
+      "keyword": "articles",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 27
     },
     {
-      "keyword": "automatic unbiased learning",
-      "count": 1,
+      "keyword": "classification",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 28
     },
     {
-      "keyword": "bandit",
-      "count": 1,
+      "keyword": "click through rate",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 29
     },
     {
-      "keyword": "base",
-      "count": 1,
+      "keyword": "click through rate prediction",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 30
     },
     {
-      "keyword": "base bandits",
-      "count": 1,
+      "keyword": "clustering",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 31
     },
     {
-      "keyword": "benchmark tasks",
-      "count": 1,
+      "keyword": "comments",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 32
     },
     {
-      "keyword": "benchmarking",
-      "count": 1,
+      "keyword": "ctr",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 33
     },
     {
-      "keyword": "bing web search",
-      "count": 1,
+      "keyword": "ctr prediction",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 34
     },
     {
-      "keyword": "bridging the gap",
-      "count": 1,
+      "keyword": "deep",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 35
     },
     {
-      "keyword": "bundle recommendation",
-      "count": 1,
+      "keyword": "deep learning",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 36
     },
     {
-      "keyword": "causality learning",
-      "count": 1,
+      "keyword": "ehr",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 37
     },
     {
-      "keyword": "claim detection",
-      "count": 1,
+      "keyword": "entities",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 38
     },
     {
-      "keyword": "click",
-      "count": 1,
+      "keyword": "entity",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 39
     },
     {
-      "keyword": "click data",
-      "count": 1,
+      "keyword": "entity matching",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 40
     },
     {
-      "keyword": "commonsense knowledge base",
-      "count": 1,
+      "keyword": "flow",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 41
     },
     {
-      "keyword": "confidence",
-      "count": 1,
+      "keyword": "generation",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 42
     },
     {
-      "keyword": "context aware speaker",
-      "count": 1,
+      "keyword": "graph completion",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 43
     },
     {
-      "keyword": "context aware speaker recognition",
-      "count": 1,
+      "keyword": "graph neural network",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 44
     },
     {
-      "keyword": "cost",
-      "count": 1,
+      "keyword": "heterogeneous network",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 45
     },
     {
-      "keyword": "cost estimation",
-      "count": 1,
+      "keyword": "interactions",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 46
     },
     {
-      "keyword": "cost estimation technique",
-      "count": 1,
+      "keyword": "journalistic knowledge platforms",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 47
     },
     {
-      "keyword": "covariate shift",
-      "count": 1,
+      "keyword": "knowledge graph completion",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 48
     },
     {
-      "keyword": "credibility",
-      "count": 1,
+      "keyword": "knowledge platforms",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 49
     },
     {
-      "keyword": "credibility research",
-      "count": 1,
+      "keyword": "learning to rank",
+      "count": 2,
+      "relative_frequency": 0.003597,
       "rank": 50
     }
   ],
   "2021": [
     {
       "keyword": "graph",
-      "count": 3,
+      "count": 11,
+      "relative_frequency": 0.018364,
       "rank": 1
     },
     {
       "keyword": "graph neural network",
-      "count": 3,
+      "count": 10,
+      "relative_frequency": 0.016694,
       "rank": 2
     },
     {
-      "keyword": "information",
-      "count": 3,
+      "keyword": "neural networks",
+      "count": 8,
+      "relative_frequency": 0.013356,
       "rank": 3
     },
     {
-      "keyword": "contrastive learning",
-      "count": 2,
+      "keyword": "recommendation",
+      "count": 8,
+      "relative_frequency": 0.013356,
       "rank": 4
     },
     {
-      "keyword": "graph neural",
-      "count": 2,
+      "keyword": "embedding",
+      "count": 6,
+      "relative_frequency": 0.010017,
       "rank": 5
     },
     {
-      "keyword": "heterogeneous",
-      "count": 2,
+      "keyword": "deep learning",
+      "count": 5,
+      "relative_frequency": 0.008347,
       "rank": 6
     },
     {
-      "keyword": "link prediction",
-      "count": 2,
+      "keyword": "graph neural",
+      "count": 5,
+      "relative_frequency": 0.008347,
       "rank": 7
     },
     {
-      "keyword": "neural network",
-      "count": 2,
+      "keyword": "information",
+      "count": 5,
+      "relative_frequency": 0.008347,
       "rank": 8
     },
     {
-      "keyword": "prediction",
-      "count": 2,
+      "keyword": "query",
+      "count": 5,
+      "relative_frequency": 0.008347,
       "rank": 9
     },
     {
-      "keyword": "ada",
-      "count": 1,
+      "keyword": "collaborative filtering",
+      "count": 4,
+      "relative_frequency": 0.006678,
       "rank": 10
     },
     {
-      "keyword": "adasim",
-      "count": 1,
+      "keyword": "contrastive learning",
+      "count": 4,
+      "relative_frequency": 0.006678,
       "rank": 11
     },
     {
-      "keyword": "aging issue",
-      "count": 1,
+      "keyword": "filtering",
+      "count": 4,
+      "relative_frequency": 0.006678,
       "rank": 12
     },
     {
-      "keyword": "ambiguous relation classification",
-      "count": 1,
+      "keyword": "graph embedding",
+      "count": 4,
+      "relative_frequency": 0.006678,
       "rank": 13
     },
     {
-      "keyword": "anomaly",
-      "count": 1,
+      "keyword": "knowledge graph",
+      "count": 4,
+      "relative_frequency": 0.006678,
       "rank": 14
     },
     {
-      "keyword": "anomaly detection framework",
-      "count": 1,
+      "keyword": "link prediction",
+      "count": 4,
+      "relative_frequency": 0.006678,
       "rank": 15
     },
     {
-      "keyword": "assessment",
-      "count": 1,
+      "keyword": "prediction",
+      "count": 4,
+      "relative_frequency": 0.006678,
       "rank": 16
     },
     {
-      "keyword": "assisting manual",
-      "count": 1,
+      "keyword": "recommender systems",
+      "count": 4,
+      "relative_frequency": 0.006678,
       "rank": 17
     },
     {
-      "keyword": "assisting manual fact checking",
-      "count": 1,
+      "keyword": "retrieval",
+      "count": 4,
+      "relative_frequency": 0.006678,
       "rank": 18
     },
     {
-      "keyword": "based on euclidean",
-      "count": 1,
+      "keyword": "text",
+      "count": 4,
+      "relative_frequency": 0.006678,
       "rank": 19
     },
     {
-      "keyword": "based on hybrid",
-      "count": 1,
+      "keyword": "collaborative",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 20
     },
     {
-      "keyword": "batch based task assignment",
-      "count": 1,
+      "keyword": "deep learning models",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 21
     },
     {
-      "keyword": "claims",
-      "count": 1,
+      "keyword": "entity",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 22
     },
     {
-      "keyword": "classification",
-      "count": 1,
+      "keyword": "feature",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 23
     },
     {
-      "keyword": "click through rate",
-      "count": 1,
+      "keyword": "generation",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 24
     },
     {
-      "keyword": "click through rate prediction",
-      "count": 1,
+      "keyword": "graph attention network",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 25
     },
     {
-      "keyword": "closing",
-      "count": 1,
+      "keyword": "knowledge",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 26
     },
     {
-      "keyword": "closing higher order motifs",
-      "count": 1,
+      "keyword": "machine learning",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 27
     },
     {
-      "keyword": "concept drift",
-      "count": 1,
+      "keyword": "natural language",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 28
     },
     {
-      "keyword": "constructing noise free",
-      "count": 1,
+      "keyword": "natural language processing",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 29
     },
     {
-      "keyword": "context information",
-      "count": 1,
+      "keyword": "neural network",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 30
     },
     {
-      "keyword": "contextualizing scientific claims",
-      "count": 1,
+      "keyword": "ranking",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 31
     },
     {
-      "keyword": "contrastive pre training",
-      "count": 1,
+      "keyword": "web",
+      "count": 3,
+      "relative_frequency": 0.005008,
       "rank": 32
     },
     {
-      "keyword": "credit",
-      "count": 1,
+      "keyword": "answering",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 33
     },
     {
-      "keyword": "credit risk",
-      "count": 1,
+      "keyword": "architecture search",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 34
     },
     {
-      "keyword": "credit risk assessment",
-      "count": 1,
+      "keyword": "automated",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 35
     },
     {
-      "keyword": "cross features",
-      "count": 1,
+      "keyword": "chinese",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 36
     },
     {
-      "keyword": "crowdsourcing with untrusted",
-      "count": 1,
+      "keyword": "classification",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 37
     },
     {
-      "keyword": "ctr",
-      "count": 1,
+      "keyword": "community",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 38
     },
     {
-      "keyword": "ctr prediction",
-      "count": 1,
+      "keyword": "conversational",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 39
     },
     {
-      "keyword": "deep learning",
-      "count": 1,
+      "keyword": "convolutional neural network",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 40
     },
     {
-      "keyword": "deep learning models",
-      "count": 1,
+      "keyword": "cross",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 41
     },
     {
-      "keyword": "deep learning software",
-      "count": 1,
+      "keyword": "cross features",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 42
     },
     {
-      "keyword": "deep learning technologies",
-      "count": 1,
+      "keyword": "ctr",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 43
     },
     {
-      "keyword": "deep traffic models",
-      "count": 1,
+      "keyword": "ctr prediction",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 44
     },
     {
-      "keyword": "description framework",
-      "count": 1,
+      "keyword": "customers",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 45
     },
     {
-      "keyword": "detecting",
-      "count": 1,
+      "keyword": "data augmentation",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 46
     },
     {
-      "keyword": "detecting and contextualizing",
-      "count": 1,
+      "keyword": "deep",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 47
     },
     {
-      "keyword": "detection",
-      "count": 1,
+      "keyword": "dense retrieval",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 48
     },
     {
-      "keyword": "detection leveraging multi level",
-      "count": 1,
+      "keyword": "emotion",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 49
     },
     {
-      "keyword": "distance matrix",
-      "count": 1,
+      "keyword": "entity matching",
+      "count": 2,
+      "relative_frequency": 0.003339,
       "rank": 50
     }
   ],
   "2022": [
     {
-      "keyword": "recommendation",
-      "count": 4,
+      "keyword": "graph",
+      "count": 13,
+      "relative_frequency": 0.019697,
       "rank": 1
     },
     {
-      "keyword": "domain",
-      "count": 3,
+      "keyword": "recommendation",
+      "count": 12,
+      "relative_frequency": 0.018182,
       "rank": 2
     },
     {
       "keyword": "knowledge",
-      "count": 3,
+      "count": 8,
+      "relative_frequency": 0.012121,
       "rank": 3
     },
     {
-      "keyword": "deep reinforcement",
-      "count": 2,
+      "keyword": "prediction",
+      "count": 8,
+      "relative_frequency": 0.012121,
       "rank": 4
     },
     {
-      "keyword": "graph",
-      "count": 2,
+      "keyword": "graph neural network",
+      "count": 7,
+      "relative_frequency": 0.010606,
       "rank": 5
     },
     {
-      "keyword": "knowledge graphs",
-      "count": 2,
+      "keyword": "entity",
+      "count": 6,
+      "relative_frequency": 0.009091,
       "rank": 6
     },
     {
-      "keyword": "reinforcement learning",
-      "count": 2,
+      "keyword": "neural networks",
+      "count": 6,
+      "relative_frequency": 0.009091,
       "rank": 7
     },
     {
-      "keyword": "action space",
-      "count": 1,
+      "keyword": "reinforcement learning",
+      "count": 6,
+      "relative_frequency": 0.009091,
       "rank": 8
     },
     {
-      "keyword": "action space search",
-      "count": 1,
+      "keyword": "series",
+      "count": 6,
+      "relative_frequency": 0.009091,
       "rank": 9
     },
     {
-      "keyword": "adapted xai solution",
-      "count": 1,
+      "keyword": "time series",
+      "count": 6,
+      "relative_frequency": 0.009091,
       "rank": 10
     },
     {
-      "keyword": "addressing cold",
-      "count": 1,
+      "keyword": "contrastive learning",
+      "count": 5,
+      "relative_frequency": 0.007576,
       "rank": 11
     },
     {
-      "keyword": "addressing cold start",
-      "count": 1,
+      "keyword": "graph neural",
+      "count": 5,
+      "relative_frequency": 0.007576,
       "rank": 12
     },
     {
-      "keyword": "advanced",
-      "count": 1,
+      "keyword": "multi task learning",
+      "count": 5,
+      "relative_frequency": 0.007576,
       "rank": 13
     },
     {
-      "keyword": "advanced query",
-      "count": 1,
+      "keyword": "time",
+      "count": 5,
+      "relative_frequency": 0.007576,
       "rank": 14
     },
     {
-      "keyword": "advanced query generation",
-      "count": 1,
+      "keyword": "user",
+      "count": 5,
+      "relative_frequency": 0.007576,
       "rank": 15
     },
     {
-      "keyword": "adversarial adaptation",
-      "count": 1,
+      "keyword": "knowledge graph",
+      "count": 4,
+      "relative_frequency": 0.006061,
       "rank": 16
     },
     {
-      "keyword": "adversarial spatial temporal network",
-      "count": 1,
+      "keyword": "recommender systems",
+      "count": 4,
+      "relative_frequency": 0.006061,
       "rank": 17
     },
     {
-      "keyword": "artificial intelligence",
-      "count": 1,
+      "keyword": "search",
+      "count": 4,
+      "relative_frequency": 0.006061,
       "rank": 18
     },
     {
-      "keyword": "attention based personalized",
-      "count": 1,
+      "keyword": "self supervised learning",
+      "count": 4,
+      "relative_frequency": 0.006061,
       "rank": 19
     },
     {
-      "keyword": "attention based personalized federated",
-      "count": 1,
+      "keyword": "sequential recommendation",
+      "count": 4,
+      "relative_frequency": 0.006061,
       "rank": 20
     },
     {
-      "keyword": "automated randomization validation",
-      "count": 1,
+      "keyword": "social",
+      "count": 4,
+      "relative_frequency": 0.006061,
       "rank": 21
     },
     {
-      "keyword": "automated test quality",
-      "count": 1,
+      "keyword": "time series forecasting",
+      "count": 4,
+      "relative_frequency": 0.006061,
       "rank": 22
     },
     {
-      "keyword": "automatic dbscan parameters",
-      "count": 1,
+      "keyword": "causal",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 23
     },
     {
-      "keyword": "automatically select",
-      "count": 1,
+      "keyword": "chinese",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 24
     },
     {
-      "keyword": "automating dbscan",
-      "count": 1,
+      "keyword": "domain",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 25
     },
     {
-      "keyword": "bert",
-      "count": 1,
+      "keyword": "federated learning",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 26
     },
     {
-      "keyword": "bert latent",
-      "count": 1,
+      "keyword": "graphs",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 27
     },
     {
-      "keyword": "bert latent space",
-      "count": 1,
+      "keyword": "information",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 28
     },
     {
-      "keyword": "bert vector space",
-      "count": 1,
+      "keyword": "knowledge graphs",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 29
     },
     {
-      "keyword": "biased continuous feedback",
-      "count": 1,
+      "keyword": "link",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 30
     },
     {
-      "keyword": "biased feedback",
-      "count": 1,
+      "keyword": "link prediction",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 31
     },
     {
-      "keyword": "causal",
-      "count": 1,
+      "keyword": "machine learning",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 32
     },
     {
-      "keyword": "causal effects",
-      "count": 1,
+      "keyword": "molecular",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 33
     },
     {
-      "keyword": "causal effects estimation",
-      "count": 1,
+      "keyword": "neural network",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 34
     },
     {
-      "keyword": "chilean social",
-      "count": 1,
+      "keyword": "retrieval",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 35
     },
     {
-      "keyword": "chilean social outbreak",
-      "count": 1,
+      "keyword": "sequential",
+      "count": 3,
+      "relative_frequency": 0.004545,
       "rank": 36
     },
     {
-      "keyword": "chinese",
-      "count": 1,
+      "keyword": "artificial intelligence",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 37
     },
     {
-      "keyword": "chinese characters",
-      "count": 1,
+      "keyword": "attributes",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 38
     },
     {
-      "keyword": "chinese word",
-      "count": 1,
+      "keyword": "causal effects",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 39
     },
     {
-      "keyword": "chinese word embeddings",
-      "count": 1,
+      "keyword": "causal inference",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 40
     },
     {
-      "keyword": "cold",
-      "count": 1,
+      "keyword": "classification",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 41
     },
     {
       "keyword": "cold start",
-      "count": 1,
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 42
     },
     {
-      "keyword": "complex deep learning",
-      "count": 1,
+      "keyword": "collaborative",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 43
     },
     {
-      "keyword": "compression",
-      "count": 1,
+      "keyword": "ctr prediction",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 44
     },
     {
-      "keyword": "constraints",
-      "count": 1,
+      "keyword": "deep learning",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 45
     },
     {
-      "keyword": "continuous biased feedback",
-      "count": 1,
+      "keyword": "deep reinforcement",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 46
     },
     {
-      "keyword": "continuous feedback",
-      "count": 1,
+      "keyword": "detection",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 47
     },
     {
-      "keyword": "contrastive learning",
-      "count": 1,
+      "keyword": "early",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 48
     },
     {
-      "keyword": "contrastive variational",
-      "count": 1,
+      "keyword": "entities",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 49
     },
     {
-      "keyword": "contrastive variational autoencoder",
-      "count": 1,
+      "keyword": "executable knowledge graph",
+      "count": 2,
+      "relative_frequency": 0.00303,
       "rank": 50
     }
   ],
   "2023": [
     {
       "keyword": "graph",
-      "count": 2,
+      "count": 11,
+      "relative_frequency": 0.016035,
       "rank": 1
     },
     {
-      "keyword": "knowledge",
-      "count": 2,
+      "keyword": "large language model",
+      "count": 10,
+      "relative_frequency": 0.014577,
       "rank": 2
     },
     {
-      "keyword": "product",
-      "count": 2,
+      "keyword": "recommendation",
+      "count": 9,
+      "relative_frequency": 0.01312,
       "rank": 3
     },
     {
-      "keyword": "recommendation",
-      "count": 2,
+      "keyword": "knowledge",
+      "count": 8,
+      "relative_frequency": 0.011662,
       "rank": 4
     },
     {
-      "keyword": "access",
-      "count": 1,
+      "keyword": "contrastive learning",
+      "count": 6,
+      "relative_frequency": 0.008746,
       "rank": 5
     },
     {
-      "keyword": "access information",
-      "count": 1,
+      "keyword": "graph neural network",
+      "count": 6,
+      "relative_frequency": 0.008746,
       "rank": 6
     },
     {
-      "keyword": "adaptive",
-      "count": 1,
+      "keyword": "prediction",
+      "count": 6,
+      "relative_frequency": 0.008746,
       "rank": 7
     },
     {
-      "keyword": "adaptive testing",
-      "count": 1,
+      "keyword": "time series",
+      "count": 6,
+      "relative_frequency": 0.008746,
       "rank": 8
     },
     {
-      "keyword": "adaptive testing framework",
-      "count": 1,
+      "keyword": "retrieval",
+      "count": 5,
+      "relative_frequency": 0.007289,
       "rank": 9
     },
     {
-      "keyword": "advisors",
-      "count": 1,
+      "keyword": "search",
+      "count": 5,
+      "relative_frequency": 0.007289,
       "rank": 10
     },
     {
-      "keyword": "algebraic word problems",
-      "count": 1,
+      "keyword": "domain",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 11
     },
     {
-      "keyword": "analyzing index",
-      "count": 1,
+      "keyword": "graph representation learning",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 12
     },
     {
-      "keyword": "analyzing index advisors",
-      "count": 1,
+      "keyword": "natural language processing",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 13
     },
     {
-      "keyword": "anomaly detection",
-      "count": 1,
+      "keyword": "neural networks",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 14
     },
     {
-      "keyword": "anomaly detection inspired",
-      "count": 1,
+      "keyword": "pre trained language models",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 15
     },
     {
-      "keyword": "aspect aware entities",
-      "count": 1,
+      "keyword": "product",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 16
     },
     {
-      "keyword": "aspect related",
-      "count": 1,
+      "keyword": "recommender",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 17
     },
     {
-      "keyword": "aspect related images",
-      "count": 1,
+      "keyword": "recommender systems",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 18
     },
     {
-      "keyword": "association rule",
-      "count": 1,
+      "keyword": "sequential",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 19
     },
     {
-      "keyword": "association rule hiding",
-      "count": 1,
+      "keyword": "sequential recommendation",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 20
     },
     {
-      "keyword": "asymmetric contrastive",
-      "count": 1,
+      "keyword": "time",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 21
     },
     {
-      "keyword": "asymmetric contrastive learning",
-      "count": 1,
+      "keyword": "user",
+      "count": 4,
+      "relative_frequency": 0.005831,
       "rank": 22
     },
     {
-      "keyword": "benchmarking heterogeneous graph",
-      "count": 1,
+      "keyword": "detection",
+      "count": 3,
+      "relative_frequency": 0.004373,
       "rank": 23
     },
     {
-      "keyword": "bidirectional transformer",
-      "count": 1,
+      "keyword": "diffusion model",
+      "count": 3,
+      "relative_frequency": 0.004373,
       "rank": 24
     },
     {
-      "keyword": "bootstrap proportion test",
-      "count": 1,
+      "keyword": "documents",
+      "count": 3,
+      "relative_frequency": 0.004373,
       "rank": 25
     },
     {
-      "keyword": "brand",
-      "count": 1,
+      "keyword": "graph neural",
+      "count": 3,
+      "relative_frequency": 0.004373,
       "rank": 26
     },
     {
-      "keyword": "brand lift",
-      "count": 1,
+      "keyword": "information",
+      "count": 3,
+      "relative_frequency": 0.004373,
       "rank": 27
     },
     {
-      "keyword": "brand lift test",
-      "count": 1,
+      "keyword": "language processing",
+      "count": 3,
+      "relative_frequency": 0.004373,
       "rank": 28
     },
     {
-      "keyword": "catastrophic interference",
-      "count": 1,
+      "keyword": "multivariate time series",
+      "count": 3,
+      "relative_frequency": 0.004373,
       "rank": 29
     },
     {
-      "keyword": "class incremental",
-      "count": 1,
+      "keyword": "natural language",
+      "count": 3,
+      "relative_frequency": 0.004373,
       "rank": 30
     },
     {
-      "keyword": "class incremental learning",
-      "count": 1,
+      "keyword": "personalized",
+      "count": 3,
+      "relative_frequency": 0.004373,
       "rank": 31
     },
     {
-      "keyword": "co purchase",
-      "count": 1,
+      "keyword": "traffic",
+      "count": 3,
+      "relative_frequency": 0.004373,
       "rank": 32
     },
     {
-      "keyword": "co purchase correlation",
-      "count": 1,
+      "keyword": "active learning",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 33
     },
     {
-      "keyword": "community",
-      "count": 1,
+      "keyword": "adversarial",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 34
     },
     {
-      "keyword": "community questions",
-      "count": 1,
+      "keyword": "biases",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 35
     },
     {
-      "keyword": "computerized adaptive",
-      "count": 1,
+      "keyword": "classification",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 36
     },
     {
-      "keyword": "computerized adaptive testing",
-      "count": 1,
+      "keyword": "collaborative",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 37
     },
     {
-      "keyword": "conservation",
-      "count": 1,
+      "keyword": "collaborative filtering",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 38
     },
     {
-      "keyword": "contrastive learning",
-      "count": 1,
+      "keyword": "community",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 39
     },
     {
-      "keyword": "corpora",
-      "count": 1,
+      "keyword": "conversion rate",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 40
     },
     {
-      "keyword": "correlation",
-      "count": 1,
+      "keyword": "corpora",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 41
     },
     {
-      "keyword": "detection inspired class",
-      "count": 1,
+      "keyword": "delayed feedback",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 42
     },
     {
-      "keyword": "diverse",
-      "count": 1,
+      "keyword": "embedding",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 43
     },
     {
-      "keyword": "diverse corpora",
-      "count": 1,
+      "keyword": "few shot",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 44
     },
     {
-      "keyword": "dual level asymmetric contrastive",
-      "count": 1,
+      "keyword": "forecasting",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 45
     },
     {
-      "keyword": "dynamic sparse graph",
-      "count": 1,
+      "keyword": "generative",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 46
     },
     {
-      "keyword": "effective graph embedding",
-      "count": 1,
+      "keyword": "graph structure",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 47
     },
     {
-      "keyword": "effects",
-      "count": 1,
+      "keyword": "graphs",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 48
     },
     {
-      "keyword": "efficient knowledge extraction",
-      "count": 1,
+      "keyword": "heterogeneous graph",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 49
     },
     {
-      "keyword": "embedding",
-      "count": 1,
+      "keyword": "information retrieval",
+      "count": 2,
+      "relative_frequency": 0.002915,
       "rank": 50
     }
   ],
   "2024": [
     {
-      "keyword": "knowledge",
-      "count": 3,
+      "keyword": "large language model",
+      "count": 20,
+      "relative_frequency": 0.028329,
       "rank": 1
     },
     {
       "keyword": "recommendation",
-      "count": 3,
+      "count": 12,
+      "relative_frequency": 0.016997,
       "rank": 2
     },
     {
-      "keyword": "sequential recommendation",
-      "count": 3,
+      "keyword": "graph neural network",
+      "count": 11,
+      "relative_frequency": 0.015581,
       "rank": 3
     },
     {
-      "keyword": "contrastive learning",
-      "count": 2,
+      "keyword": "generation",
+      "count": 8,
+      "relative_frequency": 0.011331,
       "rank": 4
     },
     {
-      "keyword": "generation",
-      "count": 2,
+      "keyword": "neural networks",
+      "count": 8,
+      "relative_frequency": 0.011331,
       "rank": 5
     },
     {
-      "keyword": "learning model",
-      "count": 2,
+      "keyword": "time series",
+      "count": 8,
+      "relative_frequency": 0.011331,
       "rank": 6
     },
     {
-      "keyword": "recommendation systems",
-      "count": 2,
+      "keyword": "graph",
+      "count": 7,
+      "relative_frequency": 0.009915,
       "rank": 7
     },
     {
-      "keyword": "retrieval augmented",
-      "count": 2,
+      "keyword": "graph neural",
+      "count": 7,
+      "relative_frequency": 0.009915,
       "rank": 8
     },
     {
-      "keyword": "retrieval augmented generation",
-      "count": 2,
+      "keyword": "sequential recommendation",
+      "count": 6,
+      "relative_frequency": 0.008499,
       "rank": 9
     },
     {
-      "keyword": "adversarial attack",
-      "count": 1,
+      "keyword": "diffusion model",
+      "count": 5,
+      "relative_frequency": 0.007082,
       "rank": 10
     },
     {
-      "keyword": "alignment",
-      "count": 1,
+      "keyword": "retrieval",
+      "count": 5,
+      "relative_frequency": 0.007082,
       "rank": 11
     },
     {
-      "keyword": "amia",
-      "count": 1,
+      "keyword": "retrieval augmented generation",
+      "count": 5,
+      "relative_frequency": 0.007082,
       "rank": 12
     },
     {
       "keyword": "anomaly detection",
-      "count": 1,
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 13
     },
     {
-      "keyword": "anomaly detection performance",
-      "count": 1,
+      "keyword": "detection",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 14
     },
     {
-      "keyword": "answering",
-      "count": 1,
+      "keyword": "knowledge",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 15
     },
     {
-      "keyword": "artificial intelligence",
-      "count": 1,
+      "keyword": "multivariate time",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 16
     },
     {
-      "keyword": "attack",
-      "count": 1,
+      "keyword": "multivariate time series",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 17
     },
     {
-      "keyword": "attack effectiveness",
-      "count": 1,
+      "keyword": "node",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 18
     },
     {
-      "keyword": "attributions for informative",
-      "count": 1,
+      "keyword": "reinforcement learning",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 19
     },
     {
-      "keyword": "bidirectional",
-      "count": 1,
+      "keyword": "search",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 20
     },
     {
-      "keyword": "bidirectional encoding",
-      "count": 1,
+      "keyword": "sequential",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 21
     },
     {
-      "keyword": "bidirectional encoding network",
-      "count": 1,
+      "keyword": "social",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 22
     },
     {
-      "keyword": "bots shield fake",
-      "count": 1,
+      "keyword": "text",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 23
     },
     {
-      "keyword": "bridging user dynamics",
-      "count": 1,
+      "keyword": "time series forecasting",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 24
     },
     {
-      "keyword": "causal discovery",
-      "count": 1,
+      "keyword": "traffic",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 25
     },
     {
-      "keyword": "chronological order",
-      "count": 1,
+      "keyword": "user",
+      "count": 4,
+      "relative_frequency": 0.005666,
       "rank": 26
     },
     {
-      "keyword": "cikm",
-      "count": 1,
+      "keyword": "adversarial",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 27
     },
     {
-      "keyword": "cikm mmsr",
-      "count": 1,
+      "keyword": "classification",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 28
     },
     {
-      "keyword": "clinical",
-      "count": 1,
+      "keyword": "contrastive learning",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 29
     },
     {
-      "keyword": "clinical notes",
-      "count": 1,
+      "keyword": "discovery",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 30
     },
     {
-      "keyword": "cloud sequences learning",
-      "count": 1,
+      "keyword": "federated learning",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 31
     },
     {
-      "keyword": "complex information landscapes",
-      "count": 1,
+      "keyword": "knowledge graph",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 32
     },
     {
-      "keyword": "complex scenarios",
-      "count": 1,
+      "keyword": "local",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 33
     },
     {
-      "keyword": "compositional and hierarchical",
-      "count": 1,
+      "keyword": "neural network",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 34
     },
     {
-      "keyword": "confidence aware privileged feature",
-      "count": 1,
+      "keyword": "node classification",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 35
     },
     {
-      "keyword": "consumption",
-      "count": 1,
+      "keyword": "prediction",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 36
     },
     {
-      "keyword": "contrastive bidirectional",
-      "count": 1,
+      "keyword": "query",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 37
     },
     {
-      "keyword": "contrastive bidirectional encoding",
-      "count": 1,
+      "keyword": "recommender systems",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 38
     },
     {
-      "keyword": "conversations",
-      "count": 1,
+      "keyword": "series",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 39
     },
     {
-      "keyword": "correcting biases",
-      "count": 1,
+      "keyword": "social media",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 40
     },
     {
-      "keyword": "dense features",
-      "count": 1,
+      "keyword": "time",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 41
     },
     {
-      "keyword": "detection models",
-      "count": 1,
+      "keyword": "time series data",
+      "count": 3,
+      "relative_frequency": 0.004249,
       "rank": 42
     },
     {
-      "keyword": "diffusion model",
-      "count": 1,
+      "keyword": "adversarial attack",
+      "count": 2,
+      "relative_frequency": 0.002833,
       "rank": 43
     },
     {
-      "keyword": "discovery",
-      "count": 1,
+      "keyword": "answering",
+      "count": 2,
+      "relative_frequency": 0.002833,
       "rank": 44
     },
     {
-      "keyword": "distillation",
-      "count": 1,
+      "keyword": "articles",
+      "count": 2,
+      "relative_frequency": 0.002833,
       "rank": 45
     },
     {
-      "keyword": "efficient and secure",
-      "count": 1,
+      "keyword": "artificial intelligence",
+      "count": 2,
+      "relative_frequency": 0.002833,
       "rank": 46
     },
     {
-      "keyword": "energy",
-      "count": 1,
+      "keyword": "attack",
+      "count": 2,
+      "relative_frequency": 0.002833,
       "rank": 47
     },
     {
-      "keyword": "energy consumption",
-      "count": 1,
+      "keyword": "augmentation",
+      "count": 2,
+      "relative_frequency": 0.002833,
       "rank": 48
     },
     {
-      "keyword": "energy consumption prediction",
-      "count": 1,
+      "keyword": "deep reinforcement",
+      "count": 2,
+      "relative_frequency": 0.002833,
       "rank": 49
     },
     {
-      "keyword": "engagement based fake",
-      "count": 1,
+      "keyword": "distributed",
+      "count": 2,
+      "relative_frequency": 0.002833,
       "rank": 50
     }
-  ]
+  ],
+  "2025": []
 }

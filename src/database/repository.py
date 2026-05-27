@@ -608,6 +608,32 @@ class StructuredRepository(BaseRepository):
 
 class AnalysisRepository(BaseRepository):
     """分析层仓库"""
+
+    def __init__(self, db_path: Path = None):
+        super().__init__(db_path)
+        self._ensure_analysis_schema_columns()
+
+    def _ensure_analysis_schema_columns(self):
+        """Add cache columns introduced after the initial schema."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("PRAGMA table_info(analysis_keyword_trends)")
+            columns = {row["name"] for row in cursor.fetchall()}
+            if "relative_frequency" not in columns:
+                cursor.execute(
+                    "ALTER TABLE analysis_keyword_trends ADD COLUMN relative_frequency REAL DEFAULT 0.0"
+                )
+            if "rank" not in columns:
+                cursor.execute(
+                    "ALTER TABLE analysis_keyword_trends ADD COLUMN rank INTEGER DEFAULT 0"
+                )
+            cursor.execute("PRAGMA table_info(analysis_arxiv_timeseries)")
+            arxiv_columns = {row["name"] for row in cursor.fetchall()}
+            if "warnings_json" not in arxiv_columns:
+                cursor.execute(
+                    "ALTER TABLE analysis_arxiv_timeseries ADD COLUMN warnings_json TEXT"
+                )
+            conn.commit()
     
     # ========== Keyword 操作 ==========
     
@@ -1136,15 +1162,17 @@ class AnalysisRepository(BaseRepository):
         keyword: str,
         granularity: str,
         bucket: str,
-        count: int
+        count: int,
+        relative_frequency: float = 0.0,
+        rank: int = 0,
     ):
         """保存关键词趋势数据点"""
         with self._get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute("""
                 INSERT OR REPLACE INTO analysis_keyword_trends 
-                (scope, venue, keyword, granularity, bucket, count, updated_at)
-                VALUES (?, ?, ?, ?, ?, ?, ?)
+                (scope, venue, keyword, granularity, bucket, count, relative_frequency, rank, updated_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 scope,
                 venue or '',  # 空字符串代替 NULL
@@ -1152,6 +1180,8 @@ class AnalysisRepository(BaseRepository):
                 granularity,
                 bucket,
                 count,
+                float(relative_frequency or 0),
+                int(rank or 0),
                 datetime.now().isoformat()
             ))
             conn.commit()
@@ -1163,8 +1193,8 @@ class AnalysisRepository(BaseRepository):
             for t in trends:
                 cursor.execute("""
                     INSERT OR REPLACE INTO analysis_keyword_trends 
-                    (scope, venue, keyword, granularity, bucket, count, updated_at)
-                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                    (scope, venue, keyword, granularity, bucket, count, relative_frequency, rank, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, (
                     t["scope"],
                     t.get("venue") or '',  # 空字符串代替 NULL
@@ -1172,6 +1202,8 @@ class AnalysisRepository(BaseRepository):
                     t["granularity"],
                     t["bucket"],
                     t["count"],
+                    float(t.get("relative_frequency") or 0),
+                    int(t.get("rank") or 0),
                     datetime.now().isoformat()
                 ))
             conn.commit()
@@ -1188,14 +1220,62 @@ class AnalysisRepository(BaseRepository):
             cursor = conn.cursor()
             venue_val = venue or ''
             cursor.execute("""
-                SELECT bucket, count FROM analysis_keyword_trends 
+                SELECT bucket, count, relative_frequency, rank FROM analysis_keyword_trends 
                 WHERE scope = ? AND keyword = ? AND granularity = ? AND venue = ?
                 ORDER BY bucket
             """, (scope, keyword.lower(), granularity, venue_val))
-            return [{"bucket": row["bucket"], "count": row["count"]} for row in cursor.fetchall()]
+            return [
+                {
+                    "bucket": row["bucket"],
+                    "count": row["count"],
+                    "relative_frequency": row["relative_frequency"],
+                    "rank": row["rank"],
+                }
+                for row in cursor.fetchall()
+            ]
+
+    def get_keyword_trends_for_scope(
+        self,
+        scope: str,
+        granularity: str,
+        venue: str = None,
+    ) -> List[Dict]:
+        """Return all cached keyword trend points for one scope/category."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                """
+                SELECT keyword, bucket, count, relative_frequency, rank
+                FROM analysis_keyword_trends
+                WHERE scope = ? AND granularity = ? AND venue = ?
+                ORDER BY keyword, bucket
+                """,
+                (scope, granularity, venue or ""),
+            )
+            return [dict(row) for row in cursor.fetchall()]
     
     # ========== Analysis arXiv Timeseries 操作 ==========
-    
+
+    def clear_arxiv_analysis_scope(self, category: str, granularity: str):
+        """Clear cached arXiv buckets before rebuilding one scope."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                """
+                DELETE FROM analysis_arxiv_timeseries
+                WHERE category = ? AND granularity = ?
+                """,
+                (category, granularity),
+            )
+            cursor.execute(
+                """
+                DELETE FROM analysis_keyword_trends
+                WHERE scope = 'arxiv' AND venue = ? AND granularity = ?
+                """,
+                (category, granularity),
+            )
+            conn.commit()
+
     def save_arxiv_timeseries(
         self,
         category: str,
@@ -1209,14 +1289,15 @@ class AnalysisRepository(BaseRepository):
             cursor = conn.cursor()
             cursor.execute("""
                 INSERT OR REPLACE INTO analysis_arxiv_timeseries 
-                (category, granularity, bucket, paper_count, top_keywords_json, updated_at)
-                VALUES (?, ?, ?, ?, ?, ?)
+                (category, granularity, bucket, paper_count, top_keywords_json, warnings_json, updated_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
             """, (
                 category,
                 granularity,
                 bucket,
                 paper_count,
                 json.dumps(top_keywords or [], ensure_ascii=False),
+                json.dumps([], ensure_ascii=False),
                 datetime.now().isoformat()
             ))
             conn.commit()
@@ -1228,14 +1309,15 @@ class AnalysisRepository(BaseRepository):
             for d in data:
                 cursor.execute("""
                     INSERT OR REPLACE INTO analysis_arxiv_timeseries 
-                    (category, granularity, bucket, paper_count, top_keywords_json, updated_at)
-                    VALUES (?, ?, ?, ?, ?, ?)
+                    (category, granularity, bucket, paper_count, top_keywords_json, warnings_json, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
                 """, (
                     d["category"],
                     d["granularity"],
                     d["bucket"],
                     d["paper_count"],
                     json.dumps(d.get("top_keywords", []), ensure_ascii=False),
+                    json.dumps(d.get("warnings", []), ensure_ascii=False),
                     datetime.now().isoformat()
                 ))
             conn.commit()
@@ -1249,7 +1331,7 @@ class AnalysisRepository(BaseRepository):
         with self._get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute("""
-                SELECT bucket, paper_count, top_keywords_json FROM analysis_arxiv_timeseries 
+                SELECT bucket, paper_count, top_keywords_json, warnings_json FROM analysis_arxiv_timeseries 
                 WHERE category = ? AND granularity = ?
                 ORDER BY bucket
             """, (category, granularity))
@@ -1257,7 +1339,8 @@ class AnalysisRepository(BaseRepository):
                 {
                     "bucket": row["bucket"],
                     "paper_count": row["paper_count"],
-                    "top_keywords": json.loads(row["top_keywords_json"]) if row["top_keywords_json"] else []
+                    "top_keywords": json.loads(row["top_keywords_json"]) if row["top_keywords_json"] else [],
+                    "warnings": json.loads(row["warnings_json"]) if row["warnings_json"] else [],
                 }
                 for row in cursor.fetchall()
             ]

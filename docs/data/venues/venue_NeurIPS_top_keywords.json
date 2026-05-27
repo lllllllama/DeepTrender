@@ -3,333 +3,400 @@
     {
       "keyword": "large language model",
       "count": 4,
+      "relative_frequency": 0.00124,
       "rank": 1
     },
     {
       "keyword": "neural networks",
       "count": 3,
+      "relative_frequency": 0.00093,
       "rank": 2
     },
     {
       "keyword": "camera",
       "count": 2,
+      "relative_frequency": 0.00062,
       "rank": 3
     },
     {
       "keyword": "causal",
       "count": 2,
+      "relative_frequency": 0.00062,
       "rank": 4
     },
     {
       "keyword": "fields",
       "count": 2,
+      "relative_frequency": 0.00062,
       "rank": 5
     },
     {
       "keyword": "textbf",
       "count": 2,
+      "relative_frequency": 0.00062,
       "rank": 6
     },
     {
       "keyword": "transformer",
       "count": 2,
+      "relative_frequency": 0.00062,
       "rank": 7
     },
     {
       "keyword": "understanding",
       "count": 2,
+      "relative_frequency": 0.00062,
       "rank": 8
     },
     {
       "keyword": "accessing higher",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 9
     },
     {
       "keyword": "accessing higher dimensions",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 10
     },
     {
       "keyword": "active sensing",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 11
     },
     {
       "keyword": "addition",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 12
     },
     {
       "keyword": "addition operations",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 13
     },
     {
       "keyword": "attribution for image",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 14
     },
     {
       "keyword": "auslan daily",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 15
     },
     {
       "keyword": "australian",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 16
     },
     {
       "keyword": "australian sign",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 17
     },
     {
       "keyword": "australian sign language",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 18
     },
     {
       "keyword": "automation",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 19
     },
     {
       "keyword": "benchmarking",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 20
     },
     {
       "keyword": "benchmarking large",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 21
     },
     {
       "keyword": "benchmarking large language",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 22
     },
     {
       "keyword": "boosting horizontal box",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 23
     },
     {
       "keyword": "box supervised",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 24
     },
     {
       "keyword": "box supervised oriented",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 25
     },
     {
       "keyword": "called great score",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 26
     },
     {
       "keyword": "camera pose",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 27
     },
     {
       "keyword": "causal discovery",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 28
     },
     {
       "keyword": "causal imitability",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 29
     },
     {
       "keyword": "causal imitation learning",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 30
     },
     {
       "keyword": "chain",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 31
     },
     {
       "keyword": "chain of thought",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 32
     },
     {
       "keyword": "coda",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 33
     },
     {
       "keyword": "compaction and disambiguation",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 34
     },
     {
       "keyword": "comparatively lightweight visual",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 35
     },
     {
       "keyword": "computational complexity",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 36
     },
     {
       "keyword": "conformal pid",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 37
     },
     {
       "keyword": "conformal pid control",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 38
     },
     {
       "keyword": "conformal prediction",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 39
     },
     {
       "keyword": "constant sum polymatrix games",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 40
     },
     {
       "keyword": "constraints",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 41
     },
     {
       "keyword": "context specific independence",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 42
     },
     {
       "keyword": "cost pressure",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 43
     },
     {
       "keyword": "csi",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 44
     },
     {
       "keyword": "csi relations",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 45
     },
     {
       "keyword": "daily communication",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 46
     },
     {
       "keyword": "data across multiple",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 47
     },
     {
       "keyword": "decomposability",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 48
     },
     {
       "keyword": "decomposition",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 49
     },
     {
       "keyword": "decomposition framework",
       "count": 1,
+      "relative_frequency": 0.00031,
       "rank": 50
     }
   ],
+  "2024": [],
   "2025": [
     {
       "keyword": "data efficient reward",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 1
     },
     {
       "keyword": "data efficient reward modeling",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 2
     },
     {
       "keyword": "exogenous temperature",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 3
     },
     {
       "keyword": "exogenous temperature forecasting",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 4
     },
     {
       "keyword": "linear",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 5
     },
     {
       "keyword": "long horizon exogenous",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 6
     },
     {
       "keyword": "long horizon exogenous temperature",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 7
     },
     {
       "keyword": "pearson distance correlation",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 8
     },
     {
       "keyword": "preference",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 9
     },
     {
       "keyword": "preference strength",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 10
     },
     {
       "keyword": "reward",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 11
     },
     {
       "keyword": "reward modeling",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 12
     },
     {
       "keyword": "signals",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 13
     },
     {
       "keyword": "strength",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 14
     },
     {
       "keyword": "temperature forecasting",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 15
     },
     {
       "keyword": "transformer models",
       "count": 1,
+      "relative_frequency": 0.5,
       "rank": 16
     }
   ],
@@ -337,251 +404,301 @@
     {
       "keyword": "large language model",
       "count": 5,
+      "relative_frequency": 0.238095,
       "rank": 1
     },
     {
       "keyword": "monte carlo",
       "count": 3,
+      "relative_frequency": 0.142857,
       "rank": 2
     },
     {
       "keyword": "markov decision",
       "count": 2,
+      "relative_frequency": 0.095238,
       "rank": 3
     },
     {
       "keyword": "accurate polyp segmentation",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 4
     },
     {
       "keyword": "adversarial losses",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 5
     },
     {
       "keyword": "adversarial robustness",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 6
     },
     {
       "keyword": "adversarial robustness testing",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 7
     },
     {
       "keyword": "analysis and discovery",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 8
     },
     {
       "keyword": "annotated",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 9
     },
     {
       "keyword": "annotated multimodal",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 10
     },
     {
       "keyword": "annotated multimodal dataset",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 11
     },
     {
       "keyword": "assignment",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 12
     },
     {
       "keyword": "assistant",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 13
     },
     {
       "keyword": "assistant for knowledge",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 14
     },
     {
       "keyword": "automated",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 15
     },
     {
       "keyword": "automated adversarial",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 16
     },
     {
       "keyword": "automated adversarial robustness",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 17
     },
     {
       "keyword": "automated single cell",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 18
     },
     {
       "keyword": "automated single cell analysis",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 19
     },
     {
       "keyword": "award winning rmit adm",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 20
     },
     {
       "keyword": "beating the path",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 21
     },
     {
       "keyword": "blazing the trails",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 22
     },
     {
       "keyword": "carlo",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 23
     },
     {
       "keyword": "chaotic quantum diffusion",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 24
     },
     {
       "keyword": "classification",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 25
     },
     {
       "keyword": "compact muon",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 26
     },
     {
       "keyword": "compact muon solenoid",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 27
     },
     {
       "keyword": "competition",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 28
     },
     {
       "keyword": "compression",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 29
     },
     {
       "keyword": "counting asleep times",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 30
     },
     {
       "keyword": "credit",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 31
     },
     {
       "keyword": "credit assignment",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 32
     },
     {
       "keyword": "cross band integration",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 33
     },
     {
       "keyword": "curvature aligned probing",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 34
     },
     {
       "keyword": "data distribution",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 35
     },
     {
       "keyword": "decision processes",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 36
     },
     {
       "keyword": "decision sets",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 37
     },
     {
       "keyword": "deep",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 38
     },
     {
       "keyword": "deep state space",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 39
     },
     {
       "keyword": "deep state space models",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 40
     },
     {
       "keyword": "determinantal point",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 41
     },
     {
       "keyword": "determinantal point processes",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 42
     },
     {
       "keyword": "direct monte carlo",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 43
     },
     {
       "keyword": "dpp",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 44
     },
     {
       "keyword": "dynamic evaluation award",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 45
     },
     {
       "keyword": "enhanced",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 46
     },
     {
       "keyword": "enhanced boundary",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 47
     },
     {
       "keyword": "enhanced boundary representation",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 48
     },
     {
       "keyword": "entropy regularized markov decision",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 49
     },
     {
       "keyword": "evaluating structured output",
       "count": 1,
+      "relative_frequency": 0.047619,
       "rank": 50
     }
   ]

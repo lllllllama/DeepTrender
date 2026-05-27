@@ -27,6 +27,7 @@ from database import (
     RawRepository, StructuredRepository
 )
 from scraper.models import RawPaper, Paper, Venue, PaperSource
+from scraper.ccf_registry import load_ccf_venue_registry
 
 
 # 会议识别模式
@@ -75,6 +76,28 @@ VENUE_PATTERNS = {
     "ICRA": [r"\bICRA\b", r"International Conference on Robotics and Automation"],
     "IROS": [r"\bIROS\b", r"Intelligent Robots and Systems"],
 }
+
+
+def _exact_pattern(value: str) -> str:
+    return rf"^\s*{re.escape(value)}\s*$"
+
+
+def _extend_venue_patterns_from_ccf_registry() -> None:
+    """Add registry venues without making short acronyms match arbitrary prose."""
+
+    for venue in load_ccf_venue_registry().values():
+        patterns = VENUE_PATTERNS.setdefault(venue.canonical_name, [])
+        for exact_name in [venue.canonical_name, *venue.aliases]:
+            pattern = _exact_pattern(exact_name)
+            if exact_name and pattern not in patterns:
+                patterns.append(pattern)
+        if venue.full_name:
+            full_name_pattern = re.escape(venue.full_name)
+            if full_name_pattern not in patterns:
+                patterns.append(full_name_pattern)
+
+
+_extend_venue_patterns_from_ccf_registry()
 
 # 领域分类
 DOMAIN_CATEGORIES = {

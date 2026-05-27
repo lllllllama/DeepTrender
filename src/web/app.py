@@ -412,6 +412,7 @@ def create_app(
             scope="arxiv",
             keyword=keyword,
             granularity=granularity,
+            venue=category,
         )
         return jsonify(
             {
@@ -419,6 +420,46 @@ def create_app(
                 "granularity": granularity,
                 "category": category,
                 "data": data,
+            }
+        )
+
+    @app.route("/api/arxiv/keywords/evidence")
+    def api_arxiv_keyword_evidence():
+        repo = current_repo()
+        keyword = request.args.get("keyword", "")
+        bucket = request.args.get("bucket", "")
+        granularity = request.args.get("granularity", "year")
+        category = request.args.get("category", "ALL")
+        limit = _bounded_query_int("limit", 10, min_value=1)
+        if not keyword or not bucket:
+            return jsonify({"error": "keyword and bucket are required"}), 400
+
+        agent = ArxivAnalysisAgent(analysis_repo=repo.analysis, raw_repo=repo.raw)
+        rows = []
+        for paper in agent._group_papers(agent._get_arxiv_papers(category), granularity).get(bucket, []):
+            for item in agent._extract_bucket_keywords([paper], limit=100):
+                if item["keyword"].lower() == keyword.lower():
+                    rows.extend(item.get("evidence", []))
+                    break
+            if len(rows) >= limit:
+                break
+
+        warnings = []
+        if not rows:
+            warnings.append(
+                {
+                    "code": "registered_no_papers",
+                    "message": "No evidence sample is available for this keyword bucket.",
+                }
+            )
+        return jsonify(
+            {
+                "keyword": keyword,
+                "bucket": bucket,
+                "granularity": granularity,
+                "category": category,
+                "evidence": rows[:limit],
+                "warnings": warnings,
             }
         )
 

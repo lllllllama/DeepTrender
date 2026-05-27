@@ -2,7 +2,7 @@
   {
     "keyword": "agents",
     "growth_rate": 14200.0,
-    "first_seen": 2021,
+    "first_seen": 2020,
     "recent_count": 142,
     "previous_count": 0,
     "trend": "up"
@@ -40,14 +40,6 @@
     "trend": "up"
   },
   {
-    "keyword": "inference",
-    "growth_rate": 8700.0,
-    "first_seen": 2022,
-    "recent_count": 87,
-    "previous_count": 0,
-    "trend": "up"
-  },
-  {
     "keyword": "detection",
     "growth_rate": 8550.0,
     "first_seen": 2020,
@@ -58,16 +50,8 @@
   {
     "keyword": "federated learning",
     "growth_rate": 8500.0,
-    "first_seen": 2021,
+    "first_seen": 2020,
     "recent_count": 85,
-    "previous_count": 0,
-    "trend": "up"
-  },
-  {
-    "keyword": "foundation models",
-    "growth_rate": 8300.0,
-    "first_seen": 2024,
-    "recent_count": 83,
     "previous_count": 0,
     "trend": "up"
   },
@@ -80,19 +64,19 @@
     "trend": "up"
   },
   {
-    "keyword": "attention",
-    "growth_rate": 7900.0,
+    "keyword": "large language model",
+    "growth_rate": 7838.888888888889,
     "first_seen": 2020,
-    "recent_count": 79,
-    "previous_count": 0,
+    "recent_count": 1428,
+    "previous_count": 17,
     "trend": "up"
   },
   {
-    "keyword": "large language model",
-    "growth_rate": 7838.888888888889,
-    "first_seen": 2021,
-    "recent_count": 1428,
-    "previous_count": 17,
+    "keyword": "retrieval",
+    "growth_rate": 7300.0,
+    "first_seen": 2020,
+    "recent_count": 73,
+    "previous_count": 0,
     "trend": "up"
   },
   {
@@ -112,10 +96,10 @@
     "trend": "up"
   },
   {
-    "keyword": "retrieval",
-    "growth_rate": 7300.0,
+    "keyword": "deep learning",
+    "growth_rate": 7000.0,
     "first_seen": 2020,
-    "recent_count": 73,
+    "recent_count": 70,
     "previous_count": 0,
     "trend": "up"
   },
@@ -128,34 +112,10 @@
     "trend": "up"
   },
   {
-    "keyword": "deep learning",
-    "growth_rate": 7000.0,
+    "keyword": "neural network",
+    "growth_rate": 6100.0,
     "first_seen": 2020,
-    "recent_count": 70,
-    "previous_count": 0,
-    "trend": "up"
-  },
-  {
-    "keyword": "multimodal large",
-    "growth_rate": 6900.0,
-    "first_seen": 2024,
-    "recent_count": 69,
-    "previous_count": 0,
-    "trend": "up"
-  },
-  {
-    "keyword": "adaptation",
-    "growth_rate": 5700.0,
-    "first_seen": 2021,
-    "recent_count": 57,
-    "previous_count": 0,
-    "trend": "up"
-  },
-  {
-    "keyword": "splatting",
-    "growth_rate": 5600.0,
-    "first_seen": 2024,
-    "recent_count": 56,
+    "recent_count": 61,
     "previous_count": 0,
     "trend": "up"
   },
@@ -178,9 +138,25 @@
   {
     "keyword": "gaussian",
     "growth_rate": 5300.0,
-    "first_seen": 2021,
+    "first_seen": 2020,
     "recent_count": 107,
     "previous_count": 1,
+    "trend": "up"
+  },
+  {
+    "keyword": "navigation",
+    "growth_rate": 5200.0,
+    "first_seen": 2020,
+    "recent_count": 52,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "design",
+    "growth_rate": 5000.0,
+    "first_seen": 2020,
+    "recent_count": 50,
+    "previous_count": 0,
     "trend": "up"
   },
   {
@@ -189,6 +165,30 @@
     "first_seen": 2020,
     "recent_count": 151,
     "previous_count": 2,
+    "trend": "up"
+  },
+  {
+    "keyword": "planning",
+    "growth_rate": 4900.0,
+    "first_seen": 2020,
+    "recent_count": 49,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "information",
+    "growth_rate": 4700.0,
+    "first_seen": 2020,
+    "recent_count": 47,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
+    "keyword": "dynamic",
+    "growth_rate": 4600.0,
+    "first_seen": 2020,
+    "recent_count": 46,
+    "previous_count": 0,
     "trend": "up"
   },
   {
@@ -202,25 +202,17 @@
   {
     "keyword": "reasoning",
     "growth_rate": 4500.0,
-    "first_seen": 2023,
+    "first_seen": 2020,
     "recent_count": 321,
     "previous_count": 6,
     "trend": "up"
   },
   {
-    "keyword": "memory",
-    "growth_rate": 4400.0,
-    "first_seen": 2021,
-    "recent_count": 89,
-    "previous_count": 1,
-    "trend": "up"
-  },
-  {
-    "keyword": "reinforcement",
-    "growth_rate": 4150.0,
+    "keyword": "robot",
+    "growth_rate": 3900.0,
     "first_seen": 2020,
-    "recent_count": 84,
-    "previous_count": 1,
+    "recent_count": 39,
+    "previous_count": 0,
     "trend": "up"
   },
   {
@@ -232,9 +224,17 @@
     "trend": "up"
   },
   {
+    "keyword": "search",
+    "growth_rate": 3800.0,
+    "first_seen": 2020,
+    "recent_count": 38,
+    "previous_count": 0,
+    "trend": "up"
+  },
+  {
     "keyword": "motion",
     "growth_rate": 3550.0,
-    "first_seen": 2021,
+    "first_seen": 2020,
     "recent_count": 72,
     "previous_count": 1,
     "trend": "up"
@@ -250,7 +250,7 @@
   {
     "keyword": "understanding",
     "growth_rate": 3500.0,
-    "first_seen": 2021,
+    "first_seen": 2020,
     "recent_count": 71,
     "previous_count": 1,
     "trend": "up"
@@ -274,7 +274,7 @@
   {
     "keyword": "multimodal",
     "growth_rate": 3333.3333333333335,
-    "first_seen": 2021,
+    "first_seen": 2020,
     "recent_count": 102,
     "previous_count": 2,
     "trend": "up"
@@ -285,6 +285,14 @@
     "first_seen": 2020,
     "recent_count": 99,
     "previous_count": 2,
+    "trend": "up"
+  },
+  {
+    "keyword": "recommendation",
+    "growth_rate": 2800.0,
+    "first_seen": 2020,
+    "recent_count": 28,
+    "previous_count": 0,
     "trend": "up"
   },
   {
@@ -301,14 +309,6 @@
     "first_seen": 2020,
     "recent_count": 54,
     "previous_count": 1,
-    "trend": "up"
-  },
-  {
-    "keyword": "alignment",
-    "growth_rate": 2633.333333333333,
-    "first_seen": 2020,
-    "recent_count": 81,
-    "previous_count": 2,
     "trend": "up"
   },
   {
@@ -336,6 +336,14 @@
     "trend": "up"
   },
   {
+    "keyword": "graph neural",
+    "growth_rate": 1950.0,
+    "first_seen": 2020,
+    "recent_count": 40,
+    "previous_count": 1,
+    "trend": "up"
+  },
+  {
     "keyword": "graph",
     "growth_rate": 1933.3333333333333,
     "first_seen": 2020,
@@ -346,7 +354,7 @@
   {
     "keyword": "generative",
     "growth_rate": 1900.0,
-    "first_seen": 2021,
+    "first_seen": 2020,
     "recent_count": 79,
     "previous_count": 3,
     "trend": "up"
@@ -368,27 +376,19 @@
     "trend": "up"
   },
   {
-    "keyword": "editing",
-    "growth_rate": 1766.6666666666667,
-    "first_seen": 2024,
-    "recent_count": 55,
+    "keyword": "text",
+    "growth_rate": 1533.3333333333333,
+    "first_seen": 2020,
+    "recent_count": 48,
     "previous_count": 2,
     "trend": "up"
   },
   {
-    "keyword": "benchmarking",
-    "growth_rate": 1750.0,
+    "keyword": "user",
+    "growth_rate": 1300.0,
     "first_seen": 2020,
-    "recent_count": 73,
-    "previous_count": 3,
-    "trend": "up"
-  },
-  {
-    "keyword": "synthesis",
-    "growth_rate": 1200.0,
-    "first_seen": 2020,
-    "recent_count": 38,
-    "previous_count": 2,
+    "recent_count": 27,
+    "previous_count": 1,
     "trend": "up"
   },
   {

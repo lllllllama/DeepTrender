@@ -3,251 +3,301 @@
     {
       "keyword": "diffusion model",
       "count": 3,
+      "relative_frequency": 0.001315,
       "rank": 1
     },
     {
       "keyword": "deep",
       "count": 2,
+      "relative_frequency": 0.000876,
       "rank": 2
     },
     {
       "keyword": "gradient",
       "count": 2,
+      "relative_frequency": 0.000876,
       "rank": 3
     },
     {
       "keyword": "information",
       "count": 2,
+      "relative_frequency": 0.000876,
       "rank": 4
     },
     {
       "keyword": "multimodal",
       "count": 2,
+      "relative_frequency": 0.000876,
       "rank": 5
     },
     {
       "keyword": "normalizing",
       "count": 2,
+      "relative_frequency": 0.000876,
       "rank": 6
     },
     {
       "keyword": "adaptive prediction sets",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 7
     },
     {
       "keyword": "adversarial",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 8
     },
     {
       "keyword": "architectures",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 9
     },
     {
       "keyword": "automatic code",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 10
     },
     {
       "keyword": "automatic code parallelization",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 11
     },
     {
       "keyword": "binder",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 12
     },
     {
       "keyword": "black box models",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 13
     },
     {
       "keyword": "box embedding",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 14
     },
     {
       "keyword": "breaking physical",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 15
     },
     {
       "keyword": "certified robustness",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 16
     },
     {
       "keyword": "cfasl",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 17
     },
     {
       "keyword": "chain monte carlo",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 18
     },
     {
       "keyword": "change condition",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 19
     },
     {
       "keyword": "classes learning",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 20
     },
     {
       "keyword": "classes learning problem",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 21
     },
     {
       "keyword": "classification",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 22
     },
     {
       "keyword": "classifier via label",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 23
     },
     {
       "keyword": "clip",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 24
     },
     {
       "keyword": "clip meets",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 25
     },
     {
       "keyword": "clip meets model",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 26
     },
     {
       "keyword": "composite factor aligned",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 27
     },
     {
       "keyword": "composite factor aligned symmetry",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 28
     },
     {
       "keyword": "conformal prediction",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 29
     },
     {
       "keyword": "content",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 30
     },
     {
       "keyword": "contextual",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 31
     },
     {
       "keyword": "contextual dynamic pricing",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 32
     },
     {
       "keyword": "contextual elasticity",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 33
     },
     {
       "keyword": "contextual prompting",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 34
     },
     {
       "keyword": "deep classifier",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 35
     },
     {
       "keyword": "deep exploration",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 36
     },
     {
       "keyword": "deep learning",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 37
     },
     {
       "keyword": "deep learning models",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 38
     },
     {
       "keyword": "deep visual",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 39
     },
     {
       "keyword": "deep visual graph",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 40
     },
     {
       "keyword": "denoising diffusion probabilistic",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 41
     },
     {
       "keyword": "diffusion probabilistic models",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 42
     },
     {
       "keyword": "discriminative",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 43
     },
     {
       "keyword": "discriminative models",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 44
     },
     {
       "keyword": "distillation via regularizing",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 45
     },
     {
       "keyword": "domain specific feature extractors",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 46
     },
     {
       "keyword": "dynamic pricing problem",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 47
     },
     {
       "keyword": "e mcts",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 48
     },
     {
       "keyword": "elasticity",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 49
     },
     {
       "keyword": "elasticity and heteroscedastic",
       "count": 1,
+      "relative_frequency": 0.000438,
       "rank": 50
     }
   ],
@@ -255,41 +305,49 @@
     {
       "keyword": "avoid shortcut",
       "count": 1,
+      "relative_frequency": 0.00027,
       "rank": 1
     },
     {
       "keyword": "avoid shortcut solutions",
       "count": 1,
+      "relative_frequency": 0.00027,
       "rank": 2
     },
     {
       "keyword": "classifiers",
       "count": 1,
+      "relative_frequency": 0.00027,
       "rank": 3
     },
     {
       "keyword": "classifiers avoid shortcut",
       "count": 1,
+      "relative_frequency": 0.00027,
       "rank": 4
     },
     {
       "keyword": "generative",
       "count": 1,
+      "relative_frequency": 0.00027,
       "rank": 5
     },
     {
       "keyword": "generative classifiers",
       "count": 1,
+      "relative_frequency": 0.00027,
       "rank": 6
     },
     {
       "keyword": "learn shortcuts",
       "count": 1,
+      "relative_frequency": 0.00027,
       "rank": 7
     },
     {
       "keyword": "spurious",
       "count": 1,
+      "relative_frequency": 0.00027,
       "rank": 8
     }
   ],
@@ -297,251 +355,301 @@
     {
       "keyword": "large language model",
       "count": 39,
+      "relative_frequency": 0.170306,
       "rank": 1
     },
     {
       "keyword": "reasoning",
       "count": 13,
+      "relative_frequency": 0.056769,
       "rank": 2
     },
     {
       "keyword": "reinforcement learning",
       "count": 12,
+      "relative_frequency": 0.052402,
       "rank": 3
     },
     {
       "keyword": "transformer",
       "count": 8,
+      "relative_frequency": 0.034934,
       "rank": 4
     },
     {
       "keyword": "diffusion model",
       "count": 7,
+      "relative_frequency": 0.030568,
       "rank": 5
     },
     {
       "keyword": "alignment",
       "count": 6,
+      "relative_frequency": 0.026201,
       "rank": 6
     },
     {
       "keyword": "generation",
       "count": 6,
+      "relative_frequency": 0.026201,
       "rank": 7
     },
     {
       "keyword": "agents",
       "count": 5,
+      "relative_frequency": 0.021834,
       "rank": 8
     },
     {
       "keyword": "large reasoning models",
       "count": 5,
+      "relative_frequency": 0.021834,
       "rank": 9
     },
     {
       "keyword": "optimization",
       "count": 5,
+      "relative_frequency": 0.021834,
       "rank": 10
     },
     {
       "keyword": "time series",
       "count": 5,
+      "relative_frequency": 0.021834,
       "rank": 11
     },
     {
       "keyword": "agentic",
       "count": 4,
+      "relative_frequency": 0.017467,
       "rank": 12
     },
     {
       "keyword": "benchmarking",
       "count": 4,
+      "relative_frequency": 0.017467,
       "rank": 13
     },
     {
       "keyword": "information",
       "count": 4,
+      "relative_frequency": 0.017467,
       "rank": 14
     },
     {
       "keyword": "large reasoning",
       "count": 4,
+      "relative_frequency": 0.017467,
       "rank": 15
     },
     {
       "keyword": "protein",
       "count": 4,
+      "relative_frequency": 0.017467,
       "rank": 16
     },
     {
       "keyword": "text",
       "count": 4,
+      "relative_frequency": 0.017467,
       "rank": 17
     },
     {
       "keyword": "attention",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 18
     },
     {
       "keyword": "causal",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 19
     },
     {
       "keyword": "classification",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 20
     },
     {
       "keyword": "compression",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 21
     },
     {
       "keyword": "discovery",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 22
     },
     {
       "keyword": "flow",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 23
     },
     {
       "keyword": "foundation models",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 24
     },
     {
       "keyword": "llm alignment",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 25
     },
     {
       "keyword": "machine learning",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 26
     },
     {
       "keyword": "multivariate time",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 27
     },
     {
       "keyword": "multivariate time series",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 28
     },
     {
       "keyword": "neural networks",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 29
     },
     {
       "keyword": "object",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 30
     },
     {
       "keyword": "policy",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 31
     },
     {
       "keyword": "prediction",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 32
     },
     {
       "keyword": "reward",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 33
     },
     {
       "keyword": "segmentation",
       "count": 3,
+      "relative_frequency": 0.0131,
       "rank": 34
     },
     {
       "keyword": "accurate",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 35
     },
     {
       "keyword": "activation steering",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 36
     },
     {
       "keyword": "adaptation",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 37
     },
     {
       "keyword": "bias",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 38
     },
     {
       "keyword": "category",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 39
     },
     {
       "keyword": "coding",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 40
     },
     {
       "keyword": "comprehensive",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 41
     },
     {
       "keyword": "concept",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 42
     },
     {
       "keyword": "continual learning",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 43
     },
     {
       "keyword": "control",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 44
     },
     {
       "keyword": "convergence",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 45
     },
     {
       "keyword": "cooperative multi agent reinforcement",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 46
     },
     {
       "keyword": "detection",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 47
     },
     {
       "keyword": "direct preference optimization",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 48
     },
     {
       "keyword": "drift",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 49
     },
     {
       "keyword": "entropy",
       "count": 2,
+      "relative_frequency": 0.008734,
       "rank": 50
     }
   ]

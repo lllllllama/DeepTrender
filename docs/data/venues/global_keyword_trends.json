@@ -11,49 +11,122 @@
       2026
     ],
     "counts": [
-      0,
-      1,
       2,
-      13,
-      156,
+      5,
+      7,
+      64,
+      302,
       17,
       1428
     ],
-    "total": 1617,
+    "total": 1825,
     "points": [
       {
         "year": 2020,
-        "count": 0,
+        "count": 2,
+        "relative_frequency": 0.000144,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 1,
+        "count": 5,
+        "relative_frequency": 0.00032,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 2,
+        "count": 7,
+        "relative_frequency": 0.000425,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 13,
+        "count": 64,
+        "relative_frequency": 0.002521,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 156,
+        "count": 302,
+        "relative_frequency": 0.009106,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 17,
+        "relative_frequency": 0.000635,
         "rank": 0
       },
       {
         "year": 2026,
         "count": 1428,
+        "relative_frequency": 0.129818,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "reinforcement learning",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      38,
+      48,
+      49,
+      52,
+      65,
+      2,
+      310
+    ],
+    "total": 564,
+    "points": [
+      {
+        "year": 2020,
+        "count": 38,
+        "relative_frequency": 0.002742,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 48,
+        "relative_frequency": 0.003074,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 49,
+        "relative_frequency": 0.002976,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 52,
+        "relative_frequency": 0.002048,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 65,
+        "relative_frequency": 0.00196,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 2,
+        "relative_frequency": 7.5e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 310,
+        "relative_frequency": 0.028182,
         "rank": 0
       }
     ]
@@ -72,283 +145,54 @@
     "counts": [
       0,
       0,
-      1,
-      3,
-      239,
+      5,
+      25,
+      282,
       6,
       192
     ],
-    "total": 441,
+    "total": 510,
     "points": [
       {
         "year": 2020,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2021,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 1,
+        "count": 5,
+        "relative_frequency": 0.000304,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 3,
+        "count": 25,
+        "relative_frequency": 0.000985,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 239,
+        "count": 282,
+        "relative_frequency": 0.008503,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 6,
+        "relative_frequency": 0.000224,
         "rank": 0
       },
       {
         "year": 2026,
         "count": 192,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "generation",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      7,
-      3,
-      0,
-      3,
-      150,
-      5,
-      236
-    ],
-    "total": 404,
-    "points": [
-      {
-        "year": 2020,
-        "count": 7,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 150,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 5,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 236,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "reasoning",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      0,
-      0,
-      2,
-      18,
-      6,
-      321
-    ],
-    "total": 347,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 18,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 6,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 321,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "reinforcement learning",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      4,
-      5,
-      7,
-      4,
-      15,
-      2,
-      310
-    ],
-    "total": 347,
-    "points": [
-      {
-        "year": 2020,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 5,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 7,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 15,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 310,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "video",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      3,
-      1,
-      2,
-      4,
-      145,
-      3,
-      144
-    ],
-    "total": 302,
-    "points": [
-      {
-        "year": 2020,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 145,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 144,
+        "relative_frequency": 0.017455,
         "rank": 0
       }
     ]
@@ -365,49 +209,386 @@
       2026
     ],
     "counts": [
-      6,
-      8,
-      3,
-      9,
-      96,
+      35,
+      44,
+      39,
+      55,
+      147,
       1,
       172
     ],
-    "total": 295,
+    "total": 493,
     "points": [
       {
         "year": 2020,
-        "count": 6,
+        "count": 35,
+        "relative_frequency": 0.002525,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 8,
+        "count": 44,
+        "relative_frequency": 0.002818,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 3,
+        "count": 39,
+        "relative_frequency": 0.002369,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 9,
+        "count": 55,
+        "relative_frequency": 0.002166,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 96,
+        "count": 147,
+        "relative_frequency": 0.004432,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 1,
+        "relative_frequency": 3.7e-05,
         "rank": 0
       },
       {
         "year": 2026,
         "count": 172,
+        "relative_frequency": 0.015636,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "generation",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      18,
+      11,
+      11,
+      23,
+      182,
+      5,
+      236
+    ],
+    "total": 486,
+    "points": [
+      {
+        "year": 2020,
+        "count": 18,
+        "relative_frequency": 0.001299,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 11,
+        "relative_frequency": 0.000704,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 11,
+        "relative_frequency": 0.000668,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 23,
+        "relative_frequency": 0.000906,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 182,
+        "relative_frequency": 0.005488,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 5,
+        "relative_frequency": 0.000187,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 236,
+        "relative_frequency": 0.021455,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "video",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      24,
+      28,
+      27,
+      30,
+      164,
+      3,
+      144
+    ],
+    "total": 420,
+    "points": [
+      {
+        "year": 2020,
+        "count": 24,
+        "relative_frequency": 0.001731,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 28,
+        "relative_frequency": 0.001793,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 27,
+        "relative_frequency": 0.00164,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 30,
+        "relative_frequency": 0.001182,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 164,
+        "relative_frequency": 0.004945,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 3,
+        "relative_frequency": 0.000112,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 144,
+        "relative_frequency": 0.013091,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "graph",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      47,
+      50,
+      59,
+      68,
+      98,
+      2,
+      60
+    ],
+    "total": 384,
+    "points": [
+      {
+        "year": 2020,
+        "count": 47,
+        "relative_frequency": 0.003391,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 50,
+        "relative_frequency": 0.003202,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 59,
+        "relative_frequency": 0.003584,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 68,
+        "relative_frequency": 0.002679,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 98,
+        "relative_frequency": 0.002955,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 2,
+        "relative_frequency": 7.5e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 60,
+        "relative_frequency": 0.005455,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "reasoning",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      4,
+      3,
+      2,
+      9,
+      32,
+      6,
+      321
+    ],
+    "total": 377,
+    "points": [
+      {
+        "year": 2020,
+        "count": 4,
+        "relative_frequency": 0.000289,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 3,
+        "relative_frequency": 0.000192,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 2,
+        "relative_frequency": 0.000121,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 9,
+        "relative_frequency": 0.000355,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 32,
+        "relative_frequency": 0.000965,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 6,
+        "relative_frequency": 0.000224,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 321,
+        "relative_frequency": 0.029182,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "neural networks",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      30,
+      28,
+      48,
+      34,
+      63,
+      2,
+      151
+    ],
+    "total": 356,
+    "points": [
+      {
+        "year": 2020,
+        "count": 30,
+        "relative_frequency": 0.002164,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 28,
+        "relative_frequency": 0.001793,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 48,
+        "relative_frequency": 0.002915,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 34,
+        "relative_frequency": 0.001339,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 63,
+        "relative_frequency": 0.0019,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 2,
+        "relative_frequency": 7.5e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 151,
+        "relative_frequency": 0.013727,
         "rank": 0
       }
     ]
@@ -424,49 +605,716 @@
       2026
     ],
     "counts": [
-      3,
-      3,
-      4,
-      2,
-      94,
+      10,
+      25,
+      17,
+      31,
+      118,
       0,
       116
     ],
-    "total": 222,
+    "total": 317,
     "points": [
       {
         "year": 2020,
-        "count": 3,
+        "count": 10,
+        "relative_frequency": 0.000721,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 3,
+        "count": 25,
+        "relative_frequency": 0.001601,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 4,
+        "count": 17,
+        "relative_frequency": 0.001033,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 2,
+        "count": 31,
+        "relative_frequency": 0.001221,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 94,
+        "count": 118,
+        "relative_frequency": 0.003558,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2026,
         "count": 116,
+        "relative_frequency": 0.010545,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "graph neural network",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      20,
+      26,
+      52,
+      49,
+      73,
+      3,
+      74
+    ],
+    "total": 297,
+    "points": [
+      {
+        "year": 2020,
+        "count": 20,
+        "relative_frequency": 0.001443,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 26,
+        "relative_frequency": 0.001665,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 52,
+        "relative_frequency": 0.003158,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 49,
+        "relative_frequency": 0.00193,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 73,
+        "relative_frequency": 0.002201,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 3,
+        "relative_frequency": 0.000112,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 74,
+        "relative_frequency": 0.006727,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "object",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      24,
+      38,
+      27,
+      36,
+      103,
+      1,
+      54
+    ],
+    "total": 283,
+    "points": [
+      {
+        "year": 2020,
+        "count": 24,
+        "relative_frequency": 0.001731,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 38,
+        "relative_frequency": 0.002434,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 27,
+        "relative_frequency": 0.00164,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 36,
+        "relative_frequency": 0.001418,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 103,
+        "relative_frequency": 0.003106,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 1,
+        "relative_frequency": 3.7e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 54,
+        "relative_frequency": 0.004909,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "knowledge",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      29,
+      24,
+      41,
+      43,
+      51,
+      0,
+      89
+    ],
+    "total": 277,
+    "points": [
+      {
+        "year": 2020,
+        "count": 29,
+        "relative_frequency": 0.002092,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 24,
+        "relative_frequency": 0.001537,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 41,
+        "relative_frequency": 0.00249,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 43,
+        "relative_frequency": 0.001694,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 51,
+        "relative_frequency": 0.001538,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 89,
+        "relative_frequency": 0.008091,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "robot",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      48,
+      55,
+      45,
+      43,
+      38,
+      0,
+      39
+    ],
+    "total": 268,
+    "points": [
+      {
+        "year": 2020,
+        "count": 48,
+        "relative_frequency": 0.003463,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 55,
+        "relative_frequency": 0.003522,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 45,
+        "relative_frequency": 0.002733,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 43,
+        "relative_frequency": 0.001694,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 38,
+        "relative_frequency": 0.001146,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 39,
+        "relative_frequency": 0.003545,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "human",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      19,
+      19,
+      23,
+      17,
+      91,
+      0,
+      90
+    ],
+    "total": 259,
+    "points": [
+      {
+        "year": 2020,
+        "count": 19,
+        "relative_frequency": 0.001371,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 19,
+        "relative_frequency": 0.001217,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 23,
+        "relative_frequency": 0.001397,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 17,
+        "relative_frequency": 0.00067,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 91,
+        "relative_frequency": 0.002744,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 90,
+        "relative_frequency": 0.008182,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "control",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      34,
+      39,
+      23,
+      30,
+      44,
+      0,
+      79
+    ],
+    "total": 249,
+    "points": [
+      {
+        "year": 2020,
+        "count": 34,
+        "relative_frequency": 0.002453,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 39,
+        "relative_frequency": 0.002498,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 23,
+        "relative_frequency": 0.001397,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 30,
+        "relative_frequency": 0.001182,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 44,
+        "relative_frequency": 0.001327,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 79,
+        "relative_frequency": 0.007182,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "recommendation",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      29,
+      25,
+      49,
+      64,
+      49,
+      0,
+      28
+    ],
+    "total": 244,
+    "points": [
+      {
+        "year": 2020,
+        "count": 29,
+        "relative_frequency": 0.002092,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 25,
+        "relative_frequency": 0.001601,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 49,
+        "relative_frequency": 0.002976,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 64,
+        "relative_frequency": 0.002521,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 49,
+        "relative_frequency": 0.001477,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 28,
+        "relative_frequency": 0.002545,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "motion",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      10,
+      35,
+      20,
+      17,
+      85,
+      1,
+      72
+    ],
+    "total": 240,
+    "points": [
+      {
+        "year": 2020,
+        "count": 10,
+        "relative_frequency": 0.000721,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 35,
+        "relative_frequency": 0.002242,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 20,
+        "relative_frequency": 0.001215,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 17,
+        "relative_frequency": 0.00067,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 85,
+        "relative_frequency": 0.002563,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 1,
+        "relative_frequency": 3.7e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 72,
+        "relative_frequency": 0.006545,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "semantic",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      14,
+      18,
+      14,
+      21,
+      71,
+      1,
+      92
+    ],
+    "total": 231,
+    "points": [
+      {
+        "year": 2020,
+        "count": 14,
+        "relative_frequency": 0.00101,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 18,
+        "relative_frequency": 0.001153,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 14,
+        "relative_frequency": 0.00085,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 21,
+        "relative_frequency": 0.000827,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 71,
+        "relative_frequency": 0.002141,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 1,
+        "relative_frequency": 3.7e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 92,
+        "relative_frequency": 0.008364,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "retrieval",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      19,
+      18,
+      27,
+      33,
+      57,
+      0,
+      73
+    ],
+    "total": 227,
+    "points": [
+      {
+        "year": 2020,
+        "count": 19,
+        "relative_frequency": 0.001371,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 18,
+        "relative_frequency": 0.001153,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 27,
+        "relative_frequency": 0.00164,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 33,
+        "relative_frequency": 0.0013,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 57,
+        "relative_frequency": 0.001719,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 73,
+        "relative_frequency": 0.006636,
         "rank": 0
       }
     ]
@@ -486,52 +1334,59 @@
       0,
       0,
       0,
-      1,
-      63,
+      6,
+      73,
       3,
       140
     ],
-    "total": 207,
+    "total": 222,
     "points": [
       {
         "year": 2020,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2021,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2022,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 1,
+        "count": 6,
+        "relative_frequency": 0.000236,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 63,
+        "count": 73,
+        "relative_frequency": 0.002201,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 3,
+        "relative_frequency": 0.000112,
         "rank": 0
       },
       {
         "year": 2026,
         "count": 140,
+        "relative_frequency": 0.012727,
         "rank": 0
       }
     ]
   },
   {
-    "keyword": "neural networks",
+    "keyword": "machine learning",
     "years": [
       2020,
       2021,
@@ -542,55 +1397,62 @@
       2026
     ],
     "counts": [
-      5,
-      3,
-      5,
-      10,
-      18,
+      29,
+      22,
+      17,
+      24,
+      19,
       2,
-      151
+      105
     ],
-    "total": 194,
+    "total": 218,
     "points": [
       {
         "year": 2020,
-        "count": 5,
+        "count": 29,
+        "relative_frequency": 0.002092,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 3,
+        "count": 22,
+        "relative_frequency": 0.001409,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 5,
+        "count": 17,
+        "relative_frequency": 0.001033,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 10,
+        "count": 24,
+        "relative_frequency": 0.000945,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 18,
+        "count": 19,
+        "relative_frequency": 0.000573,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 2,
+        "relative_frequency": 7.5e-05,
         "rank": 0
       },
       {
         "year": 2026,
-        "count": 151,
+        "count": 105,
+        "relative_frequency": 0.009545,
         "rank": 0
       }
     ]
   },
   {
-    "keyword": "human",
+    "keyword": "estimation",
     "years": [
       2020,
       2021,
@@ -601,49 +1463,584 @@
       2026
     ],
     "counts": [
-      1,
-      4,
-      7,
-      3,
-      75,
+      22,
+      22,
+      14,
+      25,
+      60,
       0,
-      90
+      73
     ],
-    "total": 180,
+    "total": 216,
     "points": [
       {
         "year": 2020,
-        "count": 1,
+        "count": 22,
+        "relative_frequency": 0.001587,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 4,
+        "count": 22,
+        "relative_frequency": 0.001409,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 7,
+        "count": 14,
+        "relative_frequency": 0.00085,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 3,
+        "count": 25,
+        "relative_frequency": 0.000985,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 75,
+        "count": 60,
+        "relative_frequency": 0.001809,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2026,
-        "count": 90,
+        "count": 73,
+        "relative_frequency": 0.006636,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "object detection",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      9,
+      21,
+      19,
+      31,
+      82,
+      1,
+      43
+    ],
+    "total": 206,
+    "points": [
+      {
+        "year": 2020,
+        "count": 9,
+        "relative_frequency": 0.000649,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 21,
+        "relative_frequency": 0.001345,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 19,
+        "relative_frequency": 0.001154,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 31,
+        "relative_frequency": 0.001221,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 82,
+        "relative_frequency": 0.002472,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 1,
+        "relative_frequency": 3.7e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 43,
+        "relative_frequency": 0.003909,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "transformer",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      2,
+      8,
+      14,
+      16,
+      52,
+      8,
+      105
+    ],
+    "total": 205,
+    "points": [
+      {
+        "year": 2020,
+        "count": 2,
+        "relative_frequency": 0.000144,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 8,
+        "relative_frequency": 0.000512,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 14,
+        "relative_frequency": 0.00085,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 16,
+        "relative_frequency": 0.00063,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 52,
+        "relative_frequency": 0.001568,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 8,
+        "relative_frequency": 0.000299,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 105,
+        "relative_frequency": 0.009545,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "prediction",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      14,
+      18,
+      24,
+      29,
+      44,
+      0,
+      73
+    ],
+    "total": 202,
+    "points": [
+      {
+        "year": 2020,
+        "count": 14,
+        "relative_frequency": 0.00101,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 18,
+        "relative_frequency": 0.001153,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 24,
+        "relative_frequency": 0.001458,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 29,
+        "relative_frequency": 0.001142,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 44,
+        "relative_frequency": 0.001327,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 73,
+        "relative_frequency": 0.006636,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "time series",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      8,
+      13,
+      19,
+      23,
+      36,
+      2,
+      99
+    ],
+    "total": 200,
+    "points": [
+      {
+        "year": 2020,
+        "count": 8,
+        "relative_frequency": 0.000577,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 13,
+        "relative_frequency": 0.000833,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 19,
+        "relative_frequency": 0.001154,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 23,
+        "relative_frequency": 0.000906,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 36,
+        "relative_frequency": 0.001085,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 2,
+        "relative_frequency": 7.5e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 99,
+        "relative_frequency": 0.009,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "search",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      39,
+      21,
+      36,
+      32,
+      32,
+      0,
+      38
+    ],
+    "total": 198,
+    "points": [
+      {
+        "year": 2020,
+        "count": 39,
+        "relative_frequency": 0.002814,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 21,
+        "relative_frequency": 0.001345,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 36,
+        "relative_frequency": 0.002187,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 32,
+        "relative_frequency": 0.00126,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 32,
+        "relative_frequency": 0.000965,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 38,
+        "relative_frequency": 0.003455,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "optimization",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      18,
+      15,
+      13,
+      11,
+      23,
+      1,
+      112
+    ],
+    "total": 193,
+    "points": [
+      {
+        "year": 2020,
+        "count": 18,
+        "relative_frequency": 0.001299,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 15,
+        "relative_frequency": 0.000961,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 13,
+        "relative_frequency": 0.00079,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 11,
+        "relative_frequency": 0.000433,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 23,
+        "relative_frequency": 0.000694,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 1,
+        "relative_frequency": 3.7e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 112,
+        "relative_frequency": 0.010182,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "gaussian",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      3,
+      6,
+      1,
+      4,
+      66,
+      1,
+      107
+    ],
+    "total": 188,
+    "points": [
+      {
+        "year": 2020,
+        "count": 3,
+        "relative_frequency": 0.000216,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 6,
+        "relative_frequency": 0.000384,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 1,
+        "relative_frequency": 6.1e-05,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 4,
+        "relative_frequency": 0.000158,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 66,
+        "relative_frequency": 0.00199,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 1,
+        "relative_frequency": 3.7e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 107,
+        "relative_frequency": 0.009727,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "graph neural",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      17,
+      14,
+      35,
+      34,
+      46,
+      1,
+      40
+    ],
+    "total": 187,
+    "points": [
+      {
+        "year": 2020,
+        "count": 17,
+        "relative_frequency": 0.001226,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 14,
+        "relative_frequency": 0.000897,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 35,
+        "relative_frequency": 0.002126,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 34,
+        "relative_frequency": 0.001339,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 46,
+        "relative_frequency": 0.001387,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 1,
+        "relative_frequency": 3.7e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 40,
+        "relative_frequency": 0.003636,
         "rank": 0
       }
     ]
@@ -664,399 +2061,52 @@
       0,
       0,
       0,
-      61,
+      76,
       1,
       108
     ],
-    "total": 170,
+    "total": 185,
     "points": [
       {
         "year": 2020,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2021,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2022,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2023,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 61,
+        "count": 76,
+        "relative_frequency": 0.002292,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 1,
+        "relative_frequency": 3.7e-05,
         "rank": 0
       },
       {
         "year": 2026,
         "count": 108,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "gaussian",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      1,
-      0,
-      1,
-      53,
-      1,
-      107
-    ],
-    "total": 163,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 53,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 107,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "semantic",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      3,
-      3,
-      4,
-      1,
-      51,
-      1,
-      92
-    ],
-    "total": 155,
-    "points": [
-      {
-        "year": 2020,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 51,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 92,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "transformer",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      1,
-      1,
-      2,
-      4,
-      34,
-      8,
-      105
-    ],
-    "total": 155,
-    "points": [
-      {
-        "year": 2020,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 34,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 8,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 105,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "object",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      3,
-      3,
-      4,
-      7,
-      80,
-      1,
-      54
-    ],
-    "total": 152,
-    "points": [
-      {
-        "year": 2020,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 7,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 80,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 54,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "motion",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      7,
-      5,
-      1,
-      65,
-      1,
-      72
-    ],
-    "total": 151,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 7,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 5,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 65,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 72,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "agents",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      1,
-      0,
-      2,
-      2,
-      0,
-      142
-    ],
-    "total": 147,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 142,
+        "relative_frequency": 0.009818,
         "rank": 0
       }
     ]
@@ -1073,344 +2123,56 @@
       2026
     ],
     "counts": [
-      0,
-      2,
-      1,
+      6,
       5,
-      32,
+      4,
+      10,
+      51,
       2,
       102
     ],
-    "total": 144,
+    "total": 180,
     "points": [
       {
         "year": 2020,
-        "count": 0,
+        "count": 6,
+        "relative_frequency": 0.000433,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 2,
+        "count": 5,
+        "relative_frequency": 0.00032,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 1,
+        "count": 4,
+        "relative_frequency": 0.000243,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 5,
+        "count": 10,
+        "relative_frequency": 0.000394,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 32,
+        "count": 51,
+        "relative_frequency": 0.001538,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 2,
+        "relative_frequency": 7.5e-05,
         "rank": 0
       },
       {
         "year": 2026,
         "count": 102,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "estimation",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      4,
-      8,
-      2,
-      6,
-      45,
-      0,
-      73
-    ],
-    "total": 138,
-    "points": [
-      {
-        "year": 2020,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 8,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 6,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 45,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 73,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "optimization",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      7,
-      1,
-      2,
-      3,
-      12,
-      1,
-      112
-    ],
-    "total": 138,
-    "points": [
-      {
-        "year": 2020,
-        "count": 7,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 12,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 112,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "knowledge",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      2,
-      3,
-      7,
-      8,
-      22,
-      0,
-      89
-    ],
-    "total": 131,
-    "points": [
-      {
-        "year": 2020,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 7,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 8,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 22,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 89,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "machine learning",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      4,
-      7,
-      2,
-      2,
-      5,
-      2,
-      105
-    ],
-    "total": 127,
-    "points": [
-      {
-        "year": 2020,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 7,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 5,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 105,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "reconstruction",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      1,
-      1,
-      3,
-      3,
-      47,
-      2,
-      68
-    ],
-    "total": 125,
-    "points": [
-      {
-        "year": 2020,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 47,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 68,
+        "relative_frequency": 0.009273,
         "rank": 0
       }
     ]
@@ -1427,934 +2189,56 @@
       2026
     ],
     "counts": [
-      0,
-      1,
-      1,
+      2,
       4,
-      31,
+      14,
+      22,
+      49,
       0,
       85
     ],
-    "total": 122,
+    "total": 176,
     "points": [
       {
         "year": 2020,
-        "count": 0,
+        "count": 2,
+        "relative_frequency": 0.000144,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 1,
+        "count": 4,
+        "relative_frequency": 0.000256,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 1,
+        "count": 14,
+        "relative_frequency": 0.00085,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 4,
+        "count": 22,
+        "relative_frequency": 0.000867,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 31,
+        "count": 49,
+        "relative_frequency": 0.001477,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2026,
         "count": 85,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "vision",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      2,
-      1,
-      0,
-      1,
-      48,
-      0,
-      70
-    ],
-    "total": 122,
-    "points": [
-      {
-        "year": 2020,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 48,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 70,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "generative",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      2,
-      0,
-      4,
-      33,
-      3,
-      79
-    ],
-    "total": 121,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 33,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 79,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "object detection",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      1,
-      0,
-      2,
-      6,
-      67,
-      1,
-      43
-    ],
-    "total": 120,
-    "points": [
-      {
-        "year": 2020,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 6,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 67,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 43,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "control",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      5,
-      4,
-      3,
-      2,
-      24,
-      0,
-      79
-    ],
-    "total": 117,
-    "points": [
-      {
-        "year": 2020,
-        "count": 5,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 24,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 79,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "graph",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      9,
-      10,
-      6,
-      11,
-      19,
-      2,
-      60
-    ],
-    "total": 117,
-    "points": [
-      {
-        "year": 2020,
-        "count": 9,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 10,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 6,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 11,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 19,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 60,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "understanding",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      3,
-      3,
-      3,
-      36,
-      1,
-      71
-    ],
-    "total": 117,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 36,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 71,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "graph neural network",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      5,
-      6,
-      7,
-      10,
-      11,
-      3,
-      74
-    ],
-    "total": 116,
-    "points": [
-      {
-        "year": 2020,
-        "count": 5,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 6,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 7,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 10,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 11,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 74,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "time series",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      2,
-      1,
-      3,
-      2,
-      6,
-      2,
-      99
-    ],
-    "total": 115,
-    "points": [
-      {
-        "year": 2020,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 6,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 99,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "scene",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      1,
-      0,
-      2,
-      1,
-      60,
-      1,
-      47
-    ],
-    "total": 112,
-    "points": [
-      {
-        "year": 2020,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 60,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 47,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "prediction",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      4,
-      4,
-      3,
-      4,
-      23,
-      0,
-      73
-    ],
-    "total": 111,
-    "points": [
-      {
-        "year": 2020,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 4,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 23,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 73,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "retrieval",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      5,
-      2,
-      3,
-      3,
-      22,
-      0,
-      73
-    ],
-    "total": 108,
-    "points": [
-      {
-        "year": 2020,
-        "count": 5,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 22,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 73,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "alignment",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      1,
-      0,
-      1,
-      0,
-      22,
-      2,
-      81
-    ],
-    "total": 107,
-    "points": [
-      {
-        "year": 2020,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 22,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 81,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "memory",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      1,
-      0,
-      1,
-      10,
-      1,
-      89
-    ],
-    "total": 102,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 10,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 89,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "foundation models",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      0,
-      0,
-      0,
-      18,
-      0,
-      83
-    ],
-    "total": 101,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 18,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 83,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "attention",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      1,
-      2,
-      2,
-      1,
-      14,
-      0,
-      79
-    ],
-    "total": 99,
-    "points": [
-      {
-        "year": 2020,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 14,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 79,
+        "relative_frequency": 0.007727,
         "rank": 0
       }
     ]
@@ -2371,55 +2255,62 @@
       2026
     ],
     "counts": [
-      5,
-      2,
-      7,
-      4,
-      6,
+      24,
+      22,
+      20,
+      22,
+      17,
       0,
       70
     ],
-    "total": 94,
+    "total": 175,
     "points": [
       {
         "year": 2020,
-        "count": 5,
+        "count": 24,
+        "relative_frequency": 0.001731,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 2,
+        "count": 22,
+        "relative_frequency": 0.001409,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 7,
+        "count": 20,
+        "relative_frequency": 0.001215,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 4,
+        "count": 22,
+        "relative_frequency": 0.000867,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 6,
+        "count": 17,
+        "relative_frequency": 0.000513,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2026,
         "count": 70,
+        "relative_frequency": 0.006364,
         "rank": 0
       }
     ]
   },
   {
-    "keyword": "editing",
+    "keyword": "information",
     "years": [
       2020,
       2021,
@@ -2430,173 +2321,62 @@
       2026
     ],
     "counts": [
-      0,
-      0,
-      0,
-      0,
-      37,
-      2,
-      55
-    ],
-    "total": 94,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 37,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 55,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "multimodal large",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      0,
-      0,
-      0,
       25,
+      31,
+      22,
+      24,
+      24,
       0,
-      69
+      47
     ],
-    "total": 94,
+    "total": 173,
     "points": [
       {
         "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2024,
         "count": 25,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 69,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "inference",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      0,
-      1,
-      0,
-      5,
-      0,
-      87
-    ],
-    "total": 93,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
+        "relative_frequency": 0.001804,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 0,
+        "count": 31,
+        "relative_frequency": 0.001985,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 1,
+        "count": 22,
+        "relative_frequency": 0.001336,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 0,
+        "count": 24,
+        "relative_frequency": 0.000945,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 5,
+        "count": 24,
+        "relative_frequency": 0.000724,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2026,
-        "count": 87,
+        "count": 47,
+        "relative_frequency": 0.004273,
         "rank": 0
       }
     ]
   },
   {
-    "keyword": "adaptation",
+    "keyword": "user",
     "years": [
       2020,
       2021,
@@ -2607,49 +2387,650 @@
       2026
     ],
     "counts": [
-      0,
-      3,
-      2,
-      2,
+      31,
+      23,
+      29,
+      34,
       28,
-      0,
-      57
+      1,
+      27
     ],
-    "total": 92,
+    "total": 173,
     "points": [
       {
         "year": 2020,
-        "count": 0,
+        "count": 31,
+        "relative_frequency": 0.002236,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 3,
+        "count": 23,
+        "relative_frequency": 0.001473,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 2,
+        "count": 29,
+        "relative_frequency": 0.001761,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 2,
+        "count": 34,
+        "relative_frequency": 0.001339,
         "rank": 0
       },
       {
         "year": 2024,
         "count": 28,
+        "relative_frequency": 0.000844,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 1,
+        "relative_frequency": 3.7e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 27,
+        "relative_frequency": 0.002455,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "design",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      30,
+      26,
+      25,
+      21,
+      20,
+      0,
+      50
+    ],
+    "total": 172,
+    "points": [
+      {
+        "year": 2020,
+        "count": 30,
+        "relative_frequency": 0.002164,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 26,
+        "relative_frequency": 0.001665,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 25,
+        "relative_frequency": 0.001518,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 21,
+        "relative_frequency": 0.000827,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 20,
+        "relative_frequency": 0.000603,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 0,
+        "relative_frequency": 0.0,
         "rank": 0
       },
       {
         "year": 2026,
-        "count": 57,
+        "count": 50,
+        "relative_frequency": 0.004545,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "understanding",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      9,
+      14,
+      12,
+      12,
+      52,
+      1,
+      71
+    ],
+    "total": 171,
+    "points": [
+      {
+        "year": 2020,
+        "count": 9,
+        "relative_frequency": 0.000649,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 14,
+        "relative_frequency": 0.000897,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 12,
+        "relative_frequency": 0.000729,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 12,
+        "relative_frequency": 0.000473,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 52,
+        "relative_frequency": 0.001568,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 1,
+        "relative_frequency": 3.7e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 71,
+        "relative_frequency": 0.006455,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "planning",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      19,
+      24,
+      19,
+      33,
+      26,
+      0,
+      49
+    ],
+    "total": 170,
+    "points": [
+      {
+        "year": 2020,
+        "count": 19,
+        "relative_frequency": 0.001371,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 24,
+        "relative_frequency": 0.001537,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 19,
+        "relative_frequency": 0.001154,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 33,
+        "relative_frequency": 0.0013,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 26,
+        "relative_frequency": 0.000784,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 49,
+        "relative_frequency": 0.004455,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "neural network",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      24,
+      20,
+      18,
+      13,
+      29,
+      0,
+      61
+    ],
+    "total": 165,
+    "points": [
+      {
+        "year": 2020,
+        "count": 24,
+        "relative_frequency": 0.001731,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 20,
+        "relative_frequency": 0.001281,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 18,
+        "relative_frequency": 0.001093,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 13,
+        "relative_frequency": 0.000512,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 29,
+        "relative_frequency": 0.000874,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 61,
+        "relative_frequency": 0.005545,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "text",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      24,
+      11,
+      11,
+      21,
+      48,
+      2,
+      48
+    ],
+    "total": 165,
+    "points": [
+      {
+        "year": 2020,
+        "count": 24,
+        "relative_frequency": 0.001731,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 11,
+        "relative_frequency": 0.000704,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 11,
+        "relative_frequency": 0.000668,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 21,
+        "relative_frequency": 0.000827,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 48,
+        "relative_frequency": 0.001447,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 2,
+        "relative_frequency": 7.5e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 48,
+        "relative_frequency": 0.004364,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "scene",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      9,
+      7,
+      12,
+      14,
+      73,
+      1,
+      47
+    ],
+    "total": 163,
+    "points": [
+      {
+        "year": 2020,
+        "count": 9,
+        "relative_frequency": 0.000649,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 7,
+        "relative_frequency": 0.000448,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 12,
+        "relative_frequency": 0.000729,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 14,
+        "relative_frequency": 0.000551,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 73,
+        "relative_frequency": 0.002201,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 1,
+        "relative_frequency": 3.7e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 47,
+        "relative_frequency": 0.004273,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "navigation",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      16,
+      17,
+      20,
+      18,
+      36,
+      0,
+      52
+    ],
+    "total": 159,
+    "points": [
+      {
+        "year": 2020,
+        "count": 16,
+        "relative_frequency": 0.001154,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 17,
+        "relative_frequency": 0.001089,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 20,
+        "relative_frequency": 0.001215,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 18,
+        "relative_frequency": 0.000709,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 36,
+        "relative_frequency": 0.001085,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 52,
+        "relative_frequency": 0.004727,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "agents",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      1,
+      1,
+      4,
+      4,
+      6,
+      0,
+      142
+    ],
+    "total": 158,
+    "points": [
+      {
+        "year": 2020,
+        "count": 1,
+        "relative_frequency": 7.2e-05,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 1,
+        "relative_frequency": 6.4e-05,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 4,
+        "relative_frequency": 0.000243,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 4,
+        "relative_frequency": 0.000158,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 6,
+        "relative_frequency": 0.000181,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 142,
+        "relative_frequency": 0.012909,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "reconstruction",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      4,
+      6,
+      12,
+      8,
+      56,
+      2,
+      68
+    ],
+    "total": 156,
+    "points": [
+      {
+        "year": 2020,
+        "count": 4,
+        "relative_frequency": 0.000289,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 6,
+        "relative_frequency": 0.000384,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 12,
+        "relative_frequency": 0.000729,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 8,
+        "relative_frequency": 0.000315,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 56,
+        "relative_frequency": 0.001689,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 2,
+        "relative_frequency": 7.5e-05,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 68,
+        "relative_frequency": 0.006182,
         "rank": 0
       }
     ]
@@ -2666,55 +3047,62 @@
       2026
     ],
     "counts": [
-      5,
-      3,
-      3,
-      4,
-      17,
+      12,
+      18,
+      16,
+      14,
+      36,
       2,
       57
     ],
-    "total": 91,
+    "total": 155,
     "points": [
       {
         "year": 2020,
-        "count": 5,
+        "count": 12,
+        "relative_frequency": 0.000866,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 3,
+        "count": 18,
+        "relative_frequency": 0.001153,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 3,
+        "count": 16,
+        "relative_frequency": 0.000972,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 4,
+        "count": 14,
+        "relative_frequency": 0.000551,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 17,
+        "count": 36,
+        "relative_frequency": 0.001085,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 2,
+        "relative_frequency": 7.5e-05,
         "rank": 0
       },
       {
         "year": 2026,
         "count": 57,
+        "relative_frequency": 0.005182,
         "rank": 0
       }
     ]
   },
   {
-    "keyword": "synthesis",
+    "keyword": "vision",
     "years": [
       2020,
       2021,
@@ -2725,226 +3113,188 @@
       2026
     ],
     "counts": [
-      3,
-      1,
-      1,
-      1,
-      45,
-      2,
-      38
-    ],
-    "total": 91,
-    "points": [
-      {
-        "year": 2020,
-        "count": 3,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 45,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 38,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "benchmarking",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      2,
-      0,
-      0,
-      1,
+      4,
+      5,
+      4,
       11,
-      3,
-      73
+      61,
+      0,
+      70
     ],
-    "total": 90,
+    "total": 155,
     "points": [
       {
         "year": 2020,
-        "count": 2,
+        "count": 4,
+        "relative_frequency": 0.000289,
         "rank": 0
       },
       {
         "year": 2021,
-        "count": 0,
+        "count": 5,
+        "relative_frequency": 0.00032,
         "rank": 0
       },
       {
         "year": 2022,
-        "count": 0,
+        "count": 4,
+        "relative_frequency": 0.000243,
         "rank": 0
       },
       {
         "year": 2023,
-        "count": 1,
+        "count": 11,
+        "relative_frequency": 0.000433,
         "rank": 0
       },
       {
         "year": 2024,
-        "count": 11,
+        "count": 61,
+        "relative_frequency": 0.001839,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 70,
+        "relative_frequency": 0.006364,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "dynamic",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      19,
+      18,
+      12,
+      18,
+      40,
+      0,
+      46
+    ],
+    "total": 153,
+    "points": [
+      {
+        "year": 2020,
+        "count": 19,
+        "relative_frequency": 0.001371,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 18,
+        "relative_frequency": 0.001153,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 12,
+        "relative_frequency": 0.000729,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 18,
+        "relative_frequency": 0.000709,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 40,
+        "relative_frequency": 0.001206,
+        "rank": 0
+      },
+      {
+        "year": 2025,
+        "count": 0,
+        "relative_frequency": 0.0,
+        "rank": 0
+      },
+      {
+        "year": 2026,
+        "count": 46,
+        "relative_frequency": 0.004182,
+        "rank": 0
+      }
+    ]
+  },
+  {
+    "keyword": "generative",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "counts": [
+      4,
+      7,
+      3,
+      13,
+      39,
+      3,
+      79
+    ],
+    "total": 148,
+    "points": [
+      {
+        "year": 2020,
+        "count": 4,
+        "relative_frequency": 0.000289,
+        "rank": 0
+      },
+      {
+        "year": 2021,
+        "count": 7,
+        "relative_frequency": 0.000448,
+        "rank": 0
+      },
+      {
+        "year": 2022,
+        "count": 3,
+        "relative_frequency": 0.000182,
+        "rank": 0
+      },
+      {
+        "year": 2023,
+        "count": 13,
+        "relative_frequency": 0.000512,
+        "rank": 0
+      },
+      {
+        "year": 2024,
+        "count": 39,
+        "relative_frequency": 0.001176,
         "rank": 0
       },
       {
         "year": 2025,
         "count": 3,
+        "relative_frequency": 0.000112,
         "rank": 0
       },
       {
         "year": 2026,
-        "count": 73,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "reinforcement",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      1,
-      0,
-      2,
-      0,
-      2,
-      1,
-      84
-    ],
-    "total": 90,
-    "points": [
-      {
-        "year": 2020,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 2,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 1,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 84,
-        "rank": 0
-      }
-    ]
-  },
-  {
-    "keyword": "splatting",
-    "years": [
-      2020,
-      2021,
-      2022,
-      2023,
-      2024,
-      2025,
-      2026
-    ],
-    "counts": [
-      0,
-      0,
-      0,
-      0,
-      34,
-      0,
-      56
-    ],
-    "total": 90,
-    "points": [
-      {
-        "year": 2020,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2021,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2022,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2023,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2024,
-        "count": 34,
-        "rank": 0
-      },
-      {
-        "year": 2025,
-        "count": 0,
-        "rank": 0
-      },
-      {
-        "year": 2026,
-        "count": 56,
+        "count": 79,
+        "relative_frequency": 0.007182,
         "rank": 0
       }
     ]
