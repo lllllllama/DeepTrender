@@ -15,6 +15,16 @@ Live site: https://lllllllama.github.io/DeepTrender/
 
 Built by [Chengkun Rao (饶承坤)](https://lllllllama.github.io/ai-full-stack/).
 
+## Try it in a minute
+
+Open [arXiv Trends](https://lllllllama.github.io/DeepTrender/arxiv.html), leave the
+category set to all, and select **Week** to view paper counts and top keywords.
+
+To query local data, follow [Local Development](#local-development), start Flask
+with `python src/web/app.py`, and run
+`curl http://localhost:5000/api/stats/overview` in another terminal. The public
+dashboard uses exported JSON, and the Flask API and MCP server can run locally.
+
 ## Highlights
 
 | Capability | What is included |
