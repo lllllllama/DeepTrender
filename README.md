@@ -13,6 +13,8 @@ a static dashboard that runs directly on GitHub Pages.
 
 Live site: https://lllllllama.github.io/DeepTrender/
 
+Built by [Chengkun Rao (饶承坤)](https://lllllllama.github.io/ai-full-stack/).
+
 ## Highlights
 
 | Capability | What is included |
